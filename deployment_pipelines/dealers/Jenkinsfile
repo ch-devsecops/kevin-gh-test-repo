@@ -1,0 +1,455 @@
+def pipelineLib = null
+def warList = ""
+def appList = "\n"
+
+pipeline {
+    agent {
+        label 'Linux_Slave_3'
+    }
+    environment {
+        BRANCH_TO_RUN           = 'master'
+        PACKAGE_DIR             = "${env.WORKSPACE}/${env.BUILD_NUMBER}"
+        DEPLOYMENT_LIST_FILE    = "deploymentList.yml"
+        DEPLOYMENT_SERVICE_ACCT = 'juser'
+        NEXUS_URL               = 'https://nexus.honda.ca:8443'
+        NEXUS_REPO              = 'honda-artifacts-release'
+        NEXUS_REPO_PROD         = 'honda-artifacts-production'
+        NEXUS_USER              = 'mvn-deploy'
+        NEXUS_KEY               = 'iMuxRFCA45LY3pT4KE7APwOehgJ4sKE-eUvnYG1zsSgW'
+        NEXUS_GROUP             = 'ca/honda/apps/dealers'
+        TEMP_WORK_FOLDER        = 'TEMP_WORK_FOLDER'
+
+        QA_JOBSS_1               = '10.2.222.180'
+        PROD_JOBSS_1             = '10.2.222.191'
+
+        BUILD_NUM               = "${env.BUILD_NUMBER}"
+        TARGET_ENV              = "${env.DEPLOY_ENV}"
+        DRYRUN                  = "${env.DRY_RUN}"
+        DEPLOY_APPROVER_EMAIL   = 'udaykumar_vellala@ch.honda.com,kevin_lou@ch.honda.com'
+        DEPLOY_NOTIFY_EMAIL     = 'udaykumar_vellala@ch.honda.com,kevin_lou@ch.honda.com'
+
+        //DEPLOY_APPROVER_EMAIL   = 'kevin_lou@ch.honda.com'
+        //DEPLOY_NOTIFY_EMAIL     = 'kevin_lou@ch.honda.com'
+
+        JENKINS_EMAIL           = 'devops@ch.honda.com'
+
+        PACKAGE_DESTINATION     = '/apps/jboss-eap-7.0/honda/deployment/scripts/'
+        //PACKAGE_DESTINATION     = '/tmp'
+        DEPLOYMENT_SCRIPT_ROOT  = '/apps/jboss-eap-7.0/honda/deployment/scripts/'
+        HCFI_INSTALL_SCRIPT     = '/apps/jboss-eap-7.0/honda/deployment/scripts/JBossDeploy.sh'
+        JKS_MASTER_IP           = '10.10.221.33'
+        HCFI_BUILD_INFO_SHEET   = '/JKS/cjtws/.ProdDeploymentHistory/hcfi_build_info_sheet'
+
+    }
+    stages {
+        stage('Authenticate the deployment') {
+            steps {
+                script {
+                    pipelineLib = load "${WORKSPACE}/vars/libs.groovy"   
+                    runDeploy = true
+                    jobBaseName = pipelineLib.getJobName(JOB_NAME)
+                    if (runDeploy)  {
+                        pipelineLib.authenticateDeployment()
+                    }
+                }
+            }
+        }
+
+        stage('Get application list') {
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {                        
+                        deleteDir() //clean up temp folder
+                        generateDeploymentFile()
+                        deploymentInstructions = readYaml file: DEPLOYMENT_LIST_FILE
+                        deploymentInstructions.application.each {
+                            appList = appList + "  - ${it.name}   \n"
+                            warList = warList + " ${it.name}.${it.fileType} "
+                        }                        
+                        warList = warList.replace("\n", ""); 
+                        warList = HCFI_INSTALL_SCRIPT + warList; 
+                    }
+                }
+            }
+        }
+
+        stage('Download application from Nexus ') {
+           when { 
+               expression { return runDeploy }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        sh "chmod +x ${WORKSPACE}/miscellaneous/my_curl.sh" 
+                        deploymentInstructions.application.each {
+                            sh "${WORKSPACE}/miscellaneous/my_curl.sh download ${PACKAGE_DIR}/${it.name}.${it.fileType} ${it.artifactURL}"
+                        }      
+                        displayName = BUILD_NUM + '-' + deploymentInstructions.environment  
+                        currentBuild.displayName = BUILD_NUM + '-' + deploymentInstructions.environment
+                        currentBuild.description = "Application(s) deployed: " + appList
+                    }               
+                }
+            }
+        }
+
+        stage('Deployment approval') {
+           when { 
+               expression { return runDeploy }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) { 
+                        approvalMsg = "The following application(s) will be deployed to " + TARGET_ENV +  appList                      
+                        pipelineLib.sendDeploymentApprovalEmail(DEPLOY_APPROVER_EMAIL, JENKINS_EMAIL, jobBaseName, BUILD_NUM)
+                        timeout(time: 60, unit: 'MINUTES') {
+                            input(id: "Deploy Approval", message: approvalMsg, ok: 'Deploy')
+                        }
+                    }
+                }
+            }
+        }
+
+
+        stage('Prepare Deployment') {
+           when { 
+               expression { return true }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        backUpDir = pipelineLib.backUpDirectoryName(jobBaseName)
+                        backUpDir = "${PACKAGE_DESTINATION}/${backUpDir}"
+                        sh "echo \"cd ${PACKAGE_DESTINATION}\" > backup.command.txt"
+                        sh "echo \"mkdir -p ${backUpDir}\" >> backup.command.txt"
+                        
+                        deploymentInstructions.application.each {                    
+                            sh "echo \"cp ${PACKAGE_DESTINATION}/${it.name}.${it.fileType} ${backUpDir}  \" >> backup.command.txt"      
+                        }
+                        sh "cp backup.command.txt ${PACKAGE_DIR}"                        
+                        sh "echo \"cd ${DEPLOYMENT_SCRIPT_ROOT}\" > install.command.txt"
+                        sh '''
+                            echo "cd ${DEPLOYMENT_SCRIPT_ROOT}" >> install.command.txt
+                            echo "'''+warList+'''" >> install.command.txt
+                            '''
+                        sh "cp install.command.txt ${PACKAGE_DIR}"
+                    }
+                }
+            }
+        }
+
+        stage('Send artifacts to the QA') {
+           when { 
+               expression { 
+                   return runDeploy &&  deploymentInstructions.environment == "qa" 
+                }     
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {  
+                        sh "ssh ${DEPLOYMENT_SERVICE_ACCT}@${QA_JOBSS_1} < backup.command.txt "
+                        deploymentInstructions.application.each {                            
+                            echo "Sending ${PACKAGE_DIR}/${it.name}.${it.fileType} to ${QA_JOBSS_1}"
+                            sh "scp ${PACKAGE_DIR}/${it.name}.${it.fileType} ${DEPLOYMENT_SERVICE_ACCT}@${QA_JOBSS_1}:${PACKAGE_DESTINATION}"
+                        }
+                    }
+                }
+            }
+        }
+
+
+        stage('Send artifacts to the PROD') {
+           when { 
+               expression { return runDeploy &&  deploymentInstructions.environment == "prod"  }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {    
+                        sh "ssh ${DEPLOYMENT_SERVICE_ACCT}@${PROD_JOBSS_1} < backup.command.txt "
+                        deploymentInstructions.application.each {                            
+                            echo "Sending ${PACKAGE_DIR}/${it.name}.${it.fileType} to ${PROD_JOBSS_1}"
+                            sh "scp ${PACKAGE_DIR}/${it.name}.${it.fileType} ${DEPLOYMENT_SERVICE_ACCT}@${PROD_JOBSS_1}:${PACKAGE_DESTINATION}"
+                            sh "cp  ${PACKAGE_DIR}/${it.name}.${it.fileType}  /JKS/prod-artifacts/"
+                        }
+                    }
+                }
+            }
+        }
+
+        stage('Install in QA') {
+           when { 
+               expression { return runDeploy &&  deploymentInstructions.environment == "qa" }     
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        sh  "ssh ${DEPLOYMENT_SERVICE_ACCT}@${QA_JOBSS_1} < install.command.txt "
+                    }
+                }
+            }
+        }
+
+        stage('Install in PROD') {
+           when { 
+               expression { return runDeploy &&  deploymentInstructions.environment == "prod" }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        sh "ssh ${DEPLOYMENT_SERVICE_ACCT}@${PROD_JOBSS_1} < install.command.txt "
+                        deploymentInstructions.application.each {
+                            sh "${WORKSPACE}/miscellaneous/my_curl.sh upload ${PACKAGE_DIR}/${it.name}.${it.fileType} ${it.artifactURLPROD}"
+                        }      
+                    }
+                }
+            }
+        }
+        stage('PROD deployment SOX report') {
+           when { 
+               expression { return runDeploy && deploymentInstructions.environment == "prod"  }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        //sh " scp cloudbees-jenkins-distribution@${JKS_MASTER_IP}:${HCFI_BUILD_INFO_SHEET} ."
+                        //pipelineLib.recordProdDeployInfo(DEPLOYMENT_LIST_FILE, jobBaseName, BUILD_NUM)
+                        //sh "scp hcfi_build_info_sheet cloudbees-jenkins-distribution@${JKS_MASTER_IP}:${HCFI_BUILD_INFO_SHEET}"
+                        echo "skip for now"
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    post {
+        always {
+            script {
+                dir(TEMP_WORK_FOLDER) {
+                    archiveArtifacts allowEmptyArchive: true, artifacts: "deploymentList.yml"
+                    if (runDeploy) {
+                        pipelineLib.sendBuildReportEmail(DEPLOY_NOTIFY_EMAIL,JENKINS_EMAIL)
+                    }               
+                    echo "Sending email"
+                }
+                // deleteDir()
+                echo "Post deployment "
+            }
+        }
+    }
+}
+
+def generateDeploymentFile(){
+sh '''
+    pwd
+    
+    mkdir -p ${WORKSPACE}/${BUILD_NUMBER}
+    cd ${WORKSPACE}/${BUILD_NUMBER}
+    echo "Generating ${DEPLOYMENT_LIST_FILE}"
+
+    echo "# deployment list" > ${DEPLOYMENT_LIST_FILE}
+    echo "environment: ${DEPLOY_ENV} " >> ${DEPLOYMENT_LIST_FILE}
+    echo "deployer: ${BUILD_USER} " >> ${DEPLOYMENT_LIST_FILE}
+    echo "jenkinsJobNumber: ${BUILD_NUMBER} " >> ${DEPLOYMENT_LIST_FILE}
+    echo "application: " >> ${DEPLOYMENT_LIST_FILE}
+
+	if [ ${LogisticsRestData} = "true" ]; then
+        echo "  - name: logistics-rest-data" >> ${DEPLOYMENT_LIST_FILE}        
+        echo "    fileType: war" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: '${LogisticsRestData_version}'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'Logistics-Pipeline-SIT'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/logistics-rest-data/${LogisticsRestData_version}/logistics-rest-data-${LogisticsRestData_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP}/logistics-rest-data/${LogisticsRestData_version}/logistics-rest-data-${LogisticsRestData_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${LogisticsBusiness} = "true" ]; then
+        echo "  - name: logistics-business" >> ${DEPLOYMENT_LIST_FILE}        
+        echo "    fileType: war" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: '${LogisticsBusiness_version}'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'Logistics-Pipeline-SIT'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/logistics-business/${LogisticsBusiness_version}/logistics-business-${LogisticsBusiness_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP}/logistics-business/${LogisticsBusiness_version}/logistics-business-${LogisticsBusiness_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${LogisticsWeb} = "true" ]; then
+        echo "  - name: logistics-web" >> ${DEPLOYMENT_LIST_FILE}        
+        echo "    fileType: war" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: '${LogisticsWeb_version}'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'Logistics-Pipeline-SIT'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/logistics-web/${LogisticsWeb_version}/logistics-web-${LogisticsWeb_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP}/logistics-web/${LogisticsWeb_version}/logistics-web-${LogisticsWeb_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${LgstTruckApi} = "true" ]; then
+        echo "  - name: lgst-truck-api" >> ${DEPLOYMENT_LIST_FILE}        
+        echo "    fileType: war" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: '${LgstTruckApi_version}'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'Logistics-Pipeline-SIT'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/lgst-truck-api/${LgstTruckApi_version}/lgst-truck-api-${LgstTruckApi_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP}/lgst-truck-api/${LgstTruckApi_version}/lgst-truck-api-${LgstTruckApi_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+
+	if [ ${RvcRestData} = "true" ]; then
+        echo "  - name: rvc-rest-data" >> ${DEPLOYMENT_LIST_FILE}        
+        echo "    fileType: war" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: '${RvcRestData_version}'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'Recall-SIT_Develop '" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/rvc-rest-data/${RvcRestData_version}/rvc-rest-data-${RvcRestData_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP}/rvc-rest-data/${RvcRestData_version}/rvc-rest-data-${RvcRestData_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${RvcWeb} = "true" ]; then
+        echo "  - name: rvc-web" >> ${DEPLOYMENT_LIST_FILE}        
+        echo "    fileType: war" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: '${RvcWeb_version}'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'Recall-SIT_Develop '" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/rvc-web/${RvcWeb_version}/rvc-web-${RvcWeb_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP}/rvc-web/${RvcWeb_version}/rvc-web-${RvcWeb_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${RvcBusiness} = "true" ]; then
+        echo "  - name: rvc-business" >> ${DEPLOYMENT_LIST_FILE}        
+        echo "    fileType: war" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: '${RvcBusiness_version}'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'Recall-SIT_Develop '" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/rvc-business/${RvcBusiness_version}/rvc-business-${RvcBusiness_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP}/rvc-business/${RvcBusiness_version}/rvc-business-${RvcBusiness_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+
+	if [ ${ServicecampaignData} = "true" ]; then
+        echo "  - name: servicecampaign-data" >> ${DEPLOYMENT_LIST_FILE}        
+        echo "    fileType: war" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: '${ServicecampaignData_version}'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: ' ServiceCampaign_NewSIT'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/servicecampaign-data/${ServicecampaignData_version}/servicecampaign-data-${ServicecampaignData_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP}/servicecampaign-data/${ServicecampaignData_version}/servicecampaign-data-${ServicecampaignData_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${ServicecampaignWeb} = "true" ]; then
+        echo "  - name: servicecampaign-web" >> ${DEPLOYMENT_LIST_FILE}        
+        echo "    fileType: war" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: '${ServicecampaignWeb_version}'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: ' ServiceCampaign_NewSIT'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/servicecampaign-web/${ServicecampaignWeb_version}/servicecampaign-web-${ServicecampaignWeb_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP}/servicecampaign-web/${ServicecampaignWeb_version}/servicecampaign-web-${ServicecampaignWeb_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${ServicecampaignBusiness} = "true" ]; then
+        echo "  - name: servicecampaign-business" >> ${DEPLOYMENT_LIST_FILE}        
+        echo "    fileType: war" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: '${ServicecampaignBusiness_version}'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: ' ServiceCampaign_NewSIT'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/servicecampaign-business/${ServicecampaignBusiness_version}/servicecampaign-business-${ServicecampaignBusiness_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP}/servicecampaign-business/${ServicecampaignBusiness_version}/servicecampaign-business-${ServicecampaignBusiness_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+
+	if [ ${AS} = "true" ]; then
+        echo "  - name: as" >> ${DEPLOYMENT_LIST_FILE}        
+        echo "    fileType: war" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: '${AS_version}'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'MP_BUILD_SIT'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/as/${AS_version}/as-${AS_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP}/as/${AS_version}/as-${AS_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${CVR} = "true" ]; then
+        echo "  - name: cvr" >> ${DEPLOYMENT_LIST_FILE}        
+        echo "    fileType: war" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: '${CVR_version}'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'MP_BUILD_SIT'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/cvr/${CVR_version}/cvr-${CVR_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP}/cvr/${CVR_version}/cvr-${CVR_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${RdoServices} = "true" ]; then
+        echo "  - name: rdoservices" >> ${DEPLOYMENT_LIST_FILE}        
+        echo "    fileType: war" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: '${RdoServices_version}'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'MP_BUILD_SIT'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/rdoservices/${RdoServices_version}/rdoservices-${RdoServices_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP}/rdoservices/${RdoServices_version}/rdoservices-${RdoServices_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${MarketPlace} = "true" ]; then
+        echo "  - name: marketplace" >> ${DEPLOYMENT_LIST_FILE}        
+        echo "    fileType: war" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: '${MarketPlace_version}'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'MP_BUILD_SIT'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/marketplace/${MarketPlace_version}/marketplace-${MarketPlace_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP}/marketplace/${MarketPlace_version}/marketplace-${MarketPlace_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${AA} = "true" ]; then
+        echo "  - name: aa" >> ${DEPLOYMENT_LIST_FILE}        
+        echo "    fileType: war" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: '${AA_version}'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'MP_BUILD_SIT'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/aa/${AA_version}/aa-${AA_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP}/aa/${AA_version}/aa-${AA_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${OR} = "true" ]; then
+        echo "  - name: or" >> ${DEPLOYMENT_LIST_FILE}        
+        echo "    fileType: war" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: '${OR_version}'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'MP_BUILD_SIT'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/or/${OR_version}/or-${OR_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP}/or/${OR_version}/or-${OR_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${WorkflowManagement} = "true" ]; then
+        echo "  - name: workflowManagement" >> ${DEPLOYMENT_LIST_FILE}        
+        echo "    fileType: war" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: '${WorkflowManagement_version}'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'MP_BUILD_SIT'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/workflowManagement/${WorkflowManagement_version}/workflowManagement-${WorkflowManagement_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP}/workflowManagement/${WorkflowManagement_version}/workflowManagement-${WorkflowManagement_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${SO} = "true" ]; then
+        echo "  - name: so" >> ${DEPLOYMENT_LIST_FILE}        
+        echo "    fileType: war" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: '${SO_version}'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'MP_BUILD_SIT'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/so/${SO_version}/so-${SO_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP}/so/${SO_version}/so-${SO_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${XmlMarshaller} = "true" ]; then
+        echo "  - name: xmlMarshaller" >> ${DEPLOYMENT_LIST_FILE}        
+        echo "    fileType: war" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: '${XmlMarshaller_version}'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'MP_BUILD_SIT'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/xmlMarshaller/${XmlMarshaller_version}/xmlMarshaller-${XmlMarshaller_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP}/xmlMarshaller/${XmlMarshaller_version}/xmlMarshaller-${XmlMarshaller_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${MFDS} = "true" ]; then
+        echo "  - name: mfds" >> ${DEPLOYMENT_LIST_FILE}        
+        echo "    fileType: war" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: '${MFDS_version}'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'MP_BUILD_SIT'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/mfds/${MFDS_version}/mfds-${MFDS_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP}/mfds/${MFDS_version}/mfds-${MFDS_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${VRServices} = "true" ]; then
+        echo "  - name: vrservices" >> ${DEPLOYMENT_LIST_FILE}        
+        echo "    fileType: war" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: '${VRServices_version}'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'MP_BUILD_SIT'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/vrservices/${VRServices_version}/vrservices-${VRServices_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP}/vrservices/${VRServices_version}/vrservices-${VRServices_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${BatchService} = "true" ]; then
+        echo "  - name: batchservice" >> ${DEPLOYMENT_LIST_FILE}        
+        echo "    fileType: war" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: '${BatchService_version}'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'MP_BUILD_SIT'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/batchservice/${BatchService_version}/batchservice-${BatchService_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP}/batchservice/${BatchService_version}/batchservice-${BatchService_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${EMetricsServices} = "true" ]; then
+        echo "  - name: emetricsservices" >> ${DEPLOYMENT_LIST_FILE}        
+        echo "    fileType: war" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: '${EMetricsServices_version}'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'MP_BUILD_SIT'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/emetricsservices/${EMetricsServices_version}/emetricsservices-${EMetricsServices_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP}/emetricsservices/${EMetricsServices_version}/emetricsservices-${EMetricsServices_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${AM} = "true" ]; then
+        echo "  - name: am" >> ${DEPLOYMENT_LIST_FILE}        
+        echo "    fileType: war" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: '${AM_version}'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'MP_BUILD_SIT'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/am/${AM_version}/am-${AM_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP}/am/${AM_version}/am-${AM_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+
+   cp  ${DEPLOYMENT_LIST_FILE} ${WORKSPACE}/TEMP_WORK_FOLDER 
+'''
+}
+

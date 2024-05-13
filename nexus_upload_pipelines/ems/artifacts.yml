@@ -1,0 +1,40 @@
+applicationGroup: EMS
+buildJobRootDir: /JKHome/Jenkins_Home/jobs/LegacyJenkins/jobs/EMS/jobs/EMS-Pipelines/jobs
+application: 
+  - name: ems-admin-service
+    artifact:
+      - buildArtifactName: ems-admin-service
+        buildArtifactType: war
+  - name: ems-dashboard-service
+    artifact:
+      - buildArtifactName: ems-dashboard-service
+        buildArtifactType: war
+  - name: ems-event-service
+    artifact:
+      - buildArtifactName: ems-event-service
+        buildArtifactType: war
+  - name: ems-event-service
+    artifact:
+      - buildArtifactName: ems-event-service
+        buildArtifactType: war
+  - name: ems-midtronics-service
+    artifact:
+      - buildArtifactName: ems-midtronics-service
+        buildArtifactType: war
+  - name: ems-tablet-service
+    artifact:
+      - buildArtifactName: ems-tablet-service
+        buildArtifactType: war
+  - name: ems-ui-app
+    artifact:
+      - buildArtifactName: ems-ui-app
+        buildArtifactType: war
+  - name: ems-vin-consumer-service
+    artifact:
+      - buildArtifactName: ems-vin-consumer-service
+        buildArtifactType: war
+  - name: ems-vin-producer-service
+    artifact:
+      - buildArtifactName: ems-vin-producer-service
+        buildArtifactType: war
+

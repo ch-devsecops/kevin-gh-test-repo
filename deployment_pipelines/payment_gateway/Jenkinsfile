@@ -1,0 +1,251 @@
+def pipelineLib = null
+
+pipeline {
+    agent {
+        label 'Linux_Slave_2'
+    }
+    environment {
+        QA_WAS_NODE_1           = '10.10.121.65'
+        // QA_WAS_NODE_2           = '10.10.121.66'
+        PROD_WAS_NODE_1         = '10.10.121.67'
+        // PROD_WAS_NODE_2         = '10.10.121.68'
+        DEPLOY_USER             = 'wasadmin'
+        PACKAGE_DIR             = "${env.WORKSPACE}/${env.BUILD_NUMBER}"
+        PACKAGE_DESTINATION     = '/opt/IBM/WebSphere/honda/build/payment-gateway/'
+        // PACKAGE_DESTINATION     = '/tmp'
+        DEPLOYMENT_ROOT         = '/opt/IBM/WebSphere/honda/deploy'
+        NEXUS_GROUP             = 'ca/honda/apps/payment-gateway-web'
+        NEXUS_URL               = 'https://nexus.honda.ca:8443'
+        NEXUS_REPO              = 'honda-artifacts-release'
+        NEXUS_REPO_PROD         = 'honda-artifacts-production'
+        JOB_NAME                = "${env.JOB_NAME}"
+        BUILD_NUM               = "${env.BUILD_NUMBER}"
+        TARGET_ENV              = "${env.DEPLOY_ENV}"
+        DRYRUN                  = "${env.DRY_RUN}"
+        //DEPLOY_APPROVER_EMAIL   = 'udaykumar_vellala@ch.honda.com,kevin_lou@ch.honda.com'
+       //DEPLOY_NOTIFY_EMAIL     = 'udaykumar_vellala@ch.honda.com,kevin_lou@ch.honda.com'
+
+        DEPLOY_APPROVER_EMAIL   = 'kevin_lou@ch.honda.com'
+        DEPLOY_NOTIFY_EMAIL     = 'kevin_lou@ch.honda.com'
+        JENKINS_EMAIL           = 'devops@ch.honda.com'
+        DEPLOYMENT_LIST_FILE    = "deploymentList.yml"
+    }
+
+    stages {
+        stage('Authenticate the deployment') {
+            steps {
+                script {
+                    pipelineLib = load "${WORKSPACE}/vars/libs.groovy" 
+                    jobBaseName = pipelineLib.getJobName(JOB_NAME)
+                    runDeploy = true
+                    if (runDeploy) {
+                        echo "Checking password"
+                        pipelineLib.authenticateDeployment()
+
+                    }                    
+                }
+            }
+        }
+        stage('Get application list') {
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {                        
+                        deleteDir() //clean up temp folder
+                        generateDeploymentFile()
+                        deploymentInstructions = readYaml file: DEPLOYMENT_LIST_FILE
+                        appList = "\n"
+                        deploymentInstructions.application.each {
+                            appList = appList + "  - ${it.name}   \n"
+                        }
+                    }
+                }
+            }
+        }
+
+        stage('Download application from Nexus ') {
+           when { 
+               expression { return runDeploy }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        sh "chmod +x ${WORKSPACE}/miscellaneous/my_curl.sh" 
+                        deploymentInstructions.application.each {
+                            sh "${WORKSPACE}/miscellaneous/my_curl.sh download  ${PACKAGE_DIR}/${it.name}.ear ${it.artifactURL}"
+                        }
+                        displayName = BUILD_NUM + '-' + deploymentInstructions.environment  
+                        currentBuild.displayName = BUILD_NUM + '-' + deploymentInstructions.environment
+                        currentBuild.description = "Application(s) deployed: " + appList
+                    }
+                }
+            }
+        }
+
+        stage('Deployment approval') {
+           when { 
+               expression { return runDeploy }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {						
+                        approvalMsg = "The following application(s) will be deployed to " + TARGET_ENV +  appList                        
+                        pipelineLib.sendDeploymentApprovalEmail(DEPLOY_APPROVER_EMAIL, JENKINS_EMAIL, jobBaseName, BUILD_NUM)
+                        timeout(time: 60, unit: 'MINUTES') {
+                            input(id: "Deploy Approval", message: approvalMsg, ok: 'Deploy')
+                        }
+                    }
+                }
+            }
+        }
+
+        stage('Prepare Deployment') {
+           when { 
+               expression { return true }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        sh "echo \"cd ${PACKAGE_DESTINATION}\" > backup.command.txt"
+                        sh "echo \"mkdir -p backup_PaymentGateway_auto_deployment_${BUILD_NUM}\" >> backup.command.txt"
+                        
+                        deploymentInstructions.application.each {                    
+                            sh "echo \"cd ${PACKAGE_DESTINATION}\" >> backup.command.txt"
+                            sh "echo \"cp ${it.name}.ear backup_PaymentGateway_auto_deployment_${BUILD_NUM}\" >> backup.command.txt"      
+                        }
+                        sh "cp backup.command.txt ${PACKAGE_DIR}"
+                        
+                        sh "echo \"cd ${DEPLOYMENT_ROOT}\" > install.command.txt"
+                        deploymentInstructions.application.each {
+                            sh "echo \"cd ${DEPLOYMENT_ROOT}\" >> install.command.txt"
+                            sh "echo \"ls -al /opt/IBM/WebSphere/honda/deploy/deployPSG.sh \" >> install.command.txt" 
+                            sh "echo \"/opt/IBM/WebSphere/honda/deploy/deployPSG.sh  \" >> install.command.txt" 
+                        }  
+                        sh "cp install.command.txt ${PACKAGE_DIR}"
+                    }
+                }
+            }
+        }
+
+        stage('Send artifacts to the QA') {
+           when { 
+               expression { 
+                   return runDeploy &&  deploymentInstructions.environment == "qa" 
+                }     
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {  
+                        sh "ssh ${DEPLOY_USER}@${QA_WAS_NODE_1} < backup.command.txt "
+                        deploymentInstructions.application.each {                            
+                            echo "Sending ${PACKAGE_DIR}/${it.name}.ear to ${QA_WAS_NODE_1}"
+                            sh "scp ${PACKAGE_DIR}/${it.name}.ear ${DEPLOY_USER}@${QA_WAS_NODE_1}:${PACKAGE_DESTINATION}"
+                        }
+                    }
+                }
+            }
+        }
+
+        stage('Send artifacts to the PROD') {
+           when { 
+               expression { return runDeploy &&  deploymentInstructions.environment == "prod"}   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {    
+                        sh "ssh ${DEPLOY_USER}@${PROD_WAS_NODE_1} < backup.command.txt "
+                        deploymentInstructions.application.each {                            
+                            echo "Sending ${PACKAGE_DIR}/${it.name}.ear to ${PROD_WAS_NODE_1}"
+                            sh "scp ${PACKAGE_DIR}/${it.name}.ear ${DEPLOY_USER}@${PROD_WAS_NODE_1}:${PACKAGE_DESTINATION}"
+                            sh "cp  ${PACKAGE_DIR}/${it.name}.ear /JKS/prod-artifacts/"
+                        }
+                    }
+                }
+            }
+        }
+
+        stage('Install in QA') {
+           when { 
+               expression { return runDeploy &&  deploymentInstructions.environment == "qa" }     
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        sh "ssh ${DEPLOY_USER}@${QA_WAS_NODE_1} < install.command.txt "
+                    }
+                }
+            }
+        }
+
+        stage('Install in PROD') {
+           when { 
+               expression { return runDeploy &&  deploymentInstructions.environment == "prod" }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        sh "ssh ${DEPLOY_USER}@${PROD_WAS_NODE_1} < install.command.txt "
+                        deploymentInstructions.application.each {
+                            sh "${WORKSPACE}/miscellaneous/my_curl.sh upload  ${PACKAGE_DIR}/${it.name}.ear ${it.artifactURLPROD}"
+                        }
+                    }
+                }
+            }
+        }
+
+        stage('PROD deployment SOX report') {
+           when { 
+               expression { deploymentInstructions.environment == "prod" && false }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        sh " scp cloudbees-jenkins-distribution@${JKS_MASTER_IP}:${HCFI_BUILD_INFO_SHEET} ."
+                        pipelineLib.recordProdDeployInfo(DEPLOYMENT_LIST_FILE, jobBaseName, BUILD_NUM)
+                        sh "scp hcfi_build_info_sheet cloudbees-jenkins-distribution@${JKS_MASTER_IP}:${HCFI_BUILD_INFO_SHEET}"
+                    }
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            script {
+                dir(TEMP_WORK_FOLDER) {
+                    archiveArtifacts allowEmptyArchive: true, artifacts: "deploymentList.yml"
+                    if (runDeploy) {
+                        pipelineLib.sendBuildReportEmail(DEPLOY_NOTIFY_EMAIL,JENKINS_EMAIL)
+                    }               
+                    echo "Sending email"
+                }
+                // deleteDir()
+            }
+        }
+    }
+}
+
+def generateDeploymentFile(){
+sh '''
+    pwd
+    mkdir -p ${WORKSPACE}/${BUILD_NUMBER}
+    cd ${WORKSPACE}/${BUILD_NUMBER}
+    echo "Generating ${DEPLOYMENT_LIST_FILE}"
+
+    echo "# deployment list" > ${DEPLOYMENT_LIST_FILE}
+    echo "environment: ${DEPLOY_ENV} " >> ${DEPLOYMENT_LIST_FILE}
+    echo "deploymentServiceAcct: ${DEPLOYMENT_SERVICE_ACCT} " >> ${DEPLOYMENT_LIST_FILE}    
+    echo "deployer: ${BUILD_USER} " >> ${DEPLOYMENT_LIST_FILE}
+    echo "jenkinsJobNumber: ${BUILD_NUMBER} " >> ${DEPLOYMENT_LIST_FILE}
+    echo "application: " >> ${DEPLOYMENT_LIST_FILE}
+
+    echo "  - name: payment-gateway" >> ${DEPLOYMENT_LIST_FILE}
+    echo "    scriptName: deployPSG" >> ${DEPLOYMENT_LIST_FILE}
+    echo "    clusterName: CSToolCluster" >> ${DEPLOYMENT_LIST_FILE}
+    echo "    version: ${PaymentGateway_version}" >> ${DEPLOYMENT_LIST_FILE}
+    echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/payment-gateway/${PaymentGateway_version}/payment-gateway-${PaymentGateway_version}.ear " >> ${DEPLOYMENT_LIST_FILE}    
+    echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP}/payment-gateway/${PaymentGateway_version}/payment-gateway-${PaymentGateway_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+
+    cp  ${DEPLOYMENT_LIST_FILE} ${WORKSPACE}/TEMP_WORK_FOLDER 
+'''
+}
+

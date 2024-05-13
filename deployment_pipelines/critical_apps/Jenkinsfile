@@ -1,0 +1,601 @@
+def pipelineLib = null
+def warList = ""
+def appList = "\n"
+def deployToJBoss = false
+def deployToWAS   = false
+def deployToCommonZone   = false
+pipeline {
+    agent {
+        label 'Linux_Slave_2'
+    }
+    environment {
+        BRANCH_TO_RUN           = 'master'
+        PACKAGE_DIR             = "${env.WORKSPACE}/${env.BUILD_NUMBER}"
+        DEPLOYMENT_LIST_FILE    = "deploymentList.yml"
+        TEMP_WORK_FOLDER        = 'TEMP_WORK_FOLDER'
+        NEXUS_URL               = 'https://nexus.honda.ca:8443'
+        NEXUS_REPO              = 'honda-artifacts-release'
+        NEXUS_REPO_PROD         = 'honda-artifacts-production'
+        NEXUS_GROUP             = 'ca/honda/apps/hcfi'
+        NEXUS_PROD_REPO         = 'honda-artifacts-production'
+        // JBoss Servers
+        QA_JOBSS_1               = '10.2.222.180'
+        PROD_JOBSS_1             = '10.2.222.191'
+        //JBoss environemnt
+        PACKAGE_DESTINATION_JBOSS     = '/apps/jboss-eap-7.0/honda/deployment/scripts'
+        DEPLOYMENT_SCRIPT_ROOT_JBOSS  = '/apps/jboss-eap-7.0/honda/deployment/scripts'
+        HCFI_INSTALL_SCRIPT_JBOSS     = '/apps/jboss-eap-7.0/honda/deployment/scripts/JBossDeploy.sh'
+        DEPLOYMENT_SERVICE_ACCT = 'juser'
+
+        // WAS Servers
+        QA_WAS_IP               = '10.10.91.80'
+        QA_WAS_NODE_1           = '10.10.91.50'
+        QA_WAS_NODE_2           = '10.10.91.52'
+        PROD_WAS_IP             = '10.10.81.80'
+        PROD_WAS_NODE_1         = '10.10.81.50'
+        PROD_WAS_NODE_2         = '10.10.81.52'
+        //WAS environment
+        PACKAGE_DESTINATION_WAS     = '/opt/IBM/WebSphere/honda/build'
+        DEPLOYMENT_ROOT_WAS         = '/opt/IBM/WebSphere/honda/build/install/jython/deployment'
+        DEPLOYMENT_SERVICE_ACCT_WAS = 'root'
+
+        //CommonZone Servers
+        QA_CommonZone_IP               = '10.2.222.207'
+        QA_CommonZone_NODE_1           = '10.2.222.154'
+        QA_CommonZone_NODE_2           = '10.2.222.155'
+        PROD_CommonZone_IP             = '10.2.222.210'
+        PROD_CommonZone_NODE_1         = '10.2.222.134'
+        PROD_CommonZone_NODE_2         = '10.2.222.135'
+        //CommonZone environment
+        PACKAGE_DESTINATION_CommonZone    = '/opt/IBM/WebSphere/honda/build/ears'
+        DEPLOYMENT_ROOT_CommonZone        = '/opt/IBM/WebSphere/honda/build/install/jython/deployment'
+
+        JOB_NAME                = "${env.JOB_NAME}"
+
+        BUILD_NUM               = "${env.BUILD_NUMBER}"
+        TARGET_ENV              = "${env.DEPLOY_ENV}"
+        DEPLOY_APPROVER_EMAIL   = 'udaykumar_vellala@ch.honda.com,kevin_lou@ch.honda.com'
+        DEPLOY_NOTIFY_EMAIL     = 'udaykumar_vellala@ch.honda.com,kevin_lou@ch.honda.com'
+
+        //DEPLOY_APPROVER_EMAIL   = 'kevin_lou@ch.honda.com'
+        //DEPLOY_NOTIFY_EMAIL     = 'kevin_lou@ch.honda.com'
+        JENKINS_EMAIL           = 'devops@ch.honda.com'
+        JKS_MASTER_IP           = '10.10.221.33'
+        HCFI_BUILD_INFO_SHEET   = '/JKS/cjtws/.ProdDeploymentHistory/hcfi_build_info_sheet'
+    }
+
+    stages {
+        stage('Authenticate the deployment') {
+            steps {
+                script {
+                    pipelineLib = load "${WORKSPACE}/vars/libs.groovy"   
+                    runDeploy = true
+                    jobBaseName = pipelineLib.getJobName(JOB_NAME)
+                    if (runDeploy)  {
+                        pipelineLib.authenticateDeployment()
+                    }
+                }
+            }
+        }
+
+        stage('Get application list') {
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {                        
+                        deleteDir() //clean up temp folder
+                        generateDeploymentFile()
+                        deploymentInstructions = readYaml file: DEPLOYMENT_LIST_FILE
+                        deploymentInstructions.application.each {
+                            appList = appList + "  - ${it.name}   \n"
+                            
+                            if ("${it.applicationServer}" == "JBOSS") {
+                                deployToJBoss = true
+                                echo "Application ${it.name}.${it.fileType} needs to be deployed to JBoss"
+                                warList = warList + " ${it.name}.${it.fileType} "
+                            }
+                            if ("${it.applicationServer}" == "WAS") {
+                                deployToWAS = true
+                                echo "Application ${it.name}.${it.fileType} needs to be deployed to WAS"
+                            }
+                            if ("${it.applicationServer}" == "CommonZone") {
+                                deployToCommonZone = true
+                                echo "Application ${it.name}.${it.fileType} needs to be deployed to CommonZone"
+                            }
+                        }                        
+                        warList = warList.replace("\n", ""); 
+                        warList = HCFI_INSTALL_SCRIPT_JBOSS + warList; 
+                    }
+                }
+            }
+        }
+
+        stage('Download application from Nexus ') {
+           when { 
+               expression { return true  }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        sh "chmod +x ${WORKSPACE}/miscellaneous/my_curl.sh" 
+                        deploymentInstructions.application.each {
+                            sh "${WORKSPACE}/miscellaneous/my_curl.sh download ${PACKAGE_DIR}/${it.name}.${it.fileType} ${it.artifactURL}"
+                        }      
+                        displayName = BUILD_NUM + '-' + deploymentInstructions.environment  
+                        currentBuild.displayName = BUILD_NUM + '-' + deploymentInstructions.environment
+                        currentBuild.description = "Application(s) deployed: " + appList
+                    }
+                }
+            }
+        }
+
+        stage('Deployment approval') {
+           when { 
+               expression { return runDeploy }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) { 
+                        approvalMsg = "The following application(s) will be deployed to " + TARGET_ENV +  appList                      
+                        pipelineLib.sendDeploymentApprovalEmail(DEPLOY_APPROVER_EMAIL, JENKINS_EMAIL, jobBaseName, BUILD_NUM)
+                        timeout(time: 60, unit: 'MINUTES') {
+                            input(id: "Deploy Approval", message: approvalMsg, ok: 'Deploy')
+                        }
+                    }
+                }
+            }
+        }
+
+        stage('Prepare Deployment') {
+           when { 
+               expression { return true }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        
+                        if (deployToJBoss) {
+                            backUpDir = pipelineLib.backUpDirectoryName(jobBaseName)
+                            backUpDir = "${PACKAGE_DESTINATION_JBOSS}/${backUpDir}"
+                            sh "echo \"cd ${PACKAGE_DESTINATION_JBOSS}\" > jboss.backup.command.txt"
+                            sh "echo \"mkdir -p ${backUpDir} \" >> jboss.backup.command.txt"
+                            deploymentInstructions.application.each {     
+                                if ("${it.applicationServer}" == "JBOSS") {              
+                                    sh "echo \"cp ${PACKAGE_DESTINATION_JBOSS}/${it.name}.${it.fileType} ${backUpDir}  \" >> jboss.backup.command.txt" 
+                                }     
+                            }
+                            sh "cp jboss.backup.command.txt ${PACKAGE_DIR}"                        
+                            sh "echo \"cd ${DEPLOYMENT_SCRIPT_ROOT_JBOSS}\" > jboss.install.command.txt"
+                            sh '''
+                                echo "cd ${DEPLOYMENT_SCRIPT_ROOT_JBOSS}" >> jboss.install.command.txt
+                                echo "'''+warList+'''" >> jboss.install.command.txt
+                                '''
+                            sh "cp jboss.install.command.txt ${PACKAGE_DIR}"
+                        } // End of deployToJBoss
+
+                        if (deployToWAS) {
+                            backUpDir = pipelineLib.backUpDirectoryName(jobBaseName)
+                            backUpDir = "${PACKAGE_DESTINATION_WAS}/${backUpDir}"
+                            sh "echo \"cd ${PACKAGE_DESTINATION_WAS}\" > was.backup.command.txt"
+                            sh "echo \"mkdir -p ${backUpDir} \" >> was.backup.command.txt"
+                            deploymentInstructions.application.each {     
+                                if ("${it.applicationServer}" == "WAS") {              
+                                    sh "echo \"cp ${PACKAGE_DESTINATION_WAS}/${it.name}.${it.fileType} ${backUpDir}  \" >> was.backup.command.txt" 
+                                }     
+                            }
+                            sh "echo \"cd ${DEPLOYMENT_ROOT_WAS}\" > was.install.command.txt"
+                            deploymentInstructions.application.each {   
+                                if ("${it.applicationServer}" == "WAS") {  
+                                    sh "echo \"cd ${DEPLOYMENT_ROOT_WAS}/${it.clusterName}\" >> was.install.command.txt"
+                                    sh "echo \"ls -al install${it.scriptName}.sh\" >> was.install.command.txt" 
+                                    sh "echo \"./install${it.scriptName}.sh > install${it.scriptName}.sh.out \" >> was.install.command.txt"                                 
+                                }
+                            }  
+                            sh "cp was.install.command.txt ${PACKAGE_DIR}"
+                            sh "echo \"cd /root/auto-deploy-script \" > restart.was.cmd.txt"
+                            if (deploymentInstructions.XpressRPMServerReboot) {
+                                sh "echo \"./stopWASServer.sh XpressRPMServer \" >> restart.was.cmd.txt"
+                                sh "echo \"./startWASServer.sh XpressRPMServer  \" >> restart.was.cmd.txt"
+                            } 
+                            if (deploymentInstructions.PortalServerReboot) {
+                                sh "echo \"./stopWASServer.sh PortalServer \" >> restart.was.cmd.txt"
+                                sh "echo \"./startWASServer.sh PortalServer  \" >> restart.was.cmd.txt"
+                            }
+                            sh "cp restart.was.cmd.txt ${PACKAGE_DIR}"
+                        } // End of deployToWAS
+
+                        if (deployToCommonZone) {
+                            backUpDir = pipelineLib.backUpDirectoryName(jobBaseName)
+                            backUpDir = "${PACKAGE_DESTINATION_CommonZone}/${backUpDir}"
+                            sh "echo \"cd ${PACKAGE_DESTINATION_CommonZone}\" > cz.backup.command.txt"
+                            sh "echo \"mkdir -p ${backUpDir} \" >> cz.backup.command.txt"
+                            deploymentInstructions.application.each {      
+                                if ("${it.applicationServer}" == "CommonZone") {                
+                                    sh "echo \"cd ${PACKAGE_DESTINATION_CommonZone}\" >> cz.backup.command.txt"
+                                    sh "echo \"cp ${PACKAGE_DESTINATION_CommonZone}/${it.name}.${it.fileType} ${backUpDir} \" >> cz.backup.command.txt"   
+                                }   
+                            }
+                            sh "cp cz.backup.command.txt ${PACKAGE_DIR}"
+                            sh "echo \"cd ${DEPLOYMENT_ROOT_CommonZone}\" > cz.install.command.txt"
+                            deploymentInstructions.application.each {    
+                                if ("${it.applicationServer}" == "CommonZone") {   
+                                    sh "echo \"cd ${DEPLOYMENT_ROOT_CommonZone}/${it.clusterName}\" >> cz.install.command.txt"
+                                    sh "echo \"ls -al install${it.scriptName}.sh\" >> cz.install.command.txt" 
+                                    sh "echo \"./install${it.scriptName}.sh > install${it.scriptName}.sh.out \" >> cz.install.command.txt" 
+                                }
+                            }  
+                            sh "cp cz.install.command.txt ${PACKAGE_DIR}"
+                            sh "echo \"cd /root/auto-deploy-script \" > cz.restart.was.cmd.txt"
+                            
+                            if (deploymentInstructions.CoreFileServiceServerReboot) {
+                                sh "echo \"./stopWASServer.sh CommonServiceServer \" >> cz.restart.was.cmd.txt"
+                                sh "echo \"./startWASServer.sh CommonServiceServer \" >> cz.restart.was.cmd.txt"
+                            } 
+                            sh "cp cz.restart.was.cmd.txt ${PACKAGE_DIR}"
+                        } // End of deployToCommonZone
+                    }
+                }
+            }
+        }
+
+        stage('Send artifacts to the QA') {
+           when { 
+               expression { 
+                   return runDeploy &&  deploymentInstructions.environment == "qa" 
+                }     
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {  
+                        if (deployToJBoss) {
+                            sh "ssh ${DEPLOYMENT_SERVICE_ACCT}@${QA_JOBSS_1} < jboss.backup.command.txt "
+                            deploymentInstructions.application.each {    
+                                if ("${it.applicationServer}" == "JBOSS") {
+                                    echo "Sending ${PACKAGE_DIR}/${it.name}.${it.fileType} to ${QA_JOBSS_1}"
+                                    sh "scp ${PACKAGE_DIR}/${it.name}.${it.fileType} ${DEPLOYMENT_SERVICE_ACCT}@${QA_JOBSS_1}:${PACKAGE_DESTINATION_JBOSS}"
+                                }     
+                            }
+                        } // End of deployToJBoss
+                        if (deployToWAS) {
+                            sh "ssh ${DEPLOYMENT_SERVICE_ACCT_WAS}@${QA_WAS_IP} < was.backup.command.txt "
+                            deploymentInstructions.application.each {    
+                                if ("${it.applicationServer}" == "WAS") {   
+                                    echo "Sending ${PACKAGE_DIR}/${it.name}.${it.fileType} to ${QA_WAS_IP}"                           
+                                    sh "scp ${PACKAGE_DIR}/${it.name}.${it.fileType} ${DEPLOYMENT_SERVICE_ACCT_WAS}@${QA_WAS_IP}:${PACKAGE_DESTINATION_WAS}"
+                                }   
+                            }
+                        } // End of deployToWAS
+                        if (deployToCommonZone) {
+                            sh "ssh ${DEPLOYMENT_SERVICE_ACCT_WAS}@${QA_CommonZone_IP} < cz.backup.command.txt "
+                            deploymentInstructions.application.each {    
+                                if ("${it.applicationServer}" == "CommonZone") {   
+                                    echo "Sending ${PACKAGE_DIR}/${it.name}.${it.fileType} to ${QA_CommonZone_IP}"                           
+                                    sh "scp ${PACKAGE_DIR}/${it.name}.${it.fileType} ${DEPLOYMENT_SERVICE_ACCT_WAS}@${QA_CommonZone_IP}:${PACKAGE_DESTINATION_CommonZone}"
+                                }   
+                            }
+                        } // End of deployToCommonZone
+                    }
+                }
+            }
+        }
+
+        stage('Send artifacts to the PROD') {
+           when { 
+               expression { return runDeploy &&  deploymentInstructions.environment == "prod"  }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {    
+                        if (deployToJBoss) {
+                            sh "ssh ${DEPLOYMENT_SERVICE_ACCT}@${PROD_JOBSS_1} < jboss.backup.command.txt "
+                            deploymentInstructions.application.each {    
+                                if ("${it.applicationServer}" == "JBOSS") {
+                                    echo "Sending ${PACKAGE_DIR}/${it.name}.${it.fileType} to ${PROD_JOBSS_1}"
+                                    sh "scp ${PACKAGE_DIR}/${it.name}.${it.fileType} ${DEPLOYMENT_SERVICE_ACCT}@${PROD_JOBSS_1}:${PACKAGE_DESTINATION_JBOSS}"
+                                    sh "cp  ${PACKAGE_DIR}/${it.name}.${it.fileType} /JKS/prod-artifacts/"
+                                }     
+                            }
+                        } // End of deployToJBoss
+                        if (deployToWAS) {
+                            sh "ssh ${DEPLOYMENT_SERVICE_ACCT_WAS}@${PROD_WAS_IP} < was.backup.command.txt "
+                            deploymentInstructions.application.each {    
+                                if ("${it.applicationServer}" == "WAS") {   
+                                    echo "Sending ${PACKAGE_DIR}/${it.name}.${it.fileType} to ${PROD_WAS_IP}"                           
+                                    sh "scp ${PACKAGE_DIR}/${it.name}.${it.fileType} ${DEPLOYMENT_SERVICE_ACCT_WAS}@${PROD_WAS_IP}:${PACKAGE_DESTINATION_WAS}"
+                                    sh "cp ${PACKAGE_DIR}/${it.name}.${it.fileType}  /JKS/prod-artifacts/"
+                                }   
+                            }
+                        } // End of deployToWAS
+                        if (deployToCommonZone) {
+                            sh "ssh ${DEPLOYMENT_SERVICE_ACCT_WAS}@${PROD_CommonZone_IP} < cz.backup.command.txt "
+                            deploymentInstructions.application.each {    
+                                if ("${it.applicationServer}" == "CommonZone") {   
+                                    echo "Sending ${PACKAGE_DIR}/${it.name}.${it.fileType} to ${PROD_CommonZone_IP}"                           
+                                    sh "scp ${PACKAGE_DIR}/${it.name}.${it.fileType} ${DEPLOYMENT_SERVICE_ACCT_WAS}@${PROD_CommonZone_IP}:${PACKAGE_DESTINATION_CommonZone}"
+                                    sh "cp  ${PACKAGE_DIR}/${it.name}.${it.fileType} /JKS/prod-artifacts/"
+                                }   
+                            }
+                        } // End of deployToCommonZone
+                    }          
+                }
+            }
+        }
+
+        stage('Install in QA') {
+           when { 
+               expression { return runDeploy &&  deploymentInstructions.environment == "qa" }     
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {  
+                        if (deployToJBoss) {
+                            sh  "ssh ${DEPLOYMENT_SERVICE_ACCT}@${QA_JOBSS_1} < jboss.install.command.txt "
+                        }
+                        if (deployToWAS) {
+                            sh "ssh ${DEPLOYMENT_SERVICE_ACCT_WAS}@${QA_WAS_IP} < was.install.command.txt "
+                        } 
+                        if (deployToCommonZone) {
+                            sh "ssh ${DEPLOYMENT_SERVICE_ACCT_WAS}@${QA_CommonZone_IP} < cz.install.command.txt "
+                        } 
+                    }
+                }
+            }
+        }
+
+        stage('Install in PROD') {
+           when { 
+               expression { return runDeploy &&  deploymentInstructions.environment == "prod" }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        if (deployToJBoss) {
+                            sh  "ssh ${DEPLOYMENT_SERVICE_ACCT}@${PROD_JOBSS_1} < jboss.install.command.txt "
+                        }
+                        if (deployToWAS) {
+                            sh "ssh ${DEPLOYMENT_SERVICE_ACCT_WAS}@${PROD_WAS_IP} < was.install.command.txt "
+                        } 
+                        if (deployToCommonZone) {
+                            sh "ssh ${DEPLOYMENT_SERVICE_ACCT_WAS}@${PROD_CommonZone_IP} < cz.install.command.txt "
+                        }  
+                        deploymentInstructions.application.each {
+                            sh "${WORKSPACE}/miscellaneous/my_curl.sh upload ${PACKAGE_DIR}/${it.name}.${it.fileType} ${it.artifactURLPROD}"
+                        }                         
+                    }
+                }
+            }
+        }
+
+        stage('Restart WAS in QA') {
+           when { 
+               expression { return runDeploy &&  deploymentInstructions.environment == "qa"  }     
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        if (deployToWAS) {
+                            sh "ssh root@${QA_WAS_NODE_1} < restart.was.cmd.txt "
+                            sh "ssh root@${QA_WAS_NODE_2} < restart.was.cmd.txt "
+                        }
+                        if (deployToCommonZone) {
+                            sh "ssh ${DEPLOYMENT_SERVICE_ACCT_WAS}@${QA_CommonZone_NODE_1} < cz.restart.was.cmd.txt "
+                            sh "ssh ${DEPLOYMENT_SERVICE_ACCT_WAS}@${QA_CommonZone_NODE_2} < cz.restart.was.cmd.txt "
+                        }
+                    }
+                }
+            }
+        }
+
+        stage('Restart WAS in PROD') {
+           when { 
+               expression { return runDeploy &&  deploymentInstructions.environment == "prod"  }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        if (deployToWAS) {
+                            sh "ssh ${DEPLOYMENT_SERVICE_ACCT_WAS}@${PROD_WAS_NODE_1} < restart.was.cmd.txt "
+                            sh "ssh root@${PROD_WAS_NODE_2} < restart.was.cmd.txt "
+                        }
+                        if (deployToCommonZone) {
+                            sh "ssh ${DEPLOYMENT_SERVICE_ACCT_WAS}@${PROD_CommonZone_NODE_1} < cz.restart.was.cmd.txt "
+                            sh "ssh ${DEPLOYMENT_SERVICE_ACCT_WAS}@${PROD_CommonZone_NODE_2} < cz.restart.was.cmd.txt "
+                        }
+                    }
+                }
+            }
+        }
+
+        stage('PROD deployment SOX report') {
+           when { 
+               expression { return runDeploy && deploymentInstructions.environment == "prod"  }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        sh " scp cloudbees-jenkins-distribution@${JKS_MASTER_IP}:${HCFI_BUILD_INFO_SHEET} ."
+                        pipelineLib.recordProdDeployInfo(DEPLOYMENT_LIST_FILE, jobBaseName, BUILD_NUM)
+                        sh "scp hcfi_build_info_sheet cloudbees-jenkins-distribution@${JKS_MASTER_IP}:${HCFI_BUILD_INFO_SHEET}"
+                        // Copy the artifact to the staging folder. 
+                        // .....
+
+                    }
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            script {
+                dir(TEMP_WORK_FOLDER) {
+                    archiveArtifacts allowEmptyArchive: true, artifacts: "deploymentList.yml"
+                    if (runDeploy  ) {
+                        pipelineLib.sendBuildReportEmail(DEPLOY_NOTIFY_EMAIL,JENKINS_EMAIL)
+                    }               
+                    echo "Sending email"
+                }
+                // deleteDir()
+                echo "Post deployment "
+            }
+        }
+    }
+}
+
+def generateDeploymentFile(){
+sh '''
+    pwd
+    mkdir -p ${WORKSPACE}/${BUILD_NUMBER}
+    cd ${WORKSPACE}/${BUILD_NUMBER}
+    echo "Generating ${DEPLOYMENT_LIST_FILE}"
+
+    echo "# deployment list" > ${DEPLOYMENT_LIST_FILE}
+    echo "environment: ${DEPLOY_ENV} " >> ${DEPLOYMENT_LIST_FILE}
+    echo "deployer: ${BUILD_USER} " >> ${DEPLOYMENT_LIST_FILE}
+    echo "jenkinsJobNumber: ${BUILD_NUMBER} " >> ${DEPLOYMENT_LIST_FILE}
+    echo "application: " >> ${DEPLOYMENT_LIST_FILE}
+
+	if [ ${HCFIXpressRpmEar} = "true" ]; then
+        XpressRPMServerReboot="yes"
+        echo "  - name: hcfi-xpress-rpm-ear" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    fileType: ear" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: XpressRPMApp" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: XpressRPMCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'hcfi-printable-contracts-develop-pipeline'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: '${HCFIXpressRpmEar_version}'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    auditReportNeeded: true"  >> ${DEPLOYMENT_LIST_FILE}
+        echo "    applicationServer: WAS"  >> ${DEPLOYMENT_LIST_FILE}
+        echo "    deploymentServiceAcct: root"  >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/ca/honda/apps/hcfi/hcfi-xpress-rpm-ear/${HCFIXpressRpmEar_version}/hcfi-xpress-rpm-ear-${HCFIXpressRpmEar_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/ca/honda/apps/hcfi/hcfi-xpress-rpm-ear/${HCFIXpressRpmEar_version}/hcfi-xpress-rpm-ear-${HCFIXpressRpmEar_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${DealerService} = "true" ]; then
+        echo "  - name: dealer-service" >> ${DEPLOYMENT_LIST_FILE}        
+        echo "    fileType: war" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: '${DealerService_version}'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'hcfi-common-services-develop-sit-pipeline'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    applicationServer: JBOSS"  >> ${DEPLOYMENT_LIST_FILE}
+        echo "    deploymentServiceAcct: juser"  >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/dealer-service/${DealerService_version}/dealer-service-${DealerService_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP}/dealer-service/${DealerService_version}/dealer-service-${DealerService_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${ModelService} = "true" ]; then
+        echo "  - name: model-service" >> ${DEPLOYMENT_LIST_FILE}   
+        echo "    fileType: war" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: '${ModelService_version}'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'hcfi-common-services-develop-sit-pipeline'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    applicationServer: JBOSS"  >> ${DEPLOYMENT_LIST_FILE}
+        echo "    deploymentServiceAcct: juser"  >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/model-service/${ModelService_version}/model-service-${ModelService_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP}/model-service/${ModelService_version}/model-service-${ModelService_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${ContractService} = "true" ]; then
+        echo "  - name: contract-service" >> ${DEPLOYMENT_LIST_FILE}   
+        echo "    fileType: war" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: '${ContractService_version}'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'hcfi-contract-service-develop-sit-pipeline'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    applicationServer: JBOSS"  >> ${DEPLOYMENT_LIST_FILE}
+        echo "    deploymentServiceAcct: juser"  >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/contract-service/${ContractService_version}/contract-service-${ContractService_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP}/contract-service/${ContractService_version}/contract-service-${ContractService_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${CreditApplicationWeb} = "true" ]; then
+        echo "  - name: credit-application-web" >> ${DEPLOYMENT_LIST_FILE}   
+        echo "    fileType: war" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: '${CreditApplicationWeb_version}'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'hcfi-credit-web-develop-sit-pipeline'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    applicationServer: JBOSS"  >> ${DEPLOYMENT_LIST_FILE}
+        echo "    deploymentServiceAcct: juser"  >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/credit-application-web/${CreditApplicationWeb_version}/credit-application-web-${CreditApplicationWeb_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP}/credit-application-web/${CreditApplicationWeb_version}/credit-application-web-${CreditApplicationWeb_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${RateService} = "true" ]; then
+        echo "  - name: rate-service" >> ${DEPLOYMENT_LIST_FILE}   
+        echo "    fileType: war" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: '${RateService_version}'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'hcfi-common-services-develop-sit-pipeline'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    applicationServer: JBOSS"  >> ${DEPLOYMENT_LIST_FILE}
+        echo "    deploymentServiceAcct: juser"  >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/rate-service/${RateService_version}/rate-service-${RateService_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP}/rate-service/${RateService_version}/rate-service-${RateService_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${AuthService} = "true" ]; then
+        echo "  - name: auth-service" >> ${DEPLOYMENT_LIST_FILE}   
+        echo "    fileType: war" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: '${AuthService_version}'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'hcfi-auth-service-develop-sit-pipeline'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    applicationServer: JBOSS"  >> ${DEPLOYMENT_LIST_FILE}
+        echo "    deploymentServiceAcct: juser"  >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/auth-service/${AuthService_version}/auth-service-${AuthService_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP}/auth-service/${AuthService_version}/auth-service-${AuthService_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${CalculateService} = "true" ]; then
+        echo "  - name: calculate-service" >> ${DEPLOYMENT_LIST_FILE}   
+        echo "    fileType: war" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: '${CalculateService_version}'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'hcfi-common-services-develop-sit-pipeline'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    applicationServer: JBOSS"  >> ${DEPLOYMENT_LIST_FILE}
+        echo "    deploymentServiceAcct: juser"  >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/calculate-service/${CalculateService_version}/calculate-service-${CalculateService_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP}/calculate-service/${CalculateService_version}/calculate-service-${CalculateService_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${CreditApplicationService} = "true" ]; then
+        echo "  - name: credit-application-service" >> ${DEPLOYMENT_LIST_FILE}   
+        echo "    fileType: war" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: '${CreditApplicationService_version}'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'hcfi-credit-service-develop-sit-pipeline'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    applicationServer: JBOSS"  >> ${DEPLOYMENT_LIST_FILE}
+        echo "    deploymentServiceAcct: juser"  >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/credit-application-service/${CreditApplicationService_version}/credit-application-service-${CreditApplicationService_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP}/credit-application-service/${CreditApplicationService_version}/credit-application-service-${CreditApplicationService_version}.war " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${coreFileService} = "true" ]; then
+        CoreFileServiceServerReboot="yes"
+        echo "  - name: coreFileService" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    fileType: ear" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: CFS" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: CoreFileServiceCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${coreFileService_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'ClearCaseMigratedJobs/HCFI/CoreFileService'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    applicationServer: CommonZone"  >> ${DEPLOYMENT_LIST_FILE}
+        echo "    deploymentServiceAcct: root"  >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/coreFileService/${coreFileService_version}/coreFileService-${coreFileService_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP}/coreFileService/${coreFileService_version}/coreFileService-${coreFileService_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${recordManagementSystem} = "true" ]; then
+        CoreFileServiceServerReboot="yes"
+        echo "  - name: recordManagementSystem" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    fileType: ear" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: RMS" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: CoreFileServiceCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${recordManagementSystem_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'ClearCaseMigratedJobs/HCFI/RecordManagementSystem'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    applicationServer: CommonZone"  >> ${DEPLOYMENT_LIST_FILE}
+        echo "    deploymentServiceAcct: root"  >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/recordManagementSystem/${recordManagementSystem_version}/recordManagementSystem-${recordManagementSystem_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP}/recordManagementSystem/${recordManagementSystem_version}/recordManagementSystem-${recordManagementSystem_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${portal} = "true" ]; then
+        PortalServerReboot="yes"
+        echo "  - name: portal" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    fileType: ear" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: PortalApp" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: PortalCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: '${portal_version}'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'buildEBizApp'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    applicationServer: WAS"  >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/ca/honda/apps/ebiz/portal/${portal_version}/portal-${portal_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/ca/honda/apps/ebiz/portal/${portal_version}/portal-${portal_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+ 
+    if [ ${XpressRPMServerReboot} = "yes" ]; then
+        echo "XpressRPMServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi  
+    if [ ${CoreFileServiceServerReboot} = "yes" ]; then
+        echo "CoreFileServiceServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${PortalServerReboot} = "yes" ]; then
+        echo "PortalServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    cp  ${DEPLOYMENT_LIST_FILE} ${WORKSPACE}/TEMP_WORK_FOLDER 
+'''
+}

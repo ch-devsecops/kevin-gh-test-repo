@@ -1,0 +1,157 @@
+def pipelineLib = null
+pipeline {
+    agent {
+        label 'Linux_Slave_2'
+    }
+    environment {
+        BRANCH_TO_RUN           = 'master'
+        PACKAGE_DIR             = "${env.WORKSPACE}/${env.BUILD_NUMBER}"
+        DEPLOYMENT_LIST_FILE    = "deploymentList.yml"
+        DEPLOYMENT_SERVICE_ACCT = 'root'
+        NEXUS_URL               = 'https://nexus.honda.ca:8443'
+        NEXUS_REPO              = 'honda-artifacts-release'
+        NEXUS_USER              = 'mvn-deploy'
+        NEXUS_KEY               = 'iMuxRFCA45LY3pT4KE7APwOehgJ4sKE-eUvnYG1zsSgW'
+        NEXUS_GROUP             = 'ca/honda/apps/ebiz'
+        TEMP_WORK_FOLDER        = 'TEMP_WORK_FOLDER'
+        QA_WAS_IP               = '10.10.91.80'
+        QA_WAS_NODE_1           = '10.10.91.50'
+        QA_WAS_NODE_2           = '10.10.91.52'
+        PROD_WAS_IP             = '10.10.81.80'
+        PROD_WAS_NODE_1         = '10.10.81.50'
+        PROD_WAS_NODE_2         = '10.10.81.52'
+        BUILD_NUM               = "${env.BUILD_NUMBER}"
+        TARGET_ENV              = "${env.DEPLOY_ENV}"
+        DRYRUN                  = "${env.DRY_RUN}"
+        DEPLOY_APPROVER_EMAIL   = 'udaykumar_vellala@ch.honda.com,kevin_lou@ch.honda.com'
+        DEPLOY_NOTIFY_EMAIL     = 'udaykumar_vellala@ch.honda.com,kevin_lou@ch.honda.com'
+
+        //DEPLOY_APPROVER_EMAIL   = 'kevin_lou@ch.honda.com'
+        //DEPLOY_NOTIFY_EMAIL     = 'kevin_lou@ch.honda.com'
+
+        JENKINS_EMAIL           = 'devops@ch.honda.com'
+
+        PACKAGE_DESTINATION     = '/opt/IBM/WebSphere/honda/build'
+        // PACKAGE_DESTINATION     = '/tmp'
+        DEPLOYMENT_ROOT         = '/opt/IBM/WebSphere/honda/build/install/jython/deployment'
+
+    }
+    stages {
+        stage('Authenticate the deployment') {
+            steps {
+                script { 
+                    pipelineLib = load "vars/libs.groovy"
+                    pipelineLib.authenticateDeployment()
+                }
+            }
+        }
+        stage('Get application list') {
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {                        
+                        deleteDir() //clean up temp folder
+                        generateDeploymentFile()
+                        deploymentInstructions = readYaml file: DEPLOYMENT_LIST_FILE
+                        runDeploy = deploymentInstructions?.application?.size() > 0  
+                    }
+                }
+            }
+        }
+
+        stage('Publishing Results') {
+           when { 
+               expression { return runDeploy  }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        archiveArtifacts allowEmptyArchive: true, artifacts: "deploymentList.yml"
+                    }
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            script {
+                dir(TEMP_WORK_FOLDER) {
+                   sendBuildReportEmail(DEPLOY_NOTIFY_EMAIL,JENKINS_EMAIL)
+                   echo "Sending email"
+                }
+                // deleteDir()
+                echo "Post deployment "
+            }
+        }
+    }
+}
+
+def generateDeploymentFile(){
+sh '''
+    pwd
+    mkdir -p ${WORKSPACE}/${BUILD_NUMBER}
+    cd ${WORKSPACE}/${BUILD_NUMBER}
+    echo "Generating ${DEPLOYMENT_LIST_FILE}"
+
+    echo "# deployment list" > ${DEPLOYMENT_LIST_FILE}
+    echo "environment: ${DEPLOY_ENV} " >> ${DEPLOYMENT_LIST_FILE}
+    echo "deploymentServiceAcct: ${DEPLOYMENT_SERVICE_ACCT} " >> ${DEPLOYMENT_LIST_FILE}    
+    echo "deployer: ${BUILD_USER} " >> ${DEPLOYMENT_LIST_FILE}
+    echo "jenkinsJobNumber: ${BUILD_NUMBER} " >> ${DEPLOYMENT_LIST_FILE}
+    echo "application: " >> ${DEPLOYMENT_LIST_FILE}
+
+	if [ ${customerSupport} = "true" ]; then
+        CSToolServerReboot="yes"
+        echo "  - name: customerSupport" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: customerSupport" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: CSToolCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${customerSupport_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/customerSupport/${customerSupport_version}/customerSupport-${customerSupport_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${TelematicsGateway} = "true" ]; then
+        TelematicsGWServerReboot="yes"
+        echo "  - name: TelematicsGateway" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: TelematicsGW" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: TelematicsGWCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${TelematicsGateway_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/TelematicsGateway/${TelematicsGateway_version}/TelematicsGateway-${TelematicsGateway_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+
+    if [ ${TelematicsGWServerReboot} = "yes" ]; then
+        echo "TelematicsGWServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+
+    if [ ${CSToolServerReboot} = "yes" ]; then
+        echo "CSToolServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+
+    cp  ${DEPLOYMENT_LIST_FILE} ${WORKSPACE}/TEMP_WORK_FOLDER 
+'''
+}
+
+
+def sendBuildReportEmail(toEmail, fromEmail) {
+    def emailSubject = "[Jenkins]${env.JOB_NAME} - #${env.BUILD_NUMBER} - ${env.DEPLOY_ENV} - ${currentBuild.currentResult}"
+    sendBuildReportEmail(toEmail, fromEmail, emailSubject)
+}
+
+def sendBuildReportEmail(toEmail, fromEmail, emailSubject) {
+    emailext body: '''${SCRIPT, template="groovy-html.template"}''',
+            mimeType: 'text/html',
+            subject: "${emailSubject}",
+            to: "${toEmail}",
+            replyTo: "${fromEmail}",
+            from: "${fromEmail}",
+            attachLog: false
+}
+
+def sendApprovalEmail(toEmail, fromEmail, emailBoday) {
+    def emailSubject = "There is a ${env.DEPLOY_ENV} deployment needs your approval!"
+    emailext body: emailBoday,
+            mimeType: 'text/html',
+            subject: "${emailSubject}",
+            to: "${toEmail}",
+            replyTo: "${fromEmail}",
+            from: "${fromEmail}",
+            attachLog: false
+}

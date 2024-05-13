@@ -1,0 +1,140 @@
+import groovy.json.JsonSlurper 
+def pipelineLib = null
+
+pipeline {
+    agent {
+        label 'Linux_Slave_2'
+    }
+    environment {
+        CONTROL_FILE            = "artifacts.yml"
+        NEXUS_URL               = 'https://nexus.honda.ca:8443'
+        NEXUS_REPO              = 'honda-artifacts-release'
+        NEXUS_GROUP             = 'ca/honda/apps/hcfi'
+        TEMP_WORK_FOLDER        = 'TEMP_WORK_FOLDER' 
+        BUILD_NUM               = "${env.BUILD_NUMBER}" 
+        JKS_MASTER_IP           = '10.10.221.33'
+        HCFI_REPORT_DIR         = '/JKHome/.ProdDeploymentHistory/build_log_storage'
+        HCFI_BUILD_INFO_SHEET   = '/JKS/cjtws/.ProdDeploymentHistory/hcfi_build_info_sheet'
+    }
+    stages {
+        stage('Get upstream job information') {
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {                        
+                        deleteDir() //clean up temp folder
+                        pipelineLib = load "${WORKSPACE}/vars/libs.groovy"
+                        def upstream = currentBuild.rawBuild.getCause(hudson.model.Cause$UpstreamCause)
+                        def upstreamDescription = upstream?.shortDescription
+                        upstreamJobName = pipelineLib.getJobBaseName(upstreamDescription)
+                        upstreamJobNumber = pipelineLib.getJobNumber(upstreamDescription)
+                        //upstreamJobName = "hcfi-finance-mapics-service-sit-pipeline"
+                        //upstreamJobNumber = "28"
+                        //upstreamJobNumber = "8"
+                        echo "upstreamJob: ${upstreamJobName}-${upstreamJobNumber}"
+                        upstreamDescription = null
+                        upstream = null
+                        sh "cp ${WORKSPACE}/nexus_upload_pipelines/hcfi/${CONTROL_FILE} ."  
+                        uploadInstructions = readYaml file: CONTROL_FILE
+                        runJob = uploadInstructions?.application?.size() > 0  
+                        currentBuild.displayName = BUILD_NUM + '-' + upstreamJobName + '-' + upstreamJobNumber
+                    }
+                }
+            }
+        }
+
+        stage('Upload build package to Nexus ') {
+           when { 
+               expression { return runJob }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        uploadInstructions.application.each {app ->
+                            echo " ${app.name} "
+                            def pipelineName = "${app.name}"
+                            if (pipelineName.equalsIgnoreCase(upstreamJobName)) {
+                                app.artifact.each {
+                                    echo "Find the matching pipeline"
+                                    def artifectRemotePath = uploadInstructions.buildJobRootDir + "/${app.buildJobFolder}/jobs/${app.name}/builds/" + upstreamJobNumber + "/archive/${it.buildArtifactName}/target/${it.buildArtifactName}.${it.buildArtifactType}" 
+                                    def artifectRemotePath1 = uploadInstructions.buildJobRootDir + "/${app.buildJobFolder}/jobs/${app.name}/builds/*/archive/${it.buildArtifactName}/target/${it.buildArtifactName}.${it.buildArtifactType}" 
+                                    echo artifectRemotePath
+                                    sh  "scp cloudbees-jenkins-distribution@${JKS_MASTER_IP}:${artifectRemotePath} ."
+                                    echo "List all the available artifacts"
+                                    //sh  "ssh cloudbees-jenkins-distribution@${JKS_MASTER_IP}  'ls ${artifectRemotePath1}'"
+                                    sh "chmod +x ${WORKSPACE}/miscellaneous/my_curl.sh" 
+                                    sh "${WORKSPACE}/miscellaneous/my_curl.sh upload ${it.buildArtifactName}.${it.buildArtifactType}  ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/${it.buildArtifactName}/${upstreamJobNumber}/${it.buildArtifactName}-${upstreamJobNumber}.${it.buildArtifactType}"
+                                }  
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        stage('Update build info spreadsheet') {
+           when { 
+               expression { return runJob }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        sh "scp cloudbees-jenkins-distribution@${JKS_MASTER_IP}:${HCFI_BUILD_INFO_SHEET} ."
+                        uploadInstructions.application.each {app ->
+                            echo " ${app.name} "
+                            pipelineName = "${app.name}"
+                            if (pipelineName.equalsIgnoreCase(upstreamJobName)) {
+                                app.artifact.each {
+                                    if (it.auditReportNeeded) {
+                                        appName = it.buildArtifactName
+                                        buildRemotePath = uploadInstructions.buildJobRootDir + "/${app.buildJobFolder}/jobs/${app.name}/builds/" + upstreamJobNumber
+                                        sh "echo \"mkdir -p ${HCFI_REPORT_DIR}/${app.name}/${upstreamJobNumber} \" > log.command.txt"
+                                        sh "echo \"cp ${buildRemotePath}/log ${HCFI_REPORT_DIR}/${app.name}/${upstreamJobNumber}/ \" >> log.command.txt"
+                                        sh "ssh cloudbees-jenkins-distribution@${JKS_MASTER_IP}  < log.command.txt "
+
+                                        sh '''
+                                        
+                                            appName=''' +appName+ '''
+                                            upstreamJobNumber=''' +upstreamJobNumber+ '''
+                                            upstreamJobName=''' +upstreamJobName+ '''
+                                            repoName=$(grep "git config remote.origin.url " -m 1 log)
+                                            todayDate=$(date -d "today" +%s)
+                                            repoName=${repoName##* > git config remote.origin.url }
+                                            echo "repoName=${repoName}"
+                                            repoName=${repoName%% *}
+                                            echo "repoName=${repoName}"
+                                            revisionNo=$(grep "Checking out Revision" -m 1 log)
+                                            revisionNo=${revisionNo##*Checking out Revision }
+                                            branchName=${revisionNo##*(}
+                                            revisionNo=${revisionNo%% *}
+                                            branchName=${branchName%%)*}
+                                            echo "appName=${appName}"
+                                            echo "upstreamJobName=${upstreamJobName}"
+                                            echo "upstreamJobNumber=${upstreamJobNumber}"
+                                            echo "repoName=${repoName}"
+                                            echo "revisionNo=${revisionNo}"
+                                            echo "branchName=${branchName}"
+                                            
+                                            echo "BUILDINFO:A=${appName}=A,J=${upstreamJobName}=J,N=${upstreamJobNumber}=N,R=${repoName}=R,B=${branchName}=B,V=${revisionNo}=V" >> ./hcfi_build_info_sheet
+                                        '''
+                                    }
+                                }  
+                            }
+                        }
+                        sh "scp ./hcfi_build_info_sheet cloudbees-jenkins-distribution@${JKS_MASTER_IP}:${HCFI_BUILD_INFO_SHEET}"
+                    }
+                }
+            }
+        }
+    }
+    post {
+        always {
+            script {
+                dir(TEMP_WORK_FOLDER) {
+                    pipelineLib.sendBuildReportEmail("Kevin_Lou@ch.honda.com",JENKINS_EMAIL)
+                }
+                //deleteDir()
+                echo "Post deployment "
+            }
+        }
+    }
+}

@@ -1,0 +1,141 @@
+import groovy.json.JsonSlurper 
+def pipelineLib = null
+
+pipeline {
+    agent {
+        label 'Linux_Slave_2'
+    }
+    environment {
+        BUILD_NUM               = "${env.BUILD_NUMBER}" 
+        TEMP_WORK_FOLDER        = 'TEMP_WORK_FOLDER'         
+        JOB_NAME                = "${env.JOB_NAME}"
+        JKS_MASTER_IP           = '10.10.221.33'
+        HCFI_BUILD_INFO_SHEET   = '/JKS/cjtws/.ProdDeploymentHistory/hcfi_build_info_sheet'		
+		NOTIFY_EMAIL   			= 'udaykumar_vellala@ch.honda.com,kevin_lou@ch.honda.com'	
+		//NOTIFY_EMAIL   			= 'kevin_lou@ch.honda.com'
+        JENKINS_EMAIL           = 'devops@ch.honda.com'
+		BUILD_URL               = '${env.BUILD_URL}'
+    }
+    stages {
+        stage('Generate Deployment History') {
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {                        
+                        deleteDir() //clean up temp folder  
+                    	pipelineLib = load "${WORKSPACE}/vars/libs.groovy"
+                        sh "scp cloudbees-jenkins-distribution@${JKS_MASTER_IP}:${HCFI_BUILD_INFO_SHEET} ."
+						def file = readFile "./hcfi_build_info_sheet"
+                        def lines = file.readLines()
+						sh '''
+						    echo "Application Name, Deployed File, Deployment Date, Build Job, Build Number, Deployment Job, Deployment Job Number, Deployer " > ./DeploymentHistory.csv  
+						'''
+						println ApplicationNames
+                        def apps = ApplicationNames.split(',').collect{it as String}
+						appList = "<b>Application(s):</b> <br>"
+                        apps.each { 						
+						    appList = appList + " &nbsp&nbsp - ${it}  <br>"
+							lines.each { String line ->
+							ApplicationName = "${it}"
+                            if (line.contains("DEPLOYINFO:")) {
+                                if (line.contains(ApplicationName) ) {
+									sh '''
+									APPNAME=''' +ApplicationName+ ''' 
+									THELINE=''' +line+ ''' 
+									deployDate=${THELINE##*D=}
+									deployDate=${deployDate%%=D*}
+									if [ -n "${StartDate}" ] && [ ! -n "${EndDate}" ] 
+									then
+									    SDATE=$(date -d "${StartDate}" +%s)
+										if [ ${deployDate} -gt ${SDATE} ] 
+										then
+										    OK="ok"
+										fi
+									elif [ -n "${StartDate}" ] && [ -n "${EndDate}" ] 
+									then
+									    SDATE=$(date -d "${StartDate}" +%s)
+									    EDATE=$(date -d "${EndDate}" +%s)
+										if [ ${deployDate} -gt ${SDATE} ] && [ ${deployDate} -lt ${EDATE} ]
+										then
+										    OK="ok"
+										fi
+									elif [ ! -n "${StartDate}" ] && [ -n "${EndDate}" ] 
+									then
+									    EDATE=$(date -d "${EndDate}" +%s)
+										if [ ${deployDate} -lt ${EDATE} ] 
+										then
+										    OK="ok"
+										fi
+									else 
+										OK="ok"
+									fi									
+									if [ -n "${OK}" ]
+									then
+										applicationName=${THELINE##*A=}
+										applicationName=${applicationName%%=A*}
+										buildJobName=${THELINE##*J=}
+										buildJobName=${buildJobName%%=J*}
+										deployName=${THELINE##*Z=}
+										deployName=${deployName%%=Z*}
+										deployNum=${THELINE##*C=}
+										deployNum=${deployNum%%=C*}
+										jobSubmitter=${THELINE##*S=}
+										jobSubmitter=${jobSubmitter%%=S*}
+										deployedFile=${THELINE##*F=}
+										deployedFile=${deployedFile%%=F*}
+										buildNum=${THELINE##*N=}
+										buildNum=${buildNum%%=N*}
+										#codeRepo=${THELINE##*R=}
+										#codeRepo=${codeRepo%%=R*}
+										#codeBranchName=${THELINE##*B=}
+										#codeBranchName=${codeBranchName%%=B*}
+										#codeRevisionName=${THELINE##*V=}
+										#codeRevisionName=${codeRevisionName%%=V*}
+										if [[ "${applicationName}" == datastage* ]]; 
+										then
+    										echo "DataStage found."
+											theDate=${deployDate}
+										else
+    										echo "Not DataStage"
+											theDate=$(date -d @${deployDate} +'%Y-%m-%d: %H:%M:%S')
+										fi
+
+										echo theDate=${theDate}
+										echo buildJobName=${buildJobName}
+										#echo codeRepo=${codeRepo}
+										echo buildNum=${buildNum}
+										echo deployName=${deployName}
+										echo deployNum=${deployNum}
+										#echo codeBranchName=${codeBranchName}
+										#echo codeRevisionName=${codeRevisionName}
+										echo "${applicationName}, ${deployedFile}, ${theDate}, ${buildJobName}, ${buildNum}, ${deployName}, ${deployNum}, ${jobSubmitter} " >> ./DeploymentHistory.csv
+									fi
+									
+									'''
+								}
+                            }                            
+                        }
+						}
+                    }
+                }
+            }
+        }
+
+        stage('Send Deployment History Report') {
+           when { 
+               expression { return true }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+						archiveArtifacts allowEmptyArchive: true, artifacts: "DeploymentHistory.csv"
+						timePeriod = "<b>Start Date:</b> ${StartDate} <br> <b>End Date:</b> ${EndDate} <p>" 
+                        emailMsg = "Hello, <p>Please find the attached PROD deployment history report.<p> " + appList + timePeriod + "	<p>	This report was generated by the Jenkins job: ${JOB_NAME}: ${BUILD_NUM}<p><p>DevOps<br>IT Division<br>Honda Canada Inc."
+                        pipelineLib.sendDeploymentHistoryAuditEmail(NOTIFY_EMAIL, JENKINS_EMAIL, emailMsg, "DeploymentHistory.csv")
+
+                    }
+                }
+            }
+        }
+
+    }
+}

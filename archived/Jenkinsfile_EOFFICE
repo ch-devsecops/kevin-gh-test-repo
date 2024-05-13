@@ -1,0 +1,488 @@
+pipeline {
+    agent {
+        label 'Linux_Slave_2'
+    }
+    environment {
+        BRANCH_TO_RUN           = 'master'
+        PACKAGE_DIR             = "${env.WORKSPACE}/${env.BUILD_NUMBER}"
+        DEPLOYMENT_LIST_FILE    = "deploymentList.yml"
+        DEPLOYMENT_SERVICE_ACCT = 'root'
+        NEXUS_URL               = 'https://nexus.honda.ca:8443'
+        NEXUS_REPO              = 'honda-artifacts-release'
+        NEXUS_USER              = 'mvn-deploy'
+        NEXUS_KEY               = 'iMuxRFCA45LY3pT4KE7APwOehgJ4sKE-eUvnYG1zsSgW'
+        NEXUS_GROUP             = 'ca/honda/apps/eoffice'
+        TEMP_WORK_FOLDER        = 'TEMP_WORK_FOLDER'
+        QA_WAS_IP               = '10.10.91.80'
+        QA_WAS_NODE_1           = '10.10.91.50'
+        QA_WAS_NODE_2           = '10.10.91.52'
+        PROD_WAS_IP             = '10.10.81.80'
+        PROD_WAS_NODE_1         = '10.10.81.50'
+        PROD_WAS_NODE_2         = '10.10.81.52'
+        BUILD_NUM               = "${env.BUILD_NUMBER}"
+        TARGET_ENV              = "${env.DEPLOY_ENV}"
+        DEPLOY_APPROVER_EMAIL   = 'udaykumar_vellala@ch.honda.com,kevin_lou@ch.honda.com'
+        DEPLOY_NOTIFY_EMAIL     = 'udaykumar_vellala@ch.honda.com,kevin_lou@ch.honda.com'
+
+        //DEPLOY_APPROVER_EMAIL   = 'kevin_lou@ch.honda.com'
+        //DEPLOY_NOTIFY_EMAIL     = 'kevin_lou@ch.honda.com'
+
+        JENKINS_EMAIL           = 'devops@ch.honda.com'
+
+        PACKAGE_DESTINATION     = '/opt/IBM/WebSphere/honda/build'
+        // PACKAGE_DESTINATION     = '/tmp'
+        DEPLOYMENT_ROOT         = '/opt/IBM/WebSphere/honda/build/install/jython/deployment'
+
+    }
+    stages {
+        stage('Authenticate the deployment') {
+            steps {
+                script {
+                    withCredentials([string(credentialsId: 'eBiz_QA_PROD_Deploy_Secret', variable: 'DEPLOYPWD')]) {
+                        if (DEPLOYMENT_PASSWORD != DEPLOYPWD){
+                            echo "Invalid password! Go Away!!"
+                            error("Invalid password! Go Away!!")
+                        }
+                    }
+                }
+            }
+        }
+        stage('Get application list') {
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {                        
+                        deleteDir() //clean up temp folder
+                        generateDeploymentFile()
+                        deploymentInstructions = readYaml file: DEPLOYMENT_LIST_FILE
+                        runDeploy = deploymentInstructions?.application?.size() > 0                        
+                    }
+                }
+            }
+        }
+
+        stage('Download application from Nexus ') {
+           when { 
+               expression { return runDeploy }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        echo "pwd"
+                        echo "PACKAGE_DIR = ${PACKAGE_DIR}"
+                        appList = "\n"
+
+                        deploymentInstructions.application.each {
+                            echo " ${it.name} ${it.version}"
+                            appList = appList + "  - ${it.name}   \n"
+                            sh "curl --user ${NEXUS_USER}:${NEXUS_KEY} -X GET  ${it.artifactURL} --output ${PACKAGE_DIR}/${it.name}.ear"
+                        }
+                        
+                        currentBuild.displayName = BUILD_NUM + '-' + deploymentInstructions.environment
+                        currentBuild.description = "Application(s) deployed: " + appList
+                    }
+                }
+            }
+        }
+
+        stage('Deployment approval') {
+           when { 
+               expression { return runDeploy }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        appList = "\n"
+                        deploymentInstructions.application.each {
+                            appList = appList + "  - ${it.name} \n"
+                        }
+                        approvalMsg = "The following application(s) will be deployed to " + TARGET_ENV +  appList
+
+                        jobURL = "https://jenkins-dev.honda.ca/blue/organizations/jenkins/DevOpsJobs%2FQA-PROD-Auto-Deployments%2FEOfficeDeploymentPipeline-QA-PROD/detail/EOfficeDeploymentPipeline-QA-PROD/" + BUILD_NUM + "/pipeline"
+
+                        jobURL1 = "https://jenkins-dev.honda.ca/job/DevOpsJobs/job/QA-PROD-Auto-Deployments/job/EOfficeDeploymentPipeline-QA-PROD/" + BUILD_NUM + "/console"
+                        emailMsg = "There is a deployment job needs your approval. <b>Note that the job will expire in 60 minutes</b>.<p>Click on either of the below links to access the job: <p>" + "<li>" + jobURL + "<li>" + jobURL1
+                        sendApprovalEmail(DEPLOY_APPROVER_EMAIL, JENKINS_EMAIL, emailMsg)
+
+                        timeout(time: 60, unit: 'MINUTES') {
+                            input(id: "Deploy Approval", message: approvalMsg, ok: 'Deploy')
+                        }
+                    }
+                }
+            }
+        }
+
+
+        stage('Prepare Deployment') {
+           when { 
+               expression { return runDeploy }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        sh "echo \"cd ${PACKAGE_DESTINATION}\" > backup.command.txt"
+                        sh "echo \"mkdir -p backup_cv_auto_deployment_${BUILD_NUM}\" >> backup.command.txt"
+                        
+                        deploymentInstructions.application.each {                    
+                            sh "echo \"cd ${PACKAGE_DESTINATION}\" >> backup.command.txt"
+                            sh "echo \"cp ${it.name}.ear backup_cv_auto_deployment_${BUILD_NUM}\" >> backup.command.txt"      
+                        }
+                        sh "cp backup.command.txt ${PACKAGE_DIR}"
+                        sh "echo \"cd ${DEPLOYMENT_ROOT}\" > install.command.txt"
+                        deploymentInstructions.application.each {
+                            sh "echo \"cd ${DEPLOYMENT_ROOT}/${it.clusterName}\" >> install.command.txt"
+                            sh "echo \"ls -al install${it.scriptName}.sh\" >> install.command.txt" 
+                            sh "echo \"./install${it.scriptName}.sh > install${it.scriptName}.sh.out \" >> install.command.txt" 
+                        }  
+                        sh "cp install.command.txt ${PACKAGE_DIR}"
+
+                        sh "echo \"cd ${DEPLOYMENT_ROOT}\" > displaylog.command.txt"
+                        deploymentInstructions.application.each {
+                            sh "echo \"cd ${DEPLOYMENT_ROOT}/${it.clusterName}\" >> displaylog.command.txt"
+                            sh "echo \"echo \" install${it.scriptName}.sh.out \"  \" >> displaylog.command.txt"
+                            sh "echo \"ls -al install${it.scriptName}.sh.out   \" >> displaylog.command.txt"
+                            sh "echo \"cat install${it.scriptName}.sh.out   \" >> displaylog.command.txt"
+                            sh "echo \"echo    \" >> displaylog.command.txt"
+                            sh "echo \"echo    \" >> displaylog.command.txt"
+                        }    
+                        sh "cp displaylog.command.txt ${PACKAGE_DIR}"
+
+                        sh "echo \"cd /root/auto-deploy-script \" > restart.was.cmd.txt"
+
+                        if (deploymentInstructions.EofficeServerReboot) {
+                            sh "echo \"./stopWASServer.sh EofficeServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.EtoolboxServerReboot) {
+                            sh "echo \"./stopWASServer.sh EtoolboxServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.PortalServerReboot) {
+                            sh "echo \"./stopWASServer.sh PortalServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.UserEntlServerReboot) {
+                            sh "echo \"./stopWASServer.sh UserEntlServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.eOfficeSHAREDServerReboot) {
+                            sh "echo \"./stopWASServer.sh eOfficeSHAREDServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.EofficeServerReboot) {
+                            sh "echo \"./startWASServer.sh EofficeServer   \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.EtoolboxServerReboot) {
+                            sh "echo \"./startWASServer.sh EtoolboxServer    \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.PortalServerReboot) {
+                            sh "echo \"./startWASServer.sh PortalServer    \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.UserEntlServerReboot) {
+                            sh "echo \"./startWASServer.sh UserEntlServer    \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.eOfficeSHAREDServerReboot) {
+                            sh "echo \"./startWASServer.sh eOfficeSHAREDServer   \" >> restart.was.cmd.txt"
+                        }
+
+                        sh "cp restart.was.cmd.txt ${PACKAGE_DIR}"
+                    }
+                }
+            }
+        }
+
+        stage('Send artifacts to the QA') {
+           when { 
+               expression { 
+                   return runDeploy &&  deploymentInstructions.environment == "qa"
+                }     
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {     
+                        sh "ssh root@${QA_WAS_IP} < backup.command.txt "
+                        deploymentInstructions.application.each {                            
+                            echo "Sending ${PACKAGE_DIR}/${it.name}.ear to ${QA_WAS_IP}"                           
+                            sh "scp ${PACKAGE_DIR}/${it.name}.ear root@${QA_WAS_IP}:${PACKAGE_DESTINATION}"
+                        }
+                    }
+                }
+            }
+        }
+
+        stage('Send artifacts to the PROD') {
+           when { 
+               expression { return runDeploy &&  deploymentInstructions.environment == "prod" }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {    
+                        sh "ssh root@${PROD_WAS_IP} < backup.command.txt "
+                        deploymentInstructions.application.each {                            
+                            echo "Sending ${PACKAGE_DIR}/${it.name}.ear to ${PROD_WAS_IP}"
+                            sh "scp ${PACKAGE_DIR}/${it.name}.ear root@${PROD_WAS_IP}:${PACKAGE_DESTINATION}"
+                        }
+                    }
+                }
+            }
+        }
+
+        stage('Install in QA') {
+           when { 
+               expression { return runDeploy &&  deploymentInstructions.environment == "qa"  }     
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        sh "ssh root@${QA_WAS_IP} < install.command.txt "
+                        sh "ssh root@${QA_WAS_IP} < displaylog.command.txt "
+                    }
+                }
+            }
+        }
+
+        stage('Install in PROD') {
+           when { 
+               expression { return runDeploy &&  deploymentInstructions.environment == "prod" }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        sh "ssh root@${PROD_WAS_IP} < install.command.txt "
+                        sh "ssh root@${PROD_WAS_IP} < displaylog.command.txt "
+                    }
+                }
+            }
+        }
+
+        stage('Restart WAS in QA') {
+           when { 
+               expression { return runDeploy &&  deploymentInstructions.environment == "qa" }     
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        sh "ssh root@${QA_WAS_NODE_1} < restart.was.cmd.txt "
+                        sh "ssh root@${QA_WAS_NODE_2} < restart.was.cmd.txt "
+                    }
+                }
+            }
+        }
+
+        stage('Restart WAS in PROD') {
+           when { 
+               expression { return runDeploy &&  deploymentInstructions.environment == "prod" }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        sh "ssh root@${PROD_WAS_NODE_1} < restart.was.cmd.txt "
+                        sh "ssh root@${PROD_WAS_NODE_2} < restart.was.cmd.txt "
+                    }
+                }
+            }
+        }
+
+        stage('Publishing Results') {
+           when { 
+               expression { return runDeploy  }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        archiveArtifacts allowEmptyArchive: true, artifacts: "deploymentList.yml"
+                    }
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            script {
+                dir(TEMP_WORK_FOLDER) {
+                   sendBuildReportEmail(DEPLOY_NOTIFY_EMAIL,JENKINS_EMAIL)
+                }
+                // deleteDir()
+                echo "Post deployment "
+            }
+        }
+    }
+}
+
+def EofficeServerReboot = false
+def EtoolboxServerReboot = false
+def PortalServerReboot = false
+def UserEntlServerReboot = false
+def eOfficeSHAREDServerReboot = false
+
+def generateDeploymentFile(){
+sh '''
+    pwd
+    mkdir -p ${WORKSPACE}/${BUILD_NUMBER}
+    cd ${WORKSPACE}/${BUILD_NUMBER}
+    echo "Generating ${DEPLOYMENT_LIST_FILE}"
+
+    echo "# deployment list" > ${DEPLOYMENT_LIST_FILE}
+    echo "environment: ${DEPLOY_ENV} " >> ${DEPLOYMENT_LIST_FILE}
+    echo "deploymentServiceAcct: ${DEPLOYMENT_SERVICE_ACCT} " >> ${DEPLOYMENT_LIST_FILE}    
+    echo "deployer: ${BUILD_USER} " >> ${DEPLOYMENT_LIST_FILE}
+    echo "jenkinsJobNumber: ${BUILD_NUMBER} " >> ${DEPLOYMENT_LIST_FILE}
+    echo "application: " >> ${DEPLOYMENT_LIST_FILE}
+
+	if [ ${coopad} = "true" ]; then
+        EofficeServerReboot="yes"
+        echo "  - name: coopad" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: CoopadApp" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: EofficeCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${coopad_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/coopad/${coopad_version}/coopad-${coopad_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+    if [ ${eOffice} = "true" ]; then
+        EofficeServerReboot="yes"
+        echo "  - name: eOffice" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: EOffice" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: EofficeCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${eOffice_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/eOffice/${eOffice_version}/eOffice-${eOffice_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+    if [ ${eOfficeServiceAwards} = "true" ]; then
+        EofficeServerReboot="yes"
+        echo "  - name: eOfficeServiceAwards" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: ServiceAwards" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: EofficeCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${eOfficeServiceAwards_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/eOfficeServiceAwards/${eOfficeServiceAwards_version}/eOfficeServiceAwards-${eOfficeServiceAwards_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+    if [ ${eopHeaderFooter} = "true" ]; then
+        EofficeServerReboot="yes"
+        echo "  - name: eopHeaderFooter" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: EopHeaderFooter " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: EofficeCluster " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${eopHeaderFooter_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/eopHeaderFooter/${eopHeaderFooter_version}/eopHeaderFooter-${eopHeaderFooter_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+    if [ ${eToolBox} = "true" ]; then
+        EtoolboxServerReboot="yes"
+        echo "  - name: eToolBox" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: EtoolboxCluster " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: EtoolboxCluster " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${eToolBox_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/eToolBox/${eToolBox_version}/eToolBox-${eToolBox_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+    if [ ${frtManual} = "true" ]; then
+        EofficeServerReboot="yes"
+        echo "  - name: frtManual" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: FrtManual" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: EofficeCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${frtManual_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/frtManual/${frtManual_version}/frtManual-${frtManual_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+    if [ ${jobBatch} = "true" ]; then
+        EofficeServerReboot="yes"
+        echo "  - name: jobBatch" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: Jobbatch" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: EofficeCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${jobBatch_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/jobBatch/${jobBatch_version}/jobBatch-${jobBatch_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+    if [ ${partsInventoryControl} = "true" ]; then
+        EofficeServerReboot="yes"
+        echo "  - name: partsInventoryControl" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: PartsInventory" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: EofficeCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${partsInventoryControl_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/partsInventoryControl/${partsInventoryControl_version}/partsInventoryControl-${partsInventoryControl_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+    if [ ${portalEJBOnly} = "true" ]; then
+        PortalServerReboot="yes"
+        echo "  - name: portalEJBOnly" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: PortalEJBOnlyEbizSHAREDApp" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: eOfficeSHAREDCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${portalEJBOnly_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/portalEJBOnly/${portalEJBOnly_version}/portalEJBOnly-${portalEJBOnly_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+    if [ ${pwdEncrypt} = "true" ]; then 
+        EofficeServerReboot="yes"
+        echo "  - name: pwdEncrypt" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: PwdEnc" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: EofficeCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${pwdEncrypt_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/pwdEncrypt/${pwdEncrypt_version}/pwdEncrypt-${pwdEncrypt_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+    if [ ${RCDptr} = "true" ]; then
+        eOfficeSHAREDServerReboot="yes"
+        echo "  - name: RCDptr" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: RCDptr" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: eOfficeSHAREDCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${RCDptr_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/RCDptr/${RCDptr_version}/RCDptr-${RCDptr_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+    if [ ${stimt} = "true" ]; then
+        EofficeServerReboot="yes"
+        echo "  - name: stimt" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: Sti" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: EofficeCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${stimt_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/stimt/${stimt_version}/stimt-${stimt_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+    if [ ${userEntl} = "true" ]; then
+        UserEntlServerReboot="yes"
+        echo "  - name: userEntl" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: UserEntlApp" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: UserEntlCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${userEntl_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/userEntl/${userEntl_version}/userEntl-${userEntl_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+        appCount=$((appCount + 1))
+        appList+=("userEntl")  
+    fi
+    if [ ${uoe} = "true" ]; then
+        eOfficeSHAREDServerReboot="yes"
+        echo "  - name: uoe" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: Uoe" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: eOfficeSHAREDCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${uoe_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/uoe/${uoe_version}/uoe-${uoe_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+
+    if [ ${EofficeServerReboot} = "yes" ]; then
+        echo "EofficeServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+    if [ ${EtoolboxServerReboot} = "yes" ]; then
+        echo "EtoolboxServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+    if [ ${PortalServerReboot} = "yes" ]; then
+        echo "PortalServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+    if [ ${UserEntlServerReboot} = "yes" ]; then
+        echo "UserEntlServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+    if [ ${eOfficeSHAREDServerReboot} = "yes" ]; then
+        echo "eOfficeSHAREDServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+
+
+    cp  ${DEPLOYMENT_LIST_FILE} ${WORKSPACE}/TEMP_WORK_FOLDER 
+'''
+}
+
+
+def sendBuildReportEmail(toEmail, fromEmail) {
+    def emailSubject = "[Jenkins]${env.JOB_NAME} - #${env.BUILD_NUMBER} - ${env.DEPLOY_ENV} - ${currentBuild.currentResult}"
+    sendBuildReportEmail(toEmail, fromEmail, emailSubject)
+}
+
+def sendBuildReportEmail(toEmail, fromEmail, emailSubject) {
+    emailext body: '''${SCRIPT, template="groovy-html.template"}''',
+            mimeType: 'text/html',
+            subject: "${emailSubject}",
+            to: "${toEmail}",
+            replyTo: "${fromEmail}",
+            from: "${fromEmail}",
+            attachLog: false
+}
+
+def sendApprovalEmail(toEmail, fromEmail, emailBoday) {
+    def emailSubject = "There is a ${env.DEPLOY_ENV} deployment needs your approval!"
+    emailext body: emailBoday,
+            mimeType: 'text/html',
+            subject: "${emailSubject}",
+            to: "${toEmail}",
+            replyTo: "${fromEmail}",
+            from: "${fromEmail}",
+            attachLog: false
+}

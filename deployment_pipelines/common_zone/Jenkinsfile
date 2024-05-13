@@ -1,0 +1,716 @@
+def pipelineLib = null
+
+pipeline {
+    agent {
+        label 'Linux_Slave_2'
+    }
+    environment {
+        BRANCH_TO_RUN           = 'master'
+        PACKAGE_DIR             = "${env.WORKSPACE}/${env.BUILD_NUMBER}"
+        DEPLOYMENT_LIST_FILE    = "deploymentList.yml"
+        DEPLOYMENT_SERVICE_ACCT = 'root'
+        NEXUS_URL               = 'https://nexus.honda.ca:8443'
+        NEXUS_REPO              = 'honda-artifacts-release'
+        NEXUS_REPO_PROD         = 'honda-artifacts-production'
+        NEXUS_USER              = 'mvn-deploy'
+        NEXUS_KEY               = 'iMuxRFCA45LY3pT4KE7APwOehgJ4sKE-eUvnYG1zsSgW'
+        NEXUS_GROUP_CZ          = 'ca/honda/apps/common-zone'
+        NEXUS_GROUP_PUB         = 'ca/honda/apps/publications'
+        NEXUS_GROUP_HCFI        = 'ca/honda/apps/hcfi'
+        TEMP_WORK_FOLDER        = 'TEMP_WORK_FOLDER'
+        QA_WAS_IP               = '10.2.222.207'
+        QA_WAS_NODE_1           = '10.2.222.154'
+        QA_WAS_NODE_2           = '10.2.222.155'
+
+        PROD_WAS_IP             = '10.2.222.210'
+        PROD_WAS_NODE_1         = '10.2.222.134'
+        PROD_WAS_NODE_2         = '10.2.222.135'
+        BUILD_NUM               = "${env.BUILD_NUMBER}"
+        TARGET_ENV              = "${env.DEPLOY_ENV}"
+        DRYRUN                  = "${env.DRY_RUN}"
+        DEPLOY_APPROVER_EMAIL   = 'udaykumar_vellala@ch.honda.com,kevin_lou@ch.honda.com'
+        DEPLOY_NOTIFY_EMAIL     = 'udaykumar_vellala@ch.honda.com,kevin_lou@ch.honda.com'
+
+        //DEPLOY_APPROVER_EMAIL   = 'kevin_lou@ch.honda.com'
+        //DEPLOY_NOTIFY_EMAIL     = 'kevin_lou@ch.honda.com'
+
+        JENKINS_EMAIL           = 'devops@ch.honda.com'
+
+        PACKAGE_DESTINATION     = '/opt/IBM/WebSphere/honda/build/ears'
+        // PACKAGE_DESTINATION     = '/tmp'
+        DEPLOYMENT_ROOT         = '/opt/IBM/WebSphere/honda/build/install/jython/deployment'
+        JKS_MASTER_IP           = '10.10.221.33'
+        HCFI_BUILD_INFO_SHEET   = '/JKS/cjtws/.ProdDeploymentHistory/hcfi_build_info_sheet'
+
+    }
+    stages {
+        stage('Authenticate the deployment') {
+            steps {
+                script {
+                    pipelineLib = load "${WORKSPACE}/vars/libs.groovy"
+                    jobBaseName = pipelineLib.getJobName(JOB_NAME)
+                    runDeploy = true  
+                    if (runDeploy)  {
+                        pipelineLib.authenticateDeployment()
+                    }
+                }
+            }
+        }
+
+        stage('Get application list') {
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {                        
+                        deleteDir() //clean up temp folder
+                        generateDeploymentFile()
+                        deploymentInstructions = readYaml file: DEPLOYMENT_LIST_FILE
+                    }
+                }
+            }
+        }
+
+        stage('Download application from Nexus ') {
+           when { 
+               expression { return runDeploy }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        sh "chmod +x ${WORKSPACE}/miscellaneous/my_curl.sh" 
+                        echo "pwd"
+                        echo "PACKAGE_DIR = ${PACKAGE_DIR}"
+                        appList = "\n"
+
+                        deploymentInstructions.application.each {
+                            echo " ${it.name} "
+                            appList = appList + "  - ${it.name}   \n"
+                            if (runDeploy) {
+                                sh "${WORKSPACE}/miscellaneous/my_curl.sh download ${PACKAGE_DIR}/${it.name}.ear ${it.artifactURL}"
+                            }                            
+                        }   
+                        displayName = BUILD_NUM + '-' + deploymentInstructions.environment                      
+                        currentBuild.displayName = BUILD_NUM + '-' + deploymentInstructions.environment
+                        currentBuild.description = "Application(s) deployed: " + appList
+                    }
+                }
+            }
+        }
+
+
+        stage('Deployment approval') {
+           when { 
+               expression { return runDeploy }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) { 
+                        approvalMsg = "The following application(s) will be deployed to " + TARGET_ENV +  appList                      
+                        pipelineLib.sendDeploymentApprovalEmail(DEPLOY_APPROVER_EMAIL, JENKINS_EMAIL, jobBaseName, BUILD_NUM)
+                        timeout(time: 60, unit: 'MINUTES') {
+                            input(id: "Deploy Approval", message: approvalMsg, ok: 'Deploy')
+                        }
+                    }
+                }
+            }
+        }
+
+        stage('Prepare Deployment') {
+           when { 
+               expression { return true }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        backUpDir = pipelineLib.backUpDirectoryName(jobBaseName)
+                        backUpDir = "${PACKAGE_DESTINATION}/${backUpDir}"
+
+                        sh "echo \"cd ${PACKAGE_DESTINATION}\" > backup.command.txt"
+                        sh "echo \"mkdir -p ${backUpDir} \" >> backup.command.txt"
+                        
+                        deploymentInstructions.application.each {                    
+                            sh "echo \"cd ${PACKAGE_DESTINATION}\" >> backup.command.txt"
+                            sh "echo \"cp ${it.name}.ear ${backUpDir} \" >> backup.command.txt"      
+                        }
+                        sh "cp backup.command.txt ${PACKAGE_DIR}"
+                        sh "echo \"cd ${DEPLOYMENT_ROOT}\" > install.command.txt"
+                        deploymentInstructions.application.each {
+                            sh "echo \"cd ${DEPLOYMENT_ROOT}/${it.clusterName}\" >> install.command.txt"
+                            sh "echo \"ls -al install${it.scriptName}.sh\" >> install.command.txt" 
+                            sh "echo \"./install${it.scriptName}.sh > install${it.scriptName}.sh.out \" >> install.command.txt" 
+                        }  
+                        sh "cp install.command.txt ${PACKAGE_DIR}"
+
+                        sh "echo \"cd ${DEPLOYMENT_ROOT}\" > displaylog.command.txt"
+                        deploymentInstructions.application.each {
+                            sh "echo \"cd ${DEPLOYMENT_ROOT}/${it.clusterName}\" >> displaylog.command.txt"
+                            sh "echo \"echo \" install${it.scriptName}.sh.out \"  \" >> displaylog.command.txt"
+                            sh "echo \"ls -al install${it.scriptName}.sh.out   \" >> displaylog.command.txt"
+                            sh "echo \"cat install${it.scriptName}.sh.out   \" >> displaylog.command.txt"
+                            sh "echo \"echo    \" >> displaylog.command.txt"
+                            sh "echo \"echo    \" >> displaylog.command.txt"
+                        }    
+                        sh "cp displaylog.command.txt ${PACKAGE_DIR}"
+
+                        sh "echo \"cd /root/auto-deploy-script \" > restart.was.cmd.txt"
+
+                        if (deploymentInstructions.ETECHAppStoreServerReboot) {
+                            sh "echo \"./stopWASServer.sh ETECHAppStoreServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh ETECHAppStoreServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.ESISDataServerReboot) {
+                            sh "echo \"./stopWASServer.sh ESISDataServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh ESISDataServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.CommonServiceServerReboot) {
+                            sh "echo \"./stopWASServer.sh CommonServiceServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh CommonServiceServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.EFilingServerReboot) {
+                            sh "echo \"./stopWASServer.sh EFilingServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh EFilingServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.emetricsServerReboot) {
+                            sh "echo \"./stopWASServer.sh emetricsServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh emetricsServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.RentalAppServerReboot) {
+                            sh "echo \"./stopWASServer.sh RentalAppServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh RentalAppServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.LPWServerReboot) {
+                            sh "echo \"./stopWASServer.sh LPWServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh LPWServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.TariffServerReboot) {
+                            sh "echo \"./stopWASServer.sh TariffServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh TariffServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.LogViewerServerReboot) {
+                            sh "echo \"./stopWASServer.sh LogViewerServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh LogViewerServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.ETECHUINServerReboot) {
+                            sh "echo \"./stopWASServer.sh ETECHUINServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh ETECHUINServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.ETECHDashboardServerReboot) {
+                            sh "echo \"./stopWASServer.sh ETECHDashboardServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh ETECHDashboardServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.SOLRDataServerReboot) {
+                            sh "echo \"./stopWASServer.sh SOLRDataServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh SOLRDataServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.eBizPubsMgmtServerReboot) {
+                            sh "echo \"./stopWASServer.sh eBizPubsMgmtServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh eBizPubsMgmtServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.EbizPubsServerReboot) {
+                            sh "echo \"./stopWASServer.sh EbizPubsServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh EbizPubsServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.ETECHDataServerReboot) {
+                            sh "echo \"./stopWASServer.sh ETECHDataServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh ETECHDataServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.CoreFileServiceServerReboot) {
+                            sh "echo \"./stopWASServer.sh CoreFileServiceServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh CoreFileServiceServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.FinanceAppsServerReboot) {
+                            sh "echo \"./stopWASServer.sh FinanceAppsServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh FinanceAppsServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.HCFICommonServerReboot) {
+                            sh "echo \"./stopWASServer.sh HCFICommonServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh HCFICommonServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.HCFIDealerFundingServerReboot) {
+                            sh "echo \"./stopWASServer.sh HCFIDealerFundingServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh HCFIDealerFundingServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.HCFIEOTServerReboot) {
+                            sh "echo \"./stopWASServer.sh HCFIEOTServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh HCFIEOTServer \" >> restart.was.cmd.txt"
+                        }
+                        sh "cp restart.was.cmd.txt ${PACKAGE_DIR}"
+                    }
+                }
+            }
+        }
+
+        stage('Send artifacts to the QA') {
+           when { 
+               expression { 
+                   return runDeploy &&  deploymentInstructions.environment == "qa"
+                }     
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {  
+                        sh "ssh root@${QA_WAS_IP} < backup.command.txt "
+                        deploymentInstructions.application.each {                            
+                            echo "Sending ${PACKAGE_DIR}/${it.name}.ear to ${QA_WAS_IP}"
+                            sh "scp ${PACKAGE_DIR}/${it.name}.ear root@${QA_WAS_IP}:${PACKAGE_DESTINATION}"
+                        }
+                    }
+                }
+            }
+        }
+
+        stage('Send artifacts to the PROD') {
+           when { 
+               expression { return runDeploy &&  deploymentInstructions.environment == "prod" }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {    
+                        sh "ssh root@${PROD_WAS_IP} < backup.command.txt "
+                        deploymentInstructions.application.each {                            
+                            echo "Sending ${PACKAGE_DIR}/${it.name}.ear to ${PROD_WAS_IP}"
+                            sh "scp ${PACKAGE_DIR}/${it.name}.ear root@${PROD_WAS_IP}:${PACKAGE_DESTINATION}"
+                            sh "cp ${PACKAGE_DIR}/${it.name}.ear  /JKS/prod-artifacts/"
+                        }
+                    }
+                }
+            }
+        }
+
+        stage('Install in QA') {
+           when { 
+               expression { return runDeploy &&  deploymentInstructions.environment == "qa"  }     
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        sh "ssh root@${QA_WAS_IP} < install.command.txt "
+                        sh "ssh root@${QA_WAS_IP} < displaylog.command.txt "
+                    }
+                }
+            }
+        }
+
+        stage('Install in PROD') {
+           when { 
+               expression { return runDeploy &&  deploymentInstructions.environment == "prod" }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        sh "ssh root@${PROD_WAS_IP} < install.command.txt "
+                        sh "ssh root@${PROD_WAS_IP} < displaylog.command.txt "
+                    }
+                }
+            }
+        }
+
+        stage('Restart WAS in QA') {
+           when { 
+               expression { return runDeploy &&  deploymentInstructions.environment == "qa" }     
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        sh "ssh root@${QA_WAS_NODE_1} < restart.was.cmd.txt "
+                        sh "ssh root@${QA_WAS_NODE_2} < restart.was.cmd.txt "
+                    }
+                }
+            }
+        }
+
+        stage('Restart WAS in PROD') {
+           when { 
+               expression { return runDeploy &&  deploymentInstructions.environment == "prod" }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        sh "ssh root@${PROD_WAS_NODE_1} < restart.was.cmd.txt "
+                        sh "ssh root@${PROD_WAS_NODE_2} < restart.was.cmd.txt "
+                        deploymentInstructions.application.each { 
+                            if (runDeploy) {
+                                sh "${WORKSPACE}/miscellaneous/my_curl.sh upload ${PACKAGE_DIR}/${it.name}.ear ${it.artifactURLPROD}"
+                            }                            
+                        }   
+                    }
+                }
+            }
+        }
+
+        stage('PROD deployment SOX report') {
+           when { 
+               expression { return runDeploy && deploymentInstructions.environment == "prod"  }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        sh " scp cloudbees-jenkins-distribution@${JKS_MASTER_IP}:${HCFI_BUILD_INFO_SHEET} ."
+                        pipelineLib.recordProdDeployInfo(DEPLOYMENT_LIST_FILE, jobBaseName, BUILD_NUM)
+                        sh "scp hcfi_build_info_sheet cloudbees-jenkins-distribution@${JKS_MASTER_IP}:${HCFI_BUILD_INFO_SHEET}"
+
+                    }
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            script {
+                dir(TEMP_WORK_FOLDER) {
+                    if (runDeploy) {
+                        archiveArtifacts allowEmptyArchive: true, artifacts: "deploymentList.yml"
+                        pipelineLib.sendBuildReportEmail(DEPLOY_NOTIFY_EMAIL,JENKINS_EMAIL)
+                    }
+                   echo "Sending email"
+                }
+                // deleteDir()
+                echo "Post deployment "
+            }
+        }
+    }
+}
+
+def generateDeploymentFile(){
+sh '''
+    pwd
+    mkdir -p ${WORKSPACE}/${BUILD_NUMBER}
+    cd ${WORKSPACE}/${BUILD_NUMBER}
+    echo "Generating ${DEPLOYMENT_LIST_FILE}"
+
+    echo "# deployment list" > ${DEPLOYMENT_LIST_FILE}
+    echo "environment: ${DEPLOY_ENV} " >> ${DEPLOYMENT_LIST_FILE}
+    echo "deploymentServiceAcct: ${DEPLOYMENT_SERVICE_ACCT} " >> ${DEPLOYMENT_LIST_FILE}    
+    echo "deployer: ${BUILD_USER} " >> ${DEPLOYMENT_LIST_FILE}
+    echo "jenkinsJobNumber: ${BUILD_NUMBER} " >> ${DEPLOYMENT_LIST_FILE}
+    echo "application: " >> ${DEPLOYMENT_LIST_FILE}
+
+	if [ ${AJAutomationEAR} = "true" ]; then
+        FinanceAppsServerReboot="yes"
+        echo "  - name: AJAutomationEAR" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    fileType: ear" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: AJAutomation" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: FianceAppsCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${AJAutomationEAR_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'ClearCaseMigratedJobs/HCFI/AJAutomation'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP_HCFI}/AJAutomationEAR/${AJAutomationEAR_version}/AJAutomationEAR-${AJAutomationEAR_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP_HCFI}/AJAutomationEAR/${AJAutomationEAR_version}/AJAutomationEAR-${AJAutomationEAR_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${CommonServiceEAR} = "true" ]; then
+        CommonServiceServerReboot="yes"
+        echo "  - name: CommonServiceEAR" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    fileType: ear" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: CommonService" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: CommonServiceCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${CommonServiceEAR_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'ClearCaseMigratedJobs/Common-Zone/build-CommonService'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP_CZ}/CommonServiceEAR/${CommonServiceEAR_version}/CommonServiceEAR-${CommonServiceEAR_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP_CZ}/CommonServiceEAR/${CommonServiceEAR_version}/CommonServiceEAR-${CommonServiceEAR_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${eFiling2} = "true" ]; then
+        EFilingServerReboot="yes"
+        echo "  - name: eFiling2" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    fileType: ear" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: EFilingApp" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: EFilingCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${eFiling2_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'ClearCaseMigratedJobs/Common-Zone/build-EFiling '" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP_CZ}/eFiling2/${eFiling2_version}/eFiling2-${eFiling2_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP_CZ}/eFiling2/${eFiling2_version}/eFiling2-${eFiling2_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${EmetricsMcpe} = "true" ]; then
+        emetricsServerReboot="yes"
+        echo "  - name: EmetricsMcpe" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    fileType: ear" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: EMetricsApp" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: emetricsCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'ClearCaseMigratedJobs/Common-Zone/build-EmetricsMcpe'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${EmetricsMcpe_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP_CZ}/EmetricsMcpe/${EmetricsMcpe_version}/EmetricsMcpe-${EmetricsMcpe_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP_CZ}/EmetricsMcpe/${EmetricsMcpe_version}/EmetricsMcpe-${EmetricsMcpe_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${eRental} = "true" ]; then
+        RentalAppServerReboot="yes"
+        echo "  - name: eRental" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    fileType: ear" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: RentalApp" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: RentalAppCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'ClearCaseMigratedJobs/Common-Zone/build-eRental'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${eRental_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP_CZ}/eRental/${eRental_version}/eRental-${eRental_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP_CZ}/eRental/${eRental_version}/eRental-${eRental_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${LifetimePartsWarranty} = "true" ]; then
+        LPWServerReboot="yes"
+        echo "  - name: LifetimePartsWarranty" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    fileType: ear" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: LifetimePartsWarranty" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: LPWCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'ClearCaseMigratedJobs/Common-Zone/build-LifetimePartsWarranty'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${LifetimePartsWarranty_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP_CZ}/LifetimePartsWarranty/${LifetimePartsWarranty_version}/LifetimePartsWarranty-${LifetimePartsWarranty_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP_CZ}/LifetimePartsWarranty/${LifetimePartsWarranty_version}/LifetimePartsWarranty-${LifetimePartsWarranty_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${TariffClassification} = "true" ]; then
+        TariffServerReboot="yes"
+        echo "  - name: TariffClassification" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    fileType: ear" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: Tariff" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: TariffCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${TariffClassification_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'ClearCaseMigratedJobs/Common-Zone/build-TariffClassification '" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP_CZ}/TariffClassification/${TariffClassification_version}/TariffClassification-${TariffClassification_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP_CZ}/TariffClassification/${TariffClassification_version}/TariffClassification-${TariffClassification_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${TransactionLogServiceEAR} = "true" ]; then
+        LogViewerServerReboot="yes"
+        echo "  - name: TransactionLogServiceEAR" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    fileType: ear" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: TransactionLogService" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: LogViewerCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${TransactionLogServiceEAR_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'ClearCaseMigratedJobs/Common-Zone/build-TransactionLogService'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP_CZ}/TransactionLogServiceEAR/${TransactionLogServiceEAR_version}/TransactionLogServiceEAR-${TransactionLogServiceEAR_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP_CZ}/TransactionLogServiceEAR/${TransactionLogServiceEAR_version}/TransactionLogServiceEAR-${TransactionLogServiceEAR_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${userAuthorization} = "true" ]; then
+        ETECHUINServerReboot="yes"
+        echo "  - name: userAuthorization" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    fileType: ear" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: UserAuth" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: ETECHUINCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${userAuthorization_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'ClearCaseMigratedJobs/Common-Zone/build-UserAuthorizarion '" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP_CZ}/userAuthorization/${userAuthorization_version}/userAuthorization-${userAuthorization_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP_CZ}/userAuthorization/${userAuthorization_version}/userAuthorization-${userAuthorization_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${ETechDashboardEAR} = "true" ]; then
+        ETECHDashboardServerReboot="yes"
+        echo "  - name: ETechDashboardEAR" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    fileType: ear" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: Dashboard" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: ETECHDashboardCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${ETechDashboardEAR_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'ClearCaseMigratedJobs/Publications/build-ETechDashboard '" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP_PUB}/ETechDashboardEAR/${ETechDashboardEAR_version}/ETechDashboardEAR-${ETechDashboardEAR_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP_PUB}/ETechDashboardEAR/${ETechDashboardEAR_version}/ETechDashboardEAR-${ETechDashboardEAR_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${SolrIndexerEAR} = "true" ]; then
+        SOLRDataServerReboot="yes"
+        echo "  - name: SolrIndexerEAR" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    fileType: ear" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: SolrIndexer" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: SOLRDataCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${SolrIndexerEAR_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'ClearCaseMigratedJobs/ConnectedVehicles/Publications/build-SolrIndexerEAR '" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP_PUB}/SolrIndexerEAR/${SolrIndexerEAR_version}/SolrIndexerEAR-${SolrIndexerEAR_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP_PUB}/SolrIndexerEAR/${SolrIndexerEAR_version}/SolrIndexerEAR-${SolrIndexerEAR_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${recordManagementSystem} = "true" ]; then
+        CoreFileServiceServerReboot="yes"
+        echo "  - name: recordManagementSystem" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    fileType: ear" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: RMS" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: CoreFileServiceCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${recordManagementSystem_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'ClearCaseMigratedJobs/HCFI/RecordManagementSystem'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP_PUB}/recordManagementSystem/${recordManagementSystem_version}/recordManagementSystem-${recordManagementSystem_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP_PUB}/recordManagementSystem/${recordManagementSystem_version}/recordManagementSystem-${recordManagementSystem_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${eBizMsg} = "true" ]; then
+        eBizPubsMgmtServerReboot="yes"
+        echo "  - name: eBizMsg" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    fileType: ear" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: eBizMsg" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: eBizPubsMgmtCluster/ConnectedVehicles/Publications/build-eBizMsg" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${eBizMsg_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'ClearCaseMigratedJobs'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP_PUB}/eBizMsg/${eBizMsg_version}/eBizMsg-${eBizMsg_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP_PUB}/eBizMsg/${eBizMsg_version}/eBizMsg-${eBizMsg_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${eBizBulletinGroup} = "true" ]; then
+        eBizPubsMgmtServerReboot="yes"
+        echo "  - name: eBizBulletinGroup" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    fileType: ear" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: BulletinGroup" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: eBizPubsMgmtCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${eBizBulletinGroup_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'ClearCaseMigratedJobs/ConnectedVehicles/Publications/build-eBizBulletinGroup '" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP_PUB}/eBizBulletinGroup/${eBizBulletinGroup_version}/eBizBulletinGroup-${eBizBulletinGroup_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP_PUB}/eBizBulletinGroup/${eBizBulletinGroup_version}/eBizBulletinGroup-${eBizBulletinGroup_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${esisMgmt} = "true" ]; then
+        eBizPubsMgmtServerReboot="yes"
+        echo "  - name: esisMgmt" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    fileType: ear" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: EsisMgmt" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: eBizPubsMgmtCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${esisMgmt_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'ClearCaseMigratedJobs/ConnectedVehicles/Publications/build-esisMgmtEAR '" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP_PUB}/esisMgmt/${esisMgmt_version}/esisMgmt-${esisMgmt_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP_PUB}/esisMgmt/${esisMgmt_version}/esisMgmt-${esisMgmt_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${EBizPublication} = "true" ]; then
+        EbizPubsServerReboot="yes"
+        echo "  - name: EBizPublication" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    fileType: ear" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: EBizPublication" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: eBizPubsCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${EBizPublication_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'ClearCaseMigratedJobs'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP_PUB}/EBizPublication/${EBizPublication_version}/EBizPublication-${EBizPublication_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP_PUB}/EBizPublication/${EBizPublication_version}/EBizPublication-${EBizPublication_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${TechContentEAR} = "true" ]; then
+        ESISDataServerReboot="yes"
+        echo "  - name: TechContentEAR" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    fileType: ear" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: TechContent" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: ESISDataCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${TechContentEAR_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'ClearCaseMigratedJobs/ConnectedVehicles/Publications/build-eBizPublication'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP_PUB}/TechContentEAR/${TechContentEAR_version}/TechContentEAR-${TechContentEAR_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP_PUB}/TechContentEAR/${TechContentEAR_version}/TechContentEAR-${TechContentEAR_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${dataCollection} = "true" ]; then
+        ETECHDataServerReboot="yes"
+        echo "  - name: dataCollection" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    fileType: ear" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: DataCollectionApp" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: ETECHDataCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${dataCollection_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'ClearCaseMigratedJobs'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP_PUB}/dataCollection/${dataCollection_version}/dataCollection-${dataCollection_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP_PUB}/dataCollection/${dataCollection_version}/dataCollection-${dataCollection_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${ETechStoreEAR} = "true" ]; then
+        ETECHAppStoreServerReboot="yes"
+        echo "  - name: ETechStoreEAR" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    fileType: ear" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: Store" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: ETECHAppStoreCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${ETechStoreEAR_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'ClearCaseMigratedJobs/ConnectedVehicles/ETECH/buildETechDataCollection'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP_PUB}/ETechStoreEAR/${ETechStoreEAR_version}/ETechStoreEAR-${ETechStoreEAR_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP_PUB}/ETechStoreEAR/${ETechStoreEAR_version}/ETechStoreEAR-${ETechStoreEAR_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${coreFileService} = "true" ]; then
+        CoreFileServiceServerReboot="yes"
+        echo "  - name: coreFileService" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    fileType: ear" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: CFS" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: CoreFileServiceCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${coreFileService_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'ClearCaseMigratedJobs/HCFI/CoreFileService'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP_HCFI}/coreFileService/${coreFileService_version}/coreFileService-${coreFileService_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP_HCFI}/coreFileService/${coreFileService_version}/coreFileService-${coreFileService_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${CommonRestServices} = "true" ]; then
+        HCFICommonServerReboot="yes"
+        echo "  - name: CommonRestServices" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    fileType: ear" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: CRS" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: HCFICommonCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${CommonRestServices_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'ClearCaseMigratedJobs/HCFI/CommonRestService '" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP_HCFI}/CommonRestServices/${CommonRestServices_version}/CommonRestServices-${CommonRestServices_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP_HCFI}/CommonRestServices/${CommonRestServices_version}/CommonRestServices-${CommonRestServices_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${fundingStatement} = "true" ]; then
+        HCFIDealerFundingServerReboot="yes"
+        echo "  - name: fundingStatement" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    fileType: ear" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: DealerFunding" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: HCFIDealerFundingCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${fundingStatement_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'buildEOffClearCaseMigratedJobsiceApp/HCFI/DealerFundingStatements'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP_HCFI}/fundingStatement/${fundingStatement_version}/fundingStatement-${fundingStatement_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP_HCFI}/fundingStatement/${fundingStatement_version}/fundingStatement-${fundingStatement_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${userEntitlement} = "true" ]; then
+        HCFIEOTServerReboot="yes"
+        echo "  - name: userEntitlement" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    fileType: ear" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: UserEntitle" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: HCFIEOTCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${userEntitlement_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'ClearCaseMigratedJobs/HCFI/eotGroundingTool'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP_HCFI}/userEntitlement/${userEntitlement_version}/userEntitlement-${userEntitlement_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP_HCFI}/userEntitlement/${userEntitlement_version}/userEntitlement-${userEntitlement_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${eotGroundingTool} = "true" ]; then
+        HCFIEOTServerReboot="yes"
+        echo "  - name: eotGroundingTool" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    fileType: ear" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: EOT" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: HCFIEOTCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${eotGroundingTool_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'ClearCaseMigratedJobs/HCFI/eotGroundingTool '" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP_HCFI}/eotGroundingTool/${eotGroundingTool_version}/eotGroundingTool-${eotGroundingTool_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP_HCFI}/eotGroundingTool/${eotGroundingTool_version}/eotGroundingTool-${eotGroundingTool_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+
+    if [ ${CommonServiceServerReboot} = "yes" ]; then
+        echo "CommonServiceServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${EFilingServerReboot} = "yes" ]; then
+        echo "EFilingServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${emetricsServerReboot} = "yes" ]; then
+        echo "emetricsServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${RentalAppServerReboot} = "yes" ]; then
+        echo "RentalAppServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${LPWServerReboot} = "yes" ]; then
+        echo "LPWServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${TariffServerReboot} = "yes" ]; then
+        echo "TariffServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${LogViewerServerReboot} = "yes" ]; then
+        echo "LogViewerServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${ETECHUINServerReboot} = "yes" ]; then
+        echo "ETECHUINServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${ETECHDashboardServerReboot} = "yes" ]; then
+        echo "ETECHDashboardServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${SOLRDataServerReboot} = "yes" ]; then
+        echo "SOLRDataServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${eBizPubsMgmtServerReboot} = "yes" ]; then
+        echo "eBizPubsMgmtServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${EbizPubsServerReboot} = "yes" ]; then
+        echo "EbizPubsServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${ESISDataServerReboot} = "yes" ]; then
+        echo "ESISDataServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${ETECHDataServerReboot} = "yes" ]; then
+        echo "ETECHDataServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${ETECHAppStoreServerReboot} = "yes" ]; then
+        echo "ETECHAppStoreServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${CoreFileServiceServerReboot} = "yes" ]; then
+        echo "CoreFileServiceServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${FinanceAppsServerReboot} = "yes" ]; then
+        echo "FinanceAppsServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${HCFICommonServerReboot} = "yes" ]; then
+        echo "HCFICommonServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${HCFIDealerFundingServerReboot} = "yes" ]; then
+        echo "HCFIDealerFundingServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${HCFIEOTServerReboot} = "yes" ]; then
+        echo "HCFIEOTServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi  
+
+    cp  ${DEPLOYMENT_LIST_FILE} ${WORKSPACE}/TEMP_WORK_FOLDER 
+'''
+}

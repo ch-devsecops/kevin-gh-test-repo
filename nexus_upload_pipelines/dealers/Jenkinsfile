@@ -1,0 +1,95 @@
+import groovy.json.JsonSlurper 
+
+def pipelineLib = null
+pipeline {
+    agent {
+        label 'Linux_Slave_3'
+    }
+    environment {
+        CONTROL_FILE            = "artifacts.yml"
+        NEXUS_URL               = 'https://nexus.honda.ca:8443'
+        NEXUS_REPO              = 'honda-artifacts-release'
+        NEXUS_GROUP             = 'ca/honda/apps/dealers'
+        TEMP_WORK_FOLDER        = 'TEMP_WORK_FOLDER' 
+        BUILD_NUM               = "${env.BUILD_NUMBER}" 
+        JKS_MASTER_IP           = '10.10.221.33'
+    }
+    stages {
+        stage('Get upstream job information') {
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {                        
+                        deleteDir() //clean up temp folder
+                        pipelineLib = load "${WORKSPACE}/vars/libs.groovy"
+                        def upstream = currentBuild.rawBuild.getCause(hudson.model.Cause$UpstreamCause)
+                        def upstreamDescription = upstream?.shortDescription
+                        echo "upstreamupstreamupstreamupstreamupstream"                     
+                           echo "${upstream}"                   
+                           echo "${upstreamDescription}"
+                           echo "___________________________________"
+
+                        upstreamJobName = pipelineLib.getJobBaseName(upstreamDescription)
+                        upstreamJobNumber = pipelineLib.getJobNumber(upstreamDescription)
+                        echo "upstreamJob: ${upstreamJobName}-${upstreamJobNumber}"
+                        upstreamDescription = null
+                        upstream = null
+                        sh "cp ${WORKSPACE}/nexus_upload_pipelines/dealers/${CONTROL_FILE} ."  
+                        uploadInstructions = readYaml file: CONTROL_FILE
+                        runJob = uploadInstructions?.application?.size() > 0  
+                        currentBuild.displayName = BUILD_NUM + '-' + upstreamJobName + '-' + upstreamJobNumber
+                    }
+                }
+            }
+        }
+
+        stage('Upload build package to Nexus ') {
+           when { 
+               expression { return runJob }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        uploadInstructions.application.each {app ->
+                            echo " ${app.name} "
+                            def pipelineName = "${app.name}"
+                            if (pipelineName.equalsIgnoreCase(upstreamJobName)) {
+                                app.artifact.each {
+                                    if (app.artifactArchivedOnMaster) {
+                                        echo "The build artifacts for ${pipelineName} is on Master"
+                                        echo "Find the matching pipeline"
+                                        def artifectRemotePath = app.buildJobRootDir  + "/" + upstreamJobNumber + "/archive/${it.buildArtifactPath}/${it.buildArtifactName}.${it.buildArtifactType}" 
+                                        echo artifectRemotePath
+                                        sh "scp cloudbees-jenkins-distribution@${JKS_MASTER_IP}:${artifectRemotePath} ."
+                                        sh "chmod +x ${WORKSPACE}/miscellaneous/my_curl.sh" 
+                                        sh  "${WORKSPACE}/miscellaneous/my_curl.sh upload ${it.buildArtifactName}.${it.buildArtifactType}  ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/${it.buildArtifactName}/${upstreamJobNumber}/${it.buildArtifactName}-${upstreamJobNumber}.${it.buildArtifactType}"
+
+                                    }
+                                    else {
+                                        echo "The build artifacts for ${pipelineName} is on Agent"
+                                        def artifectRemotePath = app.buildJobRootDir  + "/${it.buildArtifactPath}/${it.buildArtifactName}.${it.buildArtifactType}" 
+                                        echo artifectRemotePath
+                                        sh "cp ${artifectRemotePath} ."
+                                        sh "chmod +x ${WORKSPACE}/miscellaneous/my_curl.sh" 
+                                        sh  "${WORKSPACE}/miscellaneous/my_curl.sh upload ${it.buildArtifactName}.${it.buildArtifactType}  ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/${it.buildArtifactName}/${upstreamJobNumber}/${it.buildArtifactName}-${upstreamJobNumber}.${it.buildArtifactType}"
+                                    }
+                                }  
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            script {
+                dir(TEMP_WORK_FOLDER) {
+                    pipelineLib.sendBuildReportEmail("Kevin_Lou@ch.honda.com",JENKINS_EMAIL)
+                }
+                //deleteDir()
+                echo "Post deployment "
+            }
+        }
+    }    
+}

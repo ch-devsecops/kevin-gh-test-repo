@@ -1,0 +1,596 @@
+pipeline {
+    agent {
+        label 'Linux_Slave_2'
+    }
+    environment {
+        BRANCH_TO_RUN           = 'master'
+        PACKAGE_DIR             = "${env.WORKSPACE}/${env.BUILD_NUMBER}"
+        DEPLOYMENT_LIST_FILE    = "deploymentList.yml"
+        DEPLOYMENT_SERVICE_ACCT = 'root'
+        NEXUS_URL               = 'https://nexus.honda.ca:8443'
+        NEXUS_REPO              = 'honda-artifacts-release'
+        NEXUS_USER              = 'mvn-deploy'
+        NEXUS_KEY               = 'iMuxRFCA45LY3pT4KE7APwOehgJ4sKE-eUvnYG1zsSgW'
+        NEXUS_GROUP             = 'ca/honda/apps/ebiz'
+        TEMP_WORK_FOLDER        = 'TEMP_WORK_FOLDER'
+        QA_WAS_IP               = '10.10.91.80'
+        QA_WAS_NODE_1           = '10.10.91.50'
+        QA_WAS_NODE_2           = '10.10.91.52'
+        PROD_WAS_IP             = '10.10.81.80'
+        PROD_WAS_NODE_1         = '10.10.81.50'
+        PROD_WAS_NODE_2         = '10.10.81.52'
+        BUILD_NUM               = "${env.BUILD_NUMBER}"
+        TARGET_ENV              = "${env.DEPLOY_ENV}"
+        DEPLOY_APPROVER_EMAIL   = 'udaykumar_vellala@ch.honda.com,kevin_lou@ch.honda.com'
+        DEPLOY_NOTIFY_EMAIL     = 'udaykumar_vellala@ch.honda.com,kevin_lou@ch.honda.com'
+
+        //DEPLOY_APPROVER_EMAIL   = 'kevin_lou@ch.honda.com'
+       //DEPLOY_NOTIFY_EMAIL     = 'kevin_lou@ch.honda.com'
+
+        JENKINS_EMAIL           = 'devops@ch.honda.com'
+
+        PACKAGE_DESTINATION     = '/opt/IBM/WebSphere/honda/build'
+        // PACKAGE_DESTINATION     = '/tmp'
+        DEPLOYMENT_ROOT         = '/opt/IBM/WebSphere/honda/build/install/jython/deployment'
+
+    }
+    stages {
+        stage('Authenticate the deployment') {
+            steps {
+                script {
+                    withCredentials([string(credentialsId: 'eBiz_QA_PROD_Deploy_Secret', variable: 'DEPLOYPWD')]) {
+                        if (DEPLOYMENT_PASSWORD != DEPLOYPWD){
+                            echo "Invalid password! Go Away!!"
+                            error("Invalid password! Go Away!!")
+                        }
+                    }
+                }
+            }
+        }
+        stage('Get application list') {
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {                        
+                        deleteDir() //clean up temp folder
+                        generateDeploymentFile()
+                        deploymentInstructions = readYaml file: DEPLOYMENT_LIST_FILE
+                        runDeploy = deploymentInstructions?.application?.size() > 0                        
+                    }
+                }
+            }
+        }
+
+        stage('Download application from Nexus ') {
+           when { 
+               expression { return runDeploy }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        echo "pwd"
+                        echo "PACKAGE_DIR = ${PACKAGE_DIR}"
+                        appList = "\n"
+
+                        deploymentInstructions.application.each {
+                            echo " ${it.name} "
+                            appList = appList + "  - ${it.name}   \n"
+                            sh "curl --user ${NEXUS_USER}:${NEXUS_KEY} -X GET  ${it.artifactURL} --output ${PACKAGE_DIR}/${it.name}.ear"
+
+                        }
+                        
+                        currentBuild.displayName = BUILD_NUM + '-' + deploymentInstructions.environment
+                        currentBuild.description = "Application(s) deployed: " + appList
+                    }
+                }
+            }
+        }
+
+        stage('Deployment approval') {
+           when { 
+               expression { return runDeploy }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        appList = "\n"
+                        deploymentInstructions.application.each {
+                            appList = appList + "  - ${it.name}   \n"
+                        }
+                        approvalMsg = "The following application(s) will be deployed to " + TARGET_ENV +  appList
+
+                        jobURL = "https://jenkins-dev.honda.ca/blue/organizations/jenkins/DevOpsJobs%2FQA-PROD-Auto-Deployments%2FConnectedVehicleDeploymentPipeline-QA-PROD/detail/ConnectedVehicleDeploymentPipeline-QA-PROD/" + BUILD_NUM + "/pipeline"
+
+                        jobURL1 = "https://jenkins-dev.honda.ca/job/DevOpsJobs/job/QA-PROD-Auto-Deployments/job/ConnectedVehicleDeploymentPipeline-QA-PROD/" + BUILD_NUM + "/console"
+                        emailMsg = "There is a deployment job needs your approval. <b>Note that the job will expire in 60 minutes</b>.<p>Click on either of the below links to access the job: <p>" + "<li>" + jobURL + "<li>" + jobURL1
+                        sendApprovalEmail(DEPLOY_APPROVER_EMAIL, JENKINS_EMAIL, emailMsg)
+
+                        timeout(time: 60, unit: 'MINUTES') {
+                            input(id: "Deploy Approval", message: approvalMsg, ok: 'Deploy')
+                        }
+                    }
+                }
+            }
+        }
+
+        stage('Prepare Deployment') {
+           when { 
+               expression { return runDeploy }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        sh "echo \"cd ${PACKAGE_DESTINATION}\" > backup.command.txt"
+                        sh "echo \"mkdir -p backup_cv_auto_deployment_${BUILD_NUM}\" >> backup.command.txt"
+                        
+                        deploymentInstructions.application.each {                    
+                            sh "echo \"cd ${PACKAGE_DESTINATION}\" >> backup.command.txt"
+                            sh "echo \"cp ${it.name}.ear backup_cv_auto_deployment_${BUILD_NUM}\" >> backup.command.txt"      
+                        }
+                        sh "cp backup.command.txt ${PACKAGE_DIR}"
+                        sh "echo \"cd ${DEPLOYMENT_ROOT}\" > install.command.txt"
+                        deploymentInstructions.application.each {
+                            sh "echo \"cd ${DEPLOYMENT_ROOT}/${it.clusterName}\" >> install.command.txt"
+                            sh "echo \"ls -al install${it.scriptName}.sh\" >> install.command.txt" 
+                            sh "echo \"./install${it.scriptName}.sh > install${it.scriptName}.sh.out \" >> install.command.txt" 
+                        }  
+                        sh "cp install.command.txt ${PACKAGE_DIR}"
+
+                        sh "echo \"cd ${DEPLOYMENT_ROOT}\" > displaylog.command.txt"
+                        deploymentInstructions.application.each {
+                            sh "echo \"cd ${DEPLOYMENT_ROOT}/${it.clusterName}\" >> displaylog.command.txt"
+                            sh "echo \"echo \" install${it.scriptName}.sh.out \"  \" >> displaylog.command.txt"
+                            sh "echo \"ls -al install${it.scriptName}.sh.out   \" >> displaylog.command.txt"
+                            sh "echo \"cat install${it.scriptName}.sh.out   \" >> displaylog.command.txt"
+                            sh "echo \"echo    \" >> displaylog.command.txt"
+                            sh "echo \"echo    \" >> displaylog.command.txt"
+                        }    
+                        sh "cp displaylog.command.txt ${PACKAGE_DIR}"
+
+                        sh "echo \"cd /root/auto-deploy-script \" > restart.was.cmd.txt"
+
+                        if (deploymentInstructions.AutoDCSServerReboot) {
+                            sh "echo \"./stopWASServer.sh AutoDCSServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.EbizB2BServerReboot) {
+                            sh "echo \"./stopWASServer.sh EbizB2BServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.AutoRIAServerReboot) {
+                            sh "echo \"./stopWASServer.sh AutoRIAServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.CSToolServerReboot) {
+                            sh "echo \"./stopWASServer.sh CSToolServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.DashboardServerReboot) {
+                            sh "echo \"./stopWASServer.sh DashboardServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.DCSServerReboot) {
+                            sh "echo \"./stopWASServer.sh DCSServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.EbizSHAREServerReboot) {
+                            sh "echo \"./stopWASServer.sh EbizSHAREServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.FileTranServerReboot) {
+                            sh "echo \"./stopWASServer.sh FileTranServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.IDriveServerReboot) {
+                            sh "echo \"./stopWASServer.sh IDriveServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.InstituteServerReboot) {
+                            sh "echo \"./stopWASServer.sh InstituteServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.PortalServerReboot) {
+                            sh "echo \"./stopWASServer.sh PortalServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.SppToolServerReboot) {
+                            sh "echo \"./stopWASServer.sh SppToolServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.eOfficeSHAREDServerReboot) {
+                            sh "echo \"./stopWASServer.sh eOfficeSHAREDServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.IDPServerReboot) {
+                            sh "echo \"./stopWASServer.sh IDPServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.EbizPubsServerReboot) {
+                            sh "echo \"./stopWASServer.sh EbizPubsServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.VDRDataExchWSServerReboot) {
+                            sh "echo \"./stopWASServer.sh VDRDataExchWSServer \" >> restart.was.cmd.txt"
+                        } 
+
+                        sh "cp restart.was.cmd.txt ${PACKAGE_DIR}"
+                    }
+                }
+            }
+        }
+
+        stage('Send artifacts to the QA') {
+           when { 
+               expression { 
+                   return runDeploy &&  deploymentInstructions.environment == "qa"
+                }     
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {     
+                        sh "ssh root@${QA_WAS_IP} < backup.command.txt "
+                        deploymentInstructions.application.each {                            
+                            echo "Sending ${PACKAGE_DIR}/${it.name}.ear to ${QA_WAS_IP}"                           
+                            sh "scp ${PACKAGE_DIR}/${it.name}.ear root@${QA_WAS_IP}:${PACKAGE_DESTINATION}"
+                        }
+                    }
+                }
+            }
+        }
+
+        stage('Send artifacts to the PROD') {
+           when { 
+               expression { return runDeploy &&  deploymentInstructions.environment == "prod" }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {    
+                        sh "ssh root@${PROD_WAS_IP} < backup.command.txt "
+                        deploymentInstructions.application.each {                            
+                            echo "Sending ${PACKAGE_DIR}/${it.name}.ear to ${PROD_WAS_IP}"
+                            sh "scp ${PACKAGE_DIR}/${it.name}.ear root@${PROD_WAS_IP}:${PACKAGE_DESTINATION}"
+                        }
+                    }
+                }
+            }
+        }
+
+        stage('Install in QA') {
+           when { 
+               expression { return runDeploy &&  deploymentInstructions.environment == "qa"  }     
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        sh "ssh root@${QA_WAS_IP} < install.command.txt "
+                        sh "ssh root@${QA_WAS_IP} < displaylog.command.txt "
+                    }
+                }
+            }
+        }
+
+        stage('Install in PROD') {
+           when { 
+               expression { return runDeploy &&  deploymentInstructions.environment == "prod" }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        sh "ssh root@${PROD_WAS_IP} < install.command.txt "
+                        sh "ssh root@${PROD_WAS_IP} < displaylog.command.txt "
+                    }
+                }
+            }
+        }
+
+        stage('Restart WAS in QA') {
+           when { 
+               expression { return runDeploy &&  deploymentInstructions.environment == "qa" }     
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        sh "ssh root@${QA_WAS_NODE_1} < restart.was.cmd.txt "
+                        sh "ssh root@${QA_WAS_NODE_2} < restart.was.cmd.txt "
+                    }
+                }
+            }
+        }
+
+        stage('Restart WAS in PROD') {
+           when { 
+               expression { return runDeploy &&  deploymentInstructions.environment == "prod" }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        sh "ssh root@${PROD_WAS_NODE_1} < restart.was.cmd.txt "
+                        sh "ssh root@${PROD_WAS_NODE_2} < restart.was.cmd.txt "
+                    }
+                }
+            }
+        }
+
+        stage('Publishing Results') {
+           when { 
+               expression { return runDeploy  }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        archiveArtifacts allowEmptyArchive: true, artifacts: "deploymentList.yml"
+                    }
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            script {
+                dir(TEMP_WORK_FOLDER) {
+                   sendBuildReportEmail(DEPLOY_NOTIFY_EMAIL,JENKINS_EMAIL)
+                   echo "Sending email"
+                }
+                // deleteDir()
+                echo "Post deployment "
+            }
+        }
+    }
+}
+
+def generateDeploymentFile(){
+sh '''
+    pwd
+    mkdir -p ${WORKSPACE}/${BUILD_NUMBER}
+    cd ${WORKSPACE}/${BUILD_NUMBER}
+    echo "Generating ${DEPLOYMENT_LIST_FILE}"
+
+    echo "# deployment list" > ${DEPLOYMENT_LIST_FILE}
+    echo "environment: ${DEPLOY_ENV} " >> ${DEPLOYMENT_LIST_FILE}
+    echo "deploymentServiceAcct: ${DEPLOYMENT_SERVICE_ACCT} " >> ${DEPLOYMENT_LIST_FILE}    
+    echo "deployer: ${BUILD_USER} " >> ${DEPLOYMENT_LIST_FILE}
+    echo "jenkinsJobNumber: ${BUILD_NUMBER} " >> ${DEPLOYMENT_LIST_FILE}
+    echo "application: " >> ${DEPLOYMENT_LIST_FILE}
+
+	if [ ${auto} = "true" ]; then
+        AutoDCSServerReboot="yes"
+        echo "  - name: auto" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: AutoApp" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: AutoDCSCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${auto_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/auto/${auto_version}/auto-${auto_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${autoExt} = "true" ]; then
+        EbizB2BServerReboot="yes"
+        echo "  - name: autoExt" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: AutoExtApp" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: EbizB2BCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${autoExt_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/autoExt/${autoExt_version}/autoExt-${autoExt_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${autoRIA} = "true" ]; then
+        AutoRIAServerReboot="yes"
+        echo "  - name: autoRIA" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: AutoRIAApp" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: AutoRIACluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${autoRIA_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/autoRIA/${autoRIA_version}/autoRIA-${autoRIA_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${BookingApp} = "true" ]; then
+        EbizB2BServerReboot="yes"
+        echo "  - name: BookingApp" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: BookingApp" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: EbizB2BCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${BookingApp_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/BookingApp/${BookingApp_version}/BookingApp-${BookingApp_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${dashboard} = "true" ]; then
+        DashboardServerReboot="yes"
+        echo "  - name: dashboard" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: DashboardApp" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: DashboardCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${dashboard_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/dashboard/${dashboard_version}/dashboard-${dashboard_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${dcs} = "true" ]; then
+        DCSServerReboot="yes"
+        echo "  - name: dcs" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: DCSApp" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: DCSCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${dcs_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/dcs/${dcs_version}/dcs-${dcs_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${eBizCoopAdReport} = "true" ]; then
+        EbizB2BServerReboot="yes"
+        echo "  - name: eBizCoopAdReport" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: EbizCoopAdReportApp" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: EbizB2BCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${eBizCoopAdReport_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/eBizCoopAdReport/${eBizCoopAdReport_version}/eBizCoopAdReport-${eBizCoopAdReport_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${ebizCoopClaim} = "true" ]; then
+        EbizSHAREServerReboot="yes"
+        echo "  - name: ebizCoopClaim" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: EbizCoopClaimApp" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: EbizSHARECluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${ebizCoopClaim_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/ebizCoopClaim/${ebizCoopClaim_version}/ebizCoopClaim-${ebizCoopClaim_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${eBizNsxCustomBuild} = "true" ]; then
+        EbizSHAREServerReboot="yes"
+        echo "  - name: eBizNsxCustomBuild" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: EbizNsxCustomBuild" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: EbizSHARECluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${eBizNsxCustomBuild_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/eBizNsxCustomBuild/${eBizNsxCustomBuild_version}/eBizNsxCustomBuild-${eBizNsxCustomBuild_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${eMetricsDashboard} = "true" ]; then
+        EbizSHAREServerReboot="yes"
+        echo "  - name: eMetricsDashboard" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: MobileDashboardApp" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: EbizSHARECluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${eMetricsDashboard_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/eMetricsDashboard/${eMetricsDashboard_version}/eMetricsDashboard-${eMetricsDashboard_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${ePDI} = "true" ]; then
+        EbizSHAREServerReboot="yes"
+        echo "  - name: ePDI" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: EPDI" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: EbizSHARECluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${ePDI_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/ePDI/${ePDI_version}/ePDI-${ePDI_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${ePQR} = "true" ]; then
+        EbizB2BServerReboot="yes"
+        echo "  - name: ePQR" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: EPQRApp" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: EbizB2BCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${ePQR_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/ePQR/${ePQR_version}/ePQR-${ePQR_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${hub} = "true" ]; then
+        FileTranServerReboot="yes"
+        echo "  - name: hub" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: FileHubApp" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: FileTranCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${hub_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/hub/${hub_version}/hub-${hub_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${idrive} = "true" ]; then
+        IDriveServerReboot="yes"
+        echo "  - name: idrive" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: IDriveApp" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: IDriveCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${idrive_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/idrive/${idrive_version}/idrive-${idrive_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${institute} = "true" ]; then
+        InstituteServerReboot="yes"
+        echo "  - name: institute" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: HondaInstApp" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: InstituteCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${institute_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/institute/${institute_version}/institute-${institute_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${portal} = "true" ]; then
+        PortalServerReboot="yes"
+        echo "  - name: portal" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: PortalApp" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: PortalCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${portal_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/portal/${portal_version}/portal-${portal_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${programExcep} = "true" ]; then
+        EbizSHAREServerReboot="yes"
+        echo "  - name: programExcep" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: ProgramExcep" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: EbizSHARECluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${programExcep_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/programExcep/${programExcep_version}/programExcep-${programExcep_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${shibbolethIdp} = "true" ]; then
+        IDPServerReboot="yes"
+        echo "  - name: shibbolethIdp" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: ShibbolethIdp" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: IDPCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${shibbolethIdp_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/shibbolethIdp/${shibbolethIdp_version}/shibbolethIdp-${shibbolethIdp_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${sppTool} = "true" ]; then
+        SppToolServerReboot="yes"
+        echo "  - name: sppTool" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: SppTool" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: SppToolCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${sppTool_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/sppTool/${sppTool_version}/sppTool-${sppTool_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${techlineHelp} = "true" ]; then
+        EbizPubsServerReboot="yes"
+        echo "  - name: techlineHelp" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: TechLineApp" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: EbizPubsCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${techlineHelp_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/techlineHelp/${techlineHelp_version}/techlineHelp-${techlineHelp_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${VDRDataExch} = "true" ]; then
+        VDRDataExchWSServerReboot="yes"
+        echo "  - name: VDRDataExch" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: VDR" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: VDRDataExchWSCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${VDRDataExch_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/VDRDataExch/${VDRDataExch_version}/VDRDataExch-${VDRDataExch_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+	if [ ${wpp} = "true" ]; then
+        SppToolServerReboot="yes"
+        echo "  - name: wpp" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: WPPApp" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: SppToolCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${wpp_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/wpp/${wpp_version}/wpp-${wpp_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+
+    if [ ${AutoDCSServerReboot} = "yes" ]; then
+        echo "AutoDCSServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+
+    if [ ${EbizB2BServerReboot} = "yes" ]; then
+        echo "EbizB2BServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${AutoRIAServerReboot} = "yes" ]; then
+        echo "AutoRIAServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${CSToolServerReboot} = "yes" ]; then
+        echo "CSToolServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${DashboardServerReboot} = "yes" ]; then
+        echo "DashboardServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${DCSServerReboot} = "yes" ]; then
+        echo "DCSServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${EbizSHAREServerReboot} = "yes" ]; then
+        echo "EbizSHAREServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${FileTranServerReboot} = "yes" ]; then
+        echo "FileTranServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${IDriveServerReboot} = "yes" ]; then
+        echo "IDriveServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${InstituteServerReboot} = "yes" ]; then
+        echo "InstituteServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${PortalServerReboot} = "yes" ]; then
+        echo "PortalServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${SppToolServerReboot} = "yes" ]; then
+        echo "SppToolServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${eOfficeSHAREDServerReboot} = "yes" ]; then
+        echo "eOfficeSHAREDServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${IDPServerReboot} = "yes" ]; then
+        echo "IDPServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${EbizPubsServerReboot} = "yes" ]; then
+        echo "EbizPubsServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${VDRDataExchWSServerReboot} = "yes" ]; then
+        echo "VDRDataExchWSServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi  
+
+    cp  ${DEPLOYMENT_LIST_FILE} ${WORKSPACE}/TEMP_WORK_FOLDER 
+'''
+}
+
+
+def sendBuildReportEmail(toEmail, fromEmail) {
+    def emailSubject = "[Jenkins]${env.JOB_NAME} - #${env.BUILD_NUMBER} - ${env.DEPLOY_ENV} - ${currentBuild.currentResult}"
+    sendBuildReportEmail(toEmail, fromEmail, emailSubject)
+}
+
+def sendBuildReportEmail(toEmail, fromEmail, emailSubject) {
+    emailext body: '''${SCRIPT, template="groovy-html.template"}''',
+            mimeType: 'text/html',
+            subject: "${emailSubject}",
+            to: "${toEmail}",
+            replyTo: "${fromEmail}",
+            from: "${fromEmail}",
+            attachLog: false
+}
+
+def sendApprovalEmail(toEmail, fromEmail, emailBoday) {
+    def emailSubject = "There is a ${env.DEPLOY_ENV} deployment needs your approval!"
+    emailext body: emailBoday,
+            mimeType: 'text/html',
+            subject: "${emailSubject}",
+            to: "${toEmail}",
+            replyTo: "${fromEmail}",
+            from: "${fromEmail}",
+            attachLog: false
+}

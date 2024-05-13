@@ -1,0 +1,97 @@
+applicationGroup: hcfi
+buildJobRootDir: /JKHome/Jenkins_Home/jobs/LegacyJenkins/jobs/Dealers/jobs/
+application: 
+  - name: Logistics-Pipeline-SIT
+    artifactArchivedOnMaster: true
+    buildJobRootDir: /JKHome/Jenkins_Home/jobs/LegacyJenkins/jobs/Dealers/jobs/Logistics-Pipeline-SIT/builds/
+    artifact:
+    # On master
+      - buildArtifactName: logistics-rest-data
+        buildArtifactPath: LogisticsMFData/target
+        buildArtifactType: war
+      - buildArtifactName: logistics-business
+        buildArtifactPath: LogisticsBV1/target
+        buildArtifactType: war
+      - buildArtifactName: logistics-web
+        buildArtifactPath: LogisticsWeb/target
+        buildArtifactType: war
+      - buildArtifactName: lgst-truck-api
+        buildArtifactPath: LogisticsTruck/target
+        buildArtifactType: war
+  - name: Recall-SIT_Develop
+    artifactArchivedOnMaster: false
+    buildJobRootDir: /JKS/cjtws/workspace/LegacyJenkins/Dealers/Recall-SIT_Develop
+    artifact:
+      # on gaent-3
+      - buildArtifactName: rvc-rest-data
+        buildArtifactPath: RestMFData/target
+        buildArtifactType: war
+      - buildArtifactName: rvc-web
+        buildArtifactPath: Web/target
+        buildArtifactType: war
+      - buildArtifactName: rvc-business
+        buildArtifactPath: Business/target
+        buildArtifactType: war
+  - name: ServiceCampaign_NewSIT
+    artifactArchivedOnMaster: false
+    buildJobRootDir: /JKS/cjtws/workspace/LegacyJenkins/Dealers/ServiceCampaign_NewSIT
+    artifact:
+      # on gaent-3
+      - buildArtifactName: servicecampaign-data
+        buildArtifactPath: DataService/target
+        buildArtifactType: war
+      - buildArtifactName: servicecampaign-web
+        buildArtifactPath: Web/target
+        buildArtifactType: war
+      - buildArtifactName: servicecampaign-business
+        buildArtifactPath: Business/target
+        buildArtifactType: war
+
+  - name: MP_BUILD_SIT
+    artifactArchivedOnMaster: false
+    buildJobRootDir: /JKS/cjtws/workspace/LegacyJenkins/Dealers/MP_BUILD_SIT
+    artifact:
+      # on gaent-3
+      - buildArtifactName: as
+        buildArtifactPath: AllocationSetup/target/marketplace
+        buildArtifactType: war
+      - buildArtifactName: cvr
+        buildArtifactPath: ConfirmedVehicleRequest/target/marketplace
+        buildArtifactType: war
+      - buildArtifactName: rdoservices
+        buildArtifactPath: RdoServices/target/marketplace
+        buildArtifactType: war
+      - buildArtifactName: marketplace
+        buildArtifactPath: MarketPlaceHome/target
+        buildArtifactType: war
+      - buildArtifactName: aa
+        buildArtifactPath: AdditionalAllocation/target/marketplace
+        buildArtifactType: war
+      - buildArtifactName: or
+        buildArtifactPath: OrderReconfiguration/target/marketplace
+        buildArtifactType: war
+      - buildArtifactName: workflowManagement
+        buildArtifactPath: WorkflowManagement/target/marketplace
+        buildArtifactType: war
+      - buildArtifactName: so
+        buildArtifactPath: SupplementalOrdering/target/marketplace
+        buildArtifactType: war
+      - buildArtifactName: xmlMarshaller
+        buildArtifactPath: APSImportFileMarshaller/target/marketplace
+        buildArtifactType: war
+      - buildArtifactName: mfds
+        buildArtifactPath: MainframeDataServices/target/marketplace
+        buildArtifactType: war
+      - buildArtifactName: vrservices
+        buildArtifactPath: VehicleRequestServices/target/marketplace
+        buildArtifactType: war
+      - buildArtifactName: batchservice
+        buildArtifactPath: MarketplaceBatchService/target/marketplace
+        buildArtifactType: war
+      - buildArtifactName: emetricsservices
+        buildArtifactPath: EMetricsServices/target/marketplace
+        buildArtifactType: war
+      - buildArtifactName: am
+        buildArtifactPath: AllocationMaintenance/target/marketplace
+        buildArtifactType: war 
+

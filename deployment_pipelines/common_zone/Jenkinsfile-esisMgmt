@@ -1,0 +1,355 @@
+def pipelineLib = null
+
+pipeline {
+    agent {
+        label 'Linux_Slave_2'
+    }
+    environment {
+        BRANCH_TO_RUN           = 'master'
+        PACKAGE_DIR             = "${env.WORKSPACE}/${env.BUILD_NUMBER}"
+        DEPLOYMENT_LIST_FILE    = "deploymentList.yml"
+        DEPLOYMENT_SERVICE_ACCT = 'root'
+        NEXUS_URL               = 'https://nexus.honda.ca:8443'
+        NEXUS_REPO              = 'honda-artifacts-release'
+        NEXUS_REPO_PROD         = 'honda-artifacts-production'
+        NEXUS_USER              = 'mvn-deploy'
+        NEXUS_KEY               = 'iMuxRFCA45LY3pT4KE7APwOehgJ4sKE-eUvnYG1zsSgW'
+        NEXUS_GROUP_CZ          = 'ca/honda/apps/common-zone'
+        NEXUS_GROUP_PUB         = 'ca/honda/apps/publications'
+        NEXUS_GROUP_HCFI        = 'ca/honda/apps/hcfi'
+        TEMP_WORK_FOLDER        = 'TEMP_WORK_FOLDER'
+        QA_WAS_IP               = '10.2.222.207'
+        QA_WAS_NODE_1           = '10.2.222.154'
+        QA_WAS_NODE_2           = '10.2.222.155'
+
+        BUILD_NUM               = "${env.BUILD_NUMBER}"
+        TARGET_ENV              = "${env.DEPLOY_ENV}"
+        DRYRUN                  = "${env.DRY_RUN}"
+        DEPLOY_APPROVER_EMAIL   = 'udaykumar_vellala@ch.honda.com,kevin_lou@ch.honda.com'
+        DEPLOY_NOTIFY_EMAIL     = 'udaykumar_vellala@ch.honda.com,kevin_lou@ch.honda.com'
+
+        //DEPLOY_APPROVER_EMAIL   = 'kevin_lou@ch.honda.com'
+        //DEPLOY_NOTIFY_EMAIL     = 'kevin_lou@ch.honda.com'
+
+        JENKINS_EMAIL           = 'devops@ch.honda.com'
+
+        PACKAGE_DESTINATION     = '/opt/IBM/WebSphere/honda/build/ears'
+        // PACKAGE_DESTINATION     = '/tmp'
+        DEPLOYMENT_ROOT         = '/opt/IBM/WebSphere/honda/build/install/jython/deployment'
+        JKS_MASTER_IP           = '10.10.221.33'
+        HCFI_BUILD_INFO_SHEET   = '/JKS/cjtws/.ProdDeploymentHistory/hcfi_build_info_sheet'
+
+    }
+    stages {
+
+        stage('Get application list') {
+            steps {
+                script { 
+                    pipelineLib = load "${WORKSPACE}/vars/libs.groovy"
+                    jobBaseName = pipelineLib.getJobName(JOB_NAME)
+                    runDeploy = true
+                    dir(TEMP_WORK_FOLDER) {                        
+                        deleteDir() //clean up temp folder
+                        generateDeploymentFile()
+                        deploymentInstructions = readYaml file: DEPLOYMENT_LIST_FILE
+                    }
+                }
+            }
+        }
+
+        stage('Download application from Nexus ') {
+           when { 
+               expression { return runDeploy }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        sh "chmod +x ${WORKSPACE}/miscellaneous/my_curl.sh" 
+                        echo "pwd"
+                        echo "PACKAGE_DIR = ${PACKAGE_DIR}"
+                        appList = "\n"
+
+                        deploymentInstructions.application.each {
+                            echo " ${it.name} "
+                            appList = appList + "  - ${it.name}   \n"
+                            if (runDeploy) {
+                                sh "${WORKSPACE}/miscellaneous/my_curl.sh download ${PACKAGE_DIR}/${it.name}.ear ${it.artifactURL}"
+                            }                            
+                        }   
+                        displayName = BUILD_NUM + '-' + deploymentInstructions.environment                      
+                        currentBuild.displayName = BUILD_NUM + '-' + deploymentInstructions.environment
+                        currentBuild.description = "Application(s) deployed: " + appList
+                    }
+                }
+            }
+        }
+
+
+        stage('Prepare Deployment') {
+           when { 
+               expression { return true }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        backUpDir = pipelineLib.backUpDirectoryName(jobBaseName)
+                        backUpDir = "${PACKAGE_DESTINATION}/${backUpDir}"
+
+                        sh "echo \"cd ${PACKAGE_DESTINATION}\" > backup.command.txt"
+                        sh "echo \"mkdir -p ${backUpDir} \" >> backup.command.txt"
+                        
+                        deploymentInstructions.application.each {                    
+                            sh "echo \"cd ${PACKAGE_DESTINATION}\" >> backup.command.txt"
+                            sh "echo \"cp ${it.name}.ear ${backUpDir} \" >> backup.command.txt"      
+                        }
+                        sh "cp backup.command.txt ${PACKAGE_DIR}"
+                        sh "echo \"cd ${DEPLOYMENT_ROOT}\" > install.command.txt"
+                        deploymentInstructions.application.each {
+                            sh "echo \"cd ${DEPLOYMENT_ROOT}/${it.clusterName}\" >> install.command.txt"
+                            sh "echo \"ls -al install${it.scriptName}.sh\" >> install.command.txt" 
+                            sh "echo \"./install${it.scriptName}.sh > install${it.scriptName}.sh.out \" >> install.command.txt" 
+                        }  
+                        sh "cp install.command.txt ${PACKAGE_DIR}"
+
+                        sh "echo \"cd ${DEPLOYMENT_ROOT}\" > displaylog.command.txt"
+                        deploymentInstructions.application.each {
+                            sh "echo \"cd ${DEPLOYMENT_ROOT}/${it.clusterName}\" >> displaylog.command.txt"
+                            sh "echo \"echo \" install${it.scriptName}.sh.out \"  \" >> displaylog.command.txt"
+                            sh "echo \"ls -al install${it.scriptName}.sh.out   \" >> displaylog.command.txt"
+                            sh "echo \"cat install${it.scriptName}.sh.out   \" >> displaylog.command.txt"
+                            sh "echo \"echo    \" >> displaylog.command.txt"
+                            sh "echo \"echo    \" >> displaylog.command.txt"
+                        }    
+                        sh "cp displaylog.command.txt ${PACKAGE_DIR}"
+
+                        sh "echo \"cd /root/auto-deploy-script \" > restart.was.cmd.txt"
+
+                        if (deploymentInstructions.ETECHAppStoreServerReboot) {
+                            sh "echo \"./stopWASServer.sh ETECHAppStoreServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh ETECHAppStoreServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.ESISDataServerReboot) {
+                            sh "echo \"./stopWASServer.sh ESISDataServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh ESISDataServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.CommonServiceServerReboot) {
+                            sh "echo \"./stopWASServer.sh CommonServiceServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh CommonServiceServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.EFilingServerReboot) {
+                            sh "echo \"./stopWASServer.sh EFilingServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh EFilingServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.emetricsServerReboot) {
+                            sh "echo \"./stopWASServer.sh emetricsServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh emetricsServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.RentalAppServerReboot) {
+                            sh "echo \"./stopWASServer.sh RentalAppServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh RentalAppServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.LPWServerReboot) {
+                            sh "echo \"./stopWASServer.sh LPWServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh LPWServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.TariffServerReboot) {
+                            sh "echo \"./stopWASServer.sh TariffServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh TariffServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.LogViewerServerReboot) {
+                            sh "echo \"./stopWASServer.sh LogViewerServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh LogViewerServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.ETECHUINServerReboot) {
+                            sh "echo \"./stopWASServer.sh ETECHUINServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh ETECHUINServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.ETECHDashboardServerReboot) {
+                            sh "echo \"./stopWASServer.sh ETECHDashboardServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh ETECHDashboardServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.SOLRDataServerReboot) {
+                            sh "echo \"./stopWASServer.sh SOLRDataServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh SOLRDataServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.eBizPubsMgmtServerReboot) {
+                            sh "echo \"./stopWASServer.sh eBizPubsMgmtServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh eBizPubsMgmtServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.EbizPubsServerReboot) {
+                            sh "echo \"./stopWASServer.sh EbizPubsServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh EbizPubsServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.ETECHDataServerReboot) {
+                            sh "echo \"./stopWASServer.sh ETECHDataServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh ETECHDataServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.CoreFileServiceServerReboot) {
+                            sh "echo \"./stopWASServer.sh CoreFileServiceServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh CoreFileServiceServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.FinanceAppsServerReboot) {
+                            sh "echo \"./stopWASServer.sh FinanceAppsServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh FinanceAppsServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.HCFICommonServerReboot) {
+                            sh "echo \"./stopWASServer.sh HCFICommonServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh HCFICommonServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.HCFIDealerFundingServerReboot) {
+                            sh "echo \"./stopWASServer.sh HCFIDealerFundingServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh HCFIDealerFundingServer \" >> restart.was.cmd.txt"
+                        }
+                        if (deploymentInstructions.HCFIEOTServerReboot) {
+                            sh "echo \"./stopWASServer.sh HCFIEOTServer \" >> restart.was.cmd.txt"
+                            sh "echo \"./startWASServer.sh HCFIEOTServer \" >> restart.was.cmd.txt"
+                        }
+                        sh "cp restart.was.cmd.txt ${PACKAGE_DIR}"
+                    }
+                }
+            }
+        }
+
+        stage('Send artifacts to the QA') {
+           when { 
+               expression { 
+                   return runDeploy &&  deploymentInstructions.environment == "qa"
+                }     
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {  
+                        sh "ssh root@${QA_WAS_IP} < backup.command.txt "
+                        deploymentInstructions.application.each {                            
+                            echo "Sending ${PACKAGE_DIR}/${it.name}.ear to ${QA_WAS_IP}"
+                            sh "scp ${PACKAGE_DIR}/${it.name}.ear root@${QA_WAS_IP}:${PACKAGE_DESTINATION}"
+                        }
+                    }
+                }
+            }
+        }
+
+        stage('Install in QA') {
+           when { 
+               expression { return runDeploy &&  deploymentInstructions.environment == "qa"  }     
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        sh "ssh root@${QA_WAS_IP} < install.command.txt "
+                        sh "ssh root@${QA_WAS_IP} < displaylog.command.txt "
+                    }
+                }
+            }
+        }
+
+
+        stage('Restart WAS in QA') {
+           when { 
+               expression { return runDeploy &&  deploymentInstructions.environment == "qa" }     
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        sh "ssh root@${QA_WAS_NODE_1} < restart.was.cmd.txt "
+                        sh "ssh root@${QA_WAS_NODE_2} < restart.was.cmd.txt "
+                    }
+                }
+            }
+        }
+
+    }
+
+}
+
+def generateDeploymentFile(){
+sh '''
+    pwd
+    mkdir -p ${WORKSPACE}/${BUILD_NUMBER}
+    cd ${WORKSPACE}/${BUILD_NUMBER}
+    echo "Generating ${DEPLOYMENT_LIST_FILE}"
+
+    echo "# deployment list" > ${DEPLOYMENT_LIST_FILE}
+    echo "environment: ${DEPLOY_ENV} " >> ${DEPLOYMENT_LIST_FILE}
+    echo "deploymentServiceAcct: ${DEPLOYMENT_SERVICE_ACCT} " >> ${DEPLOYMENT_LIST_FILE}    
+    echo "deployer: ${BUILD_USER} " >> ${DEPLOYMENT_LIST_FILE}
+    echo "jenkinsJobNumber: ${BUILD_NUMBER} " >> ${DEPLOYMENT_LIST_FILE}
+    echo "application: " >> ${DEPLOYMENT_LIST_FILE}
+
+
+	if [ ${esisMgmt} = "true" ]; then
+        eBizPubsMgmtServerReboot="yes"
+        echo "  - name: esisMgmt" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    fileType: ear" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    scriptName: EsisMgmt" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    clusterName: eBizPubsMgmtCluster" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: ${esisMgmt_version}" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'ClearCaseMigratedJobs/ConnectedVehicles/Publications/build-esisMgmtEAR '" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP_PUB}/esisMgmt/${esisMgmt_version}/esisMgmt-${esisMgmt_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP_PUB}/esisMgmt/${esisMgmt_version}/esisMgmt-${esisMgmt_version}.ear " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+
+    if [ ${CommonServiceServerReboot} = "yes" ]; then
+        echo "CommonServiceServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${EFilingServerReboot} = "yes" ]; then
+        echo "EFilingServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${emetricsServerReboot} = "yes" ]; then
+        echo "emetricsServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${RentalAppServerReboot} = "yes" ]; then
+        echo "RentalAppServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${LPWServerReboot} = "yes" ]; then
+        echo "LPWServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${TariffServerReboot} = "yes" ]; then
+        echo "TariffServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${LogViewerServerReboot} = "yes" ]; then
+        echo "LogViewerServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${ETECHUINServerReboot} = "yes" ]; then
+        echo "ETECHUINServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${ETECHDashboardServerReboot} = "yes" ]; then
+        echo "ETECHDashboardServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${SOLRDataServerReboot} = "yes" ]; then
+        echo "SOLRDataServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${eBizPubsMgmtServerReboot} = "yes" ]; then
+        echo "eBizPubsMgmtServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${EbizPubsServerReboot} = "yes" ]; then
+        echo "EbizPubsServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${ESISDataServerReboot} = "yes" ]; then
+        echo "ESISDataServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${ETECHDataServerReboot} = "yes" ]; then
+        echo "ETECHDataServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${ETECHAppStoreServerReboot} = "yes" ]; then
+        echo "ETECHAppStoreServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${CoreFileServiceServerReboot} = "yes" ]; then
+        echo "CoreFileServiceServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${FinanceAppsServerReboot} = "yes" ]; then
+        echo "FinanceAppsServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${HCFICommonServerReboot} = "yes" ]; then
+        echo "HCFICommonServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${HCFIDealerFundingServerReboot} = "yes" ]; then
+        echo "HCFIDealerFundingServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi 
+    if [ ${HCFIEOTServerReboot} = "yes" ]; then
+        echo "HCFIEOTServerReboot: true " >> ${DEPLOYMENT_LIST_FILE}
+    fi  
+
+    cp  ${DEPLOYMENT_LIST_FILE} ${WORKSPACE}/TEMP_WORK_FOLDER 
+'''
+}

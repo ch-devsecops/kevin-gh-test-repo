@@ -1,0 +1,99 @@
+applicationGroup: hcfi
+buildJobRootDir: /JKHome/Jenkins_Home/jobs/LegacyJenkins/jobs/HCFI/jobs/
+application: 
+# WAS applications
+  - name: hcfi-online-payout-develop-pipeline
+    buildJobFolder: WAS
+    artifact:
+      - buildArtifactName: hcfi-xpress-online-payout-ear
+        buildArtifactType: ear
+  - name: hcfi-online-prospects-develop-pipeline
+    buildJobFolder: WAS
+    artifact:
+      - buildArtifactName: hcfi-online-prospects-ear
+        buildArtifactType: ear
+  - name: hcfi-eoriginations-develop-pipeline
+    buildJobFolder: WAS
+    artifact:
+      - buildArtifactName: hcfi-eoriginations-admin-ear
+        buildArtifactType: ear
+      - buildArtifactName: hcfi-eoriginations-business-rules-ear	
+        buildArtifactType: ear
+      - buildArtifactName: hcfi-eoriginations-funding-portal-ear
+        buildArtifactType: ear
+  - name: hcfi-printable-contracts-develop-pipeline
+    buildJobFolder: WAS
+    artifact:
+      - buildArtifactName: hcfi-xpress-rpm-ear
+        buildArtifactType: ear 
+        auditReportNeeded: true
+# JBoss applications
+  - name: hcfi-auth-service-develop-sit-pipeline
+    buildJobFolder: JBOSS-SIT
+    artifact:
+      - buildArtifactName: auth-service
+        buildArtifactType: war
+  - name: hcfi-common-components-develop-sit-pipeline
+    buildJobFolder: JBOSS-SIT
+    artifact:
+      - buildArtifactName: common-web
+        buildArtifactType: jar
+  - name: hcfi-common-services-develop-sit-pipeline
+    buildJobFolder: JBOSS-SIT
+    artifact:
+      - buildArtifactName: calculate-service
+        buildArtifactType: war
+        auditReportNeeded: true
+      - buildArtifactName: dealer-service	
+        buildArtifactType: war
+        auditReportNeeded: true
+      - buildArtifactName: model-service
+        buildArtifactType: war
+        auditReportNeeded: true
+      - buildArtifactName: rate-service
+        buildArtifactType: war
+        auditReportNeeded: true
+  - name: hcfi-contract-service-develop-sit-pipeline
+    buildJobFolder: JBOSS-SIT
+    artifact:
+      - buildArtifactName: contract-service
+        buildArtifactType: war
+        auditReportNeeded: true
+  - name: hcfi-credit-service-develop-sit-pipeline
+    buildJobFolder: JBOSS-SIT
+    artifact:
+      - buildArtifactName: credit-application-service
+        buildArtifactType: war
+        auditReportNeeded: true
+  - name: hcfi-credit-web-develop-sit-pipeline
+    buildJobFolder: JBOSS-SIT
+    artifact:
+      - buildArtifactName: credit-application-web
+        buildArtifactType: war
+        auditReportNeeded: true
+  - name: hcfi-eoriginations-develop-sit-pipeline
+    buildJobFolder: JBOSS-SIT
+    artifact:
+      - buildArtifactName: hcfi-eoriginations-admin-ear
+        buildArtifactType: ear
+      - buildArtifactName: hcfi-eoriginations-business-rules-ear
+        buildArtifactType: ear
+      - buildArtifactName: hcfi-eoriginations-funding-portal-ear
+        buildArtifactType: ear 
+  - name: hcfi-finance-mapics-service-sit-pipeline
+    buildJobFolder: JBOSS-SIT
+    artifact:
+      - buildArtifactName: finance-mapics-service
+        buildArtifactType: war
+  - name: hcfi-finance-mapics-web-sit-pipeline
+    buildJobFolder: JBOSS-SIT
+    artifact:
+      - buildArtifactName: finance-mapics-web
+        buildArtifactType: war
+  - name: hcfi-printable-contracts-develop-sit-pipeline-NOT-IN-USE
+    buildJobFolder: JBOSS-SIT
+    artifact:
+      - buildArtifactName: hcfi-xpress-rpm-ear
+        buildArtifactType: ear
+        auditReportNeeded: true
+        

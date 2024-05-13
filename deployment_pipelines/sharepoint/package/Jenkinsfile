@@ -1,0 +1,81 @@
+def pipelineLib = null
+
+pipeline {
+    agent {
+        label 'SharePoint'
+    }
+
+    environment {
+        GIT_CREDENTIAL_ID        = 'CHCISRVSVC_Enterprise_GitHub'
+        WORKSPACE               = "${env.WORKSPACE}"
+        BUILD_NUM               = "${env.BUILD_NUMBER}"
+        JOB_BASE_NAME           = "${JOB_BASE_NAME}"
+        BUILD_TO_DEPLOY         = "${env.SharePoint_Version}"
+        ENVIRONMENT             = "${env.DEPLOY_ENV}"
+        PACKAGE_FOLDER          = "${env.PACKAGE_FOLDER}"
+        PACKAGE_FILE            = "${env.PACKAGE_FILE}"
+        
+        DEPLOY_APPROVER_EMAIL   = 'udaykumar_vellala@ch.honda.com,kevin_lou@ch.honda.com'
+        DEPLOY_NOTIFY_EMAIL     = 'udaykumar_vellala@ch.honda.com,kevin_lou@ch.honda.com'
+        JENKINS_EMAIL           = 'devops@ch.honda.com'
+
+    }
+
+    stages {
+        stage('Authenticate the deployment') {
+            steps {
+                script {
+                    pipelineLib = load "${WORKSPACE}/vars/libs.groovy"
+                    jobBaseName = pipelineLib.getJobName(JOB_NAME)
+                    runDeploy = true
+                    //if (runDeploy)  {
+                    //    pipelineLib.authenticateDeployment()
+                    //}
+                    displayName = BUILD_NUM + '-' + ENVIRONMENT                      
+                    currentBuild.displayName = BUILD_NUM + '-' + ENVIRONMENT
+                    currentBuild.description = "Build deployed: " + BUILD_TO_DEPLOY
+                }
+            }
+        }
+
+        stage('Prepare artifacts') {
+            steps {
+                script { 
+                    exec("C:\\Tools\\curl\\bin\\curl https://nexus.honda.ca:8443/repository/honda-artifacts-release/ca/honda/sharepoint/sharepoint/${BUILD_TO_DEPLOY}/sharepoint-${BUILD_TO_DEPLOY}.zip --output sharepoint.zip")
+                    unzip zipFile: "sharepoint.zip", dir: "drop", quiet: true
+                }
+            }
+        }
+        stage('Deploy provisioning artifacts') {
+            steps {
+                script { 
+                    echo "hello"
+                    exec("pwsh C:\\Tools\\DeployPackage.ps1 ${ENVIRONMENT} ${WORKSPACE}\\drop\\${PACKAGE_FOLDER} ${WORKSPACE}\\drop\\${PACKAGE_FILE}")
+                    // echo "pwsh C:\\Tools\\DeployPackage.ps1 ${ENVIRONMENT} ${WORKSPACE}\\drop\\${PACKAGE_FOLDER} ${WORKSPACE}\\drop\\${PACKAGE_FILE}"
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            script {
+                dir(TEMP_WORK_FOLDER) {
+                    if (runDeploy) {
+                        pipelineLib.sendBuildReportEmail(DEPLOY_NOTIFY_EMAIL,JENKINS_EMAIL)
+                    }
+                   echo "Sending email"
+                }
+            }
+        }
+    }
+
+}
+def exec (String command, Boolean returnStdout = false) {
+    if (isUnix()) {
+        return sh (script: command, returnStdout: returnStdout)
+    }
+    else {
+        return bat (script: command, returnStdout: returnStdout)
+    }
+}

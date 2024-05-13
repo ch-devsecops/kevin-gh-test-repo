@@ -1,0 +1,115 @@
+import groovy.json.JsonSlurper 
+def pipelineLib = null
+def appName = null
+def appWarName = null
+def appNexusURL = null
+pipeline {
+    agent {
+        label 'Linux_Slave_2'
+    }
+    environment {
+        CONTROL_FILE            = "artifacts.yml"
+        NEXUS_URL               = 'https://nexus.honda.ca:8443'
+        NEXUS_REPO              = 'honda-artifacts-release'
+        NEXUS_GROUP             = 'ca/honda/apps/hcfi'
+        TEMP_WORK_FOLDER        = 'TEMP_WORK_FOLDER' 
+        BUILD_NUM               = "${env.BUILD_NUMBER}" 
+        WORKSPACE               = "${env.WORKSPACE}"
+        JKS_MASTER_IP           = '10.10.221.33'
+        HCFI_REPORT_DIR         = '/JKS/cjtws/hcfi-audit-info'
+        HCFI_BUILD_INFO_SHEET   = '/JKS/cjtws/.ProdDeploymentHistory/hcfi_build_info_sheet'
+    }
+    stages {
+        stage('Get upstream job information') {
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {                        
+                        deleteDir() //clean up temp folder
+                        pipelineLib = load "${WORKSPACE}/vars/libs.groovy"
+                        def upstream = currentBuild.rawBuild.getCause(hudson.model.Cause$UpstreamCause)
+                        def upstreamDescription = upstream?.shortDescription
+                        upstreamJobName = pipelineLib.getJobBaseName(upstreamDescription)
+                        upstreamJobNumber = pipelineLib.getJobNumber(upstreamDescription)
+                        //upstreamJobName = "hcfi-build-release-git"
+                        //upstreamJobNumber = "80"
+                        //upstreamJobNumber = "8"
+                        echo "upstreamJob: ${upstreamJobName}-${upstreamJobNumber}"
+                        upstreamDescription = null
+                        upstream = null
+                        sh "cp ${WORKSPACE}/nexus_upload_pipelines/hcfi/${CONTROL_FILE} ."  
+                        uploadInstructions = readYaml file: CONTROL_FILE
+                        currentBuild.displayName = BUILD_NUM + '-' + upstreamJobName + '-' + upstreamJobNumber
+                    }
+                }
+            }
+        }
+
+        stage('Upload build package to Nexus ') {
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        def buildLogFile = "/JKHome/Jenkins_Home/jobs/LegacyJenkins/jobs/HCFI/jobs/JBOSS/jobs/hcfi-build-release-git/builds/" + upstreamJobNumber + "/log" 
+                        echo "buildLogFile = ${buildLogFile}"
+                        def logFile = "${upstreamJobName}-${upstreamJobNumber}-log.txt"
+                        sh  "scp cloudbees-jenkins-distribution@${JKS_MASTER_IP}:${buildLogFile} ${WORKSPACE}/${logFile}"
+
+						def file = readFile "${WORKSPACE}/${logFile}"
+                        def lines = file.readLines()
+
+                        fileExtension = ".war"                    
+	
+						lines.each { String line ->
+							if (line.contains("Config[repositoryName")) {
+								echo "Line = ${line}"
+								appName = line
+								appName = appName.substring(appName.indexOf(":") + 1);
+								appName = appName.substring(0, appName.indexOf(","));
+								echo "appName = ${appName}"			
+                                if (appName == "hcfi-online-payout") {
+                                    echo "Rename the appName"
+                                    appName = "hcfi-xpress-online-payout-web"
+								    echo "appName = ${appName}"		
+                                }
+                                if (appName == "hcfi-printable-contracts") {
+                                    echo "Rename the appName"
+                                    appName = "hcfi-xpress-rpm-ear"
+								    echo "appName = ${appName}"	
+                                    fileExtension = ".ear"
+                                }			
+							}  
+                            appWarName = appName + fileExtension
+							
+							if (line.contains("Uploading to nexus:") && line.contains(appName) && line.contains(fileExtension)) {
+								echo "Line = ${line}"
+								appNexusURL = line
+								appNexusURL = appNexusURL.substring(appNexusURL.indexOf(":") + 1);
+								echo "appNexusURL = ${appNexusURL}"														
+							}	
+                        }
+                        						
+						if (appNexusURL != null && appName != null) {
+                            sh "chmod +x ${WORKSPACE}/miscellaneous/my_curl.sh" 
+                            sh "${WORKSPACE}/miscellaneous/my_curl.sh download ${appWarName} ${appNexusURL} "
+                            sh "${WORKSPACE}/miscellaneous/my_curl.sh upload ${appWarName}  ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/${appName}/${upstreamJobNumber}/${appName}-${upstreamJobNumber}${fileExtension}"							
+						}
+						else {
+							echo "ERROR! Can't figure out application name or Nexus URL!!!" 
+                            error("ERROR! Can't figure out application name or Nexus URL!!!")
+						}
+                    }
+                }
+            }
+        }
+    }
+    post {
+        always {
+            script {
+                dir(TEMP_WORK_FOLDER) {
+                    pipelineLib.sendBuildReportEmail("Kevin_Lou@ch.honda.com",JENKINS_EMAIL)
+                }
+                //deleteDir()
+                echo "Post deployment "
+            }
+        }
+    }
+}

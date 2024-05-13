@@ -1,0 +1,247 @@
+def pipelineLib = null
+def warList = ""
+def appList = "\n"
+
+pipeline {
+    agent {
+        label 'Linux_Slave_3'
+    }
+    environment {
+        BRANCH_TO_RUN           = 'master'
+        PACKAGE_DIR             = "${env.WORKSPACE}/${env.BUILD_NUMBER}"
+        DEPLOYMENT_LIST_FILE    = "deploymentList.yml"
+        DEPLOYMENT_SERVICE_ACCT = 'juser'
+        NEXUS_URL               = 'https://nexus.honda.ca:8443'
+        NEXUS_REPO              = 'honda-artifacts-release'
+        NEXUS_REPO_PROD         = 'honda-artifacts-production'
+        NEXUS_USER              = 'mvn-deploy'
+        NEXUS_KEY               = 'iMuxRFCA45LY3pT4KE7APwOehgJ4sKE-eUvnYG1zsSgW'
+        NEXUS_GROUP             = 'ca/honda/apps/essbase'
+        TEMP_WORK_FOLDER        = 'TEMP_WORK_FOLDER'
+
+        QA_IP                   = '10.2.222.173'
+        PROD_IP                 = '10.2.222.184'
+
+        BUILD_NUM               = "${env.BUILD_NUMBER}"
+        TARGET_ENV              = "${env.DEPLOY_ENV}"
+        DRYRUN                  = "${env.DRY_RUN}"
+       // DEPLOY_APPROVER_EMAIL   = 'udaykumar_vellala@ch.honda.com,kevin_lou@ch.honda.com'
+        //DEPLOY_NOTIFY_EMAIL     = 'udaykumar_vellala@ch.honda.com,kevin_lou@ch.honda.com'
+
+        DEPLOY_APPROVER_EMAIL   = 'kevin_lou@ch.honda.com'
+        DEPLOY_NOTIFY_EMAIL     = 'kevin_lou@ch.honda.com'
+
+        JENKINS_EMAIL           = 'devops@ch.honda.com'
+        JKS_MASTER_IP           = '10.10.221.33'
+        HCFI_BUILD_INFO_SHEET   = '/JKS/cjtws/.ProdDeploymentHistory/hcfi_build_info_sheet'
+
+    }
+    stages {
+        stage('Authenticate the deployment') {
+            steps {
+                script {
+                    pipelineLib = load "${WORKSPACE}/vars/libs.groovy"   
+                    runDeploy = true
+                    jobBaseName = pipelineLib.getJobName(JOB_NAME)
+                    if (runDeploy && false)  {
+                       pipelineLib.authenticateDeployment()
+                    }
+                }
+            }
+        }
+
+        stage('Get application list') {
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {                        
+                        deleteDir() //clean up temp folder
+                        generateDeploymentFile()
+                        deploymentInstructions = readYaml file: DEPLOYMENT_LIST_FILE
+                    }
+                }
+            }
+        }
+
+        stage('Download application from Nexus ') {
+           when { 
+               expression { return runDeploy }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        sh "chmod +x ${WORKSPACE}/miscellaneous/my_curl.sh" 
+                        deploymentInstructions.application.each {
+                            sh "${WORKSPACE}/miscellaneous/my_curl.sh download ${PACKAGE_DIR}/${it.name}.${it.fileType} ${it.artifactURL}"
+                        }      
+                        displayName = BUILD_NUM + '-' + deploymentInstructions.environment  
+                        currentBuild.displayName = BUILD_NUM + '-' + deploymentInstructions.environment
+                        currentBuild.description = "Application(s) deployed: " + appList
+                    }               
+                }
+            }
+        }
+
+        stage('Deployment approval') {
+           when { 
+               expression { return runDeploy }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) { 
+                        approvalMsg = "The following application(s) will be deployed to " + TARGET_ENV +  appList                      
+                        pipelineLib.sendDeploymentApprovalEmail(DEPLOY_APPROVER_EMAIL, JENKINS_EMAIL, jobBaseName, BUILD_NUM)
+                        timeout(time: 60, unit: 'MINUTES') {
+                            input(id: "Deploy Approval", message: approvalMsg, ok: 'Deploy')
+                        }
+                    }
+                }
+            }
+        }
+
+
+        stage('Prepare Deployment') {
+           when { 
+               expression { return true }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        if (deploymentInstructions.environment == "qa") {
+                            PACKAGE_DESTINATION = '/apps/hci/ess_qa'
+                        }
+                        else if (deploymentInstructions.environment == "prod") {
+                            PACKAGE_DESTINATION = '/apps/hci/ess_prod'
+                        }
+                        else {
+                            error ("Not valid environment")
+                        }
+                        backUpDir = pipelineLib.backUpDirectoryName(jobBaseName)                       
+
+                        sh "echo \"cd ${PACKAGE_DESTINATION}\" > install.command.txt"
+                        sh "echo \"mkdir  ${backUpDir} \" >> install.command.txt"
+                        sh "echo \"cp *   ${backUpDir} \" >> install.command.txt"
+                        sh "echo \"./terminate.sh   \" >> install.command.txt"
+                        sh "echo \"unzip -o essbasePython.zip \" >> install.command.txt"
+                       // sh "echo \" nohup ./kickoff.sh & \" >> install.command.txt"
+                        sh "echo \" nohup ./kickoff.sh &> /dev/null  \" >> install.command.txt"
+                        sh "echo \" cat /PeopleSoft/LogsPROD/Essbase.err  \" >> install.command.txt"
+                        sh "echo \" pgrep python  \" >> install.command.txt"
+                        sh "echo \" ps -ef | grep python \" >> install.command.txt"
+                        
+
+                        sh "cp install.command.txt ${PACKAGE_DIR}"
+                    }
+                }
+            }
+        }
+
+        stage('Send artifacts to the QA') {
+           when { 
+               expression { 
+                   return runDeploy &&  deploymentInstructions.environment == "qa" 
+                }     
+            }
+            steps {
+                script { 
+                    
+                    dir(TEMP_WORK_FOLDER) {  
+                        deploymentInstructions.application.each {                            
+                            echo "Sending ${PACKAGE_DIR}/essbasePython.zip to ${QA_IP}"
+                            sh "scp ${PACKAGE_DIR}/essbasePython.zip ${DEPLOYMENT_SERVICE_ACCT}@${QA_IP}:${PACKAGE_DESTINATION}"
+                        }
+                    }
+                }
+            }
+        }
+
+
+        stage('Send artifacts to the PROD') {
+           when { 
+               expression { return runDeploy &&  deploymentInstructions.environment == "prod" }   
+            }
+            steps {
+                script { 
+                    PACKAGE_DESTINATION = '/apps/hci/ess_prod'
+                    dir(TEMP_WORK_FOLDER) {    
+                        deploymentInstructions.application.each {                            
+                            echo "Sending essbasePython.zip to ${PROD_IP}"
+                            sh "scp ${PACKAGE_DIR}/essbasePython.zip ${DEPLOYMENT_SERVICE_ACCT}@${PROD_IP}:${PACKAGE_DESTINATION}"
+                            sh "cp  ${PACKAGE_DIR}/essbasePython.zip /JKS/prod-artifacts/"
+
+                        }
+                    }
+                }
+            }
+        }
+
+        stage('Install in QA') {
+           when { 
+               expression { return runDeploy &&  deploymentInstructions.environment == "qa"  }     
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        sh  "ssh ${DEPLOYMENT_SERVICE_ACCT}@${QA_IP} < install.command.txt "
+                    }
+                }
+            }
+        }
+
+        stage('Install in PROD') {
+           when { 
+               expression { return runDeploy &&  deploymentInstructions.environment == "prod"  }   
+            }
+            steps {
+                script { 
+                    dir(TEMP_WORK_FOLDER) {
+                        sh "ssh ${DEPLOYMENT_SERVICE_ACCT}@${PROD_IP} < install.command.txt "
+                    }
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            script {
+                dir(TEMP_WORK_FOLDER) {
+                    archiveArtifacts allowEmptyArchive: true, artifacts: "deploymentList.yml"
+                    if (runDeploy) {
+                        pipelineLib.sendBuildReportEmail(DEPLOY_NOTIFY_EMAIL,JENKINS_EMAIL)
+                    }               
+                    echo "Sending email"
+                }
+                // deleteDir()
+                echo "Post deployment "
+            }
+        }
+    }
+}
+
+def generateDeploymentFile(){
+sh '''
+    pwd
+    
+    mkdir -p ${WORKSPACE}/${BUILD_NUMBER}
+    cd ${WORKSPACE}/${BUILD_NUMBER}
+    echo "Generating ${DEPLOYMENT_LIST_FILE}"
+
+    echo "# deployment list" > ${DEPLOYMENT_LIST_FILE}
+    echo "environment: ${DEPLOY_ENV} " >> ${DEPLOYMENT_LIST_FILE}
+    echo "deployer: ${BUILD_USER} " >> ${DEPLOYMENT_LIST_FILE}
+    echo "jenkinsJobNumber: ${BUILD_NUMBER} " >> ${DEPLOYMENT_LIST_FILE}
+    echo "application: " >> ${DEPLOYMENT_LIST_FILE}
+
+	if [ ${essbasePython} = "true" ]; then
+        echo "  - name: essbasePython" >> ${DEPLOYMENT_LIST_FILE}        
+        echo "    fileType: zip" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    version: '${essbasePython_version}'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    buildJobName: 'essbasePython'" >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURL: ${NEXUS_URL}/repository/${NEXUS_REPO}/${NEXUS_GROUP}/essbase-python/${essbasePython_version}/essbase-python-${essbasePython_version}.zip " >> ${DEPLOYMENT_LIST_FILE}
+        echo "    artifactURLPROD: ${NEXUS_URL}/repository/${NEXUS_REPO_PROD}/${NEXUS_GROUP}/essbase-python/${essbasePython_version}/essbase-python-${essbasePython_version}.zip " >> ${DEPLOYMENT_LIST_FILE}
+    fi
+
+   cp  ${DEPLOYMENT_LIST_FILE} ${WORKSPACE}/TEMP_WORK_FOLDER 
+'''
+}
+
