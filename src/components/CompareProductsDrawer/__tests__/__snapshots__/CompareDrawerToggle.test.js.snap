@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CompareDrawerToggle> should render correctly 1`] = `
+<div>
+  <button
+    class="Link-sc-16wd4a0-0 sc-1k44dfv-0 kfScjo"
+    data-testid="compare-drawer-toggle"
+    tabindex="0"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 fuOGMY"
+      tabindex="-1"
+    >
+      <p
+        class="sc-1k44dfv-0 fDGMla"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+      />
+    </div>
+  </button>
+</div>
+`;

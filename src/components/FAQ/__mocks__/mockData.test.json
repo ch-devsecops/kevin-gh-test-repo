@@ -1,0 +1,161 @@
+{
+  "fields": {
+    "collapseText": {
+      "value": "Collapse All"
+    },
+    "expandText": {
+      "value": "Expand All"
+    },
+    "ariaLabel": {
+      "value": "FAQ"
+    },
+    "items": [
+      {
+        "name": "FaqCategory1",
+        "displayName": "FaqCategory1",
+        "fields": {
+          "categoryAnchor": {
+            "value": "faqCat1"
+          },
+          "categoryTitle": {
+            "value": "General FAQs<sup>tm</sup>"
+          },
+          "items": [
+            {
+              "name": "FaqItem1",
+              "displayName": "FaqItem1",
+              "fields": {
+                "questionText": {
+                  "value": "Where and how to obtain a radio code?<sup>tm</sup>"
+                },
+                "questionAnchor": {
+                  "value": "faqCat1Item1c"
+                },
+                "answerText": {
+                  "value": "Lorem ip sum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque ex at felis condimentum imperdiet. \r\n\r\n * You can have lists, like this one\r\n  * Make things **bold** or *italic*\r\n  * Embed snippets of `code`\r\n  * Create [links](/)\r\n  * ...\r\n\r\n######Ordered List\r\n\r\n  1. You can have lists, like this one\r\n  * Make things **bold** or *italic*\r\n  * Embed snippets of `code`\r\n  * Create [links](/)\r\n  * ..."
+                },
+                "video": {
+                  "value": {
+                    "href": ""
+                  }
+                },
+                "thumbnailImage": {
+                  "value": {
+                    "src": "/data/media/img/hero-example.png",
+                    "alt": "sample image",
+                    "width": "2400",
+                    "height": "1603"
+                  }
+                },
+                "ctaImage": {
+                  "value": {}
+                },
+                "ctaLink": {
+                  "value": {
+                    "href": "http://www.acura.ca",
+                    "linktype": "external",
+                    "url": "http://www.acura.ca",
+                    "text": "My Tertiary CTA",
+                    "anchor": "",
+                    "target": "_blank",
+                    "title": "Some aria label"
+                  }
+                },
+                "ctaType": {
+                  "value": "Tertiary"
+                }
+              }
+            },
+            {
+              "name": "FaqItem2",
+              "displayName": "FaqItem2",
+              "fields": {
+                "questionText": {
+                  "value": "I received a recall notice concerning my vehicle. What should I do now?"
+                },
+                "questionAnchor": {
+                  "value": "faqCat1Item2a"
+                },
+                "answerText": {
+                  "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                },
+                "video": {
+                  "value": {
+                    "href": "https://player.vimeo.com/video/196464316",
+                    "text": "Honda Power of Dreams",
+                    "linktype": "external",
+                    "url": "https://player.vimeo.com/video/196464316",
+                    "anchor": "",
+                    "target": ""
+                  }
+                },
+                "thumbnailImage": {
+                  "value": {
+                    "src": "https://app-acura-dit-01-cd.azurewebsites.net/-/media/Acura/modelsCardImages/NSX.jpg?h=1603&w=2400&rev=fa870e20bea14d9e995cda80e2e0ad84&hash=2571A3D47ED59F499F74F879685AF67F",
+                    "alt": "",
+                    "width": "2400",
+                    "height": "1603"
+                  }
+                },
+                "ctaImage": {
+                  "value": {}
+                },
+                "ctaLink": {
+                  "value": {
+                    "href": "https://www.honda.ca/",
+                    "linktype": "external",
+                    "url": "https://www.honda.ca/",
+                    "anchor": "",
+                    "text": "My Secondary CTA",
+                    "target": "_blank",
+                    "title": "Some aria label"
+                  }
+                },
+                "ctaType": {
+                  "value": "Secondary"
+                }
+              }
+            },
+            {
+              "name": "FaqItem3",
+              "displayName": "FaqItem3",
+              "fields": {
+                "questionText": {
+                  "value": "Why should I go to an Acura Dealer for an accident repair?"
+                },
+                "questionAnchor": {
+                  "value": "faqCat1Item3b"
+                },
+                "answerText": {
+                  "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                },
+                "video": {
+                  "value": {
+                    "href": ""
+                  }
+                },
+                "thumbnailImage": {
+                  "value": {}
+                },
+                "ctaImage": {
+                  "value": {}
+                },
+                "ctaLink": {
+                  "value": {
+                    "href": "",
+                    "title": "My Aria Label",
+                    "text": "this is a test"
+                  }
+                },
+                "ctaType": {
+                  "value": "Tertiary",
+                  "text": "My Tertiary CTA"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

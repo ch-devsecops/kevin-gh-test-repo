@@ -1,0 +1,358 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DistributorCard> it should render correctly 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 hXkrbK"
+    data-gtm-category="Others"
+  >
+    <div
+      class="fresnel-container fresnel-lessThan-desktop "
+    >
+      <h4
+        class="sc-1k44dfv-0 sc-1k44dfv-0 eAXoDQ"
+      >
+        <span>
+          Stephenson Equipment Ltd.
+        </span>
+      </h4>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 ePJVOH"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 hdbrad"
+      >
+        <div
+          class="fresnel-container fresnel-greaterThanOrEqual-desktop "
+        >
+          <h4
+            class="sc-1k44dfv-0 sc-1k44dfv-0 eAXoDQ"
+          >
+            <span>
+              Stephenson Equipment Ltd.
+            </span>
+          </h4>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 ioxvGq"
+        >
+          <div
+            class="Box-sc-1bsf784-0 feChZP"
+          >
+            <p
+              class="sc-1k44dfv-0 sc-1k44dfv-0 jwIyPb"
+              color="typographyDefault"
+              font-family="default"
+              font-weight="regular"
+            >
+              21 Murray Park Road
+            </p>
+            <p
+              class="sc-1k44dfv-0 sc-1k44dfv-0 jwIyPb"
+              color="typographyDefault"
+              font-family="default"
+              font-weight="regular"
+            >
+              2058 Suite. 3rd floor
+            </p>
+            <p
+              class="sc-1k44dfv-0 sc-1k44dfv-0 jwIyPb"
+              color="typographyDefault"
+              font-family="default"
+              font-weight="regular"
+            >
+              Winnipeg, MB R3J 3S2
+            </p>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 fXkwhX"
+          >
+            <div
+              class="Box-sc-1bsf784-0 btRLGP"
+            >
+              <p
+                class="sc-1k44dfv-0 sc-1k44dfv-0 jwIyPb"
+                color="typographyDefault"
+                font-family="default"
+                font-weight="regular"
+              >
+                Phone: 416-123-2585
+              </p>
+              <p
+                class="sc-1k44dfv-0 sc-1k44dfv-0 jwIyPb"
+                color="typographyDefault"
+                font-family="default"
+                font-weight="regular"
+              >
+                Phone: 123-456-7890
+              </p>
+              <p
+                class="sc-1k44dfv-0 sc-1k44dfv-0 jwIyPb"
+                color="typographyDefault"
+                font-family="default"
+                font-weight="regular"
+              >
+                Fax: 123-456-7890
+              </p>
+              <div
+                class="Box-sc-1bsf784-0 gFxjFi"
+                display="flex"
+              >
+                <p
+                  class="sc-1k44dfv-0 sc-1k44dfv-0 eHeIuy"
+                  color="typographyDefault"
+                  font-family="default"
+                  font-weight="regular"
+                >
+                  Email
+                  :
+                </p>
+                <a
+                  aria-label="email@email.com"
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 gUmDFr Link-sc-16wd4a0-0 gqtrE"
+                  color="red"
+                  data-gtm-interaction-type="email distributor clicks"
+                  data-gtm-title="Email a distributor"
+                  href="mailto:email@email.com?subject=Test subject&body=This is body text here"
+                  target="_blank"
+                >
+                  email@email.com
+                </a>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 gFxjFi"
+                display="flex"
+              >
+                <p
+                  class="sc-1k44dfv-0 sc-1k44dfv-0 eHeIuy"
+                  color="typographyDefault"
+                  font-family="default"
+                  font-weight="regular"
+                >
+                  Web
+                  :
+                </p>
+                <a
+                  aria-label="www.abcdef.com"
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 gUmDFr Link-sc-16wd4a0-0 gqtrE"
+                  color="red"
+                  data-gtm-interaction-type="distributor exit"
+                  data-gtm-title="distributor exit"
+                  href="https://www.abcdef.com"
+                  target="_blank"
+                >
+                  www.abcdef.com
+                </a>
+              </div>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 hHrXKn"
+            >
+              <table>
+                <tbody>
+                  <tr>
+                    <td>
+                      <p
+                        class="sc-1k44dfv-0 sc-1k44dfv-0 gNJJwr"
+                        color="typographyDefault"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        Monday
+                      </p>
+                    </td>
+                    <td>
+                      <p
+                        class="sc-1k44dfv-0 sc-1k44dfv-0 jwIyPb"
+                        color="typographyDefault"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        09:00 - 18:30
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p
+                        class="sc-1k44dfv-0 sc-1k44dfv-0 gNJJwr"
+                        color="typographyDefault"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        Tuesday
+                      </p>
+                    </td>
+                    <td>
+                      <p
+                        class="sc-1k44dfv-0 sc-1k44dfv-0 jwIyPb"
+                        color="typographyDefault"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        09:00 - 18:30
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p
+                        class="sc-1k44dfv-0 sc-1k44dfv-0 gNJJwr"
+                        color="typographyDefault"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        Wednesday
+                      </p>
+                    </td>
+                    <td>
+                      <p
+                        class="sc-1k44dfv-0 sc-1k44dfv-0 jwIyPb"
+                        color="typographyDefault"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        09:00 - 18:30
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p
+                        class="sc-1k44dfv-0 sc-1k44dfv-0 gNJJwr"
+                        color="typographyDefault"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        Thursday
+                      </p>
+                    </td>
+                    <td>
+                      <p
+                        class="sc-1k44dfv-0 sc-1k44dfv-0 jwIyPb"
+                        color="typographyDefault"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        09:00 - 18:30
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p
+                        class="sc-1k44dfv-0 sc-1k44dfv-0 gNJJwr"
+                        color="typographyDefault"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        Friday
+                      </p>
+                    </td>
+                    <td>
+                      <p
+                        class="sc-1k44dfv-0 sc-1k44dfv-0 jwIyPb"
+                        color="typographyDefault"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        09:00 - 18:30
+                      </p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 cOsLb"
+        height="161px,161px,411px"
+        width="100%,100%,600px"
+      >
+        <div
+          style="height: 100%;"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<DistributorCard> it should render even if there are empty values 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 hXkrbK"
+    data-gtm-category="Others"
+  >
+    <div
+      class="fresnel-container fresnel-lessThan-desktop "
+    >
+      <h4
+        class="sc-1k44dfv-0 sc-1k44dfv-0 eAXoDQ"
+      >
+        <span />
+      </h4>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 ePJVOH"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 hdbrad"
+      >
+        <div
+          class="fresnel-container fresnel-greaterThanOrEqual-desktop "
+        >
+          <h4
+            class="sc-1k44dfv-0 sc-1k44dfv-0 eAXoDQ"
+          >
+            <span />
+          </h4>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 ioxvGq"
+        >
+          <div
+            class="Box-sc-1bsf784-0 feChZP"
+          >
+            <p
+              class="sc-1k44dfv-0 sc-1k44dfv-0 jwIyPb"
+              color="typographyDefault"
+              font-family="default"
+              font-weight="regular"
+            />
+            <p
+              class="sc-1k44dfv-0 sc-1k44dfv-0 jwIyPb"
+              color="typographyDefault"
+              font-family="default"
+              font-weight="regular"
+            />
+            <p
+              class="sc-1k44dfv-0 sc-1k44dfv-0 jwIyPb"
+              color="typographyDefault"
+              font-family="default"
+              font-weight="regular"
+            >
+              ,  
+            </p>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 fXkwhX"
+          />
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 cOsLb"
+        height="161px,161px,411px"
+        width="100%,100%,600px"
+      >
+        <div
+          style="height: 100%;"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

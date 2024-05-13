@@ -1,0 +1,288 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AppHero> should have no accessibility violations 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 fOWcBp"
+    data-gtm-category="Others"
+  >
+    <span
+      alt="Honda GX engine 3 year warranty badge"
+      aria-label="Honda GX engine 3 year warranty badge"
+      class="sc-1k44dfv-0 cdiPwK"
+      role="img"
+    />
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 fgzTle"
+    />
+    <div
+      class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 sOsmN"
+      height="100%"
+    >
+      <div
+        class="fresnel-container fresnel-greaterThan-smallDesktop "
+      >
+        <div
+          class="Box-sc-1bsf784-0 fpfBkZ"
+        >
+          <button
+            aria-label="video alt text"
+            class="sc-1k44dfv-0 ihyQFC videoButton"
+          />
+        </div>
+      </div>
+      <div
+        class="fresnel-container fresnel-lessThan-desktop "
+      >
+        <div
+          class="Box-sc-1bsf784-0 coYchu"
+          display="flex"
+        >
+          <button
+            aria-label="video alt text"
+            class="sc-1k44dfv-0 ihyQFC videoButton"
+          />
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 jGVkdm sc-1k44dfv-0 dvPCJu"
+        display="flex"
+        width="100%"
+      >
+        <div
+          class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 jspGaB"
+          width="1,1,0.5833333333333334"
+        >
+          <p
+            class="sc-1k44dfv-0 jMpDHg"
+            color="white"
+            width="100%"
+          >
+            <span>
+              Engine Link
+            </span>
+          </p>
+          <p
+            class="sc-1k44dfv-0 sc-1k44dfv-0 eDqEXM"
+            color="typographyDefault"
+            font-family="default"
+            font-weight="regular"
+          >
+            <span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            </span>
+          </p>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 bZXcvK"
+          >
+            <a
+              class="Link-sc-16wd4a0-0 sc-1k44dfv-0 kHgxtN"
+              href="https://www.google.com"
+              target=""
+              title="test cta url 1"
+            >
+              <img
+                alt="AppStore"
+                height="43"
+                src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Images/app-store-badge.png?h=43&iar=0&w=132&rev=1578264cb998483fb99082fcf11e70ed&hash=210B7F73808A32B461CC5DDB2FFB3EA7"
+                style="float: right;"
+                width="132"
+              />
+            </a>
+            <a
+              class="Link-sc-16wd4a0-0 sc-1k44dfv-0 kXSNwc"
+              href="https://www.google.com"
+              target=""
+              title="Test cta url 2 "
+            >
+              <img
+                alt="google"
+                height="45"
+                src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Images/google-play-badge.png?h=45&iar=0&w=152&rev=c81d22af8430455a981fc8fcb24a3053&hash=8C53BBABCC8BCD212A2035DA488633D4"
+                style="float: left;"
+                width="152"
+              />
+            </a>
+            <a
+              class="Button-pulw6t-0 eSCMqV"
+              data-testid="dsr-button-component"
+              href="https://engine-dit-01-dmm.engine.honda.ca/"
+              target=""
+              title="test enroll"
+            >
+              Enroll
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<AppHero> should render correctly 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 fOWcBp"
+    data-gtm-category="Others"
+  >
+    <span
+      alt="Honda GX engine 3 year warranty badge"
+      aria-label="Honda GX engine 3 year warranty badge"
+      class="sc-1k44dfv-0 cdiPwK"
+      role="img"
+    />
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 fgzTle"
+    />
+    <div
+      class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 sOsmN"
+      height="100%"
+    >
+      <div
+        class="fresnel-container fresnel-greaterThan-smallDesktop "
+      >
+        <div
+          class="Box-sc-1bsf784-0 fpfBkZ"
+        >
+          <button
+            aria-label="video alt text"
+            class="sc-1k44dfv-0 ihyQFC videoButton"
+          />
+        </div>
+      </div>
+      <div
+        class="fresnel-container fresnel-lessThan-desktop "
+      >
+        <div
+          class="Box-sc-1bsf784-0 coYchu"
+          display="flex"
+        >
+          <button
+            aria-label="video alt text"
+            class="sc-1k44dfv-0 ihyQFC videoButton"
+          />
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 jGVkdm sc-1k44dfv-0 dvPCJu"
+        display="flex"
+        width="100%"
+      >
+        <div
+          class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 jspGaB"
+          width="1,1,0.5833333333333334"
+        >
+          <p
+            class="sc-1k44dfv-0 jMpDHg"
+            color="white"
+            width="100%"
+          >
+            <span>
+              Engine Link
+            </span>
+          </p>
+          <p
+            class="sc-1k44dfv-0 sc-1k44dfv-0 eDqEXM"
+            color="typographyDefault"
+            font-family="default"
+            font-weight="regular"
+          >
+            <span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            </span>
+          </p>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 bZXcvK"
+          >
+            <a
+              class="Link-sc-16wd4a0-0 sc-1k44dfv-0 kHgxtN"
+              href="https://www.google.com"
+              target=""
+              title="test cta url 1"
+            >
+              <img
+                alt="AppStore"
+                height="43"
+                src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Images/app-store-badge.png?h=43&iar=0&w=132&rev=1578264cb998483fb99082fcf11e70ed&hash=210B7F73808A32B461CC5DDB2FFB3EA7"
+                style="float: right;"
+                width="132"
+              />
+            </a>
+            <a
+              class="Link-sc-16wd4a0-0 sc-1k44dfv-0 kXSNwc"
+              href="https://www.google.com"
+              target=""
+              title="Test cta url 2 "
+            >
+              <img
+                alt="google"
+                height="45"
+                src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Images/google-play-badge.png?h=45&iar=0&w=152&rev=c81d22af8430455a981fc8fcb24a3053&hash=8C53BBABCC8BCD212A2035DA488633D4"
+                style="float: left;"
+                width="152"
+              />
+            </a>
+            <a
+              class="Button-pulw6t-0 eSCMqV"
+              data-testid="dsr-button-component"
+              href="https://engine-dit-01-dmm.engine.honda.ca/"
+              target=""
+              title="test enroll"
+            >
+              Enroll
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<AppHero> should return null if the data is empty 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 fOWcBp"
+    data-gtm-category="Others"
+  >
+    <span
+      class="sc-1k44dfv-0 cCXBR"
+      role="img"
+    />
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 gqxPaN"
+    />
+    <div
+      class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 sOsmN"
+      height="100%"
+    >
+      <div
+        class="Box-sc-1bsf784-0 jGVkdm sc-1k44dfv-0 hwakGZ"
+        display="flex"
+        width="100%"
+      >
+        <div
+          class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 iMrgcb"
+          width="1,1,0.5833333333333334"
+        >
+          <p
+            class="sc-1k44dfv-0 jMpDHg"
+            color="white"
+            width="100%"
+          >
+            <span />
+          </p>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 dpEQWN"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<AppHero> should return null if the data values are empty 1`] = `<div />`;
+
+exports[`<AppHero> should return null if there is no fields 1`] = `<div />`;

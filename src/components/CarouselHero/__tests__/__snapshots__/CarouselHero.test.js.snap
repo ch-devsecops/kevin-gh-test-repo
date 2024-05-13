@@ -1,0 +1,1505 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CarouselHero> should have no accessibility violations 1`] = `
+<div>
+  <div
+    data-gtm-category="home page"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 jazOpQ"
+    >
+      <div
+        aria-live="polite"
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 dyCGHw"
+        height="416px,710px"
+        id="carousel-9"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 jyKEsn"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 fOWcBp"
+            data-gtm-category="home page"
+            data-gtm-component-type="undefined_0"
+          >
+            <span
+              alt="3/4 front view of red Civic Sedan driving on road at night"
+              aria-label="3/4 front view of red Civic Sedan driving on road at night"
+              class="sc-1k44dfv-0 dFPPtB"
+              role="img"
+            />
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 bUfzll"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 gqxPaN"
+              />
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 sOsmN"
+              height="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 ekugtK sc-1k44dfv-0 ivigvr"
+                display="flex"
+                height="100%"
+                width="100%"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 koIMNU"
+                  width="1,0.75,0.5833333333333334"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 sdnyX"
+                    width="100%"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 cOulSM"
+                      width="100%"
+                    >
+                      <p
+                        class="sc-1k44dfv-0 gwiNLS"
+                        color="white"
+                        width="100%"
+                      >
+                        <span>
+                          Canada’s best-selling car
+                        </span>
+                      </p>
+                    </div>
+                    <p
+                      class="sc-1k44dfv-0 gOegea"
+                      color="white"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      <span />
+                    </p>
+                  </div>
+                  <div
+                    class="sc-1k44dfv-0 ldZtbH"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 qkmVq"
+                      display="inherit"
+                    >
+                      <a
+                        aria-label=" Learn more about the Civic Sedan"
+                        class="Button-pulw6t-0 jMzGXi"
+                        data-gtm-body-style="cars"
+                        data-gtm-model="civic sedan"
+                        data-gtm-title="Canada’s best-selling car"
+                        data-testid="dsr-button-component"
+                        href="https://www.honda.ca/civic_sedan"
+                        target=""
+                        title=" Learn more about the Civic Sedan"
+                      >
+                        Learn More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 kwdYIQ"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 fOWcBp"
+            data-gtm-category="home page"
+            data-gtm-component-type="undefined_1"
+          >
+            <span
+              alt="3/4 rear view of blue Civic Hatchback driving on road at night"
+              aria-label="3/4 rear view of blue Civic Hatchback driving on road at night"
+              class="sc-1k44dfv-0 jAyiRi"
+              role="img"
+            />
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 jEZHCt"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 gqxPaN"
+              />
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 sOsmN"
+              height="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 ekugtK sc-1k44dfv-0 ivigvr"
+                display="flex"
+                height="100%"
+                width="100%"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 koIMNU"
+                  width="1,0.75,0.5833333333333334"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 hJWDXh"
+                    width="100%"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 cOulSM"
+                      width="100%"
+                    >
+                      <p
+                        class="sc-1k44dfv-0 gwiNLS"
+                        color="white"
+                        width="100%"
+                      >
+                        <span>
+                          All-New Civic Hatchback
+                        </span>
+                      </p>
+                    </div>
+                    <p
+                      class="sc-1k44dfv-0 gOegea"
+                      color="white"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      <span />
+                    </p>
+                  </div>
+                  <div
+                    class="sc-1k44dfv-0 ldZtbH"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 dfdYCq"
+                      display="inherit"
+                    >
+                      <a
+                        aria-label="Learn more about the Civic Hatchback"
+                        class="Button-pulw6t-0 jMzGXi"
+                        data-gtm-body-style="cars"
+                        data-gtm-model="civic hatchback"
+                        data-gtm-title="All-New Civic Hatchback"
+                        data-testid="dsr-button-component"
+                        href="https://www.honda.ca/civic_hatchback"
+                        target=""
+                        title="Learn more about the Civic Hatchback"
+                      >
+                        Learn More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 kwdYIQ"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 fOWcBp"
+            data-gtm-category="home page"
+            data-gtm-component-type="undefined_2"
+          >
+            <span
+              alt="3/4 front view of grey Passport TrailSport off-roading in snow"
+              aria-label="3/4 front view of grey Passport TrailSport off-roading in snow"
+              class="sc-1k44dfv-0 epMShU"
+              role="img"
+            />
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 jEZHCt"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 gqxPaN"
+              />
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 sOsmN"
+              height="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 ekugtK sc-1k44dfv-0 ivigvr"
+                display="flex"
+                height="100%"
+                width="100%"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 koIMNU"
+                  width="1,0.75,0.5833333333333334"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 hJWDXh"
+                    width="100%"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 cOulSM"
+                      width="100%"
+                    >
+                      <p
+                        class="sc-1k44dfv-0 gwiNLS"
+                        color="white"
+                        width="100%"
+                      >
+                        <span>
+                          The 2022 Passport TrailSport
+                        </span>
+                      </p>
+                    </div>
+                    <p
+                      class="sc-1k44dfv-0 gOegea"
+                      color="white"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      <span />
+                    </p>
+                  </div>
+                  <div
+                    class="sc-1k44dfv-0 ldZtbH"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 dfdYCq"
+                      display="inherit"
+                    >
+                      <a
+                        aria-label="Learn more about the Passport Trailsport"
+                        class="Button-pulw6t-0 jMzGXi"
+                        data-gtm-body-style="suv"
+                        data-gtm-model="passport"
+                        data-gtm-title="The 2022 Passport TrailSport"
+                        data-gtm-trim="trailsport"
+                        data-testid="dsr-button-component"
+                        href="/en/passport"
+                        title="Learn more about the Passport Trailsport"
+                      >
+                        Learn More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 kwdYIQ"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 fOWcBp"
+            data-gtm-category="home page"
+            data-gtm-component-type="undefined_3"
+          >
+            <span
+              alt="Rear view of designer looking at schematic of a motorized bike"
+              aria-label="Rear view of designer looking at schematic of a motorized bike"
+              class="sc-1k44dfv-0 fjHEHF"
+              role="img"
+            />
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 jEZHCt"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 gqxPaN"
+              />
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 sOsmN"
+              height="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 ekugtK sc-1k44dfv-0 ivigvr"
+                display="flex"
+                height="100%"
+                width="100%"
+              >
+                <div
+                  class="fresnel-container fresnel-lessThan-smallDesktop "
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 dbaXEb"
+                    width="1"
+                  >
+                    <button
+                      aria-label="Learn more opens a video link to Honda's Origins of Determination video"
+                      class="sc-1k44dfv-0 ihyQFC videoButton"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 koIMNU"
+                  width="1,0.75,0.5833333333333334"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 hJWDXh"
+                    width="100%"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 cOulSM"
+                      width="100%"
+                    >
+                      <p
+                        class="sc-1k44dfv-0 gwiNLS"
+                        color="white"
+                        width="100%"
+                      >
+                        <span>
+                          Origins of determination
+                        </span>
+                      </p>
+                    </div>
+                    <p
+                      class="sc-1k44dfv-0 gOegea"
+                      color="white"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      <span />
+                    </p>
+                  </div>
+                  <div
+                    class="sc-1k44dfv-0 ldZtbH"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 dfdYCq"
+                      display="inherit"
+                    >
+                      
+                      <div
+                        class="fresnel-container fresnel-greaterThanOrEqual-smallDesktop "
+                      >
+                        <button
+                          aria-label="Learn more opens a video link to Honda's Origins of Determination video"
+                          class="Button-pulw6t-0 iBQQWQ"
+                          data-gtm-title="Origins of determination"
+                          data-testid="dsr-button-component"
+                        >
+                          Learn More
+                          <svg
+                            fill="none"
+                            height="12"
+                            style="margin-left: 8px; position: relative; top: 1px;"
+                            viewBox="0 0 8 12"
+                            width="8"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M0 0V12L8 6L0 0Z"
+                              fill="#fff"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 kwdYIQ"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 fOWcBp"
+            data-gtm-category="home page"
+            data-gtm-component-type="undefined_4"
+          >
+            <span
+              alt="2D illustrated icons of cars "
+              aria-label="2D illustrated icons of cars "
+              class="sc-1k44dfv-0 dtCvHw"
+              role="img"
+            />
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 jEZHCt"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 gqxPaN"
+              />
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 sOsmN"
+              height="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 ekugtK sc-1k44dfv-0 ivigvr"
+                display="flex"
+                height="100%"
+                width="100%"
+              >
+                <div
+                  class="fresnel-container fresnel-lessThan-smallDesktop "
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 dbaXEb"
+                    width="1"
+                  >
+                    <button
+                      aria-label="Learn more opens a video link to Honda's Online Shopping Video"
+                      class="sc-1k44dfv-0 ihyQFC videoButton"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 koIMNU"
+                  width="1,0.75,0.5833333333333334"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 hJWDXh"
+                    width="100%"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 cOulSM"
+                      width="100%"
+                    >
+                      <p
+                        class="sc-1k44dfv-0 gwiNLS"
+                        color="white"
+                        width="100%"
+                      >
+                        <span>
+                          Car buying. The couch edition
+                        </span>
+                      </p>
+                    </div>
+                    <p
+                      class="sc-1k44dfv-0 gOegea"
+                      color="white"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      <span />
+                    </p>
+                  </div>
+                  <div
+                    class="sc-1k44dfv-0 ldZtbH"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 dfdYCq"
+                      display="inherit"
+                    >
+                      
+                      <div
+                        class="fresnel-container fresnel-greaterThanOrEqual-smallDesktop "
+                      >
+                        <button
+                          aria-label="Learn more opens a video link to Honda's Online Shopping Video"
+                          class="Button-pulw6t-0 iBQQWQ"
+                          data-gtm-title="Car buying. The couch edition"
+                          data-testid="dsr-button-component"
+                        >
+                          Learn More
+                          <svg
+                            fill="none"
+                            height="12"
+                            style="margin-left: 8px; position: relative; top: 1px;"
+                            viewBox="0 0 8 12"
+                            width="8"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M0 0V12L8 6L0 0Z"
+                              fill="#fff"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 cYecCE"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 dZSWlC"
+      >
+        <div
+          class="fresnel-container fresnel-at-mobile "
+        >
+          <div
+            aria-hidden="true"
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 iwOyXf"
+            tabindex="-1"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 evNJbO"
+            >
+              <span
+                aria-label="0"
+                class="sc-1k44dfv-0 cObuOj"
+                data-testid="step1"
+                role="button"
+              />
+              <span
+                aria-label="1"
+                class="sc-1k44dfv-0 eOJvEZ"
+                data-testid="step2"
+                role="button"
+              />
+              <span
+                aria-label="2"
+                class="sc-1k44dfv-0 eOJvEZ"
+                data-testid="step3"
+                role="button"
+              />
+              <span
+                aria-label="3"
+                class="sc-1k44dfv-0 eOJvEZ"
+                data-testid="step4"
+                role="button"
+              />
+              <span
+                aria-label="4"
+                class="sc-1k44dfv-0 eOJvEZ"
+                data-testid="step5"
+                role="button"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          aria-controls="carousel-9"
+          aria-label="Shared.Common.previousSlideAria"
+          class="IconWrapper-lp9q2r-0 sc-1k44dfv-0 dIlWXY"
+          cursor="pointer"
+          data-testid="arrow-left"
+          display="flex"
+          role="button"
+          tabindex="0"
+        />
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 durbge"
+        >
+          <div
+            aria-label="3/4 front view of red Civic Sedan driving on road at night"
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 hSRmXW"
+            cursor="pointer"
+            display="none,flex"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 bzFwsq"
+            />
+            <p
+              class="sc-1k44dfv-0 hnyoFp"
+              color="typographyDefault"
+              font-family="default"
+              font-weight="regular"
+            >
+              <span>
+                Canada’s best-selling car
+              </span>
+            </p>
+          </div>
+          <div
+            aria-label="3/4 rear view of blue Civic Hatchback driving on road at night"
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 hRCyxU"
+            cursor="pointer"
+            display="none,flex"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 djDkYC"
+            />
+            <p
+              class="sc-1k44dfv-0 hnyoFp"
+              color="typographyDefault"
+              font-family="default"
+              font-weight="regular"
+            >
+              <span>
+                All-New Civic Hatchback
+              </span>
+            </p>
+          </div>
+          <div
+            aria-label="3/4 front view of grey Passport TrailSport off-roading in snow"
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 hRCyxU"
+            cursor="pointer"
+            display="none,flex"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 iaVwdk"
+            />
+            <p
+              class="sc-1k44dfv-0 hnyoFp"
+              color="typographyDefault"
+              font-family="default"
+              font-weight="regular"
+            >
+              <span>
+                The 2022 Passport TrailSport
+              </span>
+            </p>
+          </div>
+          <div
+            aria-label="2D illustrated icons of cars "
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 hXQPuf"
+            cursor="pointer"
+            display="flex,none"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 bUosvw"
+            >
+              <div
+                class="IconWrapper-lp9q2r-0 cJYFF"
+              />
+            </div>
+            <p
+              class="sc-1k44dfv-0 eIFpEL"
+              color="typographyDefault"
+              font-family="default"
+              font-weight="regular"
+            >
+              <span>
+                Car buying. The couch edition
+              </span>
+            </p>
+          </div>
+          <div
+            aria-label="3/4 rear view of blue Civic Hatchback driving on road at night"
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 hXQPuf"
+            cursor="pointer"
+            display="flex,none"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 djDkYC"
+            />
+            <p
+              class="sc-1k44dfv-0 bSWDaG"
+              color="typographyDefault"
+              font-family="default"
+              font-weight="regular"
+            >
+              <span>
+                All-New Civic Hatchback
+              </span>
+            </p>
+          </div>
+        </div>
+        <div
+          aria-controls="carousel-9"
+          aria-label="Shared.Common.nextSlideAria"
+          class="IconWrapper-lp9q2r-0 sc-1k44dfv-0 dIlWXY"
+          cursor="pointer"
+          data-testid="arrow-right"
+          display="flex"
+          role="button"
+          tabindex="0"
+        />
+      </div>
+      <div
+        class="fresnel-container fresnel-greaterThan-mobile "
+      >
+        <div
+          class="Box-sc-1bsf784-0 hajYwn"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 evNJbO"
+          >
+            <span
+              aria-label="0"
+              class="sc-1k44dfv-0 cObuOj"
+              data-testid="step1"
+              role="button"
+            />
+            <span
+              aria-label="1"
+              class="sc-1k44dfv-0 eOJvEZ"
+              data-testid="step2"
+              role="button"
+            />
+            <span
+              aria-label="2"
+              class="sc-1k44dfv-0 eOJvEZ"
+              data-testid="step3"
+              role="button"
+            />
+            <span
+              aria-label="3"
+              class="sc-1k44dfv-0 eOJvEZ"
+              data-testid="step4"
+              role="button"
+            />
+            <span
+              aria-label="4"
+              class="sc-1k44dfv-0 eOJvEZ"
+              data-testid="step5"
+              role="button"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<CarouselHero> should render correctly 1`] = `
+<div>
+  <div
+    data-gtm-category="home page"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 jazOpQ"
+    >
+      <div
+        aria-live="polite"
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 dyCGHw"
+        height="416px,710px"
+        id="carousel-1"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 jyKEsn"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 fOWcBp"
+            data-gtm-category="home page"
+            data-gtm-component-type="undefined_0"
+          >
+            <span
+              alt="3/4 front view of red Civic Sedan driving on road at night"
+              aria-label="3/4 front view of red Civic Sedan driving on road at night"
+              class="sc-1k44dfv-0 dFPPtB"
+              role="img"
+            />
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 bUfzll"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 gqxPaN"
+              />
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 sOsmN"
+              height="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 ekugtK sc-1k44dfv-0 ivigvr"
+                display="flex"
+                height="100%"
+                width="100%"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 koIMNU"
+                  width="1,0.75,0.5833333333333334"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 sdnyX"
+                    width="100%"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 cOulSM"
+                      width="100%"
+                    >
+                      <p
+                        class="sc-1k44dfv-0 gwiNLS"
+                        color="white"
+                        width="100%"
+                      >
+                        <span>
+                          Canada’s best-selling car
+                        </span>
+                      </p>
+                    </div>
+                    <p
+                      class="sc-1k44dfv-0 gOegea"
+                      color="white"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      <span />
+                    </p>
+                  </div>
+                  <div
+                    class="sc-1k44dfv-0 ldZtbH"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 qkmVq"
+                      display="inherit"
+                    >
+                      <a
+                        aria-label=" Learn more about the Civic Sedan"
+                        class="Button-pulw6t-0 jMzGXi"
+                        data-gtm-body-style="cars"
+                        data-gtm-model="civic sedan"
+                        data-gtm-title="Canada’s best-selling car"
+                        data-testid="dsr-button-component"
+                        href="https://www.honda.ca/civic_sedan"
+                        target=""
+                        title=" Learn more about the Civic Sedan"
+                      >
+                        Learn More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 kwdYIQ"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 fOWcBp"
+            data-gtm-category="home page"
+            data-gtm-component-type="undefined_1"
+          >
+            <span
+              alt="3/4 rear view of blue Civic Hatchback driving on road at night"
+              aria-label="3/4 rear view of blue Civic Hatchback driving on road at night"
+              class="sc-1k44dfv-0 jAyiRi"
+              role="img"
+            />
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 jEZHCt"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 gqxPaN"
+              />
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 sOsmN"
+              height="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 ekugtK sc-1k44dfv-0 ivigvr"
+                display="flex"
+                height="100%"
+                width="100%"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 koIMNU"
+                  width="1,0.75,0.5833333333333334"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 hJWDXh"
+                    width="100%"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 cOulSM"
+                      width="100%"
+                    >
+                      <p
+                        class="sc-1k44dfv-0 gwiNLS"
+                        color="white"
+                        width="100%"
+                      >
+                        <span>
+                          All-New Civic Hatchback
+                        </span>
+                      </p>
+                    </div>
+                    <p
+                      class="sc-1k44dfv-0 gOegea"
+                      color="white"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      <span />
+                    </p>
+                  </div>
+                  <div
+                    class="sc-1k44dfv-0 ldZtbH"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 dfdYCq"
+                      display="inherit"
+                    >
+                      <a
+                        aria-label="Learn more about the Civic Hatchback"
+                        class="Button-pulw6t-0 jMzGXi"
+                        data-gtm-body-style="cars"
+                        data-gtm-model="civic hatchback"
+                        data-gtm-title="All-New Civic Hatchback"
+                        data-testid="dsr-button-component"
+                        href="https://www.honda.ca/civic_hatchback"
+                        target=""
+                        title="Learn more about the Civic Hatchback"
+                      >
+                        Learn More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 kwdYIQ"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 fOWcBp"
+            data-gtm-category="home page"
+            data-gtm-component-type="undefined_2"
+          >
+            <span
+              alt="3/4 front view of grey Passport TrailSport off-roading in snow"
+              aria-label="3/4 front view of grey Passport TrailSport off-roading in snow"
+              class="sc-1k44dfv-0 epMShU"
+              role="img"
+            />
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 jEZHCt"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 gqxPaN"
+              />
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 sOsmN"
+              height="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 ekugtK sc-1k44dfv-0 ivigvr"
+                display="flex"
+                height="100%"
+                width="100%"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 koIMNU"
+                  width="1,0.75,0.5833333333333334"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 hJWDXh"
+                    width="100%"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 cOulSM"
+                      width="100%"
+                    >
+                      <p
+                        class="sc-1k44dfv-0 gwiNLS"
+                        color="white"
+                        width="100%"
+                      >
+                        <span>
+                          The 2022 Passport TrailSport
+                        </span>
+                      </p>
+                    </div>
+                    <p
+                      class="sc-1k44dfv-0 gOegea"
+                      color="white"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      <span />
+                    </p>
+                  </div>
+                  <div
+                    class="sc-1k44dfv-0 ldZtbH"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 dfdYCq"
+                      display="inherit"
+                    >
+                      <a
+                        aria-label="Learn more about the Passport Trailsport"
+                        class="Button-pulw6t-0 jMzGXi"
+                        data-gtm-body-style="suv"
+                        data-gtm-model="passport"
+                        data-gtm-title="The 2022 Passport TrailSport"
+                        data-gtm-trim="trailsport"
+                        data-testid="dsr-button-component"
+                        href="/en/passport"
+                        title="Learn more about the Passport Trailsport"
+                      >
+                        Learn More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 kwdYIQ"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 fOWcBp"
+            data-gtm-category="home page"
+            data-gtm-component-type="undefined_3"
+          >
+            <span
+              alt="Rear view of designer looking at schematic of a motorized bike"
+              aria-label="Rear view of designer looking at schematic of a motorized bike"
+              class="sc-1k44dfv-0 fjHEHF"
+              role="img"
+            />
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 jEZHCt"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 gqxPaN"
+              />
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 sOsmN"
+              height="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 ekugtK sc-1k44dfv-0 ivigvr"
+                display="flex"
+                height="100%"
+                width="100%"
+              >
+                <div
+                  class="fresnel-container fresnel-lessThan-smallDesktop "
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 dbaXEb"
+                    width="1"
+                  >
+                    <button
+                      aria-label="Learn more opens a video link to Honda's Origins of Determination video"
+                      class="sc-1k44dfv-0 ihyQFC videoButton"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 koIMNU"
+                  width="1,0.75,0.5833333333333334"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 hJWDXh"
+                    width="100%"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 cOulSM"
+                      width="100%"
+                    >
+                      <p
+                        class="sc-1k44dfv-0 gwiNLS"
+                        color="white"
+                        width="100%"
+                      >
+                        <span>
+                          Origins of determination
+                        </span>
+                      </p>
+                    </div>
+                    <p
+                      class="sc-1k44dfv-0 gOegea"
+                      color="white"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      <span />
+                    </p>
+                  </div>
+                  <div
+                    class="sc-1k44dfv-0 ldZtbH"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 dfdYCq"
+                      display="inherit"
+                    >
+                      
+                      <div
+                        class="fresnel-container fresnel-greaterThanOrEqual-smallDesktop "
+                      >
+                        <button
+                          aria-label="Learn more opens a video link to Honda's Origins of Determination video"
+                          class="Button-pulw6t-0 iBQQWQ"
+                          data-gtm-title="Origins of determination"
+                          data-testid="dsr-button-component"
+                        >
+                          Learn More
+                          <svg
+                            fill="none"
+                            height="12"
+                            style="margin-left: 8px; position: relative; top: 1px;"
+                            viewBox="0 0 8 12"
+                            width="8"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M0 0V12L8 6L0 0Z"
+                              fill="#fff"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 kwdYIQ"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 fOWcBp"
+            data-gtm-category="home page"
+            data-gtm-component-type="undefined_4"
+          >
+            <span
+              alt="2D illustrated icons of cars "
+              aria-label="2D illustrated icons of cars "
+              class="sc-1k44dfv-0 dtCvHw"
+              role="img"
+            />
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 jEZHCt"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 gqxPaN"
+              />
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 sOsmN"
+              height="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 ekugtK sc-1k44dfv-0 ivigvr"
+                display="flex"
+                height="100%"
+                width="100%"
+              >
+                <div
+                  class="fresnel-container fresnel-lessThan-smallDesktop "
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 dbaXEb"
+                    width="1"
+                  >
+                    <button
+                      aria-label="Learn more opens a video link to Honda's Online Shopping Video"
+                      class="sc-1k44dfv-0 ihyQFC videoButton"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 koIMNU"
+                  width="1,0.75,0.5833333333333334"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 hJWDXh"
+                    width="100%"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 cOulSM"
+                      width="100%"
+                    >
+                      <p
+                        class="sc-1k44dfv-0 gwiNLS"
+                        color="white"
+                        width="100%"
+                      >
+                        <span>
+                          Car buying. The couch edition
+                        </span>
+                      </p>
+                    </div>
+                    <p
+                      class="sc-1k44dfv-0 gOegea"
+                      color="white"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      <span />
+                    </p>
+                  </div>
+                  <div
+                    class="sc-1k44dfv-0 ldZtbH"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 dfdYCq"
+                      display="inherit"
+                    >
+                      
+                      <div
+                        class="fresnel-container fresnel-greaterThanOrEqual-smallDesktop "
+                      >
+                        <button
+                          aria-label="Learn more opens a video link to Honda's Online Shopping Video"
+                          class="Button-pulw6t-0 iBQQWQ"
+                          data-gtm-title="Car buying. The couch edition"
+                          data-testid="dsr-button-component"
+                        >
+                          Learn More
+                          <svg
+                            fill="none"
+                            height="12"
+                            style="margin-left: 8px; position: relative; top: 1px;"
+                            viewBox="0 0 8 12"
+                            width="8"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M0 0V12L8 6L0 0Z"
+                              fill="#fff"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 cYecCE"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 dZSWlC"
+      >
+        <div
+          class="fresnel-container fresnel-at-mobile "
+        >
+          <div
+            aria-hidden="true"
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 iwOyXf"
+            tabindex="-1"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 evNJbO"
+            >
+              <span
+                aria-label="0"
+                class="sc-1k44dfv-0 cObuOj"
+                data-testid="step1"
+                role="button"
+              />
+              <span
+                aria-label="1"
+                class="sc-1k44dfv-0 eOJvEZ"
+                data-testid="step2"
+                role="button"
+              />
+              <span
+                aria-label="2"
+                class="sc-1k44dfv-0 eOJvEZ"
+                data-testid="step3"
+                role="button"
+              />
+              <span
+                aria-label="3"
+                class="sc-1k44dfv-0 eOJvEZ"
+                data-testid="step4"
+                role="button"
+              />
+              <span
+                aria-label="4"
+                class="sc-1k44dfv-0 eOJvEZ"
+                data-testid="step5"
+                role="button"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          aria-controls="carousel-1"
+          aria-label="Shared.Common.previousSlideAria"
+          class="IconWrapper-lp9q2r-0 sc-1k44dfv-0 dIlWXY"
+          cursor="pointer"
+          data-testid="arrow-left"
+          display="flex"
+          role="button"
+          tabindex="0"
+        />
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 durbge"
+        >
+          <div
+            aria-label="3/4 front view of red Civic Sedan driving on road at night"
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 hSRmXW"
+            cursor="pointer"
+            display="none,flex"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 bzFwsq"
+            />
+            <p
+              class="sc-1k44dfv-0 hnyoFp"
+              color="typographyDefault"
+              font-family="default"
+              font-weight="regular"
+            >
+              <span>
+                Canada’s best-selling car
+              </span>
+            </p>
+          </div>
+          <div
+            aria-label="3/4 rear view of blue Civic Hatchback driving on road at night"
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 hRCyxU"
+            cursor="pointer"
+            display="none,flex"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 djDkYC"
+            />
+            <p
+              class="sc-1k44dfv-0 hnyoFp"
+              color="typographyDefault"
+              font-family="default"
+              font-weight="regular"
+            >
+              <span>
+                All-New Civic Hatchback
+              </span>
+            </p>
+          </div>
+          <div
+            aria-label="3/4 front view of grey Passport TrailSport off-roading in snow"
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 hRCyxU"
+            cursor="pointer"
+            display="none,flex"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 iaVwdk"
+            />
+            <p
+              class="sc-1k44dfv-0 hnyoFp"
+              color="typographyDefault"
+              font-family="default"
+              font-weight="regular"
+            >
+              <span>
+                The 2022 Passport TrailSport
+              </span>
+            </p>
+          </div>
+          <div
+            aria-label="2D illustrated icons of cars "
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 hXQPuf"
+            cursor="pointer"
+            display="flex,none"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 bUosvw"
+            >
+              <div
+                class="IconWrapper-lp9q2r-0 cJYFF"
+              />
+            </div>
+            <p
+              class="sc-1k44dfv-0 eIFpEL"
+              color="typographyDefault"
+              font-family="default"
+              font-weight="regular"
+            >
+              <span>
+                Car buying. The couch edition
+              </span>
+            </p>
+          </div>
+          <div
+            aria-label="3/4 rear view of blue Civic Hatchback driving on road at night"
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 hXQPuf"
+            cursor="pointer"
+            display="flex,none"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 djDkYC"
+            />
+            <p
+              class="sc-1k44dfv-0 bSWDaG"
+              color="typographyDefault"
+              font-family="default"
+              font-weight="regular"
+            >
+              <span>
+                All-New Civic Hatchback
+              </span>
+            </p>
+          </div>
+        </div>
+        <div
+          aria-controls="carousel-1"
+          aria-label="Shared.Common.nextSlideAria"
+          class="IconWrapper-lp9q2r-0 sc-1k44dfv-0 dIlWXY"
+          cursor="pointer"
+          data-testid="arrow-right"
+          display="flex"
+          role="button"
+          tabindex="0"
+        />
+      </div>
+      <div
+        class="fresnel-container fresnel-greaterThan-mobile "
+      >
+        <div
+          class="Box-sc-1bsf784-0 hajYwn"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 evNJbO"
+          >
+            <span
+              aria-label="0"
+              class="sc-1k44dfv-0 cObuOj"
+              data-testid="step1"
+              role="button"
+            />
+            <span
+              aria-label="1"
+              class="sc-1k44dfv-0 eOJvEZ"
+              data-testid="step2"
+              role="button"
+            />
+            <span
+              aria-label="2"
+              class="sc-1k44dfv-0 eOJvEZ"
+              data-testid="step3"
+              role="button"
+            />
+            <span
+              aria-label="3"
+              class="sc-1k44dfv-0 eOJvEZ"
+              data-testid="step4"
+              role="button"
+            />
+            <span
+              aria-label="4"
+              class="sc-1k44dfv-0 eOJvEZ"
+              data-testid="step5"
+              role="button"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<CarouselHero> should return null if the data is empty 1`] = `<div />`;
+
+exports[`<CarouselHero> should return null if the data values are empty 1`] = `<div />`;
+
+exports[`<CarouselHero> should return null if there is no fields 1`] = `<div />`;

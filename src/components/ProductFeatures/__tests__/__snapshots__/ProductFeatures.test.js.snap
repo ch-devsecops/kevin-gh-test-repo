@@ -1,0 +1,417 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductFeaturesContainer> should have no accessibility violations 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 deOXHd"
+    data-testid="product-features-content"
+    tabindex="0"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 exTPCJ"
+    >
+      <h6
+        class="sc-1k44dfv-0 eeeuqx"
+      >
+        Fuel-Efficient, High-Output Operation
+      </h6>
+      <ul
+        class="sc-1k44dfv-0 sc-1k44dfv-0 iEOBXO"
+      >
+        <li>
+          Precision camshaft design offers precise valve timing and optimal valve overlap for better fuel efficiency
+        </li>
+        <li>
+          OHV design for increased efficiency and optimal power transfer
+        </li>
+        <li>
+          High compression ratio for better fuel efficiency
+        </li>
+      </ul>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 exTPCJ"
+    >
+      <h6
+        class="sc-1k44dfv-0 eeeuqx"
+      >
+        Smooth Performance
+      </h6>
+      <ul
+        class="sc-1k44dfv-0 sc-1k44dfv-0 iEOBXO"
+      >
+        <li>
+          Precision-engineered components result in lower vibration
+        </li>
+        <li>
+          Ball bearing supported crankshaft for greater stability
+        </li>
+      </ul>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 exTPCJ"
+    >
+      <h6
+        class="sc-1k44dfv-0 eeeuqx"
+      >
+        Exceptionally Quiet
+      </h6>
+      <ul
+        class="sc-1k44dfv-0 sc-1k44dfv-0 iEOBXO"
+      >
+        <li>
+          Large capacity, multi-chamber exhaust system
+        </li>
+        <li>
+          Reduced mechanical noise due to light weight, noise-reducing materials
+        </li>
+        <li>
+          Forged steel crankshaft and rigid crankcase
+        </li>
+        <li>
+          Sophisticated air intake system
+        </li>
+      </ul>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 exTPCJ"
+    >
+      <h6
+        class="sc-1k44dfv-0 eeeuqx"
+      >
+        Proven Reliability
+      </h6>
+      <ul
+        class="sc-1k44dfv-0 sc-1k44dfv-0 iEOBXO"
+      >
+        <li>
+          Oil alert
+          <div
+            class="Box-sc-1bsf784-0 gTpLoe sc-1k44dfv-0 eVOXfr"
+            height="14px"
+            width="14px"
+          >
+            <button
+              aria-label="show tooltip pop up"
+              class="sc-1k44dfv-0 jOKBEK"
+            />
+          </div>
+        </li>
+        <li>
+          Cast iron cylinder sleeve
+        </li>
+        <li>
+          High-quality materials, fit, and finish
+        </li>
+        <li>
+          Fuel Valve
+        </li>
+      </ul>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 exTPCJ"
+    >
+      <h6
+        class="sc-1k44dfv-0 eeeuqx"
+      >
+        Easy to Use and Maintain
+      </h6>
+      <ul
+        class="sc-1k44dfv-0 sc-1k44dfv-0 iEOBXO"
+      >
+        <li>
+          Large fuel tanks
+        </li>
+        <li>
+          Large automotive type fuel cap
+        </li>
+        <li>
+          Easily accessible spark plug
+        </li>
+      </ul>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 exTPCJ"
+    >
+      <h6
+        class="sc-1k44dfv-0 eeeuqx"
+      >
+        Easy Starting
+      </h6>
+      <ul
+        class="sc-1k44dfv-0 sc-1k44dfv-0 iEOBXO"
+      >
+        <li>
+          Heavy-duty recoil starter
+        </li>
+        <li>
+          Automatic mechanical decompression system
+          <div
+            class="Box-sc-1bsf784-0 gTpLoe sc-1k44dfv-0 eVOXfr"
+            height="14px"
+            width="14px"
+          >
+            <button
+              aria-label="show tooltip pop up"
+              class="sc-1k44dfv-0 jOKBEK"
+            />
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 exTPCJ"
+    >
+      <h6
+        class="sc-1k44dfv-0 eeeuqx"
+      >
+        Emissions Compliant
+      </h6>
+      <ul
+        class="sc-1k44dfv-0 sc-1k44dfv-0 iEOBXO"
+      >
+        <li>
+          CARB and EPA certified
+        </li>
+        <li>
+          No catalyst necessary
+        </li>
+      </ul>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 exTPCJ"
+    >
+      <h6
+        class="sc-1k44dfv-0 eeeuqx"
+      >
+        Available Options
+      </h6>
+      <ul
+        class="sc-1k44dfv-0 sc-1k44dfv-0 iEOBXO"
+      >
+        <li>
+          Spark arrester available
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ProductFeaturesContainer> should render correctly 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 deOXHd"
+    data-testid="product-features-content"
+    tabindex="0"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 exTPCJ"
+    >
+      <h6
+        class="sc-1k44dfv-0 eeeuqx"
+      >
+        Fuel-Efficient, High-Output Operation
+      </h6>
+      <ul
+        class="sc-1k44dfv-0 sc-1k44dfv-0 iEOBXO"
+      >
+        <li>
+          Precision camshaft design offers precise valve timing and optimal valve overlap for better fuel efficiency
+        </li>
+        <li>
+          OHV design for increased efficiency and optimal power transfer
+        </li>
+        <li>
+          High compression ratio for better fuel efficiency
+        </li>
+      </ul>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 exTPCJ"
+    >
+      <h6
+        class="sc-1k44dfv-0 eeeuqx"
+      >
+        Smooth Performance
+      </h6>
+      <ul
+        class="sc-1k44dfv-0 sc-1k44dfv-0 iEOBXO"
+      >
+        <li>
+          Precision-engineered components result in lower vibration
+        </li>
+        <li>
+          Ball bearing supported crankshaft for greater stability
+        </li>
+      </ul>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 exTPCJ"
+    >
+      <h6
+        class="sc-1k44dfv-0 eeeuqx"
+      >
+        Exceptionally Quiet
+      </h6>
+      <ul
+        class="sc-1k44dfv-0 sc-1k44dfv-0 iEOBXO"
+      >
+        <li>
+          Large capacity, multi-chamber exhaust system
+        </li>
+        <li>
+          Reduced mechanical noise due to light weight, noise-reducing materials
+        </li>
+        <li>
+          Forged steel crankshaft and rigid crankcase
+        </li>
+        <li>
+          Sophisticated air intake system
+        </li>
+      </ul>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 exTPCJ"
+    >
+      <h6
+        class="sc-1k44dfv-0 eeeuqx"
+      >
+        Proven Reliability
+      </h6>
+      <ul
+        class="sc-1k44dfv-0 sc-1k44dfv-0 iEOBXO"
+      >
+        <li>
+          Oil alert
+          <div
+            class="Box-sc-1bsf784-0 gTpLoe sc-1k44dfv-0 eVOXfr"
+            height="14px"
+            width="14px"
+          >
+            <button
+              aria-label="show tooltip pop up"
+              class="sc-1k44dfv-0 jOKBEK"
+            />
+          </div>
+        </li>
+        <li>
+          Cast iron cylinder sleeve
+        </li>
+        <li>
+          High-quality materials, fit, and finish
+        </li>
+        <li>
+          Fuel Valve
+        </li>
+      </ul>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 exTPCJ"
+    >
+      <h6
+        class="sc-1k44dfv-0 eeeuqx"
+      >
+        Easy to Use and Maintain
+      </h6>
+      <ul
+        class="sc-1k44dfv-0 sc-1k44dfv-0 iEOBXO"
+      >
+        <li>
+          Large fuel tanks
+        </li>
+        <li>
+          Large automotive type fuel cap
+        </li>
+        <li>
+          Easily accessible spark plug
+        </li>
+      </ul>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 exTPCJ"
+    >
+      <h6
+        class="sc-1k44dfv-0 eeeuqx"
+      >
+        Easy Starting
+      </h6>
+      <ul
+        class="sc-1k44dfv-0 sc-1k44dfv-0 iEOBXO"
+      >
+        <li>
+          Heavy-duty recoil starter
+        </li>
+        <li>
+          Automatic mechanical decompression system
+          <div
+            class="Box-sc-1bsf784-0 gTpLoe sc-1k44dfv-0 eVOXfr"
+            height="14px"
+            width="14px"
+          >
+            <button
+              aria-label="show tooltip pop up"
+              class="sc-1k44dfv-0 jOKBEK"
+            />
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 exTPCJ"
+    >
+      <h6
+        class="sc-1k44dfv-0 eeeuqx"
+      >
+        Emissions Compliant
+      </h6>
+      <ul
+        class="sc-1k44dfv-0 sc-1k44dfv-0 iEOBXO"
+      >
+        <li>
+          CARB and EPA certified
+        </li>
+        <li>
+          No catalyst necessary
+        </li>
+      </ul>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 exTPCJ"
+    >
+      <h6
+        class="sc-1k44dfv-0 eeeuqx"
+      >
+        Available Options
+      </h6>
+      <ul
+        class="sc-1k44dfv-0 sc-1k44dfv-0 iEOBXO"
+      >
+        <li>
+          Spark arrester available
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ProductFeaturesContainer> should render even if there are empty fields 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 deOXHd"
+    data-testid="product-features-content"
+    tabindex="0"
+  />
+</div>
+`;
+
+exports[`<ProductFeaturesContainer> should return null if there is no fields 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 deOXHd"
+    data-testid="product-features-content"
+    tabindex="0"
+  />
+</div>
+`;

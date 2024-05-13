@@ -1,0 +1,281 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Accordion> should have no accessibility violations 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 sc-1k44dfv-0 eNTJlv"
+    data-gtm-category="Others"
+    data-gtm-component-type="Accordion"
+    data-testid="accordion-wrapper"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 kBdpCd"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 htHPBh"
+        data-testid="expand-all"
+      >
+        <div
+          aria-expanded="false"
+          aria-label="Shared.CompareTrims.expandAllLabel"
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 dWwwSe"
+          role="button"
+          type="button"
+        >
+          Shared.CompareTrims.expandAllLabel
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 sc-1k44dfv-0 sc-1k44dfv-0 lfhacD"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 kpMhgw accordion-item"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 hfklgf"
+            data-testid="accordion"
+            role="button"
+          >
+            <p
+              class="sc-1k44dfv-0 sc-1k44dfv-0 dfqSgi"
+              color="typographyDefault"
+              font-family="default"
+              font-weight="regular"
+            >
+              Accordion Item
+            </p>
+          </div>
+          <div
+            aria-hidden="true"
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 kTXKFc"
+            data-testid="accordion-content"
+            height="0"
+          >
+            <div
+              style="background: darkorange; outline: 5px solid orange; padding: 10px; color: white; max-width: 500px;"
+            >
+              <h2>
+                EngineSpecifications
+              </h2>
+              <p>
+                JSS component is missing React implementation. See the developer console for more information.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 jRLHFD accordion-item"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 hfklgf"
+            data-testid="accordion"
+            role="button"
+          >
+            <p
+              class="sc-1k44dfv-0 sc-1k44dfv-0 dfqSgi"
+              color="typographyDefault"
+              font-family="default"
+              font-weight="regular"
+            >
+              Accordion Item
+            </p>
+          </div>
+          <div
+            aria-hidden="true"
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 kTXKFc"
+            data-testid="accordion-content"
+            height="0"
+          >
+            <div
+              style="background: darkorange; outline: 5px solid orange; padding: 10px; color: white; max-width: 500px;"
+            >
+              <h2>
+                LandscapeCard
+              </h2>
+              <p>
+                JSS component is missing React implementation. See the developer console for more information.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 iWTkbX accordion-item"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 hfklgf"
+            data-testid="accordion"
+            role="button"
+          >
+            <p
+              class="sc-1k44dfv-0 sc-1k44dfv-0 dfqSgi"
+              color="typographyDefault"
+              font-family="default"
+              font-weight="regular"
+            >
+              Accordion Item
+            </p>
+          </div>
+          <div
+            aria-hidden="true"
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 kTXKFc"
+            data-testid="accordion-content"
+            height="0"
+          >
+            <div
+              style="background: darkorange; outline: 5px solid orange; padding: 10px; color: white; max-width: 500px;"
+            >
+              <h2>
+                LandscapeCard
+              </h2>
+              <p>
+                JSS component is missing React implementation. See the developer console for more information.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Accordion> should render with params 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 sc-1k44dfv-0 eNTJlv"
+    data-gtm-category="Others"
+    data-gtm-component-type="Accordion"
+    data-testid="accordion-wrapper"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 kBdpCd"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 htHPBh"
+        data-testid="expand-all"
+      >
+        <div
+          aria-expanded="false"
+          aria-label="Shared.CompareTrims.expandAllLabel"
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 dWwwSe"
+          role="button"
+          type="button"
+        >
+          Shared.CompareTrims.expandAllLabel
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 sc-1k44dfv-0 sc-1k44dfv-0 lfhacD"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 kpMhgw accordion-item"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 hfklgf"
+            data-testid="accordion"
+            role="button"
+          >
+            <p
+              class="sc-1k44dfv-0 sc-1k44dfv-0 dfqSgi"
+              color="typographyDefault"
+              font-family="default"
+              font-weight="regular"
+            >
+              Accordion Item
+            </p>
+          </div>
+          <div
+            aria-hidden="true"
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 kTXKFc"
+            data-testid="accordion-content"
+            height="0"
+          >
+            <div
+              style="background: darkorange; outline: 5px solid orange; padding: 10px; color: white; max-width: 500px;"
+            >
+              <h2>
+                EngineSpecifications
+              </h2>
+              <p>
+                JSS component is missing React implementation. See the developer console for more information.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 jRLHFD accordion-item"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 hfklgf"
+            data-testid="accordion"
+            role="button"
+          >
+            <p
+              class="sc-1k44dfv-0 sc-1k44dfv-0 dfqSgi"
+              color="typographyDefault"
+              font-family="default"
+              font-weight="regular"
+            >
+              Accordion Item
+            </p>
+          </div>
+          <div
+            aria-hidden="true"
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 kTXKFc"
+            data-testid="accordion-content"
+            height="0"
+          >
+            <div
+              style="background: darkorange; outline: 5px solid orange; padding: 10px; color: white; max-width: 500px;"
+            >
+              <h2>
+                LandscapeCard
+              </h2>
+              <p>
+                JSS component is missing React implementation. See the developer console for more information.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 iWTkbX accordion-item"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 hfklgf"
+            data-testid="accordion"
+            role="button"
+          >
+            <p
+              class="sc-1k44dfv-0 sc-1k44dfv-0 dfqSgi"
+              color="typographyDefault"
+              font-family="default"
+              font-weight="regular"
+            >
+              Accordion Item
+            </p>
+          </div>
+          <div
+            aria-hidden="true"
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 kTXKFc"
+            data-testid="accordion-content"
+            height="0"
+          >
+            <div
+              style="background: darkorange; outline: 5px solid orange; padding: 10px; color: white; max-width: 500px;"
+            >
+              <h2>
+                LandscapeCard
+              </h2>
+              <p>
+                JSS component is missing React implementation. See the developer console for more information.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Accordion> should return null if the content array is empty 1`] = `<div />`;

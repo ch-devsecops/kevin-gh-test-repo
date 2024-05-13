@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component MarineCategoryWithProducts as ModelCardWithTrims for Marine should render correctly 1`] = `
+<div>
+  <div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 jEZHCt"
+      data-gtm-category="marine gtm category"
+      data-gtm-component-type="MarineCategoryWithProducts"
+      data-testid="ModelCardWithTrims"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 fgBlzk"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 xLfJ"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 dnkuzx"
+          >
+            <h5
+              class="sc-1k44dfv-0 sc-1k44dfv-0 eBsHxQ"
+              color="white"
+              data-testid="title"
+            >
+              Portables
+            </h5>
+            <p
+              class="sc-1k44dfv-0 sc-1k44dfv-0 hsuEQC"
+              color="typographyDefault"
+              data-testid="description"
+              font-family="default"
+              font-size="14px"
+              font-weight="regular"
+            >
+              Big on convenience, versatility and performance, Honda portable outboard motors are easy to use and easy to transport.
+            </p>
+            <span
+              data-gtm-category="marine gtm category"
+              data-gtm-component-type="MarineCategoryWithProducts"
+            >
+              <a
+                aria-label="Explore Portables portables"
+                class="Link-sc-16wd4a0-0 dKSZAU"
+                data-gtm-body-style=""
+                data-gtm-interaction-type=""
+                data-gtm-model="portables"
+                data-gtm-title="vehicle tile"
+                data-testid="cy-model-card-cta"
+                href="/en/portables"
+                target=""
+                title=""
+              >
+                Explore Portables
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 gRkQXT"
+        data-gtm-category="portables"
+        data-gtm-component-type="MarineCategoryWithProducts"
+        data-testid="expand-button-Portables"
+      >
+        <button
+          class="Button-pulw6t-0 sc-1k44dfv-0 ikZvLZ"
+          data-gtm-category="portables"
+          data-gtm-interaction-type="cta: category page"
+          data-gtm-model="marine gtm model"
+          data-gtm-title="Portables"
+          data-testid="expand-button"
+        >
+          <p
+            class="sc-1k44dfv-0 sc-1k44dfv-0 KueHw"
+            color="typographyDefault"
+            data-testid="model-count"
+            font-family="default"
+            font-weight="regular"
+          >
+            4 Pages.Models.Exploration.modelsAvailableLabel
+          </p>
+          <div
+            class="IconWrapper-lp9q2r-0 bbbwgU"
+          />
+        </button>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 hhKxgB"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Component MarineCategoryWithProducts as ModelCardWithTrims for Marine should render correctly with empty mock data 1`] = `<div />`;
+
+exports[`Component MarineCategoryWithProducts as ModelCardWithTrims for Marine should return null if there is no  fields 1`] = `<div />`;

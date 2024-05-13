@@ -1,0 +1,521 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SimilarProducts> should have no accessibility violations 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 hwpdqT"
+    display="flex"
+    width="1,1,0.5"
+  >
+    <h4
+      aria-label="Pages.Models.Exploration.similarProductsLabel"
+      class="sc-1k44dfv-0 chqxmS"
+    >
+      Pages.Models.Exploration.similarProductsLabel
+    </h4>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 heIgvm"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 fZLgxb"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+          data-testid="product-card"
+        >
+          <div
+            style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+          />
+          <div
+            style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+          >
+            <a
+              class="Link-sc-16wd4a0-0 bXBGRT"
+              data-gtm-interaction-type="explore"
+              data-gtm-trim="GXV160"
+              href="https://sitecore.engine.honda.ca/en/GX"
+              title="view details"
+            >
+              <div
+                class="sc-1k44dfv-0 cALsOM"
+                mb="xs,s"
+                mt="0"
+              >
+                
+
+                <h5
+                  class="sc-1k44dfv-0 gXWcpP"
+                >
+                  GXV160
+                </h5>
+              </div>
+            </a>
+          </div>
+          <a
+            class="Link-sc-16wd4a0-0 bXBGRT"
+            data-gtm-interaction-type="explore"
+            data-gtm-trim="GXV160"
+            href="https://sitecore.engine.honda.ca/en/GX"
+            title="view details"
+          >
+            <div
+              class="Box-sc-1bsf784-0 jgcAXQ"
+              height="139px,248px"
+              order="-1"
+            >
+              <img
+                alt="GX100"
+                class="sc-1k44dfv-0 jLTFZk"
+                draggable="true"
+                loading="lazy"
+                src="/sample-mock-data/media/img/product-card/engineImage.png"
+                style="object-fit: contain;"
+              />
+            </div>
+          </a>
+          <div
+            class="Box-sc-1bsf784-0 QoaNQ"
+          >
+            <div
+              class="sc-1k44dfv-0 ktMwmo"
+            >
+              
+
+              <p>
+                Reliable, easy starting and fuel-efficient. There's a reason it's the engine professionals rely on
+              </p>
+            </div>
+          </div>
+          <a
+            class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+            data-gtm-interaction-type="explore"
+            data-gtm-title="view details"
+            data-gtm-trim="GXV160"
+            data-testid="dsr-button-component"
+            display="none,block"
+            href="https://sitecore.engine.honda.ca/en/GX"
+            tabindex="0"
+          >
+            Shared.Common.viewDetailsButton
+          </a>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+          >
+            <label
+              class="sc-bwzfXH cvvuMq"
+              data-gtm-interaction-type="compare item click"
+              data-gtm-title="added comparison item"
+              data-gtm-trim="GXV160"
+              data-testid="product-card-compare-btn"
+              data-testvalue="false"
+            >
+              <input
+                aria-checked="false"
+                aria-label="Shared.Common.compareCheckboxAria"
+                autocomplete="off"
+                class="sc-bdVaJa gBQUrE"
+                data-gtm-interaction-type="compare item click"
+                data-gtm-title="added comparison item"
+                data-gtm-trim="GXV160"
+                id="73D22A629A634616B1D171D94246CA91"
+                tabindex="-1"
+                type="checkbox"
+              />
+              <span
+                class="sc-htpNat hVaxDi"
+                data-testid="cy-compare-toggle"
+              />
+              <label
+                class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                for="73D22A629A634616B1D171D94246CA91"
+              >
+                Shared.Common.addToCompareButton
+              </label>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 fZLgxb"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+          data-testid="product-card"
+        >
+          <div
+            style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+          />
+          <div
+            style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+          >
+            <a
+              class="Link-sc-16wd4a0-0 bXBGRT"
+              data-gtm-interaction-type="explore"
+              data-gtm-trim="GXV180"
+              href="https://sitecore.engine.honda.ca/en/GX"
+              title="view details"
+            >
+              <div
+                class="sc-1k44dfv-0 cALsOM"
+                mb="xs,s"
+                mt="0"
+              >
+                
+
+                <h5
+                  class="sc-1k44dfv-0 gXWcpP"
+                >
+                  GXV180
+                </h5>
+              </div>
+            </a>
+          </div>
+          <a
+            class="Link-sc-16wd4a0-0 bXBGRT"
+            data-gtm-interaction-type="explore"
+            data-gtm-trim="GXV180"
+            href="https://sitecore.engine.honda.ca/en/GX"
+            title="view details"
+          >
+            <div
+              class="Box-sc-1bsf784-0 jgcAXQ"
+              height="139px,248px"
+              order="-1"
+            >
+              <img
+                alt="GX100"
+                class="sc-1k44dfv-0 jLTFZk"
+                draggable="true"
+                loading="lazy"
+                src="/sample-mock-data/media/img/product-card/engineImage.png"
+                style="object-fit: contain;"
+              />
+            </div>
+          </a>
+          <div
+            class="Box-sc-1bsf784-0 QoaNQ"
+          >
+            <div
+              class="sc-1k44dfv-0 ktMwmo"
+            >
+              
+
+              <p>
+                Reliable, easy starting and fuel-efficient. There's a reason it's the engine professionals rely on
+              </p>
+            </div>
+          </div>
+          <a
+            class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+            data-gtm-interaction-type="explore"
+            data-gtm-title="view details"
+            data-gtm-trim="GXV180"
+            data-testid="dsr-button-component"
+            display="none,block"
+            href="https://sitecore.engine.honda.ca/en/GX"
+            tabindex="0"
+          >
+            Shared.Common.viewDetailsButton
+          </a>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+          >
+            <label
+              class="sc-bwzfXH cvvuMq"
+              data-gtm-interaction-type="compare item click"
+              data-gtm-title="added comparison item"
+              data-gtm-trim="GXV180"
+              data-testid="product-card-compare-btn"
+              data-testvalue="false"
+            >
+              <input
+                aria-checked="false"
+                aria-label="Shared.Common.compareCheckboxAria"
+                autocomplete="off"
+                class="sc-bdVaJa gBQUrE"
+                data-gtm-interaction-type="compare item click"
+                data-gtm-title="added comparison item"
+                data-gtm-trim="GXV180"
+                id="77510173EDEF4DFBAAF2495E07ECA1C9"
+                tabindex="-1"
+                type="checkbox"
+              />
+              <span
+                class="sc-htpNat hVaxDi"
+                data-testid="cy-compare-toggle"
+              />
+              <label
+                class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                for="77510173EDEF4DFBAAF2495E07ECA1C9"
+              >
+                Shared.Common.addToCompareButton
+              </label>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<SimilarProducts> should render correctly 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 hwpdqT"
+    display="flex"
+    width="1,1,0.5"
+  >
+    <h4
+      aria-label="Pages.Models.Exploration.similarProductsLabel"
+      class="sc-1k44dfv-0 chqxmS"
+    >
+      Pages.Models.Exploration.similarProductsLabel
+    </h4>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 heIgvm"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 fZLgxb"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+          data-testid="product-card"
+        >
+          <div
+            style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+          />
+          <div
+            style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+          >
+            <a
+              class="Link-sc-16wd4a0-0 bXBGRT"
+              data-gtm-interaction-type="explore"
+              data-gtm-trim="GXV160"
+              href="https://sitecore.engine.honda.ca/en/GX"
+              title="view details"
+            >
+              <div
+                class="sc-1k44dfv-0 cALsOM"
+                mb="xs,s"
+                mt="0"
+              >
+                
+
+                <h5
+                  class="sc-1k44dfv-0 gXWcpP"
+                >
+                  GXV160
+                </h5>
+              </div>
+            </a>
+          </div>
+          <a
+            class="Link-sc-16wd4a0-0 bXBGRT"
+            data-gtm-interaction-type="explore"
+            data-gtm-trim="GXV160"
+            href="https://sitecore.engine.honda.ca/en/GX"
+            title="view details"
+          >
+            <div
+              class="Box-sc-1bsf784-0 jgcAXQ"
+              height="139px,248px"
+              order="-1"
+            >
+              <img
+                alt="GX100"
+                class="sc-1k44dfv-0 jLTFZk"
+                draggable="true"
+                loading="lazy"
+                src="/sample-mock-data/media/img/product-card/engineImage.png"
+                style="object-fit: contain;"
+              />
+            </div>
+          </a>
+          <div
+            class="Box-sc-1bsf784-0 QoaNQ"
+          >
+            <div
+              class="sc-1k44dfv-0 ktMwmo"
+            >
+              
+
+              <p>
+                Reliable, easy starting and fuel-efficient. There's a reason it's the engine professionals rely on
+              </p>
+            </div>
+          </div>
+          <a
+            class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+            data-gtm-interaction-type="explore"
+            data-gtm-title="view details"
+            data-gtm-trim="GXV160"
+            data-testid="dsr-button-component"
+            display="none,block"
+            href="https://sitecore.engine.honda.ca/en/GX"
+            tabindex="0"
+          >
+            Shared.Common.viewDetailsButton
+          </a>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+          >
+            <label
+              class="sc-bwzfXH cvvuMq"
+              data-gtm-interaction-type="compare item click"
+              data-gtm-title="added comparison item"
+              data-gtm-trim="GXV160"
+              data-testid="product-card-compare-btn"
+              data-testvalue="false"
+            >
+              <input
+                aria-checked="false"
+                aria-label="Shared.Common.compareCheckboxAria"
+                autocomplete="off"
+                class="sc-bdVaJa gBQUrE"
+                data-gtm-interaction-type="compare item click"
+                data-gtm-title="added comparison item"
+                data-gtm-trim="GXV160"
+                id="73D22A629A634616B1D171D94246CA91"
+                tabindex="-1"
+                type="checkbox"
+              />
+              <span
+                class="sc-htpNat hVaxDi"
+                data-testid="cy-compare-toggle"
+              />
+              <label
+                class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                for="73D22A629A634616B1D171D94246CA91"
+              >
+                Shared.Common.addToCompareButton
+              </label>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 fZLgxb"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+          data-testid="product-card"
+        >
+          <div
+            style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+          />
+          <div
+            style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+          >
+            <a
+              class="Link-sc-16wd4a0-0 bXBGRT"
+              data-gtm-interaction-type="explore"
+              data-gtm-trim="GXV180"
+              href="https://sitecore.engine.honda.ca/en/GX"
+              title="view details"
+            >
+              <div
+                class="sc-1k44dfv-0 cALsOM"
+                mb="xs,s"
+                mt="0"
+              >
+                
+
+                <h5
+                  class="sc-1k44dfv-0 gXWcpP"
+                >
+                  GXV180
+                </h5>
+              </div>
+            </a>
+          </div>
+          <a
+            class="Link-sc-16wd4a0-0 bXBGRT"
+            data-gtm-interaction-type="explore"
+            data-gtm-trim="GXV180"
+            href="https://sitecore.engine.honda.ca/en/GX"
+            title="view details"
+          >
+            <div
+              class="Box-sc-1bsf784-0 jgcAXQ"
+              height="139px,248px"
+              order="-1"
+            >
+              <img
+                alt="GX100"
+                class="sc-1k44dfv-0 jLTFZk"
+                draggable="true"
+                loading="lazy"
+                src="/sample-mock-data/media/img/product-card/engineImage.png"
+                style="object-fit: contain;"
+              />
+            </div>
+          </a>
+          <div
+            class="Box-sc-1bsf784-0 QoaNQ"
+          >
+            <div
+              class="sc-1k44dfv-0 ktMwmo"
+            >
+              
+
+              <p>
+                Reliable, easy starting and fuel-efficient. There's a reason it's the engine professionals rely on
+              </p>
+            </div>
+          </div>
+          <a
+            class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+            data-gtm-interaction-type="explore"
+            data-gtm-title="view details"
+            data-gtm-trim="GXV180"
+            data-testid="dsr-button-component"
+            display="none,block"
+            href="https://sitecore.engine.honda.ca/en/GX"
+            tabindex="0"
+          >
+            Shared.Common.viewDetailsButton
+          </a>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+          >
+            <label
+              class="sc-bwzfXH cvvuMq"
+              data-gtm-interaction-type="compare item click"
+              data-gtm-title="added comparison item"
+              data-gtm-trim="GXV180"
+              data-testid="product-card-compare-btn"
+              data-testvalue="false"
+            >
+              <input
+                aria-checked="false"
+                aria-label="Shared.Common.compareCheckboxAria"
+                autocomplete="off"
+                class="sc-bdVaJa gBQUrE"
+                data-gtm-interaction-type="compare item click"
+                data-gtm-title="added comparison item"
+                data-gtm-trim="GXV180"
+                id="77510173EDEF4DFBAAF2495E07ECA1C9"
+                tabindex="-1"
+                type="checkbox"
+              />
+              <span
+                class="sc-htpNat hVaxDi"
+                data-testid="cy-compare-toggle"
+              />
+              <label
+                class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                for="77510173EDEF4DFBAAF2495E07ECA1C9"
+              >
+                Shared.Common.addToCompareButton
+              </label>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<SimilarProducts> should return nulll if there is no  fields 1`] = `<div />`;

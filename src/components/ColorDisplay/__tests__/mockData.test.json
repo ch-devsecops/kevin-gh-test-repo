@@ -1,0 +1,395 @@
+{
+  "fields": {
+    "data": {
+      "value": {
+        "title": {
+          "value": "Explore Civic’s Colour Options to Suit Your Colourful Lifestyle"
+        },
+        "modelYear": {
+          "fields": {
+            "trims": [
+              {
+                "detKey": {
+                  "value": "mdx_10259"
+                },
+                "transmissions": [
+                  {
+                    "items": [
+                      {
+                        "exteriorColors": [
+                          {
+                            "colors": [
+                              {
+                                "color": {
+                                  "item": {
+                                    "fields": {
+                                      "colorName": {
+                                        "value": "Blue"
+                                      },
+                                      "detKey": {
+                                        "value": "blue"
+                                      }
+                                    }
+                                  }
+                                },
+                                "primaryImage": {
+                                  "item": {
+                                    "value": {
+                                      "src": "/path/to/image.jpg",
+                                      "alt": "primary image for base trim blue"
+                                    }
+                                  }
+                                },
+                                "secondaryImage": {
+                                  "item": {
+                                    "value": {
+                                      "src": "/path/to/image.jpg",
+                                      "alt": "secondary image for base trim blue"
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "color": {
+                                  "item": {
+                                    "fields": {
+                                      "colorName": {
+                                        "value": "Pink"
+                                      },
+                                      "detKey": {
+                                        "value": "pink"
+                                      }
+                                    }
+                                  }
+                                },
+                                "primaryImage": {
+                                  "item": {
+                                    "value": {
+                                      "src": "/path/to/image.jpg",
+                                      "alt": "primary image for base trim pink"
+                                    }
+                                  }
+                                },
+                                "secondaryImage": {
+                                  "item": {
+                                    "value": {
+                                      "src": "/path/to/image.jpg",
+                                      "alt": "secondary image for base trim pink"
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "interiorColors": [
+                          {
+                            "colors": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "detKey": {
+                  "value": "tech_10260"
+                },
+                "transmissions": [
+                  {
+                    "items": [
+                      {
+                        "exteriorColors": [
+                          {
+                            "colors": [
+                              {
+                                "color": {
+                                  "item": {
+                                    "fields": {
+                                      "colorName": {
+                                        "value": "Blue"
+                                      },
+                                      "detKey": {
+                                        "value": "blue"
+                                      }
+                                    }
+                                  }
+                                },
+                                "primaryImage": {
+                                  "item": {
+                                    "value": {
+                                      "src": "/path/to/image.jpg",
+                                      "alt": "primary image for another trim blue"
+                                    }
+                                  }
+                                },
+                                "secondaryImage": {
+                                  "item": {
+                                    "value": {
+                                      "src": "/path/to/image.jpg",
+                                      "alt": "primary image for another trim blue"
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "interiorColors": [
+                          {
+                            "colors": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "withMissingImages": {
+    "data": {
+      "value": {
+        "title": {
+          "value": "Explore Civic’s Colour Options to Suit Your Colourful Lifestyle"
+        },
+        "modelYear": {
+          "fields": {
+            "trims": [
+              {
+                "detKey": {
+                  "value": "mdx_10259"
+                },
+                "transmissions": [
+                  {
+                    "items": [
+                      {
+                        "exteriorColors": [
+                          {
+                            "colors": [
+                              {
+                                "color": {
+                                  "item": {
+                                    "fields": {
+                                      "colorName": {
+                                        "value": "Blue"
+                                      },
+                                      "detKey": {
+                                        "value": "blue"
+                                      }
+                                    }
+                                  }
+                                },
+                                "primaryImage": {
+                                  "item": {
+                                    "value": {
+                                      "src": "/path/to/image.jpg",
+                                      "alt": "primary image for base trim blue"
+                                    }
+                                  }
+                                },
+                                "secondaryImage": {
+                                  "item": {
+                                    "value": {
+                                      "src": "/path/to/image.jpg",
+                                      "alt": "secondary image for base trim blue"
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "color": {
+                                  "item": {
+                                    "fields": {
+                                      "colorName": {
+                                        "value": "Pink"
+                                      },
+                                      "detKey": {
+                                        "value": "pink"
+                                      }
+                                    }
+                                  }
+                                },
+                                "primaryImage": {
+                                  "item": {
+                                    "value": {}
+                                  }
+                                },
+                                "secondaryImage": {
+                                  "item": {
+                                    "value": {}
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "interiorColors": [
+                          {
+                            "colors": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "withMissingBaseTrimImages": {
+    "data": {
+      "value": {
+        "title": {
+          "value": "Explore Civic’s Colour Options to Suit Your Colourful Lifestyle"
+        },
+        "modelYear": {
+          "fields": {
+            "trims": [
+              {
+                "detKey": {
+                  "value": "mdx_10259"
+                },
+                "transmissions": [
+                  {
+                    "items": [
+                      {
+                        "exteriorColors": [
+                          {
+                            "colors": [
+                              {
+                                "color": {
+                                  "item": {
+                                    "fields": {
+                                      "colorName": {
+                                        "value": "Blue"
+                                      },
+                                      "detKey": {
+                                        "value": "blue"
+                                      }
+                                    }
+                                  }
+                                },
+                                "primaryImage": {
+                                  "item": {
+                                    "value": {}
+                                  }
+                                },
+                                "secondaryImage": {
+                                  "item": {
+                                    "value": {}
+                                  }
+                                }
+                              },
+                              {
+                                "color": {
+                                  "item": {
+                                    "fields": {
+                                      "colorName": {
+                                        "value": "Pink"
+                                      },
+                                      "detKey": {
+                                        "value": "pink"
+                                      }
+                                    }
+                                  }
+                                },
+                                "primaryImage": {
+                                  "item": {
+                                    "value": {
+                                      "src": "/path/to/image.jpg",
+                                      "alt": "primary image for another trim pink"
+                                    }
+                                  }
+                                },
+                                "secondaryImage": {
+                                  "item": {
+                                    "value": {
+                                      "src": "/path/to/image.jpg",
+                                      "alt": "secondary image for another trim pink"
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "interiorColors": [
+                          {
+                            "colors": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "detKey": {
+                  "value": "tech_10260"
+                },
+                "transmissions": [
+                  {
+                    "items": [
+                      {
+                        "exteriorColors": [
+                          {
+                            "colors": [
+                              {
+                                "color": {
+                                  "item": {
+                                    "fields": {
+                                      "colorName": {
+                                        "value": "Pink"
+                                      },
+                                      "detKey": {
+                                        "value": "pink"
+                                      }
+                                    }
+                                  }
+                                },
+                                "primaryImage": {
+                                  "item": {
+                                    "value": {
+                                      "src": "/path/to/image.jpg",
+                                      "alt": "primary image for another trim pink"
+                                    }
+                                  }
+                                },
+                                "secondaryImage": {
+                                  "item": {
+                                    "value": {
+                                      "src": "/path/to/image.jpg",
+                                      "alt": "secondary image for another trim pink"
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "interiorColors": [
+                          {
+                            "colors": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

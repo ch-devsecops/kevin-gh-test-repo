@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlanCard2 snapshot renders correctly 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 gYWkyL"
+    data-gtm-category="Others"
+    height="100%"
+    width="100%"
+  >
+    <div
+      class="Box-sc-1bsf784-0 iMGbsN"
+      font-family="bold"
+    >
+      <div
+        class="sc-1k44dfv-0 klHKZs"
+      >
+        
+
+        <p>
+          undefined
+        </p>
+      </div>
+    </div>
+    <ul
+      class="Box-sc-1bsf784-0 fIaaLM"
+    >
+      <li
+        class="Box-sc-1bsf784-0 sc-bdVaJa HqZVD"
+        display="flex"
+      >
+        <div
+          class="Box-sc-1bsf784-0 lbxmaX"
+        />
+        <div />
+      </li>
+      <li
+        class="Box-sc-1bsf784-0 sc-bdVaJa HqZVD"
+        display="flex"
+      >
+        <div
+          class="Box-sc-1bsf784-0 lbxmaX"
+        />
+        <div />
+      </li>
+      <li
+        class="Box-sc-1bsf784-0 sc-bdVaJa HqZVD"
+        display="flex"
+      >
+        <div
+          class="Box-sc-1bsf784-0 lbxmaX"
+        />
+        <div />
+      </li>
+    </ul>
+  </div>
+</div>
+`;

@@ -1,0 +1,2631 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<KeyFeatures> should have no accessibility violations 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 iPRsIc"
+    data-gtm-category="model interactions"
+    id="keyfeatures"
+  >
+    <div
+      class="Box-sc-1bsf784-0 dAfjUF"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 sJGUW"
+      >
+        <img
+          alt="3/4 front view of black Pilot on white space."
+          class="sc-1k44dfv-0 fJCpbr"
+          draggable="true"
+          height="auto"
+          loading="lazy"
+          mb="l"
+          mx="auto"
+          src="https://www.honda.ca/-/media/Brands/Honda/Models/PILOT/2022/Overview/03_Key-Features/Desktop/Honda_Pilot_key-features_desktop_1036x520.png?h=520&iar=0&w=1036&rev=a70181547cb74e7fac7b449906f6e618&hash=0A51839D164F2B4BCA2AC720D83AB4E3"
+          style="max-width: 85%;"
+          width="auto"
+        />
+      </div>
+    </div>
+    <div>
+      <div
+        class="fresnel-container fresnel-lessThan-smallDesktop "
+      >
+        <div
+          class="sc-1k44dfv-0 dQikSF"
+        >
+          <div
+            class="sc-1k44dfv-0 bIgLeI"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 bQGFtd"
+              display="flex,block"
+              height="calc(100vh - 300px)"
+              width="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 dMEOGV"
+                direction="up"
+                pointer-events="none"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 jTBTqj"
+                  direction="out"
+                  pointer-events="none"
+                >
+                  <h2
+                    class="sc-1k44dfv-0 geSuUy"
+                    color="black"
+                    pointer-events="auto"
+                    style="text-transform: none;"
+                  >
+                    <h2
+                      id="the-2022-pilot"
+                    >
+                      The 2022 Pilot
+                    </h2>
+                  </h2>
+                </div>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 dMEOGV"
+                direction="up"
+                pointer-events="none"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 fDiRHd"
+                  direction="out"
+                >
+                  <p
+                    class="sc-1k44dfv-0 sc-bdVaJa bpjmvi"
+                    color="black"
+                    font-family="default"
+                    font-size="14px,16px"
+                    font-weight="regular"
+                  >
+                    <p>
+                      Can you rely on a durable SUV to give your adventures the style, comfort, and performance it deserves? With the 2022 Pilot, yes you can.
+                    </p>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-1k44dfv-0 bIgLeI"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 iIpRYD"
+              display="flex,flex"
+              height="calc(100vh - 300px)"
+              width="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 bbfrjj"
+                display="flex"
+                pointer-events="none"
+                width="100%"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 fMjoKK Box-sc-1bsf784-0 sc-1k44dfv-0 cPSJea"
+                  direction="up"
+                  pointer-events="none"
+                  width="1,0.25"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 sc-bwzfXH jLryXz"
+                    direction="out"
+                    pointer-events="none"
+                  >
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat bkqCei"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="16px,18px"
+                      font-weight="bold"
+                    >
+                      <h6
+                        id="engine"
+                      >
+                        <strong>
+                          Engine
+                        </strong>
+                      </h6>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat YvuqG"
+                      color="typographyDefault"
+                      font-family="heading"
+                      font-size="28px,44px"
+                      font-weight="regular"
+                    >
+                      <h3
+                        id="35-l"
+                      >
+                        3.5 L
+                      </h3>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat eCDlbk"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="14px,14px"
+                      font-weight="400"
+                    >
+                      <p>
+                        Direct Injection, i-VTEC
+                        <sup>
+                          ®
+                        </sup>
+                         V6
+                      </p>
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 fMjoKK Box-sc-1bsf784-0 sc-1k44dfv-0 cPSJea"
+                  direction="up"
+                  pointer-events="none"
+                  width="1,0.25"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 sc-bwzfXH gMdbGg"
+                    direction="out"
+                    pointer-events="none"
+                  >
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat bkqCei"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="16px,18px"
+                      font-weight="bold"
+                    >
+                      <h6
+                        id="power"
+                      >
+                        <strong>
+                          Power
+                        </strong>
+                      </h6>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat YvuqG"
+                      color="typographyDefault"
+                      font-family="heading"
+                      font-size="28px,44px"
+                      font-weight="regular"
+                    >
+                      <h3
+                        id="280-hpa-hrefdisclaimershondahorsepower-targetblank-aria-labelopens-to-a-new-tab-to-horsepower-torque-disclaimer-texta"
+                      >
+                        280 HP
+                        <a
+                          aria-label="Opens to a new tab to horsepower, torque disclaimer text"
+                          href="/disclaimers#Honda_horsepower"
+                          target="_blank"
+                        >
+                          *
+                        </a>
+                      </h3>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat eCDlbk"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="14px,14px"
+                      font-weight="400"
+                    >
+                      <span />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-1k44dfv-0 bIgLeI"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 iIpRYD"
+              display="flex,flex"
+              height="calc(100vh - 300px)"
+              width="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 bbfrjj"
+                display="flex"
+                pointer-events="none"
+                width="100%"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 fMjoKK Box-sc-1bsf784-0 sc-1k44dfv-0 cPSJea"
+                  direction="up"
+                  pointer-events="none"
+                  width="1,0.25"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 sc-bwzfXH jLryXz"
+                    direction="out"
+                    pointer-events="none"
+                  >
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat bkqCei"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="16px,18px"
+                      font-weight="bold"
+                    >
+                      <h6
+                        id="torque"
+                      >
+                        <strong>
+                          Torque
+                        </strong>
+                      </h6>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat YvuqG"
+                      color="typographyDefault"
+                      font-family="heading"
+                      font-size="28px,44px"
+                      font-weight="regular"
+                    >
+                      <h3
+                        id="262-lb-fta-hrefdisclaimershondahorsepower-targetblank-aria-labelopens-to-a-new-tab-to-horsepower-torque-disclaimer-texta"
+                      >
+                        262 lb.-ft.
+                        <a
+                          aria-label="Opens to a new tab to horsepower, torque disclaimer text"
+                          href="/disclaimers#Honda_horsepower"
+                          target="_blank"
+                        >
+                          *
+                        </a>
+                      </h3>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat eCDlbk"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="14px,14px"
+                      font-weight="400"
+                    >
+                      <span />
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 fMjoKK Box-sc-1bsf784-0 sc-1k44dfv-0 cPSJea"
+                  direction="up"
+                  pointer-events="none"
+                  width="1,0.25"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 sc-bwzfXH gMdbGg"
+                    direction="out"
+                    pointer-events="none"
+                  >
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat bkqCei"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="16px,18px"
+                      font-weight="bold"
+                    >
+                      <h6
+                        id="towing-capacitya-hrefdisclaimershondatowing-targetblank-aria-labelopens-to-a-new-tab-to-towing-capacity-disclaimer-texta"
+                      >
+                        <strong>
+                          Towing Capacity
+                        </strong>
+                        <a
+                          aria-label="Opens to a new tab to towing capacity disclaimer text"
+                          href="/disclaimers#Honda_towing"
+                          target="_blank"
+                        >
+                          *
+                        </a>
+                      </h6>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat YvuqG"
+                      color="typographyDefault"
+                      font-family="heading"
+                      font-size="28px,44px"
+                      font-weight="regular"
+                    >
+                      <h3
+                        id="5000-lbs"
+                      >
+                        5,000 lbs.
+                      </h3>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat eCDlbk"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="14px,14px"
+                      font-weight="400"
+                    >
+                      <p>
+                        (Available)
+                      </p>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-1k44dfv-0 bIgLeI"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 iIpRYD"
+              display="flex,flex"
+              height="calc(100vh - 300px)"
+              width="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 bbfrjj"
+                display="flex"
+                pointer-events="none"
+                width="100%"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 fMjoKK Box-sc-1bsf784-0 sc-1k44dfv-0 cPSJea"
+                  direction="up"
+                  pointer-events="none"
+                  width="1,0.25"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 sc-bwzfXH jLryXz"
+                    direction="out"
+                    pointer-events="none"
+                  >
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat iecXiz"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="16px,18px"
+                      font-weight="bold"
+                    >
+                      <h6
+                        id="the-new-trailsport-trim"
+                      >
+                        <strong>
+                          The New TrailSport Trim
+                        </strong>
+                      </h6>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat eCDlbk"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="14px,14px"
+                      font-weight="400"
+                    >
+                      <p>
+                        Sleek, black front grille bar and heated power side mirrors give the available TrailSport trim its signature rugged good looks, while amber ambient lighting and TrailSport leather-trimmed seating prove that all-terrain can feel all-comfortable, all the time.
+                      </p>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-1k44dfv-0 bIgLeI"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 iIpRYD"
+              display="flex,flex"
+              height="calc(100vh - 300px)"
+              width="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 bbfrjj"
+                display="flex"
+                pointer-events="none"
+                width="100%"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 fMjoKK Box-sc-1bsf784-0 sc-1k44dfv-0 cPSJea"
+                  direction="up"
+                  pointer-events="none"
+                  width="1,0.25"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 sc-bwzfXH jLryXz"
+                    direction="out"
+                    pointer-events="none"
+                  >
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat iecXiz"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="16px,18px"
+                      font-weight="bold"
+                    >
+                      <h6
+                        id="7-or-8-passenger-seating"
+                      >
+                        <strong>
+                          7 or 8 Passenger Seating
+                        </strong>
+                      </h6>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat eCDlbk"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="14px,14px"
+                      font-weight="400"
+                    >
+                      <p>
+                        The Pilot offers comfortable seating for up to seven or eight passengers, depending on which trim you decide to go with.
+                      </p>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-1k44dfv-0 bIgLeI"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 iIpRYD"
+              display="flex,flex"
+              height="calc(100vh - 300px)"
+              width="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 bbfrjj"
+                display="flex"
+                pointer-events="none"
+                width="100%"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 fMjoKK Box-sc-1bsf784-0 sc-1k44dfv-0 cPSJea"
+                  direction="up"
+                  pointer-events="none"
+                  width="1,0.25"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 sc-bwzfXH jLryXz"
+                    direction="out"
+                    pointer-events="none"
+                  >
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat iecXiz"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="16px,18px"
+                      font-weight="bold"
+                    >
+                      <h6
+                        id="i-vtm4-awd-system"
+                      >
+                        <strong>
+                          i-VTM4™ AWD System
+                        </strong>
+                      </h6>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat eCDlbk"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="14px,14px"
+                      font-weight="400"
+                    >
+                      <p>
+                        Standard on all Pilots, the intelligent Variable Torque Management All-Wheel Drive system helps turn mountains into molehills.
+                      </p>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-1k44dfv-0 bIgLeI"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 iIpRYD"
+              display="flex,flex"
+              height="calc(100vh - 300px)"
+              width="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 bbfrjj"
+                display="flex"
+                pointer-events="none"
+                width="100%"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 fMjoKK Box-sc-1bsf784-0 sc-1k44dfv-0 cPSJea"
+                  direction="up"
+                  pointer-events="none"
+                  width="1,0.25"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 sc-bwzfXH jLryXz"
+                    direction="out"
+                    pointer-events="none"
+                  >
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat iecXiz"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="16px,18px"
+                      font-weight="bold"
+                    >
+                      <h6
+                        id="honda-sensingsupsup-technologies"
+                      >
+                        <strong>
+                          Honda Sensing
+                          <sup>
+                            ®
+                          </sup>
+                           Technologies
+                        </strong>
+                      </h6>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat eCDlbk"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="14px,14px"
+                      font-weight="400"
+                    >
+                      <p>
+                        Every Pilot comes equipped with intuitive technologies designed to help keep you, and everyone on the road around you, safer.
+                      </p>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-1k44dfv-0 kmYJqa"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 iIpRYD"
+              display="flex,flex"
+              height="calc(100vh - 300px)"
+              width="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 bbfrjj"
+                display="flex"
+                pointer-events="none"
+                width="100%"
+              />
+            </div>
+          </div>
+          <div
+            style="pointer-events: none; margin-top: -560vh;"
+          >
+            <div
+              class="Box-sc-1bsf784-0 gniIVs"
+              height="84vh"
+              width="100%"
+            />
+            <div
+              class="Box-sc-1bsf784-0 gniIVs"
+              height="84vh"
+              width="100%"
+            />
+            <div
+              class="Box-sc-1bsf784-0 gniIVs"
+              height="84vh"
+              width="100%"
+            />
+            <div
+              class="Box-sc-1bsf784-0 gniIVs"
+              height="84vh"
+              width="100%"
+            />
+            <div
+              class="Box-sc-1bsf784-0 gniIVs"
+              height="84vh"
+              width="100%"
+            />
+            <div
+              class="Box-sc-1bsf784-0 gniIVs"
+              height="84vh"
+              width="100%"
+            />
+            <div
+              class="Box-sc-1bsf784-0 gniIVs"
+              height="84vh"
+              width="100%"
+            />
+            <div
+              class="Box-sc-1bsf784-0 gniIVs"
+              height="84vh"
+              width="100%"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="fresnel-container fresnel-greaterThanOrEqual-smallDesktop "
+      >
+        <div
+          class="sc-1k44dfv-0 dQikSF"
+        >
+          <div
+            class="sc-1k44dfv-0 bIgLeI"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 bQGFtd"
+              display="flex,block"
+              height="calc(100vh - 300px)"
+              width="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 dMEOGV"
+                direction="up"
+                pointer-events="none"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 jTBTqj"
+                  direction="out"
+                  pointer-events="none"
+                >
+                  <h2
+                    class="sc-1k44dfv-0 geSuUy"
+                    color="black"
+                    pointer-events="auto"
+                    style="text-transform: none;"
+                  >
+                    <h2
+                      id="the-2022-pilot"
+                    >
+                      The 2022 Pilot
+                    </h2>
+                  </h2>
+                </div>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 dMEOGV"
+                direction="up"
+                pointer-events="none"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 fDiRHd"
+                  direction="out"
+                >
+                  <p
+                    class="sc-1k44dfv-0 sc-bdVaJa bpjmvi"
+                    color="black"
+                    font-family="default"
+                    font-size="14px,16px"
+                    font-weight="regular"
+                  >
+                    <p>
+                      Can you rely on a durable SUV to give your adventures the style, comfort, and performance it deserves? With the 2022 Pilot, yes you can.
+                    </p>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-1k44dfv-0 bIgLeI"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 iIpRYD"
+              display="flex,flex"
+              height="calc(100vh - 300px)"
+              width="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 bbfrjj"
+                display="flex"
+                pointer-events="none"
+                width="100%"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 fMjoKK Box-sc-1bsf784-0 sc-1k44dfv-0 cPSJea"
+                  direction="up"
+                  pointer-events="none"
+                  width="1,0.25"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 sc-bwzfXH jLryXz"
+                    direction="out"
+                    pointer-events="none"
+                  >
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat bkqCei"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="16px,18px"
+                      font-weight="bold"
+                    >
+                      <h6
+                        id="engine"
+                      >
+                        <strong>
+                          Engine
+                        </strong>
+                      </h6>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat YvuqG"
+                      color="typographyDefault"
+                      font-family="heading"
+                      font-size="28px,44px"
+                      font-weight="regular"
+                    >
+                      <h3
+                        id="35-l"
+                      >
+                        3.5 L
+                      </h3>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat eCDlbk"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="14px,14px"
+                      font-weight="400"
+                    >
+                      <p>
+                        Direct Injection, i-VTEC
+                        <sup>
+                          ®
+                        </sup>
+                         V6
+                      </p>
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 fMjoKK Box-sc-1bsf784-0 sc-1k44dfv-0 cPSJea"
+                  direction="up"
+                  pointer-events="none"
+                  width="1,0.25"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 sc-bwzfXH jLryXz"
+                    direction="out"
+                    pointer-events="none"
+                  >
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat bkqCei"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="16px,18px"
+                      font-weight="bold"
+                    >
+                      <h6
+                        id="power"
+                      >
+                        <strong>
+                          Power
+                        </strong>
+                      </h6>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat YvuqG"
+                      color="typographyDefault"
+                      font-family="heading"
+                      font-size="28px,44px"
+                      font-weight="regular"
+                    >
+                      <h3
+                        id="280-hpa-hrefdisclaimershondahorsepower-targetblank-aria-labelopens-to-a-new-tab-to-horsepower-torque-disclaimer-texta"
+                      >
+                        280 HP
+                        <a
+                          aria-label="Opens to a new tab to horsepower, torque disclaimer text"
+                          href="/disclaimers#Honda_horsepower"
+                          target="_blank"
+                        >
+                          *
+                        </a>
+                      </h3>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat eCDlbk"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="14px,14px"
+                      font-weight="400"
+                    >
+                      <span />
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 fMjoKK Box-sc-1bsf784-0 sc-1k44dfv-0 cPSJea"
+                  direction="up"
+                  pointer-events="none"
+                  width="1,0.25"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 sc-bwzfXH jLryXz"
+                    direction="out"
+                    pointer-events="none"
+                  >
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat bkqCei"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="16px,18px"
+                      font-weight="bold"
+                    >
+                      <h6
+                        id="torque"
+                      >
+                        <strong>
+                          Torque
+                        </strong>
+                      </h6>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat YvuqG"
+                      color="typographyDefault"
+                      font-family="heading"
+                      font-size="28px,44px"
+                      font-weight="regular"
+                    >
+                      <h3
+                        id="262-lb-fta-hrefdisclaimershondahorsepower-targetblank-aria-labelopens-to-a-new-tab-to-horsepower-torque-disclaimer-texta"
+                      >
+                        262 lb.-ft.
+                        <a
+                          aria-label="Opens to a new tab to horsepower, torque disclaimer text"
+                          href="/disclaimers#Honda_horsepower"
+                          target="_blank"
+                        >
+                          *
+                        </a>
+                      </h3>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat eCDlbk"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="14px,14px"
+                      font-weight="400"
+                    >
+                      <span />
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 fMjoKK Box-sc-1bsf784-0 sc-1k44dfv-0 cPSJea"
+                  direction="up"
+                  pointer-events="none"
+                  width="1,0.25"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 sc-bwzfXH jLryXz"
+                    direction="out"
+                    pointer-events="none"
+                  >
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat bkqCei"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="16px,18px"
+                      font-weight="bold"
+                    >
+                      <h6
+                        id="towing-capacitya-hrefdisclaimershondatowing-targetblank-aria-labelopens-to-a-new-tab-to-towing-capacity-disclaimer-texta"
+                      >
+                        <strong>
+                          Towing Capacity
+                        </strong>
+                        <a
+                          aria-label="Opens to a new tab to towing capacity disclaimer text"
+                          href="/disclaimers#Honda_towing"
+                          target="_blank"
+                        >
+                          *
+                        </a>
+                      </h6>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat YvuqG"
+                      color="typographyDefault"
+                      font-family="heading"
+                      font-size="28px,44px"
+                      font-weight="regular"
+                    >
+                      <h3
+                        id="5000-lbs"
+                      >
+                        5,000 lbs.
+                      </h3>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat eCDlbk"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="14px,14px"
+                      font-weight="400"
+                    >
+                      <p>
+                        (Available)
+                      </p>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-1k44dfv-0 bIgLeI"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 iIpRYD"
+              display="flex,flex"
+              height="calc(100vh - 300px)"
+              width="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 bbfrjj"
+                display="flex"
+                pointer-events="none"
+                width="100%"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 fMjoKK Box-sc-1bsf784-0 sc-1k44dfv-0 cPSJea"
+                  direction="up"
+                  pointer-events="none"
+                  width="1,0.25"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 sc-bwzfXH jLryXz"
+                    direction="out"
+                    pointer-events="none"
+                  >
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat bkqCei"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="16px,18px"
+                      font-weight="bold"
+                    >
+                      <h6
+                        id="the-new-trailsport-trim"
+                      >
+                        <strong>
+                          The New TrailSport Trim
+                        </strong>
+                      </h6>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat eCDlbk"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="14px,14px"
+                      font-weight="400"
+                    >
+                      <p>
+                        Sleek, black front grille bar and heated power side mirrors give the available TrailSport trim its signature rugged good looks, while amber ambient lighting and TrailSport leather-trimmed seating prove that all-terrain can feel all-comfortable, all the time.
+                      </p>
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 fMjoKK Box-sc-1bsf784-0 sc-1k44dfv-0 cPSJea"
+                  direction="up"
+                  pointer-events="none"
+                  width="1,0.25"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 sc-bwzfXH jLryXz"
+                    direction="out"
+                    pointer-events="none"
+                  >
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat bkqCei"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="16px,18px"
+                      font-weight="bold"
+                    >
+                      <h6
+                        id="7-or-8-passenger-seating"
+                      >
+                        <strong>
+                          7 or 8 Passenger Seating
+                        </strong>
+                      </h6>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat eCDlbk"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="14px,14px"
+                      font-weight="400"
+                    >
+                      <p>
+                        The Pilot offers comfortable seating for up to seven or eight passengers, depending on which trim you decide to go with.
+                      </p>
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 fMjoKK Box-sc-1bsf784-0 sc-1k44dfv-0 cPSJea"
+                  direction="up"
+                  pointer-events="none"
+                  width="1,0.25"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 sc-bwzfXH jLryXz"
+                    direction="out"
+                    pointer-events="none"
+                  >
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat bkqCei"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="16px,18px"
+                      font-weight="bold"
+                    >
+                      <h6
+                        id="i-vtm4-awd-system"
+                      >
+                        <strong>
+                          i-VTM4™ AWD System
+                        </strong>
+                      </h6>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat eCDlbk"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="14px,14px"
+                      font-weight="400"
+                    >
+                      <p>
+                        Standard on all Pilots, the intelligent Variable Torque Management All-Wheel Drive system helps turn mountains into molehills.
+                      </p>
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 fMjoKK Box-sc-1bsf784-0 sc-1k44dfv-0 cPSJea"
+                  direction="up"
+                  pointer-events="none"
+                  width="1,0.25"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 sc-bwzfXH jLryXz"
+                    direction="out"
+                    pointer-events="none"
+                  >
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat bkqCei"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="16px,18px"
+                      font-weight="bold"
+                    >
+                      <h6
+                        id="honda-sensingsupsup-technologies"
+                      >
+                        <strong>
+                          Honda Sensing
+                          <sup>
+                            ®
+                          </sup>
+                           Technologies
+                        </strong>
+                      </h6>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat eCDlbk"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="14px,14px"
+                      font-weight="400"
+                    >
+                      <p>
+                        Every Pilot comes equipped with intuitive technologies designed to help keep you, and everyone on the road around you, safer.
+                      </p>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-1k44dfv-0 kmYJqa"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 iIpRYD"
+              display="flex,flex"
+              height="calc(100vh - 300px)"
+              width="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 bbfrjj"
+                display="flex"
+                pointer-events="none"
+                width="100%"
+              />
+            </div>
+          </div>
+          <div
+            style="pointer-events: none; margin-top: -400vh;"
+          >
+            <div
+              class="Box-sc-1bsf784-0 gkUunJ"
+              height="120vh"
+              width="100%"
+            />
+            <div
+              class="Box-sc-1bsf784-0 gkUunJ"
+              height="120vh"
+              width="100%"
+            />
+            <div
+              class="Box-sc-1bsf784-0 gkUunJ"
+              height="120vh"
+              width="100%"
+            />
+            <div
+              class="Box-sc-1bsf784-0 gkUunJ"
+              height="120vh"
+              width="100%"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<KeyFeatures> should render correctly 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 iPRsIc"
+    data-gtm-category="model interactions"
+    id="keyfeatures"
+  >
+    <div
+      class="Box-sc-1bsf784-0 dAfjUF"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 sJGUW"
+      >
+        <img
+          alt="3/4 front view of black Pilot on white space."
+          class="sc-1k44dfv-0 fJCpbr"
+          draggable="true"
+          height="auto"
+          loading="lazy"
+          mb="l"
+          mx="auto"
+          src="https://www.honda.ca/-/media/Brands/Honda/Models/PILOT/2022/Overview/03_Key-Features/Desktop/Honda_Pilot_key-features_desktop_1036x520.png?h=520&iar=0&w=1036&rev=a70181547cb74e7fac7b449906f6e618&hash=0A51839D164F2B4BCA2AC720D83AB4E3"
+          style="max-width: 85%;"
+          width="auto"
+        />
+      </div>
+    </div>
+    <div>
+      <div
+        class="fresnel-container fresnel-lessThan-smallDesktop "
+      >
+        <div
+          class="sc-1k44dfv-0 dQikSF"
+        >
+          <div
+            class="sc-1k44dfv-0 bIgLeI"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 bQGFtd"
+              display="flex,block"
+              height="calc(100vh - 300px)"
+              width="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 dMEOGV"
+                direction="up"
+                pointer-events="none"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 jTBTqj"
+                  direction="out"
+                  pointer-events="none"
+                >
+                  <h2
+                    class="sc-1k44dfv-0 geSuUy"
+                    color="black"
+                    pointer-events="auto"
+                    style="text-transform: none;"
+                  >
+                    <h2
+                      id="the-2022-pilot"
+                    >
+                      The 2022 Pilot
+                    </h2>
+                  </h2>
+                </div>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 dMEOGV"
+                direction="up"
+                pointer-events="none"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 fDiRHd"
+                  direction="out"
+                >
+                  <p
+                    class="sc-1k44dfv-0 sc-bdVaJa bpjmvi"
+                    color="black"
+                    font-family="default"
+                    font-size="14px,16px"
+                    font-weight="regular"
+                  >
+                    <p>
+                      Can you rely on a durable SUV to give your adventures the style, comfort, and performance it deserves? With the 2022 Pilot, yes you can.
+                    </p>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-1k44dfv-0 bIgLeI"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 iIpRYD"
+              display="flex,flex"
+              height="calc(100vh - 300px)"
+              width="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 bbfrjj"
+                display="flex"
+                pointer-events="none"
+                width="100%"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 fMjoKK Box-sc-1bsf784-0 sc-1k44dfv-0 cPSJea"
+                  direction="up"
+                  pointer-events="none"
+                  width="1,0.25"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 sc-bwzfXH jLryXz"
+                    direction="out"
+                    pointer-events="none"
+                  >
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat bkqCei"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="16px,18px"
+                      font-weight="bold"
+                    >
+                      <h6
+                        id="engine"
+                      >
+                        <strong>
+                          Engine
+                        </strong>
+                      </h6>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat YvuqG"
+                      color="typographyDefault"
+                      font-family="heading"
+                      font-size="28px,44px"
+                      font-weight="regular"
+                    >
+                      <h3
+                        id="35-l"
+                      >
+                        3.5 L
+                      </h3>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat eCDlbk"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="14px,14px"
+                      font-weight="400"
+                    >
+                      <p>
+                        Direct Injection, i-VTEC
+                        <sup>
+                          ®
+                        </sup>
+                         V6
+                      </p>
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 fMjoKK Box-sc-1bsf784-0 sc-1k44dfv-0 cPSJea"
+                  direction="up"
+                  pointer-events="none"
+                  width="1,0.25"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 sc-bwzfXH gMdbGg"
+                    direction="out"
+                    pointer-events="none"
+                  >
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat bkqCei"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="16px,18px"
+                      font-weight="bold"
+                    >
+                      <h6
+                        id="power"
+                      >
+                        <strong>
+                          Power
+                        </strong>
+                      </h6>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat YvuqG"
+                      color="typographyDefault"
+                      font-family="heading"
+                      font-size="28px,44px"
+                      font-weight="regular"
+                    >
+                      <h3
+                        id="280-hpa-hrefdisclaimershondahorsepower-targetblank-aria-labelopens-to-a-new-tab-to-horsepower-torque-disclaimer-texta"
+                      >
+                        280 HP
+                        <a
+                          aria-label="Opens to a new tab to horsepower, torque disclaimer text"
+                          href="/disclaimers#Honda_horsepower"
+                          target="_blank"
+                        >
+                          *
+                        </a>
+                      </h3>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat eCDlbk"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="14px,14px"
+                      font-weight="400"
+                    >
+                      <span />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-1k44dfv-0 bIgLeI"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 iIpRYD"
+              display="flex,flex"
+              height="calc(100vh - 300px)"
+              width="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 bbfrjj"
+                display="flex"
+                pointer-events="none"
+                width="100%"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 fMjoKK Box-sc-1bsf784-0 sc-1k44dfv-0 cPSJea"
+                  direction="up"
+                  pointer-events="none"
+                  width="1,0.25"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 sc-bwzfXH jLryXz"
+                    direction="out"
+                    pointer-events="none"
+                  >
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat bkqCei"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="16px,18px"
+                      font-weight="bold"
+                    >
+                      <h6
+                        id="torque"
+                      >
+                        <strong>
+                          Torque
+                        </strong>
+                      </h6>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat YvuqG"
+                      color="typographyDefault"
+                      font-family="heading"
+                      font-size="28px,44px"
+                      font-weight="regular"
+                    >
+                      <h3
+                        id="262-lb-fta-hrefdisclaimershondahorsepower-targetblank-aria-labelopens-to-a-new-tab-to-horsepower-torque-disclaimer-texta"
+                      >
+                        262 lb.-ft.
+                        <a
+                          aria-label="Opens to a new tab to horsepower, torque disclaimer text"
+                          href="/disclaimers#Honda_horsepower"
+                          target="_blank"
+                        >
+                          *
+                        </a>
+                      </h3>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat eCDlbk"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="14px,14px"
+                      font-weight="400"
+                    >
+                      <span />
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 fMjoKK Box-sc-1bsf784-0 sc-1k44dfv-0 cPSJea"
+                  direction="up"
+                  pointer-events="none"
+                  width="1,0.25"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 sc-bwzfXH gMdbGg"
+                    direction="out"
+                    pointer-events="none"
+                  >
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat bkqCei"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="16px,18px"
+                      font-weight="bold"
+                    >
+                      <h6
+                        id="towing-capacitya-hrefdisclaimershondatowing-targetblank-aria-labelopens-to-a-new-tab-to-towing-capacity-disclaimer-texta"
+                      >
+                        <strong>
+                          Towing Capacity
+                        </strong>
+                        <a
+                          aria-label="Opens to a new tab to towing capacity disclaimer text"
+                          href="/disclaimers#Honda_towing"
+                          target="_blank"
+                        >
+                          *
+                        </a>
+                      </h6>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat YvuqG"
+                      color="typographyDefault"
+                      font-family="heading"
+                      font-size="28px,44px"
+                      font-weight="regular"
+                    >
+                      <h3
+                        id="5000-lbs"
+                      >
+                        5,000 lbs.
+                      </h3>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat eCDlbk"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="14px,14px"
+                      font-weight="400"
+                    >
+                      <p>
+                        (Available)
+                      </p>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-1k44dfv-0 bIgLeI"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 iIpRYD"
+              display="flex,flex"
+              height="calc(100vh - 300px)"
+              width="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 bbfrjj"
+                display="flex"
+                pointer-events="none"
+                width="100%"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 fMjoKK Box-sc-1bsf784-0 sc-1k44dfv-0 cPSJea"
+                  direction="up"
+                  pointer-events="none"
+                  width="1,0.25"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 sc-bwzfXH jLryXz"
+                    direction="out"
+                    pointer-events="none"
+                  >
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat iecXiz"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="16px,18px"
+                      font-weight="bold"
+                    >
+                      <h6
+                        id="the-new-trailsport-trim"
+                      >
+                        <strong>
+                          The New TrailSport Trim
+                        </strong>
+                      </h6>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat eCDlbk"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="14px,14px"
+                      font-weight="400"
+                    >
+                      <p>
+                        Sleek, black front grille bar and heated power side mirrors give the available TrailSport trim its signature rugged good looks, while amber ambient lighting and TrailSport leather-trimmed seating prove that all-terrain can feel all-comfortable, all the time.
+                      </p>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-1k44dfv-0 bIgLeI"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 iIpRYD"
+              display="flex,flex"
+              height="calc(100vh - 300px)"
+              width="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 bbfrjj"
+                display="flex"
+                pointer-events="none"
+                width="100%"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 fMjoKK Box-sc-1bsf784-0 sc-1k44dfv-0 cPSJea"
+                  direction="up"
+                  pointer-events="none"
+                  width="1,0.25"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 sc-bwzfXH jLryXz"
+                    direction="out"
+                    pointer-events="none"
+                  >
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat iecXiz"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="16px,18px"
+                      font-weight="bold"
+                    >
+                      <h6
+                        id="7-or-8-passenger-seating"
+                      >
+                        <strong>
+                          7 or 8 Passenger Seating
+                        </strong>
+                      </h6>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat eCDlbk"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="14px,14px"
+                      font-weight="400"
+                    >
+                      <p>
+                        The Pilot offers comfortable seating for up to seven or eight passengers, depending on which trim you decide to go with.
+                      </p>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-1k44dfv-0 bIgLeI"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 iIpRYD"
+              display="flex,flex"
+              height="calc(100vh - 300px)"
+              width="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 bbfrjj"
+                display="flex"
+                pointer-events="none"
+                width="100%"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 fMjoKK Box-sc-1bsf784-0 sc-1k44dfv-0 cPSJea"
+                  direction="up"
+                  pointer-events="none"
+                  width="1,0.25"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 sc-bwzfXH jLryXz"
+                    direction="out"
+                    pointer-events="none"
+                  >
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat iecXiz"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="16px,18px"
+                      font-weight="bold"
+                    >
+                      <h6
+                        id="i-vtm4-awd-system"
+                      >
+                        <strong>
+                          i-VTM4™ AWD System
+                        </strong>
+                      </h6>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat eCDlbk"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="14px,14px"
+                      font-weight="400"
+                    >
+                      <p>
+                        Standard on all Pilots, the intelligent Variable Torque Management All-Wheel Drive system helps turn mountains into molehills.
+                      </p>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-1k44dfv-0 bIgLeI"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 iIpRYD"
+              display="flex,flex"
+              height="calc(100vh - 300px)"
+              width="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 bbfrjj"
+                display="flex"
+                pointer-events="none"
+                width="100%"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 fMjoKK Box-sc-1bsf784-0 sc-1k44dfv-0 cPSJea"
+                  direction="up"
+                  pointer-events="none"
+                  width="1,0.25"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 sc-bwzfXH jLryXz"
+                    direction="out"
+                    pointer-events="none"
+                  >
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat iecXiz"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="16px,18px"
+                      font-weight="bold"
+                    >
+                      <h6
+                        id="honda-sensingsupsup-technologies"
+                      >
+                        <strong>
+                          Honda Sensing
+                          <sup>
+                            ®
+                          </sup>
+                           Technologies
+                        </strong>
+                      </h6>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat eCDlbk"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="14px,14px"
+                      font-weight="400"
+                    >
+                      <p>
+                        Every Pilot comes equipped with intuitive technologies designed to help keep you, and everyone on the road around you, safer.
+                      </p>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-1k44dfv-0 kmYJqa"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 iIpRYD"
+              display="flex,flex"
+              height="calc(100vh - 300px)"
+              width="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 bbfrjj"
+                display="flex"
+                pointer-events="none"
+                width="100%"
+              />
+            </div>
+          </div>
+          <div
+            style="pointer-events: none; margin-top: -560vh;"
+          >
+            <div
+              class="Box-sc-1bsf784-0 gniIVs"
+              height="84vh"
+              width="100%"
+            />
+            <div
+              class="Box-sc-1bsf784-0 gniIVs"
+              height="84vh"
+              width="100%"
+            />
+            <div
+              class="Box-sc-1bsf784-0 gniIVs"
+              height="84vh"
+              width="100%"
+            />
+            <div
+              class="Box-sc-1bsf784-0 gniIVs"
+              height="84vh"
+              width="100%"
+            />
+            <div
+              class="Box-sc-1bsf784-0 gniIVs"
+              height="84vh"
+              width="100%"
+            />
+            <div
+              class="Box-sc-1bsf784-0 gniIVs"
+              height="84vh"
+              width="100%"
+            />
+            <div
+              class="Box-sc-1bsf784-0 gniIVs"
+              height="84vh"
+              width="100%"
+            />
+            <div
+              class="Box-sc-1bsf784-0 gniIVs"
+              height="84vh"
+              width="100%"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="fresnel-container fresnel-greaterThanOrEqual-smallDesktop "
+      >
+        <div
+          class="sc-1k44dfv-0 dQikSF"
+        >
+          <div
+            class="sc-1k44dfv-0 bIgLeI"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 bQGFtd"
+              display="flex,block"
+              height="calc(100vh - 300px)"
+              width="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 dMEOGV"
+                direction="up"
+                pointer-events="none"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 jTBTqj"
+                  direction="out"
+                  pointer-events="none"
+                >
+                  <h2
+                    class="sc-1k44dfv-0 geSuUy"
+                    color="black"
+                    pointer-events="auto"
+                    style="text-transform: none;"
+                  >
+                    <h2
+                      id="the-2022-pilot"
+                    >
+                      The 2022 Pilot
+                    </h2>
+                  </h2>
+                </div>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 dMEOGV"
+                direction="up"
+                pointer-events="none"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 fDiRHd"
+                  direction="out"
+                >
+                  <p
+                    class="sc-1k44dfv-0 sc-bdVaJa bpjmvi"
+                    color="black"
+                    font-family="default"
+                    font-size="14px,16px"
+                    font-weight="regular"
+                  >
+                    <p>
+                      Can you rely on a durable SUV to give your adventures the style, comfort, and performance it deserves? With the 2022 Pilot, yes you can.
+                    </p>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-1k44dfv-0 bIgLeI"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 iIpRYD"
+              display="flex,flex"
+              height="calc(100vh - 300px)"
+              width="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 bbfrjj"
+                display="flex"
+                pointer-events="none"
+                width="100%"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 fMjoKK Box-sc-1bsf784-0 sc-1k44dfv-0 cPSJea"
+                  direction="up"
+                  pointer-events="none"
+                  width="1,0.25"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 sc-bwzfXH jLryXz"
+                    direction="out"
+                    pointer-events="none"
+                  >
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat bkqCei"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="16px,18px"
+                      font-weight="bold"
+                    >
+                      <h6
+                        id="engine"
+                      >
+                        <strong>
+                          Engine
+                        </strong>
+                      </h6>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat YvuqG"
+                      color="typographyDefault"
+                      font-family="heading"
+                      font-size="28px,44px"
+                      font-weight="regular"
+                    >
+                      <h3
+                        id="35-l"
+                      >
+                        3.5 L
+                      </h3>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat eCDlbk"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="14px,14px"
+                      font-weight="400"
+                    >
+                      <p>
+                        Direct Injection, i-VTEC
+                        <sup>
+                          ®
+                        </sup>
+                         V6
+                      </p>
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 fMjoKK Box-sc-1bsf784-0 sc-1k44dfv-0 cPSJea"
+                  direction="up"
+                  pointer-events="none"
+                  width="1,0.25"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 sc-bwzfXH jLryXz"
+                    direction="out"
+                    pointer-events="none"
+                  >
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat bkqCei"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="16px,18px"
+                      font-weight="bold"
+                    >
+                      <h6
+                        id="power"
+                      >
+                        <strong>
+                          Power
+                        </strong>
+                      </h6>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat YvuqG"
+                      color="typographyDefault"
+                      font-family="heading"
+                      font-size="28px,44px"
+                      font-weight="regular"
+                    >
+                      <h3
+                        id="280-hpa-hrefdisclaimershondahorsepower-targetblank-aria-labelopens-to-a-new-tab-to-horsepower-torque-disclaimer-texta"
+                      >
+                        280 HP
+                        <a
+                          aria-label="Opens to a new tab to horsepower, torque disclaimer text"
+                          href="/disclaimers#Honda_horsepower"
+                          target="_blank"
+                        >
+                          *
+                        </a>
+                      </h3>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat eCDlbk"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="14px,14px"
+                      font-weight="400"
+                    >
+                      <span />
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 fMjoKK Box-sc-1bsf784-0 sc-1k44dfv-0 cPSJea"
+                  direction="up"
+                  pointer-events="none"
+                  width="1,0.25"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 sc-bwzfXH jLryXz"
+                    direction="out"
+                    pointer-events="none"
+                  >
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat bkqCei"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="16px,18px"
+                      font-weight="bold"
+                    >
+                      <h6
+                        id="torque"
+                      >
+                        <strong>
+                          Torque
+                        </strong>
+                      </h6>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat YvuqG"
+                      color="typographyDefault"
+                      font-family="heading"
+                      font-size="28px,44px"
+                      font-weight="regular"
+                    >
+                      <h3
+                        id="262-lb-fta-hrefdisclaimershondahorsepower-targetblank-aria-labelopens-to-a-new-tab-to-horsepower-torque-disclaimer-texta"
+                      >
+                        262 lb.-ft.
+                        <a
+                          aria-label="Opens to a new tab to horsepower, torque disclaimer text"
+                          href="/disclaimers#Honda_horsepower"
+                          target="_blank"
+                        >
+                          *
+                        </a>
+                      </h3>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat eCDlbk"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="14px,14px"
+                      font-weight="400"
+                    >
+                      <span />
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 fMjoKK Box-sc-1bsf784-0 sc-1k44dfv-0 cPSJea"
+                  direction="up"
+                  pointer-events="none"
+                  width="1,0.25"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 sc-bwzfXH jLryXz"
+                    direction="out"
+                    pointer-events="none"
+                  >
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat bkqCei"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="16px,18px"
+                      font-weight="bold"
+                    >
+                      <h6
+                        id="towing-capacitya-hrefdisclaimershondatowing-targetblank-aria-labelopens-to-a-new-tab-to-towing-capacity-disclaimer-texta"
+                      >
+                        <strong>
+                          Towing Capacity
+                        </strong>
+                        <a
+                          aria-label="Opens to a new tab to towing capacity disclaimer text"
+                          href="/disclaimers#Honda_towing"
+                          target="_blank"
+                        >
+                          *
+                        </a>
+                      </h6>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat YvuqG"
+                      color="typographyDefault"
+                      font-family="heading"
+                      font-size="28px,44px"
+                      font-weight="regular"
+                    >
+                      <h3
+                        id="5000-lbs"
+                      >
+                        5,000 lbs.
+                      </h3>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat eCDlbk"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="14px,14px"
+                      font-weight="400"
+                    >
+                      <p>
+                        (Available)
+                      </p>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-1k44dfv-0 bIgLeI"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 iIpRYD"
+              display="flex,flex"
+              height="calc(100vh - 300px)"
+              width="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 bbfrjj"
+                display="flex"
+                pointer-events="none"
+                width="100%"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 fMjoKK Box-sc-1bsf784-0 sc-1k44dfv-0 cPSJea"
+                  direction="up"
+                  pointer-events="none"
+                  width="1,0.25"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 sc-bwzfXH jLryXz"
+                    direction="out"
+                    pointer-events="none"
+                  >
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat bkqCei"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="16px,18px"
+                      font-weight="bold"
+                    >
+                      <h6
+                        id="the-new-trailsport-trim"
+                      >
+                        <strong>
+                          The New TrailSport Trim
+                        </strong>
+                      </h6>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat eCDlbk"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="14px,14px"
+                      font-weight="400"
+                    >
+                      <p>
+                        Sleek, black front grille bar and heated power side mirrors give the available TrailSport trim its signature rugged good looks, while amber ambient lighting and TrailSport leather-trimmed seating prove that all-terrain can feel all-comfortable, all the time.
+                      </p>
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 fMjoKK Box-sc-1bsf784-0 sc-1k44dfv-0 cPSJea"
+                  direction="up"
+                  pointer-events="none"
+                  width="1,0.25"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 sc-bwzfXH jLryXz"
+                    direction="out"
+                    pointer-events="none"
+                  >
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat bkqCei"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="16px,18px"
+                      font-weight="bold"
+                    >
+                      <h6
+                        id="7-or-8-passenger-seating"
+                      >
+                        <strong>
+                          7 or 8 Passenger Seating
+                        </strong>
+                      </h6>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat eCDlbk"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="14px,14px"
+                      font-weight="400"
+                    >
+                      <p>
+                        The Pilot offers comfortable seating for up to seven or eight passengers, depending on which trim you decide to go with.
+                      </p>
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 fMjoKK Box-sc-1bsf784-0 sc-1k44dfv-0 cPSJea"
+                  direction="up"
+                  pointer-events="none"
+                  width="1,0.25"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 sc-bwzfXH jLryXz"
+                    direction="out"
+                    pointer-events="none"
+                  >
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat bkqCei"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="16px,18px"
+                      font-weight="bold"
+                    >
+                      <h6
+                        id="i-vtm4-awd-system"
+                      >
+                        <strong>
+                          i-VTM4™ AWD System
+                        </strong>
+                      </h6>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat eCDlbk"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="14px,14px"
+                      font-weight="400"
+                    >
+                      <p>
+                        Standard on all Pilots, the intelligent Variable Torque Management All-Wheel Drive system helps turn mountains into molehills.
+                      </p>
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 fMjoKK Box-sc-1bsf784-0 sc-1k44dfv-0 cPSJea"
+                  direction="up"
+                  pointer-events="none"
+                  width="1,0.25"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 sc-bwzfXH jLryXz"
+                    direction="out"
+                    pointer-events="none"
+                  >
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat bkqCei"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="16px,18px"
+                      font-weight="bold"
+                    >
+                      <h6
+                        id="honda-sensingsupsup-technologies"
+                      >
+                        <strong>
+                          Honda Sensing
+                          <sup>
+                            ®
+                          </sup>
+                           Technologies
+                        </strong>
+                      </h6>
+                    </p>
+                    <p
+                      class="sc-1k44dfv-0 sc-htpNat eCDlbk"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-size="14px,14px"
+                      font-weight="400"
+                    >
+                      <p>
+                        Every Pilot comes equipped with intuitive technologies designed to help keep you, and everyone on the road around you, safer.
+                      </p>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-1k44dfv-0 kmYJqa"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 iIpRYD"
+              display="flex,flex"
+              height="calc(100vh - 300px)"
+              width="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 bbfrjj"
+                display="flex"
+                pointer-events="none"
+                width="100%"
+              />
+            </div>
+          </div>
+          <div
+            style="pointer-events: none; margin-top: -400vh;"
+          >
+            <div
+              class="Box-sc-1bsf784-0 gkUunJ"
+              height="120vh"
+              width="100%"
+            />
+            <div
+              class="Box-sc-1bsf784-0 gkUunJ"
+              height="120vh"
+              width="100%"
+            />
+            <div
+              class="Box-sc-1bsf784-0 gkUunJ"
+              height="120vh"
+              width="100%"
+            />
+            <div
+              class="Box-sc-1bsf784-0 gkUunJ"
+              height="120vh"
+              width="100%"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<KeyFeatures> should return null if the data is empty 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 iPRsIc"
+    data-gtm-category="Others"
+  >
+    <div
+      class="Box-sc-1bsf784-0 dAfjUF"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 sJGUW"
+      >
+        <img
+          class="sc-1k44dfv-0 cWWLTV"
+          draggable="true"
+          height="auto"
+          loading="lazy"
+          mb="l"
+          mx="auto"
+          style="max-width: 85%;"
+          width="auto"
+        />
+      </div>
+    </div>
+    <div>
+      <div
+        class="fresnel-container fresnel-lessThan-smallDesktop "
+      >
+        <div
+          class="sc-1k44dfv-0 dQikSF"
+        >
+          <div
+            class="sc-1k44dfv-0 bIgLeI"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 bQGFtd"
+              display="flex,block"
+              height="calc(100vh - 300px)"
+              width="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 dMEOGV"
+                direction="up"
+                pointer-events="none"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 jTBTqj"
+                  direction="out"
+                  pointer-events="none"
+                >
+                  <h2
+                    class="sc-1k44dfv-0 geSuUy"
+                    color="black"
+                    pointer-events="auto"
+                    style="text-transform: none;"
+                  >
+                    <span />
+                  </h2>
+                </div>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 dMEOGV"
+                direction="up"
+                pointer-events="none"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 fDiRHd"
+                  direction="out"
+                >
+                  <p
+                    class="sc-1k44dfv-0 sc-bdVaJa bpjmvi"
+                    color="black"
+                    font-family="default"
+                    font-size="14px,16px"
+                    font-weight="regular"
+                  >
+                    <span />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-1k44dfv-0 kmYJqa"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 iIpRYD"
+              display="flex,flex"
+              height="calc(100vh - 300px)"
+              width="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 bbfrjj"
+                display="flex"
+                pointer-events="none"
+                width="100%"
+              />
+            </div>
+          </div>
+          <div
+            style="pointer-events: none; margin-top: -140vh;"
+          >
+            <div
+              class="Box-sc-1bsf784-0 gniIVs"
+              height="84vh"
+              width="100%"
+            />
+            <div
+              class="Box-sc-1bsf784-0 gniIVs"
+              height="84vh"
+              width="100%"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="fresnel-container fresnel-greaterThanOrEqual-smallDesktop "
+      >
+        <div
+          class="sc-1k44dfv-0 dQikSF"
+        >
+          <div
+            class="sc-1k44dfv-0 bIgLeI"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 bQGFtd"
+              display="flex,block"
+              height="calc(100vh - 300px)"
+              width="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 dMEOGV"
+                direction="up"
+                pointer-events="none"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 jTBTqj"
+                  direction="out"
+                  pointer-events="none"
+                >
+                  <h2
+                    class="sc-1k44dfv-0 geSuUy"
+                    color="black"
+                    pointer-events="auto"
+                    style="text-transform: none;"
+                  >
+                    <span />
+                  </h2>
+                </div>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 dMEOGV"
+                direction="up"
+                pointer-events="none"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 fDiRHd"
+                  direction="out"
+                >
+                  <p
+                    class="sc-1k44dfv-0 sc-bdVaJa bpjmvi"
+                    color="black"
+                    font-family="default"
+                    font-size="14px,16px"
+                    font-weight="regular"
+                  >
+                    <span />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-1k44dfv-0 bIgLeI"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 iIpRYD"
+              display="flex,flex"
+              height="calc(100vh - 300px)"
+              width="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 bbfrjj"
+                display="flex"
+                pointer-events="none"
+                width="100%"
+              />
+            </div>
+          </div>
+          <div
+            class="sc-1k44dfv-0 bIgLeI"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 iIpRYD"
+              display="flex,flex"
+              height="calc(100vh - 300px)"
+              width="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 bbfrjj"
+                display="flex"
+                pointer-events="none"
+                width="100%"
+              />
+            </div>
+          </div>
+          <div
+            class="sc-1k44dfv-0 kmYJqa"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 iIpRYD"
+              display="flex,flex"
+              height="calc(100vh - 300px)"
+              width="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 bbfrjj"
+                display="flex"
+                pointer-events="none"
+                width="100%"
+              />
+            </div>
+          </div>
+          <div
+            style="pointer-events: none; margin-top: -400vh;"
+          >
+            <div
+              class="Box-sc-1bsf784-0 gkUunJ"
+              height="120vh"
+              width="100%"
+            />
+            <div
+              class="Box-sc-1bsf784-0 gkUunJ"
+              height="120vh"
+              width="100%"
+            />
+            <div
+              class="Box-sc-1bsf784-0 gkUunJ"
+              height="120vh"
+              width="100%"
+            />
+            <div
+              class="Box-sc-1bsf784-0 gkUunJ"
+              height="120vh"
+              width="100%"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<KeyFeatures> should return null if there is no fields 1`] = `<div />`;

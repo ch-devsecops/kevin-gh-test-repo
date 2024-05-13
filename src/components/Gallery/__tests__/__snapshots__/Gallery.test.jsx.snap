@@ -1,0 +1,752 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Gallery> should render correctly 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 eOOIQd"
+    data-gtm-category="others"
+    id="gallery-id"
+  >
+    <div
+      class="Box-sc-1bsf784-0 jrMedw"
+      display="flex"
+      width="100%"
+    >
+      <button
+        class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 jrnKmA"
+        data-gtm-interaction-type="gallery - image filter"
+        data-gtm-title="exterior"
+      >
+        <p
+          class="sc-1k44dfv-0 sc-1k44dfv-0 hFTuyR"
+          color="black"
+          font-family="default"
+          font-weight="regular"
+        >
+          Exterior
+        </p>
+      </button>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 hyVGoO"
+      height="100%"
+    >
+      <button
+        aria-label="Shared.Gallery.fullscreenModeAria"
+        class="IconWrapper-lp9q2r-0 sc-1k44dfv-0 hHFAcS"
+      />
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 bYZXpx"
+        height="180px,432px,702px"
+        width="100%"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 clIyAz"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 jazOpQ"
+          >
+            <div
+              aria-live="polite"
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 jlohdu"
+              height="100%"
+              id="carousel-1"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 jyKEsn"
+              >
+                <img
+                  alt=""
+                  class="sc-1k44dfv-0 cbPQHC"
+                  data-gtm-category="others"
+                  draggable="true"
+                  height="1589"
+                  loading="lazy"
+                  src="http://via.placeholder.com/1248x702/8F8F8F?text=Placeholder_Image_1248x702_1"
+                  width="2400"
+                />
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 kwdYIQ"
+              >
+                <img
+                  alt=""
+                  class="sc-1k44dfv-0 fJDGLW"
+                  data-gtm-category="others"
+                  draggable="true"
+                  height="1603"
+                  loading="lazy"
+                  src="http://via.placeholder.com/1248x702/808080?text=Placeholder_Image_1248x702_2"
+                  width="2400"
+                />
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 kwdYIQ"
+              >
+                <img
+                  alt=""
+                  class="sc-1k44dfv-0 fJDGLW"
+                  data-gtm-category="others"
+                  draggable="true"
+                  height="1603"
+                  loading="lazy"
+                  src="http://via.placeholder.com/1248x702/8F8F8F?text=Placeholder_Image_1248x702_3"
+                  width="2400"
+                />
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 kwdYIQ"
+              >
+                <img
+                  alt=""
+                  class="sc-1k44dfv-0 hFRoqg"
+                  data-gtm-category="others"
+                  draggable="true"
+                  height="344"
+                  loading="lazy"
+                  src="http://via.placeholder.com/1248x702/808080?text=Placeholder_Image_1248x702_4"
+                  width="612"
+                />
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 kwdYIQ"
+              >
+                <img
+                  alt=""
+                  class="sc-1k44dfv-0 hFRoqg"
+                  data-gtm-category="others"
+                  draggable="true"
+                  height="344"
+                  loading="lazy"
+                  src="http://via.placeholder.com/1248x702/8F8F8F?text=Placeholder_Image_1248x702_5"
+                  width="612"
+                />
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 kwdYIQ"
+              >
+                <img
+                  alt=""
+                  class="sc-1k44dfv-0 bmxlN"
+                  data-gtm-category="others"
+                  draggable="true"
+                  height="1310"
+                  loading="lazy"
+                  src="http://via.placeholder.com/1248x702/808080?text=Placeholder_Image_1248x702_6"
+                  width="2400"
+                />
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 kwdYIQ"
+              >
+                <img
+                  alt=""
+                  class="sc-1k44dfv-0 bmxlN"
+                  data-gtm-category="others"
+                  draggable="true"
+                  height="1310"
+                  loading="lazy"
+                  src="http://via.placeholder.com/1248x702/8F8F8F?text=Placeholder_Image_1248x702_7"
+                  width="2400"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 XgdIW"
+          display="flex"
+          height="100%"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 kijLGK"
+            direction="in"
+            id=""
+          >
+            <button
+              aria-controls="carousel-1"
+              aria-label="Shared.Gallery.prevImageAria"
+              class="IconWrapper-lp9q2r-0 sc-bdVaJa jfRUiK"
+              cursor="initial"
+              data-gtm-interaction-type="gallery - view previous"
+              data-gtm-title="exterior"
+              disabled=""
+            />
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 exiPIC"
+          display="flex"
+          height="100%"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 kijLGK"
+            direction="in"
+            id=""
+          >
+            <button
+              aria-controls="carousel-1"
+              aria-label="Shared.Gallery.nextImageAria"
+              class="IconWrapper-lp9q2r-0 sc-bdVaJa eIsOEp"
+              cursor="pointer"
+              data-gtm-interaction-type="gallery - view next"
+              data-gtm-title="exterior"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 cLmRZY"
+      display="flex"
+      id="thumbnails-2"
+      overflow="hidden"
+      width="100%"
+    >
+      <button
+        class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 iLLehK"
+        width="0.25,0.25,0.16666666666666666"
+      >
+        <img
+          alt=""
+          class="sc-1k44dfv-0 cbPQHC"
+          data-gtm-category="others"
+          draggable="true"
+          height="1589"
+          loading="lazy"
+          src="http://via.placeholder.com/1248x702/8F8F8F?text=Placeholder_Image_1248x702_1"
+          width="2400"
+        />
+        <div
+          class="Box-sc-1bsf784-0 QoWEs thumbnail-border"
+          height="4px"
+        />
+      </button>
+      <button
+        class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 kyVUow"
+        width="0.25,0.25,0.16666666666666666"
+      >
+        <img
+          alt=""
+          class="sc-1k44dfv-0 fJDGLW"
+          data-gtm-category="others"
+          draggable="true"
+          height="1603"
+          loading="lazy"
+          src="http://via.placeholder.com/1248x702/808080?text=Placeholder_Image_1248x702_2"
+          width="2400"
+        />
+        <div
+          class="Box-sc-1bsf784-0 QoWEs thumbnail-border"
+          height="4px"
+        />
+      </button>
+      <button
+        class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 kyVUow"
+        width="0.25,0.25,0.16666666666666666"
+      >
+        <img
+          alt=""
+          class="sc-1k44dfv-0 fJDGLW"
+          data-gtm-category="others"
+          draggable="true"
+          height="1603"
+          loading="lazy"
+          src="http://via.placeholder.com/1248x702/8F8F8F?text=Placeholder_Image_1248x702_3"
+          width="2400"
+        />
+        <div
+          class="Box-sc-1bsf784-0 QoWEs thumbnail-border"
+          height="4px"
+        />
+      </button>
+      <button
+        class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 kyVUow"
+        width="0.25,0.25,0.16666666666666666"
+      >
+        <img
+          alt=""
+          class="sc-1k44dfv-0 hFRoqg"
+          data-gtm-category="others"
+          draggable="true"
+          height="344"
+          loading="lazy"
+          src="http://via.placeholder.com/1248x702/808080?text=Placeholder_Image_1248x702_4"
+          width="612"
+        />
+        <div
+          class="Box-sc-1bsf784-0 QoWEs thumbnail-border"
+          height="4px"
+        />
+      </button>
+      <button
+        class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 kyVUow"
+        width="0.25,0.25,0.16666666666666666"
+      >
+        <img
+          alt=""
+          class="sc-1k44dfv-0 hFRoqg"
+          data-gtm-category="others"
+          draggable="true"
+          height="344"
+          loading="lazy"
+          src="http://via.placeholder.com/1248x702/8F8F8F?text=Placeholder_Image_1248x702_5"
+          width="612"
+        />
+        <div
+          class="Box-sc-1bsf784-0 QoWEs thumbnail-border"
+          height="4px"
+        />
+      </button>
+      <button
+        class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 kyVUow"
+        width="0.25,0.25,0.16666666666666666"
+      >
+        <img
+          alt=""
+          class="sc-1k44dfv-0 bmxlN"
+          data-gtm-category="others"
+          draggable="true"
+          height="1310"
+          loading="lazy"
+          src="http://via.placeholder.com/1248x702/808080?text=Placeholder_Image_1248x702_6"
+          width="2400"
+        />
+        <div
+          class="Box-sc-1bsf784-0 QoWEs thumbnail-border"
+          height="4px"
+        />
+      </button>
+      <button
+        class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 kyVUow"
+        width="0.25,0.25,0.16666666666666666"
+      >
+        <img
+          alt=""
+          class="sc-1k44dfv-0 bmxlN"
+          data-gtm-category="others"
+          draggable="true"
+          height="1310"
+          loading="lazy"
+          src="http://via.placeholder.com/1248x702/8F8F8F?text=Placeholder_Image_1248x702_7"
+          width="2400"
+        />
+        <div
+          class="Box-sc-1bsf784-0 QoWEs thumbnail-border"
+          height="4px"
+        />
+      </button>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 gKONMQ sc-1k44dfv-0 dlpEjh"
+      display="flex"
+      width="100%"
+    >
+      <button
+        aria-controls="thumbnails-2"
+        aria-label="Shared.Gallery.prevThumbnailPageAria"
+        class="IconWrapper-lp9q2r-0 sc-bdVaJa jfRUiK"
+        cursor="initial"
+        disabled=""
+      />
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 evNJbO"
+      >
+        <button
+          aria-label="0"
+          class="sc-1k44dfv-0 cjSExO"
+          data-testid="step1"
+          role="button"
+        />
+        <button
+          aria-label="1"
+          class="sc-1k44dfv-0 ipUiMI"
+          data-testid="step2"
+          role="button"
+        />
+      </div>
+      <button
+        aria-controls="thumbnails-2"
+        aria-label="Shared.Gallery.nextThumbnailPageAria"
+        class="IconWrapper-lp9q2r-0 sc-bdVaJa eIsOEp"
+        cursor="pointer"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Gallery Short Variant should render short variant correctly 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 eOOIQd"
+    data-gtm-category="others"
+    id="gallery-id"
+  >
+    <div
+      class="Box-sc-1bsf784-0 jrMedw"
+      display="flex"
+      width="100%"
+    >
+      <button
+        class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 jrnKmA"
+        data-gtm-interaction-type="gallery - image filter"
+        data-gtm-title="exterior"
+      >
+        <p
+          class="sc-1k44dfv-0 sc-1k44dfv-0 hFTuyR"
+          color="black"
+          font-family="default"
+          font-weight="regular"
+        >
+          Exterior
+        </p>
+      </button>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 igbPGr"
+    >
+      <button
+        aria-label="Shared.Gallery.fullscreenModeAria"
+        class="IconWrapper-lp9q2r-0 sc-1k44dfv-0 hHFAcS"
+      />
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 jmMsw"
+        height="180px,432px,702px"
+        width="100%"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 clIyAz"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 jazOpQ"
+          >
+            <div
+              aria-live="polite"
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 jlohdu"
+              height="100%"
+              id="carousel-3"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 jyKEsn"
+              >
+                <img
+                  alt=""
+                  class="sc-1k44dfv-0 cbPQHC"
+                  data-gtm-category="others"
+                  draggable="true"
+                  height="1589"
+                  loading="lazy"
+                  src="http://via.placeholder.com/1248x702/8F8F8F?text=Placeholder_Image_1248x702_1"
+                  width="2400"
+                />
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 kwdYIQ"
+              >
+                <img
+                  alt=""
+                  class="sc-1k44dfv-0 fJDGLW"
+                  data-gtm-category="others"
+                  draggable="true"
+                  height="1603"
+                  loading="lazy"
+                  src="http://via.placeholder.com/1248x702/808080?text=Placeholder_Image_1248x702_2"
+                  width="2400"
+                />
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 kwdYIQ"
+              >
+                <img
+                  alt=""
+                  class="sc-1k44dfv-0 fJDGLW"
+                  data-gtm-category="others"
+                  draggable="true"
+                  height="1603"
+                  loading="lazy"
+                  src="http://via.placeholder.com/1248x702/8F8F8F?text=Placeholder_Image_1248x702_3"
+                  width="2400"
+                />
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 kwdYIQ"
+              >
+                <img
+                  alt=""
+                  class="sc-1k44dfv-0 hFRoqg"
+                  data-gtm-category="others"
+                  draggable="true"
+                  height="344"
+                  loading="lazy"
+                  src="http://via.placeholder.com/1248x702/808080?text=Placeholder_Image_1248x702_4"
+                  width="612"
+                />
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 kwdYIQ"
+              >
+                <img
+                  alt=""
+                  class="sc-1k44dfv-0 hFRoqg"
+                  data-gtm-category="others"
+                  draggable="true"
+                  height="344"
+                  loading="lazy"
+                  src="http://via.placeholder.com/1248x702/8F8F8F?text=Placeholder_Image_1248x702_5"
+                  width="612"
+                />
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 kwdYIQ"
+              >
+                <img
+                  alt=""
+                  class="sc-1k44dfv-0 bmxlN"
+                  data-gtm-category="others"
+                  draggable="true"
+                  height="1310"
+                  loading="lazy"
+                  src="http://via.placeholder.com/1248x702/808080?text=Placeholder_Image_1248x702_6"
+                  width="2400"
+                />
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 kwdYIQ"
+              >
+                <img
+                  alt=""
+                  class="sc-1k44dfv-0 bmxlN"
+                  data-gtm-category="others"
+                  draggable="true"
+                  height="1310"
+                  loading="lazy"
+                  src="http://via.placeholder.com/1248x702/8F8F8F?text=Placeholder_Image_1248x702_7"
+                  width="2400"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 XgdIW"
+          display="flex"
+          height="100%"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 kijLGK"
+            direction="in"
+            id=""
+          >
+            <button
+              aria-controls="carousel-3"
+              aria-label="Shared.Gallery.prevImageAria"
+              class="IconWrapper-lp9q2r-0 sc-bdVaJa jfRUiK"
+              cursor="initial"
+              data-gtm-interaction-type="gallery - view previous"
+              data-gtm-title="exterior"
+              disabled=""
+            />
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 exiPIC"
+          display="flex"
+          height="100%"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 kijLGK"
+            direction="in"
+            id=""
+          >
+            <button
+              aria-controls="carousel-3"
+              aria-label="Shared.Gallery.nextImageAria"
+              class="IconWrapper-lp9q2r-0 sc-bdVaJa eIsOEp"
+              cursor="pointer"
+              data-gtm-interaction-type="gallery - view next"
+              data-gtm-title="exterior"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 cLmRZY"
+      display="flex"
+      id="thumbnails-2"
+      overflow="hidden"
+      width="100%"
+    >
+      <button
+        class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 iLLehK"
+        width="0.25,0.25,0.16666666666666666"
+      >
+        <img
+          alt=""
+          class="sc-1k44dfv-0 cbPQHC"
+          data-gtm-category="others"
+          draggable="true"
+          height="1589"
+          loading="lazy"
+          src="http://via.placeholder.com/1248x702/8F8F8F?text=Placeholder_Image_1248x702_1"
+          width="2400"
+        />
+        <div
+          class="Box-sc-1bsf784-0 QoWEs thumbnail-border"
+          height="4px"
+        />
+      </button>
+      <button
+        class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 kyVUow"
+        width="0.25,0.25,0.16666666666666666"
+      >
+        <img
+          alt=""
+          class="sc-1k44dfv-0 fJDGLW"
+          data-gtm-category="others"
+          draggable="true"
+          height="1603"
+          loading="lazy"
+          src="http://via.placeholder.com/1248x702/808080?text=Placeholder_Image_1248x702_2"
+          width="2400"
+        />
+        <div
+          class="Box-sc-1bsf784-0 QoWEs thumbnail-border"
+          height="4px"
+        />
+      </button>
+      <button
+        class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 kyVUow"
+        width="0.25,0.25,0.16666666666666666"
+      >
+        <img
+          alt=""
+          class="sc-1k44dfv-0 fJDGLW"
+          data-gtm-category="others"
+          draggable="true"
+          height="1603"
+          loading="lazy"
+          src="http://via.placeholder.com/1248x702/8F8F8F?text=Placeholder_Image_1248x702_3"
+          width="2400"
+        />
+        <div
+          class="Box-sc-1bsf784-0 QoWEs thumbnail-border"
+          height="4px"
+        />
+      </button>
+      <button
+        class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 kyVUow"
+        width="0.25,0.25,0.16666666666666666"
+      >
+        <img
+          alt=""
+          class="sc-1k44dfv-0 hFRoqg"
+          data-gtm-category="others"
+          draggable="true"
+          height="344"
+          loading="lazy"
+          src="http://via.placeholder.com/1248x702/808080?text=Placeholder_Image_1248x702_4"
+          width="612"
+        />
+        <div
+          class="Box-sc-1bsf784-0 QoWEs thumbnail-border"
+          height="4px"
+        />
+      </button>
+      <button
+        class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 kyVUow"
+        width="0.25,0.25,0.16666666666666666"
+      >
+        <img
+          alt=""
+          class="sc-1k44dfv-0 hFRoqg"
+          data-gtm-category="others"
+          draggable="true"
+          height="344"
+          loading="lazy"
+          src="http://via.placeholder.com/1248x702/8F8F8F?text=Placeholder_Image_1248x702_5"
+          width="612"
+        />
+        <div
+          class="Box-sc-1bsf784-0 QoWEs thumbnail-border"
+          height="4px"
+        />
+      </button>
+      <button
+        class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 kyVUow"
+        width="0.25,0.25,0.16666666666666666"
+      >
+        <img
+          alt=""
+          class="sc-1k44dfv-0 bmxlN"
+          data-gtm-category="others"
+          draggable="true"
+          height="1310"
+          loading="lazy"
+          src="http://via.placeholder.com/1248x702/808080?text=Placeholder_Image_1248x702_6"
+          width="2400"
+        />
+        <div
+          class="Box-sc-1bsf784-0 QoWEs thumbnail-border"
+          height="4px"
+        />
+      </button>
+      <button
+        class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 kyVUow"
+        width="0.25,0.25,0.16666666666666666"
+      >
+        <img
+          alt=""
+          class="sc-1k44dfv-0 bmxlN"
+          data-gtm-category="others"
+          draggable="true"
+          height="1310"
+          loading="lazy"
+          src="http://via.placeholder.com/1248x702/8F8F8F?text=Placeholder_Image_1248x702_7"
+          width="2400"
+        />
+        <div
+          class="Box-sc-1bsf784-0 QoWEs thumbnail-border"
+          height="4px"
+        />
+      </button>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 gKONMQ sc-1k44dfv-0 dlpEjh"
+      display="flex"
+      width="100%"
+    >
+      <button
+        aria-controls="thumbnails-2"
+        aria-label="Shared.Gallery.prevThumbnailPageAria"
+        class="IconWrapper-lp9q2r-0 sc-bdVaJa jfRUiK"
+        cursor="initial"
+        disabled=""
+      />
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 evNJbO"
+      >
+        <button
+          aria-label="0"
+          class="sc-1k44dfv-0 cjSExO"
+          data-testid="step1"
+          role="button"
+        />
+        <button
+          aria-label="1"
+          class="sc-1k44dfv-0 ipUiMI"
+          data-testid="step2"
+          role="button"
+        />
+      </div>
+      <button
+        aria-controls="thumbnails-2"
+        aria-label="Shared.Gallery.nextThumbnailPageAria"
+        class="IconWrapper-lp9q2r-0 sc-bdVaJa eIsOEp"
+        cursor="pointer"
+      />
+    </div>
+  </div>
+</div>
+`;

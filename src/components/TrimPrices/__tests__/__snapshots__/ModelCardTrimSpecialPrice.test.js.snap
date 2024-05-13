@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ModelCardTrimSpecialPrice> it should have no accessibility violations 1`] = `
+<div>
+  <p
+    class="sc-1k44dfv-0 bZVSot"
+    color="typographyDefault"
+    font-family="default"
+    font-weight="regular"
+  >
+    msrp price 
+    <span
+      class="Box-sc-1bsf784-0 hqVyQa"
+      display="inline-flex"
+      font-weight="bold"
+    >
+      $100
+      <span
+        class="Box-sc-1bsf784-0 lnNmAV"
+        height="14px"
+        width="14px"
+      >
+        <button
+          aria-label="value does include"
+          class="sc-1k44dfv-0 jOKBEK"
+        />
+      </span>
+    </span>
+  </p>
+</div>
+`;
+
+exports[`<ModelCardTrimSpecialPrice> should render correctly 1`] = `
+<div>
+  <p
+    class="sc-1k44dfv-0 bZVSot"
+    color="typographyDefault"
+    font-family="default"
+    font-weight="regular"
+  >
+    msrp price 
+    <span
+      class="Box-sc-1bsf784-0 hqVyQa"
+      display="inline-flex"
+      font-weight="bold"
+    >
+      $100
+      <span
+        class="Box-sc-1bsf784-0 lnNmAV"
+        height="14px"
+        width="14px"
+      >
+        <button
+          aria-label="value does include"
+          class="sc-1k44dfv-0 jOKBEK"
+        />
+      </span>
+    </span>
+  </p>
+</div>
+`;

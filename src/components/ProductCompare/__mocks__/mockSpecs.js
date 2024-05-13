@@ -1,0 +1,328 @@
+import camelcaseKeys from 'camelcase-keys';
+
+const specs = [
+  {
+    TrimId: 13276,
+    DisplayOrder: 1,
+    Label: 'Engine & Drivetrain',
+    Name: 'engine___drivetrain',
+    Specs: [
+      {
+        DisplayOrder: 1,
+        Label: 'Engine type',
+        Name: 'engine_type',
+        Tip: '',
+        Value: 'Liquid-cooled horizontally opposed six-cylinder',
+      },
+      {
+        DisplayOrder: 2,
+        Label: 'Displacement',
+        Name: 'displacement',
+        Tip: '',
+        Value: '1,833 cc',
+      },
+      {
+        DisplayOrder: 3,
+        Label: 'Bore & stroke',
+        Name: 'bore___stroke',
+        Tip: '',
+        Value: '73 mm x 73 mm',
+      },
+      {
+        DisplayOrder: 4,
+        Label: 'Compression ratio',
+        Name: 'compression_ratio',
+        Tip: '',
+        Value: '10.5:1',
+      },
+      {
+        DisplayOrder: 5,
+        Label: 'Valve train',
+        Name: 'valve_train',
+        Tip: '',
+        Value: 'SOHC, Unicam, four valves per cylinder',
+      },
+      {
+        DisplayOrder: 6,
+        Label: 'Fuel delivery',
+        Name: 'fuel_delivery',
+        Tip: '',
+        Value: 'PGM-FI electronic fuel injection',
+      },
+      {
+        DisplayOrder: 7,
+        Label: 'Transmission',
+        Name: 'transmission',
+        Tip: '',
+        Value: 'Six-speed manual with overdrive and electric low speed reverse function',
+      },
+      {
+        DisplayOrder: 8,
+        Label: 'Final drive',
+        Name: 'final_drive',
+        Tip: '',
+        Value: 'Shaft',
+      },
+    ],
+  },
+  {
+    TrimId: 13322,
+    DisplayOrder: 1,
+    Label: 'Engine & Drivetrain',
+    Name: 'engine___drivetrain',
+    Specs: [
+      {
+        DisplayOrder: 1,
+        Label: 'Engine Type',
+        Name: 'engine_type',
+        Tip: '',
+        Value: 'Liquid-cooled parallel twin with 270° phased crankshaft',
+      },
+      {
+        DisplayOrder: 2,
+        Label: 'Displacement',
+        Name: 'displacement',
+        Tip: '',
+        Value: '1084 cc',
+      },
+      {
+        DisplayOrder: 3,
+        Label: 'Bore & Stroke',
+        Name: 'bore___stroke',
+        Tip: '',
+        Value: '92 mm x 81.5 mm',
+      },
+      {
+        DisplayOrder: 4,
+        Label: 'Compression Ratio',
+        Name: 'compression_ratio',
+        Tip: '',
+        Value: '10.1:1',
+      },
+      {
+        DisplayOrder: 5,
+        Label: 'Valve Train',
+        Name: 'valve_train',
+        Tip: '',
+        Value: 'SOHC, Unicam, 4 valves per cylinder',
+      },
+      {
+        DisplayOrder: 6,
+        Label: 'Fuel Delivery',
+        Name: 'fuel_delivery',
+        Tip: '',
+        Value: 'PGM-FI electronic fuel injection with 46 mm throttle bodies',
+      },
+      {
+        DisplayOrder: 7,
+        Label: 'Transmission',
+        Name: 'transmission',
+        Tip: '',
+        Value:
+          'Standard model: Six-speed manual <br>\nDCT model: Six-speed Dual Clutch Transmission with three automatic shift modes and a manual mode',
+      },
+      {
+        DisplayOrder: 8,
+        Label: 'Final Drive',
+        Name: 'final_drive',
+        Tip: '',
+        Value: '#525 chain; 16T/42T',
+      },
+    ],
+  },
+  {
+    TrimId: 13276,
+    DisplayOrder: 2,
+    Label: 'Chassis & Suspension',
+    Name: 'chassis___suspension',
+    Specs: [
+      {
+        DisplayOrder: 9,
+        Label: 'Front suspension',
+        Name: 'front_suspension',
+        Tip: 'Corrected',
+        Value:
+          'Double A-arm including a Showa shock absorber with electronically controlled damping force preset with selected riding modes; 110 mm (4.3 in) travel',
+      },
+      {
+        DisplayOrder: 10,
+        Label: 'Rear suspension',
+        Name: 'rear_suspension',
+        Tip: 'Corrected',
+        Value:
+          'Pro Arm<sup>®</sup> single-sided swingarm and Pro-Link<sup>®</sup> system including a Showa Shock absorber with electronically controlled spring preload adjustment and damping force preset with selected riding modes; 105 mm (4.1 in.) travel',
+      },
+    ],
+  },
+  {
+    TrimId: 13322,
+    DisplayOrder: 2,
+    Label: 'Chassis & Suspension',
+    Name: 'chassis___suspension',
+    Specs: [
+      {
+        DisplayOrder: 9,
+        Label: 'Front Suspension',
+        Name: 'front_suspension',
+        Tip: '',
+        Value: '43 mm telescopic fork; 121 mm (4.8 in) travel',
+      },
+      {
+        DisplayOrder: 10,
+        Label: 'Rear Suspension',
+        Name: 'rear_suspension',
+        Tip: '',
+        Value:
+          'Dual Showa shocks w/ 12.5mm shafts & adj. preload, piggyback pressurized reservoirs; 95 mm (3.7 in) travel',
+      },
+    ],
+  },
+  {
+    TrimId: 13276,
+    DisplayOrder: 3,
+    Label: 'Dimensions & Additional Information',
+    Name: 'dimensions___additional_information',
+    Specs: [
+      {
+        DisplayOrder: 11,
+        Label: 'Tires',
+        Name: 'tires',
+        Tip: '',
+        Value: 'Front: 130/70R - 18 radial <br>\nRear: 200/55R - 16 radial rear',
+      },
+      {
+        DisplayOrder: 12,
+        Label: 'Brakes',
+        Name: 'brakes',
+        Tip: '',
+        Value:
+          'Front: dual 320 mm discs with radially mounted six-piston Nissin calipers <br>\nRear: single 316 mm disc with three-piston Nissin caliper <br>\nABS: electronically controlled dual Combined Brake System (CBS) with ABS',
+      },
+      {
+        DisplayOrder: 14,
+        Label: 'Ground clearance',
+        Name: 'ground_clearance',
+        Tip: '',
+        Value: '130 mm (5.1 in.)',
+      },
+      {
+        DisplayOrder: 14,
+        Label: 'Seat height',
+        Name: 'seat_height',
+        Tip: '',
+        Value: '745 mm (29.3 in.)',
+      },
+      {
+        DisplayOrder: 15,
+        Label: 'Wheelbase',
+        Name: 'wheelbase',
+        Tip: '',
+        Value: '1,695 mm (66.7 in.)',
+      },
+      {
+        DisplayOrder: 16,
+        Label: 'Curb weight',
+        Name: 'curb_weight',
+        Tip: 'Canadian weight TBD',
+        Value: '384 kg (847 lb.) including required fluids and full tank of gas - ready to ride',
+      },
+      {
+        DisplayOrder: 17,
+        Label: 'Fuel capacity',
+        Name: 'fuel_capacity',
+        Tip: '',
+        Value: '21 litres',
+      },
+      {
+        DisplayOrder: 18,
+        Label: 'Colour',
+        Name: 'colour',
+        Tip: '',
+        Value: 'Gunmetal/Mat Black',
+      },
+      {
+        DisplayOrder: 19,
+        Label: 'Warranty',
+        Name: 'warranty',
+        Tip: 'HCI to confirm',
+        Value: '3 year, unlimited mileage, freely transferable warranty; extended coverage available with Honda Plus.',
+      },
+    ],
+  },
+  {
+    TrimId: 13322,
+    DisplayOrder: 3,
+    Label: 'Additional Information',
+    Name: 'additional_information',
+    Specs: [
+      {
+        DisplayOrder: 11,
+        Label: 'Tires',
+        Name: 'tires',
+        Tip: 'keep on separate lines',
+        Value: 'Front: 130/70R-18 <br>\nRear: 180/65R-18',
+      },
+      {
+        DisplayOrder: 12,
+        Label: 'Brakes',
+        Name: 'brakes',
+        Tip: 'keep on separate lines',
+        Value: 'Front: Single radial-mounted four-piston caliper with full-floating 330mm disc <br>\nRear: 256mm disc',
+      },
+      {
+        DisplayOrder: 13,
+        Label: 'ABS',
+        Name: 'abs',
+        Tip: '',
+        Value: '2 channel ABS',
+      },
+      {
+        DisplayOrder: 14,
+        Label: 'Seat Height',
+        Name: 'seat_height',
+        Tip: '',
+        Value: '700 mm (27.6 in)',
+      },
+      {
+        DisplayOrder: 15,
+        Label: 'Wheelbase',
+        Name: 'wheelbase',
+        Tip: '',
+        Value: '1520 mm (59.8 in)',
+      },
+      {
+        DisplayOrder: 16,
+        Label: 'Curb Weight',
+        Name: 'curb_weight',
+        Tip: '',
+        Value: 'Standard model: 238 kg (525 lb) <br>\nDCT model: 248 kg (547 lb)',
+      },
+      {
+        DisplayOrder: 17,
+        Label: 'Fuel Capacity',
+        Name: 'fuel_capacity',
+        Tip: '',
+        Value: '13.6 litres',
+      },
+      {
+        DisplayOrder: 18,
+        Label: 'Colour',
+        Name: 'colour',
+        Tip: '',
+        Value: 'Gunmetal Black Metallic',
+      },
+      {
+        DisplayOrder: 19,
+        Label: 'Warranty',
+        Name: 'warranty',
+        Tip: '',
+        Value:
+          '12 months, unlimited mileage, freely transferable warranty; extended coverage available with Honda Plus',
+      },
+    ],
+  },
+];
+
+const mockSpec = camelcaseKeys(specs, { deep: true });
+
+export default mockSpec;

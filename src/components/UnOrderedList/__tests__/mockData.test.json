@@ -1,0 +1,68 @@
+{
+   "fields": {
+      "title": {
+        "value": "List with bullet points"
+      },
+      "gtmCategory": {
+        "fields": {
+          "value": {
+            "value": "Others"
+          }
+        }
+      },
+      "gtmTitle": {
+        "value": ""
+      },
+      "anchorId": {
+        "value": ""
+      },
+      "items": [
+        {
+          "id": "c2d89298-4988-4676-a22e-e04a7fc450a0",
+          "name": "ListItem1",
+          "displayName": "ListItem1",
+          "fields": {
+            "text": {
+              "value": "The first item ipsum dolor amet, consectetur adipiscing elit, sed do ut labore et dolore magna. The first item ipsum dolor amet, consectetur adipiscing elit, sed do ut labore et dolore magna. The first item ipsum dolor amet, consectetur adipiscing elit, sed do ut labore et dolore magna."
+            },
+            "gtmCategory": {
+              "fields": {
+                "value": {
+                  "value": "Others"
+                }
+              }
+            },
+            "gtmTitle": {
+              "value": "gtm-title"
+            },
+            "anchorId": {
+              "value": "anchor-id"
+            }
+          }
+        },
+        {
+          "id": "c2d89298-4988-4676-a22e-e04a7fc450a0",
+          "name": "ListItem2",
+          "displayName": "ListItem2",
+          "fields": {
+            "text": {
+              "value": "List Item 2"
+            },
+            "gtmCategory": {
+              "fields": {
+                "value": {
+                  "value": "Others"
+                }
+              }
+            },
+            "gtmTitle": {
+              "value": ""
+            },
+            "anchorId": {
+              "value": ""
+            }
+          }
+        }
+      ]
+    }
+}

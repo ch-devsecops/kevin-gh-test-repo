@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AnchorContainer> should have no accessibility violations 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 iPRsIc"
+    data-gtm-category="model interactions"
+    data-gtm-component-type="AnchorContainer"
+    data-gtm-title=""
+    id="design"
+  >
+    <div
+      style="background: darkorange; outline: 5px solid orange; padding: 10px; color: white; max-width: 500px;"
+    >
+      <h2>
+        ShowcaseCard
+      </h2>
+      <p>
+        JSS component is missing React implementation. See the developer console for more information.
+      </p>
+    </div>
+    <div
+      style="background: darkorange; outline: 5px solid orange; padding: 10px; color: white; max-width: 500px;"
+    >
+      <h2>
+        ThreeColumnLayout
+      </h2>
+      <p>
+        JSS component is missing React implementation. See the developer console for more information.
+      </p>
+    </div>
+    <div
+      style="background: darkorange; outline: 5px solid orange; padding: 10px; color: white; max-width: 500px;"
+    >
+      <h2>
+        LandscapeCard
+      </h2>
+      <p>
+        JSS component is missing React implementation. See the developer console for more information.
+      </p>
+    </div>
+    <div
+      style="background: darkorange; outline: 5px solid orange; padding: 10px; color: white; max-width: 500px;"
+    >
+      <h2>
+        LandscapeCard
+      </h2>
+      <p>
+        JSS component is missing React implementation. See the developer console for more information.
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<AnchorContainer> should render correctly 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 iPRsIc"
+    data-gtm-category="model interactions"
+    data-gtm-component-type="AnchorContainer"
+    data-gtm-title=""
+    id="design"
+  >
+    <div
+      style="background: darkorange; outline: 5px solid orange; padding: 10px; color: white; max-width: 500px;"
+    >
+      <h2>
+        ShowcaseCard
+      </h2>
+      <p>
+        JSS component is missing React implementation. See the developer console for more information.
+      </p>
+    </div>
+    <div
+      style="background: darkorange; outline: 5px solid orange; padding: 10px; color: white; max-width: 500px;"
+    >
+      <h2>
+        ThreeColumnLayout
+      </h2>
+      <p>
+        JSS component is missing React implementation. See the developer console for more information.
+      </p>
+    </div>
+    <div
+      style="background: darkorange; outline: 5px solid orange; padding: 10px; color: white; max-width: 500px;"
+    >
+      <h2>
+        LandscapeCard
+      </h2>
+      <p>
+        JSS component is missing React implementation. See the developer console for more information.
+      </p>
+    </div>
+    <div
+      style="background: darkorange; outline: 5px solid orange; padding: 10px; color: white; max-width: 500px;"
+    >
+      <h2>
+        LandscapeCard
+      </h2>
+      <p>
+        JSS component is missing React implementation. See the developer console for more information.
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<AnchorContainer> should return null if the data is empty 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 iPRsIc"
+    data-gtm-category="Others"
+    data-gtm-component-type="AnchorContainer"
+  />
+</div>
+`;
+
+exports[`<AnchorContainer> should return null if there is no fields 1`] = `<div />`;

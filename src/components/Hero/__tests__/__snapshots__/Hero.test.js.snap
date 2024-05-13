@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Hero> should have no accessibility violations 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 hyDNUx"
+    data-gtm-category="contact us"
+  >
+    <span
+      alt="Side shot of a Honda Accord parked on the road by trees during the fall season"
+      aria-label="Side shot of a Honda Accord parked on the road by trees during the fall season"
+      class="sc-1k44dfv-0 bgpmjE"
+      role="img"
+    />
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 gqxPaN"
+    />
+    <div
+      class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 sOsmN"
+      height="100%"
+    >
+      <div
+        class="Box-sc-1bsf784-0 ekugtK sc-1k44dfv-0 ivigvr"
+        display="flex"
+        height="100%"
+        width="100%"
+      >
+        <div
+          class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 koIMNU"
+          width="1,0.75,0.5833333333333334"
+        >
+          <h1
+            class="sc-1k44dfv-0 gwiNLS"
+            color="white"
+            width="100%"
+          >
+            <span>
+              Contact Us
+            </span>
+          </h1>
+          <p
+            class="sc-1k44dfv-0 gOegea"
+            color="white"
+            font-family="default"
+            font-weight="regular"
+          >
+            <span>
+              Performance is in our DNA, even when it comes to customer service. If you have any questions or concerns relating to your Honda experience, you can reach us by one of the following methods.
+            </span>
+          </p>
+          <div
+            class="sc-1k44dfv-0 ldZtbH"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Hero> should render correctly 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 hyDNUx"
+    data-gtm-category="contact us"
+  >
+    <span
+      alt="Side shot of a Honda Accord parked on the road by trees during the fall season"
+      aria-label="Side shot of a Honda Accord parked on the road by trees during the fall season"
+      class="sc-1k44dfv-0 bgpmjE"
+      role="img"
+    />
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 gqxPaN"
+    />
+    <div
+      class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 sOsmN"
+      height="100%"
+    >
+      <div
+        class="Box-sc-1bsf784-0 ekugtK sc-1k44dfv-0 ivigvr"
+        display="flex"
+        height="100%"
+        width="100%"
+      >
+        <div
+          class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 koIMNU"
+          width="1,0.75,0.5833333333333334"
+        >
+          <h1
+            class="sc-1k44dfv-0 gwiNLS"
+            color="white"
+            width="100%"
+          >
+            <span>
+              Contact Us
+            </span>
+          </h1>
+          <p
+            class="sc-1k44dfv-0 gOegea"
+            color="white"
+            font-family="default"
+            font-weight="regular"
+          >
+            <span>
+              Performance is in our DNA, even when it comes to customer service. If you have any questions or concerns relating to your Honda experience, you can reach us by one of the following methods.
+            </span>
+          </p>
+          <div
+            class="sc-1k44dfv-0 ldZtbH"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Hero> should return null if the data is empty 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 fOWcBp"
+    data-gtm-category="Others"
+  >
+    <span
+      class="sc-1k44dfv-0 hhMFLI"
+      role="img"
+    />
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 gqxPaN"
+    />
+    <div
+      class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 sOsmN"
+      height="100%"
+    >
+      <div
+        class="Box-sc-1bsf784-0 ekugtK sc-1k44dfv-0 ivigvr"
+        display="flex"
+        height="100%"
+        width="100%"
+      >
+        <div
+          class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 koIMNU"
+          width="1,0.75,0.5833333333333334"
+        >
+          <p
+            class="sc-1k44dfv-0 gOegea"
+            color="white"
+            font-family="default"
+            font-weight="regular"
+          >
+            <span />
+          </p>
+          <div
+            class="sc-1k44dfv-0 ldZtbH"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Hero> should return null if there is no fields 1`] = `<div />`;

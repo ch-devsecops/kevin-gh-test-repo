@@ -1,0 +1,17 @@
+[
+  {
+    "dealerCode": 2345,
+    "inventory": [
+      {
+        "modelCode": "cr-v",
+        "availableStatus": "onItsWay",
+        "colors": [
+          {
+            "extColor": "nh_830mlunar_silver_metallic",
+            "intColor": "bkblack_fabric_%25255E2020_crv"
+          }
+        ]
+      }
+    ]
+  }
+]

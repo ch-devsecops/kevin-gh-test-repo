@@ -1,0 +1,1920 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer> should render correctly 1`] = `
+<div>
+  <div
+    class="fresnel-container fresnel-lessThan-desktop "
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 hRWiIk"
+    >
+      <div
+        class="Box-sc-1bsf784-0 iPRsIc"
+      >
+        <div>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 byaSKm"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 itoiVX"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 gbVSuP"
+              >
+                <div
+                  class="IconWrapper-lp9q2r-0 sc-1k44dfv-0 iUtpDy"
+                />
+                <span
+                  class="sc-1k44dfv-0 sc-1k44dfv-0 jJDbMI"
+                  color="typographyDefault"
+                  data-testid="geo-location-label"
+                  font-family="default"
+                  font-weight="regular"
+                >
+                  Shared.UserLocation.locationText
+                  :
+                </span>
+              </div>
+              <span
+                class="sc-1k44dfv-0 sc-1k44dfv-0 ckDCPl"
+                color="typographyDefault"
+                data-testid="geo-location-address"
+                font-family="default"
+                font-weight="regular"
+              >
+                Shared.UserLocation.nationalText
+              </span>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 jrCxQA"
+              >
+                <div
+                  class="IconWrapper-lp9q2r-0 sc-1k44dfv-0 hKOBvR"
+                />
+                <button
+                  class="Button-pulw6t-0 sc-1k44dfv-0 bJxxfa"
+                  data-testid="geo-location-change-button"
+                  style="white-space: noWrap;"
+                >
+                  Shared.UserLocation.enterPostalCodeButton
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 cnQrlx"
+      />
+      <div
+        class="Box-sc-1bsf784-0 iPRsIc"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 LkQEv"
+        >
+          <a
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 gPBfO Link-sc-16wd4a0-0 sc-1k44dfv-0 gLXrkX"
+            data-gtm-nav-type="footer"
+            data-tracking-label="Instagram"
+            href="https://www.instagram.com/hondaoutdoors/"
+            tabindex="0"
+            target=""
+          >
+            <img
+              alt="Instagram"
+              height="20"
+              src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/logos/instagram.png?h=20&iar=0&w=20&rev=b2f3b58144dc437d960fa49925f7f1c7&hash=7337718EA599DE9F808220F0F55A6FC0"
+              width="20"
+            />
+          </a>
+          <a
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 gPBfO Link-sc-16wd4a0-0 sc-1k44dfv-0 gLXrkX"
+            data-gtm-nav-type="footer"
+            data-tracking-label="Facebook"
+            href="https://www.facebook.com/HondaOutdoors/"
+            tabindex="0"
+          >
+            <img
+              alt="Facebook"
+              height="20"
+              src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/logos/facebook.png?h=20&iar=0&w=20&rev=40f27235f08f423cb385addb30c1f81e&hash=A7EE0F1D95E8FC04D29C88CAD8DB26A1"
+              width="20"
+            />
+          </a>
+          <a
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 gPBfO Link-sc-16wd4a0-0 sc-1k44dfv-0 gLXrkX"
+            data-gtm-nav-type="footer"
+            data-tracking-label="Twitter"
+            href="https://twitter.com/Honda_Outdoors"
+            tabindex="0"
+            target=""
+          >
+            <img
+              alt="Twitter"
+              height="20"
+              src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/logos/twitter.png?h=20&iar=0&w=25&rev=46082489e36c4dfa9be8e0b94643096b&hash=F5D7B7D3DB0B17D4AFCD5645E196F05F"
+              width="25"
+            />
+          </a>
+          <a
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 gPBfO Link-sc-16wd4a0-0 sc-1k44dfv-0 gLXrkX"
+            data-gtm-nav-type="footer"
+            data-tracking-label="Youtube"
+            href="https://www.youtube.com/channel/UCgnmpYkJO1G-r2UAlmL1PQQ"
+            tabindex="0"
+          >
+            <img
+              alt="Youtube"
+              height="20"
+              src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/logos/youtube.png?h=20&iar=0&w=26&rev=32e1cfeb5acb4f9c9645ef6a98f2511b&hash=6A500BC86FB96E375A0D00180C6786EB"
+              width="26"
+            />
+          </a>
+        </div>
+        <div>
+          <div
+            aria-expanded="false"
+            aria-pressed="false"
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 lboGYr sc-1k44dfv-0 jhfLOf"
+            data-testid="dsr-accordion-item-container"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 hQdmCY sc-1k44dfv-0 iCYgbA"
+            >
+              <h6
+                class="sc-1k44dfv-0 sc-1k44dfv-0 hBrlwP"
+              >
+                <span>
+                  The Honda Family
+                </span>
+              </h6>
+              <div
+                class="IconWrapper-lp9q2r-0 fIXvxX"
+              />
+            </div>
+            <div
+              aria-live="polite"
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 cVJjVn"
+              data-testid="dsr-accordion-item-content-container"
+            >
+              <ul
+                class="sc-1k44dfv-0 sc-1k44dfv-0 llfrsE"
+              >
+                <li>
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 iPRsIc"
+                    >
+                      <p
+                        aria-label="Acura"
+                        class="sc-1k44dfv-0 sc-1k44dfv-0 idxeIm"
+                        color="typographyDefault"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        <span>
+                          Acura
+                        </span>
+                      </p>
+                      <a
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 drlbwo Link-sc-16wd4a0-0 sc-1k44dfv-0 dPZduI"
+                        color="primary"
+                        data-gtm-nav-type="footer"
+                        data-tracking-label="Acura"
+                        href="https://www.acura.ca"
+                        tabindex="0"
+                        target=""
+                      >
+                        <span>
+                          Acura
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 iPRsIc"
+                    >
+                      <p
+                        aria-label="Honda Autos"
+                        class="sc-1k44dfv-0 sc-1k44dfv-0 idxeIm"
+                        color="typographyDefault"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        <span>
+                          Honda Autos
+                        </span>
+                      </p>
+                      <a
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 drlbwo Link-sc-16wd4a0-0 sc-1k44dfv-0 dPZduI"
+                        color="primary"
+                        data-gtm-nav-type="footer"
+                        data-tracking-label="Honda Autos"
+                        href="https://honda.ca"
+                        tabindex="0"
+                        target=""
+                      >
+                        <span>
+                          Honda Autos
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 iPRsIc"
+                    >
+                      <p
+                        aria-label="Powersports"
+                        class="sc-1k44dfv-0 sc-1k44dfv-0 idxeIm"
+                        color="typographyDefault"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        <span>
+                          Powersports
+                        </span>
+                      </p>
+                      <a
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 drlbwo Link-sc-16wd4a0-0 sc-1k44dfv-0 dPZduI"
+                        color="primary"
+                        data-gtm-nav-type="footer"
+                        data-tracking-label="Powersports"
+                        href="http://powersports.honda.ca"
+                        tabindex="0"
+                        target=""
+                      >
+                        <span>
+                          Powersports
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 iPRsIc"
+                    >
+                      <p
+                        aria-label="Power Equipment"
+                        class="sc-1k44dfv-0 sc-1k44dfv-0 idxeIm"
+                        color="typographyDefault"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        <span>
+                          Power Equipment
+                        </span>
+                      </p>
+                      <a
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 drlbwo Link-sc-16wd4a0-0 sc-1k44dfv-0 dPZduI"
+                        color="primary"
+                        data-gtm-nav-type="footer"
+                        data-tracking-label="Power Equipment"
+                        href="http://powerequipment.honda.ca"
+                        tabindex="0"
+                        target=""
+                      >
+                        <span>
+                          Power Equipment
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 iPRsIc"
+                    >
+                      <p
+                        aria-label="Marine"
+                        class="sc-1k44dfv-0 sc-1k44dfv-0 idxeIm"
+                        color="typographyDefault"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        <span>
+                          Marine
+                        </span>
+                      </p>
+                      <a
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 drlbwo Link-sc-16wd4a0-0 sc-1k44dfv-0 dPZduI"
+                        color="primary"
+                        data-gtm-nav-type="footer"
+                        data-tracking-label="Marine"
+                        href="https://marine.honda.ca"
+                        tabindex="0"
+                        target=""
+                      >
+                        <span>
+                          Marine
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 iPRsIc"
+                    >
+                      <p
+                        aria-label="Motorcycle"
+                        class="sc-1k44dfv-0 sc-1k44dfv-0 idxeIm"
+                        color="typographyDefault"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        <span>
+                          Motorcycle
+                        </span>
+                      </p>
+                      <a
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 drlbwo Link-sc-16wd4a0-0 sc-1k44dfv-0 dPZduI"
+                        color="primary"
+                        data-gtm-nav-type="footer"
+                        data-tracking-label="Motorcycle"
+                        href="https://motorcycle.honda.ca"
+                        tabindex="0"
+                        target=""
+                      >
+                        <span>
+                          Motorcycle
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            aria-expanded="false"
+            aria-pressed="false"
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 lboGYr sc-1k44dfv-0 jhfLOf"
+            data-testid="dsr-accordion-item-container"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 hQdmCY sc-1k44dfv-0 iCYgbA"
+            >
+              <h6
+                class="sc-1k44dfv-0 sc-1k44dfv-0 hBrlwP"
+              >
+                <span>
+                  Our Company
+                </span>
+              </h6>
+              <div
+                class="IconWrapper-lp9q2r-0 fIXvxX"
+              />
+            </div>
+            <div
+              aria-live="polite"
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 cVJjVn"
+              data-testid="dsr-accordion-item-content-container"
+            >
+              <ul
+                class="sc-1k44dfv-0 sc-1k44dfv-0 llfrsE"
+              >
+                <li>
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 iPRsIc"
+                    >
+                      <p
+                        aria-label="Honda.ca"
+                        class="sc-1k44dfv-0 sc-1k44dfv-0 idxeIm"
+                        color="typographyDefault"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        <span>
+                          Honda.ca
+                        </span>
+                      </p>
+                      <a
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 drlbwo Link-sc-16wd4a0-0 sc-1k44dfv-0 dPZduI"
+                        color="primary"
+                        data-gtm-nav-type="footer"
+                        data-tracking-label="Hondaca"
+                        href="http://www.honda.ca"
+                        tabindex="0"
+                        target=""
+                      >
+                        <span>
+                          Honda.ca
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 iPRsIc"
+                    >
+                      <p
+                        aria-label="Honda in Canada"
+                        class="sc-1k44dfv-0 sc-1k44dfv-0 idxeIm"
+                        color="typographyDefault"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        <span>
+                          Honda in Canada
+                        </span>
+                      </p>
+                      <a
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 drlbwo Link-sc-16wd4a0-0 sc-1k44dfv-0 dPZduI"
+                        color="primary"
+                        data-gtm-nav-type="footer"
+                        data-tracking-label="Honda in Canada"
+                        href="https://www.hondacanada.ca/"
+                        tabindex="0"
+                        target=""
+                      >
+                        <span>
+                          Honda in Canada
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 iPRsIc"
+                    >
+                      <p
+                        aria-label="Honda Worldwide"
+                        class="sc-1k44dfv-0 sc-1k44dfv-0 idxeIm"
+                        color="typographyDefault"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        <span>
+                          Honda Worldwide
+                        </span>
+                      </p>
+                      <a
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 drlbwo Link-sc-16wd4a0-0 sc-1k44dfv-0 dPZduI"
+                        color="primary"
+                        data-gtm-nav-type="footer"
+                        data-tracking-label="Honda Worldwide"
+                        href="http://world.honda.com"
+                        tabindex="0"
+                        target=""
+                      >
+                        <span>
+                          Honda Worldwide
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 iPRsIc"
+                    >
+                      <p
+                        aria-label="My Garage"
+                        class="sc-1k44dfv-0 sc-1k44dfv-0 idxeIm"
+                        color="typographyDefault"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        <span>
+                          My Garage
+                        </span>
+                      </p>
+                      <a
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 drlbwo Link-sc-16wd4a0-0 sc-1k44dfv-0 dPZduI"
+                        color="primary"
+                        data-gtm-nav-type="footer"
+                        data-tracking-label="My Garage"
+                        href="https://www.my-garage.ca/s/login?language=en_US"
+                        tabindex="0"
+                        target=""
+                      >
+                        <span>
+                          My Garage
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 iPRsIc"
+                    >
+                      <p
+                        aria-label="Careers"
+                        class="sc-1k44dfv-0 sc-1k44dfv-0 idxeIm"
+                        color="typographyDefault"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        <span>
+                          Careers
+                        </span>
+                      </p>
+                      <a
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 drlbwo Link-sc-16wd4a0-0 sc-1k44dfv-0 dPZduI"
+                        color="primary"
+                        data-gtm-nav-type="footer"
+                        data-tracking-label="Careers"
+                        href="https://www.honda.ca/en/careers"
+                        tabindex="0"
+                        target=""
+                      >
+                        <span>
+                          Careers
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 iPRsIc"
+                    >
+                      <p
+                        aria-label="News"
+                        class="sc-1k44dfv-0 sc-1k44dfv-0 idxeIm"
+                        color="typographyDefault"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        <span>
+                          News
+                        </span>
+                      </p>
+                      <a
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 drlbwo Link-sc-16wd4a0-0 sc-1k44dfv-0 dPZduI"
+                        color="primary"
+                        data-gtm-nav-type="footer"
+                        data-tracking-label="News"
+                        href="https://hondanews.ca/en-CA"
+                        tabindex="0"
+                        target=""
+                      >
+                        <span>
+                          News
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 iPRsIc"
+                    >
+                      <p
+                        aria-label="Innovation"
+                        class="sc-1k44dfv-0 sc-1k44dfv-0 idxeIm"
+                        color="typographyDefault"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        <span>
+                          Innovation
+                        </span>
+                      </p>
+                      <a
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 drlbwo Link-sc-16wd4a0-0 sc-1k44dfv-0 dPZduI"
+                        color="primary"
+                        data-gtm-nav-type="footer"
+                        data-tracking-label="Innovation"
+                        href="http://honda.ca/innovation"
+                        tabindex="0"
+                        target=""
+                      >
+                        <span>
+                          Innovation
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 iPRsIc"
+                    >
+                      <p
+                        aria-label="Environment"
+                        class="sc-1k44dfv-0 sc-1k44dfv-0 idxeIm"
+                        color="typographyDefault"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        <span>
+                          Environment
+                        </span>
+                      </p>
+                      <a
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 drlbwo Link-sc-16wd4a0-0 sc-1k44dfv-0 dPZduI"
+                        color="primary"
+                        data-gtm-nav-type="footer"
+                        data-tracking-label="Environment"
+                        href="http://honda.ca/environment"
+                        tabindex="0"
+                        target=""
+                      >
+                        <span>
+                          Environment
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                  >
+                    <a
+                      aria-label="Foundation"
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 gPBfO Link-sc-16wd4a0-0 sc-1k44dfv-0 fwTWWg"
+                      data-gtm-nav-type="footer"
+                      data-tracking-label="Foundation"
+                      href="mailto:test@test.com?subject=&body="
+                      tabindex="0"
+                    >
+                      Foundation
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 iPRsIc"
+                    >
+                      <p
+                        aria-label="Sponsorship"
+                        class="sc-1k44dfv-0 sc-1k44dfv-0 idxeIm"
+                        color="typographyDefault"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        <span>
+                          Sponsorship
+                        </span>
+                      </p>
+                      <a
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 drlbwo Link-sc-16wd4a0-0 sc-1k44dfv-0 dPZduI"
+                        color="primary"
+                        data-gtm-nav-type="footer"
+                        data-tracking-label="Sponsorship"
+                        href="http://honda.ca/honda-in-canada/marketing-sponsorship"
+                        tabindex="0"
+                        target=""
+                      >
+                        <span>
+                          Sponsorship
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            aria-expanded="false"
+            aria-pressed="false"
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 lboGYr sc-1k44dfv-0 lhJkVL"
+            data-testid="dsr-accordion-item-container"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 hQdmCY sc-1k44dfv-0 iCYgbA"
+            >
+              <h6
+                class="sc-1k44dfv-0 sc-1k44dfv-0 hBrlwP"
+              >
+                <span>
+                  Contact Us
+                </span>
+              </h6>
+              <div
+                class="IconWrapper-lp9q2r-0 fIXvxX"
+              />
+            </div>
+            <div
+              aria-live="polite"
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 cVJjVn"
+              data-testid="dsr-accordion-item-content-container"
+            >
+              <ul
+                class="sc-1k44dfv-0 sc-1k44dfv-0 llfrsE"
+              >
+                <li>
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 iPRsIc"
+                    >
+                      <p
+                        aria-label="Are you a Manufacturer?"
+                        class="sc-1k44dfv-0 sc-1k44dfv-0 idxeIm"
+                        color="typographyDefault"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        <span>
+                          Are you a Manufacturer?
+                        </span>
+                      </p>
+                      <a
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 drlbwo Link-sc-16wd4a0-0 sc-1k44dfv-0 dPZduI"
+                        color="primary"
+                        data-gtm-nav-type="footer"
+                        data-tracking-label="Are you a Manufacturer"
+                        href="https://engine.honda.ca/honda-advantage"
+                        tabindex="0"
+                      >
+                        <span>
+                          Visit This Page
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 iPRsIc"
+                    >
+                      <p
+                        aria-label="Service & Support"
+                        class="sc-1k44dfv-0 sc-1k44dfv-0 idxeIm"
+                        color="typographyDefault"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        <span>
+                          Service & Support
+                        </span>
+                      </p>
+                      <a
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 drlbwo Link-sc-16wd4a0-0 sc-1k44dfv-0 dPZduI"
+                        color="primary"
+                        data-gtm-nav-type="footer"
+                        data-tracking-label="Service and Support"
+                        href="tel:1-222-333-4543"
+                        tabindex="0"
+                      >
+                        <span>
+                          1-222-333-4543
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 iPRsIc"
+                    >
+                      <p
+                        aria-label="Contact a Distributor"
+                        class="sc-1k44dfv-0 sc-1k44dfv-0 idxeIm"
+                        color="typographyDefault"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        <span>
+                          Contact a Distributor
+                        </span>
+                      </p>
+                      <a
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 drlbwo Link-sc-16wd4a0-0 sc-1k44dfv-0 dPZduI"
+                        color="primary"
+                        data-gtm-nav-type="footer"
+                        data-tracking-label="Contact a Distributor"
+                        href="mailto@distributors@honda.ca?subject=Test subject&body=This is body text here"
+                        tabindex="0"
+                      >
+                        <span>
+                          distributors@honda.ca
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 dIyKwv"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 dYftbN"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 bPBPcC"
+            >
+              © 2020 Honda Canada Inc
+            </div>
+            <ul
+              class="sc-1k44dfv-0 sc-1k44dfv-0 llfrsE"
+            >
+              <li>
+                <a
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 gPBfO Link-sc-16wd4a0-0 sc-1k44dfv-0 csrsbD"
+                  data-gtm-nav-type="footer"
+                  data-tracking-label="Terms and Conditions"
+                  href="https://www.honda.ca/en/terms"
+                  tabindex="0"
+                >
+                  Terms and Conditions
+                </a>
+              </li>
+              <li>
+                <a
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 gPBfO Link-sc-16wd4a0-0 sc-1k44dfv-0 csrsbD"
+                  data-gtm-nav-type="footer"
+                  data-tracking-label="Privacy Policy"
+                  href="https://www.honda.ca/privacy"
+                  tabindex="0"
+                >
+                  Privacy Policy
+                </a>
+              </li>
+              <li>
+                <a
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 gPBfO Link-sc-16wd4a0-0 sc-1k44dfv-0 csrsbD"
+                  data-gtm-nav-type="footer"
+                  data-tracking-label="Site Map"
+                  href="http://test.ca/sitemap"
+                  tabindex="0"
+                >
+                  Sitemap
+                </a>
+              </li>
+              <li>
+                <a
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 gPBfO Link-sc-16wd4a0-0 sc-1k44dfv-0 csrsbD"
+                  data-gtm-nav-type="footer"
+                  data-tracking-label="FAQs"
+                  href="https://honda.ca/faqs"
+                  tabindex="0"
+                >
+                  FAQs
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="fresnel-container fresnel-greaterThanOrEqual-desktop "
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 iwiWEC"
+    >
+      <div
+        class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 sc-1k44dfv-0 NARVB"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 cxIfsx"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 jcGXzY"
+          >
+            <div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 byaSKm"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 itoiVX"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 gbVSuP"
+                  >
+                    <div
+                      class="IconWrapper-lp9q2r-0 sc-1k44dfv-0 iUtpDy"
+                    />
+                    <span
+                      class="sc-1k44dfv-0 sc-1k44dfv-0 jJDbMI"
+                      color="typographyDefault"
+                      data-testid="geo-location-label"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Shared.UserLocation.locationText
+                      :
+                    </span>
+                  </div>
+                  <span
+                    class="sc-1k44dfv-0 sc-1k44dfv-0 ckDCPl"
+                    color="typographyDefault"
+                    data-testid="geo-location-address"
+                    font-family="default"
+                    font-weight="regular"
+                  >
+                    Shared.UserLocation.nationalText
+                  </span>
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 jrCxQA"
+                  >
+                    <div
+                      class="IconWrapper-lp9q2r-0 sc-1k44dfv-0 hKOBvR"
+                    />
+                    <button
+                      class="Button-pulw6t-0 sc-1k44dfv-0 bJxxfa"
+                      data-testid="geo-location-change-button"
+                      style="white-space: noWrap;"
+                    >
+                      Shared.UserLocation.enterPostalCodeButton
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 cnQrlx"
+        />
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 sc-1k44dfv-0 NARVB"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 cxIfsx"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 jcGXzY"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 jEkxpc"
+            >
+              The Honda Family
+            </div>
+            <ul
+              class="sc-1k44dfv-0 sc-1k44dfv-0 llfrsE"
+            >
+              <li>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iPRsIc"
+                  >
+                    <p
+                      aria-label="Acura"
+                      class="sc-1k44dfv-0 sc-1k44dfv-0 idxeIm"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      <span>
+                        Acura
+                      </span>
+                    </p>
+                    <a
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 drlbwo Link-sc-16wd4a0-0 sc-1k44dfv-0 dPZduI"
+                      color="primary"
+                      data-gtm-nav-type="footer"
+                      data-tracking-label="Acura"
+                      href="https://www.acura.ca"
+                      tabindex="0"
+                      target=""
+                    >
+                      <span>
+                        Acura
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iPRsIc"
+                  >
+                    <p
+                      aria-label="Honda Autos"
+                      class="sc-1k44dfv-0 sc-1k44dfv-0 idxeIm"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      <span>
+                        Honda Autos
+                      </span>
+                    </p>
+                    <a
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 drlbwo Link-sc-16wd4a0-0 sc-1k44dfv-0 dPZduI"
+                      color="primary"
+                      data-gtm-nav-type="footer"
+                      data-tracking-label="Honda Autos"
+                      href="https://honda.ca"
+                      tabindex="0"
+                      target=""
+                    >
+                      <span>
+                        Honda Autos
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iPRsIc"
+                  >
+                    <p
+                      aria-label="Powersports"
+                      class="sc-1k44dfv-0 sc-1k44dfv-0 idxeIm"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      <span>
+                        Powersports
+                      </span>
+                    </p>
+                    <a
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 drlbwo Link-sc-16wd4a0-0 sc-1k44dfv-0 dPZduI"
+                      color="primary"
+                      data-gtm-nav-type="footer"
+                      data-tracking-label="Powersports"
+                      href="http://powersports.honda.ca"
+                      tabindex="0"
+                      target=""
+                    >
+                      <span>
+                        Powersports
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iPRsIc"
+                  >
+                    <p
+                      aria-label="Power Equipment"
+                      class="sc-1k44dfv-0 sc-1k44dfv-0 idxeIm"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      <span>
+                        Power Equipment
+                      </span>
+                    </p>
+                    <a
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 drlbwo Link-sc-16wd4a0-0 sc-1k44dfv-0 dPZduI"
+                      color="primary"
+                      data-gtm-nav-type="footer"
+                      data-tracking-label="Power Equipment"
+                      href="http://powerequipment.honda.ca"
+                      tabindex="0"
+                      target=""
+                    >
+                      <span>
+                        Power Equipment
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iPRsIc"
+                  >
+                    <p
+                      aria-label="Marine"
+                      class="sc-1k44dfv-0 sc-1k44dfv-0 idxeIm"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      <span>
+                        Marine
+                      </span>
+                    </p>
+                    <a
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 drlbwo Link-sc-16wd4a0-0 sc-1k44dfv-0 dPZduI"
+                      color="primary"
+                      data-gtm-nav-type="footer"
+                      data-tracking-label="Marine"
+                      href="https://marine.honda.ca"
+                      tabindex="0"
+                      target=""
+                    >
+                      <span>
+                        Marine
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iPRsIc"
+                  >
+                    <p
+                      aria-label="Motorcycle"
+                      class="sc-1k44dfv-0 sc-1k44dfv-0 idxeIm"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      <span>
+                        Motorcycle
+                      </span>
+                    </p>
+                    <a
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 drlbwo Link-sc-16wd4a0-0 sc-1k44dfv-0 dPZduI"
+                      color="primary"
+                      data-gtm-nav-type="footer"
+                      data-tracking-label="Motorcycle"
+                      href="https://motorcycle.honda.ca"
+                      tabindex="0"
+                      target=""
+                    >
+                      <span>
+                        Motorcycle
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 jcGXzY"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 jEkxpc"
+            >
+              Our Company
+            </div>
+            <ul
+              class="sc-1k44dfv-0 sc-1k44dfv-0 llfrsE"
+            >
+              <li>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iPRsIc"
+                  >
+                    <p
+                      aria-label="Honda.ca"
+                      class="sc-1k44dfv-0 sc-1k44dfv-0 idxeIm"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      <span>
+                        Honda.ca
+                      </span>
+                    </p>
+                    <a
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 drlbwo Link-sc-16wd4a0-0 sc-1k44dfv-0 dPZduI"
+                      color="primary"
+                      data-gtm-nav-type="footer"
+                      data-tracking-label="Hondaca"
+                      href="http://www.honda.ca"
+                      tabindex="0"
+                      target=""
+                    >
+                      <span>
+                        Honda.ca
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iPRsIc"
+                  >
+                    <p
+                      aria-label="Honda in Canada"
+                      class="sc-1k44dfv-0 sc-1k44dfv-0 idxeIm"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      <span>
+                        Honda in Canada
+                      </span>
+                    </p>
+                    <a
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 drlbwo Link-sc-16wd4a0-0 sc-1k44dfv-0 dPZduI"
+                      color="primary"
+                      data-gtm-nav-type="footer"
+                      data-tracking-label="Honda in Canada"
+                      href="https://www.hondacanada.ca/"
+                      tabindex="0"
+                      target=""
+                    >
+                      <span>
+                        Honda in Canada
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iPRsIc"
+                  >
+                    <p
+                      aria-label="Honda Worldwide"
+                      class="sc-1k44dfv-0 sc-1k44dfv-0 idxeIm"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      <span>
+                        Honda Worldwide
+                      </span>
+                    </p>
+                    <a
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 drlbwo Link-sc-16wd4a0-0 sc-1k44dfv-0 dPZduI"
+                      color="primary"
+                      data-gtm-nav-type="footer"
+                      data-tracking-label="Honda Worldwide"
+                      href="http://world.honda.com"
+                      tabindex="0"
+                      target=""
+                    >
+                      <span>
+                        Honda Worldwide
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iPRsIc"
+                  >
+                    <p
+                      aria-label="My Garage"
+                      class="sc-1k44dfv-0 sc-1k44dfv-0 idxeIm"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      <span>
+                        My Garage
+                      </span>
+                    </p>
+                    <a
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 drlbwo Link-sc-16wd4a0-0 sc-1k44dfv-0 dPZduI"
+                      color="primary"
+                      data-gtm-nav-type="footer"
+                      data-tracking-label="My Garage"
+                      href="https://www.my-garage.ca/s/login?language=en_US"
+                      tabindex="0"
+                      target=""
+                    >
+                      <span>
+                        My Garage
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iPRsIc"
+                  >
+                    <p
+                      aria-label="Careers"
+                      class="sc-1k44dfv-0 sc-1k44dfv-0 idxeIm"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      <span>
+                        Careers
+                      </span>
+                    </p>
+                    <a
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 drlbwo Link-sc-16wd4a0-0 sc-1k44dfv-0 dPZduI"
+                      color="primary"
+                      data-gtm-nav-type="footer"
+                      data-tracking-label="Careers"
+                      href="https://www.honda.ca/en/careers"
+                      tabindex="0"
+                      target=""
+                    >
+                      <span>
+                        Careers
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iPRsIc"
+                  >
+                    <p
+                      aria-label="News"
+                      class="sc-1k44dfv-0 sc-1k44dfv-0 idxeIm"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      <span>
+                        News
+                      </span>
+                    </p>
+                    <a
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 drlbwo Link-sc-16wd4a0-0 sc-1k44dfv-0 dPZduI"
+                      color="primary"
+                      data-gtm-nav-type="footer"
+                      data-tracking-label="News"
+                      href="https://hondanews.ca/en-CA"
+                      tabindex="0"
+                      target=""
+                    >
+                      <span>
+                        News
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iPRsIc"
+                  >
+                    <p
+                      aria-label="Innovation"
+                      class="sc-1k44dfv-0 sc-1k44dfv-0 idxeIm"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      <span>
+                        Innovation
+                      </span>
+                    </p>
+                    <a
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 drlbwo Link-sc-16wd4a0-0 sc-1k44dfv-0 dPZduI"
+                      color="primary"
+                      data-gtm-nav-type="footer"
+                      data-tracking-label="Innovation"
+                      href="http://honda.ca/innovation"
+                      tabindex="0"
+                      target=""
+                    >
+                      <span>
+                        Innovation
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iPRsIc"
+                  >
+                    <p
+                      aria-label="Environment"
+                      class="sc-1k44dfv-0 sc-1k44dfv-0 idxeIm"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      <span>
+                        Environment
+                      </span>
+                    </p>
+                    <a
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 drlbwo Link-sc-16wd4a0-0 sc-1k44dfv-0 dPZduI"
+                      color="primary"
+                      data-gtm-nav-type="footer"
+                      data-tracking-label="Environment"
+                      href="http://honda.ca/environment"
+                      tabindex="0"
+                      target=""
+                    >
+                      <span>
+                        Environment
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                >
+                  <a
+                    aria-label="Foundation"
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 gPBfO Link-sc-16wd4a0-0 sc-1k44dfv-0 fwTWWg"
+                    data-gtm-nav-type="footer"
+                    data-tracking-label="Foundation"
+                    href="mailto:test@test.com?subject=&body="
+                    tabindex="0"
+                  >
+                    Foundation
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iPRsIc"
+                  >
+                    <p
+                      aria-label="Sponsorship"
+                      class="sc-1k44dfv-0 sc-1k44dfv-0 idxeIm"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      <span>
+                        Sponsorship
+                      </span>
+                    </p>
+                    <a
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 drlbwo Link-sc-16wd4a0-0 sc-1k44dfv-0 dPZduI"
+                      color="primary"
+                      data-gtm-nav-type="footer"
+                      data-tracking-label="Sponsorship"
+                      href="http://honda.ca/honda-in-canada/marketing-sponsorship"
+                      tabindex="0"
+                      target=""
+                    >
+                      <span>
+                        Sponsorship
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 jcGXzY"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 jEkxpc"
+            >
+              Contact Us
+            </div>
+            <ul
+              class="sc-1k44dfv-0 sc-1k44dfv-0 llfrsE"
+            >
+              <li>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iPRsIc"
+                  >
+                    <p
+                      aria-label="Are you a Manufacturer?"
+                      class="sc-1k44dfv-0 sc-1k44dfv-0 idxeIm"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      <span>
+                        Are you a Manufacturer?
+                      </span>
+                    </p>
+                    <a
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 drlbwo Link-sc-16wd4a0-0 sc-1k44dfv-0 dPZduI"
+                      color="primary"
+                      data-gtm-nav-type="footer"
+                      data-tracking-label="Are you a Manufacturer"
+                      href="https://engine.honda.ca/honda-advantage"
+                      tabindex="0"
+                    >
+                      <span>
+                        Visit This Page
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iPRsIc"
+                  >
+                    <p
+                      aria-label="Service & Support"
+                      class="sc-1k44dfv-0 sc-1k44dfv-0 idxeIm"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      <span>
+                        Service & Support
+                      </span>
+                    </p>
+                    <a
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 drlbwo Link-sc-16wd4a0-0 sc-1k44dfv-0 dPZduI"
+                      color="primary"
+                      data-gtm-nav-type="footer"
+                      data-tracking-label="Service and Support"
+                      href="tel:1-222-333-4543"
+                      tabindex="0"
+                    >
+                      <span>
+                        1-222-333-4543
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 kmUEhM"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iPRsIc"
+                  >
+                    <p
+                      aria-label="Contact a Distributor"
+                      class="sc-1k44dfv-0 sc-1k44dfv-0 idxeIm"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      <span>
+                        Contact a Distributor
+                      </span>
+                    </p>
+                    <a
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 drlbwo Link-sc-16wd4a0-0 sc-1k44dfv-0 dPZduI"
+                      color="primary"
+                      data-gtm-nav-type="footer"
+                      data-tracking-label="Contact a Distributor"
+                      href="mailto@distributors@honda.ca?subject=Test subject&body=This is body text here"
+                      tabindex="0"
+                    >
+                      <span>
+                        distributors@honda.ca
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 jcGXzY"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 LkQEv"
+            >
+              <a
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 gPBfO Link-sc-16wd4a0-0 sc-1k44dfv-0 gLXrkX"
+                data-gtm-nav-type="footer"
+                data-tracking-label="Instagram"
+                href="https://www.instagram.com/hondaoutdoors/"
+                tabindex="0"
+                target=""
+              >
+                <img
+                  alt="Instagram"
+                  height="20"
+                  src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/logos/instagram.png?h=20&iar=0&w=20&rev=b2f3b58144dc437d960fa49925f7f1c7&hash=7337718EA599DE9F808220F0F55A6FC0"
+                  width="20"
+                />
+              </a>
+              <a
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 gPBfO Link-sc-16wd4a0-0 sc-1k44dfv-0 gLXrkX"
+                data-gtm-nav-type="footer"
+                data-tracking-label="Facebook"
+                href="https://www.facebook.com/HondaOutdoors/"
+                tabindex="0"
+              >
+                <img
+                  alt="Facebook"
+                  height="20"
+                  src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/logos/facebook.png?h=20&iar=0&w=20&rev=40f27235f08f423cb385addb30c1f81e&hash=A7EE0F1D95E8FC04D29C88CAD8DB26A1"
+                  width="20"
+                />
+              </a>
+              <a
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 gPBfO Link-sc-16wd4a0-0 sc-1k44dfv-0 gLXrkX"
+                data-gtm-nav-type="footer"
+                data-tracking-label="Twitter"
+                href="https://twitter.com/Honda_Outdoors"
+                tabindex="0"
+                target=""
+              >
+                <img
+                  alt="Twitter"
+                  height="20"
+                  src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/logos/twitter.png?h=20&iar=0&w=25&rev=46082489e36c4dfa9be8e0b94643096b&hash=F5D7B7D3DB0B17D4AFCD5645E196F05F"
+                  width="25"
+                />
+              </a>
+              <a
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 gPBfO Link-sc-16wd4a0-0 sc-1k44dfv-0 gLXrkX"
+                data-gtm-nav-type="footer"
+                data-tracking-label="Youtube"
+                href="https://www.youtube.com/channel/UCgnmpYkJO1G-r2UAlmL1PQQ"
+                tabindex="0"
+              >
+                <img
+                  alt="Youtube"
+                  height="20"
+                  src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/logos/youtube.png?h=20&iar=0&w=26&rev=32e1cfeb5acb4f9c9645ef6a98f2511b&hash=6A500BC86FB96E375A0D00180C6786EB"
+                  width="26"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 cxIfsx"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 jcGXzY"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 ecHZAt"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 dYftbN"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 bPBPcC"
+                >
+                  © 2020 Honda Canada Inc
+                </div>
+                <ul
+                  class="sc-1k44dfv-0 sc-1k44dfv-0 llfrsE"
+                >
+                  <li>
+                    <a
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 gPBfO Link-sc-16wd4a0-0 sc-1k44dfv-0 csrsbD"
+                      data-gtm-nav-type="footer"
+                      data-tracking-label="Terms and Conditions"
+                      href="https://www.honda.ca/en/terms"
+                      tabindex="0"
+                    >
+                      Terms and Conditions
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 gPBfO Link-sc-16wd4a0-0 sc-1k44dfv-0 csrsbD"
+                      data-gtm-nav-type="footer"
+                      data-tracking-label="Privacy Policy"
+                      href="https://www.honda.ca/privacy"
+                      tabindex="0"
+                    >
+                      Privacy Policy
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 gPBfO Link-sc-16wd4a0-0 sc-1k44dfv-0 csrsbD"
+                      data-gtm-nav-type="footer"
+                      data-tracking-label="Site Map"
+                      href="http://test.ca/sitemap"
+                      tabindex="0"
+                    >
+                      Sitemap
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 gPBfO Link-sc-16wd4a0-0 sc-1k44dfv-0 csrsbD"
+                      data-gtm-nav-type="footer"
+                      data-tracking-label="FAQs"
+                      href="https://honda.ca/faqs"
+                      tabindex="0"
+                    >
+                      FAQs
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 byaSKm"
+  >
+    <button
+      class="Button-pulw6t-0 sc-1k44dfv-0 jjSLqQ sc-1k44dfv-0 jKJrHw sc-1k44dfv-0 jKJrHw"
+      data-testid="dsr-button-component"
+    >
+      <p
+        class="sc-1k44dfv-0 djXuww"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+      >
+        Back To Top
+      </p>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<Footer> should render even if there are empty values 1`] = `
+<div>
+  <div
+    class="fresnel-container fresnel-lessThan-desktop "
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 hRWiIk"
+    >
+      <div
+        class="Box-sc-1bsf784-0 iPRsIc"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 LkQEv"
+        />
+        <div />
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 dIyKwv"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 dYftbN"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 bPBPcC"
+            />
+            <ul
+              class="sc-1k44dfv-0 sc-1k44dfv-0 llfrsE"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="fresnel-container fresnel-greaterThanOrEqual-desktop "
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 iwiWEC"
+    >
+      <div
+        class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 sc-1k44dfv-0 NARVB"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 cxIfsx"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 jcGXzY"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 LkQEv"
+            />
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 cxIfsx"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 jcGXzY"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 ecHZAt"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 dYftbN"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 bPBPcC"
+                />
+                <ul
+                  class="sc-1k44dfv-0 sc-1k44dfv-0 llfrsE"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 byaSKm"
+  >
+    <button
+      class="Button-pulw6t-0 sc-1k44dfv-0 jjSLqQ sc-1k44dfv-0 jKJrHw sc-1k44dfv-0 jKJrHw"
+      data-testid="dsr-button-component"
+    >
+      <p
+        class="sc-1k44dfv-0 djXuww"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+      >
+        
+      </p>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<Footer> should return null if there is no  fields 1`] = `<div />`;

@@ -1,0 +1,524 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductDetailsCard> should render correctly 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 gXilRl"
+    data-gtm-component-type="EngineDetailsCard"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 jPwEai"
+      data-testid="container"
+    >
+      <div
+        class="fresnel-container fresnel-greaterThanOrEqual-desktop "
+      >
+        <div
+          class="Box-sc-1bsf784-0 jGVkdm"
+          display="flex"
+          width="100%"
+        >
+          <div
+            class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 sgibs"
+            width="1,1,0.5"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 hQILzn"
+            >
+              <div
+                class="Box-sc-1bsf784-0 isOmPB sc-1k44dfv-0 ednPAD"
+                display="flex"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 gaxtDi"
+                  display="flex"
+                  width="100%"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 Column-t2p57o-0 hVRYAI"
+                    display="flex"
+                    width="0,0.125"
+                  />
+                  <div
+                    class="Box-sc-1bsf784-0 Column-t2p57o-0 jcWdVb"
+                    display="flex"
+                    width="1,0.75"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 jazOpQ"
+                    >
+                      <div
+                        aria-live="polite"
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 daGqcZ"
+                        height="157px,362px,402px"
+                      >
+                        <div
+                          class="Box-sc-1bsf784-0 sc-1k44dfv-0 jyKEsn"
+                        >
+                          <div
+                            class="Box-sc-1bsf784-0 sc-1k44dfv-0 dlUJcO"
+                            data-testid="product-image-container"
+                          >
+                            <img
+                              alt="Front of Honda GX100 engine"
+                              class="sc-1k44dfv-0 cFTYBj"
+                              data-testid="product-image"
+                              draggable="true"
+                              fetchpriority="high"
+                              loading="eager"
+                              src="/sample-mock-data/media/img/product-card/engineImage.png"
+                              width="auto"
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="Box-sc-1bsf784-0 sc-1k44dfv-0 kwdYIQ"
+                        >
+                          <div
+                            class="Box-sc-1bsf784-0 sc-1k44dfv-0 dlUJcO"
+                            data-testid="product-image-container"
+                          >
+                            <img
+                              alt="Side of Honda GX100 engine"
+                              class="sc-1k44dfv-0 cFTYBj"
+                              data-testid="product-image"
+                              draggable="true"
+                              fetchpriority="high"
+                              loading="eager"
+                              src="/sample-mock-data/media/img/product-details-card/engineDetailsImage.png"
+                              width="auto"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="Box-sc-1bsf784-0 Column-t2p57o-0 hVRYAI"
+                    display="flex"
+                    width="0,0.125"
+                  />
+                </div>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 elVxZQ"
+              >
+                <div
+                  aria-label="Shared.Common.previousSlideAria"
+                  class="IconWrapper-lp9q2r-0 hIeNMk"
+                  cursor="pointer"
+                  data-testid="arrow-left"
+                  display="flex"
+                  role="button"
+                  tabindex="0"
+                />
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 evNJbO"
+                >
+                  <button
+                    aria-label="0"
+                    class="sc-1k44dfv-0 cjSExO"
+                    data-testid="step1"
+                    role="button"
+                  />
+                  <button
+                    aria-label="1"
+                    class="sc-1k44dfv-0 ipUiMI"
+                    data-testid="step2"
+                    role="button"
+                  />
+                </div>
+                <div
+                  aria-label="Shared.Common.nextSlideAria"
+                  class="IconWrapper-lp9q2r-0 hIeNMk"
+                  cursor="pointer"
+                  data-testid="arrow-right"
+                  display="flex"
+                  role="button"
+                  tabindex="0"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 cVEbMC"
+            width="1,1,0.5"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 krtBLR"
+            >
+              <h1
+                class="sc-1k44dfv-0 sc-1k44dfv-0 eNZGfe"
+                data-testid="product-title"
+              >
+                GX100
+              </h1>
+              <div
+                class="sc-1k44dfv-0 klHKZs sc-1k44dfv-0 jVHFQZ"
+                data-testid="product-subtitle"
+              >
+                
+
+                <h5
+                  class="sc-1k44dfv-0 gXWcpP"
+                >
+                  Horizontal Crankshaft
+                </h5>
+              </div>
+              <p
+                class="sc-1k44dfv-0 sc-1k44dfv-0 iZbHgV"
+                color="typographyDefault"
+                data-testid="tagline"
+                font-family="default"
+                font-weight="regular"
+              >
+                <span>
+                  Day in, day out, get solid performance, reliability and fuel efficiency. Ideal for lawn, construction and agriculture equipment.
+                </span>
+              </p>
+              <div
+                class="sc-1k44dfv-0 klHKZs sc-1k44dfv-0 cxrjfz"
+                data-testid="heading-title"
+              >
+                
+
+                <h6
+                  class="sc-1k44dfv-0 eeeuqx"
+                >
+                  Sample Heading
+                </h6>
+              </div>
+              <ul
+                class="sc-1k44dfv-0 sc-1k44dfv-0 egEiUc"
+                data-testid="product-features"
+              >
+                <li
+                  class="sc-1k44dfv-0 sc-1k44dfv-0 UnorderedListItem-sc-1h5wvnk-0 sc-1k44dfv-0 gaViIl"
+                  color="typographyDefault"
+                  data-testid="product-feature"
+                  font-family="default"
+                  font-weight="regular"
+                >
+                  Commercial lawn and garden equipment
+                </li>
+                <li
+                  class="sc-1k44dfv-0 sc-1k44dfv-0 UnorderedListItem-sc-1h5wvnk-0 sc-1k44dfv-0 gaViIl"
+                  color="typographyDefault"
+                  data-testid="product-feature"
+                  font-family="default"
+                  font-weight="regular"
+                >
+                  Construction/industrial equipment
+                </li>
+                <li
+                  class="sc-1k44dfv-0 sc-1k44dfv-0 UnorderedListItem-sc-1h5wvnk-0 sc-1k44dfv-0 gaViIl"
+                  color="typographyDefault"
+                  data-testid="product-feature"
+                  font-family="default"
+                  font-weight="regular"
+                >
+                  Agricultural equipment
+                </li>
+                <li
+                  class="sc-1k44dfv-0 sc-1k44dfv-0 UnorderedListItem-sc-1h5wvnk-0 sc-1k44dfv-0 gaViIl"
+                  color="typographyDefault"
+                  data-testid="product-feature"
+                  font-family="default"
+                  font-weight="regular"
+                >
+                  Water pumps
+                </li>
+              </ul>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 cDyBNH"
+              >
+                <a
+                  class="Button-pulw6t-0 sc-1k44dfv-0 jVKOFV"
+                  data-gtm-body-style="HorizontalCrankshaft"
+                  data-gtm-component-type="EngineDetailsCard"
+                  data-gtm-interaction-type="find distributor"
+                  data-gtm-model="GX Series"
+                  data-gtm-title="Find a distributor"
+                  data-gtm-trim="GX100"
+                  data-testid="primary-button"
+                  href="Shared.Common.dealersPageUrl"
+                >
+                  Sample Text
+                </a>
+                <button
+                  class="Button-pulw6t-0 sc-1k44dfv-0 WeFee"
+                  data-gtm-body-style="HorizontalCrankshaft"
+                  data-gtm-component-type="EngineDetailsCard"
+                  data-gtm-interaction-type="comparison results"
+                  data-gtm-model="GX Series"
+                  data-gtm-title="item added"
+                  data-gtm-trim="GX100"
+                  data-testid="secondary-button"
+                >
+                  Shared.Common.addToCompareButton
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fresnel-container fresnel-lessThan-desktop "
+      >
+        <div
+          class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 hFojy"
+        >
+          <div
+            class="Box-sc-1bsf784-0 jGVkdm"
+            display="flex"
+            width="100%"
+          >
+            <div
+              class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 sgibs"
+              width="1,1,0.5"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 hQILzn"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 isOmPB sc-1k44dfv-0 ednPAD"
+                  display="flex"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 gaxtDi"
+                    display="flex"
+                    width="100%"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 Column-t2p57o-0 hVRYAI"
+                      display="flex"
+                      width="0,0.125"
+                    />
+                    <div
+                      class="Box-sc-1bsf784-0 Column-t2p57o-0 jcWdVb"
+                      display="flex"
+                      width="1,0.75"
+                    >
+                      <div
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 jazOpQ"
+                      >
+                        <div
+                          aria-live="polite"
+                          class="Box-sc-1bsf784-0 sc-1k44dfv-0 daGqcZ"
+                          height="157px,362px,402px"
+                        >
+                          <div
+                            class="Box-sc-1bsf784-0 sc-1k44dfv-0 jyKEsn"
+                          >
+                            <div
+                              class="Box-sc-1bsf784-0 sc-1k44dfv-0 dlUJcO"
+                              data-testid="product-image-container"
+                            >
+                              <img
+                                alt="Front of Honda GX100 engine"
+                                class="sc-1k44dfv-0 cFTYBj"
+                                data-testid="product-image"
+                                draggable="true"
+                                fetchpriority="high"
+                                loading="eager"
+                                src="/sample-mock-data/media/img/product-card/engineImage.png"
+                                width="auto"
+                              />
+                            </div>
+                          </div>
+                          <div
+                            class="Box-sc-1bsf784-0 sc-1k44dfv-0 kwdYIQ"
+                          >
+                            <div
+                              class="Box-sc-1bsf784-0 sc-1k44dfv-0 dlUJcO"
+                              data-testid="product-image-container"
+                            >
+                              <img
+                                alt="Side of Honda GX100 engine"
+                                class="sc-1k44dfv-0 cFTYBj"
+                                data-testid="product-image"
+                                draggable="true"
+                                fetchpriority="high"
+                                loading="eager"
+                                src="/sample-mock-data/media/img/product-details-card/engineDetailsImage.png"
+                                width="auto"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="Box-sc-1bsf784-0 Column-t2p57o-0 hVRYAI"
+                      display="flex"
+                      width="0,0.125"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 elVxZQ"
+                >
+                  <div
+                    aria-label="Shared.Common.previousSlideAria"
+                    class="IconWrapper-lp9q2r-0 hIeNMk"
+                    cursor="pointer"
+                    data-testid="arrow-left"
+                    display="flex"
+                    role="button"
+                    tabindex="0"
+                  />
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 evNJbO"
+                  >
+                    <button
+                      aria-label="0"
+                      class="sc-1k44dfv-0 cjSExO"
+                      data-testid="step1"
+                      role="button"
+                    />
+                    <button
+                      aria-label="1"
+                      class="sc-1k44dfv-0 ipUiMI"
+                      data-testid="step2"
+                      role="button"
+                    />
+                  </div>
+                  <div
+                    aria-label="Shared.Common.nextSlideAria"
+                    class="IconWrapper-lp9q2r-0 hIeNMk"
+                    cursor="pointer"
+                    data-testid="arrow-right"
+                    display="flex"
+                    role="button"
+                    tabindex="0"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 cVEbMC"
+              width="1,1,0.5"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 krtBLR"
+              >
+                <h1
+                  class="sc-1k44dfv-0 sc-1k44dfv-0 eNZGfe"
+                  data-testid="product-title"
+                >
+                  GX100
+                </h1>
+                <div
+                  class="sc-1k44dfv-0 klHKZs sc-1k44dfv-0 jVHFQZ"
+                  data-testid="product-subtitle"
+                >
+                  
+
+                  <h5
+                    class="sc-1k44dfv-0 gXWcpP"
+                  >
+                    Horizontal Crankshaft
+                  </h5>
+                </div>
+                <p
+                  class="sc-1k44dfv-0 sc-1k44dfv-0 iZbHgV"
+                  color="typographyDefault"
+                  data-testid="tagline"
+                  font-family="default"
+                  font-weight="regular"
+                >
+                  <span>
+                    Day in, day out, get solid performance, reliability and fuel efficiency. Ideal for lawn, construction and agriculture equipment.
+                  </span>
+                </p>
+                <div
+                  class="sc-1k44dfv-0 klHKZs sc-1k44dfv-0 cxrjfz"
+                  data-testid="heading-title"
+                >
+                  
+
+                  <h6
+                    class="sc-1k44dfv-0 eeeuqx"
+                  >
+                    Sample Heading
+                  </h6>
+                </div>
+                <ul
+                  class="sc-1k44dfv-0 sc-1k44dfv-0 egEiUc"
+                  data-testid="product-features"
+                >
+                  <li
+                    class="sc-1k44dfv-0 sc-1k44dfv-0 UnorderedListItem-sc-1h5wvnk-0 sc-1k44dfv-0 gaViIl"
+                    color="typographyDefault"
+                    data-testid="product-feature"
+                    font-family="default"
+                    font-weight="regular"
+                  >
+                    Commercial lawn and garden equipment
+                  </li>
+                  <li
+                    class="sc-1k44dfv-0 sc-1k44dfv-0 UnorderedListItem-sc-1h5wvnk-0 sc-1k44dfv-0 gaViIl"
+                    color="typographyDefault"
+                    data-testid="product-feature"
+                    font-family="default"
+                    font-weight="regular"
+                  >
+                    Construction/industrial equipment
+                  </li>
+                  <li
+                    class="sc-1k44dfv-0 sc-1k44dfv-0 UnorderedListItem-sc-1h5wvnk-0 sc-1k44dfv-0 gaViIl"
+                    color="typographyDefault"
+                    data-testid="product-feature"
+                    font-family="default"
+                    font-weight="regular"
+                  >
+                    Agricultural equipment
+                  </li>
+                  <li
+                    class="sc-1k44dfv-0 sc-1k44dfv-0 UnorderedListItem-sc-1h5wvnk-0 sc-1k44dfv-0 gaViIl"
+                    color="typographyDefault"
+                    data-testid="product-feature"
+                    font-family="default"
+                    font-weight="regular"
+                  >
+                    Water pumps
+                  </li>
+                </ul>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 cDyBNH"
+                >
+                  <a
+                    class="Button-pulw6t-0 sc-1k44dfv-0 jVKOFV"
+                    data-gtm-body-style="HorizontalCrankshaft"
+                    data-gtm-component-type="EngineDetailsCard"
+                    data-gtm-interaction-type="find distributor"
+                    data-gtm-model="GX Series"
+                    data-gtm-title="Find a distributor"
+                    data-gtm-trim="GX100"
+                    data-testid="primary-button"
+                    href="Shared.Common.dealersPageUrl"
+                  >
+                    Sample Text
+                  </a>
+                  <button
+                    class="Button-pulw6t-0 sc-1k44dfv-0 WeFee"
+                    data-gtm-body-style="HorizontalCrankshaft"
+                    data-gtm-component-type="EngineDetailsCard"
+                    data-gtm-interaction-type="comparison results"
+                    data-gtm-model="GX Series"
+                    data-gtm-title="item added"
+                    data-gtm-trim="GX100"
+                    data-testid="secondary-button"
+                  >
+                    Shared.Common.addToCompareButton
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

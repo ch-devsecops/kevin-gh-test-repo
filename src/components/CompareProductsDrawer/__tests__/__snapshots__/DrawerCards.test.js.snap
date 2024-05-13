@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DrawerCards> should render correctly 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 kWIvqL"
+  >
+    <div
+      class="Box-sc-1bsf784-0 iPRsIc"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 hBrrgo"
+        tabindex="0"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 eaBcVZ"
+        >
+          Shared.Common.addProductToCompareLabel
+        </div>
+      </div>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 iPRsIc"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 hBrrgo"
+        tabindex="0"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 eaBcVZ"
+        >
+          Shared.Common.addProductToCompareLabel
+        </div>
+      </div>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 iPRsIc"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 hBrrgo"
+        tabindex="0"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 eaBcVZ"
+        >
+          Shared.Common.addProductToCompareLabel
+        </div>
+      </div>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 iPRsIc"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 hBrrgo"
+        tabindex="0"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 eaBcVZ"
+        >
+          Shared.Common.addProductToCompareLabel
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

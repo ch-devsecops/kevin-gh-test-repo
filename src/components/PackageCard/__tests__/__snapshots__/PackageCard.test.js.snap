@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PackageCard> should render correctly with all props 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 dNlNKC"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 hhevUI"
+    >
+      My title
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 kTIOGw"
+    >
+      <div
+        class="sc-1k44dfv-0 diivzi"
+        font-family="bold"
+      >
+        
+
+        <p>
+          undefined
+        </p>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 toprL"
+        display="flex"
+      >
+        <div
+          class="Box-sc-1bsf784-0 NHKAQ"
+          display="flex"
+          width="100%"
+        >
+          <div
+            class="sc-1k44dfv-0 iTQBMw"
+            font-family="heading"
+          >
+            
+
+            <p>
+              undefined
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-1k44dfv-0 diivzi"
+        font-family="bold"
+      >
+        
+
+        <p>
+          undefined
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

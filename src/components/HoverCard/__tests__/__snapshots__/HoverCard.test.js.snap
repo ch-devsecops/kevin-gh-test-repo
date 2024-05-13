@@ -1,0 +1,501 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HoverCard> It renders Desktop HoverCard 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 cHidKD fresnel-greaterThan-mobile"
+    height="100%"
+    width="100%"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 gnWdrs"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 cElcOA"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 gnWdrs"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 cElcOA"
+          >
+            <img
+              alt="card1 image"
+              class="sc-1k44dfv-0 jLTFZk"
+              draggable="true"
+              loading="lazy"
+              src="https://source.unsplash.com/daily"
+            />
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 obyui"
+          />
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 htyGGT"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 EUhTZ"
+            />
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 dzsXlx"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 kvUvHb"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 jPJriA"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 obyui"
+      />
+      <div
+        class="sc-1k44dfv-0 klHKZs sc-1k44dfv-0 gAlLij"
+      >
+        
+
+        <h5
+          class="sc-1k44dfv-0 gXWcpP"
+        >
+          My HoveCard Title
+        </h5>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 htyGGT"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 EUhTZ"
+        />
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 dzsXlx"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 kvUvHb"
+        >
+          <div
+            class="sc-1k44dfv-0 gshiOX"
+            color="white"
+            mb="xs"
+          >
+            
+
+            <h5
+              class="sc-1k44dfv-0 gXWcpP"
+            >
+              My HoveCard Title
+            </h5>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 jPJriA"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="Box-sc-1bsf784-0 cHidKD fresnel-at-mobile"
+    height="100%"
+    width="100%"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 ggBXmx"
+    >
+      <div
+        class="sc-1k44dfv-0 ktWUUC"
+        my="xs"
+      >
+        
+
+        <h6
+          class="sc-1k44dfv-0 eeeuqx"
+        >
+          My HoveCard Title
+        </h6>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 iPRsIc"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<HoverCard> It renders Mobile HoverCard 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 cHidKD fresnel-greaterThan-mobile"
+    height="100%"
+    width="100%"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 gnWdrs"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 obyui"
+      />
+      <div
+        class="sc-1k44dfv-0 klHKZs sc-1k44dfv-0 gAlLij"
+      >
+        
+
+        <h5
+          class="sc-1k44dfv-0 gXWcpP"
+        >
+          My HoveCard Title
+        </h5>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 htyGGT"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 EUhTZ"
+        />
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 dzsXlx"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 kvUvHb"
+        >
+          <div
+            class="sc-1k44dfv-0 gshiOX"
+            color="white"
+            mb="xs"
+          >
+            
+
+            <h5
+              class="sc-1k44dfv-0 gXWcpP"
+            >
+              My HoveCard Title
+            </h5>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 jPJriA"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="Box-sc-1bsf784-0 cHidKD fresnel-at-mobile"
+    height="100%"
+    width="100%"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 ggBXmx"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 feuiMg"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 ggBXmx"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 feuiMg"
+          >
+            <img
+              alt="card1 image"
+              class="sc-1k44dfv-0 jLTFZk"
+              draggable="true"
+              loading="lazy"
+              src="https://i.pinimg.com/originals/ca/b4/a9/cab4a9e46e99cac9709903af19c4447b.jpg"
+            />
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 iPRsIc"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-1k44dfv-0 ktWUUC"
+        my="xs"
+      >
+        
+
+        <h6
+          class="sc-1k44dfv-0 eeeuqx"
+        >
+          My HoveCard Title
+        </h6>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 iPRsIc"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<HoverCard> It renders WithMarkdownTitle 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 cHidKD fresnel-greaterThan-mobile"
+    height="100%"
+    width="100%"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 gnWdrs"
+      data-gtm-category="Others"
+      data-gtm-component-type="HoverCard"
+      id="anchor id"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 cElcOA"
+      >
+        <img
+          alt="card1 image"
+          class="sc-1k44dfv-0 jLTFZk"
+          draggable="true"
+          loading="lazy"
+          src="https://source.unsplash.com/daily"
+        />
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 obyui"
+      />
+      <div
+        class="sc-1k44dfv-0 klHKZs sc-1k44dfv-0 gAlLij"
+      >
+        
+
+        <h2
+          id="schedule-a-service"
+        >
+          Schedule A Service
+        </h2>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 htyGGT"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 EUhTZ"
+        />
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 dzsXlx"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 kvUvHb"
+        >
+          <div
+            class="sc-1k44dfv-0 gshiOX"
+            color="white"
+            mb="xs"
+          >
+            
+
+            <h2
+              id="schedule-a-service"
+            >
+              Schedule A Service
+            </h2>
+          </div>
+          <div
+            class="sc-1k44dfv-0 leNqUz"
+            color="white"
+          >
+            
+
+            <p>
+              Lorem ipsum dolor sit amet, conse ctetur adipiscing elit, 
+              <strong>
+                sed
+              </strong>
+            </p>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 jPJriA"
+          >
+            <span>
+              <a
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 gPBfO Link-sc-16wd4a0-0 eYsnbh"
+                data-gtm-title="hover-card-title"
+              >
+                Explore
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="Box-sc-1bsf784-0 cHidKD fresnel-at-mobile"
+    height="100%"
+    width="100%"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 ggBXmx"
+      data-gtm-category="Others"
+      data-gtm-component-type="HoverCard"
+      id="anchor id"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 feuiMg"
+      >
+        <img
+          alt="card1 image"
+          class="sc-1k44dfv-0 jLTFZk"
+          draggable="true"
+          loading="lazy"
+          src="https://i.pinimg.com/originals/ca/b4/a9/cab4a9e46e99cac9709903af19c4447b.jpg"
+        />
+      </div>
+      <div
+        class="sc-1k44dfv-0 ktWUUC"
+        my="xs"
+      >
+        
+
+        <h2
+          id="schedule-a-service"
+        >
+          Schedule A Service
+        </h2>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 gfpLtc"
+      >
+        <div
+          class="sc-1k44dfv-0 klHKZs"
+        >
+          
+
+          <p>
+            Lorem ipsum dolor sit amet, conse ctetur adipiscing elit, 
+            <strong>
+              sed
+            </strong>
+          </p>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 iPRsIc"
+      >
+        <span>
+          <a
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 gPBfO Link-sc-16wd4a0-0 eYsnbh"
+            data-gtm-title="hover-card-title"
+          >
+            Explore
+          </a>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<HoverCard> should render correctly with all props 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 cHidKD fresnel-greaterThan-mobile"
+    height="100%"
+    width="100%"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 gnWdrs"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 obyui"
+      />
+      <div
+        class="sc-1k44dfv-0 klHKZs sc-1k44dfv-0 gAlLij"
+      >
+        
+
+        <h5
+          class="sc-1k44dfv-0 gXWcpP"
+        >
+          My title
+        </h5>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 htyGGT"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 EUhTZ"
+        />
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 dzsXlx"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 kvUvHb"
+        >
+          <div
+            class="sc-1k44dfv-0 gshiOX"
+            color="white"
+            mb="xs"
+          >
+            
+
+            <h5
+              class="sc-1k44dfv-0 gXWcpP"
+            >
+              My title
+            </h5>
+          </div>
+          <div
+            class="sc-1k44dfv-0 leNqUz"
+            color="white"
+          >
+            
+
+            <p>
+              My body text
+            </p>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 jPJriA"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="Box-sc-1bsf784-0 cHidKD fresnel-at-mobile"
+    height="100%"
+    width="100%"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 ggBXmx"
+    >
+      <div
+        class="sc-1k44dfv-0 ktWUUC"
+        my="xs"
+      >
+        
+
+        <h6
+          class="sc-1k44dfv-0 eeeuqx"
+        >
+          My title
+        </h6>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 gfpLtc"
+      >
+        <div
+          class="sc-1k44dfv-0 klHKZs"
+        >
+          
+
+          <p>
+            My body text
+          </p>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 iPRsIc"
+      />
+    </div>
+  </div>
+</div>
+`;

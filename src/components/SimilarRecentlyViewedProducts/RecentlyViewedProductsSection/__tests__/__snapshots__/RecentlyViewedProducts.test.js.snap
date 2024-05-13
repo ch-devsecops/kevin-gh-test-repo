@@ -1,0 +1,273 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RecentlyViewedProducts> should have no accessibility violations 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 hwpdqT"
+    display="flex"
+    width="1,1,0.5"
+  >
+    <h4
+      aria-label="Pages.Models.Exploration.recentlyViewedProductsLabel"
+      class="sc-1k44dfv-0 chqxmS"
+    >
+      Pages.Models.Exploration.recentlyViewedProductsLabel
+    </h4>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 heIgvm"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 fZLgxb"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+          data-testid="product-card"
+        >
+          <div
+            style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+          />
+          <div
+            style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+          >
+            <a
+              class="Link-sc-16wd4a0-0 bXBGRT"
+              data-gtm-body-style="GX Series"
+              data-gtm-interaction-type="explore"
+              data-gtm-model="VerticalCrankshaft"
+              data-gtm-trim="GXV160"
+              title="view details"
+            >
+              <div
+                class="sc-1k44dfv-0 cALsOM"
+                mb="xs,s"
+                mt="0"
+              >
+                
+
+                <h5
+                  class="sc-1k44dfv-0 gXWcpP"
+                >
+                  GXV160
+                </h5>
+              </div>
+            </a>
+          </div>
+          <a
+            class="Link-sc-16wd4a0-0 bXBGRT"
+            data-gtm-body-style="GX Series"
+            data-gtm-interaction-type="explore"
+            data-gtm-model="VerticalCrankshaft"
+            data-gtm-trim="GXV160"
+            title="view details"
+          >
+            <div
+              class="Box-sc-1bsf784-0 jgcAXQ"
+              height="139px,248px"
+              order="-1"
+            >
+              <img
+                alt="Front of Honda GXV160 engine"
+                class="sc-1k44dfv-0 jLTFZk"
+                draggable="true"
+                loading="lazy"
+                src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GXV-160/GXV160.jpg?rev=4870392a1a0148f3bfcb6a0f9ab0514b"
+                style="object-fit: contain;"
+              />
+            </div>
+          </a>
+          <div
+            class="Box-sc-1bsf784-0 QoaNQ"
+          >
+            <div
+              class="sc-1k44dfv-0 ktMwmo"
+            >
+              
+
+              <p>
+                Solid performance, reliability and fuel efficiency. Ideal for lawn, construction and agriculture.
+              </p>
+            </div>
+          </div>
+          <a
+            class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+            data-gtm-body-style="GX Series"
+            data-gtm-interaction-type="explore"
+            data-gtm-model="VerticalCrankshaft"
+            data-gtm-title="view details"
+            data-gtm-trim="GXV160"
+            data-testid="dsr-button-component"
+            display="none,block"
+            tabindex="0"
+          >
+            Shared.Common.viewDetailsButton
+          </a>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+          >
+            <label
+              class="sc-bwzfXH cvvuMq"
+              data-gtm-body-style="GX Series"
+              data-gtm-interaction-type="compare item click"
+              data-gtm-model="VerticalCrankshaft"
+              data-gtm-title="added comparison item"
+              data-gtm-trim="GXV160"
+              data-testid="product-card-compare-btn"
+              data-testvalue="false"
+            >
+              <input
+                aria-checked="false"
+                aria-label="Shared.Common.compareCheckboxAria"
+                autocomplete="off"
+                class="sc-bdVaJa gBQUrE"
+                data-gtm-body-style="GX Series"
+                data-gtm-interaction-type="compare item click"
+                data-gtm-model="VerticalCrankshaft"
+                data-gtm-title="added comparison item"
+                data-gtm-trim="GXV160"
+                id="9517794341634F308D3315497A75A138"
+                tabindex="-1"
+                type="checkbox"
+              />
+              <span
+                class="sc-htpNat hVaxDi"
+                data-testid="cy-compare-toggle"
+              />
+              <label
+                class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                for="9517794341634F308D3315497A75A138"
+              >
+                Shared.Common.addToCompareButton
+              </label>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 fZLgxb"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+          data-testid="product-card"
+        >
+          <div
+            style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+          />
+          <div
+            style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+          >
+            <a
+              class="Link-sc-16wd4a0-0 bXBGRT"
+              data-gtm-body-style="GX Series"
+              data-gtm-interaction-type="explore"
+              data-gtm-model="HorizontalCrankshaft"
+              data-gtm-trim="GX340"
+              title="view details"
+            >
+              <div
+                class="sc-1k44dfv-0 cALsOM"
+                mb="xs,s"
+                mt="0"
+              >
+                
+
+                <h5
+                  class="sc-1k44dfv-0 gXWcpP"
+                >
+                  GX340
+                </h5>
+              </div>
+            </a>
+          </div>
+          <a
+            class="Link-sc-16wd4a0-0 bXBGRT"
+            data-gtm-body-style="GX Series"
+            data-gtm-interaction-type="explore"
+            data-gtm-model="HorizontalCrankshaft"
+            data-gtm-trim="GX340"
+            title="view details"
+          >
+            <div
+              class="Box-sc-1bsf784-0 jgcAXQ"
+              height="139px,248px"
+              order="-1"
+            >
+              <img
+                alt="Front of Honda GX340 engine"
+                class="sc-1k44dfv-0 jLTFZk"
+                draggable="true"
+                loading="lazy"
+                src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-340/GX340.jpg?rev=f3220fba10844848aa306d90418adfcf"
+                style="object-fit: contain;"
+              />
+            </div>
+          </a>
+          <div
+            class="Box-sc-1bsf784-0 QoaNQ"
+          >
+            <span
+              class="sc-1k44dfv-0 ktMwmo"
+            >
+              
+
+            </span>
+          </div>
+          <a
+            class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+            data-gtm-body-style="GX Series"
+            data-gtm-interaction-type="explore"
+            data-gtm-model="HorizontalCrankshaft"
+            data-gtm-title="view details"
+            data-gtm-trim="GX340"
+            data-testid="dsr-button-component"
+            display="none,block"
+            tabindex="0"
+          >
+            Shared.Common.viewDetailsButton
+          </a>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+          >
+            <label
+              class="sc-bwzfXH cvvuMq"
+              data-gtm-body-style="GX Series"
+              data-gtm-interaction-type="compare item click"
+              data-gtm-model="HorizontalCrankshaft"
+              data-gtm-title="added comparison item"
+              data-gtm-trim="GX340"
+              data-testid="product-card-compare-btn"
+              data-testvalue="false"
+            >
+              <input
+                aria-checked="false"
+                aria-label="Shared.Common.compareCheckboxAria"
+                autocomplete="off"
+                class="sc-bdVaJa gBQUrE"
+                data-gtm-body-style="GX Series"
+                data-gtm-interaction-type="compare item click"
+                data-gtm-model="HorizontalCrankshaft"
+                data-gtm-title="added comparison item"
+                data-gtm-trim="GX340"
+                id="7B841133D8474EA0B701E13F8A9E8485"
+                tabindex="-1"
+                type="checkbox"
+              />
+              <span
+                class="sc-htpNat hVaxDi"
+                data-testid="cy-compare-toggle"
+              />
+              <label
+                class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                for="7B841133D8474EA0B701E13F8A9E8485"
+              >
+                Shared.Common.addToCompareButton
+              </label>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<RecentlyViewedProducts> should return null if there is no fields 1`] = `<div />`;

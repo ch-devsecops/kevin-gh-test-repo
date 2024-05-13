@@ -1,0 +1,800 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductCard> renders without errors 1`] = `
+.c0 {
+  padding: 0;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.c1 >div {
+  cursor: pointer;
+}
+
+.c3 {
+  margin-top: m;
+  margin-bottom: m;
+  max-width: 100%;
+  max-height: 150px;
+  -webkit-transition: height .3s;
+  transition: height .3s;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c3 > img {
+  height: 150px;
+  -webkit-transition: height .3s;
+  transition: height .3s;
+  width: auto;
+}
+
+.c5 {
+  max-width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  height: 45px;
+}
+
+.c6 {
+  color: #2C2C2C;
+  font-family: Roboto;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: Cooper Black;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: default;
+  margin-bottom: s;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c8 {
+  color: #2C2C2C;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+}
+
+.c4 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  object-fit: cover;
+  object-position: center;
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  -ms-user-drag: none;
+  user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 100px;
+  height: 100px;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: iconWrapper.md;
+  height: iconWrapper.md;
+}
+
+.c9 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  background: none;
+  display: inline-block;
+  cursor: pointer;
+  padding-left: 0;
+  padding-right: 0;
+  line-height: 22px;
+  font-size: 14px;
+  border-bottom: 1px solid transparent;
+  font-family: Cooper Black;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+  -webkit-transition: border-bottom 0.3s ease;
+  transition: border-bottom 0.3s ease;
+  color: #2C2C2C;
+  line-height: 16px;
+  color: #2C2C2C;
+}
+
+.c9 > a,
+.c9 > a:hover {
+  color: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+}
+
+.c9:hover,
+.c9:focus {
+  border-bottom: 1px solid;
+  outline: transparent;
+}
+
+.c9:hover,
+.c9:focus {
+  border-color: #DA2C2E;
+}
+
+@media screen and (min-width:768px) {
+  .c6 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c7 {
+    margin-bottom: s;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c7 {
+    margin-bottom: xl;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+    data-testid="product-compare-container"
+  >
+    <div
+      class="c1"
+      data-testid="close-button0"
+    >
+      <div
+        class="c2"
+        data-testid="remove-product0-from-compare"
+      />
+    </div>
+    <div
+      class="c3"
+      data-testid="compare-product-image0"
+    >
+      <img
+        alt="alt-text"
+        class="c4"
+        draggable="true"
+        height="100px"
+        loading="lazy"
+        src="path-to-image"
+        width="100px"
+      />
+    </div>
+    <div
+      class="c5"
+    >
+      <h5
+        class="c6"
+        data-testid="compare-product-title0"
+      >
+        Product Title
+      </h5>
+    </div>
+    <div
+      class="c7"
+      data-testid="view-details"
+    >
+      <a
+        class="c8 c9"
+        color="typographyDefault"
+        href="someUrl"
+      >
+        Shared.Common.viewDetailsButton
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ProductCard> should have no accessibility violations 1`] = `
+.c0 {
+  padding: 0;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.c1 >div {
+  cursor: pointer;
+}
+
+.c3 {
+  margin-top: m;
+  margin-bottom: m;
+  max-width: 100%;
+  max-height: 150px;
+  -webkit-transition: height .3s;
+  transition: height .3s;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c3 > img {
+  height: 150px;
+  -webkit-transition: height .3s;
+  transition: height .3s;
+  width: auto;
+}
+
+.c5 {
+  max-width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  height: 45px;
+}
+
+.c6 {
+  color: #2C2C2C;
+  font-family: Roboto;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: Cooper Black;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: default;
+  margin-bottom: s;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c8 {
+  color: #2C2C2C;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+}
+
+.c4 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  object-fit: cover;
+  object-position: center;
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  -ms-user-drag: none;
+  user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 100px;
+  height: 100px;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: iconWrapper.md;
+  height: iconWrapper.md;
+}
+
+.c9 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  background: none;
+  display: inline-block;
+  cursor: pointer;
+  padding-left: 0;
+  padding-right: 0;
+  line-height: 22px;
+  font-size: 14px;
+  border-bottom: 1px solid transparent;
+  font-family: Cooper Black;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+  -webkit-transition: border-bottom 0.3s ease;
+  transition: border-bottom 0.3s ease;
+  color: #2C2C2C;
+  line-height: 16px;
+  color: #2C2C2C;
+}
+
+.c9 > a,
+.c9 > a:hover {
+  color: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+}
+
+.c9:hover,
+.c9:focus {
+  border-bottom: 1px solid;
+  outline: transparent;
+}
+
+.c9:hover,
+.c9:focus {
+  border-color: #DA2C2E;
+}
+
+@media screen and (min-width:768px) {
+  .c6 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c7 {
+    margin-bottom: s;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c7 {
+    margin-bottom: xl;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+    data-testid="product-compare-container"
+  >
+    <div
+      class="c1"
+      data-testid="close-button0"
+    >
+      <div
+        class="c2"
+        data-testid="remove-product0-from-compare"
+      />
+    </div>
+    <div
+      class="c3"
+      data-testid="compare-product-image0"
+    >
+      <img
+        alt="alt-text"
+        class="c4"
+        draggable="true"
+        height="100px"
+        loading="lazy"
+        src="path-to-image"
+        width="100px"
+      />
+    </div>
+    <div
+      class="c5"
+    >
+      <h5
+        class="c6"
+        data-testid="compare-product-title0"
+      >
+        Product Title
+      </h5>
+    </div>
+    <div
+      class="c7"
+      data-testid="view-details"
+    >
+      <a
+        class="c8 c9"
+        color="typographyDefault"
+        href="someUrl"
+      >
+        Shared.Common.viewDetailsButton
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ProductCard> should render without errors if there is no data 1`] = `
+.c0 {
+  padding: 0;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.c1 >div {
+  cursor: pointer;
+}
+
+.c3 {
+  margin-top: m;
+  margin-bottom: m;
+  max-width: 100%;
+  max-height: 150px;
+  -webkit-transition: height .3s;
+  transition: height .3s;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c3 > img {
+  height: 150px;
+  -webkit-transition: height .3s;
+  transition: height .3s;
+  width: auto;
+}
+
+.c4 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  object-fit: cover;
+  object-position: center;
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  -ms-user-drag: none;
+  user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c5 {
+  max-width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  height: 45px;
+}
+
+.c6 {
+  color: #2C2C2C;
+  font-family: Roboto;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: Cooper Black;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: default;
+  margin-bottom: s;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c8 {
+  color: #2C2C2C;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: iconWrapper.md;
+  height: iconWrapper.md;
+}
+
+.c9 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  background: none;
+  display: inline-block;
+  cursor: pointer;
+  padding-left: 0;
+  padding-right: 0;
+  line-height: 22px;
+  font-size: 14px;
+  border-bottom: 1px solid transparent;
+  font-family: Cooper Black;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+  -webkit-transition: border-bottom 0.3s ease;
+  transition: border-bottom 0.3s ease;
+  color: #2C2C2C;
+  line-height: 16px;
+  color: #2C2C2C;
+}
+
+.c9 > a,
+.c9 > a:hover {
+  color: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+}
+
+.c9:hover,
+.c9:focus {
+  border-bottom: 1px solid;
+  outline: transparent;
+}
+
+.c9:hover,
+.c9:focus {
+  border-color: #DA2C2E;
+}
+
+@media screen and (min-width:768px) {
+  .c6 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c7 {
+    margin-bottom: s;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c7 {
+    margin-bottom: xl;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+    data-testid="product-compare-container"
+  >
+    <div
+      class="c1"
+      data-testid="close-button0"
+    >
+      <div
+        class="c2"
+        data-testid="remove-product0-from-compare"
+      />
+    </div>
+    <div
+      class="c3"
+      data-testid="compare-product-imageundefined"
+    >
+      <img
+        class="c4"
+        draggable="true"
+        loading="lazy"
+      />
+    </div>
+    <div
+      class="c5"
+    >
+      <h5
+        class="c6"
+        data-testid="compare-product-titleundefined"
+      />
+    </div>
+    <div
+      class="c7"
+      data-testid="view-details"
+    >
+      <a
+        class="c8 c9"
+        color="typographyDefault"
+        href=""
+      >
+        Shared.Common.viewDetailsButton
+      </a>
+    </div>
+  </div>
+</div>
+`;

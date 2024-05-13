@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IconCard> It renders CTAs without body text 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 ewpOsu"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 jmUdzb"
+    >
+      <img
+        alt="pdf-icon"
+        class="sc-1k44dfv-0 jLTFZk"
+        draggable="true"
+        loading="lazy"
+        src="/images/cms-icons/PDF.png"
+      />
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 cZEkwa"
+    >
+      <div
+        class="Box-sc-1bsf784-0 gBdgWj"
+      >
+        <div
+          class="sc-1k44dfv-0 iBztxY sc-1k44dfv-0 dHPSTR"
+          mb="xl,l"
+        >
+          
+
+          <h5
+            class="sc-1k44dfv-0 gXWcpP"
+          >
+            Quick Start Guide
+          </h5>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 gDtFzE"
+      >
+        <a
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 gPBfO Link-sc-16wd4a0-0 eYsnbh"
+          data-gtm-title="iconcard-title"
+        >
+          Download English
+        </a>
+        <a
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 gPBfO Link-sc-16wd4a0-0 eYsnbh"
+          data-gtm-title="iconcard-title"
+        >
+          Download French
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<IconCard> It renders body text without CTA 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 ewpOsu"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 jmUdzb"
+    >
+      <img
+        alt="pdf-icon"
+        class="sc-1k44dfv-0 jLTFZk"
+        draggable="true"
+        loading="lazy"
+        src="/images/cms-icons/PDF.png"
+      />
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 kQbQDO"
+    >
+      <div
+        class="Box-sc-1bsf784-0 gBdgWj"
+      >
+        <div
+          class="sc-1k44dfv-0 gClLHi sc-1k44dfv-0 dHPSTR"
+          mb="0"
+        >
+          
+
+          <h5
+            class="sc-1k44dfv-0 gXWcpP"
+          >
+            Quick Start Guide
+          </h5>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 fluhpL"
+        />
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 bXdSPe"
+        >
+          <div
+            class="sc-1k44dfv-0 gClLHi"
+            mb="0"
+            style="text-align: center;"
+          >
+            
+
+            <p>
+              Stop and exchange information.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 gDtFzE"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<IconCard> It renders body text without Icon 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 dCCzpp"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 jmUdzb"
+    />
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 cSNiFm"
+    >
+      <div
+        class="Box-sc-1bsf784-0 gBdgWj"
+      >
+        <div
+          class="sc-1k44dfv-0 gClLHi sc-1k44dfv-0 dHPSTR"
+          mb="0"
+        >
+          
+
+          <h5
+            class="sc-1k44dfv-0 gXWcpP"
+          >
+            Quick Start Guide
+          </h5>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 fluhpL"
+        />
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 bXdSPe"
+        >
+          <div
+            class="sc-1k44dfv-0 gClLHi"
+            mb="0"
+            style="text-align: center;"
+          >
+            
+
+            <p>
+              Stop and exchange information.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 gDtFzE"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<IconCard> should render correctly with all props 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 dCCzpp"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 jmUdzb"
+    />
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 fRiBqD"
+    >
+      <div
+        class="Box-sc-1bsf784-0 gBdgWj"
+      >
+        <div
+          class="sc-1k44dfv-0 iBztxY sc-1k44dfv-0 dHPSTR"
+          mb="xl,l"
+        >
+          
+
+          <h5
+            class="sc-1k44dfv-0 gXWcpP"
+          >
+            My title
+          </h5>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 bXdSPe"
+        >
+          <div
+            class="sc-1k44dfv-0 gClLHi"
+            mb="0"
+            style="text-align: center;"
+          >
+            
+
+            <p>
+              My body text
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 gDtFzE"
+      />
+    </div>
+  </div>
+</div>
+`;

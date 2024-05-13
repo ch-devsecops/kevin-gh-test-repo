@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PromoBanner> should render correctly 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 TUrnH"
+    data-testid="cy-promo-banner"
+    id="anchor-id"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 goQQGJ"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 draJQ"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+      >
+        <span>
+          Promo Bar and Special Alerts Go Here. Probably Need to Confirm Character Count.
+        </span>
+      </p>
+    </div>
+    <div
+      class="IconWrapper-lp9q2r-0 bbbwgU"
+    />
+  </div>
+</div>
+`;
+
+exports[`<PromoBanner> should render even if there are empty fields 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 TUrnH"
+    data-testid="cy-promo-banner"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 goQQGJ"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 draJQ"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+      >
+        <span />
+      </p>
+    </div>
+    <div
+      class="IconWrapper-lp9q2r-0 bbbwgU"
+    />
+  </div>
+</div>
+`;
+
+exports[`<PromoBanner> should return null if there is no fields 1`] = `<div />`;

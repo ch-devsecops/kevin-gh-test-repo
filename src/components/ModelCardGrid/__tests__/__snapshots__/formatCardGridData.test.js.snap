@@ -1,0 +1,908 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`formatCardsGridData formatCardsGridData should return expected output 1`] = `
+Array [
+  Object {
+    "defaultTrim": Object {
+      "defaultTransmission": Object {
+        "item": Object {
+          "defaultExteriorColor": Object {
+            "item": Object {
+              "color": Object {
+                "item": Object {
+                  "detIdentifier": "",
+                  "detKey": "nh_830mlunar_silver_metallic",
+                  "sotId": "",
+                },
+              },
+            },
+          },
+          "detIdentifier": "10834",
+          "detKey": "10834-Automatic",
+          "modelCode": "YG1H3PE",
+          "sotId": "",
+        },
+      },
+      "detIdentifier": "10786",
+      "detKey": "sport_10786",
+      "primaryThumbnail": Object {
+        "item": Object {
+          "alt": "¾ driver side front facing view of 2023 Pilot Sport model in Platinum White Pearl colour",
+          "height": "165",
+          "src": "/-/media/Brands/Honda/Models/PILOT/2023/Trims/01_Sport/Trim-Selector-Jellybeans/Trim_Jellybeans_294x165_2023_Pilot_Sport_LSM_1.png?h=165&iar=0&w=294&rev=c1c8796128904ee2a9e904c5168e28bc&hash=0FD13DAC6879BBA693F5F6E9EFF3F4FA",
+          "width": "294",
+        },
+      },
+      "secondaryThumbnail": Object {
+        "item": Object {
+          "alt": "¾ driver side rear facing view of 2023 Pilot Sport model in Lunar Steel Mettalic colour",
+          "height": "165",
+          "src": "/-/media/Brands/Honda/Models/PILOT/2023/Trims/01_Sport/Trim-Selector-Jellybeans/Trim_Jellybeans_294x165_2023_Pilot_Sport_LSM_2.png?h=165&iar=0&w=294&rev=52b79338852445ffa5b0e0a1b040b492&hash=9D5F62725A24C05EDBA7BF594B0D6262",
+          "width": "294",
+        },
+      },
+      "sotId": "",
+    },
+    "defaultTrimName": "SPORT",
+    "detIdentifier": "",
+    "detKey": "pilot",
+    "filters": Object {
+      "bodyType": Array [
+        "SUV",
+      ],
+      "comfortConvenience": Array [
+        "Adjustable cargo floor height",
+      ],
+      "designFeatures": Array [
+        "Fabric Seats",
+        "Dual-action tailgate",
+      ],
+      "drivetrain": Array [
+        "20 litre 16 valve  Direct Injection DOHC 4 cylinder",
+        "20 litre 16 valve Atkinson cycle DOHC  iVTEC",
+      ],
+    },
+    "id": "13145BC2F8884F5A8B306A48D221B804",
+    "modelName": "Pilot",
+    "name": "PILOT",
+    "sotId": "",
+    "year": "2023",
+  },
+  Object {
+    "defaultTrim": Object {
+      "defaultTransmission": Object {
+        "item": Object {
+          "defaultExteriorColor": Object {
+            "item": Object {
+              "color": Object {
+                "item": Object {
+                  "detIdentifier": "",
+                  "detKey": "241modern_steel_metallic",
+                  "sotId": "",
+                },
+              },
+            },
+          },
+          "detIdentifier": "10775",
+          "detKey": "10775-Automatic",
+          "modelCode": "YF6H3NJ",
+          "sotId": "",
+        },
+      },
+      "detIdentifier": "10727",
+      "detKey": "sport_10727",
+      "primaryThumbnail": Object {
+        "item": Object {
+          "alt": "¾ driver side front facing view of 2022 Pilot Sport model in Modern Steel Metallic colour",
+          "height": "165",
+          "src": "/-/media/Brands/Honda/Models/PILOT/2022/Trims/Sport/Trim-Selector-Jellybeans/Desktop/MY22_Pilot_Sport_MSM_1_294x165_desktop.png?h=165&iar=0&w=294&rev=636c7bf5eca445d9852e2033556fa329&hash=75E13FCF15A7E4DFE416CF3D0E695B48",
+          "width": "294",
+        },
+      },
+      "secondaryThumbnail": Object {
+        "item": Object {
+          "alt": "¾ driver side rear facing view of 2022 Pilot Sport model in Modern Steel Metallic colour",
+          "height": "165",
+          "src": "/-/media/Brands/Honda/Models/PILOT/2022/Trims/Sport/Trim-Selector-Jellybeans/Desktop/MY22_Pilot_Sport_MSM_2_294x165_desktop.png?h=165&iar=0&w=294&rev=4f45f8eb81db48aeaf0f0bd8a6d36ea0&hash=7000860B321AF0C8A2C901995B4C2E2E",
+          "width": "294",
+        },
+      },
+      "sotId": "",
+    },
+    "defaultTrimName": "SPORT",
+    "detIdentifier": "",
+    "detKey": "pilot",
+    "filters": Object {
+      "bodyType": Array [
+        "SUV",
+      ],
+      "comfortConvenience": Array [
+        "Embedded Navigation System",
+        "LED Cargo Lights",
+      ],
+      "drivetrain": Array [
+        "15 litre 16 valve Direct Injection DOHC iVTEC",
+      ],
+      "entertainment": Array [
+        "9 Touchscreen",
+      ],
+    },
+    "id": "13145BC2F8884F5A8B306A48D221B804",
+    "modelName": "Pilot",
+    "name": "PILOT",
+    "sotId": "",
+    "year": "2022",
+  },
+  Object {
+    "defaultTrim": Object {
+      "defaultTransmission": Object {
+        "item": Object {
+          "defaultExteriorColor": Object {
+            "item": Object {
+              "color": Object {
+                "item": Object {
+                  "detIdentifier": "",
+                  "detKey": "241modern_steel_metallic",
+                  "sotId": "",
+                },
+              },
+            },
+          },
+          "detIdentifier": "10805",
+          "detKey": "10805-Automatic",
+          "modelCode": "YK3F1PJ",
+          "sotId": "",
+        },
+      },
+      "detIdentifier": "10760",
+      "detKey": "sport_10760",
+      "primaryThumbnail": Object {
+        "item": Object {
+          "alt": "¾ driver side front facing view of 2022 Ridgeline Sport model in Modern Steel Metallic colour",
+          "height": "165",
+          "src": "/-/media/Brands/Honda/Models/RIDGELINE/2023/Trims/01_Sport/Trim-Selector-Jellybeans/Desktop/MY22_Ridgeline_Sport_MSM_1_294x165_desktop.png?h=165&iar=0&w=294&rev=6fb6728449f443328a0659d9fb46bc85&hash=E8991E14EDDFB7A2209D154F0F82C664",
+          "width": "294",
+        },
+      },
+      "secondaryThumbnail": Object {
+        "item": Object {
+          "alt": "¾ driver side rear facing view of 2022 Ridgeline Sport model in Modern Steel Metallic colour",
+          "height": "165",
+          "src": "/-/media/Brands/Honda/Models/RIDGELINE/2023/Trims/01_Sport/Trim-Selector-Jellybeans/Desktop/MY22_Ridgeline_Sport_MSM_2_294x165_desktop.png?h=165&iar=0&w=294&rev=542c7f45f2d34db3b738f0b35d1e5de7&hash=F465A8D4EF51A48A1296A64D40AF6315",
+          "width": "294",
+        },
+      },
+      "sotId": "",
+    },
+    "defaultTrimName": "SPORT",
+    "detIdentifier": "",
+    "detKey": "ridgeline",
+    "filters": Object {
+      "bodyType": Array [
+        "Trucks Minivans",
+      ],
+    },
+    "id": "2E408DEE9D8848CA89E95F58AC9A58E8",
+    "modelName": "Ridgeline",
+    "name": "RIDGELINE",
+    "sotId": "",
+    "year": "2023",
+  },
+  Object {
+    "defaultTrim": Object {
+      "defaultTransmission": Object {
+        "item": Object {
+          "defaultExteriorColor": Object {
+            "item": Object {
+              "color": Object {
+                "item": Object {
+                  "detIdentifier": "",
+                  "detKey": "nh_830mlunar_silver_metallic",
+                  "sotId": "",
+                },
+              },
+            },
+          },
+          "detIdentifier": "10778",
+          "detKey": "10778-CVT",
+          "modelCode": "CV1F2NE",
+          "sotId": "",
+        },
+      },
+      "detIdentifier": "10730",
+      "detKey": "se_10730",
+      "primaryThumbnail": Object {
+        "item": Object {},
+      },
+      "secondaryThumbnail": Object {
+        "item": Object {},
+      },
+      "sotId": "",
+    },
+    "defaultTrimName": "SE",
+    "detIdentifier": "",
+    "detKey": "accord_sedan",
+    "filters": Object {
+      "bodyType": Array [
+        "Cars",
+      ],
+    },
+    "id": "46B1018A688D48228CEDCD686A651B63",
+    "modelName": "Accord Sedan",
+    "name": "ACCORD SEDAN",
+    "sotId": "",
+    "year": "2022",
+  },
+  Object {
+    "defaultTrim": Object {
+      "defaultTransmission": Object {
+        "item": Object {
+          "defaultExteriorColor": Object {
+            "item": Object {
+              "color": Object {
+                "item": Object {
+                  "detIdentifier": "",
+                  "detKey": "nh_904mmeteoroid_gray_metallic",
+                  "sotId": "",
+                },
+              },
+            },
+          },
+          "detIdentifier": "10843",
+          "detKey": "10843-CVT",
+          "modelCode": "CY2F8PKN",
+          "sotId": "",
+        },
+      },
+      "detIdentifier": "10795",
+      "detKey": "touring_10795",
+      "primaryThumbnail": Object {
+        "item": Object {
+          "alt": "¾ driver side front facing view of 2023 Accord Touring Hybrid model in Meteoroid Grey Metallic colour",
+          "height": "165",
+          "src": "/-/media/Brands/Honda/Models/ACCORD/2023/Trims/03_Touring-Hybrid/Trim-Selector-Jellybeans/Trim_Jellybeans_294x165_2023_Accord_TouringHybrid_MGM_1.png?h=165&iar=0&w=294&rev=13b8d3f5e59e4f5cbad3fb4f3cf1fd6f&hash=6B0E3D1206C5D9B7F5AF906BB9F93D8D",
+          "width": "294",
+        },
+      },
+      "secondaryThumbnail": Object {
+        "item": Object {
+          "alt": "¾ driver side rear facing view of 2023 Accord Touring Hybrid model in Meteoroid Grey Metallic colour",
+          "height": "165",
+          "src": "/-/media/Brands/Honda/Models/ACCORD/2023/Trims/03_Touring-Hybrid/Trim-Selector-Jellybeans/Trim_Jellybeans_294x165_2023_Accord_TouringHybrid_MGM_2.png?h=165&iar=0&w=294&rev=a657a56e722446248a8c3417c425862e&hash=A3042F25F30874581CBA5062B934A433",
+          "width": "294",
+        },
+      },
+      "sotId": "",
+    },
+    "defaultTrimName": "TOURING HYBRID",
+    "detIdentifier": "",
+    "detKey": "accord_sedan",
+    "filters": Object {
+      "bodyType": Array [
+        "Cars",
+        "Hybrids Electrics",
+      ],
+    },
+    "id": "6A49F56FDFA84821A3B908D8D27B74E5",
+    "modelName": "Accord",
+    "name": "ACCORD",
+    "sotId": "",
+    "year": "2023",
+  },
+  Object {
+    "defaultTrim": Object {
+      "defaultTransmission": Object {
+        "item": Object {
+          "defaultExteriorColor": Object {
+            "item": Object {
+              "color": Object {
+                "item": Object {
+                  "detIdentifier": "",
+                  "detKey": "crystal_black_pearl",
+                  "sotId": "",
+                },
+              },
+            },
+          },
+          "detIdentifier": "10784",
+          "detKey": "10784-Default",
+          "modelCode": "CV3F4NJ",
+          "sotId": "",
+        },
+      },
+      "detIdentifier": "10736",
+      "detKey": "hybrid_10736",
+      "primaryThumbnail": Object {
+        "item": Object {
+          "alt": "¾ driver side front facing view of 2022 Accord Hybrid model in Crystal Black Pearl colour",
+          "height": "165",
+          "src": "/-/media/Brands/Honda/Models/ACCORD-HYBRID/2022/Trims/01_Hybrid/Trim-Selector-Jellybeans/desktop/2021_Accord_MY22_Hybrid_Hybrid_CBP_1.png?h=165&iar=0&w=294&rev=e7d9c3d322ac497788b059be0fd45685&hash=DD19B638899BBC74A47D124EE5534F67",
+          "width": "294",
+        },
+      },
+      "secondaryThumbnail": Object {
+        "item": Object {
+          "alt": "¾ driver side rear facing view of 2022 Accord Hybrid model in Crystal Black Pearl colour",
+          "height": "165",
+          "src": "/-/media/Brands/Honda/Models/ACCORD-HYBRID/2022/Trims/01_Hybrid/Trim-Selector-Jellybeans/desktop/2021_Accord_MY22_Hybrid_Hybrid_CBP_2.png?h=165&iar=0&w=294&rev=c5512654a18b4682acfd8cb4fdec9c23&hash=7C26B0BE4A6C9C84872171248C9F97E3",
+          "width": "294",
+        },
+      },
+      "sotId": "",
+    },
+    "defaultTrimName": "HYBRID",
+    "detIdentifier": "",
+    "detKey": "accord_hybrid",
+    "filters": Object {
+      "bodyType": Array [
+        "Hybrids Electrics",
+      ],
+      "comfortConvenience": Array [
+        "LED Cargo Lights",
+        "7 colour TFT centre meter display",
+        "Embedded Navigation System",
+        "Wireless Charging",
+        "Honda Satellite-Linked Navigation System",
+      ],
+      "designFeatures": Array [
+        "Drivers seat with 10way power adjustment including power lumbar support",
+        "Heated leather-wrapped steering wheel",
+        "One-touch power moonroof with tilt",
+      ],
+      "drivetrain": Array [
+        "35 litre 24 valve Direct Injection DOHC iVTEC engine V6",
+      ],
+      "entertainment": Array [
+        "SiriusXM",
+        "Apple CarPlay and Android Auto",
+      ],
+      "safety": Array [
+        "Honda Sensing Technologies",
+      ],
+      "wheels": Array [
+        "17 aluminum-alloy grey",
+      ],
+    },
+    "id": "77C5E940E6674987A65D69797416755D",
+    "modelName": "Accord Hybrid",
+    "name": "ACCORD HYBRID",
+    "sotId": "",
+    "year": "2022",
+  },
+  Object {
+    "defaultTrim": Object {
+      "defaultTransmission": Object {
+        "item": Object {
+          "defaultExteriorColor": Object {
+            "item": Object {
+              "color": Object {
+                "item": Object {
+                  "detIdentifier": "",
+                  "detKey": "rallye_red",
+                  "sotId": "",
+                },
+              },
+            },
+          },
+          "detIdentifier": "10833",
+          "detKey": "10833-Automatic",
+          "modelCode": "FE1E5PK-SPECS",
+          "sotId": "",
+        },
+      },
+      "detIdentifier": "10785",
+      "detKey": "si_10785",
+      "primaryThumbnail": Object {
+        "item": Object {
+          "alt": "¾ driver side front facing view of 2023 Civic Sedan Si model in Blazing Orange Pearl colour",
+          "height": "165",
+          "src": "/-/media/Brands/Honda/Models/CIVIC-SI/2023/Trims/Trims-Selector-Jellybeans/front/Trim_Jellybeans_294x165_CSS22-SI_MY23_BOP_1.png?h=165&iar=0&w=294&rev=47a09513fb6541509d7a703e645d37e6&hash=3726C182091F2A996F4B33BCDB6D7180",
+          "width": "294",
+        },
+      },
+      "secondaryThumbnail": Object {
+        "item": Object {
+          "alt": "¾ driver side rear facing view of 2023 Civic Sedan Si model in Blazing Orange Pearl colour",
+          "height": "165",
+          "src": "/-/media/Brands/Honda/Models/CIVIC-SI/2023/Trims/Trims-Selector-Jellybeans/rear/Trim_Jellybeans_294x165_CSS22-SI_MY23_BOP_3.png?h=165&iar=0&w=294&rev=d68b0217bce14860b1ff8b9667b3689e&hash=ECD66F555304D391C3F43B0C29C306E4",
+          "width": "294",
+        },
+      },
+      "sotId": "",
+    },
+    "defaultTrimName": "SI",
+    "detIdentifier": "",
+    "detKey": "civic_sedan_si",
+    "filters": Object {
+      "bodyType": Array [
+        "Cars",
+      ],
+    },
+    "id": "E3194A3B635F4DEEB6E3C6B1567A22C7",
+    "modelName": "Civic Si",
+    "name": "CIVIC SI",
+    "sotId": "",
+    "year": "2023",
+  },
+  Object {
+    "defaultTrim": Object {
+      "defaultTransmission": Object {
+        "item": Object {
+          "defaultExteriorColor": Object {
+            "item": Object {
+              "color": Object {
+                "item": Object {
+                  "detIdentifier": "",
+                  "detKey": "rallye_red",
+                  "sotId": "",
+                },
+              },
+            },
+          },
+          "detIdentifier": "10795",
+          "detKey": "10795-Manual",
+          "modelCode": "FL5G4PG",
+          "sotId": "",
+        },
+      },
+      "detIdentifier": "10749",
+      "detKey": "type_r_10749",
+      "primaryThumbnail": Object {
+        "item": Object {
+          "alt": "¾ driver side front facing view of 2023 Civic Type R model in Championship White colour",
+          "height": "165",
+          "src": "/-/media/Brands/Honda/Models/TYPE-R/2023/Trims/Trim-Selector-Jellybeans/Trim_Jellybeans_294x165_CVR23_BAP_CW_1.png?h=165&iar=0&w=294&rev=b9de53eb08c2410cb4b508884ecb89e3&hash=4E210688E89E3A53B27DFE98B8C13D12",
+          "width": "294",
+        },
+      },
+      "secondaryThumbnail": Object {
+        "item": Object {
+          "alt": "¾ driver side rear facing view of 2023 Civic Type R model in Championship White colour",
+          "height": "165",
+          "src": "/-/media/Brands/Honda/Models/TYPE-R/2023/Trims/Trim-Selector-Jellybeans/Trim_Jellybeans_294x165_CVR23_BAP_CW_2.png?h=165&iar=0&w=294&rev=48a3f761a0ec44079a1be9f8c9d44a4d&hash=90A293987AB0FB06144C26CBF8F1F325",
+          "width": "294",
+        },
+      },
+      "sotId": "",
+    },
+    "defaultTrimName": "Type R",
+    "detIdentifier": "",
+    "detKey": "civic_type_r",
+    "filters": Object {
+      "bodyType": Array [
+        "Cars",
+      ],
+    },
+    "id": "94429FC21E7047F99252C0244B12EDE1",
+    "modelName": "Type R",
+    "name": "CIVIC TYPE R",
+    "sotId": "",
+    "year": "2023",
+  },
+  Object {
+    "defaultTrim": Object {
+      "defaultTransmission": Object {
+        "item": Object {
+          "defaultExteriorColor": Object {
+            "item": Object {
+              "color": Object {
+                "item": Object {
+                  "detIdentifier": "",
+                  "detKey": "241modern_steel_metallic",
+                  "sotId": "",
+                },
+              },
+            },
+          },
+          "detIdentifier": "10796",
+          "detKey": "10796-Automatic",
+          "modelCode": "RL6H4PJ",
+          "sotId": "",
+        },
+      },
+      "detIdentifier": "10750",
+      "detKey": "ex_10750",
+      "primaryThumbnail": Object {
+        "item": Object {
+          "alt": "¾ driver side front facing view of 2023 Odyssey EX model in Modern Steel Metallic colour",
+          "height": "165",
+          "src": "/-/media/Brands/Honda/Models/ODYSSEY/2023/Trims/01_EX/Trim-Selector-Jellybeans/desktop/2023_Odyssey_BAP_EX_MSM_1.png?h=165&iar=0&w=294&rev=91c70f6bae464af0a53b573b3c43c30c&hash=CA5C9470E8120435B06C9AEBEC0E561D",
+          "width": "294",
+        },
+      },
+      "secondaryThumbnail": Object {
+        "item": Object {
+          "alt": "¾ driver side rear facing view of 2023 Odyssey EX model in Lunar Silver Metallic colour",
+          "height": "165",
+          "src": "/-/media/Brands/Honda/Models/ODYSSEY/2023/Trims/01_EX/Trim-Selector-Jellybeans/desktop/2023_Odyssey_BAP_EX_MSM_2.png?h=165&iar=0&w=294&rev=13e10b7254cf4e80a92e2e9ae8756940&hash=2C87378D0185F587876B7787ECE7D06A",
+          "width": "294",
+        },
+      },
+      "sotId": "",
+    },
+    "defaultTrimName": "EX",
+    "detIdentifier": "",
+    "detKey": "odyssey",
+    "filters": Object {
+      "bodyType": Array [
+        "Trucks Minivans",
+      ],
+    },
+    "id": "7FD09B76AA41429E979B07E4A001A122",
+    "modelName": "Odyssey",
+    "name": "ODYSSEY",
+    "sotId": "",
+    "year": "2023",
+  },
+  Object {
+    "defaultTrim": Object {
+      "defaultTransmission": Object {
+        "item": Object {
+          "defaultExteriorColor": Object {
+            "item": Object {
+              "color": Object {
+                "item": Object {
+                  "detIdentifier": "",
+                  "detKey": "nh_830mlunar_silver_metallic",
+                  "sotId": "",
+                },
+              },
+            },
+          },
+          "detIdentifier": "10828",
+          "detKey": "10828-Automatic",
+          "modelCode": "YF8H2PJ",
+          "sotId": "",
+        },
+      },
+      "detIdentifier": "10780",
+      "detKey": "sport_10780",
+      "primaryThumbnail": Object {
+        "item": Object {
+          "alt": "¾ driver side front facing view of 2023 Passport Sport model in Lunar Silver Metallic colour",
+          "height": "165",
+          "src": "/-/media/Brands/Honda/Models/PASSPORT/2023/Trims/01_Sport/Trim-Selector-Jellybeans/desktop/2023_Passport_Sport_LSM_1.png?h=165&iar=0&w=294&rev=4a47dd67b7384b019b36d737ce018a10&hash=9A97153178B24A2999281BA1FB089852",
+          "width": "294",
+        },
+      },
+      "secondaryThumbnail": Object {
+        "item": Object {
+          "alt": "¾ driver side rear facing view of 2023 Passport  Sport model in Lunar Silver Metallic colour",
+          "height": "165",
+          "src": "/-/media/Brands/Honda/Models/PASSPORT/2023/Trims/01_Sport/Trim-Selector-Jellybeans/desktop/2023_Passport_Sport_LSM_3.png?h=165&iar=0&w=294&rev=7cb38c8cc5804a878af14a35227d925a&hash=7118864E14A85A9FAE8B12C745FBA691",
+          "width": "294",
+        },
+      },
+      "sotId": "",
+    },
+    "defaultTrimName": "SPORT",
+    "detIdentifier": "",
+    "detKey": "passport",
+    "filters": Object {
+      "bodyType": Array [
+        "SUV",
+      ],
+    },
+    "id": "A2B41E8D7E54460B821496A35E59EDC5",
+    "modelName": "Passport",
+    "name": "PASSPORT",
+    "sotId": "",
+    "year": "2023",
+  },
+  Object {
+    "defaultTrim": Object {
+      "fields": null,
+    },
+    "defaultTrimName": undefined,
+    "detIdentifier": "",
+    "detKey": "passport",
+    "filters": Object {},
+    "id": "A2B41E8D7E54460B821496A35E59EDC5",
+    "modelName": "Passport",
+    "name": "PASSPORT",
+    "sotId": "",
+    "year": "2022",
+  },
+  Object {
+    "defaultTrim": Object {
+      "defaultTransmission": Object {
+        "item": Object {
+          "defaultExteriorColor": Object {
+            "item": Object {
+              "color": Object {
+                "item": Object {
+                  "detIdentifier": "",
+                  "detKey": "nh_830mlunar_silver_metallic",
+                  "sotId": "",
+                },
+              },
+            },
+          },
+          "detIdentifier": "10809",
+          "detKey": "10809-CVT",
+          "modelCode": "FE2F2PE",
+          "sotId": "",
+        },
+      },
+      "detIdentifier": "10764",
+      "detKey": "lx_10764",
+      "primaryThumbnail": Object {
+        "item": Object {
+          "alt": "¾ driver side front facing view of 2023 Civic Sedan LX model in Lunar Silver Metallic colour",
+          "height": "165",
+          "src": "/-/media/Brands/Honda/Models/CIVIC-SEDAN/2023/Trims/LX/Trim-Selector-Jellybeans/Trim_Jellybeans_294x165_2022_MY23_Civic_BAP_LX_LSM_01.png?h=165&iar=0&w=294&rev=28bd87583f454c30ac232a238df4c85d&hash=0DBE4B5C3BEEA8FCE1E9F351F6F046CC",
+          "width": "294",
+        },
+      },
+      "secondaryThumbnail": Object {
+        "item": Object {
+          "alt": "¾ driver side rear facing view of 2023 Civic Sedan LX model in Lunar Silver Metallic colour",
+          "height": "165",
+          "src": "/-/media/Brands/Honda/Models/CIVIC-SEDAN/2023/Trims/LX/Trim-Selector-Jellybeans/Trim_Jellybeans_294x165_2022_MY23_Civic_BAP_LX_LSM_02.png?h=165&iar=0&w=294&rev=8b95789448d040afab41c679e613af31&hash=BFB2A0B26E3F7329AD0D7D69AA8F3D76",
+          "width": "294",
+        },
+      },
+      "sotId": "",
+    },
+    "defaultTrimName": "LX",
+    "detIdentifier": "",
+    "detKey": "civic_sedan",
+    "filters": Object {
+      "bodyType": Array [
+        "Cars",
+      ],
+    },
+    "id": "EB3EA79BE74C42079D45B0D6636C81D3",
+    "modelName": "Civic Sedan",
+    "name": "CIVIC SEDAN",
+    "sotId": "",
+    "year": "2023",
+  },
+  Object {
+    "defaultTrim": Object {
+      "defaultTransmission": Object {
+        "item": Object {
+          "defaultExteriorColor": Object {
+            "item": Object {
+              "color": Object {
+                "item": Object {
+                  "detIdentifier": "",
+                  "detKey": "nh_904mmeteoroid_gray_metallic",
+                  "sotId": "",
+                },
+              },
+            },
+          },
+          "detIdentifier": "10820",
+          "detKey": "10820-Manual",
+          "modelCode": "FL2G5PE",
+          "sotId": "",
+        },
+      },
+      "detIdentifier": "10775",
+      "detKey": "lx_10775",
+      "primaryThumbnail": Object {
+        "item": Object {
+          "alt": "¾ driver side front facing view of 2022 Civic Hatchback LX model in Meteoroid Grey Metallic colour",
+          "height": "165",
+          "src": "/-/media/Brands/Honda/Models/CIVIC-HATCHBACK/2022/Trims/Trim-Selector-Jellybeans/desktop/1_LX/2022_Civic_Hatchback_LX_MGM_1.png?h=165&iar=0&w=294&rev=ca975294c0aa48eea7986a0615ef4750&hash=0380A6129B1D8F2074D5FCBC63C8E17B",
+          "width": "294",
+        },
+      },
+      "secondaryThumbnail": Object {
+        "item": Object {
+          "alt": "¾ driver side rear facing view of 2022 Civic Hatchback LX model in Meteoroid Grey Metallic colour",
+          "height": "165",
+          "src": "/-/media/Brands/Honda/Models/CIVIC-HATCHBACK/2022/Trims/Trim-Selector-Jellybeans/desktop/1_LX/2022_Civic_Hatchback_LX_MGM_2.png?h=165&iar=0&w=294&rev=07109b205d874ffdb3603007720a0bb3&hash=C3E47FB5FADBC74765C57F8E9E216004",
+          "width": "294",
+        },
+      },
+      "sotId": "",
+    },
+    "defaultTrimName": "LX",
+    "detIdentifier": "",
+    "detKey": "civic_hatchback",
+    "filters": Object {
+      "bodyType": Array [
+        "Cars",
+      ],
+      "comfortConvenience": Array [
+        "Display Audio System3 with Honda Satellite-Linked",
+      ],
+      "drivetrain": Array [
+        "18 litre 16-valve SOHC iVTEC",
+      ],
+    },
+    "id": "8E87CC432C7E4572BED659F067402648",
+    "modelName": "Civic Hatchback",
+    "name": "CIVIC HATCHBACK",
+    "sotId": "",
+    "year": "2023",
+  },
+  Object {
+    "defaultTrim": Object {
+      "defaultTransmission": Object {
+        "item": Object {
+          "defaultExteriorColor": Object {
+            "item": Object {
+              "color": Object {
+                "item": Object {
+                  "detIdentifier": "",
+                  "detKey": "241modern_steel_metallic",
+                  "sotId": "",
+                },
+              },
+            },
+          },
+          "detIdentifier": "10849",
+          "detKey": "10849-CVT",
+          "modelCode": "RZ1H3REX",
+          "sotId": "",
+        },
+      },
+      "detIdentifier": "10801",
+      "detKey": "lx_b_fwd_10801",
+      "primaryThumbnail": Object {
+        "item": Object {
+          "alt": "¾ driver side front facing view of 2023 HR-V LX-2WD model in Modern Steel Metallic colour",
+          "height": "165",
+          "src": "/-/media/Brands/Honda/Models/HR-V/2024/Trims/Trims-Selector-Jellybeans/2_LX-2WD/Trim_Jellybeans_294x165_2023_HRV_LX_2WD_MSM_1_v2.png?h=165&iar=0&w=294&rev=7c486cbbf5814fb5a437cadf37b2a333&hash=D3573D2CB5864A735712071B629ACFCC",
+          "width": "294",
+        },
+      },
+      "secondaryThumbnail": Object {
+        "item": Object {
+          "alt": "¾ driver side rear facing view of 2023 HR-V LX-2WD model in Modern Steel Metallic colour",
+          "height": "165",
+          "src": "/-/media/Brands/Honda/Models/HR-V/2024/Trims/Trims-Selector-Jellybeans/2_LX-2WD/Trim_Jellybeans_294x165_2023_HRV_LX_2WD_MSM_2_v2.png?h=165&iar=0&w=294&rev=b82d8c74d87b4129a96a122de0f69158&hash=1CCDC232243365BE651FB42CDFB0616F",
+          "width": "294",
+        },
+      },
+      "sotId": "",
+    },
+    "defaultTrimName": "LX-B 2WD",
+    "detIdentifier": "",
+    "detKey": "hr_v",
+    "filters": Object {
+      "bodyType": Array [
+        "SUV",
+      ],
+    },
+    "id": "BDE18F6E25ED4CE2BC344852F1DE79F4",
+    "modelName": "HR-V",
+    "name": "HRV",
+    "sotId": "",
+    "year": "2024",
+  },
+  Object {
+    "defaultTrim": Object {
+      "defaultTransmission": Object {
+        "item": Object {
+          "defaultExteriorColor": Object {
+            "item": Object {
+              "color": Object {
+                "item": Object {
+                  "detIdentifier": "",
+                  "detKey": "241modern_steel_metallic",
+                  "sotId": "",
+                },
+              },
+            },
+          },
+          "detIdentifier": "10794",
+          "detKey": "10794-CVT",
+          "modelCode": "RZ1H3PE",
+          "sotId": "",
+        },
+      },
+      "detIdentifier": "10748",
+      "detKey": "lx_2wd_10748",
+      "primaryThumbnail": Object {
+        "item": Object {
+          "alt": "¾ driver side front facing view of 2023 HR-V LX-2WD model in Modern Steel Metallic colour",
+          "height": "165",
+          "src": "/-/media/Brands/Honda/Models/HR-V/2024/Trims/Trims-Selector-Jellybeans/2_LX-2WD/Trim_Jellybeans_294x165_2023_HRV_LX_2WD_MSM_1_v2.png?h=165&iar=0&w=294&rev=7c486cbbf5814fb5a437cadf37b2a333&hash=D3573D2CB5864A735712071B629ACFCC",
+          "width": "294",
+        },
+      },
+      "secondaryThumbnail": Object {
+        "item": Object {
+          "alt": "¾ driver side rear facing view of 2023 HR-V LX-2WD model in Modern Steel Metallic colour",
+          "height": "165",
+          "src": "/-/media/Brands/Honda/Models/HR-V/2024/Trims/Trims-Selector-Jellybeans/2_LX-2WD/Trim_Jellybeans_294x165_2023_HRV_LX_2WD_MSM_2_v2.png?h=165&iar=0&w=294&rev=b82d8c74d87b4129a96a122de0f69158&hash=1CCDC232243365BE651FB42CDFB0616F",
+          "width": "294",
+        },
+      },
+      "sotId": "",
+    },
+    "defaultTrimName": "LX 2WD",
+    "detIdentifier": "",
+    "detKey": "hr_v",
+    "filters": Object {
+      "bodyType": Array [
+        "SUV",
+      ],
+      "drivetrain": Array [
+        "20 litre 16 valve Port Injection DOHC iVTEC",
+      ],
+    },
+    "id": "BDE18F6E25ED4CE2BC344852F1DE79F4",
+    "modelName": "HR-V",
+    "name": "HRV",
+    "sotId": "",
+    "year": "2023",
+  },
+  Object {
+    "defaultTrim": Object {
+      "defaultTransmission": Object {
+        "item": Object {
+          "defaultExteriorColor": Object {
+            "item": Object {
+              "color": Object {
+                "item": Object {
+                  "detIdentifier": "",
+                  "detKey": "nh_830mlunar_silver_metallic",
+                  "sotId": "",
+                },
+              },
+            },
+          },
+          "detIdentifier": "10814",
+          "detKey": "10814-CVT",
+          "modelCode": "RS3H2PES",
+          "sotId": "",
+        },
+      },
+      "detIdentifier": "10769",
+      "detKey": "lx_2wd_10769",
+      "primaryThumbnail": Object {
+        "item": Object {
+          "alt": "¾ driver side front facing view of 2023 CR-V LX- 2WD model in Lunar Silver Metallic colour",
+          "height": "165",
+          "src": "/-/media/Brands/Honda/Models/CR-V/2023/Trims/_LX-2WD/Trim-Selector/Trim_Jellybeans_294x165_CRV23_LX_2WD_LSM_1.png?h=165&iar=0&w=294&rev=2118d44bc89a4ece89e6ed01b9df3428&hash=F2551AF0836C8B8E56F5FC28F7195A2D",
+          "width": "294",
+        },
+      },
+      "secondaryThumbnail": Object {
+        "item": Object {
+          "alt": "¾ driver side rear facing view of 2023 CR-V LX- 2WD model in Lunar Silver Metallic colour",
+          "height": "165",
+          "src": "/-/media/Brands/Honda/Models/CR-V/2023/Trims/_LX-2WD/Trim-Selector/Trim_Jellybeans_294x165_CRV23_LX_2WD_LSM_2.png?h=165&iar=0&w=294&rev=b7df753d6fce4c1eaab8d0870f398196&hash=CB105855BF8E183E53C8E0951B4E371A",
+          "width": "294",
+        },
+      },
+      "sotId": "",
+    },
+    "defaultTrimName": "LX 2WD",
+    "detIdentifier": "",
+    "detKey": "cr-v",
+    "filters": Object {
+      "bodyType": Array [
+        "SUV",
+      ],
+      "comfortConvenience": Array [
+        "Remote engine starter",
+        "Wireless Charging",
+      ],
+      "drivetrain": Array [
+        "15 litre 16valve Direct Injection DOHC VTEC turbocharged 4cylinder",
+      ],
+      "entertainment": Array [
+        "7 inch Touchscreen Audio with 6 Speakers",
+      ],
+      "safety": Array [
+        "Honda Sensing Technologies",
+        "Blind Spot Information System",
+      ],
+      "wheels": Array [
+        "17 aluminum-alloy 2-tone",
+      ],
+    },
+    "id": "C23028B65D3649BB89438C681D1D19C7",
+    "modelName": "CR-V",
+    "name": "CRV",
+    "sotId": "",
+    "year": "2023",
+  },
+]
+`;

@@ -1,0 +1,710 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductSpecificationsItem> should render correctly 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 iPRsIc"
+    tabindex="0"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 keEBwf"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 XeLux"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+        width="0.5,0.5,0.16666666666666666"
+      />
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 gsyAqt"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+        width="0.5,0.5,0.8333333333333334"
+      >
+        <span />
+      </p>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 keEBwf"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 XeLux"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+        width="0.5,0.5,0.16666666666666666"
+      />
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 gsyAqt"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+        width="0.5,0.5,0.8333333333333334"
+      >
+        <span />
+      </p>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 keEBwf"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 XeLux"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+        width="0.5,0.5,0.16666666666666666"
+      />
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 gsyAqt"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+        width="0.5,0.5,0.8333333333333334"
+      >
+        <span />
+      </p>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 keEBwf"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 XeLux"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+        width="0.5,0.5,0.16666666666666666"
+      />
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 gsyAqt"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+        width="0.5,0.5,0.8333333333333334"
+      >
+        <span />
+      </p>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 keEBwf"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 XeLux"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+        width="0.5,0.5,0.16666666666666666"
+      />
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 gsyAqt"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+        width="0.5,0.5,0.8333333333333334"
+      >
+        <span />
+      </p>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 keEBwf"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 XeLux"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+        width="0.5,0.5,0.16666666666666666"
+      />
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 gsyAqt"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+        width="0.5,0.5,0.8333333333333334"
+      >
+        <span />
+      </p>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 keEBwf"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 XeLux"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+        width="0.5,0.5,0.16666666666666666"
+      />
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 gsyAqt"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+        width="0.5,0.5,0.8333333333333334"
+      >
+        <span />
+      </p>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 keEBwf"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 XeLux"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+        width="0.5,0.5,0.16666666666666666"
+      />
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 gsyAqt"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+        width="0.5,0.5,0.8333333333333334"
+      >
+        <span />
+      </p>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 keEBwf"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 XeLux"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+        width="0.5,0.5,0.16666666666666666"
+      />
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 gsyAqt"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+        width="0.5,0.5,0.8333333333333334"
+      >
+        <span />
+      </p>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 keEBwf"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 XeLux"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+        width="0.5,0.5,0.16666666666666666"
+      />
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 gsyAqt"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+        width="0.5,0.5,0.8333333333333334"
+      >
+        <span />
+      </p>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 keEBwf"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 XeLux"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+        width="0.5,0.5,0.16666666666666666"
+      />
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 gsyAqt"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+        width="0.5,0.5,0.8333333333333334"
+      >
+        <span />
+      </p>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 keEBwf"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 XeLux"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+        width="0.5,0.5,0.16666666666666666"
+      />
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 gsyAqt"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+        width="0.5,0.5,0.8333333333333334"
+      >
+        <span />
+      </p>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 keEBwf"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 XeLux"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+        width="0.5,0.5,0.16666666666666666"
+      />
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 gsyAqt"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+        width="0.5,0.5,0.8333333333333334"
+      >
+        <span />
+      </p>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 keEBwf"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 XeLux"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+        width="0.5,0.5,0.16666666666666666"
+      />
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 gsyAqt"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+        width="0.5,0.5,0.8333333333333334"
+      >
+        <span />
+      </p>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 keEBwf"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 XeLux"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+        width="0.5,0.5,0.16666666666666666"
+      />
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 gsyAqt"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+        width="0.5,0.5,0.8333333333333334"
+      >
+        <span />
+      </p>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 keEBwf"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 XeLux"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+        width="0.5,0.5,0.16666666666666666"
+      />
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 gsyAqt"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+        width="0.5,0.5,0.8333333333333334"
+      >
+        <span />
+      </p>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 keEBwf"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 XeLux"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+        width="0.5,0.5,0.16666666666666666"
+      />
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 gsyAqt"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+        width="0.5,0.5,0.8333333333333334"
+      >
+        <span />
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ProductSpecificationsItem> should render even if there are empty fields 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 iPRsIc"
+    tabindex="0"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 keEBwf"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 XeLux"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+        width="0.5,0.5,0.16666666666666666"
+      />
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 gsyAqt"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+        width="0.5,0.5,0.8333333333333334"
+      >
+        <span />
+      </p>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 keEBwf"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 XeLux"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+        width="0.5,0.5,0.16666666666666666"
+      />
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 gsyAqt"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+        width="0.5,0.5,0.8333333333333334"
+      >
+        <span />
+      </p>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 keEBwf"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 XeLux"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+        width="0.5,0.5,0.16666666666666666"
+      />
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 gsyAqt"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+        width="0.5,0.5,0.8333333333333334"
+      >
+        <span />
+      </p>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 keEBwf"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 XeLux"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+        width="0.5,0.5,0.16666666666666666"
+      />
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 gsyAqt"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+        width="0.5,0.5,0.8333333333333334"
+      >
+        <span />
+      </p>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 keEBwf"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 XeLux"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+        width="0.5,0.5,0.16666666666666666"
+      />
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 gsyAqt"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+        width="0.5,0.5,0.8333333333333334"
+      >
+        <span />
+      </p>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 keEBwf"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 XeLux"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+        width="0.5,0.5,0.16666666666666666"
+      />
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 gsyAqt"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+        width="0.5,0.5,0.8333333333333334"
+      >
+        <span />
+      </p>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 keEBwf"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 XeLux"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+        width="0.5,0.5,0.16666666666666666"
+      />
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 gsyAqt"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+        width="0.5,0.5,0.8333333333333334"
+      >
+        <span />
+      </p>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 keEBwf"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 XeLux"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+        width="0.5,0.5,0.16666666666666666"
+      />
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 gsyAqt"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+        width="0.5,0.5,0.8333333333333334"
+      >
+        <span />
+      </p>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 keEBwf"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 XeLux"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+        width="0.5,0.5,0.16666666666666666"
+      />
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 gsyAqt"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+        width="0.5,0.5,0.8333333333333334"
+      >
+        <span />
+      </p>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 keEBwf"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 XeLux"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+        width="0.5,0.5,0.16666666666666666"
+      />
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 gsyAqt"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+        width="0.5,0.5,0.8333333333333334"
+      >
+        <span />
+      </p>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 keEBwf"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 XeLux"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+        width="0.5,0.5,0.16666666666666666"
+      />
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 gsyAqt"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+        width="0.5,0.5,0.8333333333333334"
+      >
+        <span />
+      </p>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 keEBwf"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 XeLux"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+        width="0.5,0.5,0.16666666666666666"
+      />
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 gsyAqt"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+        width="0.5,0.5,0.8333333333333334"
+      >
+        <span />
+      </p>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 keEBwf"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 XeLux"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+        width="0.5,0.5,0.16666666666666666"
+      />
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 gsyAqt"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+        width="0.5,0.5,0.8333333333333334"
+      >
+        <span />
+      </p>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 keEBwf"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 XeLux"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+        width="0.5,0.5,0.16666666666666666"
+      />
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 gsyAqt"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+        width="0.5,0.5,0.8333333333333334"
+      >
+        <span />
+      </p>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 keEBwf"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 XeLux"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+        width="0.5,0.5,0.16666666666666666"
+      />
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 gsyAqt"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+        width="0.5,0.5,0.8333333333333334"
+      >
+        <span />
+      </p>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 keEBwf"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 XeLux"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+        width="0.5,0.5,0.16666666666666666"
+      />
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 gsyAqt"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+        width="0.5,0.5,0.8333333333333334"
+      >
+        <span />
+      </p>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 keEBwf"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 XeLux"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+        width="0.5,0.5,0.16666666666666666"
+      />
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 gsyAqt"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+        width="0.5,0.5,0.8333333333333334"
+      >
+        <span />
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ProductSpecificationsItem> should return null if there is no fields 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 iPRsIc"
+    tabindex="0"
+  />
+</div>
+`;

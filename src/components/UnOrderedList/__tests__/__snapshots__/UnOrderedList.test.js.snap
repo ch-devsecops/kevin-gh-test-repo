@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UnOrderedList> should render correctly 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 ghzkol"
+    data-gtm-category="Others"
+    data-gtm-title=""
+    width="100%,auto"
+  >
+    <div
+      class="Box-sc-1bsf784-0 jHNFVP"
+    >
+      <div
+        class="Box-sc-1bsf784-0 gKqomd"
+      >
+        <h4
+          class="sc-1k44dfv-0 VXyJj"
+        >
+          <span>
+            List with bullet points
+          </span>
+        </h4>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 dgZhPl"
+      >
+        <ul
+          class="sc-1k44dfv-0 eGrUBH"
+        >
+          <li
+            class="sc-1k44dfv-0 sc-1k44dfv-0 UnorderedListItem-sc-1h5wvnk-0 hJLbMT"
+            color="typographyDefault"
+            font-family="default"
+            font-weight="regular"
+          >
+            <div
+              class="sc-1k44dfv-0 klHKZs"
+            >
+              
+
+              <p>
+                The first item ipsum dolor amet, consectetur adipiscing elit, sed do ut labore et dolore magna. The first item ipsum dolor amet, consectetur adipiscing elit, sed do ut labore et dolore magna. The first item ipsum dolor amet, consectetur adipiscing elit, sed do ut labore et dolore magna.
+              </p>
+            </div>
+          </li>
+          <li
+            class="sc-1k44dfv-0 sc-1k44dfv-0 UnorderedListItem-sc-1h5wvnk-0 hJLbMT"
+            color="typographyDefault"
+            font-family="default"
+            font-weight="regular"
+          >
+            <div
+              class="sc-1k44dfv-0 klHKZs"
+            >
+              
+
+              <p>
+                List Item 2
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;

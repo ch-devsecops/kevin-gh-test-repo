@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ModalContent> should have no accessibility violations 1`] = `<div />`;
+
+exports[`<ModalContent> should render correctly 1`] = `<div />`;
+
+exports[`<ModalContent> should return null if there is no fields 1`] = `<div />`;

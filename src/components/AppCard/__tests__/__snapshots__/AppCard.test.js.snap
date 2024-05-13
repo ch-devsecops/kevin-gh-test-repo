@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AppCard> should render correctly with all props 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 ciqXOL"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 KsmRS"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 dYxbmH"
+      />
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 exuRhu"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 cooSAr"
+      >
+        <div
+          class="Box-sc-1bsf784-0 gKqomd"
+        >
+          My title
+        </div>
+        My body text
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 BJVla"
+      />
+    </div>
+  </div>
+</div>
+`;

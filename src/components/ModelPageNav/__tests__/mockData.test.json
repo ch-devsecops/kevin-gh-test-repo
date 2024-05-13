@@ -1,0 +1,127 @@
+{
+  "fields":{
+    "data":{
+       "value":{
+          "years":{
+             "items":[
+                {
+                   "name":"2021",
+                   "url":"/en/ILX/2021",
+                   "subPages": [
+                       {
+                          "name": "Trims",
+                          "url": "/en/ilx/2021/Trims"
+                       },
+                       {
+                          "name": "Specifications",
+                          "url": "/en/ilx/2021/specs"
+                       }
+                    ]
+              },
+                {
+                   "name":"2022",
+                   "url":"/en/ILX/2022",
+                   "subPages": [
+                    {
+                       "name": "Trims",
+                       "url": "/en/ilx/2022/Trims"
+                    },
+                    {
+                       "name": "Specifications",
+                       "url": "/en/ilx/2022/Specifications"
+                    }
+                 ]
+              }
+             ]
+          },
+          "modelPageSettings":{
+             "isDarkMode": {
+                 "value": "0"
+             },
+             "model":{
+                "fields":{
+                   "detKey":{
+                      "value":"ilx"
+                   },
+                   "detIdentifier":{
+                      "value":"ilx"
+                   },
+                   "sotId":{
+                      "value":""
+                   }
+                }
+             },
+             "nameBadge":{
+                "item":{
+                   "value":{
+                      "src":"https://app-acura-pod02-cd-plan-dmm-ccentral-uat.azurewebsites.net/-/media/Acura/ILX/badge.png?h=28&w=190&hash=7284B16F08D71C588F2E3D87F96B161C",
+                      "alt":"ilx",
+                      "width":"190",
+                      "height":"28"
+                   }
+                }
+             },
+             "isNsx":{
+                "value":""
+             },
+             "ctaLink":{
+                "item":{
+                   "value":{
+                      "href":"https://www.acura.ca/buildyouracura/en/?model_key=ilx",
+                      "text":"Build & Price",
+                      "linktype":"external",
+                      "url":"https://www.acura.ca/buildyouracura/en/?model_key=ilx",
+                      "anchor":"",
+                      "target":""
+                   }
+                }
+             },
+             "ctaType":{
+                "value":"Primary"
+             }
+          },
+          "modelNav":[
+             {
+                "url":"/en/ILX/2022/Trims",
+                "sectionNavLabel":{
+                   "value":"Trims"
+                },
+                "nameBadge":{
+                   "item":{
+                      "value":{
+                         
+                      }
+                   }
+                }
+             },
+             {
+                "url":"/en/ILX/2022/Specifications",
+                "sectionNavLabel":{
+                   "value":"Specifications"
+                },
+                "nameBadge":{
+                   "item":{
+                      "value":{
+                         
+                      }
+                   }
+                }
+             },
+             {
+                "url":"/en/ILX/2022/Accessories",
+                "sectionNavLabel":{
+                   "value":"Accessories"
+                },
+                "nameBadge":{
+                   "item":{
+                      "value":{
+                         
+                      }
+                   }
+                }
+             }
+          ]
+       }
+    }
+ }
+}

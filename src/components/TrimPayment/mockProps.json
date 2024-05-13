@@ -1,0 +1,55 @@
+{
+    "uid": "e5ee2e05-a62d-4dea-9b24-41432f2b836b",
+    "componentName": "TrimPayment",
+    "dataSource": "{700FBF76-1B6D-48E0-8DCA-56231BD3B201}",
+    "params": {},
+    "fields": {
+      "data": {
+        "value": {
+          "anchorId": {
+            "value": "anchor-id"
+          },
+          "gtmTitle": {
+            "value": "GTM Title"
+          },
+          "gtmCategory": {
+            "fields": {
+              "value": {
+                "value": "others"
+              }
+            }
+          },
+          "gtmModelName": {
+            "value": "GTM Model Name"
+          },
+          "gtmTrimName": {
+            "value": "GTM Trim Name"
+          },
+          "gtmBodyStyle": {
+            "value": "GTM Body Style"
+          },
+          "gtmInteractionType": {
+            "value": "GTM Interaction Type"
+          },
+          "title": {
+            "value": "Payment"
+          },
+          "selectedTransmission": {
+            "item": {
+              "id": "9CB6323E31D14C1CA107C4308F826371",
+              "name": "Automatic",
+              "detKey": {
+                "value": "10836-Automatic"
+              },
+              "detIdentifier": {
+                "value": "10836"
+              },
+              "sotId": {
+                "value": ""
+              }
+            }
+          }
+        }
+      }
+    }
+  }

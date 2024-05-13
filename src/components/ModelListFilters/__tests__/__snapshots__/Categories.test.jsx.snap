@@ -1,0 +1,953 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModelListFilters Categories renders disabled filter items based on filter values and model data 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 pRgLj"
+  >
+    <div
+      class="Box-sc-1bsf784-0 iPRsIc"
+      data-testid="model-list-filter-categories-year"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-bdVaJa gccupv"
+        cursor="pointer"
+        data-testid="category-heading"
+        display="flex"
+        height="45px"
+      >
+        <span
+          aria-label="Pages.Models.Exploration.filterYearLabel"
+          class="sc-1k44dfv-0 dFzsvT"
+          color="typographyDefault"
+          font-family="bold"
+          font-weight="regular"
+        >
+          Pages.Models.Exploration.filterYearLabel
+        </span>
+        <button
+          aria-label="Shared.Common.collapseAria"
+          class="IconWrapper-lp9q2r-0 sc-bwzfXH jmXSNz"
+          data-testid="expand-collapse-btn"
+        />
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 goVZAI"
+      >
+        <div
+          class="Box-sc-1bsf784-0 gPowjU"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+          >
+            <button
+              aria-label="Shared.Common.removeAria 2021"
+              class="sc-bxivhb bXXJJE"
+              data-testid="category-filters"
+            >
+              <p
+                class="sc-1k44dfv-0 tzxVY"
+                color="typographyDefault"
+                font-family="bold"
+                font-weight="regular"
+              >
+                <span>
+                  2021
+                </span>
+              </p>
+            </button>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+          >
+            <button
+              aria-label="Shared.Common.selectAria 2022"
+              class="sc-bxivhb imXbWm"
+              data-testid="category-filters"
+              disabled=""
+            >
+              <p
+                class="sc-1k44dfv-0 tzxVY"
+                color="typographyDefault"
+                font-family="bold"
+                font-weight="regular"
+              >
+                <span>
+                  2022
+                </span>
+              </p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 iPRsIc"
+      data-testid="model-list-filter-categories-models"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-bdVaJa hUnRwM"
+        cursor="pointer"
+        data-testid="category-heading"
+        display="flex"
+        height="45px"
+      >
+        <span
+          aria-label="Pages.Models.Exploration.filterCategoryLabel"
+          class="sc-1k44dfv-0 dFzsvT"
+          color="typographyDefault"
+          font-family="bold"
+          font-weight="regular"
+        >
+          Pages.Models.Exploration.filterCategoryLabel
+        </span>
+        <button
+          aria-label="Shared.Common.expandAria"
+          class="IconWrapper-lp9q2r-0 sc-bwzfXH jmXSNz"
+          data-testid="expand-collapse-btn"
+        />
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 jqmCri"
+      >
+        <div
+          class="Box-sc-1bsf784-0 gPowjU"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ModelListFilters Categories should have no accessibility violations 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 iPRsIc sc-htpNat jvxazc"
+    data-testid="price-filter-container"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-bdVaJa hUnRwM"
+      cursor="pointer"
+      data-testid="category-heading"
+      display="flex"
+      height="45px"
+    >
+      <span
+        aria-label="Pages.Models.Exploration.filterPriceLabel"
+        class="sc-1k44dfv-0 dFzsvT"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+      >
+        Pages.Models.Exploration.filterPriceLabel
+      </span>
+      <button
+        aria-label="Shared.Common.expandAria"
+        class="IconWrapper-lp9q2r-0 sc-bwzfXH jmXSNz"
+        data-testid="expand-collapse-btn"
+      />
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 jqmCri"
+    >
+      <div
+        class="Box-sc-1bsf784-0 gPowjU"
+      >
+        <form
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+          data-testid="price-filter-form"
+        >
+          <p
+            class="sc-1k44dfv-0 sc-1k44dfv-0 hEeYcp"
+            color="typographyDefault"
+            data-testid="price-filter-label"
+            font-family="default"
+            font-weight="regular"
+          >
+            Pages.Models.Exploration.filterPriceRangeLabel
+          </p>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 gpnUYG"
+          >
+            <p
+              class="sc-1k44dfv-0 sc-1k44dfv-0 bwpZpd"
+              color="typographyDefault"
+              data-testid="price-filter-min-label"
+              font-family="default"
+              font-weight="regular"
+            >
+              Pages.Models.Exploration.filterMinLabel
+              :
+            </p>
+            <div
+              class="sc-1k44dfv-0 ctqAAr StyledInputWithAdornment-sc-1xnpklm-0 daKaRN styledFormField-sc-1ijs2ju-0 ekjmsE"
+              data-testid="dsr-formfield"
+            >
+              <input
+                aria-label="Pages.Models.Exploration.filterMinLabel"
+                class="sc-1k44dfv-0 HtmlInput-eel7x9-0 iOGXks"
+                data-testid="min-price-filter"
+                name="min"
+                placeholder="$"
+                type="text"
+                value=""
+              />
+              <div
+                class="IconWrapper-lp9q2r-0 sc-1k44dfv-0 kZuzaf"
+                tabindex="-1"
+              />
+            </div>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 gpnUYG"
+          >
+            <p
+              class="sc-1k44dfv-0 sc-1k44dfv-0 bwpZpd"
+              color="typographyDefault"
+              data-testid="price-filter-max-label"
+              font-family="default"
+              font-weight="regular"
+            >
+              Pages.Models.Exploration.filterMaxLabel
+              :
+            </p>
+            <div
+              class="sc-1k44dfv-0 ctqAAr StyledInputWithAdornment-sc-1xnpklm-0 daKaRN styledFormField-sc-1ijs2ju-0 ekjmsE"
+              data-testid="dsr-formfield"
+            >
+              <input
+                aria-label="Pages.Models.Exploration.filterMaxLabel"
+                class="sc-1k44dfv-0 HtmlInput-eel7x9-0 iOGXks"
+                data-testid="max-price-filter"
+                name="max"
+                placeholder="$"
+                type="text"
+                value=""
+              />
+              <div
+                class="IconWrapper-lp9q2r-0 sc-1k44dfv-0 kZuzaf"
+                tabindex="-1"
+              />
+            </div>
+          </div>
+          <button
+            class="Button-pulw6t-0 sc-1k44dfv-0 jPlYLq"
+            data-testid="dsr-button-component"
+            disabled=""
+          >
+            Pages.Models.Exploration.filterPriceButton
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ModelListFilters Categories should render expanded categories 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 pRgLj"
+  >
+    <div
+      class="Box-sc-1bsf784-0 iPRsIc"
+      data-testid="model-list-filter-categories-year"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-bdVaJa hUnRwM"
+        cursor="pointer"
+        data-testid="category-heading"
+        display="flex"
+        height="45px"
+      >
+        <span
+          aria-label="Pages.Models.Exploration.filterYearLabel"
+          class="sc-1k44dfv-0 dFzsvT"
+          color="typographyDefault"
+          font-family="bold"
+          font-weight="regular"
+        >
+          Pages.Models.Exploration.filterYearLabel
+        </span>
+        <button
+          aria-label="Shared.Common.collapseAria"
+          class="IconWrapper-lp9q2r-0 sc-bwzfXH jmXSNz"
+          data-testid="expand-collapse-btn"
+        />
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 goVZAI"
+      >
+        <div
+          class="Box-sc-1bsf784-0 gPowjU"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+          >
+            <button
+              aria-label="Shared.Common.selectAria 2021"
+              class="sc-bxivhb imXbWm"
+              data-testid="category-filters"
+              disabled=""
+            >
+              <p
+                class="sc-1k44dfv-0 tzxVY"
+                color="typographyDefault"
+                font-family="bold"
+                font-weight="regular"
+              >
+                <span>
+                  2021
+                </span>
+              </p>
+            </button>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+          >
+            <button
+              aria-label="Shared.Common.selectAria 2022"
+              class="sc-bxivhb imXbWm"
+              data-testid="category-filters"
+              disabled=""
+            >
+              <p
+                class="sc-1k44dfv-0 tzxVY"
+                color="typographyDefault"
+                font-family="bold"
+                font-weight="regular"
+              >
+                <span>
+                  2022
+                </span>
+              </p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 iPRsIc"
+      data-testid="model-list-filter-categories-models"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-bdVaJa hUnRwM"
+        cursor="pointer"
+        data-testid="category-heading"
+        display="flex"
+        height="45px"
+      >
+        <span
+          aria-label="Pages.Models.Exploration.filterCategoryLabel"
+          class="sc-1k44dfv-0 dFzsvT"
+          color="typographyDefault"
+          font-family="bold"
+          font-weight="regular"
+        >
+          Pages.Models.Exploration.filterCategoryLabel
+        </span>
+        <button
+          aria-label="Shared.Common.expandAria"
+          class="IconWrapper-lp9q2r-0 sc-bwzfXH jmXSNz"
+          data-testid="expand-collapse-btn"
+        />
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 jqmCri"
+      >
+        <div
+          class="Box-sc-1bsf784-0 gPowjU"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ModelListFilters Categories should render exterior colors with design features 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 pRgLj"
+  >
+    <div
+      class="Box-sc-1bsf784-0 iPRsIc"
+      data-testid="model-list-filter-categories-models"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-bdVaJa hUnRwM"
+        cursor="pointer"
+        data-testid="category-heading"
+        display="flex"
+        height="45px"
+      >
+        <span
+          aria-label="Pages.Models.Exploration.filterCategoryLabel"
+          class="sc-1k44dfv-0 dFzsvT"
+          color="typographyDefault"
+          font-family="bold"
+          font-weight="regular"
+        >
+          Pages.Models.Exploration.filterCategoryLabel
+        </span>
+        <button
+          aria-label="Shared.Common.expandAria"
+          class="IconWrapper-lp9q2r-0 sc-bwzfXH jmXSNz"
+          data-testid="expand-collapse-btn"
+        />
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 jqmCri"
+      >
+        <div
+          class="Box-sc-1bsf784-0 gPowjU"
+        />
+      </div>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 iPRsIc"
+      data-testid="designFeatures"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-bdVaJa hUnRwM"
+        cursor="pointer"
+        data-testid="category-heading"
+        display="flex"
+        height="45px"
+      >
+        <span
+          aria-label="Design Features"
+          class="sc-1k44dfv-0 dFzsvT"
+          color="typographyDefault"
+          font-family="bold"
+          font-weight="regular"
+        >
+          Design Features
+        </span>
+        <button
+          aria-label="Shared.Common.expandAria"
+          class="IconWrapper-lp9q2r-0 sc-bwzfXH jmXSNz"
+          data-testid="expand-collapse-btn"
+        />
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 jqmCri"
+      >
+        <div
+          class="Box-sc-1bsf784-0 gPowjU"
+        >
+          <div
+            class="sc-bZQynM gENSnI"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 cerCTS"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 jDbOiX"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 xfkqV"
+                  data-testid="cy-color-preview-label"
+                >
+                  Pages.Models.Exploration.colorPreviewLabel
+                </div>
+              </div>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 ilsiTr"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 hXDrQq"
+                data-testid="cy-color-Lunar-Silver-Metallic"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 KKMZz"
+                >
+                  <button
+                    aria-label="Lunar Silver Metallic"
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 iTsVLB"
+                    cursor="pointer"
+                    data-testid="cy-model-list-color"
+                    height="58px,62px,62px"
+                    overflow="hidden"
+                    width="58px,62px,62px"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 iGVhSe"
+                      height="100%"
+                      width="100%"
+                    >
+                      <div
+                        class="Box-sc-1bsf784-0 bjmOGZ"
+                        display="flex"
+                        height="100%"
+                        width="100%"
+                      >
+                        <div
+                          class="Box-sc-1bsf784-0 sc-1k44dfv-0 imAOaC"
+                          height="100%"
+                          overflow="hidden"
+                          width="100%"
+                        >
+                          <svg
+                            fill="#8d919a"
+                            height="100%"
+                            viewBox="0 0 63 60"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M-104.5 74L167.5 74L167.5 0C52.7248 14.5343 -6.56613 26.2297 -104.5 52.2651L-104.5 74Z"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="Box-sc-1bsf784-0 ewoCcH"
+                      display="flex"
+                      height="100%"
+                      width="100%"
+                    >
+                      <div
+                        class="IconWrapper-lp9q2r-0 krJFGM"
+                      />
+                    </div>
+                  </button>
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 gJrAFA"
+                  >
+                    <p
+                      class="sc-1k44dfv-0 sc-1k44dfv-0 fGjZuO"
+                      color="typographyDefault"
+                      data-testid="cy-model-list-color-name"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Lunar Silver Metallic
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p
+              class="sc-1k44dfv-0 cZoFxy"
+              color="typographyDefault"
+              font-family="bold"
+              font-weight="regular"
+            >
+              Pages.Models.Exploration.filterOtherOptionsLabel
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ModelListFilters Categories should render model names 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 pRgLj"
+  >
+    <div
+      class="Box-sc-1bsf784-0 iPRsIc"
+      data-testid="model-list-filter-categories-models"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-bdVaJa hUnRwM"
+        cursor="pointer"
+        data-testid="category-heading"
+        display="flex"
+        height="45px"
+      >
+        <span
+          aria-label="Pages.Models.Exploration.filterCategoryLabel"
+          class="sc-1k44dfv-0 dFzsvT"
+          color="typographyDefault"
+          font-family="bold"
+          font-weight="regular"
+        >
+          Pages.Models.Exploration.filterCategoryLabel
+        </span>
+        <button
+          aria-label="Shared.Common.expandAria"
+          class="IconWrapper-lp9q2r-0 sc-bwzfXH jmXSNz"
+          data-testid="expand-collapse-btn"
+        />
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 jqmCri"
+      >
+        <div
+          class="Box-sc-1bsf784-0 gPowjU"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ModelListFilters Categories should render provided filterTypes 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 pRgLj"
+  >
+    <div
+      class="Box-sc-1bsf784-0 iPRsIc"
+      data-testid="model-list-filter-categories-models"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-bdVaJa hUnRwM"
+        cursor="pointer"
+        data-testid="category-heading"
+        display="flex"
+        height="45px"
+      >
+        <span
+          aria-label="Pages.Models.Exploration.filterCategoryLabel"
+          class="sc-1k44dfv-0 dFzsvT"
+          color="typographyDefault"
+          font-family="bold"
+          font-weight="regular"
+        >
+          Pages.Models.Exploration.filterCategoryLabel
+        </span>
+        <button
+          aria-label="Shared.Common.expandAria"
+          class="IconWrapper-lp9q2r-0 sc-bwzfXH jmXSNz"
+          data-testid="expand-collapse-btn"
+        />
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 jqmCri"
+      >
+        <div
+          class="Box-sc-1bsf784-0 gPowjU"
+        />
+      </div>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 iPRsIc"
+      data-testid="bodyType"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-bdVaJa hUnRwM"
+        cursor="pointer"
+        data-testid="category-heading"
+        display="flex"
+        height="45px"
+      >
+        <span
+          aria-label="Body Type"
+          class="sc-1k44dfv-0 dFzsvT"
+          color="typographyDefault"
+          font-family="bold"
+          font-weight="regular"
+        >
+          Body Type
+        </span>
+        <button
+          aria-label="Shared.Common.expandAria"
+          class="IconWrapper-lp9q2r-0 sc-bwzfXH jmXSNz"
+          data-testid="expand-collapse-btn"
+        />
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 jqmCri"
+      >
+        <div
+          class="Box-sc-1bsf784-0 gPowjU"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+          >
+            <button
+              aria-label="Shared.Common.selectAria Sedan"
+              class="sc-bxivhb ijfbha"
+              data-testid="category-filters"
+              disabled=""
+            >
+              <p
+                class="sc-1k44dfv-0 tzxVY"
+                color="typographyDefault"
+                font-family="bold"
+                font-weight="regular"
+              >
+                <span>
+                  Sedan
+                </span>
+              </p>
+            </button>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+          >
+            <button
+              aria-label="Shared.Common.selectAria SUV"
+              class="sc-bxivhb ijfbha"
+              data-testid="category-filters"
+              disabled=""
+            >
+              <p
+                class="sc-1k44dfv-0 tzxVY"
+                color="typographyDefault"
+                font-family="bold"
+                font-weight="regular"
+              >
+                <span>
+                  SUV
+                </span>
+              </p>
+            </button>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+          >
+            <button
+              aria-label="Shared.Common.selectAria Liftback"
+              class="sc-bxivhb ijfbha"
+              data-testid="category-filters"
+              disabled=""
+            >
+              <p
+                class="sc-1k44dfv-0 tzxVY"
+                color="typographyDefault"
+                font-family="bold"
+                font-weight="regular"
+              >
+                <span>
+                  Liftback
+                </span>
+              </p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 iPRsIc"
+      data-testid="comfortConvenience"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-bdVaJa hUnRwM"
+        cursor="pointer"
+        data-testid="category-heading"
+        display="flex"
+        height="45px"
+      >
+        <span
+          aria-label="Comfort Convenience"
+          class="sc-1k44dfv-0 dFzsvT"
+          color="typographyDefault"
+          font-family="bold"
+          font-weight="regular"
+        >
+          Comfort Convenience
+        </span>
+        <button
+          aria-label="Shared.Common.expandAria"
+          class="IconWrapper-lp9q2r-0 sc-bwzfXH jmXSNz"
+          data-testid="expand-collapse-btn"
+        />
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 jqmCri"
+      >
+        <div
+          class="Box-sc-1bsf784-0 gPowjU"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+          >
+            <button
+              aria-label="Shared.Common.selectAria AcuraLink App"
+              class="sc-bxivhb ijfbha"
+              data-testid="category-filters"
+              disabled=""
+            >
+              <p
+                class="sc-1k44dfv-0 tzxVY"
+                color="typographyDefault"
+                font-family="bold"
+                font-weight="regular"
+              >
+                <span>
+                  AcuraLink App
+                </span>
+              </p>
+            </button>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+          >
+            <button
+              aria-label="Shared.Common.selectAria Heated Front Seats"
+              class="sc-bxivhb ijfbha"
+              data-testid="category-filters"
+              disabled=""
+            >
+              <p
+                class="sc-1k44dfv-0 tzxVY"
+                color="typographyDefault"
+                font-family="bold"
+                font-weight="regular"
+              >
+                <span>
+                  Heated Front Seats
+                </span>
+              </p>
+            </button>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+          >
+            <button
+              aria-label="Shared.Common.selectAria Surround View Camera"
+              class="sc-bxivhb ijfbha"
+              data-testid="category-filters"
+              disabled=""
+            >
+              <p
+                class="sc-1k44dfv-0 tzxVY"
+                color="typographyDefault"
+                font-family="bold"
+                font-weight="regular"
+              >
+                <span>
+                  Surround View Camera
+                </span>
+              </p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ModelListFilters Categories should render the price filter correctly 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 iPRsIc sc-htpNat jvxazc"
+    data-testid="price-filter-container"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-bdVaJa hUnRwM"
+      cursor="pointer"
+      data-testid="category-heading"
+      display="flex"
+      height="45px"
+    >
+      <span
+        aria-label="Pages.Models.Exploration.filterPriceLabel"
+        class="sc-1k44dfv-0 dFzsvT"
+        color="typographyDefault"
+        font-family="bold"
+        font-weight="regular"
+      >
+        Pages.Models.Exploration.filterPriceLabel
+      </span>
+      <button
+        aria-label="Shared.Common.expandAria"
+        class="IconWrapper-lp9q2r-0 sc-bwzfXH jmXSNz"
+        data-testid="expand-collapse-btn"
+      />
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 jqmCri"
+    >
+      <div
+        class="Box-sc-1bsf784-0 gPowjU"
+      >
+        <form
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+          data-testid="price-filter-form"
+        >
+          <p
+            class="sc-1k44dfv-0 sc-1k44dfv-0 hEeYcp"
+            color="typographyDefault"
+            data-testid="price-filter-label"
+            font-family="default"
+            font-weight="regular"
+          >
+            Pages.Models.Exploration.filterPriceRangeLabel
+          </p>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 gpnUYG"
+          >
+            <p
+              class="sc-1k44dfv-0 sc-1k44dfv-0 bwpZpd"
+              color="typographyDefault"
+              data-testid="price-filter-min-label"
+              font-family="default"
+              font-weight="regular"
+            >
+              Pages.Models.Exploration.filterMinLabel
+              :
+            </p>
+            <div
+              class="sc-1k44dfv-0 ctqAAr StyledInputWithAdornment-sc-1xnpklm-0 daKaRN styledFormField-sc-1ijs2ju-0 ekjmsE"
+              data-testid="dsr-formfield"
+            >
+              <input
+                aria-label="Pages.Models.Exploration.filterMinLabel"
+                class="sc-1k44dfv-0 HtmlInput-eel7x9-0 iOGXks"
+                data-testid="min-price-filter"
+                name="min"
+                placeholder="$"
+                type="text"
+                value=""
+              />
+              <div
+                class="IconWrapper-lp9q2r-0 sc-1k44dfv-0 kZuzaf"
+                tabindex="-1"
+              />
+            </div>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 gpnUYG"
+          >
+            <p
+              class="sc-1k44dfv-0 sc-1k44dfv-0 bwpZpd"
+              color="typographyDefault"
+              data-testid="price-filter-max-label"
+              font-family="default"
+              font-weight="regular"
+            >
+              Pages.Models.Exploration.filterMaxLabel
+              :
+            </p>
+            <div
+              class="sc-1k44dfv-0 ctqAAr StyledInputWithAdornment-sc-1xnpklm-0 daKaRN styledFormField-sc-1ijs2ju-0 ekjmsE"
+              data-testid="dsr-formfield"
+            >
+              <input
+                aria-label="Pages.Models.Exploration.filterMaxLabel"
+                class="sc-1k44dfv-0 HtmlInput-eel7x9-0 iOGXks"
+                data-testid="max-price-filter"
+                name="max"
+                placeholder="$"
+                type="text"
+                value=""
+              />
+              <div
+                class="IconWrapper-lp9q2r-0 sc-1k44dfv-0 kZuzaf"
+                tabindex="-1"
+              />
+            </div>
+          </div>
+          <button
+            class="Button-pulw6t-0 sc-1k44dfv-0 jPlYLq"
+            data-testid="dsr-button-component"
+            disabled=""
+          >
+            Pages.Models.Exploration.filterPriceButton
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;

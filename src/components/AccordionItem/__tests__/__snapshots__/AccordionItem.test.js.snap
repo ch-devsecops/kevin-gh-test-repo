@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AccordionItem> should have no accessibility violations 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 fYkisg accordion-item"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 hfklgf"
+      data-testid="accordion"
+      role="button"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 dfqSgi"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+      >
+        Western and Pacific Canada
+      </p>
+    </div>
+    <div
+      aria-hidden="true"
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 kTXKFc"
+      data-testid="accordion-content"
+      height="0"
+    />
+  </div>
+</div>
+`;
+
+exports[`<AccordionItem> should render correctly 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 fYkisg accordion-item"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 hfklgf"
+      data-testid="accordion"
+      role="button"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 dfqSgi"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+      />
+    </div>
+    <div
+      aria-hidden="true"
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 kTXKFc"
+      data-testid="accordion-content"
+      height="0"
+    />
+  </div>
+</div>
+`;
+
+exports[`<AccordionItem> should return null if the data is empty 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 fYkisg accordion-item"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 hfklgf"
+      data-testid="accordion"
+      role="button"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 dfqSgi"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+      />
+    </div>
+    <div
+      aria-hidden="true"
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 kTXKFc"
+      data-testid="accordion-content"
+      height="0"
+    />
+  </div>
+</div>
+`;
+
+exports[`<AccordionItem> should return null if there is no fields 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 fYkisg accordion-item"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 hfklgf"
+      data-testid="accordion"
+      role="button"
+    >
+      <p
+        class="sc-1k44dfv-0 sc-1k44dfv-0 dfqSgi"
+        color="typographyDefault"
+        font-family="default"
+        font-weight="regular"
+      />
+    </div>
+    <div
+      aria-hidden="true"
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 kTXKFc"
+      data-testid="accordion-content"
+      height="0"
+    />
+  </div>
+</div>
+`;

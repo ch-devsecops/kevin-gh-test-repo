@@ -1,0 +1,317 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MarineProductDetailsCard> should render correctly 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 gXilRl"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 dDMFJH"
+      data-testid="container"
+    >
+      <div
+        class="fresnel-container fresnel-greaterThanOrEqual-desktop "
+      >
+        <div
+          class="Box-sc-1bsf784-0 jGVkdm"
+          display="flex"
+          width="100%"
+        >
+          <div
+            class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 sgibs"
+            width="1,1,0.5"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 hQILzn"
+            >
+              <div
+                class="Box-sc-1bsf784-0 isOmPB sc-1k44dfv-0 ednPAD"
+                display="flex"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 gaxtDi"
+                  display="flex"
+                  width="100%"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 Column-t2p57o-0 hVRYAI"
+                    display="flex"
+                    width="0,0.125"
+                  />
+                  <div
+                    class="Box-sc-1bsf784-0 Column-t2p57o-0 jcWdVb"
+                    display="flex"
+                    width="1,0.75"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 jazOpQ"
+                    >
+                      <div
+                        aria-live="polite"
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 daGqcZ"
+                        height="157px,362px,402px"
+                      >
+                        <div
+                          class="Box-sc-1bsf784-0 sc-1k44dfv-0 jyKEsn"
+                        >
+                          <div
+                            class="Box-sc-1bsf784-0 sc-1k44dfv-0 dlUJcO"
+                            data-testid="product-image-container"
+                          >
+                            <img
+                              alt=""
+                              class="sc-1k44dfv-0 cFTYBj"
+                              data-testid="product-image"
+                              draggable="true"
+                              fetchpriority="high"
+                              loading="eager"
+                              src="https://marine-dit-01-dmm.marine.honda.ca/-/media/Brands/Marine/Portables/BF2_3/BF23.jpg?rev=f968cd90bb5e43629801051de6738358"
+                              width="auto"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="Box-sc-1bsf784-0 Column-t2p57o-0 hVRYAI"
+                    display="flex"
+                    width="0,0.125"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 cVEbMC"
+            width="1,1,0.5"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 krtBLR"
+            >
+              <h1
+                class="sc-1k44dfv-0 sc-1k44dfv-0 eNZGfe"
+                data-testid="product-title"
+              >
+                BF2
+              </h1>
+              <p
+                class="sc-1k44dfv-0 sc-1k44dfv-0 iZbHgV"
+                color="typographyDefault"
+                data-testid="tagline"
+                font-family="default"
+                font-weight="regular"
+              >
+                <span>
+                  Convenient and versatile – Honda portable outboard motors aren’t just serious performers, they’re easy to use and transport.
+                </span>
+              </p>
+              <ul
+                class="sc-1k44dfv-0 sc-1k44dfv-0 egEiUc"
+                data-testid="product-features"
+              />
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 gFFLJL"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 bcjCqM"
+                  data-testid="pricing-error"
+                >
+                  <div
+                    class="IconWrapper-lp9q2r-0 cfoKzK"
+                  />
+                  <p
+                    class="sc-1k44dfv-0 sc-bxivhb hACcUw"
+                    color="typographyDefault"
+                    data-testid="price-error-message"
+                    font-family="default"
+                    font-weight="regular"
+                  >
+                    Shared.Common.priceErrorLabel
+                  </p>
+                </div>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 cDyBNH"
+              >
+                <a
+                  class="Button-pulw6t-0 sc-1k44dfv-0 jVKOFV"
+                  data-gtm-interaction-type="cta: find a dealer"
+                  data-gtm-title="find a dealer"
+                  data-testid="primary-button"
+                  href="Shared.Common.dealersPageUrl"
+                >
+                  Shared.Common.findDealerButton
+                </a>
+                <button
+                  class="Button-pulw6t-0 sc-1k44dfv-0 WeFee"
+                  data-gtm-interaction-type="cta: compare"
+                  data-gtm-title="added comparison item"
+                  data-testid="secondary-button"
+                >
+                  Shared.Common.addToCompareButton
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fresnel-container fresnel-lessThan-desktop "
+      >
+        <div
+          class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 hFojy"
+        >
+          <div
+            class="Box-sc-1bsf784-0 jGVkdm"
+            display="flex"
+            width="100%"
+          >
+            <div
+              class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 sgibs"
+              width="1,1,0.5"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 hQILzn"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 isOmPB sc-1k44dfv-0 ednPAD"
+                  display="flex"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 gaxtDi"
+                    display="flex"
+                    width="100%"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 Column-t2p57o-0 hVRYAI"
+                      display="flex"
+                      width="0,0.125"
+                    />
+                    <div
+                      class="Box-sc-1bsf784-0 Column-t2p57o-0 jcWdVb"
+                      display="flex"
+                      width="1,0.75"
+                    >
+                      <div
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 jazOpQ"
+                      >
+                        <div
+                          aria-live="polite"
+                          class="Box-sc-1bsf784-0 sc-1k44dfv-0 daGqcZ"
+                          height="157px,362px,402px"
+                        >
+                          <div
+                            class="Box-sc-1bsf784-0 sc-1k44dfv-0 jyKEsn"
+                          >
+                            <div
+                              class="Box-sc-1bsf784-0 sc-1k44dfv-0 dlUJcO"
+                              data-testid="product-image-container"
+                            >
+                              <img
+                                alt=""
+                                class="sc-1k44dfv-0 cFTYBj"
+                                data-testid="product-image"
+                                draggable="true"
+                                fetchpriority="high"
+                                loading="eager"
+                                src="https://marine-dit-01-dmm.marine.honda.ca/-/media/Brands/Marine/Portables/BF2_3/BF23.jpg?rev=f968cd90bb5e43629801051de6738358"
+                                width="auto"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="Box-sc-1bsf784-0 Column-t2p57o-0 hVRYAI"
+                      display="flex"
+                      width="0,0.125"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 Column-t2p57o-0 sc-1k44dfv-0 cVEbMC"
+              width="1,1,0.5"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 krtBLR"
+              >
+                <h1
+                  class="sc-1k44dfv-0 sc-1k44dfv-0 eNZGfe"
+                  data-testid="product-title"
+                >
+                  BF2
+                </h1>
+                <p
+                  class="sc-1k44dfv-0 sc-1k44dfv-0 iZbHgV"
+                  color="typographyDefault"
+                  data-testid="tagline"
+                  font-family="default"
+                  font-weight="regular"
+                >
+                  <span>
+                    Convenient and versatile – Honda portable outboard motors aren’t just serious performers, they’re easy to use and transport.
+                  </span>
+                </p>
+                <ul
+                  class="sc-1k44dfv-0 sc-1k44dfv-0 egEiUc"
+                  data-testid="product-features"
+                />
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 gFFLJL"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 bcjCqM"
+                    data-testid="pricing-error"
+                  >
+                    <div
+                      class="IconWrapper-lp9q2r-0 cfoKzK"
+                    />
+                    <p
+                      class="sc-1k44dfv-0 sc-bxivhb hACcUw"
+                      color="typographyDefault"
+                      data-testid="price-error-message"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Shared.Common.priceErrorLabel
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 cDyBNH"
+                >
+                  <a
+                    class="Button-pulw6t-0 sc-1k44dfv-0 jVKOFV"
+                    data-gtm-interaction-type="cta: find a dealer"
+                    data-gtm-title="find a dealer"
+                    data-testid="primary-button"
+                    href="Shared.Common.dealersPageUrl"
+                  >
+                    Shared.Common.findDealerButton
+                  </a>
+                  <button
+                    class="Button-pulw6t-0 sc-1k44dfv-0 WeFee"
+                    data-gtm-interaction-type="cta: compare"
+                    data-gtm-title="added comparison item"
+                    data-testid="secondary-button"
+                  >
+                    Shared.Common.addToCompareButton
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<MarineProductDetailsCard> should render correctly with empty mock data 1`] = `<div />`;
+
+exports[`<MarineProductDetailsCard> should return nulll if there is no fields 1`] = `<div />`;

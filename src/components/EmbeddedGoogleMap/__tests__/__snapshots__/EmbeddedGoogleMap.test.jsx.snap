@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EmbeddedGoogleMap> it should render with no errors 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 iqxqqZ"
+    height="400px"
+    width="400px"
+  >
+    <div
+      style="width: 400px; height: 100%;"
+    />
+  </div>
+</div>
+`;

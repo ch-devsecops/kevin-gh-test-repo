@@ -1,0 +1,659 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FullWidthCard> should match the snapshot 1`] = `
+.c0 {
+  padding-bottom: l;
+  background-color: #fff;
+}
+
+.c1 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  height: inherit;
+  width: inherit;
+  width: 100%;
+  height: 100%;
+}
+
+.c2 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  object-fit: cover;
+  object-position: center;
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  -ms-user-drag: none;
+  user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c3 {
+  margin-top: default;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.c4 {
+  max-width: 824px;
+  margin: 0 auto;
+}
+
+.c5 {
+  font-size: 14px;
+  line-height: 22px;
+  font-family: Helvetica;
+  color: #2C2C2C;
+  margin-bottom: xs;
+}
+
+.c5 > :last-child {
+  margin-bottom: 0;
+}
+
+.c5 .override {
+  font-size: 14px;
+  line-height: 22px;
+  font-family: Helvetica;
+  text-transform: none;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+}
+
+.c5 p {
+  margin-bottom: default;
+}
+
+.c5 blockquote {
+  margin-bottom: default;
+  font-family: Roboto;
+  font-size: 24px;
+  line-height: 28px;
+  quotes: '“' '”';
+}
+
+.c5 blockquote p:after {
+  content: close-quote;
+}
+
+.c5 blockquote p:before {
+  content: open-quote;
+}
+
+.c5 small {
+  font-size: 10px;
+  line-height: 14px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+}
+
+.c5 strong {
+  font-family: Cooper Black;
+  font-weight: normal;
+}
+
+.c5 em {
+  font-style: italic;
+}
+
+.c5 ul {
+  list-style-type: disc !important;
+  list-style: initial;
+}
+
+.c5 ol {
+  list-style-type: decimal;
+}
+
+.c5 h1 {
+  color: inherit;
+  font-family: Roboto;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.c5 h2 {
+  color: inherit;
+  font-family: Roboto;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.c5 h3 {
+  color: inherit;
+  font-family: Roboto;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.c5 h4 {
+  color: inherit;
+  font-family: Roboto;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.c5 h5 {
+  color: inherit;
+  font-family: Cooper Black;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.c5 h6 {
+  color: inherit;
+  font-family: Cooper Black;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.c5 ul,
+.c5 ol {
+  list-style-position: inside;
+  margin-bottom: default;
+}
+
+.c5 a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #DA2C2E;
+  font-weight: 700;
+}
+
+.c5 a:focus {
+  border: transparent;
+}
+
+.c6 {
+  color: #2C2C2C;
+  font-family: Roboto;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: Cooper Black;
+}
+
+.c7 {
+  font-size: 14px;
+  line-height: 22px;
+  font-family: Helvetica;
+  color: #2C2C2C;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.c7 > :last-child {
+  margin-bottom: 0;
+}
+
+.c7 .override {
+  font-size: 14px;
+  line-height: 22px;
+  font-family: Helvetica;
+  text-transform: none;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+}
+
+.c7 p {
+  margin-bottom: default;
+}
+
+.c7 blockquote {
+  margin-bottom: default;
+  font-family: Roboto;
+  font-size: 24px;
+  line-height: 28px;
+  quotes: '“' '”';
+}
+
+.c7 blockquote p:after {
+  content: close-quote;
+}
+
+.c7 blockquote p:before {
+  content: open-quote;
+}
+
+.c7 small {
+  font-size: 10px;
+  line-height: 14px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+}
+
+.c7 strong {
+  font-family: Cooper Black;
+  font-weight: normal;
+}
+
+.c7 em {
+  font-style: italic;
+}
+
+.c7 ul {
+  list-style-type: disc !important;
+  list-style: initial;
+}
+
+.c7 ol {
+  list-style-type: decimal;
+}
+
+.c7 h1 {
+  color: inherit;
+  font-family: Roboto;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.c7 h2 {
+  color: inherit;
+  font-family: Roboto;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.c7 h3 {
+  color: inherit;
+  font-family: Roboto;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.c7 h4 {
+  color: inherit;
+  font-family: Roboto;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.c7 h5 {
+  color: inherit;
+  font-family: Cooper Black;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.c7 h6 {
+  color: inherit;
+  font-family: Cooper Black;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.c7 ul,
+.c7 ol {
+  list-style-position: inside;
+  margin-bottom: default;
+}
+
+.c7 a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #DA2C2E;
+  font-weight: 700;
+}
+
+.c7 a:focus {
+  border: transparent;
+}
+
+.c8 {
+  text-align: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-top: default;
+}
+
+.c8 > * {
+  margin-left: xs;
+  margin-right: xs;
+  margin-bottom: m;
+}
+
+.c8 > *:first-child,
+.c8 > *:last-child {
+  margin-bottom: m;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media screen and (min-width:768px) {
+  .c0 {
+    padding-bottom: big;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c3 {
+    margin-top: l;
+    padding-left: m;
+    padding-right: m;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c5 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c5 .override {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c5 p {
+    margin-bottom: l;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c5 blockquote {
+    margin-bottom: l;
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c5 h1 {
+    font-size: 68px;
+    line-height: 74px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c5 h2 {
+    font-size: 56px;
+    line-height: 64px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c5 h3 {
+    font-size: 44px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c5 h4 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c5 h5 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c5 h6 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c5 ul,
+  .c5 ol {
+    margin-bottom: l;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c5 {
+    margin-bottom: m;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c6 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c7 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c7 .override {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c7 p {
+    margin-bottom: l;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c7 blockquote {
+    margin-bottom: l;
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c7 h1 {
+    font-size: 68px;
+    line-height: 74px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c7 h2 {
+    font-size: 56px;
+    line-height: 64px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c7 h3 {
+    font-size: 44px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c7 h4 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c7 h5 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c7 h6 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c7 ul,
+  .c7 ol {
+    margin-bottom: l;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c8 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-top: l;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c8 > * {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c8 > *:first-child,
+  .c8 > *:last-child {
+    margin-bottom: 0;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+    data-gtm-category="Others"
+    data-gtm-component-type="FullWidthCard"
+    id="anchor-id"
+  >
+    <div
+      class="c1"
+    >
+      <img
+        alt="mock alt"
+        class="c2"
+        draggable="true"
+        loading="lazy"
+        src="mock.png"
+      />
+    </div>
+    <div
+      class="c3"
+    >
+      <div
+        class="c4"
+      >
+        <div
+          class="c5"
+          mb="xs,m"
+        >
+          
+
+          <h5
+            class="c6"
+          >
+            Title
+          </h5>
+        </div>
+        <div
+          class="c7"
+          mb="0"
+          textalign="center"
+        >
+          
+
+          <p>
+            BodyText
+          </p>
+        </div>
+      </div>
+      <div
+        class="c8"
+      />
+    </div>
+  </div>
+</div>
+`;

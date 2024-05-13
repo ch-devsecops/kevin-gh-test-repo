@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<JssLink> should have no accessibility violations 1`] = `
+<div>
+  <a
+    href="hello"
+    title="test link"
+  >
+    Click me
+  </a>
+</div>
+`;
+
+exports[`<JssLink> should have no accessibility violations 2`] = `
+<div>
+  <a
+    href="/hello"
+    title="test link"
+  >
+    Click me
+  </a>
+</div>
+`;
+
+exports[`<JssLink> should render correctly 1`] = `
+<div>
+  <a
+    href="hello"
+    title="test link"
+  >
+    Click me
+  </a>
+</div>
+`;
+
+exports[`<JssLink> should render correctly 2`] = `
+<div>
+  <a
+    href="/hello"
+    title="test link"
+  >
+    Click me
+  </a>
+</div>
+`;
+
+exports[`<JssLink> should render even if there are empty fields 1`] = `
+<div>
+  <a
+    href="undefined"
+  />
+</div>
+`;
+
+exports[`<JssLink> should return null if there is no fields 1`] = `<div />`;

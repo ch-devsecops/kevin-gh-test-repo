@@ -1,0 +1,4883 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductCompare> should render Engine product compare without errors 1`] = `
+.c7 {
+  width: 100%;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+}
+
+.c15 {
+  width: 100%;
+}
+
+.c0 {
+  max-width: maxWidth;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: l;
+  padding-left: 0;
+  padding-right: 0;
+  overflow-x: clip;
+}
+
+.c1 {
+  margin-bottom: s;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 24px;
+}
+
+.c2 {
+  color: #2C2C2C;
+  font-family: Roboto;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: normal;
+  margin-bottom: xs;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.c3 {
+  color: #2C2C2C;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+}
+
+.c6 {
+  top: 45px;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 210;
+}
+
+.c8 {
+  border-bottom: 1px solid;
+  border-color: #EAEAEA;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 0;
+}
+
+.c9 {
+  max-width: 1280px;
+  width: 100%;
+  box-shadow: 0;
+  background: white;
+  left: 0;
+  z-index: 1;
+  -webkit-transition: opacity .6s ease-in;
+  transition: opacity .6s ease-in;
+}
+
+.c9 >div {
+  overflow: visible;
+}
+
+.c10 {
+  width: 100%;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fadein;
+  animation: fadein;
+  -webkit-animation-duration: 0.6s;
+  animation-duration: 0.6s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-transform: translateX(0%);
+  -ms-transform: translateX(0%);
+  transform: translateX(0%);
+  -webkit-transition: -webkit-transform;
+  -webkit-transition: transform;
+  transition: transform;
+  -webkit-transition-duration: t5;
+  transition-duration: t5;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+.c12 {
+  position: relative;
+  -webkit-flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  -webkit-transition: opacity;
+  transition: opacity;
+  -webkit-transition-duration: t3;
+  transition-duration: t3;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  pointer-events: auto;
+  opacity: 1;
+  visibility: visible;
+}
+
+.c13 {
+  width: 100%;
+  padding-left: columnGap.0;
+  padding-right: columnGap.0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding-left: m;
+  padding-right: m;
+  height: 100%;
+  border: none;
+}
+
+.c14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 380px;
+  margin: 0 auto;
+  padding-top: 0;
+  padding-left: xl;
+  padding-right: xl;
+}
+
+.c16 {
+  display: block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  color: #2C2C2C;
+  font-family: Cooper Black;
+  font-size: 12px;
+  line-height: xs;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-family: Cooper Black;
+  color: #2C2C2C;
+}
+
+.c18 {
+  margin-bottom: l;
+}
+
+.c18 >div {
+  background: #fff;
+}
+
+.c18 >div >span {
+  text-overflow: ellipsis;
+  word-break: break-word;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.c18 >ul >li {
+  white-space: normal;
+  line-height: 24px;
+}
+
+.c17 {
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+}
+
+.c17:focus {
+  outline: transparent;
+}
+
+.c17:focus div:first-of-type:after {
+  height: 2px;
+}
+
+.c19 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+  color: #2C2C2C;
+  font-family: Helvetica;
+  font-weight: normal;
+  line-height: 22px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  background-color: #F5F5F5;
+  background-color: #fff;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: normal;
+}
+
+.c19::-ms-clear {
+  display: none;
+}
+
+.c19::-webkit-input-placeholder {
+  color: #707070;
+}
+
+.c19::-moz-placeholder {
+  color: #707070;
+}
+
+.c19:-ms-input-placeholder {
+  color: #707070;
+}
+
+.c19::placeholder {
+  color: #707070;
+}
+
+.c19:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  background-color: #2C2C2C;
+}
+
+.c19:after {
+  height: 1px;
+}
+
+.c20 {
+  margin: 0;
+  color: #2C2C2C;
+  font-weight: normal;
+  font-family: Helvetica;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  height: small;
+}
+
+.c22 {
+  max-height: 0px;
+  width: 100%;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-duration: t4;
+  transition-duration: t4;
+  position: absolute;
+  top: 46px;
+  overflow: hidden;
+  outline: none;
+  z-index: options;
+}
+
+.c22 li {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.c23 {
+  font-size: 14px;
+  padding: 15px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-text-size-adjust: 100%;
+  background-color: #F8F8F8;
+  color: #2C2C2C;
+  font-family: Helvetica;
+  font-weight: normal;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid;
+  border-color: #D5D5D5;
+}
+
+.c23:hover {
+  background-color: #EAEAEA;
+}
+
+.c23.focusVisible {
+  outline: undefined undefined;
+}
+
+.c23:hover {
+  font-family: Cooper Black;
+}
+
+.c24 {
+  display: block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  color: #2C2C2C;
+  font-family: Cooper Black;
+  font-size: 12px;
+  line-height: xs;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-family: Cooper Black;
+  color: #707070;
+}
+
+.c25 {
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+  pointer-events: none;
+}
+
+.c25:focus {
+  outline: transparent;
+}
+
+.c25:focus div:first-of-type:after {
+  height: 2px;
+}
+
+.c26 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+  color: #2C2C2C;
+  font-family: Helvetica;
+  font-weight: normal;
+  line-height: 22px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  background-color: #F5F5F5;
+  background-color: #fff;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: normal;
+}
+
+.c26::-ms-clear {
+  display: none;
+}
+
+.c26::-webkit-input-placeholder {
+  color: #707070;
+}
+
+.c26::-moz-placeholder {
+  color: #707070;
+}
+
+.c26:-ms-input-placeholder {
+  color: #707070;
+}
+
+.c26::placeholder {
+  color: #707070;
+}
+
+.c26:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  background-color: #2C2C2C;
+}
+
+.c26:after {
+  height: 1px;
+}
+
+.c26:after {
+  background-color: #C7C7C7;
+}
+
+.c26 svg path {
+  stroke: #C7C7C7;
+}
+
+.c27 {
+  margin: 0;
+  color: #2C2C2C;
+  font-weight: normal;
+  font-family: Helvetica;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  height: small;
+  color: #707070;
+}
+
+.c28 {
+  position: relative;
+  -webkit-flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  -webkit-transition: opacity;
+  transition: opacity;
+  -webkit-transition-duration: t3;
+  transition-duration: t3;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+.c29 {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: m;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  height: 48px;
+  box-shadow: none;
+  bottom: 0;
+  background-color: #fff;
+}
+
+.c30 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  background-color: #fff;
+  width: iconWrapper.md;
+  height: iconWrapper.md;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 0.5;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.c30:focus {
+  border: transparent;
+}
+
+.c31 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c32 {
+  min-width: 40px;
+  height: 4px;
+  width: 48px;
+  margin-right: 8px;
+  padding: 0;
+  border-radius: 0;
+  border: none;
+  cursor: pointer;
+  cursor: pointer;
+  min-width: 5px;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: #DA2C2E;
+}
+
+.c32:last-child {
+  margin-right: 0;
+}
+
+.c33 {
+  min-width: 40px;
+  height: 4px;
+  width: 48px;
+  margin-right: 8px;
+  padding: 0;
+  border-radius: 0;
+  border: none;
+  cursor: pointer;
+  cursor: pointer;
+  min-width: 5px;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: #707070;
+}
+
+.c33:last-child {
+  margin-right: 0;
+}
+
+.c34 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  background-color: #fff;
+  width: iconWrapper.md;
+  height: iconWrapper.md;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 1;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.c34:focus {
+  border: transparent;
+}
+
+.c35 {
+  width: 20%;
+  padding-left: columnGap.0;
+  padding-right: columnGap.0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding-left: m;
+  padding-right: m;
+  border: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c36 {
+  margin: 0;
+  color: #2C2C2C;
+  margin-top: xl;
+  margin-bottom: huge;
+  font-weight: normal;
+  font-family: Helvetica;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+  font: default;
+  font-size: 16px;
+}
+
+.c21 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: iconWrapper.md;
+  height: iconWrapper.md;
+}
+
+.c5 {
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border: 1px solid;
+  min-width: 220px;
+  height: 45px;
+  border-radius: 50px;
+  -webkit-transition: color 0.3s ease,background-color 0.3s ease;
+  transition: color 0.3s ease,background-color 0.3s ease;
+  text-transform: uppercase;
+  font-size: 13px;
+  overflow: visible;
+  padding-top: s;
+  padding-bottom: s;
+  padding-left: default;
+  padding-right: default;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  padding-left: zero;
+  padding-right: zero;
+  font-family: Roboto;
+  border-radius: 3px;
+  line-height: 20px;
+  background-color: #fff;
+  border-color: #2C2C2C;
+  color: #2C2C2C;
+}
+
+.c5::before {
+  content: none;
+  position: absolute;
+  top: -3px;
+  bottom: -3px;
+  left: -3px;
+  right: -3px;
+  border: 1px solid;
+}
+
+.c5::-moz-focus-inner {
+  border: 0;
+}
+
+.c5 > a,
+.c5 > a:hover,
+.c5 > button {
+  color: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+}
+
+.c5::before {
+  border-radius: 3px;
+}
+
+.c5:hover {
+  background-color: #2C2C2C;
+  border-color: #2C2C2C;
+  color: #fff;
+}
+
+.c5:focus,
+.c5:focus-visible {
+  outline: transparent;
+}
+
+.c5:focus::before,
+.c5:focus-visible::before {
+  content: "";
+  border-color: #2C2C2C;
+}
+
+.c5:disabled {
+  cursor: default;
+  background-color: #fff;
+  border-color: #C7C7C7;
+  color: #C7C7C7;
+}
+
+.c4 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  background: none;
+  display: inline-block;
+  cursor: pointer;
+  padding-left: 0;
+  padding-right: 0;
+  line-height: 22px;
+  font-size: 14px;
+  border-bottom: 1px solid transparent;
+  font-family: Cooper Black;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+  -webkit-transition: border-bottom 0.3s ease;
+  transition: border-bottom 0.3s ease;
+  color: #2C2C2C;
+  line-height: 16px;
+  color: #2C2C2C;
+}
+
+.c4 > a,
+.c4 > a:hover {
+  color: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+}
+
+.c4:hover,
+.c4:focus {
+  border-bottom: 1px solid;
+  outline: transparent;
+}
+
+.c4:hover,
+.c4:focus {
+  border-color: #DA2C2E;
+}
+
+@media screen and (min-width:768px) {
+  .c0 {
+    padding-top: big;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c0 {
+    padding-left: m;
+    padding-right: m;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c1 {
+    margin-bottom: s;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 0 24px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c1 {
+    margin-bottom: xl;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c2 {
+    font-size: 68px;
+    line-height: 74px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c2 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c2 {
+    font-size: 68px;
+    line-height: 74px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c6 {
+    top: 45px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c6 {
+    top: calc(undefined - 1px);
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c8 {
+    -webkit-flex-wrap: none;
+    -ms-flex-wrap: none;
+    flex-wrap: none;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c9 {
+    left: auto;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c13 {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c13 {
+    width: 20%;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c13 {
+    padding-left: columnGap.1;
+    padding-right: columnGap.1;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c13 {
+    padding-left: m;
+    padding-right: m;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c13 {
+    padding-left: m;
+    padding-right: m;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c14 {
+    padding-left: s;
+    padding-right: s;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c16 {
+    line-height: 22px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c19 {
+    line-height: 24px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c24 {
+    line-height: 22px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c26 {
+    line-height: 24px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c35 {
+    padding-left: columnGap.1;
+    padding-right: columnGap.1;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c35 {
+    padding-left: m;
+    padding-right: m;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c35 {
+    padding-left: m;
+    padding-right: m;
+    display: block;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+    data-testid="cy-product-compare"
+  >
+    <div
+      class="c1"
+    >
+      <h1
+        class="sc-1k44dfv-0 c2"
+        data-testid="compare-title"
+      >
+        Shared.Common.compareSectionHeading
+      </h1>
+      <div
+        class="fresnel-container fresnel-lessThan-desktop "
+      >
+        <a
+          class="c3 c4"
+          color="typographyDefault"
+          data-testid="mobile-go-back-button"
+          href="#"
+        >
+          Shared.Common.goBackButton
+        </a>
+      </div>
+      <div
+        class="fresnel-container fresnel-greaterThanOrEqual-desktop "
+      >
+        <button
+          class="c5"
+          data-testid="dsr-button-component"
+          style="min-width: 140px;"
+        >
+          Shared.Common.goBackButton
+        </button>
+      </div>
+    </div>
+    <div
+      class="fresnel-container fresnel-lessThan-desktop c6"
+    >
+      <div
+        class="c7 c8"
+        display="flex"
+        width="100%"
+      >
+        <div
+          class="c9"
+        >
+          <div
+            class="c10"
+          >
+            <div
+              aria-live="polite"
+              class="c11"
+            >
+              <div
+                class="c12"
+              >
+                <div
+                  class="c13"
+                  data-testid="product-compare-column0"
+                  width="1,1,0.2"
+                >
+                  <div
+                    class="c14"
+                  >
+                    <div
+                      class="c15"
+                      data-testid="product-series-wrapper"
+                      width="100%"
+                    >
+                      <label
+                        class="c16"
+                        data-testid="product-series-label"
+                      >
+                        Shared.Common.productCategoryLabel
+                      </label>
+                      <div
+                        aria-label="Shared.Common.productCategoryAria"
+                        class="c17 sc-1k44dfv-0 c18"
+                        data-testid="dsr-dropdown-container"
+                        tabindex="0"
+                      >
+                        <div
+                          aria-expanded="false"
+                          aria-haspopup="listbox"
+                          class="sc-1k44dfv-0 c19"
+                          data-testid="button"
+                          id="series-0"
+                          role="button"
+                        >
+                          <span
+                            class="sc-1k44dfv-0 c20"
+                            color="typographyDefault"
+                            data-testid="select-text"
+                            font-family="default"
+                            font-weight="regular"
+                          >
+                            Select
+                          </span>
+                          <div
+                            class="c21"
+                          />
+                        </div>
+                        <ul
+                          aria-label="Shared.Common.productCategoryAria"
+                          class="c22"
+                          role="listbox"
+                        >
+                          <li
+                            aria-selected="false"
+                            class="c23"
+                            data-testid="dsr-search-option"
+                            data-value="GX Series"
+                            role="option"
+                          >
+                            GX Series
+                          </li>
+                          <li
+                            aria-selected="false"
+                            class="c23"
+                            data-testid="dsr-search-option"
+                            data-value="Mini 4-Stroke"
+                            role="option"
+                          >
+                            Mini 4-Stroke
+                          </li>
+                          <li
+                            aria-selected="false"
+                            class="c23"
+                            data-testid="dsr-search-option"
+                            data-value="V-Twin Series"
+                            role="option"
+                          >
+                            V-Twin Series
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div
+                      class="c15"
+                      data-testid="product-name-wrapper"
+                      width="100%"
+                    >
+                      <label
+                        class="c24"
+                        data-testid="product-name-label"
+                      >
+                        Shared.Common.productName
+                      </label>
+                      <div
+                        aria-label="Shared.Common.productNameAria"
+                        class="c25 sc-1k44dfv-0 c18"
+                        data-testid="dsr-dropdown-container"
+                        disabled=""
+                        tabindex="0"
+                      >
+                        <div
+                          aria-expanded="false"
+                          aria-haspopup="listbox"
+                          class="sc-1k44dfv-0 c26"
+                          data-testid="button"
+                          disabled=""
+                          id="name-0"
+                          role="button"
+                        >
+                          <span
+                            class="sc-1k44dfv-0 c27"
+                            color="typographyDefault"
+                            data-testid="select-text"
+                            disabled=""
+                            font-family="default"
+                            font-weight="regular"
+                          >
+                            Select
+                          </span>
+                          <div
+                            class="c21"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c28"
+              >
+                <div
+                  class="c13"
+                  data-testid="product-compare-column1"
+                  width="1,1,0.2"
+                >
+                  <div
+                    class="c14"
+                  >
+                    <div
+                      class="c15"
+                      data-testid="product-series-wrapper"
+                      width="100%"
+                    >
+                      <label
+                        class="c16"
+                        data-testid="product-series-label"
+                      >
+                        Shared.Common.productCategoryLabel
+                      </label>
+                      <div
+                        aria-label="Shared.Common.productCategoryAria"
+                        class="c17 sc-1k44dfv-0 c18"
+                        data-testid="dsr-dropdown-container"
+                        tabindex="0"
+                      >
+                        <div
+                          aria-expanded="false"
+                          aria-haspopup="listbox"
+                          class="sc-1k44dfv-0 c19"
+                          data-testid="button"
+                          id="series-1"
+                          role="button"
+                        >
+                          <span
+                            class="sc-1k44dfv-0 c20"
+                            color="typographyDefault"
+                            data-testid="select-text"
+                            font-family="default"
+                            font-weight="regular"
+                          >
+                            Select
+                          </span>
+                          <div
+                            class="c21"
+                          />
+                        </div>
+                        <ul
+                          aria-label="Shared.Common.productCategoryAria"
+                          class="c22"
+                          role="listbox"
+                        >
+                          <li
+                            aria-selected="false"
+                            class="c23"
+                            data-testid="dsr-search-option"
+                            data-value="GX Series"
+                            role="option"
+                          >
+                            GX Series
+                          </li>
+                          <li
+                            aria-selected="false"
+                            class="c23"
+                            data-testid="dsr-search-option"
+                            data-value="Mini 4-Stroke"
+                            role="option"
+                          >
+                            Mini 4-Stroke
+                          </li>
+                          <li
+                            aria-selected="false"
+                            class="c23"
+                            data-testid="dsr-search-option"
+                            data-value="V-Twin Series"
+                            role="option"
+                          >
+                            V-Twin Series
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div
+                      class="c15"
+                      data-testid="product-name-wrapper"
+                      width="100%"
+                    >
+                      <label
+                        class="c24"
+                        data-testid="product-name-label"
+                      >
+                        Shared.Common.productName
+                      </label>
+                      <div
+                        aria-label="Shared.Common.productNameAria"
+                        class="c25 sc-1k44dfv-0 c18"
+                        data-testid="dsr-dropdown-container"
+                        disabled=""
+                        tabindex="0"
+                      >
+                        <div
+                          aria-expanded="false"
+                          aria-haspopup="listbox"
+                          class="sc-1k44dfv-0 c26"
+                          data-testid="button"
+                          disabled=""
+                          id="name-1"
+                          role="button"
+                        >
+                          <span
+                            class="sc-1k44dfv-0 c27"
+                            color="typographyDefault"
+                            data-testid="select-text"
+                            disabled=""
+                            font-family="default"
+                            font-weight="regular"
+                          >
+                            Select
+                          </span>
+                          <div
+                            class="c21"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c28"
+              >
+                <div
+                  class="c13"
+                  data-testid="product-compare-column2"
+                  width="1,1,0.2"
+                >
+                  <div
+                    class="c14"
+                  >
+                    <div
+                      class="c15"
+                      data-testid="product-series-wrapper"
+                      width="100%"
+                    >
+                      <label
+                        class="c16"
+                        data-testid="product-series-label"
+                      >
+                        Shared.Common.productCategoryLabel
+                      </label>
+                      <div
+                        aria-label="Shared.Common.productCategoryAria"
+                        class="c17 sc-1k44dfv-0 c18"
+                        data-testid="dsr-dropdown-container"
+                        tabindex="0"
+                      >
+                        <div
+                          aria-expanded="false"
+                          aria-haspopup="listbox"
+                          class="sc-1k44dfv-0 c19"
+                          data-testid="button"
+                          id="series-2"
+                          role="button"
+                        >
+                          <span
+                            class="sc-1k44dfv-0 c20"
+                            color="typographyDefault"
+                            data-testid="select-text"
+                            font-family="default"
+                            font-weight="regular"
+                          >
+                            Select
+                          </span>
+                          <div
+                            class="c21"
+                          />
+                        </div>
+                        <ul
+                          aria-label="Shared.Common.productCategoryAria"
+                          class="c22"
+                          role="listbox"
+                        >
+                          <li
+                            aria-selected="false"
+                            class="c23"
+                            data-testid="dsr-search-option"
+                            data-value="GX Series"
+                            role="option"
+                          >
+                            GX Series
+                          </li>
+                          <li
+                            aria-selected="false"
+                            class="c23"
+                            data-testid="dsr-search-option"
+                            data-value="Mini 4-Stroke"
+                            role="option"
+                          >
+                            Mini 4-Stroke
+                          </li>
+                          <li
+                            aria-selected="false"
+                            class="c23"
+                            data-testid="dsr-search-option"
+                            data-value="V-Twin Series"
+                            role="option"
+                          >
+                            V-Twin Series
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div
+                      class="c15"
+                      data-testid="product-name-wrapper"
+                      width="100%"
+                    >
+                      <label
+                        class="c24"
+                        data-testid="product-name-label"
+                      >
+                        Shared.Common.productName
+                      </label>
+                      <div
+                        aria-label="Shared.Common.productNameAria"
+                        class="c25 sc-1k44dfv-0 c18"
+                        data-testid="dsr-dropdown-container"
+                        disabled=""
+                        tabindex="0"
+                      >
+                        <div
+                          aria-expanded="false"
+                          aria-haspopup="listbox"
+                          class="sc-1k44dfv-0 c26"
+                          data-testid="button"
+                          disabled=""
+                          id="name-2"
+                          role="button"
+                        >
+                          <span
+                            class="sc-1k44dfv-0 c27"
+                            color="typographyDefault"
+                            data-testid="select-text"
+                            disabled=""
+                            font-family="default"
+                            font-weight="regular"
+                          >
+                            Select
+                          </span>
+                          <div
+                            class="c21"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c28"
+              >
+                <div
+                  class="c13"
+                  data-testid="product-compare-column3"
+                  width="1,1,0.2"
+                >
+                  <div
+                    class="c14"
+                  >
+                    <div
+                      class="c15"
+                      data-testid="product-series-wrapper"
+                      width="100%"
+                    >
+                      <label
+                        class="c16"
+                        data-testid="product-series-label"
+                      >
+                        Shared.Common.productCategoryLabel
+                      </label>
+                      <div
+                        aria-label="Shared.Common.productCategoryAria"
+                        class="c17 sc-1k44dfv-0 c18"
+                        data-testid="dsr-dropdown-container"
+                        tabindex="0"
+                      >
+                        <div
+                          aria-expanded="false"
+                          aria-haspopup="listbox"
+                          class="sc-1k44dfv-0 c19"
+                          data-testid="button"
+                          id="series-3"
+                          role="button"
+                        >
+                          <span
+                            class="sc-1k44dfv-0 c20"
+                            color="typographyDefault"
+                            data-testid="select-text"
+                            font-family="default"
+                            font-weight="regular"
+                          >
+                            Select
+                          </span>
+                          <div
+                            class="c21"
+                          />
+                        </div>
+                        <ul
+                          aria-label="Shared.Common.productCategoryAria"
+                          class="c22"
+                          role="listbox"
+                        >
+                          <li
+                            aria-selected="false"
+                            class="c23"
+                            data-testid="dsr-search-option"
+                            data-value="GX Series"
+                            role="option"
+                          >
+                            GX Series
+                          </li>
+                          <li
+                            aria-selected="false"
+                            class="c23"
+                            data-testid="dsr-search-option"
+                            data-value="Mini 4-Stroke"
+                            role="option"
+                          >
+                            Mini 4-Stroke
+                          </li>
+                          <li
+                            aria-selected="false"
+                            class="c23"
+                            data-testid="dsr-search-option"
+                            data-value="V-Twin Series"
+                            role="option"
+                          >
+                            V-Twin Series
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div
+                      class="c15"
+                      data-testid="product-name-wrapper"
+                      width="100%"
+                    >
+                      <label
+                        class="c24"
+                        data-testid="product-name-label"
+                      >
+                        Shared.Common.productName
+                      </label>
+                      <div
+                        aria-label="Shared.Common.productNameAria"
+                        class="c25 sc-1k44dfv-0 c18"
+                        data-testid="dsr-dropdown-container"
+                        disabled=""
+                        tabindex="0"
+                      >
+                        <div
+                          aria-expanded="false"
+                          aria-haspopup="listbox"
+                          class="sc-1k44dfv-0 c26"
+                          data-testid="button"
+                          disabled=""
+                          id="name-3"
+                          role="button"
+                        >
+                          <span
+                            class="sc-1k44dfv-0 c27"
+                            color="typographyDefault"
+                            data-testid="select-text"
+                            disabled=""
+                            font-family="default"
+                            font-weight="regular"
+                          >
+                            Select
+                          </span>
+                          <div
+                            class="c21"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c29"
+          >
+            <div
+              aria-label="Shared.Common.previousSlideAria"
+              class="c30"
+              data-testid="arrow-left"
+              role="button"
+              tabindex="0"
+            />
+            <div
+              class="c31"
+            >
+              <button
+                aria-label="0"
+                class="c32"
+                data-testid="step1"
+                role="button"
+              />
+              <button
+                aria-label="1"
+                class="c33"
+                data-testid="step2"
+                role="button"
+              />
+              <button
+                aria-label="2"
+                class="c33"
+                data-testid="step3"
+                role="button"
+              />
+              <button
+                aria-label="3"
+                class="c33"
+                data-testid="step4"
+                role="button"
+              />
+            </div>
+            <div
+              aria-label="Shared.Common.nextSlideAria"
+              class="c34"
+              data-testid="arrow-right"
+              role="button"
+              tabindex="0"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="fresnel-container fresnel-greaterThan-smallDesktop c6"
+      style="padding-bottom: 0px;"
+    >
+      <div
+        class="c9"
+      >
+        <div
+          class="c7 c8"
+          display="flex"
+          width="100%"
+        >
+          <div
+            class="c35"
+            width="0.2"
+          />
+          <div
+            class="c13"
+            data-testid="product-compare-column0"
+            width="1,1,0.2"
+          >
+            <div
+              class="c14"
+            >
+              <div
+                class="c15"
+                data-testid="product-series-wrapper"
+                width="100%"
+              >
+                <label
+                  class="c16"
+                  data-testid="product-series-label"
+                >
+                  Shared.Common.productCategoryLabel
+                </label>
+                <div
+                  aria-label="Shared.Common.productCategoryAria"
+                  class="c17 sc-1k44dfv-0 c18"
+                  data-testid="dsr-dropdown-container"
+                  tabindex="0"
+                >
+                  <div
+                    aria-expanded="false"
+                    aria-haspopup="listbox"
+                    class="sc-1k44dfv-0 c19"
+                    data-testid="button"
+                    id="series-0"
+                    role="button"
+                  >
+                    <span
+                      class="sc-1k44dfv-0 c20"
+                      color="typographyDefault"
+                      data-testid="select-text"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Select
+                    </span>
+                    <div
+                      class="c21"
+                    />
+                  </div>
+                  <ul
+                    aria-label="Shared.Common.productCategoryAria"
+                    class="c22"
+                    role="listbox"
+                  >
+                    <li
+                      aria-selected="false"
+                      class="c23"
+                      data-testid="dsr-search-option"
+                      data-value="GX Series"
+                      role="option"
+                    >
+                      GX Series
+                    </li>
+                    <li
+                      aria-selected="false"
+                      class="c23"
+                      data-testid="dsr-search-option"
+                      data-value="Mini 4-Stroke"
+                      role="option"
+                    >
+                      Mini 4-Stroke
+                    </li>
+                    <li
+                      aria-selected="false"
+                      class="c23"
+                      data-testid="dsr-search-option"
+                      data-value="V-Twin Series"
+                      role="option"
+                    >
+                      V-Twin Series
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                class="c15"
+                data-testid="product-name-wrapper"
+                width="100%"
+              >
+                <label
+                  class="c24"
+                  data-testid="product-name-label"
+                >
+                  Shared.Common.productName
+                </label>
+                <div
+                  aria-label="Shared.Common.productNameAria"
+                  class="c25 sc-1k44dfv-0 c18"
+                  data-testid="dsr-dropdown-container"
+                  disabled=""
+                  tabindex="0"
+                >
+                  <div
+                    aria-expanded="false"
+                    aria-haspopup="listbox"
+                    class="sc-1k44dfv-0 c26"
+                    data-testid="button"
+                    disabled=""
+                    id="name-0"
+                    role="button"
+                  >
+                    <span
+                      class="sc-1k44dfv-0 c27"
+                      color="typographyDefault"
+                      data-testid="select-text"
+                      disabled=""
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Select
+                    </span>
+                    <div
+                      class="c21"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c13"
+            data-testid="product-compare-column1"
+            width="1,1,0.2"
+          >
+            <div
+              class="c14"
+            >
+              <div
+                class="c15"
+                data-testid="product-series-wrapper"
+                width="100%"
+              >
+                <label
+                  class="c16"
+                  data-testid="product-series-label"
+                >
+                  Shared.Common.productCategoryLabel
+                </label>
+                <div
+                  aria-label="Shared.Common.productCategoryAria"
+                  class="c17 sc-1k44dfv-0 c18"
+                  data-testid="dsr-dropdown-container"
+                  tabindex="0"
+                >
+                  <div
+                    aria-expanded="false"
+                    aria-haspopup="listbox"
+                    class="sc-1k44dfv-0 c19"
+                    data-testid="button"
+                    id="series-1"
+                    role="button"
+                  >
+                    <span
+                      class="sc-1k44dfv-0 c20"
+                      color="typographyDefault"
+                      data-testid="select-text"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Select
+                    </span>
+                    <div
+                      class="c21"
+                    />
+                  </div>
+                  <ul
+                    aria-label="Shared.Common.productCategoryAria"
+                    class="c22"
+                    role="listbox"
+                  >
+                    <li
+                      aria-selected="false"
+                      class="c23"
+                      data-testid="dsr-search-option"
+                      data-value="GX Series"
+                      role="option"
+                    >
+                      GX Series
+                    </li>
+                    <li
+                      aria-selected="false"
+                      class="c23"
+                      data-testid="dsr-search-option"
+                      data-value="Mini 4-Stroke"
+                      role="option"
+                    >
+                      Mini 4-Stroke
+                    </li>
+                    <li
+                      aria-selected="false"
+                      class="c23"
+                      data-testid="dsr-search-option"
+                      data-value="V-Twin Series"
+                      role="option"
+                    >
+                      V-Twin Series
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                class="c15"
+                data-testid="product-name-wrapper"
+                width="100%"
+              >
+                <label
+                  class="c24"
+                  data-testid="product-name-label"
+                >
+                  Shared.Common.productName
+                </label>
+                <div
+                  aria-label="Shared.Common.productNameAria"
+                  class="c25 sc-1k44dfv-0 c18"
+                  data-testid="dsr-dropdown-container"
+                  disabled=""
+                  tabindex="0"
+                >
+                  <div
+                    aria-expanded="false"
+                    aria-haspopup="listbox"
+                    class="sc-1k44dfv-0 c26"
+                    data-testid="button"
+                    disabled=""
+                    id="name-1"
+                    role="button"
+                  >
+                    <span
+                      class="sc-1k44dfv-0 c27"
+                      color="typographyDefault"
+                      data-testid="select-text"
+                      disabled=""
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Select
+                    </span>
+                    <div
+                      class="c21"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c13"
+            data-testid="product-compare-column2"
+            width="1,1,0.2"
+          >
+            <div
+              class="c14"
+            >
+              <div
+                class="c15"
+                data-testid="product-series-wrapper"
+                width="100%"
+              >
+                <label
+                  class="c16"
+                  data-testid="product-series-label"
+                >
+                  Shared.Common.productCategoryLabel
+                </label>
+                <div
+                  aria-label="Shared.Common.productCategoryAria"
+                  class="c17 sc-1k44dfv-0 c18"
+                  data-testid="dsr-dropdown-container"
+                  tabindex="0"
+                >
+                  <div
+                    aria-expanded="false"
+                    aria-haspopup="listbox"
+                    class="sc-1k44dfv-0 c19"
+                    data-testid="button"
+                    id="series-2"
+                    role="button"
+                  >
+                    <span
+                      class="sc-1k44dfv-0 c20"
+                      color="typographyDefault"
+                      data-testid="select-text"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Select
+                    </span>
+                    <div
+                      class="c21"
+                    />
+                  </div>
+                  <ul
+                    aria-label="Shared.Common.productCategoryAria"
+                    class="c22"
+                    role="listbox"
+                  >
+                    <li
+                      aria-selected="false"
+                      class="c23"
+                      data-testid="dsr-search-option"
+                      data-value="GX Series"
+                      role="option"
+                    >
+                      GX Series
+                    </li>
+                    <li
+                      aria-selected="false"
+                      class="c23"
+                      data-testid="dsr-search-option"
+                      data-value="Mini 4-Stroke"
+                      role="option"
+                    >
+                      Mini 4-Stroke
+                    </li>
+                    <li
+                      aria-selected="false"
+                      class="c23"
+                      data-testid="dsr-search-option"
+                      data-value="V-Twin Series"
+                      role="option"
+                    >
+                      V-Twin Series
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                class="c15"
+                data-testid="product-name-wrapper"
+                width="100%"
+              >
+                <label
+                  class="c24"
+                  data-testid="product-name-label"
+                >
+                  Shared.Common.productName
+                </label>
+                <div
+                  aria-label="Shared.Common.productNameAria"
+                  class="c25 sc-1k44dfv-0 c18"
+                  data-testid="dsr-dropdown-container"
+                  disabled=""
+                  tabindex="0"
+                >
+                  <div
+                    aria-expanded="false"
+                    aria-haspopup="listbox"
+                    class="sc-1k44dfv-0 c26"
+                    data-testid="button"
+                    disabled=""
+                    id="name-2"
+                    role="button"
+                  >
+                    <span
+                      class="sc-1k44dfv-0 c27"
+                      color="typographyDefault"
+                      data-testid="select-text"
+                      disabled=""
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Select
+                    </span>
+                    <div
+                      class="c21"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c13"
+            data-testid="product-compare-column3"
+            width="1,1,0.2"
+          >
+            <div
+              class="c14"
+            >
+              <div
+                class="c15"
+                data-testid="product-series-wrapper"
+                width="100%"
+              >
+                <label
+                  class="c16"
+                  data-testid="product-series-label"
+                >
+                  Shared.Common.productCategoryLabel
+                </label>
+                <div
+                  aria-label="Shared.Common.productCategoryAria"
+                  class="c17 sc-1k44dfv-0 c18"
+                  data-testid="dsr-dropdown-container"
+                  tabindex="0"
+                >
+                  <div
+                    aria-expanded="false"
+                    aria-haspopup="listbox"
+                    class="sc-1k44dfv-0 c19"
+                    data-testid="button"
+                    id="series-3"
+                    role="button"
+                  >
+                    <span
+                      class="sc-1k44dfv-0 c20"
+                      color="typographyDefault"
+                      data-testid="select-text"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Select
+                    </span>
+                    <div
+                      class="c21"
+                    />
+                  </div>
+                  <ul
+                    aria-label="Shared.Common.productCategoryAria"
+                    class="c22"
+                    role="listbox"
+                  >
+                    <li
+                      aria-selected="false"
+                      class="c23"
+                      data-testid="dsr-search-option"
+                      data-value="GX Series"
+                      role="option"
+                    >
+                      GX Series
+                    </li>
+                    <li
+                      aria-selected="false"
+                      class="c23"
+                      data-testid="dsr-search-option"
+                      data-value="Mini 4-Stroke"
+                      role="option"
+                    >
+                      Mini 4-Stroke
+                    </li>
+                    <li
+                      aria-selected="false"
+                      class="c23"
+                      data-testid="dsr-search-option"
+                      data-value="V-Twin Series"
+                      role="option"
+                    >
+                      V-Twin Series
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                class="c15"
+                data-testid="product-name-wrapper"
+                width="100%"
+              >
+                <label
+                  class="c24"
+                  data-testid="product-name-label"
+                >
+                  Shared.Common.productName
+                </label>
+                <div
+                  aria-label="Shared.Common.productNameAria"
+                  class="c25 sc-1k44dfv-0 c18"
+                  data-testid="dsr-dropdown-container"
+                  disabled=""
+                  tabindex="0"
+                >
+                  <div
+                    aria-expanded="false"
+                    aria-haspopup="listbox"
+                    class="sc-1k44dfv-0 c26"
+                    data-testid="button"
+                    disabled=""
+                    id="name-3"
+                    role="button"
+                  >
+                    <span
+                      class="sc-1k44dfv-0 c27"
+                      color="typographyDefault"
+                      data-testid="select-text"
+                      disabled=""
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Select
+                    </span>
+                    <div
+                      class="c21"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p
+      class="sc-1k44dfv-0 c36"
+      color="typographyDefault"
+      data-testid="compare-no-selection-text"
+      display="flex"
+      font-family="default"
+      font-weight="regular"
+    >
+      Shared.Common.selectProductsToCompareLabel
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<ProductCompare> should render PSP product compare without errors 1`] = `
+.c7 {
+  width: 100%;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+}
+
+.c15 {
+  width: 100%;
+}
+
+.c0 {
+  max-width: maxWidth;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: l;
+  padding-left: 0;
+  padding-right: 0;
+  overflow-x: clip;
+}
+
+.c1 {
+  margin-bottom: s;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 24px;
+}
+
+.c2 {
+  color: #2C2C2C;
+  font-family: Roboto;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: normal;
+  margin-bottom: xs;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.c3 {
+  color: #2C2C2C;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+}
+
+.c8 {
+  border-bottom: 1px solid;
+  border-color: #EAEAEA;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 0;
+}
+
+.c9 {
+  max-width: 1280px;
+  width: 100%;
+  box-shadow: 0;
+  background: white;
+  left: 0;
+  z-index: 1;
+  -webkit-transition: opacity .6s ease-in;
+  transition: opacity .6s ease-in;
+}
+
+.c9 >div {
+  overflow: visible;
+}
+
+.c10 {
+  width: 100%;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: fadein;
+  animation: fadein;
+  -webkit-animation-duration: 0.6s;
+  animation-duration: 0.6s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-transform: translateX(0%);
+  -ms-transform: translateX(0%);
+  transform: translateX(0%);
+  -webkit-transition: -webkit-transform;
+  -webkit-transition: transform;
+  transition: transform;
+  -webkit-transition-duration: t5;
+  transition-duration: t5;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+.c12 {
+  position: relative;
+  -webkit-flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  -webkit-transition: opacity;
+  transition: opacity;
+  -webkit-transition-duration: t3;
+  transition-duration: t3;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  pointer-events: auto;
+  opacity: 1;
+  visibility: visible;
+}
+
+.c13 {
+  width: 100%;
+  padding-left: columnGap.0;
+  padding-right: columnGap.0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding-left: m;
+  padding-right: m;
+  height: 100%;
+  border: none;
+}
+
+.c16 {
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+}
+
+.c16:focus {
+  outline: transparent;
+}
+
+.c16:focus div:first-of-type:after {
+  height: 2px;
+}
+
+.c18 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+  color: #2C2C2C;
+  font-family: Helvetica;
+  font-weight: normal;
+  line-height: 22px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  background-color: #F5F5F5;
+  background-color: #fff;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: normal;
+}
+
+.c18::-ms-clear {
+  display: none;
+}
+
+.c18::-webkit-input-placeholder {
+  color: #707070;
+}
+
+.c18::-moz-placeholder {
+  color: #707070;
+}
+
+.c18:-ms-input-placeholder {
+  color: #707070;
+}
+
+.c18::placeholder {
+  color: #707070;
+}
+
+.c18:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  background-color: #2C2C2C;
+}
+
+.c18:after {
+  height: 1px;
+}
+
+.c19 {
+  margin: 0;
+  color: #2C2C2C;
+  font-weight: normal;
+  font-family: Helvetica;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  height: small;
+}
+
+.c21 {
+  max-height: 0px;
+  width: 100%;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-duration: t4;
+  transition-duration: t4;
+  position: absolute;
+  top: 46px;
+  overflow: hidden;
+  outline: none;
+  z-index: options;
+}
+
+.c21 li {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.c22 {
+  font-size: 14px;
+  padding: 15px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-text-size-adjust: 100%;
+  background-color: #F8F8F8;
+  color: #2C2C2C;
+  font-family: Helvetica;
+  font-weight: normal;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid;
+  border-color: #D5D5D5;
+}
+
+.c22:hover {
+  background-color: #EAEAEA;
+}
+
+.c22.focusVisible {
+  outline: undefined undefined;
+}
+
+.c22:hover {
+  font-family: Cooper Black;
+}
+
+.c23 {
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+  pointer-events: none;
+}
+
+.c23:focus {
+  outline: transparent;
+}
+
+.c23:focus div:first-of-type:after {
+  height: 2px;
+}
+
+.c24 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+  color: #2C2C2C;
+  font-family: Helvetica;
+  font-weight: normal;
+  line-height: 22px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  background-color: #F5F5F5;
+  background-color: #fff;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: normal;
+}
+
+.c24::-ms-clear {
+  display: none;
+}
+
+.c24::-webkit-input-placeholder {
+  color: #707070;
+}
+
+.c24::-moz-placeholder {
+  color: #707070;
+}
+
+.c24:-ms-input-placeholder {
+  color: #707070;
+}
+
+.c24::placeholder {
+  color: #707070;
+}
+
+.c24:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  background-color: #2C2C2C;
+}
+
+.c24:after {
+  height: 1px;
+}
+
+.c24:after {
+  background-color: #C7C7C7;
+}
+
+.c24 svg path {
+  stroke: #C7C7C7;
+}
+
+.c25 {
+  margin: 0;
+  color: #2C2C2C;
+  font-weight: normal;
+  font-family: Helvetica;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  height: small;
+  color: #707070;
+}
+
+.c26 {
+  position: relative;
+  -webkit-flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  -webkit-transition: opacity;
+  transition: opacity;
+  -webkit-transition-duration: t3;
+  transition-duration: t3;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+.c27 {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: m;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  height: 48px;
+  box-shadow: none;
+  bottom: 0;
+  background-color: #fff;
+}
+
+.c28 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  background-color: #fff;
+  width: iconWrapper.md;
+  height: iconWrapper.md;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 0.5;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.c28:focus {
+  border: transparent;
+}
+
+.c29 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c30 {
+  min-width: 40px;
+  height: 4px;
+  width: 48px;
+  margin-right: 8px;
+  padding: 0;
+  border-radius: 0;
+  border: none;
+  cursor: pointer;
+  cursor: pointer;
+  min-width: 5px;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: #DA2C2E;
+}
+
+.c30:last-child {
+  margin-right: 0;
+}
+
+.c31 {
+  min-width: 40px;
+  height: 4px;
+  width: 48px;
+  margin-right: 8px;
+  padding: 0;
+  border-radius: 0;
+  border: none;
+  cursor: pointer;
+  cursor: pointer;
+  min-width: 5px;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: #707070;
+}
+
+.c31:last-child {
+  margin-right: 0;
+}
+
+.c32 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  background-color: #fff;
+  width: iconWrapper.md;
+  height: iconWrapper.md;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 1;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.c32:focus {
+  border: transparent;
+}
+
+.c33 {
+  width: 20%;
+  padding-left: columnGap.0;
+  padding-right: columnGap.0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding-left: m;
+  padding-right: m;
+  border: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c34 {
+  margin: 0;
+  color: #2C2C2C;
+  margin-top: xl;
+  margin-bottom: huge;
+  font-weight: normal;
+  font-family: Helvetica;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+  font: default;
+  font-size: 16px;
+}
+
+.c6 {
+  top: 45px;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 210;
+}
+
+.c14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 380px;
+  margin: 0 auto;
+  padding-top: l;
+  padding-left: xl;
+  padding-right: xl;
+}
+
+.c17 {
+  margin-bottom: l;
+  margin-bottom: m;
+}
+
+.c17 >div {
+  background: #fff;
+}
+
+.c17 >div >span {
+  text-overflow: ellipsis;
+  word-break: break-word;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.c17 >ul >li {
+  white-space: normal;
+  line-height: 24px;
+}
+
+.c20 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: iconWrapper.md;
+  height: iconWrapper.md;
+}
+
+.c5 {
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border: 1px solid;
+  min-width: 220px;
+  height: 45px;
+  border-radius: 50px;
+  -webkit-transition: color 0.3s ease,background-color 0.3s ease;
+  transition: color 0.3s ease,background-color 0.3s ease;
+  text-transform: uppercase;
+  font-size: 13px;
+  overflow: visible;
+  padding-top: s;
+  padding-bottom: s;
+  padding-left: default;
+  padding-right: default;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  padding-left: zero;
+  padding-right: zero;
+  font-family: Roboto;
+  border-radius: 3px;
+  line-height: 20px;
+  background-color: #fff;
+  border-color: #2C2C2C;
+  color: #2C2C2C;
+}
+
+.c5::before {
+  content: none;
+  position: absolute;
+  top: -3px;
+  bottom: -3px;
+  left: -3px;
+  right: -3px;
+  border: 1px solid;
+}
+
+.c5::-moz-focus-inner {
+  border: 0;
+}
+
+.c5 > a,
+.c5 > a:hover,
+.c5 > button {
+  color: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+}
+
+.c5::before {
+  border-radius: 3px;
+}
+
+.c5:hover {
+  background-color: #2C2C2C;
+  border-color: #2C2C2C;
+  color: #fff;
+}
+
+.c5:focus,
+.c5:focus-visible {
+  outline: transparent;
+}
+
+.c5:focus::before,
+.c5:focus-visible::before {
+  content: "";
+  border-color: #2C2C2C;
+}
+
+.c5:disabled {
+  cursor: default;
+  background-color: #fff;
+  border-color: #C7C7C7;
+  color: #C7C7C7;
+}
+
+.c4 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  background: none;
+  display: inline-block;
+  cursor: pointer;
+  padding-left: 0;
+  padding-right: 0;
+  line-height: 22px;
+  font-size: 14px;
+  border-bottom: 1px solid transparent;
+  font-family: Cooper Black;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+  -webkit-transition: border-bottom 0.3s ease;
+  transition: border-bottom 0.3s ease;
+  color: #2C2C2C;
+  line-height: 16px;
+  color: #2C2C2C;
+}
+
+.c4 > a,
+.c4 > a:hover {
+  color: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+}
+
+.c4:hover,
+.c4:focus {
+  border-bottom: 1px solid;
+  outline: transparent;
+}
+
+.c4:hover,
+.c4:focus {
+  border-color: #DA2C2E;
+}
+
+@media screen and (min-width:768px) {
+  .c0 {
+    padding-top: big;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c0 {
+    padding-left: m;
+    padding-right: m;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c1 {
+    margin-bottom: s;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 0 24px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c1 {
+    margin-bottom: xl;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c2 {
+    font-size: 68px;
+    line-height: 74px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c2 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c2 {
+    font-size: 68px;
+    line-height: 74px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c8 {
+    -webkit-flex-wrap: none;
+    -ms-flex-wrap: none;
+    flex-wrap: none;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c9 {
+    left: auto;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c13 {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c13 {
+    width: 20%;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c13 {
+    padding-left: columnGap.1;
+    padding-right: columnGap.1;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c13 {
+    padding-left: m;
+    padding-right: m;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c13 {
+    padding-left: m;
+    padding-right: m;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c18 {
+    line-height: 24px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c24 {
+    line-height: 24px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c33 {
+    padding-left: columnGap.1;
+    padding-right: columnGap.1;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c33 {
+    padding-left: m;
+    padding-right: m;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c33 {
+    padding-left: m;
+    padding-right: m;
+    display: block;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c6 {
+    top: 45px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c6 {
+    top: calc(104px - 1px);
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c14 {
+    padding-top: l;
+    padding-left: s;
+    padding-right: s;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c14 {
+    padding-top: m;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+    data-testid="cy-product-compare"
+  >
+    <div
+      class="c1"
+    >
+      <h1
+        class="sc-1k44dfv-0 c2"
+        data-testid="compare-title"
+      >
+        Compare Motorcycles
+      </h1>
+      <div
+        class="fresnel-container fresnel-lessThan-desktop "
+      >
+        <a
+          class="c3 c4"
+          color="typographyDefault"
+          data-testid="mobile-go-back-button"
+          href="#"
+        >
+          Shared.CompareTrims.goBackButton
+        </a>
+      </div>
+      <div
+        class="fresnel-container fresnel-greaterThanOrEqual-desktop "
+      >
+        <button
+          class="c5"
+          data-testid="dsr-button-component"
+          style="min-width: 140px;"
+        >
+          Shared.CompareTrims.goBackButton
+        </button>
+      </div>
+    </div>
+    <div
+      class="fresnel-container fresnel-lessThan-desktop c6"
+    >
+      <div
+        class="c7 c8"
+        display="flex"
+        width="100%"
+      >
+        <div
+          class="c9"
+        >
+          <div
+            class="c10"
+          >
+            <div
+              aria-live="polite"
+              class="c11"
+            >
+              <div
+                class="c12"
+              >
+                <div
+                  class="c13"
+                  data-testid="product-compare-column0"
+                  width="1,1,0.2"
+                >
+                  <div
+                    class="c14"
+                  >
+                    <div
+                      class="c15"
+                      data-testid="product-category-wrapper"
+                      width="100%"
+                    >
+                      <div
+                        aria-label="category-aria"
+                        class="c16 sc-1k44dfv-0 c17"
+                        data-testid="dsr-dropdown-container"
+                        tabindex="0"
+                      >
+                        <div
+                          aria-expanded="false"
+                          aria-haspopup="listbox"
+                          class="sc-1k44dfv-0 c18"
+                          data-testid="button"
+                          id="category-0"
+                          role="button"
+                        >
+                          <span
+                            class="sc-1k44dfv-0 c19"
+                            color="typographyDefault"
+                            data-testid="select-text"
+                            font-family="default"
+                            font-weight="regular"
+                          >
+                            Shared.CompareTrims.categoryLabel
+                          </span>
+                          <div
+                            class="c20"
+                          />
+                        </div>
+                        <ul
+                          aria-label="category-aria"
+                          class="c21"
+                          role="listbox"
+                        >
+                          <li
+                            aria-selected="false"
+                            class="c22"
+                            data-testid="dsr-search-option"
+                            data-value="Cruiser"
+                            role="option"
+                          >
+                            Cruiser
+                          </li>
+                          <li
+                            aria-selected="false"
+                            class="c22"
+                            data-testid="dsr-search-option"
+                            data-value="Touring"
+                            role="option"
+                          >
+                            Touring
+                          </li>
+                          <li
+                            aria-selected="false"
+                            class="c22"
+                            data-testid="dsr-search-option"
+                            data-value="Dirt Bikes"
+                            role="option"
+                          >
+                            DirtBikes
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div
+                      class="c15"
+                      data-testid="product-year-wrapper"
+                      width="100%"
+                    >
+                      <div
+                        aria-label="year-aria"
+                        class="c23 sc-1k44dfv-0 c17"
+                        data-testid="dsr-dropdown-container"
+                        disabled=""
+                        tabindex="0"
+                      >
+                        <div
+                          aria-expanded="false"
+                          aria-haspopup="listbox"
+                          class="sc-1k44dfv-0 c24"
+                          data-testid="button"
+                          disabled=""
+                          id="year-0"
+                          role="button"
+                        >
+                          <span
+                            class="sc-1k44dfv-0 c25"
+                            color="typographyDefault"
+                            data-testid="select-text"
+                            disabled=""
+                            font-family="default"
+                            font-weight="regular"
+                          >
+                            Shared.CompareTrims.yearLabel
+                          </span>
+                          <div
+                            class="c20"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="c15"
+                      data-testid="product-model-wrapper"
+                      width="100%"
+                    >
+                      <div
+                        aria-label="model-aria"
+                        class="c23 sc-1k44dfv-0 c17"
+                        data-testid="dsr-dropdown-container"
+                        disabled=""
+                        tabindex="0"
+                      >
+                        <div
+                          aria-expanded="false"
+                          aria-haspopup="listbox"
+                          class="sc-1k44dfv-0 c24"
+                          data-testid="button"
+                          disabled=""
+                          id="model-0"
+                          role="button"
+                        >
+                          <span
+                            class="sc-1k44dfv-0 c25"
+                            color="typographyDefault"
+                            data-testid="select-text"
+                            disabled=""
+                            font-family="default"
+                            font-weight="regular"
+                          >
+                            Shared.CompareTrims.modelLabel
+                          </span>
+                          <div
+                            class="c20"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="c15"
+                      data-testid="product-transmission-wrapper"
+                      width="100%"
+                    >
+                      <div
+                        aria-label="transmission-aria"
+                        class="c23 sc-1k44dfv-0 c17"
+                        data-testid="dsr-dropdown-container"
+                        disabled=""
+                        tabindex="0"
+                      >
+                        <div
+                          aria-expanded="false"
+                          aria-haspopup="listbox"
+                          class="sc-1k44dfv-0 c24"
+                          data-testid="button"
+                          disabled=""
+                          id="transmission-0"
+                          role="button"
+                        >
+                          <span
+                            class="sc-1k44dfv-0 c25"
+                            color="typographyDefault"
+                            data-testid="select-text"
+                            disabled=""
+                            font-family="default"
+                            font-weight="regular"
+                          >
+                            Shared.CompareTrims.transmissionLabel
+                          </span>
+                          <div
+                            class="c20"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c26"
+              >
+                <div
+                  class="c13"
+                  data-testid="product-compare-column1"
+                  width="1,1,0.2"
+                >
+                  <div
+                    class="c14"
+                  >
+                    <div
+                      class="c15"
+                      data-testid="product-category-wrapper"
+                      width="100%"
+                    >
+                      <div
+                        aria-label="category-aria"
+                        class="c16 sc-1k44dfv-0 c17"
+                        data-testid="dsr-dropdown-container"
+                        tabindex="0"
+                      >
+                        <div
+                          aria-expanded="false"
+                          aria-haspopup="listbox"
+                          class="sc-1k44dfv-0 c18"
+                          data-testid="button"
+                          id="category-1"
+                          role="button"
+                        >
+                          <span
+                            class="sc-1k44dfv-0 c19"
+                            color="typographyDefault"
+                            data-testid="select-text"
+                            font-family="default"
+                            font-weight="regular"
+                          >
+                            Shared.CompareTrims.categoryLabel
+                          </span>
+                          <div
+                            class="c20"
+                          />
+                        </div>
+                        <ul
+                          aria-label="category-aria"
+                          class="c21"
+                          role="listbox"
+                        >
+                          <li
+                            aria-selected="false"
+                            class="c22"
+                            data-testid="dsr-search-option"
+                            data-value="Cruiser"
+                            role="option"
+                          >
+                            Cruiser
+                          </li>
+                          <li
+                            aria-selected="false"
+                            class="c22"
+                            data-testid="dsr-search-option"
+                            data-value="Touring"
+                            role="option"
+                          >
+                            Touring
+                          </li>
+                          <li
+                            aria-selected="false"
+                            class="c22"
+                            data-testid="dsr-search-option"
+                            data-value="Dirt Bikes"
+                            role="option"
+                          >
+                            DirtBikes
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div
+                      class="c15"
+                      data-testid="product-year-wrapper"
+                      width="100%"
+                    >
+                      <div
+                        aria-label="year-aria"
+                        class="c23 sc-1k44dfv-0 c17"
+                        data-testid="dsr-dropdown-container"
+                        disabled=""
+                        tabindex="0"
+                      >
+                        <div
+                          aria-expanded="false"
+                          aria-haspopup="listbox"
+                          class="sc-1k44dfv-0 c24"
+                          data-testid="button"
+                          disabled=""
+                          id="year-1"
+                          role="button"
+                        >
+                          <span
+                            class="sc-1k44dfv-0 c25"
+                            color="typographyDefault"
+                            data-testid="select-text"
+                            disabled=""
+                            font-family="default"
+                            font-weight="regular"
+                          >
+                            Shared.CompareTrims.yearLabel
+                          </span>
+                          <div
+                            class="c20"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="c15"
+                      data-testid="product-model-wrapper"
+                      width="100%"
+                    >
+                      <div
+                        aria-label="model-aria"
+                        class="c23 sc-1k44dfv-0 c17"
+                        data-testid="dsr-dropdown-container"
+                        disabled=""
+                        tabindex="0"
+                      >
+                        <div
+                          aria-expanded="false"
+                          aria-haspopup="listbox"
+                          class="sc-1k44dfv-0 c24"
+                          data-testid="button"
+                          disabled=""
+                          id="model-1"
+                          role="button"
+                        >
+                          <span
+                            class="sc-1k44dfv-0 c25"
+                            color="typographyDefault"
+                            data-testid="select-text"
+                            disabled=""
+                            font-family="default"
+                            font-weight="regular"
+                          >
+                            Shared.CompareTrims.modelLabel
+                          </span>
+                          <div
+                            class="c20"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="c15"
+                      data-testid="product-transmission-wrapper"
+                      width="100%"
+                    >
+                      <div
+                        aria-label="transmission-aria"
+                        class="c23 sc-1k44dfv-0 c17"
+                        data-testid="dsr-dropdown-container"
+                        disabled=""
+                        tabindex="0"
+                      >
+                        <div
+                          aria-expanded="false"
+                          aria-haspopup="listbox"
+                          class="sc-1k44dfv-0 c24"
+                          data-testid="button"
+                          disabled=""
+                          id="transmission-1"
+                          role="button"
+                        >
+                          <span
+                            class="sc-1k44dfv-0 c25"
+                            color="typographyDefault"
+                            data-testid="select-text"
+                            disabled=""
+                            font-family="default"
+                            font-weight="regular"
+                          >
+                            Shared.CompareTrims.transmissionLabel
+                          </span>
+                          <div
+                            class="c20"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c26"
+              >
+                <div
+                  class="c13"
+                  data-testid="product-compare-column2"
+                  width="1,1,0.2"
+                >
+                  <div
+                    class="c14"
+                  >
+                    <div
+                      class="c15"
+                      data-testid="product-category-wrapper"
+                      width="100%"
+                    >
+                      <div
+                        aria-label="category-aria"
+                        class="c16 sc-1k44dfv-0 c17"
+                        data-testid="dsr-dropdown-container"
+                        tabindex="0"
+                      >
+                        <div
+                          aria-expanded="false"
+                          aria-haspopup="listbox"
+                          class="sc-1k44dfv-0 c18"
+                          data-testid="button"
+                          id="category-2"
+                          role="button"
+                        >
+                          <span
+                            class="sc-1k44dfv-0 c19"
+                            color="typographyDefault"
+                            data-testid="select-text"
+                            font-family="default"
+                            font-weight="regular"
+                          >
+                            Shared.CompareTrims.categoryLabel
+                          </span>
+                          <div
+                            class="c20"
+                          />
+                        </div>
+                        <ul
+                          aria-label="category-aria"
+                          class="c21"
+                          role="listbox"
+                        >
+                          <li
+                            aria-selected="false"
+                            class="c22"
+                            data-testid="dsr-search-option"
+                            data-value="Cruiser"
+                            role="option"
+                          >
+                            Cruiser
+                          </li>
+                          <li
+                            aria-selected="false"
+                            class="c22"
+                            data-testid="dsr-search-option"
+                            data-value="Touring"
+                            role="option"
+                          >
+                            Touring
+                          </li>
+                          <li
+                            aria-selected="false"
+                            class="c22"
+                            data-testid="dsr-search-option"
+                            data-value="Dirt Bikes"
+                            role="option"
+                          >
+                            DirtBikes
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div
+                      class="c15"
+                      data-testid="product-year-wrapper"
+                      width="100%"
+                    >
+                      <div
+                        aria-label="year-aria"
+                        class="c23 sc-1k44dfv-0 c17"
+                        data-testid="dsr-dropdown-container"
+                        disabled=""
+                        tabindex="0"
+                      >
+                        <div
+                          aria-expanded="false"
+                          aria-haspopup="listbox"
+                          class="sc-1k44dfv-0 c24"
+                          data-testid="button"
+                          disabled=""
+                          id="year-2"
+                          role="button"
+                        >
+                          <span
+                            class="sc-1k44dfv-0 c25"
+                            color="typographyDefault"
+                            data-testid="select-text"
+                            disabled=""
+                            font-family="default"
+                            font-weight="regular"
+                          >
+                            Shared.CompareTrims.yearLabel
+                          </span>
+                          <div
+                            class="c20"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="c15"
+                      data-testid="product-model-wrapper"
+                      width="100%"
+                    >
+                      <div
+                        aria-label="model-aria"
+                        class="c23 sc-1k44dfv-0 c17"
+                        data-testid="dsr-dropdown-container"
+                        disabled=""
+                        tabindex="0"
+                      >
+                        <div
+                          aria-expanded="false"
+                          aria-haspopup="listbox"
+                          class="sc-1k44dfv-0 c24"
+                          data-testid="button"
+                          disabled=""
+                          id="model-2"
+                          role="button"
+                        >
+                          <span
+                            class="sc-1k44dfv-0 c25"
+                            color="typographyDefault"
+                            data-testid="select-text"
+                            disabled=""
+                            font-family="default"
+                            font-weight="regular"
+                          >
+                            Shared.CompareTrims.modelLabel
+                          </span>
+                          <div
+                            class="c20"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="c15"
+                      data-testid="product-transmission-wrapper"
+                      width="100%"
+                    >
+                      <div
+                        aria-label="transmission-aria"
+                        class="c23 sc-1k44dfv-0 c17"
+                        data-testid="dsr-dropdown-container"
+                        disabled=""
+                        tabindex="0"
+                      >
+                        <div
+                          aria-expanded="false"
+                          aria-haspopup="listbox"
+                          class="sc-1k44dfv-0 c24"
+                          data-testid="button"
+                          disabled=""
+                          id="transmission-2"
+                          role="button"
+                        >
+                          <span
+                            class="sc-1k44dfv-0 c25"
+                            color="typographyDefault"
+                            data-testid="select-text"
+                            disabled=""
+                            font-family="default"
+                            font-weight="regular"
+                          >
+                            Shared.CompareTrims.transmissionLabel
+                          </span>
+                          <div
+                            class="c20"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c26"
+              >
+                <div
+                  class="c13"
+                  data-testid="product-compare-column3"
+                  width="1,1,0.2"
+                >
+                  <div
+                    class="c14"
+                  >
+                    <div
+                      class="c15"
+                      data-testid="product-category-wrapper"
+                      width="100%"
+                    >
+                      <div
+                        aria-label="category-aria"
+                        class="c16 sc-1k44dfv-0 c17"
+                        data-testid="dsr-dropdown-container"
+                        tabindex="0"
+                      >
+                        <div
+                          aria-expanded="false"
+                          aria-haspopup="listbox"
+                          class="sc-1k44dfv-0 c18"
+                          data-testid="button"
+                          id="category-3"
+                          role="button"
+                        >
+                          <span
+                            class="sc-1k44dfv-0 c19"
+                            color="typographyDefault"
+                            data-testid="select-text"
+                            font-family="default"
+                            font-weight="regular"
+                          >
+                            Shared.CompareTrims.categoryLabel
+                          </span>
+                          <div
+                            class="c20"
+                          />
+                        </div>
+                        <ul
+                          aria-label="category-aria"
+                          class="c21"
+                          role="listbox"
+                        >
+                          <li
+                            aria-selected="false"
+                            class="c22"
+                            data-testid="dsr-search-option"
+                            data-value="Cruiser"
+                            role="option"
+                          >
+                            Cruiser
+                          </li>
+                          <li
+                            aria-selected="false"
+                            class="c22"
+                            data-testid="dsr-search-option"
+                            data-value="Touring"
+                            role="option"
+                          >
+                            Touring
+                          </li>
+                          <li
+                            aria-selected="false"
+                            class="c22"
+                            data-testid="dsr-search-option"
+                            data-value="Dirt Bikes"
+                            role="option"
+                          >
+                            DirtBikes
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div
+                      class="c15"
+                      data-testid="product-year-wrapper"
+                      width="100%"
+                    >
+                      <div
+                        aria-label="year-aria"
+                        class="c23 sc-1k44dfv-0 c17"
+                        data-testid="dsr-dropdown-container"
+                        disabled=""
+                        tabindex="0"
+                      >
+                        <div
+                          aria-expanded="false"
+                          aria-haspopup="listbox"
+                          class="sc-1k44dfv-0 c24"
+                          data-testid="button"
+                          disabled=""
+                          id="year-3"
+                          role="button"
+                        >
+                          <span
+                            class="sc-1k44dfv-0 c25"
+                            color="typographyDefault"
+                            data-testid="select-text"
+                            disabled=""
+                            font-family="default"
+                            font-weight="regular"
+                          >
+                            Shared.CompareTrims.yearLabel
+                          </span>
+                          <div
+                            class="c20"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="c15"
+                      data-testid="product-model-wrapper"
+                      width="100%"
+                    >
+                      <div
+                        aria-label="model-aria"
+                        class="c23 sc-1k44dfv-0 c17"
+                        data-testid="dsr-dropdown-container"
+                        disabled=""
+                        tabindex="0"
+                      >
+                        <div
+                          aria-expanded="false"
+                          aria-haspopup="listbox"
+                          class="sc-1k44dfv-0 c24"
+                          data-testid="button"
+                          disabled=""
+                          id="model-3"
+                          role="button"
+                        >
+                          <span
+                            class="sc-1k44dfv-0 c25"
+                            color="typographyDefault"
+                            data-testid="select-text"
+                            disabled=""
+                            font-family="default"
+                            font-weight="regular"
+                          >
+                            Shared.CompareTrims.modelLabel
+                          </span>
+                          <div
+                            class="c20"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="c15"
+                      data-testid="product-transmission-wrapper"
+                      width="100%"
+                    >
+                      <div
+                        aria-label="transmission-aria"
+                        class="c23 sc-1k44dfv-0 c17"
+                        data-testid="dsr-dropdown-container"
+                        disabled=""
+                        tabindex="0"
+                      >
+                        <div
+                          aria-expanded="false"
+                          aria-haspopup="listbox"
+                          class="sc-1k44dfv-0 c24"
+                          data-testid="button"
+                          disabled=""
+                          id="transmission-3"
+                          role="button"
+                        >
+                          <span
+                            class="sc-1k44dfv-0 c25"
+                            color="typographyDefault"
+                            data-testid="select-text"
+                            disabled=""
+                            font-family="default"
+                            font-weight="regular"
+                          >
+                            Shared.CompareTrims.transmissionLabel
+                          </span>
+                          <div
+                            class="c20"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c27"
+          >
+            <div
+              aria-label="Shared.Common.previousSlideAria"
+              class="c28"
+              data-testid="arrow-left"
+              role="button"
+              tabindex="0"
+            />
+            <div
+              class="c29"
+            >
+              <button
+                aria-label="0"
+                class="c30"
+                data-testid="step1"
+                role="button"
+              />
+              <button
+                aria-label="1"
+                class="c31"
+                data-testid="step2"
+                role="button"
+              />
+              <button
+                aria-label="2"
+                class="c31"
+                data-testid="step3"
+                role="button"
+              />
+              <button
+                aria-label="3"
+                class="c31"
+                data-testid="step4"
+                role="button"
+              />
+            </div>
+            <div
+              aria-label="Shared.Common.nextSlideAria"
+              class="c32"
+              data-testid="arrow-right"
+              role="button"
+              tabindex="0"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="fresnel-container fresnel-greaterThan-smallDesktop c6"
+      style="padding-bottom: 0px;"
+    >
+      <div
+        class="c9"
+      >
+        <div
+          class="c7 c8"
+          display="flex"
+          width="100%"
+        >
+          <div
+            class="c33"
+            width="0.2"
+          />
+          <div
+            class="c13"
+            data-testid="product-compare-column0"
+            width="1,1,0.2"
+          >
+            <div
+              class="c14"
+            >
+              <div
+                class="c15"
+                data-testid="product-category-wrapper"
+                width="100%"
+              >
+                <div
+                  aria-label="category-aria"
+                  class="c16 sc-1k44dfv-0 c17"
+                  data-testid="dsr-dropdown-container"
+                  tabindex="0"
+                >
+                  <div
+                    aria-expanded="false"
+                    aria-haspopup="listbox"
+                    class="sc-1k44dfv-0 c18"
+                    data-testid="button"
+                    id="category-0"
+                    role="button"
+                  >
+                    <span
+                      class="sc-1k44dfv-0 c19"
+                      color="typographyDefault"
+                      data-testid="select-text"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Shared.CompareTrims.categoryLabel
+                    </span>
+                    <div
+                      class="c20"
+                    />
+                  </div>
+                  <ul
+                    aria-label="category-aria"
+                    class="c21"
+                    role="listbox"
+                  >
+                    <li
+                      aria-selected="false"
+                      class="c22"
+                      data-testid="dsr-search-option"
+                      data-value="Cruiser"
+                      role="option"
+                    >
+                      Cruiser
+                    </li>
+                    <li
+                      aria-selected="false"
+                      class="c22"
+                      data-testid="dsr-search-option"
+                      data-value="Touring"
+                      role="option"
+                    >
+                      Touring
+                    </li>
+                    <li
+                      aria-selected="false"
+                      class="c22"
+                      data-testid="dsr-search-option"
+                      data-value="Dirt Bikes"
+                      role="option"
+                    >
+                      DirtBikes
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                class="c15"
+                data-testid="product-year-wrapper"
+                width="100%"
+              >
+                <div
+                  aria-label="year-aria"
+                  class="c23 sc-1k44dfv-0 c17"
+                  data-testid="dsr-dropdown-container"
+                  disabled=""
+                  tabindex="0"
+                >
+                  <div
+                    aria-expanded="false"
+                    aria-haspopup="listbox"
+                    class="sc-1k44dfv-0 c24"
+                    data-testid="button"
+                    disabled=""
+                    id="year-0"
+                    role="button"
+                  >
+                    <span
+                      class="sc-1k44dfv-0 c25"
+                      color="typographyDefault"
+                      data-testid="select-text"
+                      disabled=""
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Shared.CompareTrims.yearLabel
+                    </span>
+                    <div
+                      class="c20"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c15"
+                data-testid="product-model-wrapper"
+                width="100%"
+              >
+                <div
+                  aria-label="model-aria"
+                  class="c23 sc-1k44dfv-0 c17"
+                  data-testid="dsr-dropdown-container"
+                  disabled=""
+                  tabindex="0"
+                >
+                  <div
+                    aria-expanded="false"
+                    aria-haspopup="listbox"
+                    class="sc-1k44dfv-0 c24"
+                    data-testid="button"
+                    disabled=""
+                    id="model-0"
+                    role="button"
+                  >
+                    <span
+                      class="sc-1k44dfv-0 c25"
+                      color="typographyDefault"
+                      data-testid="select-text"
+                      disabled=""
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Shared.CompareTrims.modelLabel
+                    </span>
+                    <div
+                      class="c20"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c15"
+                data-testid="product-transmission-wrapper"
+                width="100%"
+              >
+                <div
+                  aria-label="transmission-aria"
+                  class="c23 sc-1k44dfv-0 c17"
+                  data-testid="dsr-dropdown-container"
+                  disabled=""
+                  tabindex="0"
+                >
+                  <div
+                    aria-expanded="false"
+                    aria-haspopup="listbox"
+                    class="sc-1k44dfv-0 c24"
+                    data-testid="button"
+                    disabled=""
+                    id="transmission-0"
+                    role="button"
+                  >
+                    <span
+                      class="sc-1k44dfv-0 c25"
+                      color="typographyDefault"
+                      data-testid="select-text"
+                      disabled=""
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Shared.CompareTrims.transmissionLabel
+                    </span>
+                    <div
+                      class="c20"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c13"
+            data-testid="product-compare-column1"
+            width="1,1,0.2"
+          >
+            <div
+              class="c14"
+            >
+              <div
+                class="c15"
+                data-testid="product-category-wrapper"
+                width="100%"
+              >
+                <div
+                  aria-label="category-aria"
+                  class="c16 sc-1k44dfv-0 c17"
+                  data-testid="dsr-dropdown-container"
+                  tabindex="0"
+                >
+                  <div
+                    aria-expanded="false"
+                    aria-haspopup="listbox"
+                    class="sc-1k44dfv-0 c18"
+                    data-testid="button"
+                    id="category-1"
+                    role="button"
+                  >
+                    <span
+                      class="sc-1k44dfv-0 c19"
+                      color="typographyDefault"
+                      data-testid="select-text"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Shared.CompareTrims.categoryLabel
+                    </span>
+                    <div
+                      class="c20"
+                    />
+                  </div>
+                  <ul
+                    aria-label="category-aria"
+                    class="c21"
+                    role="listbox"
+                  >
+                    <li
+                      aria-selected="false"
+                      class="c22"
+                      data-testid="dsr-search-option"
+                      data-value="Cruiser"
+                      role="option"
+                    >
+                      Cruiser
+                    </li>
+                    <li
+                      aria-selected="false"
+                      class="c22"
+                      data-testid="dsr-search-option"
+                      data-value="Touring"
+                      role="option"
+                    >
+                      Touring
+                    </li>
+                    <li
+                      aria-selected="false"
+                      class="c22"
+                      data-testid="dsr-search-option"
+                      data-value="Dirt Bikes"
+                      role="option"
+                    >
+                      DirtBikes
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                class="c15"
+                data-testid="product-year-wrapper"
+                width="100%"
+              >
+                <div
+                  aria-label="year-aria"
+                  class="c23 sc-1k44dfv-0 c17"
+                  data-testid="dsr-dropdown-container"
+                  disabled=""
+                  tabindex="0"
+                >
+                  <div
+                    aria-expanded="false"
+                    aria-haspopup="listbox"
+                    class="sc-1k44dfv-0 c24"
+                    data-testid="button"
+                    disabled=""
+                    id="year-1"
+                    role="button"
+                  >
+                    <span
+                      class="sc-1k44dfv-0 c25"
+                      color="typographyDefault"
+                      data-testid="select-text"
+                      disabled=""
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Shared.CompareTrims.yearLabel
+                    </span>
+                    <div
+                      class="c20"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c15"
+                data-testid="product-model-wrapper"
+                width="100%"
+              >
+                <div
+                  aria-label="model-aria"
+                  class="c23 sc-1k44dfv-0 c17"
+                  data-testid="dsr-dropdown-container"
+                  disabled=""
+                  tabindex="0"
+                >
+                  <div
+                    aria-expanded="false"
+                    aria-haspopup="listbox"
+                    class="sc-1k44dfv-0 c24"
+                    data-testid="button"
+                    disabled=""
+                    id="model-1"
+                    role="button"
+                  >
+                    <span
+                      class="sc-1k44dfv-0 c25"
+                      color="typographyDefault"
+                      data-testid="select-text"
+                      disabled=""
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Shared.CompareTrims.modelLabel
+                    </span>
+                    <div
+                      class="c20"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c15"
+                data-testid="product-transmission-wrapper"
+                width="100%"
+              >
+                <div
+                  aria-label="transmission-aria"
+                  class="c23 sc-1k44dfv-0 c17"
+                  data-testid="dsr-dropdown-container"
+                  disabled=""
+                  tabindex="0"
+                >
+                  <div
+                    aria-expanded="false"
+                    aria-haspopup="listbox"
+                    class="sc-1k44dfv-0 c24"
+                    data-testid="button"
+                    disabled=""
+                    id="transmission-1"
+                    role="button"
+                  >
+                    <span
+                      class="sc-1k44dfv-0 c25"
+                      color="typographyDefault"
+                      data-testid="select-text"
+                      disabled=""
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Shared.CompareTrims.transmissionLabel
+                    </span>
+                    <div
+                      class="c20"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c13"
+            data-testid="product-compare-column2"
+            width="1,1,0.2"
+          >
+            <div
+              class="c14"
+            >
+              <div
+                class="c15"
+                data-testid="product-category-wrapper"
+                width="100%"
+              >
+                <div
+                  aria-label="category-aria"
+                  class="c16 sc-1k44dfv-0 c17"
+                  data-testid="dsr-dropdown-container"
+                  tabindex="0"
+                >
+                  <div
+                    aria-expanded="false"
+                    aria-haspopup="listbox"
+                    class="sc-1k44dfv-0 c18"
+                    data-testid="button"
+                    id="category-2"
+                    role="button"
+                  >
+                    <span
+                      class="sc-1k44dfv-0 c19"
+                      color="typographyDefault"
+                      data-testid="select-text"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Shared.CompareTrims.categoryLabel
+                    </span>
+                    <div
+                      class="c20"
+                    />
+                  </div>
+                  <ul
+                    aria-label="category-aria"
+                    class="c21"
+                    role="listbox"
+                  >
+                    <li
+                      aria-selected="false"
+                      class="c22"
+                      data-testid="dsr-search-option"
+                      data-value="Cruiser"
+                      role="option"
+                    >
+                      Cruiser
+                    </li>
+                    <li
+                      aria-selected="false"
+                      class="c22"
+                      data-testid="dsr-search-option"
+                      data-value="Touring"
+                      role="option"
+                    >
+                      Touring
+                    </li>
+                    <li
+                      aria-selected="false"
+                      class="c22"
+                      data-testid="dsr-search-option"
+                      data-value="Dirt Bikes"
+                      role="option"
+                    >
+                      DirtBikes
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                class="c15"
+                data-testid="product-year-wrapper"
+                width="100%"
+              >
+                <div
+                  aria-label="year-aria"
+                  class="c23 sc-1k44dfv-0 c17"
+                  data-testid="dsr-dropdown-container"
+                  disabled=""
+                  tabindex="0"
+                >
+                  <div
+                    aria-expanded="false"
+                    aria-haspopup="listbox"
+                    class="sc-1k44dfv-0 c24"
+                    data-testid="button"
+                    disabled=""
+                    id="year-2"
+                    role="button"
+                  >
+                    <span
+                      class="sc-1k44dfv-0 c25"
+                      color="typographyDefault"
+                      data-testid="select-text"
+                      disabled=""
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Shared.CompareTrims.yearLabel
+                    </span>
+                    <div
+                      class="c20"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c15"
+                data-testid="product-model-wrapper"
+                width="100%"
+              >
+                <div
+                  aria-label="model-aria"
+                  class="c23 sc-1k44dfv-0 c17"
+                  data-testid="dsr-dropdown-container"
+                  disabled=""
+                  tabindex="0"
+                >
+                  <div
+                    aria-expanded="false"
+                    aria-haspopup="listbox"
+                    class="sc-1k44dfv-0 c24"
+                    data-testid="button"
+                    disabled=""
+                    id="model-2"
+                    role="button"
+                  >
+                    <span
+                      class="sc-1k44dfv-0 c25"
+                      color="typographyDefault"
+                      data-testid="select-text"
+                      disabled=""
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Shared.CompareTrims.modelLabel
+                    </span>
+                    <div
+                      class="c20"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c15"
+                data-testid="product-transmission-wrapper"
+                width="100%"
+              >
+                <div
+                  aria-label="transmission-aria"
+                  class="c23 sc-1k44dfv-0 c17"
+                  data-testid="dsr-dropdown-container"
+                  disabled=""
+                  tabindex="0"
+                >
+                  <div
+                    aria-expanded="false"
+                    aria-haspopup="listbox"
+                    class="sc-1k44dfv-0 c24"
+                    data-testid="button"
+                    disabled=""
+                    id="transmission-2"
+                    role="button"
+                  >
+                    <span
+                      class="sc-1k44dfv-0 c25"
+                      color="typographyDefault"
+                      data-testid="select-text"
+                      disabled=""
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Shared.CompareTrims.transmissionLabel
+                    </span>
+                    <div
+                      class="c20"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c13"
+            data-testid="product-compare-column3"
+            width="1,1,0.2"
+          >
+            <div
+              class="c14"
+            >
+              <div
+                class="c15"
+                data-testid="product-category-wrapper"
+                width="100%"
+              >
+                <div
+                  aria-label="category-aria"
+                  class="c16 sc-1k44dfv-0 c17"
+                  data-testid="dsr-dropdown-container"
+                  tabindex="0"
+                >
+                  <div
+                    aria-expanded="false"
+                    aria-haspopup="listbox"
+                    class="sc-1k44dfv-0 c18"
+                    data-testid="button"
+                    id="category-3"
+                    role="button"
+                  >
+                    <span
+                      class="sc-1k44dfv-0 c19"
+                      color="typographyDefault"
+                      data-testid="select-text"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Shared.CompareTrims.categoryLabel
+                    </span>
+                    <div
+                      class="c20"
+                    />
+                  </div>
+                  <ul
+                    aria-label="category-aria"
+                    class="c21"
+                    role="listbox"
+                  >
+                    <li
+                      aria-selected="false"
+                      class="c22"
+                      data-testid="dsr-search-option"
+                      data-value="Cruiser"
+                      role="option"
+                    >
+                      Cruiser
+                    </li>
+                    <li
+                      aria-selected="false"
+                      class="c22"
+                      data-testid="dsr-search-option"
+                      data-value="Touring"
+                      role="option"
+                    >
+                      Touring
+                    </li>
+                    <li
+                      aria-selected="false"
+                      class="c22"
+                      data-testid="dsr-search-option"
+                      data-value="Dirt Bikes"
+                      role="option"
+                    >
+                      DirtBikes
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                class="c15"
+                data-testid="product-year-wrapper"
+                width="100%"
+              >
+                <div
+                  aria-label="year-aria"
+                  class="c23 sc-1k44dfv-0 c17"
+                  data-testid="dsr-dropdown-container"
+                  disabled=""
+                  tabindex="0"
+                >
+                  <div
+                    aria-expanded="false"
+                    aria-haspopup="listbox"
+                    class="sc-1k44dfv-0 c24"
+                    data-testid="button"
+                    disabled=""
+                    id="year-3"
+                    role="button"
+                  >
+                    <span
+                      class="sc-1k44dfv-0 c25"
+                      color="typographyDefault"
+                      data-testid="select-text"
+                      disabled=""
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Shared.CompareTrims.yearLabel
+                    </span>
+                    <div
+                      class="c20"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c15"
+                data-testid="product-model-wrapper"
+                width="100%"
+              >
+                <div
+                  aria-label="model-aria"
+                  class="c23 sc-1k44dfv-0 c17"
+                  data-testid="dsr-dropdown-container"
+                  disabled=""
+                  tabindex="0"
+                >
+                  <div
+                    aria-expanded="false"
+                    aria-haspopup="listbox"
+                    class="sc-1k44dfv-0 c24"
+                    data-testid="button"
+                    disabled=""
+                    id="model-3"
+                    role="button"
+                  >
+                    <span
+                      class="sc-1k44dfv-0 c25"
+                      color="typographyDefault"
+                      data-testid="select-text"
+                      disabled=""
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Shared.CompareTrims.modelLabel
+                    </span>
+                    <div
+                      class="c20"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c15"
+                data-testid="product-transmission-wrapper"
+                width="100%"
+              >
+                <div
+                  aria-label="transmission-aria"
+                  class="c23 sc-1k44dfv-0 c17"
+                  data-testid="dsr-dropdown-container"
+                  disabled=""
+                  tabindex="0"
+                >
+                  <div
+                    aria-expanded="false"
+                    aria-haspopup="listbox"
+                    class="sc-1k44dfv-0 c24"
+                    data-testid="button"
+                    disabled=""
+                    id="transmission-3"
+                    role="button"
+                  >
+                    <span
+                      class="sc-1k44dfv-0 c25"
+                      color="typographyDefault"
+                      data-testid="select-text"
+                      disabled=""
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Shared.CompareTrims.transmissionLabel
+                    </span>
+                    <div
+                      class="c20"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p
+      class="sc-1k44dfv-0 c34"
+      color="typographyDefault"
+      data-testid="compare-no-selection-text"
+      display="flex"
+      font-family="default"
+      font-weight="regular"
+    >
+      Shared.CompareTrims.selectProductsToCompareLabel
+    </p>
+  </div>
+</div>
+`;

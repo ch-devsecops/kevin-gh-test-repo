@@ -1,0 +1,1353 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Data mapping function for Product Compare component getEngineMappedCatalogData should return expected output 1`] = `
+Array [
+  Array [
+    "root",
+  ],
+  Array [
+    Object {
+      "id": "87B4B317B1254AD1B339BCA521D81FC4",
+      "text": "GX Series",
+      "value": "GX Series",
+    },
+    Object {
+      "id": "EA9C582846084659A09AF25FF2119B6F",
+      "text": "Mini 4-Stroke",
+      "value": "Mini 4-Stroke",
+    },
+    Object {
+      "id": "B22596E7C2BB442EA766E71167CD07AE",
+      "text": "V-Twin Series",
+      "value": "V-Twin Series",
+    },
+  ],
+  Array [
+    Object {
+      "detIdentifier": "12104",
+      "id": "3B858D9AB5CF487DA8B307DA4189C216",
+      "model": "HorizontalCrankshaft",
+      "modelPage": null,
+      "name": "GX630",
+      "text": "GX630",
+      "thumbnail": undefined,
+      "value": "12104",
+    },
+    Object {
+      "detIdentifier": "12105",
+      "id": "18CB0E3275E14B7DAFDCC8C5C346B9B7",
+      "model": "HorizontalCrankshaft",
+      "modelPage": null,
+      "name": "GX660",
+      "text": "GX660",
+      "thumbnail": undefined,
+      "value": "12105",
+    },
+    Object {
+      "detIdentifier": "12106",
+      "id": "1C515251703642FFB5B55F9AD1A369EE",
+      "model": "HorizontalCrankshaft",
+      "modelPage": null,
+      "name": "GX690",
+      "text": "GX690",
+      "thumbnail": undefined,
+      "value": "12106",
+    },
+    Object {
+      "detIdentifier": "12120",
+      "id": "79DA5DAB01624F1DBBD6652DD4A04776",
+      "model": "HorizontalCrankshaft",
+      "modelPage": null,
+      "name": "IGX700",
+      "text": "IGX700",
+      "thumbnail": Object {
+        "alt": Object {
+          "value": "Front of Honda iGXV700 engine",
+        },
+        "name": "IGX700",
+        "title": Object {
+          "value": "",
+        },
+        "url": "https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-VTwin-Series-Listing/iGX-700/IGX700.jpg?rev=e0f912059ef649f3944447b18e162de1",
+      },
+      "value": "12120",
+    },
+    Object {
+      "detIdentifier": "12121",
+      "id": "82A44EC86D7F440F8F6E500E7F89492D",
+      "model": "HorizontalCrankshaft",
+      "modelPage": null,
+      "name": "IGX800",
+      "text": "IGX800",
+      "thumbnail": undefined,
+      "value": "12121",
+    },
+    Object {
+      "detIdentifier": "12107",
+      "id": "9EE22C46CC6D424A8C8CDA233CD0C0BC",
+      "model": "VerticalCrankshaft",
+      "modelPage": null,
+      "name": "GXV630",
+      "text": "GXV630",
+      "thumbnail": Object {
+        "alt": Object {
+          "value": "Front of Honda GXV630 engine",
+        },
+        "name": "GXV630",
+        "title": Object {
+          "value": "",
+        },
+        "url": "https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-VTwin-Series-Listing/GXV-630/GXV630.jpg?rev=41f616465df949928ac36f78f573bf7d",
+      },
+      "value": "12107",
+    },
+    Object {
+      "detIdentifier": "12108",
+      "id": "9825C8FA86E54565AF4646FB9D6BF6A2",
+      "model": "VerticalCrankshaft",
+      "modelPage": null,
+      "name": "GXV660",
+      "text": "GXV660",
+      "thumbnail": Object {
+        "alt": Object {
+          "value": "Front of Honda GXV660 engine",
+        },
+        "name": "GXV660",
+        "title": Object {
+          "value": "",
+        },
+        "url": "https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-VTwin-Series-Listing/GXV-660/GXV660.jpg?rev=a15949d340694a7988b71f3b77e43dba",
+      },
+      "value": "12108",
+    },
+    Object {
+      "detIdentifier": "12109",
+      "id": "088E0DF8E2A94FFE97059B5349FA822F",
+      "model": "VerticalCrankshaft",
+      "modelPage": null,
+      "name": "GXV690",
+      "text": "GXV690",
+      "thumbnail": Object {
+        "alt": Object {
+          "value": "Front of Honda GXV690 engine",
+        },
+        "name": "GXV690",
+        "title": Object {
+          "value": "",
+        },
+        "url": "https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-VTwin-Series-Listing/GXV-690/GXV690.jpg?rev=276e4a72cf834add89bc0a1fd701c07b",
+      },
+      "value": "12109",
+    },
+    Object {
+      "detIdentifier": "12120",
+      "id": "7F62B13BD04B46DC94374C792FD82B8D",
+      "model": "VerticalCrankshaft",
+      "modelPage": null,
+      "name": "IGXV700",
+      "text": "IGXV700",
+      "thumbnail": undefined,
+      "value": "12120",
+    },
+    Object {
+      "detIdentifier": "12121",
+      "id": "B19E3513984349B5B14C01D3E8E961AF",
+      "model": "VerticalCrankshaft",
+      "modelPage": null,
+      "name": "IGXV800",
+      "text": "IGXV800",
+      "thumbnail": Object {
+        "alt": Object {
+          "value": "Front of Honda iGXV800 engine",
+        },
+        "name": "Honda_iGXV800_Red_Overhead",
+        "title": Object {
+          "value": "",
+        },
+        "url": "https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-VTwin-Series-Listing/iGXV-800/Honda_iGXV800_Red_Overhead.jpg?rev=acf4acf004bb482b98c48e1bc730a8c8",
+      },
+      "value": "12121",
+    },
+    Object {
+      "detIdentifier": "12112",
+      "id": "5CE4003B753849319468CD34BD66CBCF",
+      "model": "HorizontalCrankshaft",
+      "modelPage": null,
+      "name": "GX25",
+      "text": "GX25",
+      "thumbnail": Object {
+        "alt": Object {
+          "value": "Front of Honda GX25 engine",
+        },
+        "name": "GX25",
+        "title": Object {
+          "value": "",
+        },
+        "url": "https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-Mini-Series-Listing/GX-25/GX25.jpg?rev=64c75d87eb3f46c18ee1335753a82a89",
+      },
+      "value": "12112",
+    },
+    Object {
+      "detIdentifier": "12113",
+      "id": "7282790A8D9F433E8870E06231656A0C",
+      "model": "HorizontalCrankshaft",
+      "modelPage": null,
+      "name": "GX35",
+      "text": "GX35",
+      "thumbnail": Object {
+        "alt": Object {
+          "value": "Front of Honda GX35 engine",
+        },
+        "name": "GX35",
+        "title": Object {
+          "value": "",
+        },
+        "url": "https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-Mini-Series-Listing/GX-35/GX35.jpg?rev=9b76c2fb2fae4cb4a74be068ea34c4df",
+      },
+      "value": "12113",
+    },
+    Object {
+      "detIdentifier": "12119",
+      "id": "8E16B45522284B50AC1868819AA989BC",
+      "model": "HorizontalCrankshaft",
+      "modelPage": null,
+      "name": "GX50",
+      "text": "GX50",
+      "thumbnail": undefined,
+      "value": "12119",
+    },
+    Object {
+      "detIdentifier": "12114",
+      "id": "958B2D8E5FD6454DB08483E3C3C588DB",
+      "model": "HorizontalCrankshaft",
+      "modelPage": null,
+      "name": "GXH50",
+      "text": "GXH50",
+      "thumbnail": Object {
+        "alt": Object {
+          "value": "Front of Honda GXH50 engine",
+        },
+        "name": "GXH50",
+        "title": Object {
+          "value": "",
+        },
+        "url": "https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-Mini-Series-Listing/GXH-50/GXH50.jpg?rev=eb925c52a5c144d1b4b17a706a8462f8",
+      },
+      "value": "12114",
+    },
+    Object {
+      "detIdentifier": "12115",
+      "id": "86F89268ABE94AD68B6D004F45AA82F8",
+      "model": "VerticalCrankshaft",
+      "modelPage": null,
+      "name": "GXV50",
+      "text": "GXV50",
+      "thumbnail": Object {
+        "alt": Object {
+          "value": "Front of Honda GXV50 engine",
+        },
+        "name": "GXV50",
+        "title": Object {
+          "value": "",
+        },
+        "url": "https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-Mini-Series-Listing/GXV-50/GXV50.jpg?rev=88478a1076c54393a19219fc15d1446a",
+      },
+      "value": "12115",
+    },
+    Object {
+      "detIdentifier": "12094",
+      "id": "4CAE3588D62A4309AB9C98417293565F",
+      "model": "HorizontalCrankshaft",
+      "modelPage": Object {
+        "name": "GX100",
+        "url": "/en/gx-series/gx100",
+      },
+      "name": "GX100",
+      "text": "GX100",
+      "thumbnail": Object {
+        "alt": Object {
+          "value": "Front of Honda GX100 engine (1st image)",
+        },
+        "name": "GX100",
+        "title": Object {
+          "value": "Front of Honda GX100 engine (1st image)",
+        },
+        "url": "https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-100/GX100.jpg?rev=96895d5c461a4d7596e8dc6a003caae7",
+      },
+      "value": "12094",
+    },
+    Object {
+      "detIdentifier": "12095",
+      "id": "4FE5D1F177C54419A586B8C7F79B519F",
+      "model": "HorizontalCrankshaft",
+      "modelPage": null,
+      "name": "GX120",
+      "text": "GX120",
+      "thumbnail": Object {
+        "alt": Object {
+          "value": "Front of Honda GX120 engine",
+        },
+        "name": "GX120",
+        "title": Object {
+          "value": "",
+        },
+        "url": "https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-120/GX120.jpg?rev=af1f2b74677848d9a78390e8484f38e6",
+      },
+      "value": "12095",
+    },
+    Object {
+      "detIdentifier": "12096",
+      "id": "9A0C438CE4D547AF8C5AB9E9ACB90858",
+      "model": "HorizontalCrankshaft",
+      "modelPage": null,
+      "name": "GX160",
+      "text": "GX160",
+      "thumbnail": Object {
+        "alt": Object {
+          "value": "Front of Honda GX160 engine",
+        },
+        "name": "GX160",
+        "title": Object {
+          "value": "",
+        },
+        "url": "https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-160/GX160.jpg?rev=7d0192b9fffb4ebf95c8807d00a9c2d6",
+      },
+      "value": "12096",
+    },
+    Object {
+      "detIdentifier": "12097",
+      "id": "EFEFBB38C5B04A99B7145343940611FD",
+      "model": "HorizontalCrankshaft",
+      "modelPage": null,
+      "name": "GX200",
+      "text": "GX200",
+      "thumbnail": Object {
+        "alt": Object {
+          "value": "Front of Honda GX200 engine",
+        },
+        "name": "GX200",
+        "title": Object {
+          "value": "",
+        },
+        "url": "https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-200/GX200.jpg?rev=f055a2b356bd4147b24faa9d020d6095",
+      },
+      "value": "12097",
+    },
+    Object {
+      "detIdentifier": "12098",
+      "id": "1254FD84EA2F45B79BEF001FCAB2865A",
+      "model": "HorizontalCrankshaft",
+      "modelPage": null,
+      "name": "GX270",
+      "text": "GX270",
+      "thumbnail": Object {
+        "alt": Object {
+          "value": "Front of Honda GX270 engine",
+        },
+        "name": "GX270",
+        "title": Object {
+          "value": "",
+        },
+        "url": "https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-270/GX270.jpg?rev=e4c6b54fe7544a62868ef340c27459ac",
+      },
+      "value": "12098",
+    },
+    Object {
+      "detIdentifier": "12099",
+      "id": "7B841133D8474EA0B701E13F8A9E8485",
+      "model": "HorizontalCrankshaft",
+      "modelPage": null,
+      "name": "GX340",
+      "text": "GX340",
+      "thumbnail": Object {
+        "alt": Object {
+          "value": "Front of Honda GX340 engine",
+        },
+        "name": "GX340",
+        "title": Object {
+          "value": "",
+        },
+        "url": "https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-340/GX340.jpg?rev=f3220fba10844848aa306d90418adfcf",
+      },
+      "value": "12099",
+    },
+    Object {
+      "detIdentifier": "12100",
+      "id": "168FA865EDAB4DD1A1FB31A3F9EBCBAE",
+      "model": "HorizontalCrankshaft",
+      "modelPage": null,
+      "name": "GX390",
+      "text": "GX390",
+      "thumbnail": Object {
+        "alt": Object {
+          "value": "Front of Honda GX390 engine",
+        },
+        "name": "GX390",
+        "title": Object {
+          "value": "",
+        },
+        "url": "https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-390/GX390.jpg?rev=05611c4ff11d4a90b46783c78a5ed8e8",
+      },
+      "value": "12100",
+    },
+    Object {
+      "detIdentifier": "12101",
+      "id": "9517794341634F308D3315497A75A138",
+      "model": "VerticalCrankshaft",
+      "modelPage": null,
+      "name": "GXV160",
+      "text": "GXV160",
+      "thumbnail": Object {
+        "alt": Object {
+          "value": "Front of Honda GXV160 engine",
+        },
+        "name": "GXV160",
+        "title": Object {
+          "value": "",
+        },
+        "url": "https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GXV-160/GXV160.jpg?rev=4870392a1a0148f3bfcb6a0f9ab0514b",
+      },
+      "value": "12101",
+    },
+    Object {
+      "detIdentifier": "12102",
+      "id": "42A436CD11274643A12096FC058C7114",
+      "model": "VerticalCrankshaft",
+      "modelPage": null,
+      "name": "GXV340",
+      "text": "GXV340",
+      "thumbnail": Object {
+        "alt": Object {
+          "value": "Front of Honda GXV340 engine",
+        },
+        "name": "GXV340",
+        "title": Object {
+          "value": "",
+        },
+        "url": "https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GXV-340/GXV340.jpg?rev=8766ae0549e44c4a8adf7a013a85f6a7",
+      },
+      "value": "12102",
+    },
+    Object {
+      "detIdentifier": "12103",
+      "id": "A2584E9535124074B03346D849491FE6",
+      "model": "VerticalCrankshaft",
+      "modelPage": null,
+      "name": "GXV390",
+      "text": "GXV390",
+      "thumbnail": Object {
+        "alt": Object {
+          "value": "Front of Honda GXV390 engine",
+        },
+        "name": "GXV390",
+        "title": Object {
+          "value": "",
+        },
+        "url": "https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GXV-390/GXV390.jpg?rev=91443f25133741078d0e9d7b1500effe",
+      },
+      "value": "12103",
+    },
+  ],
+]
+`;
+
+exports[`Data mapping function for Product Compare component getMarineMappedCatalogData should return expected output 1`] = `
+Array [
+  Array [
+    "root",
+  ],
+  Array [
+    Object {
+      "id": "6D818E1E9A2B4D09A17C75E8126C0982",
+      "text": "Drive By Wire",
+      "value": "Drive By Wire",
+    },
+    Object {
+      "id": "648EFD4BB1C5475F9EBC40C919417F68",
+      "text": "Large",
+      "value": "Large",
+    },
+    Object {
+      "id": "256EB74E947641EB9AF6D4BEC74AACF1",
+      "text": "Mid-Range",
+      "value": "Mid-Range",
+    },
+    Object {
+      "id": "F6FCFC7B54454347BC89A0897DF2FDE3",
+      "text": "Portables",
+      "value": "Portables",
+    },
+  ],
+  Array [
+    Object {
+      "detIdentifier": "12034",
+      "id": undefined,
+      "model": "BF2_3",
+      "modelPage": Object {
+        "name": "bf2_3",
+        "url": "/en/portables/bf2_3",
+      },
+      "name": "BF2.3",
+      "text": "BF2_3",
+      "thumbnail": Object {
+        "alt": "Side view of a BF2.3 ",
+        "height": "334",
+        "src": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Portables/2-3_800x537_25.png?h=334&iar=0&w=206&rev=6994ae6825bc46529a81ed6efb487dee&hash=664D187D03819FDD4EB7EE6DFD7AA807",
+        "url": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Portables/2-3_800x537_25.png?h=334&iar=0&w=206&rev=6994ae6825bc46529a81ed6efb487dee&hash=664D187D03819FDD4EB7EE6DFD7AA807",
+        "width": "206",
+      },
+      "value": "12034",
+    },
+    Object {
+      "detIdentifier": "12063",
+      "id": undefined,
+      "model": "BF4",
+      "modelPage": Object {
+        "name": "bf4",
+        "url": "/en/portables/bf4",
+      },
+      "name": "BF4",
+      "text": "BF4",
+      "thumbnail": Object {
+        "alt": "Side view of a BF4",
+        "height": "334",
+        "src": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Portables/4_206x334_25.png?h=334&iar=0&w=206&rev=4daf882e4b4a43ce97f5b52ae760af13&hash=4C47B3BE61F65E477D75AB5DC8A823E8",
+        "url": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Portables/4_206x334_25.png?h=334&iar=0&w=206&rev=4daf882e4b4a43ce97f5b52ae760af13&hash=4C47B3BE61F65E477D75AB5DC8A823E8",
+        "width": "206",
+      },
+      "value": "12063",
+    },
+    Object {
+      "detIdentifier": "12048",
+      "id": undefined,
+      "model": "BF5",
+      "modelPage": Object {
+        "name": "bf5",
+        "url": "/en/portables/bf5",
+      },
+      "name": "BF5",
+      "text": "BF5",
+      "thumbnail": Object {
+        "alt": "Side view of a BF5",
+        "height": "334",
+        "src": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Portables/5_206x334_25.png?h=334&iar=0&w=206&rev=8a5631332b4741449b4eca7bc7b3b07f&hash=E6112C3E11AABFF3A45247F0CEC6A139",
+        "url": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Portables/5_206x334_25.png?h=334&iar=0&w=206&rev=8a5631332b4741449b4eca7bc7b3b07f&hash=E6112C3E11AABFF3A45247F0CEC6A139",
+        "width": "206",
+      },
+      "value": "12048",
+    },
+    Object {
+      "detIdentifier": "12030",
+      "id": undefined,
+      "model": "BF8",
+      "modelPage": Object {
+        "name": "bf8",
+        "url": "/en/portables/bf8",
+      },
+      "name": "BF8",
+      "text": "BF8",
+      "thumbnail": Object {
+        "alt": "Side view of a BF8",
+        "height": "334",
+        "src": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Portables/8_206x334_25.png?h=334&iar=0&w=206&rev=145ec26aaa314bfa875115c795058093&hash=3C37CE544FBE0000CC5DB3A7588E5CE3",
+        "url": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Portables/8_206x334_25.png?h=334&iar=0&w=206&rev=145ec26aaa314bfa875115c795058093&hash=3C37CE544FBE0000CC5DB3A7588E5CE3",
+        "width": "206",
+      },
+      "value": "12030",
+    },
+    Object {
+      "detIdentifier": "12032",
+      "id": undefined,
+      "model": "BF9_9",
+      "modelPage": Object {
+        "name": "bf9_9",
+        "url": "/en/portables/bf9_9",
+      },
+      "name": "BF9.9",
+      "text": "BF9_9",
+      "thumbnail": Object {
+        "alt": "Side view of a BF9.9",
+        "height": "334",
+        "src": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Portables/9-9_800x537_25.png?h=334&iar=0&w=206&rev=4e8e85d9b28e472f8284e9111d06c13a&hash=27945B667FE3F0F64246062140E62A51",
+        "url": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Portables/9-9_800x537_25.png?h=334&iar=0&w=206&rev=4e8e85d9b28e472f8284e9111d06c13a&hash=27945B667FE3F0F64246062140E62A51",
+        "width": "206",
+      },
+      "value": "12032",
+    },
+    Object {
+      "detIdentifier": "12040",
+      "id": undefined,
+      "model": "BF15",
+      "modelPage": Object {
+        "name": "bf15",
+        "url": "/en/portables/bf15",
+      },
+      "name": "BF15",
+      "text": "BF15",
+      "thumbnail": Object {
+        "alt": "Side view of a BF15",
+        "height": "334",
+        "src": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Portables/15_206x334_25.png?h=334&iar=0&w=206&rev=8927085f93e248ca9a9c91d2927aa3f4&hash=49267E4CEE63D59E2CC85553A6F03907",
+        "url": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Portables/15_206x334_25.png?h=334&iar=0&w=206&rev=8927085f93e248ca9a9c91d2927aa3f4&hash=49267E4CEE63D59E2CC85553A6F03907",
+        "width": "206",
+      },
+      "value": "12040",
+    },
+    Object {
+      "detIdentifier": "12050",
+      "id": undefined,
+      "model": "BF20",
+      "modelPage": Object {
+        "name": "bf20",
+        "url": "/en/portables/bf20",
+      },
+      "name": "BF20",
+      "text": "BF20",
+      "thumbnail": Object {
+        "alt": "Side view of a BF20",
+        "height": "334",
+        "src": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Portables/20_206x334_25.png?h=334&iar=0&w=206&rev=9e0ce9041ad44b9a83d302110dcfeba1&hash=E16B81E1089A5E8CB0DDEF74361C946B",
+        "url": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Portables/20_206x334_25.png?h=334&iar=0&w=206&rev=9e0ce9041ad44b9a83d302110dcfeba1&hash=E16B81E1089A5E8CB0DDEF74361C946B",
+        "width": "206",
+      },
+      "value": "12050",
+    },
+    Object {
+      "detIdentifier": "12036",
+      "id": undefined,
+      "model": "BF25",
+      "modelPage": Object {
+        "name": "bf25",
+        "url": "/en/mid-range/bf25",
+      },
+      "name": "BF25",
+      "text": "BF25",
+      "thumbnail": Object {
+        "alt": "Side view of a BF25",
+        "height": "334",
+        "src": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Mid-Range/25_206x334_25.png?h=334&iar=0&w=206&rev=0f46a338c0624404881bf87ee200dadf&hash=0A867D28229F4C9C23FE5C6432D8FC2A",
+        "url": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Mid-Range/25_206x334_25.png?h=334&iar=0&w=206&rev=0f46a338c0624404881bf87ee200dadf&hash=0A867D28229F4C9C23FE5C6432D8FC2A",
+        "width": "206",
+      },
+      "value": "12036",
+    },
+    Object {
+      "detIdentifier": "12044",
+      "id": undefined,
+      "model": "BF30",
+      "modelPage": Object {
+        "name": "bf30",
+        "url": "/en/mid-range/bf30",
+      },
+      "name": "BF30",
+      "text": "BF30",
+      "thumbnail": Object {
+        "alt": "Side view of a BF30",
+        "height": "334",
+        "src": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Mid-Range/30_206x334_25.png?h=334&iar=0&w=206&rev=b81cd101bf9444af87122e6b85b9004a&hash=079C5E65C620E6A1F745D724C4103322",
+        "url": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Mid-Range/30_206x334_25.png?h=334&iar=0&w=206&rev=b81cd101bf9444af87122e6b85b9004a&hash=079C5E65C620E6A1F745D724C4103322",
+        "width": "206",
+      },
+      "value": "12044",
+    },
+    Object {
+      "detIdentifier": "12038",
+      "id": undefined,
+      "model": "BF40",
+      "modelPage": Object {
+        "name": "bf40",
+        "url": "/en/mid-range/bf40",
+      },
+      "name": "BF40",
+      "text": "BF40",
+      "thumbnail": Object {
+        "alt": "Side view of a BF40",
+        "height": "334",
+        "src": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Mid-Range/40_206x334_25.png?h=334&iar=0&w=206&rev=d362b716f41849fab8cc1acd72de4d0e&hash=0AE660924C854599F23C202D5B69A732",
+        "url": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Mid-Range/40_206x334_25.png?h=334&iar=0&w=206&rev=d362b716f41849fab8cc1acd72de4d0e&hash=0AE660924C854599F23C202D5B69A732",
+        "width": "206",
+      },
+      "value": "12038",
+    },
+    Object {
+      "detIdentifier": "12026",
+      "id": undefined,
+      "model": "BF50",
+      "modelPage": Object {
+        "name": "bf50",
+        "url": "/en/mid-range/bf50",
+      },
+      "name": "BF50",
+      "text": "BF50",
+      "thumbnail": Object {
+        "alt": "Side view of a BF50",
+        "height": "334",
+        "src": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Mid-Range/50_206x334_25.png?h=334&iar=0&w=206&rev=fff59e00b85144f0a90b7316e9c6872e&hash=513A2A2F1A936CCF4019D1C418897447",
+        "url": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Mid-Range/50_206x334_25.png?h=334&iar=0&w=206&rev=fff59e00b85144f0a90b7316e9c6872e&hash=513A2A2F1A936CCF4019D1C418897447",
+        "width": "206",
+      },
+      "value": "12026",
+    },
+    Object {
+      "detIdentifier": "12051",
+      "id": undefined,
+      "model": "BF60",
+      "modelPage": Object {
+        "name": "bf60",
+        "url": "/en/mid-range/bf60",
+      },
+      "name": "BF60",
+      "text": "BF60",
+      "thumbnail": Object {
+        "alt": "Side view of a BF60",
+        "height": "334",
+        "src": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Mid-Range/60_206x334_25.png?h=334&iar=0&w=206&rev=911b9533fd984dbb8067b4e9e1ff514b&hash=267D8FA3AF2E83D26B2CDC46D94202DE",
+        "url": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Mid-Range/60_206x334_25.png?h=334&iar=0&w=206&rev=911b9533fd984dbb8067b4e9e1ff514b&hash=267D8FA3AF2E83D26B2CDC46D94202DE",
+        "width": "206",
+      },
+      "value": "12051",
+    },
+    Object {
+      "detIdentifier": "12052",
+      "id": undefined,
+      "model": "BF60 Power Thrust",
+      "modelPage": Object {
+        "name": "bf60 thrust power",
+        "url": "/en/mid-range/bf60-thrust-power",
+      },
+      "name": "BF60 Power Thrust",
+      "text": "BF60 Power Thrust",
+      "thumbnail": Object {
+        "alt": "Side view of a BF60 Power Thrust",
+        "height": "334",
+        "src": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Mid-Range/60-Powerthrust_206x334_25.png?h=334&iar=0&w=206&rev=ad7b7306379848279259c3d0861ca7a0&hash=CC1D1794A1182B4105C03DB6F03FA783",
+        "url": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Mid-Range/60-Powerthrust_206x334_25.png?h=334&iar=0&w=206&rev=ad7b7306379848279259c3d0861ca7a0&hash=CC1D1794A1182B4105C03DB6F03FA783",
+        "width": "206",
+      },
+      "value": "12052",
+    },
+    Object {
+      "detIdentifier": "12042",
+      "id": undefined,
+      "model": "BF75",
+      "modelPage": Object {
+        "name": "bf75",
+        "url": "/en/mid-range/bf75",
+      },
+      "name": "BF75",
+      "text": "BF75",
+      "thumbnail": Object {
+        "alt": "Side view of a BF75",
+        "height": "334",
+        "src": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Mid-Range/75_206x334_25.png?h=334&iar=0&w=206&rev=dcf7197526fa4787b21be3dbbe64a5eb&hash=ED3F22C7370BD4EF1098B29B6FF70BE7",
+        "url": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Mid-Range/75_206x334_25.png?h=334&iar=0&w=206&rev=dcf7197526fa4787b21be3dbbe64a5eb&hash=ED3F22C7370BD4EF1098B29B6FF70BE7",
+        "width": "206",
+      },
+      "value": "12042",
+    },
+    Object {
+      "detIdentifier": "12024",
+      "id": undefined,
+      "model": "BF90",
+      "modelPage": Object {
+        "name": "bf90",
+        "url": "/en/mid-range/bf90",
+      },
+      "name": "BF90",
+      "text": "BF90",
+      "thumbnail": Object {
+        "alt": "Side view of a BF90",
+        "height": "334",
+        "src": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Mid-Range/90_206x334_25.png?h=334&iar=0&w=206&rev=948549ce3c834611aa21e2712faf428a&hash=125978442C3BC0F28BC4831872122280",
+        "url": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Mid-Range/90_206x334_25.png?h=334&iar=0&w=206&rev=948549ce3c834611aa21e2712faf428a&hash=125978442C3BC0F28BC4831872122280",
+        "width": "206",
+      },
+      "value": "12024",
+    },
+    Object {
+      "detIdentifier": "12071",
+      "id": undefined,
+      "model": "BF100",
+      "modelPage": Object {
+        "name": "bf100",
+        "url": "/en/mid-range/bf100",
+      },
+      "name": "BF100",
+      "text": "BF100",
+      "thumbnail": Object {
+        "alt": "Side view of a BF100",
+        "height": "334",
+        "src": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Mid-Range/100_206x334_25.png?h=334&iar=0&w=206&rev=d51852bd1a0e499d9757a9422064fb8f&hash=9EB16D3A74FDA7787D63CD00B6835A92",
+        "url": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Mid-Range/100_206x334_25.png?h=334&iar=0&w=206&rev=d51852bd1a0e499d9757a9422064fb8f&hash=9EB16D3A74FDA7787D63CD00B6835A92",
+        "width": "206",
+      },
+      "value": "12071",
+    },
+    Object {
+      "detIdentifier": "12046",
+      "id": undefined,
+      "model": "BF115",
+      "modelPage": Object {
+        "name": "bf115",
+        "url": "/en/large-motors/bf115",
+      },
+      "name": "BF115",
+      "text": "BF115",
+      "thumbnail": Object {
+        "alt": "Side view of a BF115",
+        "height": "334",
+        "src": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Large/115_206x334_25.png?h=334&iar=0&w=206&rev=046da152bca841ef83e27964a6d58ee9&hash=7D8461B5927C00E8CCF3FBAAD59328CD",
+        "url": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Large/115_206x334_25.png?h=334&iar=0&w=206&rev=046da152bca841ef83e27964a6d58ee9&hash=7D8461B5927C00E8CCF3FBAAD59328CD",
+        "width": "206",
+      },
+      "value": "12046",
+    },
+    Object {
+      "detIdentifier": "12022",
+      "id": undefined,
+      "model": "BF150",
+      "modelPage": Object {
+        "name": "bf150",
+        "url": "/en/large-motors/bf150",
+      },
+      "name": "BF150",
+      "text": "BF150",
+      "thumbnail": Object {
+        "alt": "Side view of a BF150",
+        "height": "334",
+        "src": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Large/150_206x334_25.png?h=334&iar=0&w=206&rev=988a9c4d249e426b917ef1ae5479cb0b&hash=88B94C29835A51529F598682CDEB44D4",
+        "url": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Large/150_206x334_25.png?h=334&iar=0&w=206&rev=988a9c4d249e426b917ef1ae5479cb0b&hash=88B94C29835A51529F598682CDEB44D4",
+        "width": "206",
+      },
+      "value": "12022",
+    },
+    Object {
+      "detIdentifier": "12065",
+      "id": undefined,
+      "model": "BF225D",
+      "modelPage": Object {
+        "name": "bf225d",
+        "url": "/en/large-motors/bf225d",
+      },
+      "name": "BF225D",
+      "text": "BF225D",
+      "thumbnail": Object {
+        "alt": "Side view of a BF225D",
+        "height": "334",
+        "src": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Large/225_206x334_25.png?h=334&iar=0&w=206&rev=39be9b6276654d6087109d0c2dcf8782&hash=97392A2F37A6009053C2DD84D2923D62",
+        "url": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Large/225_206x334_25.png?h=334&iar=0&w=206&rev=39be9b6276654d6087109d0c2dcf8782&hash=97392A2F37A6009053C2DD84D2923D62",
+        "width": "206",
+      },
+      "value": "12065",
+    },
+    Object {
+      "detIdentifier": "12066",
+      "id": undefined,
+      "model": "BF250D",
+      "modelPage": Object {
+        "name": "bf250d",
+        "url": "/en/large-motors/bf250d",
+      },
+      "name": "BF250D",
+      "text": "BF250D",
+      "thumbnail": Object {
+        "alt": "Side view of a BF250D",
+        "height": "334",
+        "src": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Large/250_206x334_25.png?h=334&iar=0&w=206&rev=d78739644b8444e9b87d87a81df60d87&hash=9FFC3FDB3AE41C27B1E95414CEF9F5CE",
+        "url": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/Large/250_206x334_25.png?h=334&iar=0&w=206&rev=d78739644b8444e9b87d87a81df60d87&hash=9FFC3FDB3AE41C27B1E95414CEF9F5CE",
+        "width": "206",
+      },
+      "value": "12066",
+    },
+    Object {
+      "detIdentifier": "12075",
+      "id": undefined,
+      "model": "BF115",
+      "modelPage": Object {
+        "name": "bf115",
+        "url": "/en/drive-by-wire/bf115",
+      },
+      "name": "BF115",
+      "text": "BF115",
+      "thumbnail": Object {
+        "alt": "Side view of a BF115",
+        "height": "334",
+        "src": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/DBW/115_206x334_25.png?h=334&iar=0&w=206&rev=34652d22b7854011a7e724caf5fe493e&hash=672A50785D5048419122F147D00996E0",
+        "url": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/DBW/115_206x334_25.png?h=334&iar=0&w=206&rev=34652d22b7854011a7e724caf5fe493e&hash=672A50785D5048419122F147D00996E0",
+        "width": "206",
+      },
+      "value": "12075",
+    },
+    Object {
+      "detIdentifier": "12076",
+      "id": undefined,
+      "model": "BF150",
+      "modelPage": Object {
+        "name": "bf150",
+        "url": "/en/drive-by-wire/bf150",
+      },
+      "name": "BF150",
+      "text": "BF150",
+      "thumbnail": Object {
+        "alt": "Side view of a BF150",
+        "height": "334",
+        "src": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/DBW/150_206x334_25.png?h=334&iar=0&w=206&rev=8b88b93984c94def9aa82e383c6bf971&hash=649AE444CB25D58EB95C370BB65DBDC8",
+        "url": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/DBW/150_206x334_25.png?h=334&iar=0&w=206&rev=8b88b93984c94def9aa82e383c6bf971&hash=649AE444CB25D58EB95C370BB65DBDC8",
+        "width": "206",
+      },
+      "value": "12076",
+    },
+    Object {
+      "detIdentifier": "12077",
+      "id": undefined,
+      "model": "BF225D",
+      "modelPage": Object {
+        "name": "bf225d",
+        "url": "/en/drive-by-wire/bf225d",
+      },
+      "name": "BF225D",
+      "text": "BF225D",
+      "thumbnail": Object {
+        "alt": "Side view of a BF225D",
+        "height": "334",
+        "src": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/DBW/225_206x334_25.png?h=334&iar=0&w=206&rev=7ab6eb350fa84be0834e7fafaa72f6f6&hash=2B9F68A694AC7F67A20C27BF01ED2131",
+        "url": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/DBW/225_206x334_25.png?h=334&iar=0&w=206&rev=7ab6eb350fa84be0834e7fafaa72f6f6&hash=2B9F68A694AC7F67A20C27BF01ED2131",
+        "width": "206",
+      },
+      "value": "12077",
+    },
+    Object {
+      "detIdentifier": "12078",
+      "id": undefined,
+      "model": "BF250D",
+      "modelPage": Object {
+        "name": "bf250d",
+        "url": "/en/drive-by-wire/bf250d",
+      },
+      "name": "BF250D",
+      "text": "BF250D",
+      "thumbnail": Object {
+        "alt": "Side view of a BF250D",
+        "height": "334",
+        "src": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/DBW/250_206x334_25.png?h=334&iar=0&w=206&rev=3fb61b7b1e2a440fba516377855f2873&hash=723B5F4ECFD8ED6D78C701F23CB595DD",
+        "url": "https://marine-uat-01-dmm.marine.honda.ca/-/media/Brands/Marine/Category-Landing-Page/Studio---Desktop/DBW/250_206x334_25.png?h=334&iar=0&w=206&rev=3fb61b7b1e2a440fba516377855f2873&hash=723B5F4ECFD8ED6D78C701F23CB595DD",
+        "width": "206",
+      },
+      "value": "12078",
+    },
+  ],
+]
+`;
+
+exports[`Data mapping function for Product Compare component getPspMappedCatalogData should return expected output 1`] = `
+Array [
+  Array [
+    "root",
+  ],
+  Array [
+    Object {
+      "text": "Cruiser",
+      "value": "Cruiser",
+    },
+    Object {
+      "text": "Touring",
+      "value": "Touring",
+    },
+    Object {
+      "text": "DirtBikes",
+      "value": "Dirt Bikes",
+    },
+  ],
+  Array [
+    Object {
+      "text": "2023",
+      "value": "2023",
+    },
+    Object {
+      "text": "2022",
+      "value": "2022",
+    },
+    Object {
+      "text": "2023",
+      "value": "2023",
+    },
+    Object {
+      "text": "2023",
+      "value": "2023",
+    },
+  ],
+  Array [
+    Object {
+      "detIdentifier": "13322",
+      "detKey": "rebel_1100_touring_13322",
+      "id": "",
+      "modelKey": "rebel_1100_touring",
+      "modelPage": Object {
+        "name": "2023",
+        "subPages": Array [
+          Object {
+            "name": "trims",
+            "url": "/en/cruiser/2023/trims",
+          },
+          Object {
+            "name": "specifications",
+            "url": "/en/cruiser/2023/specifications",
+          },
+          Object {
+            "name": "accessories",
+            "url": "/en/cruiser/2023/accessories",
+          },
+        ],
+        "url": "/en/cruiser/2023",
+      },
+      "modelYear": "2023",
+      "name": "Rebel 1100 Touring",
+      "text": "Rebel 1100 Touring",
+      "thumbnail": Object {},
+      "value": "13322",
+      "vehicleType": "ON-ROAD",
+    },
+    Object {
+      "detIdentifier": "13320",
+      "detKey": "rebel_500_13320",
+      "id": "",
+      "modelKey": "rebel_500",
+      "modelPage": Object {
+        "name": "2023",
+        "subPages": Array [
+          Object {
+            "name": "trims",
+            "url": "/en/cruiser/2023/trims",
+          },
+          Object {
+            "name": "specifications",
+            "url": "/en/cruiser/2023/specifications",
+          },
+          Object {
+            "name": "accessories",
+            "url": "/en/cruiser/2023/accessories",
+          },
+        ],
+        "url": "/en/cruiser/2023",
+      },
+      "modelYear": "2023",
+      "name": "Rebel 500",
+      "text": "Rebel 500",
+      "thumbnail": Object {},
+      "value": "13320",
+      "vehicleType": "ON-ROAD",
+    },
+    Object {
+      "detIdentifier": "",
+      "detKey": "",
+      "id": "",
+      "modelKey": "",
+      "modelPage": null,
+      "modelYear": "2023",
+      "name": "Gold Wing DCT",
+      "text": "Gold Wing DCT",
+      "thumbnail": Object {},
+      "value": "",
+      "vehicleType": "ON-ROAD",
+    },
+    Object {
+      "detIdentifier": "13316",
+      "detKey": "gold_wing_dct_13316",
+      "id": "",
+      "modelKey": "gl1800alb",
+      "modelPage": Object {
+        "name": "2022",
+        "subPages": Array [
+          Object {
+            "name": "Trims",
+            "url": "/en/touring/Trims",
+          },
+          Object {
+            "name": "Specifications",
+            "url": "/en/touring/Specifications",
+          },
+          Object {
+            "name": "Accessories",
+            "url": "/en/touring/Accessories",
+          },
+        ],
+        "url": "/en/touring",
+      },
+      "modelYear": "2022",
+      "name": "Gold Wing Tour",
+      "text": "Gold Wing Tour",
+      "thumbnail": Object {
+        "alt": "Gold Wing 2022",
+        "height": "1440",
+        "src": "https://sitecore.psp.honda.ca/-/media/Brands/PSP/Touring/2022/Gold_Wing_2022_Primary_Image.png?h=1440&iar=0&w=1920&hash=B569B5E04453C01E2EAA06CE01A9B53F",
+        "width": "1920",
+      },
+      "value": "13316",
+      "vehicleType": "ON-ROAD",
+    },
+    Object {
+      "detIdentifier": "13313",
+      "detKey": "gold_wing_dct_13313",
+      "id": "",
+      "modelKey": "gl1800al",
+      "modelPage": Object {
+        "name": "2022",
+        "subPages": Array [
+          Object {
+            "name": "Trims",
+            "url": "/en/touring/Trims",
+          },
+          Object {
+            "name": "Specifications",
+            "url": "/en/touring/Specifications",
+          },
+          Object {
+            "name": "Accessories",
+            "url": "/en/touring/Accessories",
+          },
+        ],
+        "url": "/en/touring",
+      },
+      "modelYear": "2022",
+      "name": "Gold Wing DCT",
+      "text": "Gold Wing DCT",
+      "thumbnail": Object {
+        "alt": "Gold Wing 2023",
+        "height": "1440",
+        "src": "https://sitecore.psp.honda.ca/-/media/Brands/PSP/Touring/2023/Gold_Wing_2023_Primary_Image.png?h=1440&iar=0&w=1920&hash=B569B5E04453C01E2EAA06CE01A9B53F",
+        "width": "1920",
+      },
+      "value": "13313",
+      "vehicleType": "ON-ROAD",
+    },
+    Object {
+      "detIdentifier": "",
+      "detKey": "",
+      "id": "",
+      "modelKey": "",
+      "modelPage": null,
+      "modelYear": "2023",
+      "name": "CRF50F",
+      "text": "CRF50F",
+      "thumbnail": Object {},
+      "value": "",
+      "vehicleType": "OFF-ROAD",
+    },
+    Object {
+      "detIdentifier": "",
+      "detKey": "",
+      "id": "",
+      "modelKey": "",
+      "modelPage": null,
+      "modelYear": "2023",
+      "name": "CRF450R",
+      "text": "CRF450R",
+      "thumbnail": Object {},
+      "value": "",
+      "vehicleType": "OFF-ROAD",
+    },
+  ],
+  Array [
+    Object {
+      "defaultExteriorColor": Object {
+        "color": Object {
+          "fields": Object {
+            "detIdentifier": Object {
+              "value": "1162",
+            },
+            "detKey": Object {
+              "value": "gr23mat_iridium_grey_met__mat_morion_black__2_tone_",
+            },
+            "sotId": Object {
+              "value": "",
+            },
+          },
+        },
+        "name": "Mat Iridium Grey Metallic",
+      },
+      "detIdentifier": "",
+      "hidePriceAndFinance": "",
+      "modelCode": Object {
+        "value": "defghi",
+      },
+      "text": "DCT",
+      "value": "DCT",
+    },
+    Object {
+      "defaultExteriorColor": Object {
+        "color": Object {
+          "fields": Object {
+            "detIdentifier": Object {
+              "value": "",
+            },
+            "detKey": Object {
+              "value": "milano_red",
+            },
+            "sotId": Object {
+              "value": "",
+            },
+          },
+        },
+        "name": "Milano Red",
+      },
+      "detIdentifier": "",
+      "hidePriceAndFinance": "1",
+      "modelCode": Object {
+        "value": "abcdef",
+      },
+      "text": "ABS",
+      "value": "ABS",
+    },
+    Object {
+      "defaultExteriorColor": Object {
+        "color": Object {
+          "fields": Object {
+            "detIdentifier": Object {
+              "value": "1162",
+            },
+            "detKey": Object {
+              "value": "gr23mat_iridium_grey_met__mat_morion_black__2_tone_",
+            },
+            "sotId": Object {
+              "value": "",
+            },
+          },
+        },
+        "name": "Mat Iridium Grey Metallic",
+      },
+      "detIdentifier": "11742",
+      "hidePriceAndFinance": "1",
+      "modelCode": Object {
+        "value": "GL1800BDP",
+      },
+      "text": "ABS",
+      "value": "ABS",
+    },
+    Object {
+      "defaultExteriorColor": Object {
+        "color": Object {
+          "fields": Object {
+            "detIdentifier": Object {
+              "value": "1162",
+            },
+            "detKey": Object {
+              "value": "gr23mat_iridium_grey_met__mat_morion_black__2_tone_",
+            },
+            "sotId": Object {
+              "value": "",
+            },
+          },
+        },
+        "name": "Mat Iridium Grey Metallic",
+      },
+      "detIdentifier": "11745",
+      "hidePriceAndFinance": "1",
+      "modelCode": Object {
+        "value": "GL1800BDP",
+      },
+      "text": "ABS",
+      "value": "ABS",
+    },
+    Object {
+      "defaultExteriorColor": Object {
+        "color": Object {
+          "fields": Object {
+            "detIdentifier": Object {
+              "value": "",
+            },
+            "detKey": Object {
+              "value": "crystal_black_pearl",
+            },
+            "sotId": Object {
+              "value": "",
+            },
+          },
+        },
+        "name": "Crystal Black Pearl",
+      },
+      "detIdentifier": "",
+      "hidePriceAndFinance": "",
+      "modelCode": Object {
+        "value": "model-code",
+      },
+      "text": "ABS",
+      "value": "ABS",
+    },
+    Object {
+      "defaultExteriorColor": Object {
+        "color": Object {
+          "fields": Object {
+            "detIdentifier": Object {
+              "value": "",
+            },
+            "detKey": Object {
+              "value": "crystal_black_pearl",
+            },
+            "sotId": Object {
+              "value": "",
+            },
+          },
+        },
+        "name": "Crystal Black Pearl",
+      },
+      "detIdentifier": "11750",
+      "hidePriceAndFinance": "",
+      "modelCode": Object {
+        "value": "CMX500AP",
+      },
+      "text": "ABS",
+      "value": "ABS",
+    },
+    Object {
+      "defaultExteriorColor": Object {
+        "color": Object {
+          "fields": Object {
+            "detIdentifier": Object {
+              "value": "",
+            },
+            "detKey": Object {
+              "value": "crystal_black_pearl",
+            },
+            "sotId": Object {
+              "value": "",
+            },
+          },
+        },
+        "name": "Crystal Black Pearl",
+      },
+      "detIdentifier": "11753",
+      "hidePriceAndFinance": "",
+      "modelCode": Object {
+        "value": "CMX1100TP",
+      },
+      "text": "ABS",
+      "value": "ABS",
+    },
+    Object {
+      "defaultExteriorColor": Object {
+        "color": Object {
+          "fields": Object {
+            "detIdentifier": Object {
+              "value": "",
+            },
+            "detKey": Object {
+              "value": "crystal_black_pearl",
+            },
+            "sotId": Object {
+              "value": "",
+            },
+          },
+        },
+        "name": "Crystal Black Pearl",
+      },
+      "detIdentifier": "11754",
+      "hidePriceAndFinance": "",
+      "modelCode": Object {
+        "value": "CMX1100DTP",
+      },
+      "text": "DCT",
+      "value": "DCT",
+    },
+  ],
+]
+`;

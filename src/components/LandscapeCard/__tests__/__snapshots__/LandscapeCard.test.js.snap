@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LandscapeCard> should render without accessibility violations 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 hgeMfw"
+  >
+    <div
+      class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 gXilRl"
+    >
+      <div
+        class="Box-sc-1bsf784-0 jGVkdm sc-1k44dfv-0 bTFGsD"
+        display="flex"
+        width="100%"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 fZdwjR"
+        >
+          <div
+            class="fresnel-container fresnel-at-mobile sc-1k44dfv-0 gtzPRh"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 dLObGV"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 jbBrzI"
+              />
+            </div>
+          </div>
+          <div
+            class="sc-1k44dfv-0 klHKZs"
+            color=""
+            style="text-align: center,left;"
+          >
+            
+
+            <h3
+              class="sc-1k44dfv-0 eUGlGC"
+            >
+              My title
+            </h3>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 jXxIsO"
+          >
+            <div
+              class="sc-1k44dfv-0 klHKZs"
+              color=""
+            >
+              
+
+              <p>
+                My body text
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="fresnel-container fresnel-greaterThan-mobile sc-1k44dfv-0 gtzPRh"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 dLObGV"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 jbBrzI"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

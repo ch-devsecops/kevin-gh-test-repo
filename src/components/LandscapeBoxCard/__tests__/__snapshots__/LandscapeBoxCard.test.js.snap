@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LandscapeBoxCard> should render correctly with all props 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 lcphFz"
+  >
+    <div
+      class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 gXilRl"
+    >
+      <div
+        class="Box-sc-1bsf784-0 Column-t2p57o-0 dgpVoP"
+        width="1"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 dCzAzE"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 eJJIkK"
+          >
+            <div
+              class="sc-1k44dfv-0 lnlLeU"
+              mb="xs,m"
+              px="0,default"
+              style="text-align: center;"
+            >
+              
+
+              <h3
+                class="sc-1k44dfv-0 eUGlGC"
+              >
+                My title
+              </h3>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 fmKwic"
+            >
+              <div
+                class="sc-1k44dfv-0 dywxpH"
+                mb="0,0"
+                style="text-align: center;"
+              >
+                
+
+                <p>
+                  My body text
+                </p>
+              </div>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 fAJPuz"
+            />
+          </div>
+          <div
+            class="fresnel-container fresnel-greaterThanOrEqual-smallDesktop "
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 jYMsma"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 dYxbmH"
+              />
+            </div>
+          </div>
+          <div
+            class="fresnel-container fresnel-lessThan-smallDesktop "
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 jYMsma"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 dYxbmH"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

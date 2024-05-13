@@ -1,0 +1,395 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CompareProductsDrawer> should empty local storage when cleared 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 ipaDbT"
+    data-testid="compare-product-drawer-container"
+  >
+    <button
+      aria-label="Shared.Common.compareDrawerHeading"
+      aria-labelledby="Shared.Common.compareDrawerHeading"
+      class="Link-sc-16wd4a0-0 sc-1k44dfv-0 kfScjo"
+      data-testid="compare-drawer-toggle"
+      tabindex="0"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 jKzALd"
+        tabindex="-1"
+      >
+        <p
+          class="sc-1k44dfv-0 fDGMla"
+          color="typographyDefault"
+          font-family="bold"
+          font-weight="regular"
+        >
+          Shared.Common.compareDrawerHeading
+        </p>
+      </div>
+    </button>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 cZYHRg"
+      data-testid="compare-drawer-products"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 kWIvqL"
+      >
+        <div
+          class="Box-sc-1bsf784-0 iPRsIc"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 hBrrgo"
+            data-testid="compare-drawer-product-card"
+            tabindex="0"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 WvtfK"
+            >
+              <img
+                alt="Front of Honda GX120 engine"
+                class="sc-1k44dfv-0 sc-1k44dfv-0 jNcVLa"
+                draggable="true"
+                loading="lazy"
+                src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-120/GX120.jpg?rev=af1f2b74677848d9a78390e8484f38e6"
+              />
+              <a
+                class="sc-1k44dfv-0 sc-1k44dfv-0 jOGOGH"
+                color="typographyDefault"
+                font-family="default"
+                font-weight="regular"
+              >
+                GX120
+              </a>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gyytvc"
+              data-testid="compare-drawer-product-card-close-btn"
+              tabindex="0"
+            />
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 iPRsIc"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 hBrrgo"
+            data-testid="compare-drawer-product-card"
+            tabindex="0"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 WvtfK"
+            >
+              <img
+                alt="Front of Honda GX160 engine"
+                class="sc-1k44dfv-0 sc-1k44dfv-0 jNcVLa"
+                draggable="true"
+                loading="lazy"
+                src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-160/GX160.jpg?rev=7d0192b9fffb4ebf95c8807d00a9c2d6"
+              />
+              <a
+                class="sc-1k44dfv-0 sc-1k44dfv-0 jOGOGH"
+                color="typographyDefault"
+                font-family="default"
+                font-weight="regular"
+              >
+                GX160
+              </a>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gyytvc"
+              data-testid="compare-drawer-product-card-close-btn"
+              tabindex="0"
+            />
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 iPRsIc"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 hBrrgo"
+            data-testid="compare-drawer-product-card"
+            tabindex="0"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 WvtfK"
+            >
+              <img
+                alt="Front of Honda GX200 engine"
+                class="sc-1k44dfv-0 sc-1k44dfv-0 jNcVLa"
+                draggable="true"
+                loading="lazy"
+                src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-200/GX200.jpg?rev=f055a2b356bd4147b24faa9d020d6095"
+              />
+              <a
+                class="sc-1k44dfv-0 sc-1k44dfv-0 jOGOGH"
+                color="typographyDefault"
+                font-family="default"
+                font-weight="regular"
+              >
+                GX200
+              </a>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gyytvc"
+              data-testid="compare-drawer-product-card-close-btn"
+              tabindex="0"
+            />
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 iPRsIc"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 hBrrgo"
+            data-testid="compare-drawer-product-card"
+            tabindex="0"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 WvtfK"
+            >
+              <img
+                alt="Front of Honda GX270 engine"
+                class="sc-1k44dfv-0 sc-1k44dfv-0 jNcVLa"
+                draggable="true"
+                loading="lazy"
+                src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-270/GX270.jpg?rev=e4c6b54fe7544a62868ef340c27459ac"
+              />
+              <a
+                class="sc-1k44dfv-0 sc-1k44dfv-0 jOGOGH"
+                color="typographyDefault"
+                font-family="default"
+                font-weight="regular"
+              >
+                GX270
+              </a>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gyytvc"
+              data-testid="compare-drawer-product-card-close-btn"
+              tabindex="0"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 gAxfHF"
+      >
+        <a
+          class="Button-pulw6t-0 sc-1k44dfv-0 eSVGfr"
+          data-testid="compare-button"
+          data-testvalue="4"
+          font-size="14px,13px"
+          href="Shared.Common.comparePageUrl"
+        >
+          Shared.Common.drawerCompareButton
+        </a>
+        <button
+          class="Button-pulw6t-0 sc-1k44dfv-0 iTpcTy"
+          data-testid="clear-button"
+          font-size="14px,13px"
+        >
+          Shared.Common.clearAllButton
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<CompareProductsDrawer> should have no accessibility violations 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 ipaDbT"
+    data-testid="compare-product-drawer-container"
+  >
+    <button
+      aria-label="Shared.Common.compareDrawerHeading"
+      aria-labelledby="Shared.Common.compareDrawerHeading"
+      class="Link-sc-16wd4a0-0 sc-1k44dfv-0 kfScjo"
+      data-testid="compare-drawer-toggle"
+      tabindex="0"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 jKzALd"
+        tabindex="-1"
+      >
+        <p
+          class="sc-1k44dfv-0 fDGMla"
+          color="typographyDefault"
+          font-family="bold"
+          font-weight="regular"
+        >
+          Shared.Common.compareDrawerHeading
+        </p>
+      </div>
+    </button>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 cZYHRg"
+      data-testid="compare-drawer-products"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 kWIvqL"
+      >
+        <div
+          class="Box-sc-1bsf784-0 iPRsIc"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 hBrrgo"
+            data-testid="compare-drawer-product-card"
+            tabindex="0"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 WvtfK"
+            >
+              <img
+                alt="Front of Honda GX120 engine"
+                class="sc-1k44dfv-0 sc-1k44dfv-0 jNcVLa"
+                draggable="true"
+                loading="lazy"
+                src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-120/GX120.jpg?rev=af1f2b74677848d9a78390e8484f38e6"
+              />
+              <a
+                class="sc-1k44dfv-0 sc-1k44dfv-0 jOGOGH"
+                color="typographyDefault"
+                font-family="default"
+                font-weight="regular"
+              >
+                GX120
+              </a>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gyytvc"
+              data-testid="compare-drawer-product-card-close-btn"
+              tabindex="0"
+            />
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 iPRsIc"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 hBrrgo"
+            data-testid="compare-drawer-product-card"
+            tabindex="0"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 WvtfK"
+            >
+              <img
+                alt="Front of Honda GX160 engine"
+                class="sc-1k44dfv-0 sc-1k44dfv-0 jNcVLa"
+                draggable="true"
+                loading="lazy"
+                src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-160/GX160.jpg?rev=7d0192b9fffb4ebf95c8807d00a9c2d6"
+              />
+              <a
+                class="sc-1k44dfv-0 sc-1k44dfv-0 jOGOGH"
+                color="typographyDefault"
+                font-family="default"
+                font-weight="regular"
+              >
+                GX160
+              </a>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gyytvc"
+              data-testid="compare-drawer-product-card-close-btn"
+              tabindex="0"
+            />
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 iPRsIc"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 hBrrgo"
+            data-testid="compare-drawer-product-card"
+            tabindex="0"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 WvtfK"
+            >
+              <img
+                alt="Front of Honda GX200 engine"
+                class="sc-1k44dfv-0 sc-1k44dfv-0 jNcVLa"
+                draggable="true"
+                loading="lazy"
+                src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-200/GX200.jpg?rev=f055a2b356bd4147b24faa9d020d6095"
+              />
+              <a
+                class="sc-1k44dfv-0 sc-1k44dfv-0 jOGOGH"
+                color="typographyDefault"
+                font-family="default"
+                font-weight="regular"
+              >
+                GX200
+              </a>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gyytvc"
+              data-testid="compare-drawer-product-card-close-btn"
+              tabindex="0"
+            />
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 iPRsIc"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 hBrrgo"
+            data-testid="compare-drawer-product-card"
+            tabindex="0"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 WvtfK"
+            >
+              <img
+                alt="Front of Honda GX270 engine"
+                class="sc-1k44dfv-0 sc-1k44dfv-0 jNcVLa"
+                draggable="true"
+                loading="lazy"
+                src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-270/GX270.jpg?rev=e4c6b54fe7544a62868ef340c27459ac"
+              />
+              <a
+                class="sc-1k44dfv-0 sc-1k44dfv-0 jOGOGH"
+                color="typographyDefault"
+                font-family="default"
+                font-weight="regular"
+              >
+                GX270
+              </a>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gyytvc"
+              data-testid="compare-drawer-product-card-close-btn"
+              tabindex="0"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 gAxfHF"
+      >
+        <a
+          class="Button-pulw6t-0 sc-1k44dfv-0 eSVGfr"
+          data-testid="compare-button"
+          data-testvalue="4"
+          font-size="14px,13px"
+          href="Shared.Common.comparePageUrl"
+        >
+          Shared.Common.drawerCompareButton
+        </a>
+        <button
+          class="Button-pulw6t-0 sc-1k44dfv-0 iTpcTy"
+          data-testid="clear-button"
+          font-size="14px,13px"
+        >
+          Shared.Common.clearAllButton
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<CompareProductsDrawer> should return null if there is no fields 1`] = `<div />`;

@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TrimPrice> it should have no accessibility violations 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 kFsZSs"
+    display="flex"
+    width="100%"
+  >
+    <p
+      class="sc-1k44dfv-0 bCtyZn"
+      color="typographyDefault"
+      font-family="default"
+      font-weight="regular"
+    >
+      msrp price
+    </p>
+    <p
+      class="sc-1k44dfv-0 kIUVLD"
+      color="typographyDefault"
+      font-family="default"
+      font-weight="bold"
+    >
+      $100
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<TrimPrice> should render correctly 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 kFsZSs"
+    display="flex"
+    width="100%"
+  >
+    <p
+      class="sc-1k44dfv-0 bCtyZn"
+      color="typographyDefault"
+      font-family="default"
+      font-weight="regular"
+    >
+      msrp price
+    </p>
+    <p
+      class="sc-1k44dfv-0 kIUVLD"
+      color="typographyDefault"
+      font-family="default"
+      font-weight="bold"
+    >
+      $100
+    </p>
+  </div>
+</div>
+`;

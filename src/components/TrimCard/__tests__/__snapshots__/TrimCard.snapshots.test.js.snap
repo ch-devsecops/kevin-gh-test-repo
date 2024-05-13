@@ -1,0 +1,926 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TrimCard snapshots renders selected 1`] = `
+<div>
+  <div
+    data-testid="cy-trim-card"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-fjdhpX cXKRCm"
+      display="flex"
+    >
+      <div
+        class="Box-sc-1bsf784-0 ejPbqR"
+        display="flex"
+      >
+        <div
+          style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+        />
+        <div
+          class="Box-sc-1bsf784-0 gDTVXx"
+          data-testid="cy-trimcard-title"
+          style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+        >
+          <h5
+            class="sc-1k44dfv-0 sc-1k44dfv-0 fCJzIg"
+          >
+            <div
+              class="Box-sc-1bsf784-0 iPRsIc"
+              data-testid="cy-trim-specification-card-name"
+            >
+              <span>
+                Trim Name
+              </span>
+            </div>
+          </h5>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 ijHhBD"
+          style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+        >
+          <div>
+            Price Component
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 VbvFZ"
+          display="flex"
+        >
+          <p
+            class="sc-1k44dfv-0 bFHBwf"
+            color="grey.0"
+            font-family="default"
+            font-weight="bold"
+          >
+            Shared.Common.offersAvailableLabel
+          </p>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 dCGXox"
+        data-testid="cy-trimcard-image-wrapper"
+        height="165px,auto"
+      >
+        <img
+          alt="alt"
+          class="sc-1k44dfv-0 jLTFZk"
+          draggable="true"
+          loading="lazy"
+          src="https://via.placeholder.com/300x200"
+        />
+      </div>
+      <div
+        style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+      />
+      <a
+        href="https://www.example.com"
+      >
+        CTA
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TrimCard snapshots renders with a link to a details page 1`] = `
+<div>
+  <div
+    data-testid="cy-trim-card"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-kkGfuU dJibUq"
+      display="flex"
+    >
+      <div
+        class="Box-sc-1bsf784-0 ejPbqR"
+        display="flex"
+      >
+        <div
+          style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+        />
+        <div
+          class="Box-sc-1bsf784-0 gDTVXx"
+          data-testid="cy-trimcard-title"
+          style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+        >
+          <h5
+            class="sc-1k44dfv-0 sc-1k44dfv-0 fCJzIg"
+          >
+            <a
+              aria-label="Shared.Common.viewTrimLabel undefined Trim Name, undefined"
+              class="sc-1k44dfv-0 rGdzC"
+              data-gtm-interaction-type="cta: explore"
+              data-gtm-title="vehicle tile"
+              href="/details"
+            >
+              <div
+                class="Box-sc-1bsf784-0 iPRsIc"
+                data-testid="cy-trim-specification-card-name"
+              >
+                <span>
+                  Trim Name
+                </span>
+              </div>
+            </a>
+          </h5>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 ijHhBD"
+          style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+        >
+          <div>
+            Price Component
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 VbvFZ"
+          display="flex"
+        >
+          <p
+            class="sc-1k44dfv-0 bFHBwf"
+            color="grey.0"
+            font-family="default"
+            font-weight="bold"
+          >
+            Shared.Common.offersAvailableLabel
+          </p>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 dCGXox"
+        data-testid="cy-trimcard-image-wrapper"
+        height="165px,auto"
+      >
+        <a
+          aria-label="Shared.Common.viewTrimLabel undefined Trim Name, undefined"
+          class="sc-1k44dfv-0 rGdzC"
+          data-gtm-interaction-type="cta: explore"
+          data-gtm-title="vehicle tile"
+          href="/details"
+        >
+          <img
+            alt="alt"
+            class="sc-1k44dfv-0 jLTFZk"
+            draggable="true"
+            loading="lazy"
+            src="https://via.placeholder.com/300x200"
+          />
+        </a>
+      </div>
+      <div
+        style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+      />
+      <a
+        href="https://www.example.com"
+      >
+        CTA
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TrimCard snapshots renders with a price component 1`] = `
+<div>
+  <div
+    data-testid="cy-trim-card"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-gZMcBi cMTNiz"
+      display="flex"
+    >
+      <div
+        class="Box-sc-1bsf784-0 ejPbqR"
+        display="flex"
+      >
+        <div
+          style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+        />
+        <div
+          class="Box-sc-1bsf784-0 gDTVXx"
+          data-testid="cy-trimcard-title"
+          style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+        >
+          <h5
+            class="sc-1k44dfv-0 sc-1k44dfv-0 fCJzIg"
+          >
+            <div
+              class="Box-sc-1bsf784-0 iPRsIc"
+              data-testid="cy-trim-specification-card-name"
+            >
+              <span>
+                Trim Name
+              </span>
+            </div>
+          </h5>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 ijHhBD"
+          style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+        >
+          <div>
+            Price Component
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 VbvFZ"
+          display="flex"
+        >
+          <p
+            class="sc-1k44dfv-0 bFHBwf"
+            color="grey.0"
+            font-family="default"
+            font-weight="bold"
+          >
+            Shared.Common.offersAvailableLabel
+          </p>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 dCGXox"
+        data-testid="cy-trimcard-image-wrapper"
+        height="165px,auto"
+      >
+        <img
+          alt="alt"
+          class="sc-1k44dfv-0 jLTFZk"
+          draggable="true"
+          loading="lazy"
+          src="https://via.placeholder.com/300x200"
+        />
+      </div>
+      <div
+        style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+      />
+      <a
+        href="https://www.example.com"
+      >
+        CTA
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TrimCard snapshots renders with a price object 1`] = `
+<div>
+  <div
+    data-testid="cy-trim-card"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-chPdSV iqSCds"
+      display="flex"
+    >
+      <div
+        class="Box-sc-1bsf784-0 ejPbqR"
+        display="flex"
+      >
+        <div
+          style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+        />
+        <div
+          class="Box-sc-1bsf784-0 gDTVXx"
+          data-testid="cy-trimcard-title"
+          style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+        >
+          <h5
+            class="sc-1k44dfv-0 sc-1k44dfv-0 fCJzIg"
+          >
+            <div
+              class="Box-sc-1bsf784-0 iPRsIc"
+              data-testid="cy-trim-specification-card-name"
+            >
+              <span>
+                Trim Name
+              </span>
+            </div>
+          </h5>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 ijHhBD"
+          style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+        >
+          <div
+            class="Box-sc-1bsf784-0 cVgWKY"
+            display="flex"
+          >
+            <div
+              class="Box-sc-1bsf784-0 iPRsIc"
+              data-testid="msrp-content"
+            >
+              <div
+                class="Box-sc-1bsf784-0 tIoGE"
+                display="flex"
+              >
+                <p
+                  class="sc-1k44dfv-0 eFZNfY"
+                  color="typographyDefault"
+                  data-testid="price-label"
+                  font-family="default"
+                  font-weight="regular"
+                >
+                  Shared.Common.msrpStartingFromLabel
+                </p>
+                <span
+                  class="Box-sc-1bsf784-0 gTpLoe pricing-tooltip"
+                  data-testid="cy-pricing-tooltip"
+                  height="14px"
+                  width="14px"
+                >
+                  <button
+                    aria-label="Shared.Common.msrpStartingFromLabel"
+                    class="sc-1k44dfv-0 jOKBEK"
+                  />
+                </span>
+              </div>
+              <h6
+                class="sc-1k44dfv-0 bmGQTG"
+                data-testid="cy-trim-price"
+              >
+                $1,234
+              </h6>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 VbvFZ"
+          display="flex"
+        >
+          <p
+            class="sc-1k44dfv-0 bFHBwf"
+            color="grey.0"
+            font-family="default"
+            font-weight="bold"
+          >
+            Shared.Common.offersAvailableLabel
+          </p>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 dCGXox"
+        data-testid="cy-trimcard-image-wrapper"
+        height="165px,auto"
+      >
+        <img
+          alt="alt"
+          class="sc-1k44dfv-0 jLTFZk"
+          draggable="true"
+          loading="lazy"
+          src="https://via.placeholder.com/300x200"
+        />
+      </div>
+      <div
+        style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+      />
+      <a
+        href="https://www.example.com"
+      >
+        CTA
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TrimCard snapshots renders with a pricing error 1`] = `
+<div>
+  <div
+    data-testid="cy-trim-card"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-jKJlTe fXOoKy"
+      display="flex"
+    >
+      <div
+        class="Box-sc-1bsf784-0 ejPbqR"
+        display="flex"
+      >
+        <div
+          style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+        />
+        <div
+          class="Box-sc-1bsf784-0 gDTVXx"
+          data-testid="cy-trimcard-title"
+          style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+        >
+          <h5
+            class="sc-1k44dfv-0 sc-1k44dfv-0 fCJzIg"
+          >
+            <div
+              class="Box-sc-1bsf784-0 iPRsIc"
+              data-testid="cy-trim-specification-card-name"
+            >
+              <span>
+                Trim Name
+              </span>
+            </div>
+          </h5>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 ijHhBD"
+          style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+        >
+          <div
+            class="Box-sc-1bsf784-0 hbdqWR"
+            display="flex"
+            height="48px"
+          >
+            <p
+              class="sc-1k44dfv-0 cpDlcC"
+              color="typographyDefault"
+              font-family="default"
+              font-weight="regular"
+            >
+              Shared.Common.priceErrorLabel
+            </p>
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 VbvFZ"
+          display="flex"
+        >
+          <p
+            class="sc-1k44dfv-0 bFHBwf"
+            color="grey.0"
+            font-family="default"
+            font-weight="bold"
+          >
+            Shared.Common.offersAvailableLabel
+          </p>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 dCGXox"
+        data-testid="cy-trimcard-image-wrapper"
+        height="165px,auto"
+      >
+        <img
+          alt="alt"
+          class="sc-1k44dfv-0 jLTFZk"
+          draggable="true"
+          loading="lazy"
+          src="https://via.placeholder.com/300x200"
+        />
+      </div>
+      <div
+        style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+      />
+      <a
+        href="https://www.example.com"
+      >
+        CTA
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TrimCard snapshots renders with a selling price province 1`] = `
+<div>
+  <div
+    data-testid="cy-trim-card"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-kGXeez febdPu"
+      display="flex"
+    >
+      <div
+        class="Box-sc-1bsf784-0 ejPbqR"
+        display="flex"
+      >
+        <div
+          style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+        />
+        <div
+          class="Box-sc-1bsf784-0 gDTVXx"
+          data-testid="cy-trimcard-title"
+          style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+        >
+          <h5
+            class="sc-1k44dfv-0 sc-1k44dfv-0 fCJzIg"
+          >
+            <div
+              class="Box-sc-1bsf784-0 iPRsIc"
+              data-testid="cy-trim-specification-card-name"
+            >
+              <span>
+                Trim Name
+              </span>
+            </div>
+          </h5>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 ijHhBD"
+          style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+        >
+          <div
+            class="Box-sc-1bsf784-0 cVgWKY"
+            display="flex"
+          >
+            <div
+              class="Box-sc-1bsf784-0 iPRsIc"
+              data-testid="msrp-content"
+            >
+              <div
+                class="Box-sc-1bsf784-0 tIoGE"
+                display="flex"
+              >
+                <p
+                  class="sc-1k44dfv-0 eFZNfY"
+                  color="typographyDefault"
+                  data-testid="price-label"
+                  font-family="default"
+                  font-weight="regular"
+                >
+                  Shared.Common.msrpStartingFromLabel
+                </p>
+                <span
+                  class="Box-sc-1bsf784-0 gTpLoe pricing-tooltip"
+                  data-testid="cy-pricing-tooltip"
+                  height="14px"
+                  width="14px"
+                >
+                  <button
+                    aria-label="Shared.Common.msrpStartingFromLabel"
+                    class="sc-1k44dfv-0 jOKBEK"
+                  />
+                </span>
+              </div>
+              <h6
+                class="sc-1k44dfv-0 bmGQTG"
+                data-testid="cy-trim-price"
+              >
+                $1,234
+              </h6>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 VbvFZ"
+          display="flex"
+        >
+          <p
+            class="sc-1k44dfv-0 bFHBwf"
+            color="grey.0"
+            font-family="default"
+            font-weight="bold"
+          >
+            Shared.Common.offersAvailableLabel
+          </p>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 dCGXox"
+        data-testid="cy-trimcard-image-wrapper"
+        height="165px,auto"
+      >
+        <img
+          alt="alt"
+          class="sc-1k44dfv-0 jLTFZk"
+          draggable="true"
+          loading="lazy"
+          src="https://via.placeholder.com/300x200"
+        />
+      </div>
+      <div
+        style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+      />
+      <a
+        href="https://www.example.com"
+      >
+        CTA
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TrimCard snapshots renders with emissions values 1`] = `
+<div>
+  <div
+    data-testid="cy-trim-card"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-hMqMXs gbNsMK"
+      display="flex"
+    >
+      <div
+        class="Box-sc-1bsf784-0 ejPbqR"
+        display="flex"
+      >
+        <div
+          style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+        />
+        <div
+          class="Box-sc-1bsf784-0 gDTVXx"
+          data-testid="cy-trimcard-title"
+          style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+        >
+          <h5
+            class="sc-1k44dfv-0 sc-1k44dfv-0 fCJzIg"
+          >
+            <div
+              class="Box-sc-1bsf784-0 iPRsIc"
+              data-testid="cy-trim-specification-card-name"
+            >
+              <span>
+                Trim Name
+              </span>
+            </div>
+          </h5>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 ijHhBD"
+          style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+        >
+          <div>
+            Price Component
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 VbvFZ"
+          display="flex"
+        >
+          <p
+            class="sc-1k44dfv-0 bFHBwf"
+            color="grey.0"
+            font-family="default"
+            font-weight="bold"
+          >
+            Shared.Common.offersAvailableLabel
+          </p>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 dCGXox"
+        data-testid="cy-trimcard-image-wrapper"
+        height="165px,auto"
+      >
+        <img
+          alt="alt"
+          class="sc-1k44dfv-0 jLTFZk"
+          draggable="true"
+          loading="lazy"
+          src="https://via.placeholder.com/300x200"
+        />
+      </div>
+      <div
+        style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+      />
+      <a
+        href="https://www.example.com"
+      >
+        CTA
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TrimCard snapshots renders with no nameBadge 1`] = `
+<div>
+  <div
+    data-testid="cy-trim-card"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-VigVT ijkSac"
+      display="flex"
+    >
+      <div
+        class="Box-sc-1bsf784-0 ejPbqR"
+        display="flex"
+      >
+        <div
+          style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+        />
+        <div
+          class="Box-sc-1bsf784-0 gDTVXx"
+          data-testid="cy-trimcard-title"
+          style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+        >
+          <h5
+            class="sc-1k44dfv-0 sc-1k44dfv-0 fCJzIg"
+          >
+            <div
+              class="Box-sc-1bsf784-0 iPRsIc"
+              data-testid="cy-trim-specification-card-name"
+            >
+              <span>
+                Trim Name
+              </span>
+            </div>
+          </h5>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 ijHhBD"
+          style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+        >
+          <div>
+            Price Component
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 VbvFZ"
+          display="flex"
+        >
+          <p
+            class="sc-1k44dfv-0 bFHBwf"
+            color="grey.0"
+            font-family="default"
+            font-weight="bold"
+          >
+            Shared.Common.offersAvailableLabel
+          </p>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 dCGXox"
+        data-testid="cy-trimcard-image-wrapper"
+        height="165px,auto"
+      >
+        <img
+          alt="alt"
+          class="sc-1k44dfv-0 jLTFZk"
+          draggable="true"
+          loading="lazy"
+          src="https://via.placeholder.com/300x200"
+        />
+      </div>
+      <div
+        style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+      />
+      <a
+        href="https://www.example.com"
+      >
+        CTA
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TrimCard snapshots renders with pricing that is fetching 1`] = `
+<div>
+  <div
+    data-testid="cy-trim-card"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-dxgOiQ kAruzZ"
+      display="flex"
+    >
+      <div
+        class="Box-sc-1bsf784-0 ejPbqR"
+        display="flex"
+      >
+        <div
+          style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+        />
+        <div
+          class="Box-sc-1bsf784-0 gDTVXx"
+          data-testid="cy-trimcard-title"
+          style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+        >
+          <h5
+            class="sc-1k44dfv-0 sc-1k44dfv-0 fCJzIg"
+          >
+            <div
+              class="Box-sc-1bsf784-0 iPRsIc"
+              data-testid="cy-trim-specification-card-name"
+            >
+              <span>
+                Trim Name
+              </span>
+            </div>
+          </h5>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 ijHhBD"
+          style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+        >
+          <div
+            class="Box-sc-1bsf784-0 gzNjqb"
+            height="48px"
+          />
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 VbvFZ"
+          display="flex"
+        >
+          <p
+            class="sc-1k44dfv-0 bFHBwf"
+            color="grey.0"
+            font-family="default"
+            font-weight="bold"
+          >
+            Shared.Common.offersAvailableLabel
+          </p>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 dCGXox"
+        data-testid="cy-trimcard-image-wrapper"
+        height="165px,auto"
+      >
+        <img
+          alt="alt"
+          class="sc-1k44dfv-0 jLTFZk"
+          draggable="true"
+          loading="lazy"
+          src="https://via.placeholder.com/300x200"
+        />
+      </div>
+      <div
+        style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+      />
+      <a
+        href="https://www.example.com"
+      >
+        CTA
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TrimCard snapshots renders with the provided cursor 1`] = `
+<div>
+  <div
+    data-testid="cy-trim-card"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-cSHVUG kTXfTq"
+      cursor="pointer"
+      display="flex"
+    >
+      <div
+        class="Box-sc-1bsf784-0 ejPbqR"
+        display="flex"
+      >
+        <div
+          style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+        />
+        <div
+          class="Box-sc-1bsf784-0 gDTVXx"
+          data-testid="cy-trimcard-title"
+          style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+        >
+          <h5
+            class="sc-1k44dfv-0 sc-1k44dfv-0 fCJzIg"
+          >
+            <div
+              class="Box-sc-1bsf784-0 iPRsIc"
+              data-testid="cy-trim-specification-card-name"
+            >
+              <span>
+                Trim Name
+              </span>
+            </div>
+          </h5>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 ijHhBD"
+          style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+        >
+          <div>
+            Price Component
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 VbvFZ"
+          display="flex"
+        >
+          <p
+            class="sc-1k44dfv-0 bFHBwf"
+            color="grey.0"
+            font-family="default"
+            font-weight="bold"
+          >
+            Shared.Common.offersAvailableLabel
+          </p>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 dCGXox"
+        data-testid="cy-trimcard-image-wrapper"
+        height="165px,auto"
+      >
+        <img
+          alt="alt"
+          class="sc-1k44dfv-0 jLTFZk"
+          draggable="true"
+          loading="lazy"
+          src="https://via.placeholder.com/300x200"
+        />
+      </div>
+      <div
+        style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+      />
+      <a
+        href="https://www.example.com"
+      >
+        CTA
+      </a>
+    </div>
+  </div>
+</div>
+`;

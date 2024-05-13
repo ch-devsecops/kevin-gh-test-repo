@@ -1,0 +1,401 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ModelPageNav> should render correctly 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 iCZnBB acura-z-index-workaround honda-z-index-workaround"
+    data-gtm-category="model interactions"
+  >
+    <div
+      class="fresnel-container fresnel-lessThan-desktop "
+    >
+      <div
+        class="Box-sc-1bsf784-0 bMfbYL"
+        display="flex"
+      >
+        <div
+          class="Box-sc-1bsf784-0 eTnRTd"
+          data-testid="cy-model-nav-years-dropdown"
+          display="flex"
+          height="70px"
+        >
+          <button
+            class="sc-bdVaJa fDjyJc"
+            color="black"
+          >
+            <div
+              class="IconWrapper-lp9q2r-0 kUnDYo"
+              color="white"
+              style="width: auto;"
+            />
+          </button>
+          <img
+            alt="ilx"
+            class="sc-gZMcBi hQmOSK"
+            data-testid="cy-model-nav-name-badge"
+            src="https://app-acura-pod02-cd-plan-dmm-ccentral-uat.azurewebsites.net/-/media/Acura/ILX/badge.png?h=28&w=190&hash=7284B16F08D71C588F2E3D87F96B161C"
+          />
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 eTnRTd"
+          data-testid="cy-model-nav-navigation-dropdown"
+          display="flex"
+          height="70px"
+        >
+          <button
+            class="sc-bdVaJa fDjyJc"
+            color="black"
+          >
+            <span
+              class="sc-htpNat bwTdfq"
+              color="black"
+            >
+              <span
+                class="sc-htpNat bwTdfq"
+                color="black"
+              >
+                Pages.Models.Exploration.overviewNavLabel
+              </span>
+            </span>
+            <div
+              class="IconWrapper-lp9q2r-0 kUnDYo"
+              color="white"
+              style="width: auto;"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 sc-jTzLTM hPXCIA"
+        width="100%"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 feLJFE sc-fjdhpX dmtGjr"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 hsvmmC"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 lbWKvq"
+            >
+              <p
+                class="sc-1k44dfv-0 bZVSot"
+                color="typographyDefault"
+                font-family="default"
+                font-weight="regular"
+              >
+                Pages.Models.Exploration.mobileLandscapeToastLabel
+              </p>
+            </div>
+            <button
+              class="sc-1k44dfv-0 rejBv"
+            >
+              <div
+                class="IconWrapper-lp9q2r-0 bbbwgU"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 dTZDkL Box-sc-1bsf784-0 sc-1k44dfv-0 bwptLY"
+        direction="down"
+      >
+        <ul
+          data-testid="cy-model-nav-mobile-years-list"
+        >
+          <li
+            class="Box-sc-1bsf784-0 VbvFZ"
+            display="flex"
+          >
+            <a
+              class="sc-gqjmRU kNrAez"
+              color="black"
+              data-testid="cy-model-nav-year-link"
+              href="/en/ILX/2021"
+              last="false"
+            >
+              2021
+            </a>
+          </li>
+          <li
+            class="Box-sc-1bsf784-0 VbvFZ"
+            display="flex"
+          >
+            <a
+              class="sc-gqjmRU fZMWgg"
+              color="black"
+              data-testid="cy-model-nav-year-link"
+              href="/en/ILX/2022"
+              last="true"
+            >
+              2022
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 NjloG Box-sc-1bsf784-0 sc-1k44dfv-0 bIaHCG"
+        direction="down"
+      >
+        <ul
+          data-testid="cy-model-nav-mobile-nav-item-list"
+        >
+          <li
+            class="Box-sc-1bsf784-0 VbvFZ"
+            display="flex"
+          />
+          <li
+            class="Box-sc-1bsf784-0 VbvFZ"
+            display="flex"
+          >
+            <a
+              class="sc-gqjmRU kNrAez"
+              color="black"
+              data-gtm-body-style=""
+              data-gtm-interaction-type="primary model nav"
+              data-testid="cy-model-nav-item"
+              href="/en/ILX/2022/Trims"
+            >
+              Trims
+            </a>
+          </li>
+          <li
+            class="Box-sc-1bsf784-0 VbvFZ"
+            display="flex"
+          >
+            <a
+              class="sc-gqjmRU kNrAez"
+              color="black"
+              data-gtm-body-style=""
+              data-gtm-interaction-type="primary model nav"
+              data-testid="cy-model-nav-item"
+              href="/en/ILX/2022/Specifications"
+            >
+              Specifications
+            </a>
+          </li>
+          <li
+            class="Box-sc-1bsf784-0 VbvFZ"
+            display="flex"
+          >
+            <a
+              class="sc-gqjmRU kNrAez"
+              color="black"
+              data-gtm-body-style=""
+              data-gtm-interaction-type="primary model nav"
+              data-testid="cy-model-nav-item"
+              href="/en/ILX/2022/Accessories"
+            >
+              Accessories
+            </a>
+          </li>
+          <li
+            class="Box-sc-1bsf784-0 VbvFZ"
+            display="flex"
+          >
+            <a
+              class="Link-sc-16wd4a0-0 sc-VigVT kDERDW"
+              color="black"
+              data-gtm-body-style=""
+              data-gtm-interaction-type="primary model nav"
+              data-gtm-title="pages.models.exploration.offersnavlabel"
+              href="undefined"
+            >
+              Pages.Models.Exploration.offersNavLabel
+            </a>
+          </li>
+          <li
+            class="Box-sc-1bsf784-0 gSaKDL"
+            display="flex"
+          >
+            <a
+              aria-label="Build & Price"
+              class="Button-pulw6t-0 fePOwb"
+              data-gtm-body-style=""
+              data-gtm-interaction-type="cta: build"
+              data-gtm-title="build & price"
+              data-testid="dsr-button-component"
+              href="undefined"
+            >
+              Build & Price
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      class="fresnel-container fresnel-greaterThanOrEqual-desktop "
+    >
+      <div>
+        <div
+          class="Box-sc-1bsf784-0 eDJlFb"
+          data-testid="cy-model-page-nav-desktop-wrapper"
+          display="flex"
+          height="75px"
+        >
+          <div
+            class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 jyBXfB"
+            height="100%"
+          >
+            <div
+              class="Box-sc-1bsf784-0 ekugtK"
+              display="flex"
+              height="100%"
+              width="100%"
+            >
+              <div
+                class="Box-sc-1bsf784-0 Column-t2p57o-0 ibvhkG"
+                display="flex"
+                height="100%"
+                width="0.3333333333333333"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 kfGPDj"
+                  data-testid="cy-model-nav-years-dropdown"
+                >
+                  <button
+                    class="sc-bdVaJa fDjyJc"
+                    color="black"
+                  >
+                    <div
+                      class="IconWrapper-lp9q2r-0 kUnDYo"
+                      color="white"
+                      style="width: auto;"
+                    />
+                  </button>
+                  <ul
+                    class="Box-sc-1bsf784-0 sc-bxivhb gsRSFQ"
+                    overflow="hidden"
+                    role="menu"
+                    width="70px"
+                  >
+                    <li
+                      aria-label="2021"
+                      class="Box-sc-1bsf784-0 eclhwq"
+                      display="flex"
+                      role="menuitem"
+                    >
+                      <a
+                        class="Link-sc-16wd4a0-0 sc-ifAKCX blWNRV"
+                        color="black"
+                        data-testid="cy-model-nav-year-link"
+                        href="/en/ILX/2021"
+                      >
+                        2021
+                      </a>
+                    </li>
+                    <li
+                      aria-label="2022"
+                      class="Box-sc-1bsf784-0 eclhwq"
+                      display="flex"
+                      role="menuitem"
+                    >
+                      <a
+                        class="Link-sc-16wd4a0-0 sc-ifAKCX blWNRV"
+                        color="black"
+                        data-testid="cy-model-nav-year-link"
+                        href="/en/ILX/2022"
+                      >
+                        2022
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <img
+                  alt="ilx"
+                  class="sc-EHOje evdWlB"
+                  data-testid="cy-model-nav-name-badge"
+                  src="https://app-acura-pod02-cd-plan-dmm-ccentral-uat.azurewebsites.net/-/media/Acura/ILX/badge.png?h=28&w=190&hash=7284B16F08D71C588F2E3D87F96B161C"
+                />
+              </div>
+              <ul
+                class="Box-sc-1bsf784-0 Column-t2p57o-0 eNEuoU"
+                display="flex"
+                width="0.6666666666666666"
+              >
+                <li
+                  class="sc-gzVnrw iheFIc"
+                >
+                  <a
+                    aria-label="Trims"
+                    class="sc-dnqmqq fIOQzR"
+                    color="black"
+                    data-gtm-body-style=""
+                    data-gtm-interaction-type="primary model nav"
+                    data-testid="cy-model-nav-item"
+                    href="/en/ILX/2022/Trims"
+                  >
+                    Trims
+                  </a>
+                </li>
+                <li
+                  class="sc-gzVnrw iheFIc"
+                >
+                  <a
+                    aria-label="Specifications"
+                    class="sc-dnqmqq fIOQzR"
+                    color="black"
+                    data-gtm-body-style=""
+                    data-gtm-interaction-type="primary model nav"
+                    data-testid="cy-model-nav-item"
+                    href="/en/ILX/2022/Specifications"
+                  >
+                    Specifications
+                  </a>
+                </li>
+                <li
+                  class="sc-gzVnrw iheFIc"
+                >
+                  <a
+                    aria-label="Accessories"
+                    class="sc-dnqmqq fIOQzR"
+                    color="black"
+                    data-gtm-body-style=""
+                    data-gtm-interaction-type="primary model nav"
+                    data-testid="cy-model-nav-item"
+                    href="/en/ILX/2022/Accessories"
+                  >
+                    Accessories
+                  </a>
+                </li>
+                <li
+                  class="sc-gzVnrw iheFIc"
+                >
+                  <a
+                    class="Link-sc-16wd4a0-0 sc-htoDjs djzwKt"
+                    color="black"
+                    data-gtm-body-style=""
+                    data-gtm-interaction-type="primary model nav"
+                    data-gtm-title="pages.models.exploration.offersnavlabel"
+                    data-testid="cy-model-nav-offers"
+                    href="undefined"
+                  >
+                    Pages.Models.Exploration.offersNavLabel
+                  </a>
+                </li>
+                <li
+                  class="sc-gzVnrw iheFIc"
+                  data-testid="cy-model-nav-price-and-finance"
+                >
+                  <a
+                    aria-label="Build & Price"
+                    class="Button-pulw6t-0 fePOwb"
+                    data-gtm-body-style=""
+                    data-gtm-interaction-type="cta: build"
+                    data-gtm-title="build & price"
+                    data-testid="dsr-button-component"
+                    href="undefined"
+                  >
+                    Build & Price
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,5932 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accessories snapshots Acura renders component w/o Mapper 1`] = `
+.c0 {
+  padding-top: xl;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #F5F5F5;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3 {
+  margin-bottom: 38px;
+  width: 100%;
+}
+
+.c15 {
+  width: 100%;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+}
+
+.c42 {
+  padding-left: columnGap.0;
+  padding-right: columnGap.0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.c22 {
+  max-width: maxWidth;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.c1 {
+  color: #2C2C2C;
+  font-family: Roboto;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  text-align: center;
+  color: default;
+  margin-bottom: xs;
+  text-transform: none !important;
+  width: 100%;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: normal;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: zero;
+  width: 100%;
+}
+
+.c2 > *:only-child {
+  margin-right: zero;
+}
+
+.c2 > *:not(only-child) {
+  margin-right: zero;
+}
+
+.c2 > *:last-child {
+  margin-right: zero;
+}
+
+.c5 {
+  margin: 0;
+  color: #2C2C2C;
+  font-family: Cooper Black;
+  font-weight: normal;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+}
+
+.c6 {
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+}
+
+.c6:focus {
+  outline: transparent;
+}
+
+.c6:focus div:first-of-type:after {
+  height: 2px;
+}
+
+.c7 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+  color: #2C2C2C;
+  font-family: Helvetica;
+  font-weight: normal;
+  line-height: 22px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  background-color: #fff;
+  background-color: #fff;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: normal;
+}
+
+.c7::-ms-clear {
+  display: none;
+}
+
+.c7::-webkit-input-placeholder {
+  color: #707070;
+}
+
+.c7::-moz-placeholder {
+  color: #707070;
+}
+
+.c7:-ms-input-placeholder {
+  color: #707070;
+}
+
+.c7::placeholder {
+  color: #707070;
+}
+
+.c7:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  background-color: #2C2C2C;
+}
+
+.c7:after {
+  height: 1px;
+}
+
+.c8 {
+  margin: 0;
+  color: #2C2C2C;
+  font-weight: normal;
+  font-family: Helvetica;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  height: small;
+}
+
+.c10 {
+  max-height: 0px;
+  width: 100%;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-duration: t4;
+  transition-duration: t4;
+  position: absolute;
+  top: 46px;
+  overflow: hidden;
+  outline: none;
+  z-index: options;
+}
+
+.c10 li {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.c11 {
+  font-size: 14px;
+  padding: 15px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-text-size-adjust: 100%;
+  background-color: #fff;
+  color: #2C2C2C;
+  font-family: Helvetica;
+  font-weight: normal;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid;
+  border-color: #D5D5D5;
+}
+
+.c11:hover {
+  background-color: #EAEAEA;
+}
+
+.c11.focusVisible {
+  outline: undefined undefined;
+}
+
+.c11:hover {
+  font-family: Cooper Black;
+}
+
+.c13 {
+  margin: 0;
+  color: default;
+  font-weight: normal;
+  font-family: Helvetica;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+  color: #2C2C2C;
+  width: 100%;
+  max-width: 1000px;
+  padding-left: none;
+  padding-right: none;
+  padding-top: default;
+  text-align: center;
+  line-height: 22px;
+  font-size: 12px;
+  color: default;
+}
+
+.c14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: default;
+}
+
+.c16 {
+  padding-left: m;
+  height: 45px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+  background-color: default;
+}
+
+.c17 {
+  padding-left: columnGap.0;
+  padding-right: columnGap.0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding-left: zero;
+  padding-right: l;
+  height: 100%;
+}
+
+.c18 {
+  background-color: #fff;
+  color: #2C2C2C;
+  position: relative;
+  border: none;
+  cursor: pointer;
+  height: 100%;
+  padding: zero;
+  height: 100%;
+  border-bottom: 3px solid;
+  border-color: #DA2C2E;
+}
+
+.c18:after {
+  content: "";
+  height: 3px;
+  background-color: #DA2C2E;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  -webkit-transition: all;
+  transition: all;
+  -webkit-transition-duration: t5;
+  transition-duration: t5;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+.c18:focus {
+  border-bottom: 3px solid;
+  border-color: #DA2C2E;
+}
+
+.c20 {
+  font-family: Roboto;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  background-color: default;
+  color: #2C2C2C;
+}
+
+.c19 {
+  font-size: 14px;
+  line-height: 22px;
+  font-family: Helvetica;
+  color: #2C2C2C;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.c19 > :last-child {
+  margin-bottom: 0;
+}
+
+.c19 .override {
+  font-size: 14px;
+  line-height: 22px;
+  font-family: Helvetica;
+  text-transform: none;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+}
+
+.c19 p {
+  margin-bottom: default;
+}
+
+.c19 blockquote {
+  margin-bottom: default;
+  font-family: Roboto;
+  font-size: 24px;
+  line-height: 28px;
+  quotes: '“' '”';
+}
+
+.c19 blockquote p:after {
+  content: close-quote;
+}
+
+.c19 blockquote p:before {
+  content: open-quote;
+}
+
+.c19 small {
+  font-size: 10px;
+  line-height: 14px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+}
+
+.c19 strong {
+  font-family: Cooper Black;
+  font-weight: normal;
+}
+
+.c19 em {
+  font-style: italic;
+}
+
+.c19 ul {
+  list-style-type: disc !important;
+  list-style: initial;
+}
+
+.c19 ol {
+  list-style-type: decimal;
+}
+
+.c19 h1 {
+  color: inherit;
+  font-family: Roboto;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.c19 h2 {
+  color: inherit;
+  font-family: Roboto;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.c19 h3 {
+  color: inherit;
+  font-family: Roboto;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.c19 h4 {
+  color: inherit;
+  font-family: Roboto;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.c19 h5 {
+  color: inherit;
+  font-family: Cooper Black;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.c19 h6 {
+  color: inherit;
+  font-family: Cooper Black;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.c19 ul,
+.c19 ol {
+  list-style-position: inside;
+  margin-bottom: default;
+}
+
+.c19 a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #DA2C2E;
+  font-weight: 700;
+}
+
+.c19 a:focus {
+  border: transparent;
+}
+
+.c21 {
+  background-color: #fff;
+  color: #2C2C2C;
+  position: relative;
+  border: none;
+  cursor: pointer;
+  height: 100%;
+  padding: zero;
+  height: 100%;
+  border-bottom: 3px solid;
+  border-color: transparent;
+}
+
+.c21:after {
+  content: "";
+  height: 3px;
+  background-color: #DA2C2E;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  -webkit-transition: all;
+  transition: all;
+  -webkit-transition-duration: t5;
+  transition-duration: t5;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+.c21:focus {
+  border-bottom: 3px solid;
+  border-color: transparent;
+}
+
+.c23 {
+  width: 100%;
+  padding-top: xl;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-bottom: big;
+}
+
+.c24 {
+  padding-left: columnGap.0;
+  padding-right: columnGap.0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.c25 {
+  background-color: #fff;
+  width: 206px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+  background-color: #fff;
+  height: 100%;
+  padding: zero;
+  border-radius: 0;
+  border: none;
+  cursor: pointer;
+}
+
+.c25:focus {
+  border: transparent;
+}
+
+.c26 {
+  min-height: 155px;
+  width: 100%;
+}
+
+.c27 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  object-fit: cover;
+  object-position: center;
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  -ms-user-drag: none;
+  user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c28 {
+  padding-top: m;
+  padding-left: m;
+  padding-right: m;
+  padding-bottom: s;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.c29 {
+  min-height: auto;
+  padding-bottom: xxs;
+}
+
+.c30 {
+  color: #2C2C2C;
+  font-family: Roboto;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  color: default;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: Cooper Black;
+}
+
+.c31 {
+  margin: 0;
+  color: #2C2C2C;
+  font-weight: normal;
+  font-family: Helvetica;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #2C2C2C;
+}
+
+.c32 {
+  padding-top: xs;
+}
+
+.c33 {
+  color: #2C2C2C;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: Helvetica;
+}
+
+.c35 {
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-top-style: solid;
+  border-color: #fff;
+  border-bottom-style: solid;
+}
+
+.c34:hover {
+  background-color: none;
+}
+
+.c34:focus-visible {
+  outline: solid 8px undefined;
+  outline-offset: -8px;
+}
+
+.c37 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 200;
+  background-color: #2C2C2C;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c37:hover {
+  background-color: #2C2C2C;
+}
+
+.c36 {
+  background-color: none;
+  border-color: #fff;
+  top: 0;
+}
+
+.c38 {
+  margin: 0;
+  color: #2C2C2C;
+  font-weight: normal;
+  font-family: Helvetica;
+  width: small;
+  height: small;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: normal;
+  color: #fff;
+  padding-left: 24px;
+  font-weight: 700;
+}
+
+.c40 {
+  max-height: 0;
+  overflow: hidden;
+  height: auto;
+  max-height: 0;
+  -webkit-transition: max-height 0.3s ease;
+  transition: max-height 0.3s ease;
+  position: relative;
+  visibility: hidden;
+}
+
+.c41 {
+  -ms-overflow-style: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+  -webkit-flex-wrap: nowrap !important;
+  -ms-flex-wrap: nowrap !important;
+  flex-wrap: nowrap !important;
+  padding-top: default;
+  padding-bottom: default;
+  overflow-x: scroll;
+  padding-left: s;
+  padding-right: s;
+}
+
+.c41::-webkit-scrollbar {
+  display: none;
+}
+
+.c43 {
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-top-style: solid;
+  border-color: #fff;
+  border-bottom-style: none;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: iconWrapper.md;
+  height: iconWrapper.md;
+}
+
+.c39 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: iconWrapper.md;
+  height: iconWrapper.md;
+  position: relative;
+}
+
+.c12 {
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border: 1px solid;
+  min-width: 220px;
+  height: 45px;
+  border-radius: 50px;
+  -webkit-transition: color 0.3s ease,background-color 0.3s ease;
+  transition: color 0.3s ease,background-color 0.3s ease;
+  text-transform: uppercase;
+  font-size: 13px;
+  overflow: visible;
+  padding-top: s;
+  padding-bottom: s;
+  padding-left: default;
+  padding-right: default;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-family: Roboto;
+  border-radius: 3px;
+  line-height: 20px;
+  background-color: #334C96;
+  border-color: #334C96;
+  color: #fff;
+}
+
+.c12::before {
+  content: none;
+  position: absolute;
+  top: -3px;
+  bottom: -3px;
+  left: -3px;
+  right: -3px;
+  border: 1px solid;
+}
+
+.c12::-moz-focus-inner {
+  border: 0;
+}
+
+.c12 > a,
+.c12 > a:hover,
+.c12 > button {
+  color: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+}
+
+.c12::before {
+  border-radius: 3px;
+}
+
+.c12:hover {
+  background-color: #002D62;
+  border-color: #002D62;
+  color: #fff;
+}
+
+.c12:focus {
+  outline: transparent;
+}
+
+.c12:focus::before {
+  content: "";
+  border-color: #334C96;
+}
+
+.c12:focus-visible {
+  outline: solid 8px #002D62;
+}
+
+.c12:disabled {
+  cursor: default;
+  background-color: #ADB7D5;
+  border-color: #ADB7D5;
+  color: #fff;
+}
+
+.c4 {
+  display: block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  color: #2C2C2C;
+  font-family: Cooper Black;
+  font-size: 12px;
+  line-height: xs;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+}
+
+@media screen and (min-width:768px) {
+  .c0 {
+    padding-top: big;
+    padding-left: xhuge;
+    padding-right: xhuge;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c3 {
+    margin-bottom: 38px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c3 {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c3 {
+    width: 230px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c42 {
+    padding-left: columnGap.1;
+    padding-right: columnGap.1;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c1 {
+    margin-bottom: m;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c1 {
+    font-size: 56px;
+    line-height: 64px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c2 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-bottom: m;
+    width: auto;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c2 > *:not(only-child) {
+    margin-right: default;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c7 {
+    line-height: 24px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c13 {
+    padding-top: l;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c16 {
+    padding-left: m;
+    height: 68px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c16 {
+    padding-left: zero;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c17 {
+    padding-left: columnGap.1;
+    padding-right: columnGap.1;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c18:hover:after {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c19 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c19 .override {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c19 p {
+    margin-bottom: l;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c19 blockquote {
+    margin-bottom: l;
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c19 h1 {
+    font-size: 68px;
+    line-height: 74px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c19 h2 {
+    font-size: 56px;
+    line-height: 64px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c19 h3 {
+    font-size: 44px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c19 h4 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c19 h5 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c19 h6 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c19 ul,
+  .c19 ol {
+    margin-bottom: l;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c19 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c21:hover:after {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c24 {
+    padding-left: columnGap.1;
+    padding-right: columnGap.1;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c25 {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c26 {
+    min-height: 300px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c28 {
+    padding-left: xxl;
+    padding-right: xxl;
+    padding-bottom: default;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c29 {
+    min-height: 44px;
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c30 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c34:hover {
+    background-color: #F8F8F8;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c37:hover {
+    background-color: #000000;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c38 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c4 {
+    line-height: 22px;
+  }
+}
+
+<div>
+  <div
+    class=""
+    data-gtm-category="model interactions"
+    data-gtm-component-type="Accessories"
+  >
+    <div
+      class="c0"
+      display="flex"
+    >
+      <h2
+        class="c1"
+        color="default"
+        data-testid="cy-dropdown-selectors-title"
+        width="100%"
+      >
+        <span>
+          Pages.Models.Exploration.accessoriesHeading
+        </span>
+      </h2>
+      <div
+        class="c2"
+      >
+        <div
+          class="c3"
+          width="100%,230px"
+        >
+          <div
+            class=""
+          >
+            <label
+              class="c4"
+            >
+              <p
+                class="c5"
+                color="black"
+                data-testid="cy-dropdown-selectors-Pages.Models.Exploration.trimLabel"
+                font-family="bold"
+                font-weight="regular"
+              >
+                Pages.Models.Exploration.trimLabel
+              </p>
+            </label>
+            <div
+              aria-label="Shared.Common.selectTrimDropdownMenuAria"
+              class="c6 "
+              data-testid="dsr-dropdown-container"
+              tabindex="0"
+            >
+              <div
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                aria-label="dropdown-trim"
+                class="sc-1k44dfv-0 c7"
+                data-testid="button"
+                id="dropdown-trim"
+                role="button"
+              >
+                <span
+                  class="sc-1k44dfv-0 c8"
+                  color="typographyDefault"
+                  data-testid="select-text"
+                  font-family="default"
+                  font-weight="regular"
+                >
+                  MDX
+                </span>
+                <div
+                  class="c9"
+                />
+              </div>
+              <ul
+                aria-label="Shared.Common.selectTrimDropdownMenuAria"
+                class="c10"
+                role="listbox"
+              >
+                <li
+                  aria-selected="false"
+                  class="c11"
+                  data-testid="dsr-search-option"
+                  data-value="10234"
+                  role="option"
+                >
+                  MDX
+                </li>
+                <li
+                  aria-selected="false"
+                  class="c11"
+                  data-testid="dsr-search-option"
+                  data-value="10235"
+                  role="option"
+                />
+                <li
+                  aria-selected="false"
+                  class="c11"
+                  data-testid="dsr-search-option"
+                  data-value="10236"
+                  role="option"
+                />
+                <li
+                  aria-selected="false"
+                  class="c11"
+                  data-testid="dsr-search-option"
+                  data-value="10237"
+                  role="option"
+                />
+                <li
+                  aria-selected="false"
+                  class="c11"
+                  data-testid="dsr-search-option"
+                  data-value="10258"
+                  role="option"
+                />
+                <li
+                  aria-selected="false"
+                  class="c11"
+                  data-testid="dsr-search-option"
+                  data-value="10259"
+                  role="option"
+                />
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="c12"
+        data-gtm-title=""
+        data-testid="cy-accessories-submit-button"
+      >
+        Shared.Common.submitButton
+      </button>
+      <p
+        class="sc-1k44dfv-0 c13"
+        color="default"
+        data-testid="cy-dropdown-price-disclaimer"
+        font-family="default"
+        font-weight="regular"
+      >
+        <span>
+          Pages.Models.Exploration.msrpLabel
+        </span>
+      </p>
+    </div>
+    <div
+      class="fresnel-container fresnel-greaterThan-mobile "
+    >
+      <div
+        class="c14"
+      >
+        <div
+          class="c15 c16"
+          data-testid="cy-accessory-card-tabs"
+          display="flex"
+          width="100%"
+        >
+          <div
+            class="c17"
+          >
+            <button
+              class="c18"
+              color="typographyDefault"
+              data-gtm-body-style="suv"
+              data-gtm-component-type="Accessories"
+              data-gtm-interaction-type="accessories - accessory filter"
+              data-gtm-model="mdx"
+              data-gtm-title="interior"
+              data-gtm-trim="mdx"
+            >
+              <div
+                class="c19 sc-1k44dfv-0 c20"
+                styles="[object Object]"
+              >
+                
+
+                <p>
+                  Pages.Models.Exploration.interiorLabel
+                </p>
+              </div>
+            </button>
+          </div>
+          <div
+            class="c17"
+          >
+            <button
+              class="c21"
+              color="typographyDefault"
+              data-gtm-body-style="suv"
+              data-gtm-component-type="Accessories"
+              data-gtm-interaction-type="accessories - accessory filter"
+              data-gtm-model="mdx"
+              data-gtm-title="exterior"
+              data-gtm-trim="mdx"
+            >
+              <div
+                class="c19 sc-1k44dfv-0 c20"
+                styles="[object Object]"
+              >
+                
+
+                <p>
+                  Pages.Models.Exploration.exteriorLabel
+                </p>
+              </div>
+            </button>
+          </div>
+          <div
+            class="c17"
+          >
+            <button
+              class="c21"
+              color="typographyDefault"
+              data-gtm-body-style="suv"
+              data-gtm-component-type="Accessories"
+              data-gtm-interaction-type="accessories - accessory filter"
+              data-gtm-model="mdx"
+              data-gtm-title="packages"
+              data-gtm-trim="mdx"
+            >
+              <div
+                class="c19 sc-1k44dfv-0 c20"
+                styles="[object Object]"
+              >
+                
+
+                <p>
+                  Pages.Models.Exploration.packagesLabel
+                </p>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div
+          class="c22"
+          data-testid="cy-accessory-card-wrapper"
+        >
+          <div
+            class="c15 c23"
+            display="flex"
+            width="100%"
+          >
+            <div
+              class="c24"
+            >
+              <button
+                class="c25"
+                data-gtm-body-style="suv"
+                data-gtm-component-type="Accessories"
+                data-gtm-interaction-type="accessories - accessory filter"
+                data-gtm-model="mdx"
+                data-gtm-title="Cargo Organizer"
+                data-gtm-trim="mdx"
+                data-testid="cy-accessory-card"
+              >
+                <div
+                  class="c26"
+                >
+                  <img
+                    alt="Cargo Organizer"
+                    class="c27"
+                    data-testid="cy-accessory-card-image"
+                    draggable="true"
+                    loading="lazy"
+                    src="https://images.honda.ca:443/accessories/A/2024/73876_thumbnail.jpg"
+                  />
+                </div>
+                <div
+                  class="c28"
+                >
+                  <div
+                    class="c29"
+                    data-testid="dsr-accessory-card-title"
+                  >
+                    <h6
+                      class="c30"
+                      color="default"
+                      data-testid="cy-accessory-card-title"
+                    >
+                      Cargo Organizer
+                    </h6>
+                  </div>
+                  <p
+                    class="sc-1k44dfv-0 c31"
+                    color="typographyDefault"
+                    data-testid="cy-accessory-card-price"
+                    font-family="default"
+                    font-weight="regular"
+                    type="tabs"
+                  >
+                    $145.30
+                  </p>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class="c32"
+                    >
+                      <div
+                        class="c15 c33"
+                        data-testid="cy-accessory-card-description"
+                        display="flex"
+                        width="100%"
+                      >
+                        <p>
+                          The Cargo Organizer offers an ideal way to help keep easily spillable items upright in the back section of your MDX.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </div>
+            <div
+              class="c24"
+            >
+              <button
+                class="c25"
+                data-gtm-body-style="suv"
+                data-gtm-component-type="Accessories"
+                data-gtm-interaction-type="accessories - accessory filter"
+                data-gtm-model="mdx"
+                data-gtm-title="All-Season Floor Mats, MDX - 1st & 2nd Row (Out of Stock)"
+                data-gtm-trim="mdx"
+                data-testid="cy-accessory-card"
+              >
+                <div
+                  class="c26"
+                >
+                  <img
+                    alt="All-Season Floor Mats, MDX - 1st & 2nd Row (Out of Stock)"
+                    class="c27"
+                    data-testid="cy-accessory-card-image"
+                    draggable="true"
+                    loading="lazy"
+                    src="https://images.honda.ca:443/accessories/A/2024/73872_thumbnail.jpg"
+                  />
+                </div>
+                <div
+                  class="c28"
+                >
+                  <div
+                    class="c29"
+                    data-testid="dsr-accessory-card-title"
+                  >
+                    <h6
+                      class="c30"
+                      color="default"
+                      data-testid="cy-accessory-card-title"
+                    >
+                      All-Season Floor Mats, MDX - 1st & 2nd Row (Out of Stock)
+                    </h6>
+                  </div>
+                  <p
+                    class="sc-1k44dfv-0 c31"
+                    color="typographyDefault"
+                    data-testid="cy-accessory-card-price"
+                    font-family="default"
+                    font-weight="regular"
+                    type="tabs"
+                  >
+                    $325.30
+                  </p>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class="c32"
+                    >
+                      <div
+                        class="c15 c33"
+                        data-testid="cy-accessory-card-description"
+                        display="flex"
+                        width="100%"
+                      >
+                        <p>
+                           An ideal way to save wear and tear on your original carpets, the All-Season Floor Mats are designed to trap and hold dirt, sand, mud and water.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </div>
+            <div
+              class="c24"
+            >
+              <button
+                class="c25"
+                data-gtm-body-style="suv"
+                data-gtm-component-type="Accessories"
+                data-gtm-interaction-type="accessories - accessory filter"
+                data-gtm-model="mdx"
+                data-gtm-title="All-Season Floor Mat - 3rd Row"
+                data-gtm-trim="mdx"
+                data-testid="cy-accessory-card"
+              >
+                <div
+                  class="c26"
+                >
+                  <img
+                    alt="All-Season Floor Mat - 3rd Row"
+                    class="c27"
+                    data-testid="cy-accessory-card-image"
+                    draggable="true"
+                    loading="lazy"
+                    src="https://images.honda.ca:443/accessories/A/2024/73873_thumbnail.jpg"
+                  />
+                </div>
+                <div
+                  class="c28"
+                >
+                  <div
+                    class="c29"
+                    data-testid="dsr-accessory-card-title"
+                  >
+                    <h6
+                      class="c30"
+                      color="default"
+                      data-testid="cy-accessory-card-title"
+                    >
+                      All-Season Floor Mat - 3rd Row
+                    </h6>
+                  </div>
+                  <p
+                    class="sc-1k44dfv-0 c31"
+                    color="typographyDefault"
+                    data-testid="cy-accessory-card-price"
+                    font-family="default"
+                    font-weight="regular"
+                    type="tabs"
+                  >
+                    $138.30
+                  </p>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class="c32"
+                    >
+                      <div
+                        class="c15 c33"
+                        data-testid="cy-accessory-card-description"
+                        display="flex"
+                        width="100%"
+                      >
+                        <p>
+                           An ideal way to save wear and tear on your original carpets, the All-Season Floor Mats are designed to trap and hold dirt, sand, mud and water.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="fresnel-container fresnel-at-mobile "
+    >
+      <div>
+        <div
+          aria-expanded="false"
+          aria-pressed="false"
+          class="c34 sc-1k44dfv-0 c35"
+          data-testid="dsr-accordion-item-container"
+          role="button"
+          tabindex="0"
+        >
+          <div
+            class="c36 sc-1k44dfv-0 c37"
+          >
+            <p
+              class="sc-1k44dfv-0 c38"
+              color="typographyDefault"
+              data-test="Pages.Models.Exploration.interiorLabel"
+              font-family="default"
+              font-weight="regular"
+            >
+              <span>
+                Pages.Models.Exploration.interiorLabel
+              </span>
+            </p>
+            <div
+              class="c39"
+            />
+          </div>
+          <div
+            aria-live="polite"
+            class="c40"
+            data-testid="dsr-accordion-item-content-container"
+          >
+            <div
+              class="c15 c41"
+              data-gtm-body-style="suv"
+              data-gtm-component-type="Accessories"
+              data-gtm-interaction-type="accessories - accessory filter"
+              data-gtm-model="mdx"
+              data-gtm-title="interior"
+              data-gtm-trim="mdx"
+              display="flex"
+              type="accordion"
+              width="100%"
+            >
+              <div
+                class="c42"
+              >
+                <button
+                  class="c25"
+                  data-gtm-body-style="suv"
+                  data-gtm-component-type="Accessories"
+                  data-gtm-interaction-type="accessory details"
+                  data-gtm-model="mdx"
+                  data-gtm-title="Cargo Organizer"
+                  data-gtm-trim="mdx"
+                >
+                  <div
+                    class="c26"
+                  >
+                    <img
+                      alt="Cargo Organizer"
+                      class="c27"
+                      data-testid="cy-accessory-card-image"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://images.honda.ca:443/accessories/A/2024/73876_thumbnail.jpg"
+                    />
+                  </div>
+                  <div
+                    class="c28"
+                  >
+                    <div
+                      class="c29"
+                      data-testid="dsr-accessory-card-title"
+                    >
+                      <h6
+                        class="c30"
+                        color="default"
+                      >
+                        Cargo Organizer
+                      </h6>
+                    </div>
+                    <p
+                      class="sc-1k44dfv-0 c31"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      $145.30
+                    </p>
+                    <div
+                      class=""
+                    />
+                  </div>
+                </button>
+              </div>
+              <div
+                class="c42"
+              >
+                <button
+                  class="c25"
+                  data-gtm-body-style="suv"
+                  data-gtm-component-type="Accessories"
+                  data-gtm-interaction-type="accessory details"
+                  data-gtm-model="mdx"
+                  data-gtm-title="All-Season Floor Mats, MDX - 1st & 2nd Row (Out of Stock)"
+                  data-gtm-trim="mdx"
+                >
+                  <div
+                    class="c26"
+                  >
+                    <img
+                      alt="All-Season Floor Mats, MDX - 1st & 2nd Row (Out of Stock)"
+                      class="c27"
+                      data-testid="cy-accessory-card-image"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://images.honda.ca:443/accessories/A/2024/73872_thumbnail.jpg"
+                    />
+                  </div>
+                  <div
+                    class="c28"
+                  >
+                    <div
+                      class="c29"
+                      data-testid="dsr-accessory-card-title"
+                    >
+                      <h6
+                        class="c30"
+                        color="default"
+                      >
+                        All-Season Floor Mats, MDX - 1st & 2nd Row (Out of Stock)
+                      </h6>
+                    </div>
+                    <p
+                      class="sc-1k44dfv-0 c31"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      $325.30
+                    </p>
+                    <div
+                      class=""
+                    />
+                  </div>
+                </button>
+              </div>
+              <div
+                class="c42"
+              >
+                <button
+                  class="c25"
+                  data-gtm-body-style="suv"
+                  data-gtm-component-type="Accessories"
+                  data-gtm-interaction-type="accessory details"
+                  data-gtm-model="mdx"
+                  data-gtm-title="All-Season Floor Mat - 3rd Row"
+                  data-gtm-trim="mdx"
+                >
+                  <div
+                    class="c26"
+                  >
+                    <img
+                      alt="All-Season Floor Mat - 3rd Row"
+                      class="c27"
+                      data-testid="cy-accessory-card-image"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://images.honda.ca:443/accessories/A/2024/73873_thumbnail.jpg"
+                    />
+                  </div>
+                  <div
+                    class="c28"
+                  >
+                    <div
+                      class="c29"
+                      data-testid="dsr-accessory-card-title"
+                    >
+                      <h6
+                        class="c30"
+                        color="default"
+                      >
+                        All-Season Floor Mat - 3rd Row
+                      </h6>
+                    </div>
+                    <p
+                      class="sc-1k44dfv-0 c31"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      $138.30
+                    </p>
+                    <div
+                      class=""
+                    />
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          aria-expanded="false"
+          aria-pressed="false"
+          class="c34 sc-1k44dfv-0 c35"
+          data-testid="dsr-accordion-item-container"
+          role="button"
+          tabindex="0"
+        >
+          <div
+            class="c36 sc-1k44dfv-0 c37"
+          >
+            <p
+              class="sc-1k44dfv-0 c38"
+              color="typographyDefault"
+              data-test="Pages.Models.Exploration.exteriorLabel"
+              font-family="default"
+              font-weight="regular"
+            >
+              <span>
+                Pages.Models.Exploration.exteriorLabel
+              </span>
+            </p>
+            <div
+              class="c39"
+            />
+          </div>
+          <div
+            aria-live="polite"
+            class="c40"
+            data-testid="dsr-accordion-item-content-container"
+          >
+            <div
+              class="c15 c41"
+              data-gtm-body-style="suv"
+              data-gtm-component-type="Accessories"
+              data-gtm-interaction-type="accessories - accessory filter"
+              data-gtm-model="mdx"
+              data-gtm-title="exterior"
+              data-gtm-trim="mdx"
+              display="flex"
+              type="accordion"
+              width="100%"
+            >
+              <div
+                class="c42"
+              >
+                <button
+                  class="c25"
+                  data-gtm-body-style="suv"
+                  data-gtm-component-type="Accessories"
+                  data-gtm-interaction-type="accessory details"
+                  data-gtm-model="mdx"
+                  data-gtm-title="Crossbars - Storage Bag"
+                  data-gtm-trim="mdx"
+                >
+                  <div
+                    class="c26"
+                  >
+                    <img
+                      alt="Crossbars - Storage Bag"
+                      class="c27"
+                      data-testid="cy-accessory-card-image"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://images.honda.ca:443/accessories/A/2024/73848_thumbnail.jpg"
+                    />
+                  </div>
+                  <div
+                    class="c28"
+                  >
+                    <div
+                      class="c29"
+                      data-testid="dsr-accessory-card-title"
+                    >
+                      <h6
+                        class="c30"
+                        color="default"
+                      >
+                        Crossbars - Storage Bag
+                      </h6>
+                    </div>
+                    <p
+                      class="sc-1k44dfv-0 c31"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      $145.00
+                    </p>
+                    <div
+                      class=""
+                    />
+                  </div>
+                </button>
+              </div>
+              <div
+                class="c42"
+              >
+                <button
+                  class="c25"
+                  data-gtm-body-style="suv"
+                  data-gtm-component-type="Accessories"
+                  data-gtm-interaction-type="accessory details"
+                  data-gtm-model="mdx"
+                  data-gtm-title="Bike Attachment - Fork Mount"
+                  data-gtm-trim="mdx"
+                >
+                  <div
+                    class="c26"
+                  >
+                    <img
+                      alt="Bike Attachment - Fork Mount"
+                      class="c27"
+                      data-testid="cy-accessory-card-image"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://images.honda.ca:443/accessories/A/2024/73845_thumbnail.jpg"
+                    />
+                  </div>
+                  <div
+                    class="c28"
+                  >
+                    <div
+                      class="c29"
+                      data-testid="dsr-accessory-card-title"
+                    >
+                      <h6
+                        class="c30"
+                        color="default"
+                      >
+                        Bike Attachment - Fork Mount
+                      </h6>
+                    </div>
+                    <p
+                      class="sc-1k44dfv-0 c31"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      $468.20
+                    </p>
+                    <div
+                      class=""
+                    />
+                  </div>
+                </button>
+              </div>
+              <div
+                class="c42"
+              >
+                <button
+                  class="c25"
+                  data-gtm-body-style="suv"
+                  data-gtm-component-type="Accessories"
+                  data-gtm-interaction-type="accessory details"
+                  data-gtm-model="mdx"
+                  data-gtm-title="OPTIMATE 12V AUTO BATTERY CHARGER/MAINTAINER"
+                  data-gtm-trim="mdx"
+                >
+                  <div
+                    class="c26"
+                  >
+                    <img
+                      alt="OPTIMATE 12V AUTO BATTERY CHARGER/MAINTAINER"
+                      class="c27"
+                      data-testid="cy-accessory-card-image"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://images.honda.ca:443/accessories/A/2024/73885_thumbnail.jpg"
+                    />
+                  </div>
+                  <div
+                    class="c28"
+                  >
+                    <div
+                      class="c29"
+                      data-testid="dsr-accessory-card-title"
+                    >
+                      <h6
+                        class="c30"
+                        color="default"
+                      >
+                        OPTIMATE 12V AUTO BATTERY CHARGER/MAINTAINER
+                      </h6>
+                    </div>
+                    <p
+                      class="sc-1k44dfv-0 c31"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      $133.00
+                    </p>
+                    <div
+                      class=""
+                    />
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          aria-expanded="false"
+          aria-pressed="false"
+          class="c34 sc-1k44dfv-0 c43"
+          data-testid="dsr-accordion-item-container"
+          role="button"
+          tabindex="0"
+        >
+          <div
+            class="c36 sc-1k44dfv-0 c37"
+          >
+            <p
+              class="sc-1k44dfv-0 c38"
+              color="typographyDefault"
+              data-test="Pages.Models.Exploration.packagesLabel"
+              font-family="default"
+              font-weight="regular"
+            >
+              <span>
+                Pages.Models.Exploration.packagesLabel
+              </span>
+            </p>
+            <div
+              class="c39"
+            />
+          </div>
+          <div
+            aria-live="polite"
+            class="c40"
+            data-testid="dsr-accordion-item-content-container"
+          >
+            <div
+              class="c15 c41"
+              data-gtm-body-style="suv"
+              data-gtm-component-type="Accessories"
+              data-gtm-interaction-type="accessories - accessory filter"
+              data-gtm-model="mdx"
+              data-gtm-title="packages"
+              data-gtm-trim="mdx"
+              display="flex"
+              type="accordion"
+              width="100%"
+            >
+              <div
+                class="c42"
+              >
+                <button
+                  class="c25"
+                  data-gtm-body-style="suv"
+                  data-gtm-component-type="Accessories"
+                  data-gtm-interaction-type="accessory details"
+                  data-gtm-model="mdx"
+                  data-gtm-title="COLD WEATHER PACKAGE - 3.5L"
+                  data-gtm-trim="mdx"
+                >
+                  <div
+                    class="c26"
+                  >
+                    <img
+                      alt="COLD WEATHER PACKAGE - 3.5L"
+                      class="c27"
+                      data-testid="cy-accessory-card-image"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://images.honda.ca:443/accessories/A/2024/73838_thumbnail.jpg"
+                    />
+                  </div>
+                  <div
+                    class="c28"
+                  >
+                    <div
+                      class="c29"
+                      data-testid="dsr-accessory-card-title"
+                    >
+                      <h6
+                        class="c30"
+                        color="default"
+                      >
+                        COLD WEATHER PACKAGE - 3.5L
+                      </h6>
+                    </div>
+                    <p
+                      class="sc-1k44dfv-0 c31"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      $609.00
+                    </p>
+                    <div
+                      class=""
+                    />
+                  </div>
+                </button>
+              </div>
+              <div
+                class="c42"
+              >
+                <button
+                  class="c25"
+                  data-gtm-body-style="suv"
+                  data-gtm-component-type="Accessories"
+                  data-gtm-interaction-type="accessory details"
+                  data-gtm-model="mdx"
+                  data-gtm-title="Enhanced Package - MDX"
+                  data-gtm-trim="mdx"
+                >
+                  <div
+                    class="c26"
+                  >
+                    <img
+                      alt="Enhanced Package - MDX"
+                      class="c27"
+                      data-testid="cy-accessory-card-image"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://images.honda.ca:443/accessories/A/2024/73839_thumbnail.jpg"
+                    />
+                  </div>
+                  <div
+                    class="c28"
+                  >
+                    <div
+                      class="c29"
+                      data-testid="dsr-accessory-card-title"
+                    >
+                      <h6
+                        class="c30"
+                        color="default"
+                      >
+                        Enhanced Package - MDX
+                      </h6>
+                    </div>
+                    <p
+                      class="sc-1k44dfv-0 c31"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      $2,851.00
+                    </p>
+                    <div
+                      class=""
+                    />
+                  </div>
+                </button>
+              </div>
+              <div
+                class="c42"
+              >
+                <button
+                  class="c25"
+                  data-gtm-body-style="suv"
+                  data-gtm-component-type="Accessories"
+                  data-gtm-interaction-type="accessory details"
+                  data-gtm-model="mdx"
+                  data-gtm-title="Protection Package - MDX (Out of Stock)"
+                  data-gtm-trim="mdx"
+                >
+                  <div
+                    class="c26"
+                  >
+                    <img
+                      alt="Protection Package - MDX (Out of Stock)"
+                      class="c27"
+                      data-testid="cy-accessory-card-image"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://images.honda.ca:443/accessories/A/2024/73840_thumbnail.jpg"
+                    />
+                  </div>
+                  <div
+                    class="c28"
+                  >
+                    <div
+                      class="c29"
+                      data-testid="dsr-accessory-card-title"
+                    >
+                      <h6
+                        class="c30"
+                        color="default"
+                      >
+                        Protection Package - MDX (Out of Stock)
+                      </h6>
+                    </div>
+                    <p
+                      class="sc-1k44dfv-0 c31"
+                      color="typographyDefault"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      $707.90
+                    </p>
+                    <div
+                      class=""
+                    />
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Accessories snapshots PSP renders component w/o Mapper 1`] = `
+.c0 {
+  padding-top: xl;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #F5F5F5;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c5 {
+  margin-bottom: 38px;
+  width: 100%;
+}
+
+.c18 {
+  width: 100%;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+}
+
+.c31 {
+  padding-bottom: zero;
+  width: 100%;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.c33 {
+  padding-left: columnGap.0;
+  padding-right: columnGap.0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.c17 {
+  max-width: maxWidth;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.c1 {
+  color: #2C2C2C;
+  font-family: Roboto;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  text-align: center;
+  color: default;
+  margin-bottom: xs;
+  text-transform: none !important;
+  width: 100%;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: normal;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: zero;
+  width: 100%;
+}
+
+.c4 > *:only-child {
+  margin-right: zero;
+}
+
+.c4 > *:not(only-child) {
+  margin-right: zero;
+}
+
+.c4 > *:last-child {
+  margin-right: zero;
+}
+
+.c7 {
+  margin: 0;
+  color: #2C2C2C;
+  font-family: Cooper Black;
+  font-weight: normal;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+}
+
+.c8 {
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+}
+
+.c8:focus {
+  outline: transparent;
+}
+
+.c8:focus div:first-of-type:after {
+  height: 2px;
+}
+
+.c9 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+  color: #2C2C2C;
+  font-family: Helvetica;
+  font-weight: normal;
+  line-height: 22px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  background-color: #fff;
+  background-color: #fff;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: normal;
+}
+
+.c9::-ms-clear {
+  display: none;
+}
+
+.c9::-webkit-input-placeholder {
+  color: #707070;
+}
+
+.c9::-moz-placeholder {
+  color: #707070;
+}
+
+.c9:-ms-input-placeholder {
+  color: #707070;
+}
+
+.c9::placeholder {
+  color: #707070;
+}
+
+.c9:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  background-color: #2C2C2C;
+}
+
+.c9:after {
+  height: 1px;
+}
+
+.c10 {
+  margin: 0;
+  color: #2C2C2C;
+  font-weight: normal;
+  font-family: Helvetica;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  height: small;
+}
+
+.c12 {
+  max-height: 0px;
+  width: 100%;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-duration: t4;
+  transition-duration: t4;
+  position: absolute;
+  top: 46px;
+  overflow: hidden;
+  outline: none;
+  z-index: options;
+}
+
+.c12 li {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.c13 {
+  font-size: 14px;
+  padding: 15px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-text-size-adjust: 100%;
+  background-color: #fff;
+  color: #2C2C2C;
+  font-family: Helvetica;
+  font-weight: normal;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid;
+  border-color: #D5D5D5;
+}
+
+.c13:hover {
+  background-color: #EAEAEA;
+}
+
+.c13.focusVisible {
+  outline: undefined undefined;
+}
+
+.c13:hover {
+  font-family: Cooper Black;
+}
+
+.c16 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: default;
+}
+
+.c19 {
+  width: 100%;
+  padding-top: xl;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-bottom: big;
+}
+
+.c20 {
+  padding-left: columnGap.0;
+  padding-right: columnGap.0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.c22 {
+  min-height: 155px;
+  width: 100%;
+}
+
+.c23 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  object-fit: cover;
+  object-position: center;
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  -ms-user-drag: none;
+  user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c25 {
+  min-height: auto;
+  padding-bottom: xxs;
+}
+
+.c26 {
+  color: #2C2C2C;
+  font-family: Roboto;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  color: default;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: Cooper Black;
+}
+
+.c28 {
+  margin: 0;
+  color: #2C2C2C;
+  font-weight: normal;
+  font-family: Helvetica;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #2C2C2C;
+}
+
+.c29 {
+  padding-top: xs;
+}
+
+.c2 {
+  max-width: 1000px;
+  text-align: center;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+  margin-bottom: default;
+}
+
+.c3 {
+  font-size: 14px;
+  line-height: 22px;
+  font-family: Helvetica;
+  color: #2C2C2C;
+}
+
+.c3 > :last-child {
+  margin-bottom: 0;
+}
+
+.c3 .override {
+  font-size: 14px;
+  line-height: 22px;
+  font-family: Helvetica;
+  text-transform: none;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+}
+
+.c3 p {
+  margin-bottom: default;
+}
+
+.c3 blockquote {
+  margin-bottom: default;
+  font-family: Roboto;
+  font-size: 24px;
+  line-height: 28px;
+  quotes: '“' '”';
+}
+
+.c3 blockquote p:after {
+  content: close-quote;
+}
+
+.c3 blockquote p:before {
+  content: open-quote;
+}
+
+.c3 small {
+  font-size: 10px;
+  line-height: 14px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+}
+
+.c3 strong {
+  font-family: Cooper Black;
+  font-weight: normal;
+}
+
+.c3 em {
+  font-style: italic;
+}
+
+.c3 ul {
+  list-style-type: disc !important;
+  list-style: initial;
+}
+
+.c3 ol {
+  list-style-type: decimal;
+}
+
+.c3 h1 {
+  color: inherit;
+  font-family: Roboto;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.c3 h2 {
+  color: inherit;
+  font-family: Roboto;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.c3 h3 {
+  color: inherit;
+  font-family: Roboto;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.c3 h4 {
+  color: inherit;
+  font-family: Roboto;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.c3 h5 {
+  color: inherit;
+  font-family: Cooper Black;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.c3 h6 {
+  color: inherit;
+  font-family: Cooper Black;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.c3 ul,
+.c3 ol {
+  list-style-position: inside;
+  margin-bottom: default;
+}
+
+.c3 a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #DA2C2E;
+  font-weight: 700;
+}
+
+.c3 a:focus {
+  border: transparent;
+}
+
+.c15 {
+  margin: 0;
+  color: default;
+  font-weight: normal;
+  font-family: Helvetica;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+  color: #2C2C2C;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  text-align: left;
+  line-height: 14px;
+  font-size: 10px;
+  color: default;
+}
+
+.c21 {
+  background-color: #fff;
+  width: 206px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+  background-color: #fff;
+  height: 100%;
+  padding: zero;
+  border-radius: 0;
+  border: none;
+  cursor: pointer;
+  width: 280px;
+}
+
+.c21:focus {
+  border: transparent;
+}
+
+.c24 {
+  padding-top: m;
+  padding-left: m;
+  padding-right: m;
+  padding-bottom: s;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c27 {
+  margin: 0;
+  color: #2C2C2C;
+  font-weight: normal;
+  font-family: Helvetica;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+  padding-bottom: default;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.c30 {
+  color: #2C2C2C;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: Helvetica;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.c32 {
+  -ms-overflow-style: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+  -webkit-flex-wrap: nowrap !important;
+  -ms-flex-wrap: nowrap !important;
+  flex-wrap: nowrap !important;
+  padding-top: default;
+  padding-bottom: default;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+
+.c32::-webkit-scrollbar {
+  display: none;
+}
+
+.c34 {
+  width: 280px;
+  background-color: #fff;
+  width: 206px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+  background-color: #fff;
+  height: 100%;
+  padding: zero;
+  border-radius: 0;
+  border: none;
+  cursor: pointer;
+  width: 280px;
+}
+
+.c34:focus {
+  border: transparent;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: iconWrapper.md;
+  height: iconWrapper.md;
+}
+
+.c14 {
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border: 1px solid;
+  min-width: 220px;
+  height: 45px;
+  border-radius: 50px;
+  -webkit-transition: color 0.3s ease,background-color 0.3s ease;
+  transition: color 0.3s ease,background-color 0.3s ease;
+  text-transform: uppercase;
+  font-size: 13px;
+  overflow: visible;
+  padding-top: s;
+  padding-bottom: s;
+  padding-left: default;
+  padding-right: default;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-family: Roboto;
+  border-radius: 3px;
+  line-height: 20px;
+  background-color: #334C96;
+  border-color: #334C96;
+  color: #fff;
+}
+
+.c14::before {
+  content: none;
+  position: absolute;
+  top: -3px;
+  bottom: -3px;
+  left: -3px;
+  right: -3px;
+  border: 1px solid;
+}
+
+.c14::-moz-focus-inner {
+  border: 0;
+}
+
+.c14 > a,
+.c14 > a:hover,
+.c14 > button {
+  color: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+}
+
+.c14::before {
+  border-radius: 3px;
+}
+
+.c14:hover {
+  background-color: #002D62;
+  border-color: #002D62;
+  color: #fff;
+}
+
+.c14:focus {
+  outline: transparent;
+}
+
+.c14:focus::before {
+  content: "";
+  border-color: #334C96;
+}
+
+.c14:focus-visible {
+  outline: solid 8px #002D62;
+}
+
+.c14:disabled {
+  cursor: default;
+  background-color: #ADB7D5;
+  border-color: #ADB7D5;
+  color: #fff;
+}
+
+.c6 {
+  display: block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  color: #2C2C2C;
+  font-family: Cooper Black;
+  font-size: 12px;
+  line-height: xs;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+}
+
+@media screen and (min-width:768px) {
+  .c0 {
+    padding-top: big;
+    padding-left: xhuge;
+    padding-right: xhuge;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c5 {
+    margin-bottom: 38px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c5 {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c5 {
+    width: 230px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c33 {
+    padding-left: columnGap.1;
+    padding-right: columnGap.1;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c1 {
+    margin-bottom: m;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c1 {
+    font-size: 56px;
+    line-height: 64px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c4 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-bottom: m;
+    width: auto;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c4 > *:not(only-child) {
+    margin-right: default;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c9 {
+    line-height: 24px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c20 {
+    padding-left: columnGap.1;
+    padding-right: columnGap.1;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c22 {
+    min-height: 300px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c25 {
+    min-height: 44px;
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c26 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c2 {
+    line-height: 22px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c2 {
+    line-height: 26px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c3 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c3 .override {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c3 p {
+    margin-bottom: l;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c3 blockquote {
+    margin-bottom: l;
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c3 h1 {
+    font-size: 68px;
+    line-height: 74px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c3 h2 {
+    font-size: 56px;
+    line-height: 64px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c3 h3 {
+    font-size: 44px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c3 h4 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c3 h5 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c3 h6 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c3 ul,
+  .c3 ol {
+    margin-bottom: l;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c15 {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c15 {
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c21 {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c21 {
+    width: 280px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c21 {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c24 {
+    padding-left: xxl;
+    padding-right: xxl;
+    padding-bottom: default;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c34 {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c34 {
+    width: 280px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c34 {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c6 {
+    line-height: 22px;
+  }
+}
+
+<div>
+  <div
+    class=""
+    data-gtm-category="model interactions"
+    data-gtm-component-type="Accessories"
+  >
+    <div
+      class="c0"
+      display="flex"
+    >
+      <h2
+        class="c1"
+        color="default"
+        data-testid="cy-dropdown-selectors-title"
+        width="100%"
+      >
+        <span>
+          Pages.Models.Exploration.accessoriesHeading
+        </span>
+      </h2>
+      <div
+        class="c2"
+        data-testid="cy-dropdown-selectors-description"
+      >
+        <div
+          class="c3"
+        >
+          
+
+          <p>
+            Pages.Models.Exploration.accessoriesBlurbText
+          </p>
+        </div>
+      </div>
+      <div
+        class="c4"
+      >
+        <div
+          class="c5"
+          width="100%,230px"
+        >
+          <div
+            class=""
+          >
+            <label
+              class="c6"
+            >
+              <p
+                class="c7"
+                color="black"
+                data-testid="cy-dropdown-selectors-Pages.Models.Exploration.accessoriesModelLabel"
+                font-family="bold"
+                font-weight="regular"
+              >
+                Pages.Models.Exploration.accessoriesModelLabel
+              </p>
+            </label>
+            <div
+              aria-label="Shared.Common.selectTrimDropdownMenuAria"
+              class="c8 "
+              data-testid="dsr-dropdown-container"
+              tabindex="0"
+            >
+              <div
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                aria-label="dropdown-trim"
+                class="sc-1k44dfv-0 c9"
+                data-testid="button"
+                id="dropdown-trim"
+                role="button"
+              >
+                <span
+                  class="sc-1k44dfv-0 c10"
+                  color="typographyDefault"
+                  data-testid="select-text"
+                  font-family="default"
+                  font-weight="regular"
+                >
+                  Gold Wing DCT
+                </span>
+                <div
+                  class="c11"
+                />
+              </div>
+              <ul
+                aria-label="Shared.Common.selectTrimDropdownMenuAria"
+                class="c12"
+                role="listbox"
+              >
+                <li
+                  aria-selected="false"
+                  class="c13"
+                  data-testid="dsr-search-option"
+                  data-value="13313"
+                  role="option"
+                >
+                  Gold Wing DCT
+                </li>
+                <li
+                  aria-selected="false"
+                  class="c13"
+                  data-testid="dsr-search-option"
+                  data-value="13314"
+                  role="option"
+                >
+                  Gold Wing Tour
+                </li>
+                <li
+                  aria-selected="false"
+                  class="c13"
+                  data-testid="dsr-search-option"
+                  data-value="13314"
+                  role="option"
+                >
+                  Gold Wing Tour-1
+                </li>
+                <li
+                  aria-selected="false"
+                  class="c13"
+                  data-testid="dsr-search-option"
+                  data-value="13313"
+                  role="option"
+                >
+                  Gold Wing DCT-1
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div
+          class="c5"
+          width="100%,230px"
+        >
+          <div
+            class=""
+          >
+            <label
+              class="c6"
+            >
+              <p
+                class="c7"
+                color="black"
+                data-testid="cy-dropdown-selectors-Pages.Models.Exploration.accessoriesTransmissionLabel"
+                font-family="bold"
+                font-weight="regular"
+              >
+                Pages.Models.Exploration.accessoriesTransmissionLabel
+              </p>
+            </label>
+            <div
+              aria-label="Shared.Common.selectTrimDropdownMenuAria"
+              class="c8 "
+              data-testid="dsr-dropdown-container"
+              tabindex="0"
+            >
+              <div
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                aria-label="dropdown-transmission"
+                class="sc-1k44dfv-0 c9"
+                data-testid="button"
+                id="dropdown-transmission"
+                role="button"
+              >
+                <span
+                  class="sc-1k44dfv-0 c10"
+                  color="typographyDefault"
+                  data-testid="select-text"
+                  font-family="default"
+                  font-weight="regular"
+                >
+                  ABS
+                </span>
+                <div
+                  class="c11"
+                />
+              </div>
+              <ul
+                aria-label="Shared.Common.selectTrimDropdownMenuAria"
+                class="c12"
+                role="listbox"
+              >
+                <li
+                  aria-selected="false"
+                  class="c13"
+                  data-testid="dsr-search-option"
+                  data-value="11742"
+                  role="option"
+                >
+                  ABS
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div
+          class="c5"
+          width="100%,230px"
+        >
+          <div
+            class=""
+          >
+            <label
+              class="c6"
+            >
+              <p
+                class="c7"
+                color="black"
+                data-testid="cy-dropdown-selectors-Pages.Models.Exploration.accessoriesTypeLabel"
+                font-family="bold"
+                font-weight="regular"
+              >
+                Pages.Models.Exploration.accessoriesTypeLabel
+              </p>
+            </label>
+            <div
+              aria-label="Shared.Common.selectTrimDropdownMenuAria"
+              class="c8 "
+              data-testid="dsr-dropdown-container"
+              tabindex="0"
+            >
+              <div
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                aria-label="dropdown-accessoryType"
+                class="sc-1k44dfv-0 c9"
+                data-testid="button"
+                id="dropdown-accessoryType"
+                role="button"
+              >
+                <span
+                  class="sc-1k44dfv-0 c10"
+                  color="typographyDefault"
+                  data-testid="select-text"
+                  font-family="default"
+                  font-weight="regular"
+                >
+                  Pages.Models.Exploration.accessoriesAllLabel (1)
+                </span>
+                <div
+                  class="c11"
+                />
+              </div>
+              <ul
+                aria-label="Shared.Common.selectTrimDropdownMenuAria"
+                class="c12"
+                role="listbox"
+              >
+                <li
+                  aria-selected="false"
+                  class="c13"
+                  data-testid="dsr-search-option"
+                  data-value="all"
+                  role="option"
+                >
+                  Pages.Models.Exploration.accessoriesAllLabel (1)
+                </li>
+                <li
+                  aria-selected="false"
+                  class="c13"
+                  data-testid="dsr-search-option"
+                  data-value="comfort"
+                  role="option"
+                >
+                  Comfort (2)
+                </li>
+                <li
+                  aria-selected="false"
+                  class="c13"
+                  data-testid="dsr-search-option"
+                  data-value="lights"
+                  role="option"
+                >
+                  Lights (1)
+                </li>
+                <li
+                  aria-selected="false"
+                  class="c13"
+                  data-testid="dsr-search-option"
+                  data-value="electrical"
+                  role="option"
+                >
+                  Electrical (2)
+                </li>
+                <li
+                  aria-selected="false"
+                  class="c13"
+                  data-testid="dsr-search-option"
+                  data-value="audio"
+                  role="option"
+                >
+                  Audio (2)
+                </li>
+                <li
+                  aria-selected="false"
+                  class="c13"
+                  data-testid="dsr-search-option"
+                  data-value="leather__bags"
+                  role="option"
+                >
+                  Leather & Bags (2)
+                </li>
+                <li
+                  aria-selected="false"
+                  class="c13"
+                  data-testid="dsr-search-option"
+                  data-value="protection"
+                  role="option"
+                >
+                  Protection (1)
+                </li>
+                <li
+                  aria-selected="false"
+                  class="c13"
+                  data-testid="dsr-search-option"
+                  data-value="custom"
+                  role="option"
+                >
+                  Custom (1)
+                </li>
+                <li
+                  aria-selected="false"
+                  class="c13"
+                  data-testid="dsr-search-option"
+                  data-value="utility"
+                  role="option"
+                >
+                  Utility (3)
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="c14"
+        data-gtm-title="GTM Title"
+        data-testid="cy-accessories-submit-button"
+      >
+        Pages.Models.Exploration.viewAccessoriesButton
+      </button>
+      <p
+        class="sc-1k44dfv-0 c15"
+        color="default"
+        data-testid="cy-dropdown-price-disclaimer"
+        font-family="default"
+        font-weight="regular"
+      >
+        <span>
+          Pages.Models.Exploration.accessoriesDisclaimerText
+        </span>
+      </p>
+    </div>
+    <div
+      class="fresnel-container fresnel-greaterThan-mobile "
+    >
+      <div
+        class="c16"
+      >
+        <div
+          class="c17"
+          data-testid="cy-accessory-card-wrapper"
+        >
+          <div
+            class="c18 c19"
+            display="flex"
+            width="100%"
+          >
+            <div
+              class="c20"
+            >
+              <button
+                class="c21"
+                data-gtm-component-type="Accessories"
+                data-gtm-interaction-type="cta: click"
+                data-gtm-title="TALL WINDSCREEN"
+                data-testid="cy-accessory-card"
+              >
+                <div
+                  class="c22"
+                >
+                  <img
+                    alt="TALL WINDSCREEN"
+                    class="c23"
+                    data-testid="cy-accessory-card-image"
+                    draggable="true"
+                    loading="lazy"
+                    src="https://uat-staging-images.honda.ca:443/accessories/M/2023/307418_thumbnail.jpg"
+                  />
+                </div>
+                <div
+                  class="c24"
+                >
+                  <div
+                    class="c25"
+                    data-testid="dsr-accessory-card-title"
+                  >
+                    <h6
+                      class="c26"
+                      color="default"
+                      data-testid="cy-accessory-card-title"
+                    >
+                      TALL WINDSCREEN
+                    </h6>
+                    <p
+                      class="sc-1k44dfv-0 c27"
+                      color="typographyDefault"
+                      data-testid="cy-accessory-card-part-number"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Pages.Models.Exploration.partNumberLabel
+                       
+                      08R71-MKC-A01
+                    </p>
+                  </div>
+                  <p
+                    class="sc-1k44dfv-0 c28"
+                    color="typographyDefault"
+                    data-testid="cy-accessory-card-price"
+                    font-family="default"
+                    font-weight="regular"
+                    type="tabs"
+                  >
+                    Pages.Models.Exploration.msrpLabel $408.95*
+                  </p>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class="c29"
+                    >
+                      <div
+                        class="c18 c30"
+                        data-testid="cy-accessory-card-description"
+                        display="flex"
+                        width="100%"
+                      >
+                        <p>
+                          Taller and wider than the standard windscreen, it provides added protection from the elements. 8.85” (225 mm) and 3.93” (100 mm)
+longer than the Gold Wing and Gold Wing Tour windscreens respectively.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </div>
+            <div
+              class="c20"
+            >
+              <button
+                class="c21"
+                data-gtm-component-type="Accessories"
+                data-gtm-interaction-type="cta: click"
+                data-gtm-title="AIR DEFLECTOR UPPER"
+                data-testid="cy-accessory-card"
+              >
+                <div
+                  class="c22"
+                >
+                  <img
+                    alt="AIR DEFLECTOR UPPER"
+                    class="c23"
+                    data-testid="cy-accessory-card-image"
+                    draggable="true"
+                    loading="lazy"
+                    src="https://uat-staging-images.honda.ca:443/accessories/M/2023/307419_thumbnail.jpg"
+                  />
+                </div>
+                <div
+                  class="c24"
+                >
+                  <div
+                    class="c25"
+                    data-testid="dsr-accessory-card-title"
+                  >
+                    <h6
+                      class="c26"
+                      color="default"
+                      data-testid="cy-accessory-card-title"
+                    >
+                      AIR DEFLECTOR UPPER
+                    </h6>
+                    <p
+                      class="sc-1k44dfv-0 c27"
+                      color="typographyDefault"
+                      data-testid="cy-accessory-card-part-number"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Pages.Models.Exploration.partNumberLabel
+                       
+                      08R72-MKC-A01
+                    </p>
+                  </div>
+                  <p
+                    class="sc-1k44dfv-0 c28"
+                    color="typographyDefault"
+                    data-testid="cy-accessory-card-price"
+                    font-family="default"
+                    font-weight="regular"
+                    type="tabs"
+                  >
+                    Pages.Models.Exploration.msrpLabel $462.95*
+                  </p>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class="c29"
+                    >
+                      <div
+                        class="c18 c30"
+                        data-testid="cy-accessory-card-description"
+                        display="flex"
+                        width="100%"
+                      >
+                        <p>
+                          Specifically designed to improve comfort and match the styling of your motorcycle, the upper deflector provides the ability to direct airflow for various riding conditions.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </div>
+            <div
+              class="c20"
+            >
+              <button
+                class="c21"
+                data-gtm-component-type="Accessories"
+                data-gtm-interaction-type="cta: click"
+                data-gtm-title="Inner Bag, Trunk"
+                data-testid="cy-accessory-card"
+              >
+                <div
+                  class="c22"
+                >
+                  <img
+                    alt="Inner Bag, Trunk"
+                    class="c23"
+                    data-testid="cy-accessory-card-image"
+                    draggable="true"
+                    loading="lazy"
+                    src="https://uat-staging-images.honda.ca:443/accessories/M/2023/307443_thumbnail.jpg"
+                  />
+                </div>
+                <div
+                  class="c24"
+                >
+                  <div
+                    class="c25"
+                    data-testid="dsr-accessory-card-title"
+                  >
+                    <h6
+                      class="c26"
+                      color="default"
+                      data-testid="cy-accessory-card-title"
+                    >
+                      Inner Bag, Trunk
+                    </h6>
+                    <p
+                      class="sc-1k44dfv-0 c27"
+                      color="typographyDefault"
+                      data-testid="cy-accessory-card-part-number"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Pages.Models.Exploration.partNumberLabel
+                       
+                      08L00-MKC-A00
+                    </p>
+                  </div>
+                  <p
+                    class="sc-1k44dfv-0 c28"
+                    color="typographyDefault"
+                    data-testid="cy-accessory-card-price"
+                    font-family="default"
+                    font-weight="regular"
+                    type="tabs"
+                  >
+                    Pages.Models.Exploration.msrpLabel $169.95*
+                  </p>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class="c29"
+                    >
+                      <div
+                        class="c18 c30"
+                        data-testid="cy-accessory-card-description"
+                        display="flex"
+                        width="100%"
+                      >
+                        <span>
+                          Convenient abrasion-resistant ballistic nylon trunk liner makes packing easier and protects your belongings when traveling.  Features reinforced carry handles, shoulder strap, easy-access outer zip for in-trunk use, and Gold Wing logo zipper pulls. Optional on Gold Wing models with the addition of the Trunk.
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </div>
+            <div
+              class="c20"
+            >
+              <button
+                class="c21"
+                data-gtm-component-type="Accessories"
+                data-gtm-interaction-type="cta: click"
+                data-gtm-title="Rear Carrier"
+                data-testid="cy-accessory-card"
+              >
+                <div
+                  class="c22"
+                >
+                  <img
+                    alt="Rear Carrier"
+                    class="c23"
+                    data-testid="cy-accessory-card-image"
+                    draggable="true"
+                    loading="lazy"
+                    src="https://uat-staging-images.honda.ca:443/accessories/M/2023/307445_thumbnail.jpg"
+                  />
+                </div>
+                <div
+                  class="c24"
+                >
+                  <div
+                    class="c25"
+                    data-testid="dsr-accessory-card-title"
+                  >
+                    <h6
+                      class="c26"
+                      color="default"
+                      data-testid="cy-accessory-card-title"
+                    >
+                      Rear Carrier
+                    </h6>
+                    <p
+                      class="sc-1k44dfv-0 c27"
+                      color="typographyDefault"
+                      data-testid="cy-accessory-card-part-number"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Pages.Models.Exploration.partNumberLabel
+                       
+                      08L70-MKC-C40
+                    </p>
+                  </div>
+                  <p
+                    class="sc-1k44dfv-0 c28"
+                    color="typographyDefault"
+                    data-testid="cy-accessory-card-price"
+                    font-family="default"
+                    font-weight="regular"
+                    type="tabs"
+                  >
+                    Pages.Models.Exploration.msrpLabel $575.95*
+                  </p>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class="c29"
+                    >
+                      <div
+                        class="c18 c30"
+                        data-testid="cy-accessory-card-description"
+                        display="flex"
+                        width="100%"
+                      >
+                        <span>
+                          Adds style and functionality, featuring a black finish with rubber inserts for improved appearance while adding carrying capacity. Weight limit: 6.6 lb (3 kg.). Optional on Gold Wing Tour models with the Trunk Removed.
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </div>
+            <div
+              class="c20"
+            >
+              <button
+                class="c21"
+                data-gtm-component-type="Accessories"
+                data-gtm-interaction-type="cta: click"
+                data-gtm-title="Trunk Lid Organizer"
+                data-testid="cy-accessory-card"
+              >
+                <div
+                  class="c22"
+                >
+                  <img
+                    alt="Trunk Lid Organizer"
+                    class="c23"
+                    data-testid="cy-accessory-card-image"
+                    draggable="true"
+                    loading="lazy"
+                    src="https://uat-staging-images.honda.ca:443/accessories/M/2023/307446_thumbnail.jpg"
+                  />
+                </div>
+                <div
+                  class="c24"
+                >
+                  <div
+                    class="c25"
+                    data-testid="dsr-accessory-card-title"
+                  >
+                    <h6
+                      class="c26"
+                      color="default"
+                      data-testid="cy-accessory-card-title"
+                    >
+                      Trunk Lid Organizer
+                    </h6>
+                    <p
+                      class="sc-1k44dfv-0 c27"
+                      color="typographyDefault"
+                      data-testid="cy-accessory-card-part-number"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Pages.Models.Exploration.partNumberLabel
+                       
+                      08L78-MKC-A00
+                    </p>
+                  </div>
+                  <p
+                    class="sc-1k44dfv-0 c28"
+                    color="typographyDefault"
+                    data-testid="cy-accessory-card-price"
+                    font-family="default"
+                    font-weight="regular"
+                    type="tabs"
+                  >
+                    Pages.Models.Exploration.msrpLabel $71.95*
+                  </p>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class="c29"
+                    >
+                      <div
+                        class="c18 c30"
+                        data-testid="cy-accessory-card-description"
+                        display="flex"
+                        width="100%"
+                      >
+                        <span>
+                          Helps keep your trunk organized with convenient storage pockets for smaller items. Optional on Gold Wing models with the addition of the Trunk.
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </div>
+            <div
+              class="c20"
+            >
+              <button
+                class="c21"
+                data-gtm-component-type="Accessories"
+                data-gtm-interaction-type="cta: click"
+                data-gtm-title="FRONT CALIPER COVER (CHROME)"
+                data-testid="cy-accessory-card"
+              >
+                <div
+                  class="c22"
+                >
+                  <img
+                    alt="FRONT CALIPER COVER (CHROME)"
+                    class="c23"
+                    data-testid="cy-accessory-card-image"
+                    draggable="true"
+                    loading="lazy"
+                    src="https://uat-staging-images.honda.ca:443/accessories/M/2023/307427_thumbnail.jpg"
+                  />
+                </div>
+                <div
+                  class="c24"
+                >
+                  <div
+                    class="c25"
+                    data-testid="dsr-accessory-card-title"
+                  >
+                    <h6
+                      class="c26"
+                      color="default"
+                      data-testid="cy-accessory-card-title"
+                    >
+                      FRONT CALIPER COVER (CHROME)
+                    </h6>
+                    <p
+                      class="sc-1k44dfv-0 c27"
+                      color="typographyDefault"
+                      data-testid="cy-accessory-card-part-number"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Pages.Models.Exploration.partNumberLabel
+                       
+                      08F73-MKC-A00
+                    </p>
+                  </div>
+                  <p
+                    class="sc-1k44dfv-0 c28"
+                    color="typographyDefault"
+                    data-testid="cy-accessory-card-price"
+                    font-family="default"
+                    font-weight="regular"
+                    type="tabs"
+                  >
+                    Pages.Models.Exploration.msrpLabel $543.95*
+                  </p>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class="c29"
+                    >
+                      <div
+                        class="c18 c30"
+                        data-testid="cy-accessory-card-description"
+                        display="flex"
+                        width="100%"
+                      >
+                        <p>
+                          Chrome-plated, injection-molded ABS construction covers add custom styling and provides additional airflow to your front calipers for cooling.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </div>
+            <div
+              class="c20"
+            >
+              <button
+                class="c21"
+                data-gtm-component-type="Accessories"
+                data-gtm-interaction-type="cta: click"
+                data-gtm-title="ILLUMINATED ENTRY LAMP"
+                data-testid="cy-accessory-card"
+              >
+                <div
+                  class="c22"
+                >
+                  <img
+                    alt="ILLUMINATED ENTRY LAMP"
+                    class="c23"
+                    data-testid="cy-accessory-card-image"
+                    draggable="true"
+                    loading="lazy"
+                    src="https://uat-staging-images.honda.ca:443/accessories/M/2023/307436_thumbnail.jpg"
+                  />
+                </div>
+                <div
+                  class="c24"
+                >
+                  <div
+                    class="c25"
+                    data-testid="dsr-accessory-card-title"
+                  >
+                    <h6
+                      class="c26"
+                      color="default"
+                      data-testid="cy-accessory-card-title"
+                    >
+                      ILLUMINATED ENTRY LAMP
+                    </h6>
+                    <p
+                      class="sc-1k44dfv-0 c27"
+                      color="typographyDefault"
+                      data-testid="cy-accessory-card-part-number"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Pages.Models.Exploration.partNumberLabel
+                       
+                      08U70-MKC-A00
+                    </p>
+                  </div>
+                  <p
+                    class="sc-1k44dfv-0 c28"
+                    color="typographyDefault"
+                    data-testid="cy-accessory-card-price"
+                    font-family="default"
+                    font-weight="regular"
+                    type="tabs"
+                  >
+                    Pages.Models.Exploration.msrpLabel $201.95*
+                  </p>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class="c29"
+                    >
+                      <div
+                        class="c18 c30"
+                        data-testid="cy-accessory-card-description"
+                        display="flex"
+                        width="100%"
+                      >
+                        <p>
+                          Improves visibility around motorcycle when parked with exterior area lighting.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </div>
+            <div
+              class="c20"
+            >
+              <button
+                class="c21"
+                data-gtm-component-type="Accessories"
+                data-gtm-interaction-type="cta: click"
+                data-gtm-title="HOMELINK & ATTACHMENT KIT"
+                data-testid="cy-accessory-card"
+              >
+                <div
+                  class="c22"
+                >
+                  <img
+                    alt="HOMELINK & ATTACHMENT KIT"
+                    class="c23"
+                    data-testid="cy-accessory-card-image"
+                    draggable="true"
+                    loading="lazy"
+                    src="https://uat-staging-images.honda.ca:443/accessories/M/2023/307431_thumbnail.jpg"
+                  />
+                </div>
+                <div
+                  class="c24"
+                >
+                  <div
+                    class="c25"
+                    data-testid="dsr-accessory-card-title"
+                  >
+                    <h6
+                      class="c26"
+                      color="default"
+                      data-testid="cy-accessory-card-title"
+                    >
+                      HOMELINK & ATTACHMENT KIT
+                    </h6>
+                    <p
+                      class="sc-1k44dfv-0 c27"
+                      color="typographyDefault"
+                      data-testid="cy-accessory-card-part-number"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Pages.Models.Exploration.partNumberLabel
+                       
+                      08U77-MKC-A00
+                    </p>
+                  </div>
+                  <p
+                    class="sc-1k44dfv-0 c28"
+                    color="typographyDefault"
+                    data-testid="cy-accessory-card-price"
+                    font-family="default"
+                    font-weight="regular"
+                    type="tabs"
+                  >
+                    Pages.Models.Exploration.msrpLabel $340.95*
+                  </p>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class="c29"
+                    >
+                      <div
+                        class="c18 c30"
+                        data-testid="cy-accessory-card-description"
+                        display="flex"
+                        width="100%"
+                      >
+                        <p>
+                          Provides the convenience of operating two different garage openers from your motorcycle.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </div>
+            <div
+              class="c20"
+            >
+              <button
+                class="c21"
+                data-gtm-component-type="Accessories"
+                data-gtm-interaction-type="cta: click"
+                data-gtm-title="ACCESSORY SOCKET & ATTACHMENT KIT"
+                data-testid="cy-accessory-card"
+              >
+                <div
+                  class="c22"
+                >
+                  <img
+                    alt="ACCESSORY SOCKET & ATTACHMENT KIT"
+                    class="c23"
+                    data-testid="cy-accessory-card-image"
+                    draggable="true"
+                    loading="lazy"
+                    src="https://uat-staging-images.honda.ca:443/accessories/M/2023/307432_thumbnail.jpg"
+                  />
+                </div>
+                <div
+                  class="c24"
+                >
+                  <div
+                    class="c25"
+                    data-testid="dsr-accessory-card-title"
+                  >
+                    <h6
+                      class="c26"
+                      color="default"
+                      data-testid="cy-accessory-card-title"
+                    >
+                      ACCESSORY SOCKET & ATTACHMENT KIT
+                    </h6>
+                    <p
+                      class="sc-1k44dfv-0 c27"
+                      color="typographyDefault"
+                      data-testid="cy-accessory-card-part-number"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Pages.Models.Exploration.partNumberLabel
+                       
+                      08U79-MKC-A00
+                    </p>
+                  </div>
+                  <p
+                    class="sc-1k44dfv-0 c28"
+                    color="typographyDefault"
+                    data-testid="cy-accessory-card-price"
+                    font-family="default"
+                    font-weight="regular"
+                    type="tabs"
+                  >
+                    Pages.Models.Exploration.msrpLabel $58.95*
+                  </p>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class="c29"
+                    >
+                      <div
+                        class="c18 c30"
+                        data-testid="cy-accessory-card-description"
+                        display="flex"
+                        width="100%"
+                      >
+                        <p>
+                          12V DC electrical socket provides power for additional electrical equipment.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </div>
+            <div
+              class="c20"
+            >
+              <button
+                class="c21"
+                data-gtm-component-type="Accessories"
+                data-gtm-interaction-type="cta: click"
+                data-gtm-title="PASS AUDIO SWITCH & ATTACHMENT"
+                data-testid="cy-accessory-card"
+              >
+                <div
+                  class="c22"
+                >
+                  <img
+                    alt="PASS AUDIO SWITCH & ATTACHMENT"
+                    class="c23"
+                    data-testid="cy-accessory-card-image"
+                    draggable="true"
+                    loading="lazy"
+                    src="https://uat-staging-images.honda.ca:443/accessories/M/2023/307414_thumbnail.jpg"
+                  />
+                </div>
+                <div
+                  class="c24"
+                >
+                  <div
+                    class="c25"
+                    data-testid="dsr-accessory-card-title"
+                  >
+                    <h6
+                      class="c26"
+                      color="default"
+                      data-testid="cy-accessory-card-title"
+                    >
+                      PASS AUDIO SWITCH & ATTACHMENT
+                    </h6>
+                    <p
+                      class="sc-1k44dfv-0 c27"
+                      color="typographyDefault"
+                      data-testid="cy-accessory-card-part-number"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Pages.Models.Exploration.partNumberLabel
+                       
+                      08A70-MKC-A00
+                    </p>
+                  </div>
+                  <p
+                    class="sc-1k44dfv-0 c28"
+                    color="typographyDefault"
+                    data-testid="cy-accessory-card-price"
+                    font-family="default"
+                    font-weight="regular"
+                    type="tabs"
+                  >
+                    Pages.Models.Exploration.msrpLabel $285.95*
+                  </p>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class="c29"
+                    >
+                      <div
+                        class="c18 c30"
+                        data-testid="cy-accessory-card-description"
+                        display="flex"
+                        width="100%"
+                      >
+                        <p>
+                          Allows your passenger to adjust the volume, source and track.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </div>
+            <div
+              class="c20"
+            >
+              <button
+                class="c21"
+                data-gtm-component-type="Accessories"
+                data-gtm-interaction-type="cta: click"
+                data-gtm-title="REAR SPEAKER ATTACHMENT"
+                data-testid="cy-accessory-card"
+              >
+                <div
+                  class="c22"
+                >
+                  <img
+                    alt="REAR SPEAKER ATTACHMENT"
+                    class="c23"
+                    data-testid="cy-accessory-card-image"
+                    draggable="true"
+                    loading="lazy"
+                    src="https://uat-staging-images.honda.ca:443/accessories/M/2023/307417_thumbnail.jpg"
+                  />
+                </div>
+                <div
+                  class="c24"
+                >
+                  <div
+                    class="c25"
+                    data-testid="dsr-accessory-card-title"
+                  >
+                    <h6
+                      class="c26"
+                      color="default"
+                      data-testid="cy-accessory-card-title"
+                    >
+                      REAR SPEAKER ATTACHMENT
+                    </h6>
+                    <p
+                      class="sc-1k44dfv-0 c27"
+                      color="typographyDefault"
+                      data-testid="cy-accessory-card-part-number"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Pages.Models.Exploration.partNumberLabel
+                       
+                      08B71-MKC-A00
+                    </p>
+                  </div>
+                  <p
+                    class="sc-1k44dfv-0 c28"
+                    color="typographyDefault"
+                    data-testid="cy-accessory-card-price"
+                    font-family="default"
+                    font-weight="regular"
+                    type="tabs"
+                  >
+                    Pages.Models.Exploration.msrpLabel $342.95*
+                  </p>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class="c29"
+                    >
+                      <div
+                        class="c18 c30"
+                        data-testid="cy-accessory-card-description"
+                        display="flex"
+                        width="100%"
+                      >
+                        <p>
+                          Includes speaker grilles, hardware and wiring for installation of two rear speakers on your Gold Wing.  Requires Rear Speaker Kit.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </div>
+            <div
+              class="c20"
+            >
+              <button
+                class="c21"
+                data-gtm-component-type="Accessories"
+                data-gtm-interaction-type="cta: click"
+                data-gtm-title="MOTORCYCLE COVER"
+                data-testid="cy-accessory-card"
+              >
+                <div
+                  class="c22"
+                >
+                  <img
+                    alt="MOTORCYCLE COVER"
+                    class="c23"
+                    data-testid="cy-accessory-card-image"
+                    draggable="true"
+                    loading="lazy"
+                    src="https://uat-staging-images.honda.ca:443/accessories/M/2023/307451_thumbnail.jpg"
+                  />
+                </div>
+                <div
+                  class="c24"
+                >
+                  <div
+                    class="c25"
+                    data-testid="dsr-accessory-card-title"
+                  >
+                    <h6
+                      class="c26"
+                      color="default"
+                      data-testid="cy-accessory-card-title"
+                    >
+                      MOTORCYCLE COVER
+                    </h6>
+                    <p
+                      class="sc-1k44dfv-0 c27"
+                      color="typographyDefault"
+                      data-testid="cy-accessory-card-part-number"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Pages.Models.Exploration.partNumberLabel
+                       
+                      08P71-MKC-A10
+                    </p>
+                  </div>
+                  <p
+                    class="sc-1k44dfv-0 c28"
+                    color="typographyDefault"
+                    data-testid="cy-accessory-card-price"
+                    font-family="default"
+                    font-weight="regular"
+                    type="tabs"
+                  >
+                    Pages.Models.Exploration.msrpLabel $279.95*
+                  </p>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class="c29"
+                    >
+                      <div
+                        class="c18 c30"
+                        data-testid="cy-accessory-card-description"
+                        display="flex"
+                        width="100%"
+                      >
+                        <p>
+                          Sturdy, water resistant 300 denier helps protect your motorcycle from the elements.  Features a soft inner liner, venting, pop-out windshield panel, Gold Wing logos.  Includes storage bag.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </div>
+            <div
+              class="c20"
+            >
+              <button
+                class="c21"
+                data-gtm-component-type="Accessories"
+                data-gtm-interaction-type="cta: click"
+                data-gtm-title="Trunk Installation Kit"
+                data-testid="cy-accessory-card"
+              >
+                <div
+                  class="c22"
+                >
+                  <img
+                    alt="Trunk Installation Kit"
+                    class="c23"
+                    data-testid="cy-accessory-card-image"
+                    draggable="true"
+                    loading="lazy"
+                    src="https://uat-staging-images.honda.ca:443/accessories/M/2023/307440_thumbnail.jpg"
+                  />
+                </div>
+                <div
+                  class="c24"
+                >
+                  <div
+                    class="c25"
+                    data-testid="dsr-accessory-card-title"
+                  >
+                    <h6
+                      class="c26"
+                      color="default"
+                      data-testid="cy-accessory-card-title"
+                    >
+                      Trunk Installation Kit
+                    </h6>
+                    <p
+                      class="sc-1k44dfv-0 c27"
+                      color="typographyDefault"
+                      data-testid="cy-accessory-card-part-number"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Pages.Models.Exploration.partNumberLabel
+                       
+                      08L71-MKC-L31ZA
+                    </p>
+                  </div>
+                  <p
+                    class="sc-1k44dfv-0 c28"
+                    color="typographyDefault"
+                    data-testid="cy-accessory-card-price"
+                    font-family="default"
+                    font-weight="regular"
+                    type="tabs"
+                  >
+                    Pages.Models.Exploration.msrpLabel $1,385.95*
+                  </p>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class="c29"
+                    >
+                      <div
+                        class="c18 c30"
+                        data-testid="cy-accessory-card-description"
+                        display="flex"
+                        width="100%"
+                      >
+                        <p>
+                           The Trunk installation kit provides the necessary hardware to install a trunk on the Gold Wing model. This kit includes the 55 W rear speakers that come factory on the Gold Wing Tour models . Requires a Rear Trunk Add kit.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </div>
+            <div
+              class="c20"
+            >
+              <button
+                class="c21"
+                data-gtm-component-type="Accessories"
+                data-gtm-interaction-type="cta: click"
+                data-gtm-title="Trunk Mat"
+                data-testid="cy-accessory-card"
+              >
+                <div
+                  class="c22"
+                >
+                  <img
+                    alt="Trunk Mat"
+                    class="c23"
+                    data-testid="cy-accessory-card-image"
+                    draggable="true"
+                    loading="lazy"
+                    src="https://uat-staging-images.honda.ca:443/accessories/M/2023/307442_thumbnail.jpg"
+                  />
+                </div>
+                <div
+                  class="c24"
+                >
+                  <div
+                    class="c25"
+                    data-testid="dsr-accessory-card-title"
+                  >
+                    <h6
+                      class="c26"
+                      color="default"
+                      data-testid="cy-accessory-card-title"
+                    >
+                      Trunk Mat
+                    </h6>
+                    <p
+                      class="sc-1k44dfv-0 c27"
+                      color="typographyDefault"
+                      data-testid="cy-accessory-card-part-number"
+                      font-family="default"
+                      font-weight="regular"
+                    >
+                      Pages.Models.Exploration.partNumberLabel
+                       
+                      08P04-MKC-L00
+                    </p>
+                  </div>
+                  <p
+                    class="sc-1k44dfv-0 c28"
+                    color="typographyDefault"
+                    data-testid="cy-accessory-card-price"
+                    font-family="default"
+                    font-weight="regular"
+                    type="tabs"
+                  >
+                    Pages.Models.Exploration.msrpLabel $130.95*
+                  </p>
+                  <div
+                    class=""
+                  >
+                    <div
+                      class="c29"
+                    >
+                      <div
+                        class="c18 c30"
+                        data-testid="cy-accessory-card-description"
+                        display="flex"
+                        width="100%"
+                      >
+                        <p>
+                           Plush premium-quality carpeting with slip-resistant backing, embroidered with Gold Wing logo for your trunk. Optional on Gold Wing models with the addition of the Trunk
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="fresnel-container fresnel-at-mobile "
+    >
+      <div
+        class="c31 c32"
+        data-gtm-component-type="Accessories"
+        data-gtm-interaction-type="accessories - accessory filter"
+        display="flex"
+        type="slider"
+        width="100%"
+      >
+        <div
+          class="c33"
+        >
+          <button
+            class="c34"
+            data-gtm-component-type="Accessories"
+            data-gtm-interaction-type="accessory details"
+            data-gtm-title="TALL WINDSCREEN"
+            data-testid="cy-accessory-card"
+            width="280px"
+          >
+            <div
+              class="c22"
+            >
+              <img
+                alt="TALL WINDSCREEN"
+                class="c23"
+                data-testid="cy-accessory-card-image"
+                draggable="true"
+                loading="lazy"
+                src="https://uat-staging-images.honda.ca:443/accessories/M/2023/307418_thumbnail.jpg"
+              />
+            </div>
+            <div
+              class="c24"
+            >
+              <div
+                class="c25"
+                data-testid="dsr-accessory-card-title"
+              >
+                <h6
+                  class="c26"
+                  color="default"
+                  data-testid="cy-accessory-card-title"
+                >
+                  TALL WINDSCREEN
+                </h6>
+                <p
+                  class="sc-1k44dfv-0 c27"
+                  color="typographyDefault"
+                  data-testid="cy-accessory-card-part-number"
+                  font-family="default"
+                  font-weight="regular"
+                >
+                  Pages.Models.Exploration.partNumberLabel
+                   
+                  08R71-MKC-A01
+                </p>
+              </div>
+              <p
+                class="sc-1k44dfv-0 c28"
+                color="typographyDefault"
+                data-testid="cy-accessory-card-price"
+                font-family="default"
+                font-weight="regular"
+                type="tabs"
+              >
+                Pages.Models.Exploration.msrpLabel $408.95*
+              </p>
+              <div
+                class=""
+              >
+                <div
+                  class="c29"
+                >
+                  <div
+                    class="c18 c30"
+                    data-testid="cy-accessory-card-description"
+                    display="flex"
+                    width="100%"
+                  >
+                    <p>
+                      Taller and wider than the standard windscreen, it provides added protection from the elements. 8.85” (225 mm) and 3.93” (100 mm)
+longer than the Gold Wing and Gold Wing Tour windscreens respectively.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </button>
+        </div>
+        <div
+          class="c33"
+        >
+          <button
+            class="c34"
+            data-gtm-component-type="Accessories"
+            data-gtm-interaction-type="accessory details"
+            data-gtm-title="AIR DEFLECTOR UPPER"
+            data-testid="cy-accessory-card"
+            width="280px"
+          >
+            <div
+              class="c22"
+            >
+              <img
+                alt="AIR DEFLECTOR UPPER"
+                class="c23"
+                data-testid="cy-accessory-card-image"
+                draggable="true"
+                loading="lazy"
+                src="https://uat-staging-images.honda.ca:443/accessories/M/2023/307419_thumbnail.jpg"
+              />
+            </div>
+            <div
+              class="c24"
+            >
+              <div
+                class="c25"
+                data-testid="dsr-accessory-card-title"
+              >
+                <h6
+                  class="c26"
+                  color="default"
+                  data-testid="cy-accessory-card-title"
+                >
+                  AIR DEFLECTOR UPPER
+                </h6>
+                <p
+                  class="sc-1k44dfv-0 c27"
+                  color="typographyDefault"
+                  data-testid="cy-accessory-card-part-number"
+                  font-family="default"
+                  font-weight="regular"
+                >
+                  Pages.Models.Exploration.partNumberLabel
+                   
+                  08R72-MKC-A01
+                </p>
+              </div>
+              <p
+                class="sc-1k44dfv-0 c28"
+                color="typographyDefault"
+                data-testid="cy-accessory-card-price"
+                font-family="default"
+                font-weight="regular"
+                type="tabs"
+              >
+                Pages.Models.Exploration.msrpLabel $462.95*
+              </p>
+              <div
+                class=""
+              >
+                <div
+                  class="c29"
+                >
+                  <div
+                    class="c18 c30"
+                    data-testid="cy-accessory-card-description"
+                    display="flex"
+                    width="100%"
+                  >
+                    <p>
+                      Specifically designed to improve comfort and match the styling of your motorcycle, the upper deflector provides the ability to direct airflow for various riding conditions.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </button>
+        </div>
+        <div
+          class="c33"
+        >
+          <button
+            class="c34"
+            data-gtm-component-type="Accessories"
+            data-gtm-interaction-type="accessory details"
+            data-gtm-title="Inner Bag, Trunk"
+            data-testid="cy-accessory-card"
+            width="280px"
+          >
+            <div
+              class="c22"
+            >
+              <img
+                alt="Inner Bag, Trunk"
+                class="c23"
+                data-testid="cy-accessory-card-image"
+                draggable="true"
+                loading="lazy"
+                src="https://uat-staging-images.honda.ca:443/accessories/M/2023/307443_thumbnail.jpg"
+              />
+            </div>
+            <div
+              class="c24"
+            >
+              <div
+                class="c25"
+                data-testid="dsr-accessory-card-title"
+              >
+                <h6
+                  class="c26"
+                  color="default"
+                  data-testid="cy-accessory-card-title"
+                >
+                  Inner Bag, Trunk
+                </h6>
+                <p
+                  class="sc-1k44dfv-0 c27"
+                  color="typographyDefault"
+                  data-testid="cy-accessory-card-part-number"
+                  font-family="default"
+                  font-weight="regular"
+                >
+                  Pages.Models.Exploration.partNumberLabel
+                   
+                  08L00-MKC-A00
+                </p>
+              </div>
+              <p
+                class="sc-1k44dfv-0 c28"
+                color="typographyDefault"
+                data-testid="cy-accessory-card-price"
+                font-family="default"
+                font-weight="regular"
+                type="tabs"
+              >
+                Pages.Models.Exploration.msrpLabel $169.95*
+              </p>
+              <div
+                class=""
+              >
+                <div
+                  class="c29"
+                >
+                  <div
+                    class="c18 c30"
+                    data-testid="cy-accessory-card-description"
+                    display="flex"
+                    width="100%"
+                  >
+                    <span>
+                      Convenient abrasion-resistant ballistic nylon trunk liner makes packing easier and protects your belongings when traveling.  Features reinforced carry handles, shoulder strap, easy-access outer zip for in-trunk use, and Gold Wing logo zipper pulls. Optional on Gold Wing models with the addition of the Trunk.
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </button>
+        </div>
+        <div
+          class="c33"
+        >
+          <button
+            class="c34"
+            data-gtm-component-type="Accessories"
+            data-gtm-interaction-type="accessory details"
+            data-gtm-title="Rear Carrier"
+            data-testid="cy-accessory-card"
+            width="280px"
+          >
+            <div
+              class="c22"
+            >
+              <img
+                alt="Rear Carrier"
+                class="c23"
+                data-testid="cy-accessory-card-image"
+                draggable="true"
+                loading="lazy"
+                src="https://uat-staging-images.honda.ca:443/accessories/M/2023/307445_thumbnail.jpg"
+              />
+            </div>
+            <div
+              class="c24"
+            >
+              <div
+                class="c25"
+                data-testid="dsr-accessory-card-title"
+              >
+                <h6
+                  class="c26"
+                  color="default"
+                  data-testid="cy-accessory-card-title"
+                >
+                  Rear Carrier
+                </h6>
+                <p
+                  class="sc-1k44dfv-0 c27"
+                  color="typographyDefault"
+                  data-testid="cy-accessory-card-part-number"
+                  font-family="default"
+                  font-weight="regular"
+                >
+                  Pages.Models.Exploration.partNumberLabel
+                   
+                  08L70-MKC-C40
+                </p>
+              </div>
+              <p
+                class="sc-1k44dfv-0 c28"
+                color="typographyDefault"
+                data-testid="cy-accessory-card-price"
+                font-family="default"
+                font-weight="regular"
+                type="tabs"
+              >
+                Pages.Models.Exploration.msrpLabel $575.95*
+              </p>
+              <div
+                class=""
+              >
+                <div
+                  class="c29"
+                >
+                  <div
+                    class="c18 c30"
+                    data-testid="cy-accessory-card-description"
+                    display="flex"
+                    width="100%"
+                  >
+                    <span>
+                      Adds style and functionality, featuring a black finish with rubber inserts for improved appearance while adding carrying capacity. Weight limit: 6.6 lb (3 kg.). Optional on Gold Wing Tour models with the Trunk Removed.
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </button>
+        </div>
+        <div
+          class="c33"
+        >
+          <button
+            class="c34"
+            data-gtm-component-type="Accessories"
+            data-gtm-interaction-type="accessory details"
+            data-gtm-title="Trunk Lid Organizer"
+            data-testid="cy-accessory-card"
+            width="280px"
+          >
+            <div
+              class="c22"
+            >
+              <img
+                alt="Trunk Lid Organizer"
+                class="c23"
+                data-testid="cy-accessory-card-image"
+                draggable="true"
+                loading="lazy"
+                src="https://uat-staging-images.honda.ca:443/accessories/M/2023/307446_thumbnail.jpg"
+              />
+            </div>
+            <div
+              class="c24"
+            >
+              <div
+                class="c25"
+                data-testid="dsr-accessory-card-title"
+              >
+                <h6
+                  class="c26"
+                  color="default"
+                  data-testid="cy-accessory-card-title"
+                >
+                  Trunk Lid Organizer
+                </h6>
+                <p
+                  class="sc-1k44dfv-0 c27"
+                  color="typographyDefault"
+                  data-testid="cy-accessory-card-part-number"
+                  font-family="default"
+                  font-weight="regular"
+                >
+                  Pages.Models.Exploration.partNumberLabel
+                   
+                  08L78-MKC-A00
+                </p>
+              </div>
+              <p
+                class="sc-1k44dfv-0 c28"
+                color="typographyDefault"
+                data-testid="cy-accessory-card-price"
+                font-family="default"
+                font-weight="regular"
+                type="tabs"
+              >
+                Pages.Models.Exploration.msrpLabel $71.95*
+              </p>
+              <div
+                class=""
+              >
+                <div
+                  class="c29"
+                >
+                  <div
+                    class="c18 c30"
+                    data-testid="cy-accessory-card-description"
+                    display="flex"
+                    width="100%"
+                  >
+                    <span>
+                      Helps keep your trunk organized with convenient storage pockets for smaller items. Optional on Gold Wing models with the addition of the Trunk.
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </button>
+        </div>
+        <div
+          class="c33"
+        >
+          <button
+            class="c34"
+            data-gtm-component-type="Accessories"
+            data-gtm-interaction-type="accessory details"
+            data-gtm-title="FRONT CALIPER COVER (CHROME)"
+            data-testid="cy-accessory-card"
+            width="280px"
+          >
+            <div
+              class="c22"
+            >
+              <img
+                alt="FRONT CALIPER COVER (CHROME)"
+                class="c23"
+                data-testid="cy-accessory-card-image"
+                draggable="true"
+                loading="lazy"
+                src="https://uat-staging-images.honda.ca:443/accessories/M/2023/307427_thumbnail.jpg"
+              />
+            </div>
+            <div
+              class="c24"
+            >
+              <div
+                class="c25"
+                data-testid="dsr-accessory-card-title"
+              >
+                <h6
+                  class="c26"
+                  color="default"
+                  data-testid="cy-accessory-card-title"
+                >
+                  FRONT CALIPER COVER (CHROME)
+                </h6>
+                <p
+                  class="sc-1k44dfv-0 c27"
+                  color="typographyDefault"
+                  data-testid="cy-accessory-card-part-number"
+                  font-family="default"
+                  font-weight="regular"
+                >
+                  Pages.Models.Exploration.partNumberLabel
+                   
+                  08F73-MKC-A00
+                </p>
+              </div>
+              <p
+                class="sc-1k44dfv-0 c28"
+                color="typographyDefault"
+                data-testid="cy-accessory-card-price"
+                font-family="default"
+                font-weight="regular"
+                type="tabs"
+              >
+                Pages.Models.Exploration.msrpLabel $543.95*
+              </p>
+              <div
+                class=""
+              >
+                <div
+                  class="c29"
+                >
+                  <div
+                    class="c18 c30"
+                    data-testid="cy-accessory-card-description"
+                    display="flex"
+                    width="100%"
+                  >
+                    <p>
+                      Chrome-plated, injection-molded ABS construction covers add custom styling and provides additional airflow to your front calipers for cooling.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </button>
+        </div>
+        <div
+          class="c33"
+        >
+          <button
+            class="c34"
+            data-gtm-component-type="Accessories"
+            data-gtm-interaction-type="accessory details"
+            data-gtm-title="ILLUMINATED ENTRY LAMP"
+            data-testid="cy-accessory-card"
+            width="280px"
+          >
+            <div
+              class="c22"
+            >
+              <img
+                alt="ILLUMINATED ENTRY LAMP"
+                class="c23"
+                data-testid="cy-accessory-card-image"
+                draggable="true"
+                loading="lazy"
+                src="https://uat-staging-images.honda.ca:443/accessories/M/2023/307436_thumbnail.jpg"
+              />
+            </div>
+            <div
+              class="c24"
+            >
+              <div
+                class="c25"
+                data-testid="dsr-accessory-card-title"
+              >
+                <h6
+                  class="c26"
+                  color="default"
+                  data-testid="cy-accessory-card-title"
+                >
+                  ILLUMINATED ENTRY LAMP
+                </h6>
+                <p
+                  class="sc-1k44dfv-0 c27"
+                  color="typographyDefault"
+                  data-testid="cy-accessory-card-part-number"
+                  font-family="default"
+                  font-weight="regular"
+                >
+                  Pages.Models.Exploration.partNumberLabel
+                   
+                  08U70-MKC-A00
+                </p>
+              </div>
+              <p
+                class="sc-1k44dfv-0 c28"
+                color="typographyDefault"
+                data-testid="cy-accessory-card-price"
+                font-family="default"
+                font-weight="regular"
+                type="tabs"
+              >
+                Pages.Models.Exploration.msrpLabel $201.95*
+              </p>
+              <div
+                class=""
+              >
+                <div
+                  class="c29"
+                >
+                  <div
+                    class="c18 c30"
+                    data-testid="cy-accessory-card-description"
+                    display="flex"
+                    width="100%"
+                  >
+                    <p>
+                      Improves visibility around motorcycle when parked with exterior area lighting.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </button>
+        </div>
+        <div
+          class="c33"
+        >
+          <button
+            class="c34"
+            data-gtm-component-type="Accessories"
+            data-gtm-interaction-type="accessory details"
+            data-gtm-title="HOMELINK & ATTACHMENT KIT"
+            data-testid="cy-accessory-card"
+            width="280px"
+          >
+            <div
+              class="c22"
+            >
+              <img
+                alt="HOMELINK & ATTACHMENT KIT"
+                class="c23"
+                data-testid="cy-accessory-card-image"
+                draggable="true"
+                loading="lazy"
+                src="https://uat-staging-images.honda.ca:443/accessories/M/2023/307431_thumbnail.jpg"
+              />
+            </div>
+            <div
+              class="c24"
+            >
+              <div
+                class="c25"
+                data-testid="dsr-accessory-card-title"
+              >
+                <h6
+                  class="c26"
+                  color="default"
+                  data-testid="cy-accessory-card-title"
+                >
+                  HOMELINK & ATTACHMENT KIT
+                </h6>
+                <p
+                  class="sc-1k44dfv-0 c27"
+                  color="typographyDefault"
+                  data-testid="cy-accessory-card-part-number"
+                  font-family="default"
+                  font-weight="regular"
+                >
+                  Pages.Models.Exploration.partNumberLabel
+                   
+                  08U77-MKC-A00
+                </p>
+              </div>
+              <p
+                class="sc-1k44dfv-0 c28"
+                color="typographyDefault"
+                data-testid="cy-accessory-card-price"
+                font-family="default"
+                font-weight="regular"
+                type="tabs"
+              >
+                Pages.Models.Exploration.msrpLabel $340.95*
+              </p>
+              <div
+                class=""
+              >
+                <div
+                  class="c29"
+                >
+                  <div
+                    class="c18 c30"
+                    data-testid="cy-accessory-card-description"
+                    display="flex"
+                    width="100%"
+                  >
+                    <p>
+                      Provides the convenience of operating two different garage openers from your motorcycle.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </button>
+        </div>
+        <div
+          class="c33"
+        >
+          <button
+            class="c34"
+            data-gtm-component-type="Accessories"
+            data-gtm-interaction-type="accessory details"
+            data-gtm-title="ACCESSORY SOCKET & ATTACHMENT KIT"
+            data-testid="cy-accessory-card"
+            width="280px"
+          >
+            <div
+              class="c22"
+            >
+              <img
+                alt="ACCESSORY SOCKET & ATTACHMENT KIT"
+                class="c23"
+                data-testid="cy-accessory-card-image"
+                draggable="true"
+                loading="lazy"
+                src="https://uat-staging-images.honda.ca:443/accessories/M/2023/307432_thumbnail.jpg"
+              />
+            </div>
+            <div
+              class="c24"
+            >
+              <div
+                class="c25"
+                data-testid="dsr-accessory-card-title"
+              >
+                <h6
+                  class="c26"
+                  color="default"
+                  data-testid="cy-accessory-card-title"
+                >
+                  ACCESSORY SOCKET & ATTACHMENT KIT
+                </h6>
+                <p
+                  class="sc-1k44dfv-0 c27"
+                  color="typographyDefault"
+                  data-testid="cy-accessory-card-part-number"
+                  font-family="default"
+                  font-weight="regular"
+                >
+                  Pages.Models.Exploration.partNumberLabel
+                   
+                  08U79-MKC-A00
+                </p>
+              </div>
+              <p
+                class="sc-1k44dfv-0 c28"
+                color="typographyDefault"
+                data-testid="cy-accessory-card-price"
+                font-family="default"
+                font-weight="regular"
+                type="tabs"
+              >
+                Pages.Models.Exploration.msrpLabel $58.95*
+              </p>
+              <div
+                class=""
+              >
+                <div
+                  class="c29"
+                >
+                  <div
+                    class="c18 c30"
+                    data-testid="cy-accessory-card-description"
+                    display="flex"
+                    width="100%"
+                  >
+                    <p>
+                      12V DC electrical socket provides power for additional electrical equipment.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </button>
+        </div>
+        <div
+          class="c33"
+        >
+          <button
+            class="c34"
+            data-gtm-component-type="Accessories"
+            data-gtm-interaction-type="accessory details"
+            data-gtm-title="PASS AUDIO SWITCH & ATTACHMENT"
+            data-testid="cy-accessory-card"
+            width="280px"
+          >
+            <div
+              class="c22"
+            >
+              <img
+                alt="PASS AUDIO SWITCH & ATTACHMENT"
+                class="c23"
+                data-testid="cy-accessory-card-image"
+                draggable="true"
+                loading="lazy"
+                src="https://uat-staging-images.honda.ca:443/accessories/M/2023/307414_thumbnail.jpg"
+              />
+            </div>
+            <div
+              class="c24"
+            >
+              <div
+                class="c25"
+                data-testid="dsr-accessory-card-title"
+              >
+                <h6
+                  class="c26"
+                  color="default"
+                  data-testid="cy-accessory-card-title"
+                >
+                  PASS AUDIO SWITCH & ATTACHMENT
+                </h6>
+                <p
+                  class="sc-1k44dfv-0 c27"
+                  color="typographyDefault"
+                  data-testid="cy-accessory-card-part-number"
+                  font-family="default"
+                  font-weight="regular"
+                >
+                  Pages.Models.Exploration.partNumberLabel
+                   
+                  08A70-MKC-A00
+                </p>
+              </div>
+              <p
+                class="sc-1k44dfv-0 c28"
+                color="typographyDefault"
+                data-testid="cy-accessory-card-price"
+                font-family="default"
+                font-weight="regular"
+                type="tabs"
+              >
+                Pages.Models.Exploration.msrpLabel $285.95*
+              </p>
+              <div
+                class=""
+              >
+                <div
+                  class="c29"
+                >
+                  <div
+                    class="c18 c30"
+                    data-testid="cy-accessory-card-description"
+                    display="flex"
+                    width="100%"
+                  >
+                    <p>
+                      Allows your passenger to adjust the volume, source and track.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </button>
+        </div>
+        <div
+          class="c33"
+        >
+          <button
+            class="c34"
+            data-gtm-component-type="Accessories"
+            data-gtm-interaction-type="accessory details"
+            data-gtm-title="REAR SPEAKER ATTACHMENT"
+            data-testid="cy-accessory-card"
+            width="280px"
+          >
+            <div
+              class="c22"
+            >
+              <img
+                alt="REAR SPEAKER ATTACHMENT"
+                class="c23"
+                data-testid="cy-accessory-card-image"
+                draggable="true"
+                loading="lazy"
+                src="https://uat-staging-images.honda.ca:443/accessories/M/2023/307417_thumbnail.jpg"
+              />
+            </div>
+            <div
+              class="c24"
+            >
+              <div
+                class="c25"
+                data-testid="dsr-accessory-card-title"
+              >
+                <h6
+                  class="c26"
+                  color="default"
+                  data-testid="cy-accessory-card-title"
+                >
+                  REAR SPEAKER ATTACHMENT
+                </h6>
+                <p
+                  class="sc-1k44dfv-0 c27"
+                  color="typographyDefault"
+                  data-testid="cy-accessory-card-part-number"
+                  font-family="default"
+                  font-weight="regular"
+                >
+                  Pages.Models.Exploration.partNumberLabel
+                   
+                  08B71-MKC-A00
+                </p>
+              </div>
+              <p
+                class="sc-1k44dfv-0 c28"
+                color="typographyDefault"
+                data-testid="cy-accessory-card-price"
+                font-family="default"
+                font-weight="regular"
+                type="tabs"
+              >
+                Pages.Models.Exploration.msrpLabel $342.95*
+              </p>
+              <div
+                class=""
+              >
+                <div
+                  class="c29"
+                >
+                  <div
+                    class="c18 c30"
+                    data-testid="cy-accessory-card-description"
+                    display="flex"
+                    width="100%"
+                  >
+                    <p>
+                      Includes speaker grilles, hardware and wiring for installation of two rear speakers on your Gold Wing.  Requires Rear Speaker Kit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </button>
+        </div>
+        <div
+          class="c33"
+        >
+          <button
+            class="c34"
+            data-gtm-component-type="Accessories"
+            data-gtm-interaction-type="accessory details"
+            data-gtm-title="MOTORCYCLE COVER"
+            data-testid="cy-accessory-card"
+            width="280px"
+          >
+            <div
+              class="c22"
+            >
+              <img
+                alt="MOTORCYCLE COVER"
+                class="c23"
+                data-testid="cy-accessory-card-image"
+                draggable="true"
+                loading="lazy"
+                src="https://uat-staging-images.honda.ca:443/accessories/M/2023/307451_thumbnail.jpg"
+              />
+            </div>
+            <div
+              class="c24"
+            >
+              <div
+                class="c25"
+                data-testid="dsr-accessory-card-title"
+              >
+                <h6
+                  class="c26"
+                  color="default"
+                  data-testid="cy-accessory-card-title"
+                >
+                  MOTORCYCLE COVER
+                </h6>
+                <p
+                  class="sc-1k44dfv-0 c27"
+                  color="typographyDefault"
+                  data-testid="cy-accessory-card-part-number"
+                  font-family="default"
+                  font-weight="regular"
+                >
+                  Pages.Models.Exploration.partNumberLabel
+                   
+                  08P71-MKC-A10
+                </p>
+              </div>
+              <p
+                class="sc-1k44dfv-0 c28"
+                color="typographyDefault"
+                data-testid="cy-accessory-card-price"
+                font-family="default"
+                font-weight="regular"
+                type="tabs"
+              >
+                Pages.Models.Exploration.msrpLabel $279.95*
+              </p>
+              <div
+                class=""
+              >
+                <div
+                  class="c29"
+                >
+                  <div
+                    class="c18 c30"
+                    data-testid="cy-accessory-card-description"
+                    display="flex"
+                    width="100%"
+                  >
+                    <p>
+                      Sturdy, water resistant 300 denier helps protect your motorcycle from the elements.  Features a soft inner liner, venting, pop-out windshield panel, Gold Wing logos.  Includes storage bag.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </button>
+        </div>
+        <div
+          class="c33"
+        >
+          <button
+            class="c34"
+            data-gtm-component-type="Accessories"
+            data-gtm-interaction-type="accessory details"
+            data-gtm-title="Trunk Installation Kit"
+            data-testid="cy-accessory-card"
+            width="280px"
+          >
+            <div
+              class="c22"
+            >
+              <img
+                alt="Trunk Installation Kit"
+                class="c23"
+                data-testid="cy-accessory-card-image"
+                draggable="true"
+                loading="lazy"
+                src="https://uat-staging-images.honda.ca:443/accessories/M/2023/307440_thumbnail.jpg"
+              />
+            </div>
+            <div
+              class="c24"
+            >
+              <div
+                class="c25"
+                data-testid="dsr-accessory-card-title"
+              >
+                <h6
+                  class="c26"
+                  color="default"
+                  data-testid="cy-accessory-card-title"
+                >
+                  Trunk Installation Kit
+                </h6>
+                <p
+                  class="sc-1k44dfv-0 c27"
+                  color="typographyDefault"
+                  data-testid="cy-accessory-card-part-number"
+                  font-family="default"
+                  font-weight="regular"
+                >
+                  Pages.Models.Exploration.partNumberLabel
+                   
+                  08L71-MKC-L31ZA
+                </p>
+              </div>
+              <p
+                class="sc-1k44dfv-0 c28"
+                color="typographyDefault"
+                data-testid="cy-accessory-card-price"
+                font-family="default"
+                font-weight="regular"
+                type="tabs"
+              >
+                Pages.Models.Exploration.msrpLabel $1,385.95*
+              </p>
+              <div
+                class=""
+              >
+                <div
+                  class="c29"
+                >
+                  <div
+                    class="c18 c30"
+                    data-testid="cy-accessory-card-description"
+                    display="flex"
+                    width="100%"
+                  >
+                    <p>
+                       The Trunk installation kit provides the necessary hardware to install a trunk on the Gold Wing model. This kit includes the 55 W rear speakers that come factory on the Gold Wing Tour models . Requires a Rear Trunk Add kit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </button>
+        </div>
+        <div
+          class="c33"
+        >
+          <button
+            class="c34"
+            data-gtm-component-type="Accessories"
+            data-gtm-interaction-type="accessory details"
+            data-gtm-title="Trunk Mat"
+            data-testid="cy-accessory-card"
+            width="280px"
+          >
+            <div
+              class="c22"
+            >
+              <img
+                alt="Trunk Mat"
+                class="c23"
+                data-testid="cy-accessory-card-image"
+                draggable="true"
+                loading="lazy"
+                src="https://uat-staging-images.honda.ca:443/accessories/M/2023/307442_thumbnail.jpg"
+              />
+            </div>
+            <div
+              class="c24"
+            >
+              <div
+                class="c25"
+                data-testid="dsr-accessory-card-title"
+              >
+                <h6
+                  class="c26"
+                  color="default"
+                  data-testid="cy-accessory-card-title"
+                >
+                  Trunk Mat
+                </h6>
+                <p
+                  class="sc-1k44dfv-0 c27"
+                  color="typographyDefault"
+                  data-testid="cy-accessory-card-part-number"
+                  font-family="default"
+                  font-weight="regular"
+                >
+                  Pages.Models.Exploration.partNumberLabel
+                   
+                  08P04-MKC-L00
+                </p>
+              </div>
+              <p
+                class="sc-1k44dfv-0 c28"
+                color="typographyDefault"
+                data-testid="cy-accessory-card-price"
+                font-family="default"
+                font-weight="regular"
+                type="tabs"
+              >
+                Pages.Models.Exploration.msrpLabel $130.95*
+              </p>
+              <div
+                class=""
+              >
+                <div
+                  class="c29"
+                >
+                  <div
+                    class="c18 c30"
+                    data-testid="cy-accessory-card-description"
+                    display="flex"
+                    width="100%"
+                  >
+                    <p>
+                       Plush premium-quality carpeting with slip-resistant backing, embroidered with Gold Wing logo for your trunk. Optional on Gold Wing models with the addition of the Trunk
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

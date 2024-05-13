@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MarineProductSpecifications> should render even if there are empty fields 1`] = `<div />`;
+
+exports[`<MarineProductSpecifications> should return null if there is no fields 1`] = `<div />`;

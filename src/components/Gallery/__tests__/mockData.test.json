@@ -1,0 +1,450 @@
+{ 
+  "fields": {
+  "landscapeInfoText": {
+    "value": "This looks better in landscape mode"
+  },
+  "combinedCategoryName": {
+    "value": "All"
+  },
+  "gtmCombinedCategoryName": {
+    "value": "all"
+  },
+  "anchorId": {
+    "value": "gallery-id"
+  },
+  "gtmCategory": {
+    "url": "/sitecore/System/Foundation/common/GTM-Categories/Others",
+    "fields": {
+      "value": {
+        "value": "others"
+      }
+    }
+  },
+  "gtmTitle": {
+    "value": "gallery-gtm-title"
+  },
+  "ctaLink1": {
+    "value": {
+      "href": "http://",
+      "text": "Learn More",
+      "linktype": "external",
+      "url": "",
+      "anchor": "",
+      "title": "learn more about the models",
+      "target": ""
+    }
+  },
+  "ctaLink2": {
+    "value": {
+      "href": "http://",
+      "text": "View All Images",
+      "linktype": "external",
+      "url": "",
+      "anchor": "",
+      "title": "view gallery images",
+      "target": ""
+    }
+  },
+  "items": [
+    {
+      "name": "Category",
+      "displayName": "Category",
+      "fields": {
+        "categoryName": {
+          "value": "Exterior"
+        },
+        "gtmCategoryName": {
+          "value": "exterior"
+        },
+        "anchorId": {
+          "value": ""
+        },
+        "gtmCategory": null,
+        "gtmTitle": {
+          "value": ""
+        },
+        "items": [
+          {
+            "name": "GalleryItem",
+            "displayName": "GalleryItem",
+            "fields": {
+              "image": {
+                "value": {
+                  "src": "http://via.placeholder.com/1248x702/8F8F8F?text=Placeholder_Image_1248x702_1",
+                  "alt": "",
+                  "width": "2400",
+                  "height": "1589"
+                }
+              },
+              "ctaSectionLabel": {
+                "value": ""
+              },
+              "anchorId": {
+                "value": ""
+              },
+              "gtmCategory": null,
+              "gtmTitle": {
+                "value": ""
+              },
+              "title": {
+                "value": "Image 1"
+              },
+              "bodyText": {
+                "value": "Image 1"
+              },
+              "ctaImage1": {
+                "value": {}
+              },
+              "ctaType1": {
+                "value": ""
+              },
+              "ctaIcon1": null,
+              "ctaLink1": {
+                "value": {
+                  "href": ""
+                }
+              },
+              "ctaImage2": {
+                "value": {}
+              },
+              "ctaIcon2": null,
+              "ctaType2": {
+                "value": ""
+              },
+              "ctaLink2": {
+                "value": {
+                  "href": ""
+                }
+              }
+            }
+          },
+          {
+            "name": "GalleryItem2",
+            "displayName": "GalleryItem2",
+            "fields": {
+              "image": {
+                "value": {
+                  "src": "http://via.placeholder.com/1248x702/808080?text=Placeholder_Image_1248x702_2",
+                  "alt": "",
+                  "width": "2400",
+                  "height": "1603"
+                }
+              },
+              "ctaSectionLabel": {
+                "value": ""
+              },
+              "anchorId": {
+                "value": ""
+              },
+              "gtmCategory": null,
+              "gtmTitle": {
+                "value": ""
+              },
+              "title": {
+                "value": "Content title goes here"
+              },
+              "bodyText": {
+                "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+              },
+              "ctaImage1": {
+                "value": {}
+              },
+              "ctaType1": {
+                "value": ""
+              },
+              "ctaIcon1": null,
+              "ctaLink1": {
+                "value": {
+                  "href": ""
+                }
+              },
+              "ctaImage2": {
+                "value": {}
+              },
+              "ctaIcon2": null,
+              "ctaType2": {
+                "value": ""
+              },
+              "ctaLink2": {
+                "value": {
+                  "href": ""
+                }
+              }
+            }
+          },
+          {
+            "name": "GalleryItem3",
+            "displayName": "GalleryItem3",
+            "fields": {
+              "image": {
+                "value": {
+                  "src": "http://via.placeholder.com/1248x702/8F8F8F?text=Placeholder_Image_1248x702_3",
+                  "alt": "",
+                  "width": "2400",
+                  "height": "1603"
+                }
+              },
+              "ctaSectionLabel": {
+                "value": ""
+              },
+              "anchorId": {
+                "value": ""
+              },
+              "gtmCategory": null,
+              "gtmTitle": {
+                "value": ""
+              },
+              "title": {
+                "value": "Content title goes here"
+              },
+              "bodyText": {
+                "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+              },
+              "ctaImage1": {
+                "value": {}
+              },
+              "ctaType1": {
+                "value": ""
+              },
+              "ctaIcon1": null,
+              "ctaLink1": {
+                "value": {
+                  "href": ""
+                }
+              },
+              "ctaImage2": {
+                "value": {}
+              },
+              "ctaIcon2": null,
+              "ctaType2": {
+                "value": ""
+              },
+              "ctaLink2": {
+                "value": {
+                  "href": ""
+                }
+              }
+            }
+          },
+          {
+            "name": "GalleryItem4",
+            "displayName": "GalleryItem4",
+            "fields": {
+              "image": {
+                "value": {
+                  "src": "http://via.placeholder.com/1248x702/808080?text=Placeholder_Image_1248x702_4",
+                  "alt": "",
+                  "width": "612",
+                  "height": "344"
+                }
+              },
+              "ctaSectionLabel": {
+                "value": ""
+              },
+              "anchorId": {
+                "value": ""
+              },
+              "gtmCategory": null,
+              "gtmTitle": {
+                "value": ""
+              },
+              "title": {
+                "value": "Title"
+              },
+              "bodyText": {
+                "value": "bodytext"
+              },
+              "ctaImage1": {
+                "value": {}
+              },
+              "ctaType1": {
+                "value": ""
+              },
+              "ctaIcon1": null,
+              "ctaLink1": {
+                "value": {
+                  "href": ""
+                }
+              },
+              "ctaImage2": {
+                "value": {}
+              },
+              "ctaIcon2": null,
+              "ctaType2": {
+                "value": ""
+              },
+              "ctaLink2": {
+                "value": {
+                  "href": ""
+                }
+              }
+            }
+          },
+          {
+            "name": "GalleryItem5",
+            "displayName": "GalleryItem5",
+            "fields": {
+              "image": {
+                "value": {
+                  "src": "http://via.placeholder.com/1248x702/8F8F8F?text=Placeholder_Image_1248x702_5",
+                  "alt": "",
+                  "width": "612",
+                  "height": "344"
+                }
+              },
+              "ctaSectionLabel": {
+                "value": ""
+              },
+              "anchorId": {
+                "value": ""
+              },
+              "gtmCategory": null,
+              "gtmTitle": {
+                "value": ""
+              },
+              "title": {
+                "value": "Title"
+              },
+              "bodyText": {
+                "value": "bodytext"
+              },
+              "ctaImage1": {
+                "value": {}
+              },
+              "ctaType1": {
+                "value": ""
+              },
+              "ctaIcon1": null,
+              "ctaLink1": {
+                "value": {
+                  "href": ""
+                }
+              },
+              "ctaImage2": {
+                "value": {}
+              },
+              "ctaIcon2": null,
+              "ctaType2": {
+                "value": ""
+              },
+              "ctaLink2": {
+                "value": {
+                  "href": ""
+                }
+              }
+            }
+          },
+          {
+            "name": "GalleryItem6",
+            "displayName": "GalleryItem6",
+            "fields": {
+              "image": {
+                "value": {
+                  "src": "http://via.placeholder.com/1248x702/808080?text=Placeholder_Image_1248x702_6",
+                  "alt": "",
+                  "width": "2400",
+                  "height": "1310"
+                }
+              },
+              "ctaSectionLabel": {
+                "value": ""
+              },
+              "anchorId": {
+                "value": ""
+              },
+              "gtmCategory": null,
+              "gtmTitle": {
+                "value": ""
+              },
+              "title": {
+                "value": "Content title"
+              },
+              "bodyText": {
+                "value": "body text"
+              },
+              "ctaImage1": {
+                "value": {}
+              },
+              "ctaType1": {
+                "value": ""
+              },
+              "ctaIcon1": null,
+              "ctaLink1": {
+                "value": {
+                  "href": ""
+                }
+              },
+              "ctaImage2": {
+                "value": {}
+              },
+              "ctaIcon2": null,
+              "ctaType2": {
+                "value": ""
+              },
+              "ctaLink2": {
+                "value": {
+                  "href": ""
+                }
+              }
+            }
+          },
+          {
+            "name": "GalleryItem7",
+            "displayName": "GalleryItem7",
+            "fields": {
+              "image": {
+                "value": {
+                  "src": "http://via.placeholder.com/1248x702/8F8F8F?text=Placeholder_Image_1248x702_7",
+                  "alt": "",
+                  "width": "2400",
+                  "height": "1310"
+                }
+              },
+              "ctaSectionLabel": {
+                "value": ""
+              },
+              "anchorId": {
+                "value": ""
+              },
+              "gtmCategory": null,
+              "gtmTitle": {
+                "value": ""
+              },
+              "title": {
+                "value": "Content title"
+              },
+              "bodyText": {
+                "value": "body text"
+              },
+              "ctaImage1": {
+                "value": {}
+              },
+              "ctaType1": {
+                "value": ""
+              },
+              "ctaIcon1": null,
+              "ctaLink1": {
+                "value": {
+                  "href": ""
+                }
+              },
+              "ctaImage2": {
+                "value": {}
+              },
+              "ctaIcon2": null,
+              "ctaType2": {
+                "value": ""
+              },
+              "ctaLink2": {
+                "value": {
+                  "href": ""
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+  }
+}

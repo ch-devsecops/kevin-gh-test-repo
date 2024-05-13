@@ -1,0 +1,255 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ModelFeatures> should have no accessibility violations 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 sc-1k44dfv-0 hAMmMY"
+    data-gtm-category="Others"
+    data-gtm-component-type="ModelFeatures"
+    data-gtm-title=""
+  >
+    <h3
+      class="sc-1k44dfv-0 ksmbdj"
+    >
+      <span>
+        Model Features
+      </span>
+    </h3>
+    <div
+      class="sc-1k44dfv-0 eYqPQn"
+      mb="l"
+    >
+      
+
+      <p>
+        description for model 
+        <em>
+          features
+        </em>
+         
+        <strong>
+          description
+        </strong>
+         with Markdown
+      </p>
+    </div>
+    <button
+      class="Button-pulw6t-0 jjIzEN"
+      data-testid="dsr-button-component"
+    >
+      PAGES.MODELS.EXPLORATION.TRIMPACKAGESCOMPARETRIMSLABEL
+    </button>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 euvztH"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 grTzZX"
+        tabindex="0"
+      >
+        <label
+          class="Label-sc-115wxjh-0 sc-1k44dfv-0 clQPSl"
+        >
+          standard Features #1
+        </label>
+        <label
+          class="sc-bdVaJa jIXUKR"
+        />
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 grTzZX"
+        tabindex="0"
+      >
+        <label
+          class="Label-sc-115wxjh-0 sc-1k44dfv-0 clQPSl"
+        >
+          standard asd Features #2
+        </label>
+        <label
+          class="sc-bdVaJa jIXUKR"
+        />
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 grTzZX"
+        tabindex="0"
+      >
+        <label
+          class="Label-sc-115wxjh-0 sc-1k44dfv-0 clQPSl"
+        >
+          standard zxcqwe Features #3
+        </label>
+        <label
+          class="sc-bdVaJa jIXUKR"
+        />
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 grTzZX"
+        tabindex="0"
+      >
+        <label
+          class="Label-sc-115wxjh-0 sc-1k44dfv-0 clQPSl"
+        >
+          standard asdzxcvbn Features #4
+        </label>
+        <label
+          class="sc-bdVaJa jIXUKR"
+        />
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 grTzZX"
+        tabindex="0"
+      >
+        <label
+          class="Label-sc-115wxjh-0 sc-1k44dfv-0 clQPSl"
+        >
+          standard ewq321 asd fds 234 Features #5
+        </label>
+        <label
+          class="sc-bdVaJa jIXUKR"
+        />
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 grTzZX"
+        tabindex="0"
+      >
+        <label
+          class="Label-sc-115wxjh-0 sc-1k44dfv-0 clQPSl"
+        >
+          standard Features #6
+        </label>
+        <label
+          class="sc-bdVaJa jIXUKR"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ModelFeatures> should render correctly for empty fields 1`] = `<div />`;
+
+exports[`<ModelFeatures> should render correctly with all props 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 sc-1k44dfv-0 hAMmMY"
+    data-gtm-category="Others"
+    data-gtm-component-type="ModelFeatures"
+    data-gtm-title=""
+  >
+    <h3
+      class="sc-1k44dfv-0 ksmbdj"
+    >
+      <span>
+        Model Features
+      </span>
+    </h3>
+    <div
+      class="sc-1k44dfv-0 eYqPQn"
+      mb="l"
+    >
+      
+
+      <p>
+        description for model 
+        <em>
+          features
+        </em>
+         
+        <strong>
+          description
+        </strong>
+         with Markdown
+      </p>
+    </div>
+    <button
+      class="Button-pulw6t-0 jjIzEN"
+      data-testid="dsr-button-component"
+    >
+      PAGES.MODELS.EXPLORATION.TRIMPACKAGESCOMPARETRIMSLABEL
+    </button>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 euvztH"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 grTzZX"
+        tabindex="0"
+      >
+        <label
+          class="Label-sc-115wxjh-0 sc-1k44dfv-0 clQPSl"
+        >
+          standard Features #1
+        </label>
+        <label
+          class="sc-bdVaJa jIXUKR"
+        />
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 grTzZX"
+        tabindex="0"
+      >
+        <label
+          class="Label-sc-115wxjh-0 sc-1k44dfv-0 clQPSl"
+        >
+          standard asd Features #2
+        </label>
+        <label
+          class="sc-bdVaJa jIXUKR"
+        />
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 grTzZX"
+        tabindex="0"
+      >
+        <label
+          class="Label-sc-115wxjh-0 sc-1k44dfv-0 clQPSl"
+        >
+          standard zxcqwe Features #3
+        </label>
+        <label
+          class="sc-bdVaJa jIXUKR"
+        />
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 grTzZX"
+        tabindex="0"
+      >
+        <label
+          class="Label-sc-115wxjh-0 sc-1k44dfv-0 clQPSl"
+        >
+          standard asdzxcvbn Features #4
+        </label>
+        <label
+          class="sc-bdVaJa jIXUKR"
+        />
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 grTzZX"
+        tabindex="0"
+      >
+        <label
+          class="Label-sc-115wxjh-0 sc-1k44dfv-0 clQPSl"
+        >
+          standard ewq321 asd fds 234 Features #5
+        </label>
+        <label
+          class="sc-bdVaJa jIXUKR"
+        />
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 grTzZX"
+        tabindex="0"
+      >
+        <label
+          class="Label-sc-115wxjh-0 sc-1k44dfv-0 clQPSl"
+        >
+          standard Features #6
+        </label>
+        <label
+          class="sc-bdVaJa jIXUKR"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ModelFeatures> should return null if there is no fields 1`] = `<div />`;

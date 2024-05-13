@@ -1,0 +1,1474 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModelListFilters snapshots renders provided filter categories based on route data 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 iPRsIc"
+    data-gtm-category="others"
+  >
+    <div
+      class="fresnel-container fresnel-lessThan-desktop "
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 jdhbvs"
+      >
+        <button
+          class="sc-htoDjs eVyGPX"
+          data-testid="cy-mobile-filter-button"
+        >
+          <h6
+            class="sc-1k44dfv-0 eeeuqx"
+          >
+            Pages.Models.Exploration.filterOpenLabel
+          </h6>
+          <div
+            class="IconWrapper-lp9q2r-0 bbbwgU"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="fresnel-container fresnel-greaterThan-smallDesktop "
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 gZdlHN"
+      >
+        <h6
+          class="sc-1k44dfv-0 eeeuqx"
+        >
+          Filters
+        </h6>
+        <button
+          class="IconWrapper-lp9q2r-0 sc-gzVnrw ctqbUJ"
+          data-testid="reset-disabled"
+        >
+          <span
+            class="sc-1k44dfv-0 sc-1k44dfv-0 gAsWQT"
+            color="typographyDefault"
+            font-family="default"
+            font-weight="regular"
+          >
+            Reset Filters
+          </span>
+        </button>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 evNJbO"
+      />
+      <div
+        class="Box-sc-1bsf784-0 iPRsIc sc-htpNat jvxazc"
+        data-testid="price-filter-container"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-bdVaJa hUnRwM"
+          cursor="pointer"
+          data-testid="category-heading"
+          display="flex"
+          height="45px"
+        >
+          <span
+            aria-label="Pages.Models.Exploration.filterPriceLabel"
+            class="sc-1k44dfv-0 dFzsvT"
+            color="typographyDefault"
+            font-family="bold"
+            font-weight="regular"
+          >
+            Pages.Models.Exploration.filterPriceLabel
+          </span>
+          <button
+            aria-label="Shared.Common.expandAria"
+            class="IconWrapper-lp9q2r-0 sc-bwzfXH jmXSNz"
+            data-testid="expand-collapse-btn"
+          />
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 jqmCri"
+        >
+          <div
+            class="Box-sc-1bsf784-0 gPowjU"
+          >
+            <form
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              data-testid="price-filter-form"
+            >
+              <p
+                class="sc-1k44dfv-0 sc-1k44dfv-0 hEeYcp"
+                color="typographyDefault"
+                data-testid="price-filter-label"
+                font-family="default"
+                font-weight="regular"
+              >
+                Pages.Models.Exploration.filterPriceRangeLabel
+              </p>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 gpnUYG"
+              >
+                <p
+                  class="sc-1k44dfv-0 sc-1k44dfv-0 bwpZpd"
+                  color="typographyDefault"
+                  data-testid="price-filter-min-label"
+                  font-family="default"
+                  font-weight="regular"
+                >
+                  Pages.Models.Exploration.filterMinLabel
+                  :
+                </p>
+                <div
+                  class="sc-1k44dfv-0 ctqAAr StyledInputWithAdornment-sc-1xnpklm-0 daKaRN styledFormField-sc-1ijs2ju-0 ekjmsE"
+                  data-testid="dsr-formfield"
+                >
+                  <input
+                    aria-label="Pages.Models.Exploration.filterMinLabel"
+                    class="sc-1k44dfv-0 HtmlInput-eel7x9-0 iOGXks"
+                    data-testid="min-price-filter"
+                    name="min"
+                    placeholder="$"
+                    type="text"
+                    value=""
+                  />
+                  <div
+                    class="IconWrapper-lp9q2r-0 sc-1k44dfv-0 kZuzaf"
+                    tabindex="-1"
+                  />
+                </div>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 gpnUYG"
+              >
+                <p
+                  class="sc-1k44dfv-0 sc-1k44dfv-0 bwpZpd"
+                  color="typographyDefault"
+                  data-testid="price-filter-max-label"
+                  font-family="default"
+                  font-weight="regular"
+                >
+                  Pages.Models.Exploration.filterMaxLabel
+                  :
+                </p>
+                <div
+                  class="sc-1k44dfv-0 ctqAAr StyledInputWithAdornment-sc-1xnpklm-0 daKaRN styledFormField-sc-1ijs2ju-0 ekjmsE"
+                  data-testid="dsr-formfield"
+                >
+                  <input
+                    aria-label="Pages.Models.Exploration.filterMaxLabel"
+                    class="sc-1k44dfv-0 HtmlInput-eel7x9-0 iOGXks"
+                    data-testid="max-price-filter"
+                    name="max"
+                    placeholder="$"
+                    type="text"
+                    value=""
+                  />
+                  <div
+                    class="IconWrapper-lp9q2r-0 sc-1k44dfv-0 kZuzaf"
+                    tabindex="-1"
+                  />
+                </div>
+              </div>
+              <button
+                class="Button-pulw6t-0 sc-1k44dfv-0 jPlYLq"
+                data-testid="dsr-button-component"
+                disabled=""
+              >
+                Pages.Models.Exploration.filterPriceButton
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 pRgLj"
+      >
+        <div
+          class="Box-sc-1bsf784-0 iPRsIc"
+          data-testid="model-list-filter-categories-models"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-bdVaJa hUnRwM"
+            cursor="pointer"
+            data-testid="category-heading"
+            display="flex"
+            height="45px"
+          >
+            <span
+              aria-label="Pages.Models.Exploration.filterModelsLabel"
+              class="sc-1k44dfv-0 dFzsvT"
+              color="typographyDefault"
+              font-family="bold"
+              font-weight="regular"
+            >
+              Pages.Models.Exploration.filterModelsLabel
+            </span>
+            <button
+              aria-label="Shared.Common.expandAria"
+              class="IconWrapper-lp9q2r-0 sc-bwzfXH jmXSNz"
+              data-testid="expand-collapse-btn"
+            />
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 jqmCri"
+          >
+            <div
+              class="Box-sc-1bsf784-0 gPowjU"
+            />
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 iPRsIc"
+          data-testid="bodyType"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-bdVaJa hUnRwM"
+            cursor="pointer"
+            data-testid="category-heading"
+            display="flex"
+            height="45px"
+          >
+            <span
+              aria-label="Body Type"
+              class="sc-1k44dfv-0 dFzsvT"
+              color="typographyDefault"
+              font-family="bold"
+              font-weight="regular"
+            >
+              Body Type
+            </span>
+            <button
+              aria-label="Shared.Common.expandAria"
+              class="IconWrapper-lp9q2r-0 sc-bwzfXH jmXSNz"
+              data-testid="expand-collapse-btn"
+            />
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 jqmCri"
+          >
+            <div
+              class="Box-sc-1bsf784-0 gPowjU"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria Sedan"
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      Sedan
+                    </span>
+                  </p>
+                </button>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria SUV"
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      SUV
+                    </span>
+                  </p>
+                </button>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria Liftback"
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      Liftback
+                    </span>
+                  </p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 iPRsIc"
+          data-testid="comfortConvenience"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-bdVaJa hUnRwM"
+            cursor="pointer"
+            data-testid="category-heading"
+            display="flex"
+            height="45px"
+          >
+            <span
+              aria-label="Comfort Convenience"
+              class="sc-1k44dfv-0 dFzsvT"
+              color="typographyDefault"
+              font-family="bold"
+              font-weight="regular"
+            >
+              Comfort Convenience
+            </span>
+            <button
+              aria-label="Shared.Common.expandAria"
+              class="IconWrapper-lp9q2r-0 sc-bwzfXH jmXSNz"
+              data-testid="expand-collapse-btn"
+            />
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 jqmCri"
+          >
+            <div
+              class="Box-sc-1bsf784-0 gPowjU"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria AcuraLink App"
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      AcuraLink App
+                    </span>
+                  </p>
+                </button>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria Heated Front Seats"
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      Heated Front Seats
+                    </span>
+                  </p>
+                </button>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria Surround View Camera"
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      Surround View Camera
+                    </span>
+                  </p>
+                </button>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria Heated Rear Seats"
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      Heated Rear Seats
+                    </span>
+                  </p>
+                </button>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria Heated Steering Wheel"
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      Heated Steering Wheel
+                    </span>
+                  </p>
+                </button>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria Navigation System"
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      Navigation System
+                    </span>
+                  </p>
+                </button>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria Power Tailgate"
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      Power Tailgate
+                    </span>
+                  </p>
+                </button>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria Remote Engine Starter "
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      Remote Engine Starter 
+                    </span>
+                  </p>
+                </button>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria Third-Row Seating"
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      Third-Row Seating
+                    </span>
+                  </p>
+                </button>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria Underfloor Cargo Storage"
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      Underfloor Cargo Storage
+                    </span>
+                  </p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 iPRsIc"
+          data-testid="designFeatures"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-bdVaJa hUnRwM"
+            cursor="pointer"
+            data-testid="category-heading"
+            display="flex"
+            height="45px"
+          >
+            <span
+              aria-label="Design Features"
+              class="sc-1k44dfv-0 dFzsvT"
+              color="typographyDefault"
+              font-family="bold"
+              font-weight="regular"
+            >
+              Design Features
+            </span>
+            <button
+              aria-label="Shared.Common.expandAria"
+              class="IconWrapper-lp9q2r-0 sc-bwzfXH jmXSNz"
+              data-testid="expand-collapse-btn"
+            />
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 jqmCri"
+          >
+            <div
+              class="Box-sc-1bsf784-0 gPowjU"
+            >
+              <div
+                class="sc-bZQynM gENSnI"
+              >
+                <p
+                  class="sc-1k44dfv-0 sc-1k44dfv-0 grEMNt"
+                  color="typographyDefault"
+                  font-family="default"
+                  font-weight="regular"
+                >
+                  Pages.Models.Exploration.exteriorColoursLabel
+                </p>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 cerCTS"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 jDbOiX"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 xfkqV"
+                      data-testid="cy-color-preview-label"
+                    >
+                      Pages.Models.Exploration.colorPreviewLabel
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 ilsiTr"
+                />
+                <p
+                  class="sc-1k44dfv-0 cZoFxy"
+                  color="typographyDefault"
+                  font-family="bold"
+                  font-weight="regular"
+                >
+                  Pages.Models.Exploration.interiorMaterialLabel
+                </p>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+                >
+                  <button
+                    aria-label="Shared.Common.selectAria Leather"
+                    class="sc-bxivhb ijfbha"
+                    data-testid="category-filters"
+                    disabled=""
+                  >
+                    <p
+                      class="sc-1k44dfv-0 tzxVY"
+                      color="typographyDefault"
+                      font-family="bold"
+                      font-weight="regular"
+                    >
+                      <span>
+                        Leather
+                      </span>
+                    </p>
+                  </button>
+                </div>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+                >
+                  <button
+                    aria-label="Shared.Common.selectAria Leather with Ultrasuede™"
+                    class="sc-bxivhb ijfbha"
+                    data-testid="category-filters"
+                    disabled=""
+                  >
+                    <p
+                      class="sc-1k44dfv-0 tzxVY"
+                      color="typographyDefault"
+                      font-family="bold"
+                      font-weight="regular"
+                    >
+                      <span>
+                        Leather with Ultrasuede™
+                      </span>
+                    </p>
+                  </button>
+                </div>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+                >
+                  <button
+                    aria-label="Shared.Common.selectAria Leatherette"
+                    class="sc-bxivhb ijfbha"
+                    data-testid="category-filters"
+                    disabled=""
+                  >
+                    <p
+                      class="sc-1k44dfv-0 tzxVY"
+                      color="typographyDefault"
+                      font-family="bold"
+                      font-weight="regular"
+                    >
+                      <span>
+                        Leatherette
+                      </span>
+                    </p>
+                  </button>
+                </div>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+                >
+                  <button
+                    aria-label="Shared.Common.selectAria Perforated Leather"
+                    class="sc-bxivhb ijfbha"
+                    data-testid="category-filters"
+                    disabled=""
+                  >
+                    <p
+                      class="sc-1k44dfv-0 tzxVY"
+                      color="typographyDefault"
+                      font-family="bold"
+                      font-weight="regular"
+                    >
+                      <span>
+                        Perforated Leather
+                      </span>
+                    </p>
+                  </button>
+                </div>
+                <p
+                  class="sc-1k44dfv-0 cZoFxy"
+                  color="typographyDefault"
+                  font-family="bold"
+                  font-weight="regular"
+                >
+                  Pages.Models.Exploration.filterOtherOptionsLabel
+                </p>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria Ambient Cabin Lighting"
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      Ambient Cabin Lighting
+                    </span>
+                  </p>
+                </button>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria A-SPEC styling"
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      A-SPEC styling
+                    </span>
+                  </p>
+                </button>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria Dual Exhaust"
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      Dual Exhaust
+                    </span>
+                  </p>
+                </button>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria Moonroof"
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      Moonroof
+                    </span>
+                  </p>
+                </button>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria Panoramic Moonroof"
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      Panoramic Moonroof
+                    </span>
+                  </p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 iPRsIc"
+          data-testid="entertainment"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-bdVaJa hUnRwM"
+            cursor="pointer"
+            data-testid="category-heading"
+            display="flex"
+            height="45px"
+          >
+            <span
+              aria-label="Entertainment"
+              class="sc-1k44dfv-0 dFzsvT"
+              color="typographyDefault"
+              font-family="bold"
+              font-weight="regular"
+            >
+              Entertainment
+            </span>
+            <button
+              aria-label="Shared.Common.expandAria"
+              class="IconWrapper-lp9q2r-0 sc-bwzfXH jmXSNz"
+              data-testid="expand-collapse-btn"
+            />
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 jqmCri"
+          >
+            <div
+              class="Box-sc-1bsf784-0 gPowjU"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria Alexa Built-in"
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      Alexa Built-in
+                    </span>
+                  </p>
+                </button>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria Android Auto™"
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      Android Auto™
+                    </span>
+                  </p>
+                </button>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria Apple CarPlay®"
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      Apple CarPlay®
+                    </span>
+                  </p>
+                </button>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria Bluetooth"
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      Bluetooth
+                    </span>
+                  </p>
+                </button>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria ELS Studio® Premium Audio System  "
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      ELS Studio® Premium Audio System  
+                    </span>
+                  </p>
+                </button>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria Wi-Fi Hotspot"
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      Wi-Fi Hotspot
+                    </span>
+                  </p>
+                </button>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria Wireless Android Auto™"
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      Wireless Android Auto™
+                    </span>
+                  </p>
+                </button>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria Wireless Apple CarPlay® "
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      Wireless Apple CarPlay® 
+                    </span>
+                  </p>
+                </button>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria Wireless Charging Pad"
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      Wireless Charging Pad
+                    </span>
+                  </p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 iPRsIc"
+          data-testid="drivetrain"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-bdVaJa hUnRwM"
+            cursor="pointer"
+            data-testid="category-heading"
+            display="flex"
+            height="45px"
+          >
+            <span
+              aria-label="Pages.Models.Exploration.filterPerformanceLabel"
+              class="sc-1k44dfv-0 dFzsvT"
+              color="typographyDefault"
+              font-family="bold"
+              font-weight="regular"
+            >
+              Pages.Models.Exploration.filterPerformanceLabel
+            </span>
+            <button
+              aria-label="Shared.Common.expandAria"
+              class="IconWrapper-lp9q2r-0 sc-bwzfXH jmXSNz"
+              data-testid="expand-collapse-btn"
+            />
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 jqmCri"
+          >
+            <div
+              class="Box-sc-1bsf784-0 gPowjU"
+            >
+              <div
+                class="sc-bZQynM gENSnI"
+              >
+                <p
+                  class="sc-1k44dfv-0 sc-1k44dfv-0 grEMNt"
+                  color="typographyDefault"
+                  font-family="default"
+                  font-weight="regular"
+                >
+                  Pages.Models.Exploration.transmissionLabel
+                </p>
+                <p
+                  class="sc-1k44dfv-0 cZoFxy"
+                  color="typographyDefault"
+                  font-family="bold"
+                  font-weight="regular"
+                >
+                  Drivetrain
+                </p>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria Front Wheel Drive"
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      Front Wheel Drive
+                    </span>
+                  </p>
+                </button>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria Super Handling All-Wheel Drive™ "
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      Super Handling All-Wheel Drive™ 
+                    </span>
+                  </p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 iPRsIc"
+          data-testid="safety"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-bdVaJa hUnRwM"
+            cursor="pointer"
+            data-testid="category-heading"
+            display="flex"
+            height="45px"
+          >
+            <span
+              aria-label="Safety"
+              class="sc-1k44dfv-0 dFzsvT"
+              color="typographyDefault"
+              font-family="bold"
+              font-weight="regular"
+            >
+              Safety
+            </span>
+            <button
+              aria-label="Shared.Common.expandAria"
+              class="IconWrapper-lp9q2r-0 sc-bwzfXH jmXSNz"
+              data-testid="expand-collapse-btn"
+            />
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 jqmCri"
+          >
+            <div
+              class="Box-sc-1bsf784-0 gPowjU"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria Blind Spot Information"
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      Blind Spot Information
+                    </span>
+                  </p>
+                </button>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria Low Speed Braking"
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      Low Speed Braking
+                    </span>
+                  </p>
+                </button>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria Parking Sensors"
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      Parking Sensors
+                    </span>
+                  </p>
+                </button>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria Rear Cross Traffic Monitor"
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      Rear Cross Traffic Monitor
+                    </span>
+                  </p>
+                </button>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria Rear Seatbelt Reminder"
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      Rear Seatbelt Reminder
+                    </span>
+                  </p>
+                </button>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria Rearview Camera"
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      Rearview Camera
+                    </span>
+                  </p>
+                </button>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria Standard AcuraWatch"
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      Standard AcuraWatch
+                    </span>
+                  </p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 iPRsIc"
+          data-testid="wheels"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-bdVaJa hUnRwM"
+            cursor="pointer"
+            data-testid="category-heading"
+            display="flex"
+            height="45px"
+          >
+            <span
+              aria-label="Wheels"
+              class="sc-1k44dfv-0 dFzsvT"
+              color="typographyDefault"
+              font-family="bold"
+              font-weight="regular"
+            >
+              Wheels
+            </span>
+            <button
+              aria-label="Shared.Common.expandAria"
+              class="IconWrapper-lp9q2r-0 sc-bwzfXH jmXSNz"
+              data-testid="expand-collapse-btn"
+            />
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 jqmCri"
+          >
+            <div
+              class="Box-sc-1bsf784-0 gPowjU"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria 17\\""
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      17"
+                    </span>
+                  </p>
+                </button>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria 18\\""
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      18"
+                    </span>
+                  </p>
+                </button>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria 19\\""
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      19"
+                    </span>
+                  </p>
+                </button>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria 20\\""
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      20"
+                    </span>
+                  </p>
+                </button>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ermDuz"
+              >
+                <button
+                  aria-label="Shared.Common.selectAria 21\\" Plus"
+                  class="sc-bxivhb ijfbha"
+                  data-testid="category-filters"
+                  disabled=""
+                >
+                  <p
+                    class="sc-1k44dfv-0 tzxVY"
+                    color="typographyDefault"
+                    font-family="bold"
+                    font-weight="regular"
+                  >
+                    <span>
+                      21" Plus
+                    </span>
+                  </p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

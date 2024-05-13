@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InfoCard> should have no accessibility violations 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 dLNGOD"
+    height="100%"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 hiduYi"
+      color="black"
+      data-gtm-category="Others"
+    >
+      <div
+        class="Box-sc-1bsf784-0 iPRsIc"
+      >
+        <img
+          alt="Image"
+          class="sc-1k44dfv-0 jLTFZk"
+          draggable="true"
+          loading="lazy"
+          src="./sample-mock-data/media/img/placeholders/placeholder-landscape.png"
+        />
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 kJntAi"
+        color="black"
+      >
+        <div
+          class="sc-1k44dfv-0 jcrtwT sc-1k44dfv-0 jkQLKZ"
+          color="inherit"
+        >
+          
+
+          <h6
+            class="sc-1k44dfv-0 eeeuqx"
+          >
+            01 - Automatic mechanical de-compression system (Main title)
+          </h6>
+        </div>
+        <div
+          class="sc-1k44dfv-0 jcrtwT sc-1k44dfv-0 bSotsc"
+          color="inherit"
+        >
+          
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean finibus enim eu enim cursus, sollicitudin sollicitudin nibh euismod. Praesent lobortis ipsum ligula. Donec diam lectus, consectetur ac lectus eu, cursus consequat lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 jKsJVt"
+        >
+          <button
+            class="Link-sc-16wd4a0-0 dIBUJD"
+            color="black !important"
+          >
+            Shared.Common.learnMoreLabel
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<InfoCard> should render correctly 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 dLNGOD"
+    height="100%"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 hiduYi"
+      color="black"
+      data-gtm-category="Others"
+    >
+      <div
+        class="Box-sc-1bsf784-0 iPRsIc"
+      >
+        <img
+          alt="Image"
+          class="sc-1k44dfv-0 jLTFZk"
+          draggable="true"
+          loading="lazy"
+          src="./sample-mock-data/media/img/placeholders/placeholder-landscape.png"
+        />
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 kJntAi"
+        color="black"
+      >
+        <div
+          class="sc-1k44dfv-0 jcrtwT sc-1k44dfv-0 jkQLKZ"
+          color="inherit"
+        >
+          
+
+          <h6
+            class="sc-1k44dfv-0 eeeuqx"
+          >
+            01 - Automatic mechanical de-compression system (Main title)
+          </h6>
+        </div>
+        <div
+          class="sc-1k44dfv-0 jcrtwT sc-1k44dfv-0 bSotsc"
+          color="inherit"
+        >
+          
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean finibus enim eu enim cursus, sollicitudin sollicitudin nibh euismod. Praesent lobortis ipsum ligula. Donec diam lectus, consectetur ac lectus eu, cursus consequat lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 jKsJVt"
+        >
+          <button
+            class="Link-sc-16wd4a0-0 dIBUJD"
+            color="black !important"
+          >
+            Shared.Common.learnMoreLabel
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<InfoCard> should return null if there is no fields 1`] = `<div />`;

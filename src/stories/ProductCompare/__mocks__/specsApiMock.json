@@ -1,0 +1,8365 @@
+[
+  {
+    "trimId": 12112,
+    "displayOrder": 1,
+    "label": "SPECIFICATIONS",
+    "name": "specifications",
+    "specs": [
+      {
+        "displayOrder": 1,
+        "label": "Engine Type",
+        "name": "engine_type",
+        "tip": "",
+        "value": "Air-cooled 4-stroke OHC"
+      },
+      {
+        "displayOrder": 2,
+        "label": "Bore x Stroke",
+        "name": "bore_x_stroke",
+        "tip": "",
+        "value": "35 mm x 26 mm"
+      },
+      {
+        "displayOrder": 3,
+        "label": "Displacement",
+        "name": "displacement",
+        "tip": "",
+        "value": "25 cm<sup>3</sup>"
+      },
+      {
+        "displayOrder": 4,
+        "label": "Net Power Output*",
+        "name": "net_power_output_",
+        "tip": "",
+        "value": "1.0 HP (.72 kW) @ 7,000 rpm"
+      },
+      {
+        "displayOrder": 5,
+        "label": "Net Torque",
+        "name": "net_torque",
+        "tip": "",
+        "value": "0.74 lb-ft (1.0 Nm) @ 5,000 rpm"
+      },
+      {
+        "displayOrder": 6,
+        "label": "PTO Shaft Rotation",
+        "name": "pto_shaft_rotation",
+        "tip": "",
+        "value": "Counterclockwise (from PTO shaft side)"
+      },
+      {
+        "displayOrder": 7,
+        "label": "Compression Ratio",
+        "name": "compression_ratio",
+        "tip": "",
+        "value": "8.0:1"
+      },
+      {
+        "displayOrder": 8,
+        "label": "Fuel Tank Capacity",
+        "name": "fuel_tank_capacity",
+        "tip": "",
+        "value": "0.58 litres (0.61 U.S. qts)"
+      },
+      {
+        "displayOrder": 9,
+        "label": "Lamp/Charge coil options",
+        "name": "lamp_charge_coil_options",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 10,
+        "label": "Carburetor",
+        "name": "carburetor",
+        "tip": "",
+        "value": "Diaphragm-type (overflow return)"
+      },
+      {
+        "displayOrder": 11,
+        "label": "Ignition System",
+        "name": "ignition_system",
+        "tip": "",
+        "value": "Transistorized magneto"
+      },
+      {
+        "displayOrder": 12,
+        "label": "Starting System",
+        "name": "starting_system",
+        "tip": "",
+        "value": "Recoil"
+      },
+      {
+        "displayOrder": 13,
+        "label": "Lubrication System",
+        "name": "lubrication_system",
+        "tip": "",
+        "value": "Crankcase pressure driven"
+      },
+      {
+        "displayOrder": 14,
+        "label": "Governor System",
+        "name": "governor_system",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 15,
+        "label": "Air Cleaner",
+        "name": "air_cleaner",
+        "tip": "",
+        "value": "Semi-dry"
+      },
+      {
+        "displayOrder": 16,
+        "label": "Oil Capacity",
+        "name": "oil_capacity",
+        "tip": "",
+        "value": "80cc (2.7 U.S. oz)"
+      },
+      {
+        "displayOrder": 17,
+        "label": "Fuel",
+        "name": "fuel",
+        "tip": "",
+        "value": "Unleaded 86 octane or higher"
+      },
+      {
+        "displayOrder": 18,
+        "label": "Dry Weight",
+        "name": "dry_weight",
+        "tip": "",
+        "value": "2.7 kg (6.8 lbs)"
+      }
+    ]
+  },
+  {
+    "trimId": 12113,
+    "displayOrder": 1,
+    "label": "SPECIFICATIONS",
+    "name": "specifications",
+    "specs": [
+      {
+        "displayOrder": 1,
+        "label": "Engine Type",
+        "name": "engine_type",
+        "tip": "",
+        "value": "Air-cooled 4-stroke OHC"
+      },
+      {
+        "displayOrder": 2,
+        "label": "Bore x Stroke",
+        "name": "bore_x_stroke",
+        "tip": "",
+        "value": "39 mm x 30 mm"
+      },
+      {
+        "displayOrder": 3,
+        "label": "Displacement",
+        "name": "displacement",
+        "tip": "",
+        "value": "35.8 cm<sup>3</sup>"
+      },
+      {
+        "displayOrder": 4,
+        "label": "Net Power Output*",
+        "name": "net_power_output_",
+        "tip": "",
+        "value": "1.3 HP (1.0 kW) @ 7,000rpm"
+      },
+      {
+        "displayOrder": 5,
+        "label": "Net Torque",
+        "name": "net_torque",
+        "tip": "",
+        "value": "1.2 lb-ft (1.6 Nm) @ 5,500rpm"
+      },
+      {
+        "displayOrder": 6,
+        "label": "PTO Shaft Rotation",
+        "name": "pto_shaft_rotation",
+        "tip": "",
+        "value": "Counterclockwise (from PTO shaft side)"
+      },
+      {
+        "displayOrder": 7,
+        "label": "Compression Ratio",
+        "name": "compression_ratio",
+        "tip": "",
+        "value": "8.0:1"
+      },
+      {
+        "displayOrder": 8,
+        "label": "Fuel Tank Capacity",
+        "name": "fuel_tank_capacity",
+        "tip": "",
+        "value": "0.63 litres (0.67 U.S. qts)"
+      },
+      {
+        "displayOrder": 9,
+        "label": "Lamp/Charge coil options",
+        "name": "lamp_charge_coil_options",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 10,
+        "label": "Carburetor",
+        "name": "carburetor",
+        "tip": "",
+        "value": "Diaphragm-type (overflow return)"
+      },
+      {
+        "displayOrder": 11,
+        "label": "Ignition System",
+        "name": "ignition_system",
+        "tip": "",
+        "value": "Transistorized magneto"
+      },
+      {
+        "displayOrder": 12,
+        "label": "Starting System",
+        "name": "starting_system",
+        "tip": "",
+        "value": "Recoil"
+      },
+      {
+        "displayOrder": 13,
+        "label": "Lubrication System",
+        "name": "lubrication_system",
+        "tip": "",
+        "value": "Crankcase pressure driven"
+      },
+      {
+        "displayOrder": 14,
+        "label": "Governor System",
+        "name": "governor_system",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 15,
+        "label": "Air Cleaner",
+        "name": "air_cleaner",
+        "tip": "",
+        "value": "Semi-dry"
+      },
+      {
+        "displayOrder": 16,
+        "label": "Oil Capacity",
+        "name": "oil_capacity",
+        "tip": "",
+        "value": "100cc (3.4 U.S. oz)"
+      },
+      {
+        "displayOrder": 17,
+        "label": "Fuel",
+        "name": "fuel",
+        "tip": "",
+        "value": "Unleaded 86 octane or higher"
+      },
+      {
+        "displayOrder": 18,
+        "label": "Dry Weight",
+        "name": "dry_weight",
+        "tip": "",
+        "value": "3.3 kg (7.6 lbs)"
+      }
+    ]
+  },
+  {
+    "trimId": 12114,
+    "displayOrder": 1,
+    "label": "SPECIFICATIONS",
+    "name": "specifications",
+    "specs": [
+      {
+        "displayOrder": 1,
+        "label": "Engine Type",
+        "name": "engine_type",
+        "tip": "",
+        "value": "Air-cooled 4-stroke OHC"
+      },
+      {
+        "displayOrder": 2,
+        "label": "Bore x Stroke",
+        "name": "bore_x_stroke",
+        "tip": "",
+        "value": "41.8 mm x 36 mm"
+      },
+      {
+        "displayOrder": 3,
+        "label": "Displacement",
+        "name": "displacement",
+        "tip": "",
+        "value": "49.4 cm<sup>3</sup>"
+      },
+      {
+        "displayOrder": 4,
+        "label": "Net Power Output*",
+        "name": "net_power_output_",
+        "tip": "",
+        "value": "2.1 HP (1.6 kW) @ 7,000 rpm"
+      },
+      {
+        "displayOrder": 5,
+        "label": "Net Torque",
+        "name": "net_torque",
+        "tip": "",
+        "value": "2.0 lb-ft (2.7 Nm) @ 4,500 rpm"
+      },
+      {
+        "displayOrder": 6,
+        "label": "PTO Shaft Rotation",
+        "name": "pto_shaft_rotation",
+        "tip": "",
+        "value": "Counterclockwise (from PTO shaft side)"
+      },
+      {
+        "displayOrder": 7,
+        "label": "Compression Ratio",
+        "name": "compression_ratio",
+        "tip": "",
+        "value": "8.0:1"
+      },
+      {
+        "displayOrder": 8,
+        "label": "Fuel Tank Capacity",
+        "name": "fuel_tank_capacity",
+        "tip": "",
+        "value": "0.77 litres (0.81 U.S. qts)"
+      },
+      {
+        "displayOrder": 9,
+        "label": "Lamp/Charge coil options",
+        "name": "lamp_charge_coil_options",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 10,
+        "label": "Carburetor",
+        "name": "carburetor",
+        "tip": "",
+        "value": "Float type"
+      },
+      {
+        "displayOrder": 11,
+        "label": "Ignition System",
+        "name": "ignition_system",
+        "tip": "",
+        "value": "Transistorized magneto"
+      },
+      {
+        "displayOrder": 12,
+        "label": "Starting System",
+        "name": "starting_system",
+        "tip": "",
+        "value": "Recoil"
+      },
+      {
+        "displayOrder": 13,
+        "label": "Lubrication System",
+        "name": "lubrication_system",
+        "tip": "",
+        "value": "Forced splash"
+      },
+      {
+        "displayOrder": 14,
+        "label": "Governor System",
+        "name": "governor_system",
+        "tip": "",
+        "value": "Centrifugal mechanical"
+      },
+      {
+        "displayOrder": 15,
+        "label": "Air Cleaner",
+        "name": "air_cleaner",
+        "tip": "",
+        "value": "Semi-dry"
+      },
+      {
+        "displayOrder": 16,
+        "label": "Oil Capacity",
+        "name": "oil_capacity",
+        "tip": "",
+        "value": "0.25 litres (0.26 U.S. qts)"
+      },
+      {
+        "displayOrder": 17,
+        "label": "Fuel",
+        "name": "fuel",
+        "tip": "",
+        "value": "Unleaded 86 octane or higher"
+      },
+      {
+        "displayOrder": 18,
+        "label": "Dry Weight",
+        "name": "dry_weight",
+        "tip": "",
+        "value": "5.5 kg (12.1 lbs)"
+      }
+    ]
+  },
+  {
+    "trimId": 12115,
+    "displayOrder": 1,
+    "label": "SPECIFICATIONS",
+    "name": "specifications",
+    "specs": [
+      {
+        "displayOrder": 1,
+        "label": "Engine Type",
+        "name": "engine_type",
+        "tip": "",
+        "value": "Air-cooled 4-stroke OHC"
+      },
+      {
+        "displayOrder": 2,
+        "label": "Bore x Stroke",
+        "name": "bore_x_stroke",
+        "tip": "",
+        "value": "41.8 mm x 36 mm"
+      },
+      {
+        "displayOrder": 3,
+        "label": "Displacement",
+        "name": "displacement",
+        "tip": "",
+        "value": "49.4 cm<sup>3</sup>"
+      },
+      {
+        "displayOrder": 4,
+        "label": "Net Power Output*",
+        "name": "net_power_output_",
+        "tip": "",
+        "value": "2.1 HP (1.6 kW) @ 7,000 rpm"
+      },
+      {
+        "displayOrder": 5,
+        "label": "Net Torque",
+        "name": "net_torque",
+        "tip": "",
+        "value": "2.0 lb-ft (2.7 Nm) @ 4,500 rpm"
+      },
+      {
+        "displayOrder": 6,
+        "label": "PTO Shaft Rotation",
+        "name": "pto_shaft_rotation",
+        "tip": "",
+        "value": "Counterclockwise (from PTO shaft side)"
+      },
+      {
+        "displayOrder": 7,
+        "label": "Compression Ratio",
+        "name": "compression_ratio",
+        "tip": "",
+        "value": "8.0:1"
+      },
+      {
+        "displayOrder": 8,
+        "label": "Fuel Tank Capacity",
+        "name": "fuel_tank_capacity",
+        "tip": "",
+        "value": "0.27 litres (0.29 U.S. qts)"
+      },
+      {
+        "displayOrder": 9,
+        "label": "Lamp/Charge coil options",
+        "name": "lamp_charge_coil_options",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 10,
+        "label": "Carburetor",
+        "name": "carburetor",
+        "tip": "",
+        "value": "Float type"
+      },
+      {
+        "displayOrder": 11,
+        "label": "Ignition System",
+        "name": "ignition_system",
+        "tip": "",
+        "value": "Transistorized magneto"
+      },
+      {
+        "displayOrder": 12,
+        "label": "Starting System",
+        "name": "starting_system",
+        "tip": "",
+        "value": "Recoil"
+      },
+      {
+        "displayOrder": 13,
+        "label": "Lubrication System",
+        "name": "lubrication_system",
+        "tip": "",
+        "value": "Forced splash"
+      },
+      {
+        "displayOrder": 14,
+        "label": "Governor System",
+        "name": "governor_system",
+        "tip": "",
+        "value": "Centrifugal mechanical"
+      },
+      {
+        "displayOrder": 15,
+        "label": "Air Cleaner",
+        "name": "air_cleaner",
+        "tip": "",
+        "value": "Semi-dry"
+      },
+      {
+        "displayOrder": 16,
+        "label": "Oil Capacity",
+        "name": "oil_capacity",
+        "tip": "",
+        "value": "0.25 litres (0.26 U.S. qts)"
+      },
+      {
+        "displayOrder": 17,
+        "label": "Fuel",
+        "name": "fuel",
+        "tip": "",
+        "value": "Unleaded 86 octane or higher"
+      },
+      {
+        "displayOrder": 18,
+        "label": "Dry Weight",
+        "name": "dry_weight",
+        "tip": "",
+        "value": "5.2 kg (11.5 lbs)"
+      }
+    ]
+  },
+  {
+    "trimId": 12093,
+    "displayOrder": 1,
+    "label": "SPECIFICATIONS",
+    "name": "specifications",
+    "specs": [
+      {
+        "displayOrder": 1,
+        "label": "Engine Type",
+        "name": "engine_type",
+        "tip": "",
+        "value": "Air-cooled 4-stroke OHC"
+      },
+      {
+        "displayOrder": 2,
+        "label": "Bore x Stroke",
+        "name": "bore_x_stroke",
+        "tip": "",
+        "value": "64 mm x 50 mm"
+      },
+      {
+        "displayOrder": 3,
+        "label": "Displacement",
+        "name": "displacement",
+        "tip": "",
+        "value": "160 cm<sup>3</sup>"
+      },
+      {
+        "displayOrder": 4,
+        "label": "Net Power Output*",
+        "name": "net_power_output_",
+        "tip": "",
+        "value": "4.6 HP (3.4 kW) @ 3,600 rpm"
+      },
+      {
+        "displayOrder": 5,
+        "label": "Net Torque",
+        "name": "net_torque",
+        "tip": "",
+        "value": "6.9 lb-ft (9.4 Nm) @ 2,500 rpm"
+      },
+      {
+        "displayOrder": 6,
+        "label": "PTO Shaft Rotation",
+        "name": "pto_shaft_rotation",
+        "tip": "",
+        "value": "Counterclockwise (from PTO shaft side)"
+      },
+      {
+        "displayOrder": 7,
+        "label": "Compression Ratio",
+        "name": "compression_ratio",
+        "tip": "",
+        "value": "8.5:1"
+      },
+      {
+        "displayOrder": 8,
+        "label": "Fuel Tank Capacity",
+        "name": "fuel_tank_capacity",
+        "tip": "",
+        "value": "1.8 litres (1.9 U.S. qts)"
+      },
+      {
+        "displayOrder": 9,
+        "label": "Carburetor",
+        "name": "carburetor",
+        "tip": "",
+        "value": "Horizontal type butterfly valve"
+      },
+      {
+        "displayOrder": 10,
+        "label": "Ignition System",
+        "name": "ignition_system",
+        "tip": "",
+        "value": "Transistorized magneto"
+      },
+      {
+        "displayOrder": 11,
+        "label": "Starting System",
+        "name": "starting_system",
+        "tip": "",
+        "value": "Recoil/electric"
+      },
+      {
+        "displayOrder": 12,
+        "label": "Lubrication System",
+        "name": "lubrication_system",
+        "tip": "",
+        "value": "Splash"
+      },
+      {
+        "displayOrder": 13,
+        "label": "Governor System",
+        "name": "governor_system",
+        "tip": "",
+        "value": "Centrifugal mechanical"
+      },
+      {
+        "displayOrder": 14,
+        "label": "Air Cleaner",
+        "name": "air_cleaner",
+        "tip": "",
+        "value": "Dry (paper filter)"
+      },
+      {
+        "displayOrder": 15,
+        "label": "Oil Capacity",
+        "name": "oil_capacity",
+        "tip": "",
+        "value": "0.58 litres (0.61 U.S. qts)"
+      },
+      {
+        "displayOrder": 16,
+        "label": "Fuel",
+        "name": "fuel",
+        "tip": "",
+        "value": "Unleaded 86 octane or higher"
+      },
+      {
+        "displayOrder": 17,
+        "label": "Dry Weight",
+        "name": "dry_weight",
+        "tip": "",
+        "value": "11.5 kg (25.4 lbs)"
+      }
+    ]
+  },
+  {
+    "trimId": 12092,
+    "displayOrder": 1,
+    "label": "SPECIFICATIONS",
+    "name": "specifications",
+    "specs": [
+      {
+        "displayOrder": 1,
+        "label": "Engine Type",
+        "name": "engine_type",
+        "tip": "",
+        "value": "Air-cooled 4-stroke OHC"
+      },
+      {
+        "displayOrder": 2,
+        "label": "Bore x Stroke",
+        "name": "bore_x_stroke",
+        "tip": "",
+        "value": "69 mm x 50 mm"
+      },
+      {
+        "displayOrder": 3,
+        "label": "Displacement",
+        "name": "displacement",
+        "tip": "",
+        "value": "187 cm<sup>3</sup>"
+      },
+      {
+        "displayOrder": 4,
+        "label": "Net Power Output*",
+        "name": "net_power_output_",
+        "tip": "",
+        "value": "5.2 HP (3.9 kW) @ 3,600 rpm"
+      },
+      {
+        "displayOrder": 5,
+        "label": "Net Torque",
+        "name": "net_torque",
+        "tip": "",
+        "value": "8.3 lb-ft (11.2 Nm) @ 2,500 rpm"
+      },
+      {
+        "displayOrder": 6,
+        "label": "PTO Shaft Rotation",
+        "name": "pto_shaft_rotation",
+        "tip": "",
+        "value": "Counterclockwise (from PTO shaft side)"
+      },
+      {
+        "displayOrder": 7,
+        "label": "Compression Ratio",
+        "name": "compression_ratio",
+        "tip": "",
+        "value": "8.5:1"
+      },
+      {
+        "displayOrder": 8,
+        "label": "Fuel Tank Capacity",
+        "name": "fuel_tank_capacity",
+        "tip": "",
+        "value": "1.8 litres (1.9 U.S. qts)"
+      },
+      {
+        "displayOrder": 9,
+        "label": "Carburetor",
+        "name": "carburetor",
+        "tip": "",
+        "value": "Horizontal type butterfly valve"
+      },
+      {
+        "displayOrder": 10,
+        "label": "Ignition System",
+        "name": "ignition_system",
+        "tip": "",
+        "value": "Transistorized magneto"
+      },
+      {
+        "displayOrder": 11,
+        "label": "Starting System",
+        "name": "starting_system",
+        "tip": "",
+        "value": "Recoil/electric"
+      },
+      {
+        "displayOrder": 12,
+        "label": "Lubrication System",
+        "name": "lubrication_system",
+        "tip": "",
+        "value": "Splash"
+      },
+      {
+        "displayOrder": 13,
+        "label": "Governor System",
+        "name": "governor_system",
+        "tip": "",
+        "value": "Centrifugal mechanical"
+      },
+      {
+        "displayOrder": 14,
+        "label": "Air Cleaner",
+        "name": "air_cleaner",
+        "tip": "",
+        "value": "Dry (paper filter)"
+      },
+      {
+        "displayOrder": 15,
+        "label": "Oil Capacity",
+        "name": "oil_capacity",
+        "tip": "",
+        "value": "0.58 litres (0.61 U.S. qts)"
+      },
+      {
+        "displayOrder": 16,
+        "label": "Fuel",
+        "name": "fuel",
+        "tip": "",
+        "value": "Unleaded 86 octane or higher"
+      },
+      {
+        "displayOrder": 17,
+        "label": "Dry Weight",
+        "name": "dry_weight",
+        "tip": "",
+        "value": "13.2 kg (29.1 lbs)"
+      }
+    ]
+  },
+  {
+    "trimId": 12110,
+    "displayOrder": 1,
+    "label": "SPECIFICATIONS",
+    "name": "specifications",
+    "specs": [
+      {
+        "displayOrder": 1,
+        "label": "Engine Type",
+        "name": "engine_type",
+        "tip": "",
+        "value": "Air-cooled 4-stroke OHC"
+      },
+      {
+        "displayOrder": 2,
+        "label": "Bore x Stroke",
+        "name": "bore_x_stroke",
+        "tip": "",
+        "value": "64 mm x 50 mm"
+      },
+      {
+        "displayOrder": 3,
+        "label": "Displacement",
+        "name": "displacement",
+        "tip": "",
+        "value": "160 cm<sup>3</sup>"
+      },
+      {
+        "displayOrder": 4,
+        "label": "Net Power Output*",
+        "name": "net_power_output_",
+        "tip": "",
+        "value": "4.4 HP (3.3 kW) @ 3,600 rpm"
+      },
+      {
+        "displayOrder": 5,
+        "label": "Net Torque",
+        "name": "net_torque",
+        "tip": "",
+        "value": "6.9 lb-ft (9.4 Nm) @ 2,500 rpm"
+      },
+      {
+        "displayOrder": 6,
+        "label": "PTO Shaft Rotation",
+        "name": "pto_shaft_rotation",
+        "tip": "",
+        "value": "Counterclockwise (from PTO shaft side)"
+      },
+      {
+        "displayOrder": 7,
+        "label": "Compression Ratio",
+        "name": "compression_ratio",
+        "tip": "",
+        "value": "8.5:1"
+      },
+      {
+        "displayOrder": 8,
+        "label": "Fuel Tank Capacity",
+        "name": "fuel_tank_capacity",
+        "tip": "",
+        "value": "0.93 litres (0.98 U.S. qts)"
+      },
+      {
+        "displayOrder": 9,
+        "label": "Carburetor",
+        "name": "carburetor",
+        "tip": "",
+        "value": "Horizontal type butterfly valve"
+      },
+      {
+        "displayOrder": 10,
+        "label": "Ignition System",
+        "name": "ignition_system",
+        "tip": "",
+        "value": "Transistorized magneto"
+      },
+      {
+        "displayOrder": 11,
+        "label": "Starting System",
+        "name": "starting_system",
+        "tip": "",
+        "value": "Recoil/electric"
+      },
+      {
+        "displayOrder": 12,
+        "label": "Lubrication System",
+        "name": "lubrication_system",
+        "tip": "",
+        "value": "Splash"
+      },
+      {
+        "displayOrder": 13,
+        "label": "Governor System",
+        "name": "governor_system",
+        "tip": "",
+        "value": "Centrifugal mechanical"
+      },
+      {
+        "displayOrder": 14,
+        "label": "Air Cleaner",
+        "name": "air_cleaner",
+        "tip": "",
+        "value": "Dry (paper filter)"
+      },
+      {
+        "displayOrder": 15,
+        "label": "Oil Capacity",
+        "name": "oil_capacity",
+        "tip": "",
+        "value": "0.55 litres (0.58 U.S. qts)"
+      },
+      {
+        "displayOrder": 16,
+        "label": "Fuel",
+        "name": "fuel",
+        "tip": "",
+        "value": "Unleaded 86 octane or higher"
+      },
+      {
+        "displayOrder": 17,
+        "label": "Dry Weight",
+        "name": "dry_weight",
+        "tip": "",
+        "value": "10.0 kg (22.0 lbs)"
+      }
+    ]
+  },
+  {
+    "trimId": 12111,
+    "displayOrder": 1,
+    "label": "SPECIFICATIONS",
+    "name": "specifications",
+    "specs": [
+      {
+        "displayOrder": 1,
+        "label": "Engine Type",
+        "name": "engine_type",
+        "tip": "",
+        "value": "Air-cooled 4-stroke OHC"
+      },
+      {
+        "displayOrder": 2,
+        "label": "Bore x Stroke",
+        "name": "bore_x_stroke",
+        "tip": "",
+        "value": "69 mm x 50 mm"
+      },
+      {
+        "displayOrder": 3,
+        "label": "Displacement",
+        "name": "displacement",
+        "tip": "",
+        "value": "187 cm<sup>3</sup>"
+      },
+      {
+        "displayOrder": 4,
+        "label": "Net Power Output*",
+        "name": "net_power_output_",
+        "tip": "",
+        "value": "5.1HP (3.8 kW) @ 3,600 rpm"
+      },
+      {
+        "displayOrder": 5,
+        "label": "Net Torque",
+        "name": "net_torque",
+        "tip": "",
+        "value": "8.3 lb-ft (11.3 Nm) @ 2,500 rpm"
+      },
+      {
+        "displayOrder": 6,
+        "label": "PTO Shaft Rotation",
+        "name": "pto_shaft_rotation",
+        "tip": "",
+        "value": "Counterclockwise (from PTO shaft side)"
+      },
+      {
+        "displayOrder": 7,
+        "label": "Compression Ratio",
+        "name": "compression_ratio",
+        "tip": "",
+        "value": "8.5:1"
+      },
+      {
+        "displayOrder": 8,
+        "label": "Fuel Tank Capacity",
+        "name": "fuel_tank_capacity",
+        "tip": "",
+        "value": "93 litres (1.98 U.S. qts)"
+      },
+      {
+        "displayOrder": 9,
+        "label": "Carburetor",
+        "name": "carburetor",
+        "tip": "",
+        "value": "Horizontal type butterfly valve"
+      },
+      {
+        "displayOrder": 10,
+        "label": "Ignition System",
+        "name": "ignition_system",
+        "tip": "",
+        "value": "Transistorized magneto"
+      },
+      {
+        "displayOrder": 11,
+        "label": "Starting System",
+        "name": "starting_system",
+        "tip": "",
+        "value": "Recoil/electric"
+      },
+      {
+        "displayOrder": 12,
+        "label": "Lubrication System",
+        "name": "lubrication_system",
+        "tip": "",
+        "value": "Splash"
+      },
+      {
+        "displayOrder": 13,
+        "label": "Governor System",
+        "name": "governor_system",
+        "tip": "",
+        "value": "Centrifugal mechanical"
+      },
+      {
+        "displayOrder": 14,
+        "label": "Air Cleaner",
+        "name": "air_cleaner",
+        "tip": "",
+        "value": "Dry (paper filter)"
+      },
+      {
+        "displayOrder": 15,
+        "label": "Oil Capacity",
+        "name": "oil_capacity",
+        "tip": "",
+        "value": "0.55 litres (0.58 U.S. qts)"
+      },
+      {
+        "displayOrder": 16,
+        "label": "Fuel",
+        "name": "fuel",
+        "tip": "",
+        "value": "Unleaded 86 octane or higher"
+      },
+      {
+        "displayOrder": 17,
+        "label": "Dry Weight",
+        "name": "dry_weight",
+        "tip": "",
+        "value": "12.5 kg (27.6 lbs)"
+      }
+    ]
+  },
+  {
+    "trimId": 12094,
+    "displayOrder": 1,
+    "label": "SPECIFICATIONS",
+    "name": "specifications",
+    "specs": [
+      {
+        "displayOrder": 1,
+        "label": "Engine Type",
+        "name": "engine_type",
+        "tip": "",
+        "value": "Air-cooled 4-stroke OHC"
+      },
+      {
+        "displayOrder": 2,
+        "label": "Bore x Stroke",
+        "name": "bore_x_stroke",
+        "tip": "",
+        "value": "56 mm x 40 mm"
+      },
+      {
+        "displayOrder": 3,
+        "label": "Displacement",
+        "name": "displacement",
+        "tip": "",
+        "value": "98 cm<sup>3</sup>"
+      },
+      {
+        "displayOrder": 4,
+        "label": "Net Power Output*",
+        "name": "net_power_output_",
+        "tip": "",
+        "value": "2.8 HP (2.1 kW) @ 3,600 rpm"
+      },
+      {
+        "displayOrder": 5,
+        "label": "Net Torque",
+        "name": "net_torque",
+        "tip": "",
+        "value": "4.2 lb-ft (5.7 Nm) @ 3,600 rpm"
+      },
+      {
+        "displayOrder": 6,
+        "label": "PTO Shaft Rotation",
+        "name": "pto_shaft_rotation",
+        "tip": "",
+        "value": "Counterclockwise (from PTO shaft side)"
+      },
+      {
+        "displayOrder": 7,
+        "label": "Compression Ratio",
+        "name": "compression_ratio",
+        "tip": "",
+        "value": "8.5:1"
+      },
+      {
+        "displayOrder": 8,
+        "label": "Fuel Tank Capacity",
+        "name": "fuel_tank_capacity",
+        "tip": "",
+        "value": "0.77 litres (.81 U.S. qts)"
+      },
+      {
+        "displayOrder": 10,
+        "label": "Carburetor",
+        "name": "carburetor",
+        "tip": "",
+        "value": "Float type"
+      },
+      {
+        "displayOrder": 11,
+        "label": "Ignition System",
+        "name": "ignition_system",
+        "tip": "",
+        "value": "Transistorized magneto"
+      },
+      {
+        "displayOrder": 12,
+        "label": "Starting System",
+        "name": "starting_system",
+        "tip": "",
+        "value": "Recoil"
+      },
+      {
+        "displayOrder": 13,
+        "label": "Lubrication System",
+        "name": "lubrication_system",
+        "tip": "",
+        "value": "Splash"
+      },
+      {
+        "displayOrder": 14,
+        "label": "Governor System",
+        "name": "governor_system",
+        "tip": "",
+        "value": "Centrifugal mechanical"
+      },
+      {
+        "displayOrder": 15,
+        "label": "Air Cleaner",
+        "name": "air_cleaner",
+        "tip": "",
+        "value": "Dual element"
+      },
+      {
+        "displayOrder": 16,
+        "label": "Oil Capacity",
+        "name": "oil_capacity",
+        "tip": "",
+        "value": "0.40 litres (0.42 U.S. qts)"
+      },
+      {
+        "displayOrder": 17,
+        "label": "Fuel",
+        "name": "fuel",
+        "tip": "",
+        "value": "Unleaded 86 octane or higher"
+      },
+      {
+        "displayOrder": 18,
+        "label": "Dry Weight",
+        "name": "dry_weight",
+        "tip": "",
+        "value": "10.6 kg (23.4 lbs)"
+      }
+    ]
+  },
+  {
+    "trimId": 12095,
+    "displayOrder": 1,
+    "label": "SPECIFICATIONS",
+    "name": "specifications",
+    "specs": [
+      {
+        "displayOrder": 1,
+        "label": "Engine Type",
+        "name": "engine_type",
+        "tip": "",
+        "value": "Air-cooled 4-stroke OHV"
+      },
+      {
+        "displayOrder": 2,
+        "label": "Bore x Stroke",
+        "name": "bore_x_stroke",
+        "tip": "",
+        "value": "60 mm x 42 mm"
+      },
+      {
+        "displayOrder": 3,
+        "label": "Displacement",
+        "name": "displacement",
+        "tip": "",
+        "value": "118 cm<sup>3</sup>"
+      },
+      {
+        "displayOrder": 4,
+        "label": "Net Power Output*",
+        "name": "net_power_output_",
+        "tip": "",
+        "value": "3.5 HP (2.6 kW) @ 3,600 rpm"
+      },
+      {
+        "displayOrder": 5,
+        "label": "Net Torque",
+        "name": "net_torque",
+        "tip": "",
+        "value": "5.4 lb-ft (7.3 Nm) @ 2,500 rpm"
+      },
+      {
+        "displayOrder": 6,
+        "label": "PTO Shaft Rotation",
+        "name": "pto_shaft_rotation",
+        "tip": "",
+        "value": "Counterclockwise (from PTO shaft side)"
+      },
+      {
+        "displayOrder": 7,
+        "label": "Compression Ratio",
+        "name": "compression_ratio",
+        "tip": "",
+        "value": "8.5:1"
+      },
+      {
+        "displayOrder": 8,
+        "label": "Fuel Tank Capacity",
+        "name": "fuel_tank_capacity",
+        "tip": "",
+        "value": "2.0 litres (2.1 U.S. qts)"
+      },
+      {
+        "displayOrder": 9,
+        "label": "Lamp/Charge coil options",
+        "name": "lamp_charge_coil_options",
+        "tip": "",
+        "value": "25W, 50W"
+      },
+      {
+        "displayOrder": 10,
+        "label": "Carburetor",
+        "name": "carburetor",
+        "tip": "",
+        "value": "Butterfly"
+      },
+      {
+        "displayOrder": 11,
+        "label": "Ignition System",
+        "name": "ignition_system",
+        "tip": "",
+        "value": "Transistorized magneto"
+      },
+      {
+        "displayOrder": 12,
+        "label": "Starting System",
+        "name": "starting_system",
+        "tip": "",
+        "value": "Recoil"
+      },
+      {
+        "displayOrder": 13,
+        "label": "Lubrication System",
+        "name": "lubrication_system",
+        "tip": "",
+        "value": "Splash"
+      },
+      {
+        "displayOrder": 14,
+        "label": "Governor System",
+        "name": "governor_system",
+        "tip": "",
+        "value": "Mechanical"
+      },
+      {
+        "displayOrder": 15,
+        "label": "Air Cleaner",
+        "name": "air_cleaner",
+        "tip": "",
+        "value": "Dual element"
+      },
+      {
+        "displayOrder": 16,
+        "label": "Oil Capacity",
+        "name": "oil_capacity",
+        "tip": "",
+        "value": "0.56 litres (0.59 U.S. qts)"
+      },
+      {
+        "displayOrder": 17,
+        "label": "Fuel",
+        "name": "fuel",
+        "tip": "",
+        "value": "Unleaded 86 octane or higher"
+      },
+      {
+        "displayOrder": 18,
+        "label": "Dry Weight",
+        "name": "dry_weight",
+        "tip": "",
+        "value": "13.0 kg (29 lbs.)"
+      }
+    ]
+  },
+  {
+    "trimId": 12096,
+    "displayOrder": 1,
+    "label": "SPECIFICATIONS",
+    "name": "specifications",
+    "specs": [
+      {
+        "displayOrder": 1,
+        "label": "Engine Type",
+        "name": "engine_type",
+        "tip": "",
+        "value": "Air-cooled 4-stroke OHV"
+      },
+      {
+        "displayOrder": 2,
+        "label": "Bore x Stroke",
+        "name": "bore_x_stroke",
+        "tip": "",
+        "value": "68 mm x 45 mm"
+      },
+      {
+        "displayOrder": 3,
+        "label": "Displacement",
+        "name": "displacement",
+        "tip": "",
+        "value": "163 cm<sup>3</sup>"
+      },
+      {
+        "displayOrder": 4,
+        "label": "Net Power Output*",
+        "name": "net_power_output_",
+        "tip": "",
+        "value": "4.8 HP (3.6 kW) @ 3,600 rpm"
+      },
+      {
+        "displayOrder": 5,
+        "label": "Net Torque",
+        "name": "net_torque",
+        "tip": "",
+        "value": "7.6 lb-ft (10.3 Nm) @ 2,500 rpm"
+      },
+      {
+        "displayOrder": 6,
+        "label": "PTO Shaft Rotation",
+        "name": "pto_shaft_rotation",
+        "tip": "",
+        "value": "Counterclockwise (from PTO shaft side)"
+      },
+      {
+        "displayOrder": 7,
+        "label": "Compression Ratio",
+        "name": "compression_ratio",
+        "tip": "",
+        "value": "9.0:1"
+      },
+      {
+        "displayOrder": 8,
+        "label": "Fuel Tank Capacity",
+        "name": "fuel_tank_capacity",
+        "tip": "",
+        "value": "3.1 litres (3.3 U.S. qts)"
+      },
+      {
+        "displayOrder": 9,
+        "label": "Lamp/Charge coil options",
+        "name": "lamp_charge_coil_options",
+        "tip": "",
+        "value": "25W, 50W / 1A, 3A, 7A"
+      },
+      {
+        "displayOrder": 10,
+        "label": "Carburetor",
+        "name": "carburetor",
+        "tip": "",
+        "value": "Butterfly"
+      },
+      {
+        "displayOrder": 11,
+        "label": "Ignition System",
+        "name": "ignition_system",
+        "tip": "",
+        "value": "Transistorized magneto"
+      },
+      {
+        "displayOrder": 12,
+        "label": "Starting System",
+        "name": "starting_system",
+        "tip": "",
+        "value": "Recoil starter"
+      },
+      {
+        "displayOrder": 13,
+        "label": "Lubrication System",
+        "name": "lubrication_system",
+        "tip": "",
+        "value": "Splash"
+      },
+      {
+        "displayOrder": 14,
+        "label": "Governor System",
+        "name": "governor_system",
+        "tip": "",
+        "value": "Centrifugal mechanical"
+      },
+      {
+        "displayOrder": 15,
+        "label": "Air Cleaner",
+        "name": "air_cleaner",
+        "tip": "",
+        "value": "Dual element"
+      },
+      {
+        "displayOrder": 16,
+        "label": "Oil Capacity",
+        "name": "oil_capacity",
+        "tip": "",
+        "value": "0.58 litres (0.61 U.S. qts)"
+      },
+      {
+        "displayOrder": 17,
+        "label": "Fuel",
+        "name": "fuel",
+        "tip": "",
+        "value": "Unleaded 86 octane or higher"
+      },
+      {
+        "displayOrder": 18,
+        "label": "Dry Weight",
+        "name": "dry_weight",
+        "tip": "",
+        "value": "15.1 kg. (33 lbs)"
+      }
+    ]
+  },
+  {
+    "trimId": 12097,
+    "displayOrder": 1,
+    "label": "SPECIFICATIONS",
+    "name": "specifications",
+    "specs": [
+      {
+        "displayOrder": 1,
+        "label": "Engine Type",
+        "name": "engine_type",
+        "tip": "",
+        "value": "Air-cooled 4-stroke OHV"
+      },
+      {
+        "displayOrder": 2,
+        "label": "Bore x Stroke",
+        "name": "bore_x_stroke",
+        "tip": "",
+        "value": "68 mm x 54 mm"
+      },
+      {
+        "displayOrder": 3,
+        "label": "Displacement",
+        "name": "displacement",
+        "tip": "",
+        "value": "196 cm<sup>3</sup>"
+      },
+      {
+        "displayOrder": 4,
+        "label": "Net Power Output*",
+        "name": "net_power_output_",
+        "tip": "",
+        "value": "5.5 HP (4.1 kW) @ 3,600 rpm"
+      },
+      {
+        "displayOrder": 5,
+        "label": "Net Torque",
+        "name": "net_torque",
+        "tip": "",
+        "value": "9.1 lb-ft (12.4 Nm) @ 2,500 rpm"
+      },
+      {
+        "displayOrder": 6,
+        "label": "PTO Shaft Rotation",
+        "name": "pto_shaft_rotation",
+        "tip": "",
+        "value": "Counterclockwise (from PTO shaft side)"
+      },
+      {
+        "displayOrder": 7,
+        "label": "Compression Ratio",
+        "name": "compression_ratio",
+        "tip": "",
+        "value": "8.5:1"
+      },
+      {
+        "displayOrder": 8,
+        "label": "Fuel Tank Capacity",
+        "name": "fuel_tank_capacity",
+        "tip": "",
+        "value": "3.1 litres (3.3 U.S. qts)"
+      },
+      {
+        "displayOrder": 9,
+        "label": "Lamp/Charge coil options",
+        "name": "lamp_charge_coil_options",
+        "tip": "",
+        "value": "25W, 50W / 1A, 3A, 7A"
+      },
+      {
+        "displayOrder": 10,
+        "label": "Carburetor",
+        "name": "carburetor",
+        "tip": "",
+        "value": "Butterfly"
+      },
+      {
+        "displayOrder": 11,
+        "label": "Ignition System",
+        "name": "ignition_system",
+        "tip": "",
+        "value": "Transistorized magneto"
+      },
+      {
+        "displayOrder": 12,
+        "label": "Starting System",
+        "name": "starting_system",
+        "tip": "",
+        "value": "Recoil starter"
+      },
+      {
+        "displayOrder": 13,
+        "label": "Lubrication System",
+        "name": "lubrication_system",
+        "tip": "",
+        "value": "Splash"
+      },
+      {
+        "displayOrder": 14,
+        "label": "Governor System",
+        "name": "governor_system",
+        "tip": "",
+        "value": "Mechanical"
+      },
+      {
+        "displayOrder": 15,
+        "label": "Air Cleaner",
+        "name": "air_cleaner",
+        "tip": "",
+        "value": "Dual element"
+      },
+      {
+        "displayOrder": 16,
+        "label": "Oil Capacity",
+        "name": "oil_capacity",
+        "tip": "",
+        "value": "0.6 litres (0.63 U.S. qts)"
+      },
+      {
+        "displayOrder": 17,
+        "label": "Fuel",
+        "name": "fuel",
+        "tip": "",
+        "value": "Unleaded 86 octane or higher"
+      },
+      {
+        "displayOrder": 18,
+        "label": "Dry Weight",
+        "name": "dry_weight",
+        "tip": "",
+        "value": "16.1 kg (35 lbs)"
+      }
+    ]
+  },
+  {
+    "trimId": 12098,
+    "displayOrder": 1,
+    "label": "SPECIFICATIONS",
+    "name": "specifications",
+    "specs": [
+      {
+        "displayOrder": 1,
+        "label": "Engine Type",
+        "name": "engine_type",
+        "tip": "",
+        "value": "Air-cooled 4-stroke OHV"
+      },
+      {
+        "displayOrder": 2,
+        "label": "Bore x Stroke",
+        "name": "bore_x_stroke",
+        "tip": "",
+        "value": "77 mm x 58 mm"
+      },
+      {
+        "displayOrder": 3,
+        "label": "Displacement",
+        "name": "displacement",
+        "tip": "",
+        "value": "270 cm<sup>3</sup>"
+      },
+      {
+        "displayOrder": 4,
+        "label": "Net Power Output*",
+        "name": "net_power_output_",
+        "tip": "",
+        "value": "8.5 HP (6.3 kW) @ 3,600 rpm"
+      },
+      {
+        "displayOrder": 5,
+        "label": "Net Torque",
+        "name": "net_torque",
+        "tip": "",
+        "value": "14.1 lb-ft (19.1 Nm) @ 2,500 rpm"
+      },
+      {
+        "displayOrder": 6,
+        "label": "PTO Shaft Rotation",
+        "name": "pto_shaft_rotation",
+        "tip": "",
+        "value": "Counterclockwise (from PTO shaft side)"
+      },
+      {
+        "displayOrder": 7,
+        "label": "Compression Ratio",
+        "name": "compression_ratio",
+        "tip": "",
+        "value": "8.5:1"
+      },
+      {
+        "displayOrder": 8,
+        "label": "Fuel Tank Capacity",
+        "name": "fuel_tank_capacity",
+        "tip": "",
+        "value": "5.3 litres (5.6 U.S. qts)"
+      },
+      {
+        "displayOrder": 9,
+        "label": "Lamp/Charge coil options",
+        "name": "lamp_charge_coil_options",
+        "tip": "",
+        "value": "25W, 50W / 1A, 3A, 10A, 18A"
+      },
+      {
+        "displayOrder": 10,
+        "label": "Carburetor",
+        "name": "carburetor",
+        "tip": "",
+        "value": "Butterfly Float Type"
+      },
+      {
+        "displayOrder": 11,
+        "label": "Ignition System",
+        "name": "ignition_system",
+        "tip": "",
+        "value": "Digital CDI with variable ignition timing"
+      },
+      {
+        "displayOrder": 12,
+        "label": "Starting System",
+        "name": "starting_system",
+        "tip": "",
+        "value": "Recoil/electric"
+      },
+      {
+        "displayOrder": 13,
+        "label": "Lubrication System",
+        "name": "lubrication_system",
+        "tip": "",
+        "value": "Splash"
+      },
+      {
+        "displayOrder": 14,
+        "label": "Governor System",
+        "name": "governor_system",
+        "tip": "",
+        "value": "Centrifugal mass type"
+      },
+      {
+        "displayOrder": 15,
+        "label": "Air Cleaner",
+        "name": "air_cleaner",
+        "tip": "",
+        "value": "Dual element"
+      },
+      {
+        "displayOrder": 16,
+        "label": "Oil Capacity",
+        "name": "oil_capacity",
+        "tip": "",
+        "value": "1.1 litres (1.16 U.S. qts)"
+      },
+      {
+        "displayOrder": 17,
+        "label": "Fuel",
+        "name": "fuel",
+        "tip": "",
+        "value": "Unleaded 86 octane or higher"
+      },
+      {
+        "displayOrder": 18,
+        "label": "Dry Weight",
+        "name": "dry_weight",
+        "tip": "",
+        "value": "25 kg (55 lbs)"
+      }
+    ]
+  },
+  {
+    "trimId": 12099,
+    "displayOrder": 1,
+    "label": "SPECIFICATIONS",
+    "name": "specifications",
+    "specs": [
+      {
+        "displayOrder": 1,
+        "label": "Engine Type",
+        "name": "engine_type",
+        "tip": "",
+        "value": "Air-cooled 4-stroke OHV"
+      },
+      {
+        "displayOrder": 2,
+        "label": "Bore x Stroke",
+        "name": "bore_x_stroke",
+        "tip": "",
+        "value": "88 mm x 64 mm"
+      },
+      {
+        "displayOrder": 3,
+        "label": "Displacement",
+        "name": "displacement",
+        "tip": "",
+        "value": "389 cm<sup>3</sup>"
+      },
+      {
+        "displayOrder": 4,
+        "label": "Net Power Output*",
+        "name": "net_power_output_",
+        "tip": "",
+        "value": "10.7 HP (8.0 kW) @ 3,600 rpm"
+      },
+      {
+        "displayOrder": 5,
+        "label": "Net Torque",
+        "name": "net_torque",
+        "tip": "",
+        "value": "19.5 lb-ft (26.4 Nm) @ 2,500 rpm"
+      },
+      {
+        "displayOrder": 6,
+        "label": "PTO Shaft Rotation",
+        "name": "pto_shaft_rotation",
+        "tip": "",
+        "value": "Counterclockwise (from PTO shaft side)"
+      },
+      {
+        "displayOrder": 7,
+        "label": "Compression Ratio",
+        "name": "compression_ratio",
+        "tip": "",
+        "value": "8.2:1"
+      },
+      {
+        "displayOrder": 8,
+        "label": "Fuel Tank Capacity",
+        "name": "fuel_tank_capacity",
+        "tip": "",
+        "value": "6.1 litres (6.4 U.S. qts)"
+      },
+      {
+        "displayOrder": 9,
+        "label": "Lamp/Charge coil options",
+        "name": "lamp_charge_coil_options",
+        "tip": "",
+        "value": "25W, 50W / 1A, 3A, 10A, 18A"
+      },
+      {
+        "displayOrder": 10,
+        "label": "Carburetor",
+        "name": "carburetor",
+        "tip": "",
+        "value": "Butterfly float type"
+      },
+      {
+        "displayOrder": 11,
+        "label": "Ignition System",
+        "name": "ignition_system",
+        "tip": "",
+        "value": "Digital CDI with variable ignition timing"
+      },
+      {
+        "displayOrder": 12,
+        "label": "Starting System",
+        "name": "starting_system",
+        "tip": "",
+        "value": "Recoil/electric"
+      },
+      {
+        "displayOrder": 13,
+        "label": "Lubrication System",
+        "name": "lubrication_system",
+        "tip": "",
+        "value": "Splash"
+      },
+      {
+        "displayOrder": 14,
+        "label": "Governor System",
+        "name": "governor_system",
+        "tip": "",
+        "value": "Centrifugal mass type"
+      },
+      {
+        "displayOrder": 15,
+        "label": "Air Cleaner",
+        "name": "air_cleaner",
+        "tip": "",
+        "value": "Dual element"
+      },
+      {
+        "displayOrder": 16,
+        "label": "Oil Capacity",
+        "name": "oil_capacity",
+        "tip": "",
+        "value": "1.1 litres (1.16 U.S. qts)"
+      },
+      {
+        "displayOrder": 17,
+        "label": "Fuel",
+        "name": "fuel",
+        "tip": "",
+        "value": "Unleaded 86 octane or higher"
+      },
+      {
+        "displayOrder": 18,
+        "label": "Dry Weight",
+        "name": "dry_weight",
+        "tip": "",
+        "value": "31.5 kg (69 lbs)"
+      }
+    ]
+  },
+  {
+    "trimId": 12100,
+    "displayOrder": 1,
+    "label": "SPECIFICATIONS",
+    "name": "specifications",
+    "specs": [
+      {
+        "displayOrder": 1,
+        "label": "Engine Type",
+        "name": "engine_type",
+        "tip": "",
+        "value": "Air-cooled 4-stroke OHV"
+      },
+      {
+        "displayOrder": 2,
+        "label": "Bore x Stroke",
+        "name": "bore_x_stroke",
+        "tip": "",
+        "value": "88 mm x 64 mm"
+      },
+      {
+        "displayOrder": 3,
+        "label": "Displacement",
+        "name": "displacement",
+        "tip": "",
+        "value": "389 cm<sup>3</sup>"
+      },
+      {
+        "displayOrder": 4,
+        "label": "Net Power Output*",
+        "name": "net_power_output_",
+        "tip": "",
+        "value": "11.7 HP (8.7 kW) @ 3,600 rpm"
+      },
+      {
+        "displayOrder": 5,
+        "label": "Net Torque",
+        "name": "net_torque",
+        "tip": "",
+        "value": "19.5 lb-ft (26.4 Nm) @ 2,500 rpm"
+      },
+      {
+        "displayOrder": 6,
+        "label": "PTO Shaft Rotation",
+        "name": "pto_shaft_rotation",
+        "tip": "",
+        "value": "Counterclockwise (from PTO shaft side)"
+      },
+      {
+        "displayOrder": 7,
+        "label": "Compression Ratio",
+        "name": "compression_ratio",
+        "tip": "",
+        "value": "8.2:1"
+      },
+      {
+        "displayOrder": 8,
+        "label": "Fuel Tank Capacity",
+        "name": "fuel_tank_capacity",
+        "tip": "",
+        "value": "6.1 litres (6.4 U.S. qts)"
+      },
+      {
+        "displayOrder": 9,
+        "label": "Lamp/Charge coil options",
+        "name": "lamp_charge_coil_options",
+        "tip": "",
+        "value": "25W, 50W / 1A, 3A, 10A, 18A"
+      },
+      {
+        "displayOrder": 10,
+        "label": "Carburetor",
+        "name": "carburetor",
+        "tip": "",
+        "value": "Butterfly float type"
+      },
+      {
+        "displayOrder": 11,
+        "label": "Ignition System",
+        "name": "ignition_system",
+        "tip": "",
+        "value": "Digital CDI with variable ignition timing"
+      },
+      {
+        "displayOrder": 12,
+        "label": "Starting System",
+        "name": "starting_system",
+        "tip": "",
+        "value": "Recoil/electric"
+      },
+      {
+        "displayOrder": 13,
+        "label": "Lubrication System",
+        "name": "lubrication_system",
+        "tip": "",
+        "value": "Splash"
+      },
+      {
+        "displayOrder": 14,
+        "label": "Governor System",
+        "name": "governor_system",
+        "tip": "",
+        "value": "Centrifugal mass type"
+      },
+      {
+        "displayOrder": 15,
+        "label": "Air Cleaner",
+        "name": "air_cleaner",
+        "tip": "",
+        "value": "Dual element"
+      },
+      {
+        "displayOrder": 16,
+        "label": "Oil Capacity",
+        "name": "oil_capacity",
+        "tip": "",
+        "value": "1.1 litres (1.16 U.S. qts)"
+      },
+      {
+        "displayOrder": 17,
+        "label": "Fuel",
+        "name": "fuel",
+        "tip": "",
+        "value": "Unleaded 86 octane or higher"
+      },
+      {
+        "displayOrder": 18,
+        "label": "Dry Weight",
+        "name": "dry_weight",
+        "tip": "",
+        "value": "31.5 kg (69 lbs)"
+      }
+    ]
+  },
+  {
+    "trimId": 12101,
+    "displayOrder": 1,
+    "label": "SPECIFICATIONS",
+    "name": "specifications",
+    "specs": [
+      {
+        "displayOrder": 1,
+        "label": "Engine Type",
+        "name": "engine_type",
+        "tip": "",
+        "value": "Air-cooled 4-stroke OHC"
+      },
+      {
+        "displayOrder": 2,
+        "label": "Bore x Stroke",
+        "name": "bore_x_stroke",
+        "tip": "",
+        "value": "64 mm x 50 mm"
+      },
+      {
+        "displayOrder": 3,
+        "label": "Displacement",
+        "name": "displacement",
+        "tip": "",
+        "value": "160 cm<sup>3</sup>"
+      },
+      {
+        "displayOrder": 4,
+        "label": "Net Power Output*",
+        "name": "net_power_output_",
+        "tip": "",
+        "value": "4.4 HP (3.3 kW) @ 3,600 rpm"
+      },
+      {
+        "displayOrder": 5,
+        "label": "Net Torque",
+        "name": "net_torque",
+        "tip": "",
+        "value": "6.9 lb-ft (9.4 Nm) @ 2,500 rpm"
+      },
+      {
+        "displayOrder": 6,
+        "label": "PTO Shaft Rotation",
+        "name": "pto_shaft_rotation",
+        "tip": "",
+        "value": "Counterclockwise (from PTO shaft side)"
+      },
+      {
+        "displayOrder": 7,
+        "label": "Compression Ratio",
+        "name": "compression_ratio",
+        "tip": "",
+        "value": "8.5:1"
+      },
+      {
+        "displayOrder": 8,
+        "label": "Fuel Tank Capacity",
+        "name": "fuel_tank_capacity",
+        "tip": "",
+        "value": "0.93 litres (0.98 U.S. qts)"
+      },
+      {
+        "displayOrder": 10,
+        "label": "Carburetor",
+        "name": "carburetor",
+        "tip": "",
+        "value": "Horizontal type butterfly valve"
+      },
+      {
+        "displayOrder": 11,
+        "label": "Ignition System",
+        "name": "ignition_system",
+        "tip": "",
+        "value": "Transistorized magneto"
+      },
+      {
+        "displayOrder": 12,
+        "label": "Starting System",
+        "name": "starting_system",
+        "tip": "",
+        "value": "Recoil/electric"
+      },
+      {
+        "displayOrder": 13,
+        "label": "Lubrication System",
+        "name": "lubrication_system",
+        "tip": "",
+        "value": "Splash"
+      },
+      {
+        "displayOrder": 14,
+        "label": "Governor System",
+        "name": "governor_system",
+        "tip": "",
+        "value": "Centrifugal mechanical"
+      },
+      {
+        "displayOrder": 15,
+        "label": "Air Cleaner",
+        "name": "air_cleaner",
+        "tip": "",
+        "value": "Dry (paper filter)"
+      },
+      {
+        "displayOrder": 16,
+        "label": "Oil Capacity",
+        "name": "oil_capacity",
+        "tip": "",
+        "value": "0.55 litres (0.58 U.S. qts)"
+      },
+      {
+        "displayOrder": 17,
+        "label": "Fuel",
+        "name": "fuel",
+        "tip": "",
+        "value": "Unleaded 86 octane or higher"
+      },
+      {
+        "displayOrder": 18,
+        "label": "Dry Weight",
+        "name": "dry_weight",
+        "tip": "",
+        "value": "10.0 kg (22.0 lbs)"
+      }
+    ]
+  },
+  {
+    "trimId": 12102,
+    "displayOrder": 1,
+    "label": "SPECIFICATIONS",
+    "name": "specifications",
+    "specs": [
+      {
+        "displayOrder": 1,
+        "label": "Engine Type",
+        "name": "engine_type",
+        "tip": "",
+        "value": "Air-cooled 4-stroke OHV"
+      },
+      {
+        "displayOrder": 2,
+        "label": "Bore x Stroke",
+        "name": "bore_x_stroke",
+        "tip": "",
+        "value": "82 mm x 64 mm"
+      },
+      {
+        "displayOrder": 3,
+        "label": "Displacement",
+        "name": "displacement",
+        "tip": "",
+        "value": "337 cm<sup>3</sup>"
+      },
+      {
+        "displayOrder": 4,
+        "label": "Net Power Output*",
+        "name": "net_power_output_",
+        "tip": "",
+        "value": "8.9 HP (6.6 kW) @ 3,600 rpm"
+      },
+      {
+        "displayOrder": 5,
+        "label": "Net Torque",
+        "name": "net_torque",
+        "tip": "",
+        "value": "15.9 lb-ft (21.6 Nm) @ 2,500 rpm"
+      },
+      {
+        "displayOrder": 6,
+        "label": "PTO Shaft Rotation",
+        "name": "pto_shaft_rotation",
+        "tip": "",
+        "value": "Counterclockwise (from PTO shaft side)"
+      },
+      {
+        "displayOrder": 7,
+        "label": "Compression Ratio",
+        "name": "compression_ratio",
+        "tip": "",
+        "value": "7.7:1"
+      },
+      {
+        "displayOrder": 8,
+        "label": "Fuel Tank Capacity",
+        "name": "fuel_tank_capacity",
+        "tip": "",
+        "value": "2.1 litres (2.2 U.S. qts)"
+      },
+      {
+        "displayOrder": 9,
+        "label": "Lamp/Charge coil options",
+        "name": "lamp_charge_coil_options",
+        "tip": "",
+        "value": "1A, 3A, 10A"
+      },
+      {
+        "displayOrder": 10,
+        "label": "Carburetor",
+        "name": "carburetor",
+        "tip": "",
+        "value": "Float Type"
+      },
+      {
+        "displayOrder": 11,
+        "label": "Ignition System",
+        "name": "ignition_system",
+        "tip": "",
+        "value": "Transistorized magneto"
+      },
+      {
+        "displayOrder": 12,
+        "label": "Starting System",
+        "name": "starting_system",
+        "tip": "",
+        "value": "Recoil/electric"
+      },
+      {
+        "displayOrder": 13,
+        "label": "Lubrication System",
+        "name": "lubrication_system",
+        "tip": "",
+        "value": "Pressure and splash"
+      },
+      {
+        "displayOrder": 14,
+        "label": "Governor System",
+        "name": "governor_system",
+        "tip": "",
+        "value": "Centrifugal mechanical"
+      },
+      {
+        "displayOrder": 15,
+        "label": "Air Cleaner",
+        "name": "air_cleaner",
+        "tip": "",
+        "value": "Dual element"
+      },
+      {
+        "displayOrder": 16,
+        "label": "Oil Capacity",
+        "name": "oil_capacity",
+        "tip": "",
+        "value": "1.1 litres (1.2 U.S. qts)"
+      },
+      {
+        "displayOrder": 17,
+        "label": "Fuel",
+        "name": "fuel",
+        "tip": "",
+        "value": "Unleaded 86 octane or higher"
+      },
+      {
+        "displayOrder": 18,
+        "label": "Dry Weight",
+        "name": "dry_weight",
+        "tip": "",
+        "value": "32.3 kg (71.2 lbs)"
+      }
+    ]
+  },
+  {
+    "trimId": 12103,
+    "displayOrder": 1,
+    "label": "SPECIFICATIONS",
+    "name": "specifications",
+    "specs": [
+      {
+        "displayOrder": 1,
+        "label": "Engine Type",
+        "name": "engine_type",
+        "tip": "",
+        "value": "Air-cooled 4-stroke OHV"
+      },
+      {
+        "displayOrder": 2,
+        "label": "Bore x Stroke",
+        "name": "bore_x_stroke",
+        "tip": "",
+        "value": "88 mm x 64 mm"
+      },
+      {
+        "displayOrder": 3,
+        "label": "Displacement",
+        "name": "displacement",
+        "tip": "",
+        "value": "389 cm<sup>3</sup>"
+      },
+      {
+        "displayOrder": 4,
+        "label": "Net Power Output*",
+        "name": "net_power_output_",
+        "tip": "",
+        "value": "10.2 HP (7.6 kW) @ 3,600 rpm"
+      },
+      {
+        "displayOrder": 5,
+        "label": "Net Torque",
+        "name": "net_torque",
+        "tip": "",
+        "value": "17.8 lb-ft (24.2 Nm) @ 2,500 rpm"
+      },
+      {
+        "displayOrder": 6,
+        "label": "PTO Shaft Rotation",
+        "name": "pto_shaft_rotation",
+        "tip": "",
+        "value": "Counterclockwise (from PTO shaft side)"
+      },
+      {
+        "displayOrder": 7,
+        "label": "Compression Ratio",
+        "name": "compression_ratio",
+        "tip": "",
+        "value": "7.7:1"
+      },
+      {
+        "displayOrder": 8,
+        "label": "Fuel Tank Capacity",
+        "name": "fuel_tank_capacity",
+        "tip": "",
+        "value": "2.1 litres (2.2 U.S. qts)"
+      },
+      {
+        "displayOrder": 9,
+        "label": "Lamp/Charge coil options",
+        "name": "lamp_charge_coil_options",
+        "tip": "",
+        "value": "3A / 1A, 3A, 10A"
+      },
+      {
+        "displayOrder": 10,
+        "label": "Carburetor",
+        "name": "carburetor",
+        "tip": "",
+        "value": "Float Type"
+      },
+      {
+        "displayOrder": 11,
+        "label": "Ignition System",
+        "name": "ignition_system",
+        "tip": "",
+        "value": "Transistorized magneto"
+      },
+      {
+        "displayOrder": 12,
+        "label": "Starting System",
+        "name": "starting_system",
+        "tip": "",
+        "value": "Recoil/electric"
+      },
+      {
+        "displayOrder": 13,
+        "label": "Lubrication System",
+        "name": "lubrication_system",
+        "tip": "",
+        "value": "Pressure and splash"
+      },
+      {
+        "displayOrder": 14,
+        "label": "Governor System",
+        "name": "governor_system",
+        "tip": "",
+        "value": "Centrifugal mechanical"
+      },
+      {
+        "displayOrder": 15,
+        "label": "Air Cleaner",
+        "name": "air_cleaner",
+        "tip": "",
+        "value": "Dual element"
+      },
+      {
+        "displayOrder": 16,
+        "label": "Oil Capacity",
+        "name": "oil_capacity",
+        "tip": "",
+        "value": "1.1 litres (1.2 U.S. qts)"
+      },
+      {
+        "displayOrder": 17,
+        "label": "Fuel",
+        "name": "fuel",
+        "tip": "",
+        "value": "Unleaded 86 octane or higher"
+      },
+      {
+        "displayOrder": 18,
+        "label": "Dry Weight",
+        "name": "dry_weight",
+        "tip": "",
+        "value": "33.3 kg (76.3 lbs)"
+      }
+    ]
+  },
+  {
+    "trimId": 12105,
+    "displayOrder": 1,
+    "label": "SPECIFICATIONS",
+    "name": "specifications",
+    "specs": [
+      {
+        "displayOrder": 1,
+        "label": "Engine Type",
+        "name": "engine_type",
+        "tip": "",
+        "value": "Air-cooled 4-stroke OHV"
+      },
+      {
+        "displayOrder": 2,
+        "label": "Bore x Stroke",
+        "name": "bore_x_stroke",
+        "tip": "",
+        "value": "78 mm x 72 mm"
+      },
+      {
+        "displayOrder": 3,
+        "label": "Displacement",
+        "name": "displacement",
+        "tip": "",
+        "value": "688 cm<sup>3</sup>"
+      },
+      {
+        "displayOrder": 4,
+        "label": "Net Power Output*",
+        "name": "net_power_output_",
+        "tip": "",
+        "value": "21.5 hp (16.0 kW) @ 3,600 rpm"
+      },
+      {
+        "displayOrder": 5,
+        "label": "Net Torque",
+        "name": "net_torque",
+        "tip": "",
+        "value": "35.6 lbs ft (48.3 Nm) @ 2,500 rpm"
+      },
+      {
+        "displayOrder": 6,
+        "label": "PTO Shaft Rotation",
+        "name": "pto_shaft_rotation",
+        "tip": "",
+        "value": "Counterclockwise (from PTO shaft side)"
+      },
+      {
+        "displayOrder": 7,
+        "label": "Compression Ratio",
+        "name": "compression_ratio",
+        "tip": "",
+        "value": "9.3:1"
+      },
+      {
+        "displayOrder": 8,
+        "label": "Fuel Tank Capacity",
+        "name": "fuel_tank_capacity",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 9,
+        "label": "Lamp/Charge coil options",
+        "name": "lamp_charge_coil_options",
+        "tip": "",
+        "value": "2.7A, 17A, 26A"
+      },
+      {
+        "displayOrder": 9,
+        "label": "Carburetor",
+        "name": "carburetor",
+        "tip": "",
+        "value": "Horizontal type, two barrel butterfly valve, internal vent"
+      },
+      {
+        "displayOrder": 12,
+        "label": "Ignition System",
+        "name": "ignition_system",
+        "tip": "",
+        "value": "Digital CDI with variable ignition timing"
+      },
+      {
+        "displayOrder": 13,
+        "label": "Starting System",
+        "name": "starting_system",
+        "tip": "",
+        "value": "Electric"
+      },
+      {
+        "displayOrder": 14,
+        "label": "Lubrication System",
+        "name": "lubrication_system",
+        "tip": "",
+        "value": "Forced lubrication"
+      },
+      {
+        "displayOrder": 15,
+        "label": "Governor System",
+        "name": "governor_system",
+        "tip": "",
+        "value": "Mechanical"
+      },
+      {
+        "displayOrder": 16,
+        "label": "Air Cleaner",
+        "name": "air_cleaner",
+        "tip": "",
+        "value": "Dual element"
+      },
+      {
+        "displayOrder": 17,
+        "label": "Oil Capacity",
+        "name": "oil_capacity",
+        "tip": "",
+        "value": "1.9 litres (2.0 U.S. qts)"
+      },
+      {
+        "displayOrder": 19,
+        "label": "Fuel",
+        "name": "fuel",
+        "tip": "",
+        "value": "Unleaded 86 octane or higher"
+      },
+      {
+        "displayOrder": 20,
+        "label": "Dry Weight",
+        "name": "dry_weight",
+        "tip": "",
+        "value": "44 kg (96.8 lbs)"
+      }
+    ]
+  },
+  {
+    "trimId": 12107,
+    "displayOrder": 1,
+    "label": "SPECIFICATIONS",
+    "name": "specifications",
+    "specs": [
+      {
+        "displayOrder": 1,
+        "label": "Engine Type",
+        "name": "engine_type",
+        "tip": "",
+        "value": "Air-cooled 4-stroke OHV"
+      },
+      {
+        "displayOrder": 2,
+        "label": "Bore x Stroke",
+        "name": "bore_x_stroke",
+        "tip": "",
+        "value": "78 mm x 72 mm"
+      },
+      {
+        "displayOrder": 3,
+        "label": "Displacement",
+        "name": "displacement",
+        "tip": "",
+        "value": "688 cm<sup>3</sup>"
+      },
+      {
+        "displayOrder": 4,
+        "label": "Net Power Output*",
+        "name": "net_power_output_",
+        "tip": "",
+        "value": "20.8 hp (15.5 kW) @ 3,600 rpm"
+      },
+      {
+        "displayOrder": 5,
+        "label": "Net Torque",
+        "name": "net_torque",
+        "tip": "",
+        "value": "35.6 lbs ft (48.3 Nm) @ 2,500 rpm"
+      },
+      {
+        "displayOrder": 6,
+        "label": "PTO Shaft Rotation",
+        "name": "pto_shaft_rotation",
+        "tip": "",
+        "value": "Counterclockwise (from PTO shaft side)"
+      },
+      {
+        "displayOrder": 7,
+        "label": "Compression Ratio",
+        "name": "compression_ratio",
+        "tip": "",
+        "value": "9.3:1"
+      },
+      {
+        "displayOrder": 8,
+        "label": "Fuel Tank Capacity",
+        "name": "fuel_tank_capacity",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 9,
+        "label": "Lamp/Charge coil options",
+        "name": "lamp_charge_coil_options",
+        "tip": "",
+        "value": "2.7A, 17A, 26A"
+      },
+      {
+        "displayOrder": 9,
+        "label": "Carburetor",
+        "name": "carburetor",
+        "tip": "",
+        "value": "Horizontal type, two barrel butterfly valve, internal vent"
+      },
+      {
+        "displayOrder": 12,
+        "label": "Ignition System",
+        "name": "ignition_system",
+        "tip": "",
+        "value": "Digital CDI with variable ignition timing"
+      },
+      {
+        "displayOrder": 13,
+        "label": "Starting System",
+        "name": "starting_system",
+        "tip": "",
+        "value": "Electric"
+      },
+      {
+        "displayOrder": 14,
+        "label": "Lubrication System",
+        "name": "lubrication_system",
+        "tip": "",
+        "value": "Forced lubrication"
+      },
+      {
+        "displayOrder": 15,
+        "label": "Governor System",
+        "name": "governor_system",
+        "tip": "",
+        "value": "Mechanical"
+      },
+      {
+        "displayOrder": 16,
+        "label": "Air Cleaner",
+        "name": "air_cleaner",
+        "tip": "",
+        "value": "Dual element"
+      },
+      {
+        "displayOrder": 17,
+        "label": "Oil Capacity",
+        "name": "oil_capacity",
+        "tip": "",
+        "value": "2.0 litres (2.3 U.S. qts)"
+      },
+      {
+        "displayOrder": 19,
+        "label": "Fuel",
+        "name": "fuel",
+        "tip": "",
+        "value": "Unleaded 86 octane or higher"
+      },
+      {
+        "displayOrder": 20,
+        "label": "Dry Weight",
+        "name": "dry_weight",
+        "tip": "",
+        "value": "44.7 kg (98.3 lbs)"
+      }
+    ]
+  },
+  {
+    "trimId": 12108,
+    "displayOrder": 1,
+    "label": "SPECIFICATIONS",
+    "name": "specifications",
+    "specs": [
+      {
+        "displayOrder": 1,
+        "label": "Engine Type",
+        "name": "engine_type",
+        "tip": "",
+        "value": "Air-cooled 4-stroke OHV"
+      },
+      {
+        "displayOrder": 2,
+        "label": "Bore x Stroke",
+        "name": "bore_x_stroke",
+        "tip": "",
+        "value": "78 mm x 72 mm"
+      },
+      {
+        "displayOrder": 3,
+        "label": "Displacement",
+        "name": "displacement",
+        "tip": "",
+        "value": "688 cm<sup>3</sup>"
+      },
+      {
+        "displayOrder": 4,
+        "label": "Net Power Output*",
+        "name": "net_power_output_",
+        "tip": "",
+        "value": "21.5 hp (16.0 kW) @ 3,600 rpm"
+      },
+      {
+        "displayOrder": 5,
+        "label": "Net Torque",
+        "name": "net_torque",
+        "tip": "",
+        "value": "35.6 lbs ft (48.3 Nm) @ 2,500 rpm"
+      },
+      {
+        "displayOrder": 6,
+        "label": "PTO Shaft Rotation",
+        "name": "pto_shaft_rotation",
+        "tip": "",
+        "value": "Counterclockwise (from PTO shaft side)"
+      },
+      {
+        "displayOrder": 7,
+        "label": "Compression Ratio",
+        "name": "compression_ratio",
+        "tip": "",
+        "value": "9.3:1"
+      },
+      {
+        "displayOrder": 8,
+        "label": "Fuel Tank Capacity",
+        "name": "fuel_tank_capacity",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 9,
+        "label": "Lamp/Charge coil options",
+        "name": "lamp_charge_coil_options",
+        "tip": "",
+        "value": "2.7A, 17A, 26A"
+      },
+      {
+        "displayOrder": 9,
+        "label": "Carburetor",
+        "name": "carburetor",
+        "tip": "",
+        "value": "Horizontal type, two barrel butterfly valve, internal vent"
+      },
+      {
+        "displayOrder": 12,
+        "label": "Ignition System",
+        "name": "ignition_system",
+        "tip": "",
+        "value": "Digital CDI with variable ignition timing"
+      },
+      {
+        "displayOrder": 13,
+        "label": "Starting System",
+        "name": "starting_system",
+        "tip": "",
+        "value": "Electric"
+      },
+      {
+        "displayOrder": 14,
+        "label": "Lubrication System",
+        "name": "lubrication_system",
+        "tip": "",
+        "value": "Forced lubrication"
+      },
+      {
+        "displayOrder": 15,
+        "label": "Governor System",
+        "name": "governor_system",
+        "tip": "",
+        "value": "Mechanical"
+      },
+      {
+        "displayOrder": 16,
+        "label": "Air Cleaner",
+        "name": "air_cleaner",
+        "tip": "",
+        "value": "Dual element"
+      },
+      {
+        "displayOrder": 17,
+        "label": "Oil Capacity",
+        "name": "oil_capacity",
+        "tip": "",
+        "value": "1.9 litres (2.0 U.S. qts)"
+      },
+      {
+        "displayOrder": 19,
+        "label": "Fuel",
+        "name": "fuel",
+        "tip": "",
+        "value": "Unleaded 86 octane or higher"
+      },
+      {
+        "displayOrder": 20,
+        "label": "Dry Weight",
+        "name": "dry_weight",
+        "tip": "",
+        "value": "44 kg (96.8 lbs)"
+      }
+    ]
+  },
+  {
+    "trimId": 12109,
+    "displayOrder": 1,
+    "label": "SPECIFICATIONS",
+    "name": "specifications",
+    "specs": [
+      {
+        "displayOrder": 1,
+        "label": "Engine Type",
+        "name": "engine_type",
+        "tip": "",
+        "value": "Air-cooled 4-stroke OHV"
+      },
+      {
+        "displayOrder": 2,
+        "label": "Bore x Stroke",
+        "name": "bore_x_stroke",
+        "tip": "",
+        "value": "78 mm x 72 mm"
+      },
+      {
+        "displayOrder": 3,
+        "label": "Displacement",
+        "name": "displacement",
+        "tip": "",
+        "value": "688 cm<sup>3</sup>"
+      },
+      {
+        "displayOrder": 4,
+        "label": "Net Power Output*",
+        "name": "net_power_output_",
+        "tip": "",
+        "value": "22.1 hp (16.5 kW) @ 3,600 rpm"
+      },
+      {
+        "displayOrder": 5,
+        "label": "Net Torque",
+        "name": "net_torque",
+        "tip": "",
+        "value": "35.6 lbs ft (48.3 Nm) @ 2,500 rpm"
+      },
+      {
+        "displayOrder": 6,
+        "label": "PTO Shaft Rotation",
+        "name": "pto_shaft_rotation",
+        "tip": "",
+        "value": "Counterclockwise (from PTO shaft side)"
+      },
+      {
+        "displayOrder": 7,
+        "label": "Compression Ratio",
+        "name": "compression_ratio",
+        "tip": "",
+        "value": "9.3:1"
+      },
+      {
+        "displayOrder": 8,
+        "label": "Fuel Tank Capacity",
+        "name": "fuel_tank_capacity",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 9,
+        "label": "Lamp/Charge coil options",
+        "name": "lamp_charge_coil_options",
+        "tip": "",
+        "value": "2.7A, 17A, 26A"
+      },
+      {
+        "displayOrder": 9,
+        "label": "Carburetor",
+        "name": "carburetor",
+        "tip": "",
+        "value": "Horizontal type, two barrel butterfly valve, internal vent"
+      },
+      {
+        "displayOrder": 12,
+        "label": "Ignition System",
+        "name": "ignition_system",
+        "tip": "",
+        "value": "Digital CDI with variable ignition timing"
+      },
+      {
+        "displayOrder": 13,
+        "label": "Starting System",
+        "name": "starting_system",
+        "tip": "",
+        "value": "Electric"
+      },
+      {
+        "displayOrder": 14,
+        "label": "Lubrication System",
+        "name": "lubrication_system",
+        "tip": "",
+        "value": "Forced lubrication"
+      },
+      {
+        "displayOrder": 15,
+        "label": "Governor System",
+        "name": "governor_system",
+        "tip": "",
+        "value": "Mechanical"
+      },
+      {
+        "displayOrder": 16,
+        "label": "Air Cleaner",
+        "name": "air_cleaner",
+        "tip": "",
+        "value": "Dual element"
+      },
+      {
+        "displayOrder": 17,
+        "label": "Oil Capacity",
+        "name": "oil_capacity",
+        "tip": "",
+        "value": "2.2 litres (2.3 U.S. qts)"
+      },
+      {
+        "displayOrder": 19,
+        "label": "Fuel",
+        "name": "fuel",
+        "tip": "",
+        "value": "Unleaded 86 octane or higher"
+      },
+      {
+        "displayOrder": 20,
+        "label": "Dry Weight",
+        "name": "dry_weight",
+        "tip": "",
+        "value": "44.7 kg (98.3 lbs)"
+      }
+    ]
+  },
+  {
+    "trimId": 12106,
+    "displayOrder": 1,
+    "label": "SPECIFICATIONS",
+    "name": "specifications",
+    "specs": [
+      {
+        "displayOrder": 1,
+        "label": "Engine Type",
+        "name": "engine_type",
+        "tip": "",
+        "value": "Air-cooled 4-stroke OHV"
+      },
+      {
+        "displayOrder": 2,
+        "label": "Bore x Stroke",
+        "name": "bore_x_stroke",
+        "tip": "",
+        "value": "78 mm x 72 mm"
+      },
+      {
+        "displayOrder": 3,
+        "label": "Displacement",
+        "name": "displacement",
+        "tip": "",
+        "value": "688 cm<sup>3</sup>"
+      },
+      {
+        "displayOrder": 4,
+        "label": "Net Power Output*",
+        "name": "net_power_output_",
+        "tip": "",
+        "value": "22.1 hp (16.5 kW) @ 3,600 rpm"
+      },
+      {
+        "displayOrder": 5,
+        "label": "Net Torque",
+        "name": "net_torque",
+        "tip": "",
+        "value": "35.6 lbs ft (48.3 Nm) @ 2,500 rpm"
+      },
+      {
+        "displayOrder": 6,
+        "label": "PTO Shaft Rotation",
+        "name": "pto_shaft_rotation",
+        "tip": "",
+        "value": "Counterclockwise (from PTO shaft side)"
+      },
+      {
+        "displayOrder": 7,
+        "label": "Compression Ratio",
+        "name": "compression_ratio",
+        "tip": "",
+        "value": "9.3:1"
+      },
+      {
+        "displayOrder": 8,
+        "label": "Fuel Tank Capacity",
+        "name": "fuel_tank_capacity",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 9,
+        "label": "Lamp/Charge coil options",
+        "name": "lamp_charge_coil_options",
+        "tip": "",
+        "value": "2.7A, 17A, 26A"
+      },
+      {
+        "displayOrder": 9,
+        "label": "Carburetor",
+        "name": "carburetor",
+        "tip": "",
+        "value": "Horizontal type, two barrel butterfly valve, internal vent"
+      },
+      {
+        "displayOrder": 12,
+        "label": "Ignition System",
+        "name": "ignition_system",
+        "tip": "",
+        "value": "Digital CDI with variable ignition timing"
+      },
+      {
+        "displayOrder": 13,
+        "label": "Starting System",
+        "name": "starting_system",
+        "tip": "",
+        "value": "Electric"
+      },
+      {
+        "displayOrder": 14,
+        "label": "Lubrication System",
+        "name": "lubrication_system",
+        "tip": "",
+        "value": "Forced lubrication"
+      },
+      {
+        "displayOrder": 15,
+        "label": "Governor System",
+        "name": "governor_system",
+        "tip": "",
+        "value": "Mechanical"
+      },
+      {
+        "displayOrder": 16,
+        "label": "Air Cleaner",
+        "name": "air_cleaner",
+        "tip": "",
+        "value": "Dual element"
+      },
+      {
+        "displayOrder": 17,
+        "label": "Oil Capacity",
+        "name": "oil_capacity",
+        "tip": "",
+        "value": "2.0 litres (2.1 U.S. qts)"
+      },
+      {
+        "displayOrder": 19,
+        "label": "Fuel",
+        "name": "fuel",
+        "tip": "",
+        "value": "Unleaded 86 octane or higher"
+      },
+      {
+        "displayOrder": 20,
+        "label": "Dry Weight",
+        "name": "dry_weight",
+        "tip": "",
+        "value": "44 kg (96.8 lbs)"
+      }
+    ]
+  },
+  {
+    "trimId": 12104,
+    "displayOrder": 1,
+    "label": "SPECIFICATIONS",
+    "name": "specifications",
+    "specs": [
+      {
+        "displayOrder": 1,
+        "label": "Engine Type",
+        "name": "engine_type",
+        "tip": "",
+        "value": "Air-cooled 4-stroke OHV"
+      },
+      {
+        "displayOrder": 2,
+        "label": "Bore x Stroke",
+        "name": "bore_x_stroke",
+        "tip": "",
+        "value": "78 mm x 72 mm"
+      },
+      {
+        "displayOrder": 3,
+        "label": "Displacement",
+        "name": "displacement",
+        "tip": "",
+        "value": "688 cm<sup>3</sup>"
+      },
+      {
+        "displayOrder": 4,
+        "label": "Net Power Output*",
+        "name": "net_power_output_",
+        "tip": "",
+        "value": "20.8 hp (15.5 kW) @ 3,600 rpm"
+      },
+      {
+        "displayOrder": 5,
+        "label": "Net Torque",
+        "name": "net_torque",
+        "tip": "",
+        "value": "35.6 lbs ft (48.3 Nm) @2,500 rpm"
+      },
+      {
+        "displayOrder": 6,
+        "label": "PTO Shaft Rotation",
+        "name": "pto_shaft_rotation",
+        "tip": "",
+        "value": "Counterclockwise (from PTO shaft side)"
+      },
+      {
+        "displayOrder": 7,
+        "label": "Compression Ratio",
+        "name": "compression_ratio",
+        "tip": "",
+        "value": "9.3:1"
+      },
+      {
+        "displayOrder": 9,
+        "label": "Lamp/Charge coil options",
+        "name": "lamp_charge_coil_options",
+        "tip": "",
+        "value": "2.7A, 17A, 26A"
+      },
+      {
+        "displayOrder": 9,
+        "label": "Carburetor",
+        "name": "carburetor",
+        "tip": "",
+        "value": "Horizontal type, two barrel butterfly valve, internal vent"
+      },
+      {
+        "displayOrder": 12,
+        "label": "Ignition System",
+        "name": "ignition_system",
+        "tip": "",
+        "value": "Digital CDI with variable ignition timing"
+      },
+      {
+        "displayOrder": 13,
+        "label": "Starting System",
+        "name": "starting_system",
+        "tip": "",
+        "value": "Electric"
+      },
+      {
+        "displayOrder": 14,
+        "label": "Lubrication System",
+        "name": "lubrication_system",
+        "tip": "",
+        "value": "Forced lubrication"
+      },
+      {
+        "displayOrder": 15,
+        "label": "Governor System",
+        "name": "governor_system",
+        "tip": "",
+        "value": "Centrifugal mechanical"
+      },
+      {
+        "displayOrder": 16,
+        "label": "Air Cleaner",
+        "name": "air_cleaner",
+        "tip": "",
+        "value": "Dual element"
+      },
+      {
+        "displayOrder": 17,
+        "label": "Oil Capacity",
+        "name": "oil_capacity",
+        "tip": "",
+        "value": "2.0 litres (2.1 U.S. qts)"
+      },
+      {
+        "displayOrder": 19,
+        "label": "Fuel",
+        "name": "fuel",
+        "tip": "",
+        "value": "Unleaded 86 octane or higher"
+      },
+      {
+        "displayOrder": 20,
+        "label": "Dry Weight",
+        "name": "dry_weight",
+        "tip": "",
+        "value": "44 kg (96.8 lbs)"
+      }
+    ]
+  },
+  {
+    "trimId": 12119,
+    "displayOrder": 1,
+    "label": "SPECIFICATIONS",
+    "name": "specifications",
+    "specs": [
+      {
+        "displayOrder": 1,
+        "label": "Engine Type",
+        "name": "engine_type",
+        "tip": "",
+        "value": "Air-cooled 4-stroke OHC"
+      },
+      {
+        "displayOrder": 2,
+        "label": "Bore x Stroke",
+        "name": "bore_x_stroke",
+        "tip": "",
+        "value": "43 mm x 33 mm"
+      },
+      {
+        "displayOrder": 3,
+        "label": "Displacement",
+        "name": "displacement",
+        "tip": "",
+        "value": "47.9 cm<sup>3</sup>"
+      },
+      {
+        "displayOrder": 4,
+        "label": "Net Power Output*",
+        "name": "net_power_output_",
+        "tip": "",
+        "value": "2.0 HP (1.47 kW) @ 7,000 rpm"
+      },
+      {
+        "displayOrder": 5,
+        "label": "Net Torque",
+        "name": "net_torque",
+        "tip": "",
+        "value": "1.6 lbf-ft (2.2 N-m) @ 5,500 rpm"
+      },
+      {
+        "displayOrder": 6,
+        "label": "PTO Shaft Rotation",
+        "name": "pto_shaft_rotation",
+        "tip": "",
+        "value": "Counterclockwise (from PTO shaft side)"
+      },
+      {
+        "displayOrder": 7,
+        "label": "Compression Ratio",
+        "name": "compression_ratio",
+        "tip": "",
+        "value": "8.0:1"
+      },
+      {
+        "displayOrder": 8,
+        "label": "Fuel Tank Capacity",
+        "name": "fuel_tank_capacity",
+        "tip": "",
+        "value": "0.63 litres (0.67 U.S. qts)"
+      },
+      {
+        "displayOrder": 9,
+        "label": "Lamp/Charge coil options",
+        "name": "lamp_charge_coil_options",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 10,
+        "label": "Carburetor",
+        "name": "carburetor",
+        "tip": "",
+        "value": "Diaphragm-type (overflow return)"
+      },
+      {
+        "displayOrder": 11,
+        "label": "Ignition System",
+        "name": "ignition_system",
+        "tip": "",
+        "value": "Transistorized magneto"
+      },
+      {
+        "displayOrder": 12,
+        "label": "Starting System",
+        "name": "starting_system",
+        "tip": "",
+        "value": "Recoil"
+      },
+      {
+        "displayOrder": 13,
+        "label": "Lubrication System",
+        "name": "lubrication_system",
+        "tip": "",
+        "value": "Crankcase pressure driven (oil mist)"
+      },
+      {
+        "displayOrder": 14,
+        "label": "Governor System",
+        "name": "governor_system",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 15,
+        "label": "Air Cleaner",
+        "name": "air_cleaner",
+        "tip": "",
+        "value": "Dry paper"
+      },
+      {
+        "displayOrder": 16,
+        "label": "Oil Capacity",
+        "name": "oil_capacity",
+        "tip": "",
+        "value": "130 cc (4.4 U.S. oz)"
+      },
+      {
+        "displayOrder": 17,
+        "label": "Fuel",
+        "name": "fuel",
+        "tip": "",
+        "value": "Unleaded 86 octane or higher"
+      },
+      {
+        "displayOrder": 18,
+        "label": "Dry Weight",
+        "name": "dry_weight",
+        "tip": "",
+        "value": "4.15 kg (9.1 lbs)"
+      }
+    ]
+  },
+  {
+    "trimId": 12123,
+    "displayOrder": 1,
+    "label": "SPECIFICATIONS",
+    "name": "specifications",
+    "specs": [
+      {
+        "displayOrder": 1,
+        "label": "Engine Type",
+        "name": "engine_type",
+        "tip": "",
+        "value": "V-twin, Air-cooled, 4-stroke, OHV"
+      },
+      {
+        "displayOrder": 2,
+        "label": "Bore x Stroke",
+        "name": "bore_x_stroke",
+        "tip": "",
+        "value": "83 mm x 72 mm"
+      },
+      {
+        "displayOrder": 3,
+        "label": "Displacement",
+        "name": "displacement",
+        "tip": "",
+        "value": "779 cm<sup>3</sup> (48 CID)"
+      },
+      {
+        "displayOrder": 4,
+        "label": "Net Power Output*",
+        "name": "net_power_output_",
+        "tip": "",
+        "value": "24.8 HP (18.5 kW) @ 3,600 rpm"
+      },
+      {
+        "displayOrder": 5,
+        "label": "Net Torque",
+        "name": "net_torque",
+        "tip": "",
+        "value": "40.2 lbf-ft (54.5 N-m) @ 2,500 rpm"
+      },
+      {
+        "displayOrder": 6,
+        "label": "PTO Shaft Rotation",
+        "name": "pto_shaft_rotation",
+        "tip": "",
+        "value": "Counterclockwise (from PTO shaft side)"
+      },
+      {
+        "displayOrder": 7,
+        "label": "Compression Ratio",
+        "name": "compression_ratio",
+        "tip": "",
+        "value": "9.1:1"
+      },
+      {
+        "displayOrder": 8,
+        "label": "Fuel Tank Capacity",
+        "name": "fuel_tank_capacity",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 9,
+        "label": "Lamp/Charge coil options",
+        "name": "lamp_charge_coil_options",
+        "tip": "",
+        "value": "17A"
+      },
+      {
+        "displayOrder": 10,
+        "label": "Fuel System",
+        "name": "fuel_system",
+        "tip": "",
+        "value": "Electronic Fuel Injection"
+      },
+      {
+        "displayOrder": 11,
+        "label": "Throttle Control",
+        "name": "throttle_control",
+        "tip": "",
+        "value": "Electric"
+      },
+      {
+        "displayOrder": 12,
+        "label": "Ignition System",
+        "name": "ignition_system",
+        "tip": "",
+        "value": "Digital CDI with variable ignition timing"
+      },
+      {
+        "displayOrder": 13,
+        "label": "Starting System",
+        "name": "starting_system",
+        "tip": "",
+        "value": "Electric"
+      },
+      {
+        "displayOrder": 14,
+        "label": "Lubrication System",
+        "name": "lubrication_system",
+        "tip": "",
+        "value": "Full Pressure"
+      },
+      {
+        "displayOrder": 15,
+        "label": "Governor System",
+        "name": "governor_system",
+        "tip": "",
+        "value": "Electronic Governor (STR - Self Tuning Regulator)"
+      },
+      {
+        "displayOrder": 16,
+        "label": "Air Cleaner",
+        "name": "air_cleaner",
+        "tip": "",
+        "value": "Dual element (foam pre-cleaner & paper air cleaner)"
+      },
+      {
+        "displayOrder": 17,
+        "label": "Oil Capacity",
+        "name": "oil_capacity",
+        "tip": "",
+        "value": "2.0 litres (2.1 US qts.)"
+      },
+      {
+        "displayOrder": 18,
+        "label": "Oil Filter",
+        "name": "oil_filter",
+        "tip": "",
+        "value": "Automotive Spin-On Style"
+      },
+      {
+        "displayOrder": 19,
+        "label": "Fuel",
+        "name": "fuel",
+        "tip": "",
+        "value": "Unleaded 86 octane or higher"
+      },
+      {
+        "displayOrder": 20,
+        "label": "Dry Weight",
+        "name": "dry_weight",
+        "tip": "",
+        "value": "50.3 kg (110.9 lb)"
+      }
+    ]
+  },
+  {
+    "trimId": 12122,
+    "displayOrder": 1,
+    "label": "SPECIFICATIONS",
+    "name": "specifications",
+    "specs": [
+      {
+        "displayOrder": 1,
+        "label": "Engine Type",
+        "name": "engine_type",
+        "tip": "",
+        "value": "V-twin, Air-cooled, 4-stroke, OHV"
+      },
+      {
+        "displayOrder": 2,
+        "label": "Bore x Stroke",
+        "name": "bore_x_stroke",
+        "tip": "",
+        "value": "78 mm x 72 mm"
+      },
+      {
+        "displayOrder": 3,
+        "label": "Displacement",
+        "name": "displacement",
+        "tip": "",
+        "value": "688 cm<sup>3</sup> (42 CID)"
+      },
+      {
+        "displayOrder": 4,
+        "label": "Net Power Output*",
+        "name": "net_power_output_",
+        "tip": "",
+        "value": "22.1 HP (16.5 kW) @ 3,600 rpm"
+      },
+      {
+        "displayOrder": 5,
+        "label": "Net Torque",
+        "name": "net_torque",
+        "tip": "",
+        "value": "35.6 lbf-ft (48.3 N-m) @ 2,500 rpm"
+      },
+      {
+        "displayOrder": 6,
+        "label": "PTO Shaft Rotation",
+        "name": "pto_shaft_rotation",
+        "tip": "",
+        "value": "Counterclockwise (from PTO shaft side)"
+      },
+      {
+        "displayOrder": 7,
+        "label": "Compression Ratio",
+        "name": "compression_ratio",
+        "tip": "",
+        "value": "9.3:1"
+      },
+      {
+        "displayOrder": 8,
+        "label": "Fuel Tank Capacity",
+        "name": "fuel_tank_capacity",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 9,
+        "label": "Lamp/Charge coil options",
+        "name": "lamp_charge_coil_options",
+        "tip": "",
+        "value": "17A"
+      },
+      {
+        "displayOrder": 10,
+        "label": "Fuel System",
+        "name": "fuel_system",
+        "tip": "",
+        "value": "Electronic Fuel Injection"
+      },
+      {
+        "displayOrder": 11,
+        "label": "Throttle Control",
+        "name": "throttle_control",
+        "tip": "",
+        "value": "Electric"
+      },
+      {
+        "displayOrder": 12,
+        "label": "Ignition System",
+        "name": "ignition_system",
+        "tip": "",
+        "value": "Digital CDI with variable ignition timing"
+      },
+      {
+        "displayOrder": 13,
+        "label": "Starting System",
+        "name": "starting_system",
+        "tip": "",
+        "value": "Electric"
+      },
+      {
+        "displayOrder": 14,
+        "label": "Lubrication System",
+        "name": "lubrication_system",
+        "tip": "",
+        "value": "Full Pressure"
+      },
+      {
+        "displayOrder": 15,
+        "label": "Governor System",
+        "name": "governor_system",
+        "tip": "",
+        "value": "Electronic Governor (STR - Self Tuning Regulator)"
+      },
+      {
+        "displayOrder": 16,
+        "label": "Air Cleaner",
+        "name": "air_cleaner",
+        "tip": "",
+        "value": "Dual element (foam pre-cleaner & paper air cleaner)"
+      },
+      {
+        "displayOrder": 17,
+        "label": "Oil Capacity",
+        "name": "oil_capacity",
+        "tip": "",
+        "value": "2.0 litres (2.1 US qts.)"
+      },
+      {
+        "displayOrder": 18,
+        "label": "Oil Filter",
+        "name": "oil_filter",
+        "tip": "",
+        "value": "Automotive Spin-On Style"
+      },
+      {
+        "displayOrder": 19,
+        "label": "Fuel",
+        "name": "fuel",
+        "tip": "",
+        "value": "Unleaded 86 octane or higher"
+      },
+      {
+        "displayOrder": 20,
+        "label": "Dry Weight",
+        "name": "dry_weight",
+        "tip": "",
+        "value": "49.9 kg (110.0 lb)"
+      }
+    ]
+  },
+  {
+    "trimId": 12120,
+    "displayOrder": 1,
+    "label": "SPECIFICATIONS",
+    "name": "specifications",
+    "specs": [
+      {
+        "displayOrder": 1,
+        "label": "Engine Type",
+        "name": "engine_type",
+        "tip": "",
+        "value": "V-twin, Air-cooled, 4-stroke, OHV"
+      },
+      {
+        "displayOrder": 2,
+        "label": "Bore x Stroke",
+        "name": "bore_x_stroke",
+        "tip": "",
+        "value": "78 mm x 72 mm"
+      },
+      {
+        "displayOrder": 3,
+        "label": "Displacement",
+        "name": "displacement",
+        "tip": "",
+        "value": "688 cm<sup>3</sup> (42 CID)"
+      },
+      {
+        "displayOrder": 4,
+        "label": "Net Power Output*",
+        "name": "net_power_output_",
+        "tip": "",
+        "value": "22.1 HP (16.5 kW) @ 3,600 rpm"
+      },
+      {
+        "displayOrder": 5,
+        "label": "Net Torque",
+        "name": "net_torque",
+        "tip": "",
+        "value": "35.6 lbf-ft (48.3 N-m) @ 2,500 rpm"
+      },
+      {
+        "displayOrder": 6,
+        "label": "PTO Shaft Rotation",
+        "name": "pto_shaft_rotation",
+        "tip": "",
+        "value": "Counterclockwise (from PTO shaft side)"
+      },
+      {
+        "displayOrder": 7,
+        "label": "Compression Ratio",
+        "name": "compression_ratio",
+        "tip": "",
+        "value": "9.3:1"
+      },
+      {
+        "displayOrder": 8,
+        "label": "Fuel Tank Capacity",
+        "name": "fuel_tank_capacity",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 9,
+        "label": "Lamp/Charge coil options",
+        "name": "lamp_charge_coil_options",
+        "tip": "",
+        "value": "17A, 26A"
+      },
+      {
+        "displayOrder": 10,
+        "label": "Fuel System",
+        "name": "fuel_system",
+        "tip": "",
+        "value": "Electronic Fuel Injection"
+      },
+      {
+        "displayOrder": 11,
+        "label": "Throttle Control",
+        "name": "throttle_control",
+        "tip": "",
+        "value": "Electric"
+      },
+      {
+        "displayOrder": 12,
+        "label": "Ignition System",
+        "name": "ignition_system",
+        "tip": "",
+        "value": "Digital CDI with variable ignition timing"
+      },
+      {
+        "displayOrder": 13,
+        "label": "Starting System",
+        "name": "starting_system",
+        "tip": "",
+        "value": "Electric"
+      },
+      {
+        "displayOrder": 14,
+        "label": "Lubrication System",
+        "name": "lubrication_system",
+        "tip": "",
+        "value": "Full Pressure"
+      },
+      {
+        "displayOrder": 15,
+        "label": "Governor System",
+        "name": "governor_system",
+        "tip": "",
+        "value": "Electronic Governor (STR - Self Tuning Regulator)"
+      },
+      {
+        "displayOrder": 16,
+        "label": "Air Cleaner",
+        "name": "air_cleaner",
+        "tip": "",
+        "value": "Dual element (foam pre-cleaner & paper air cleaner)"
+      },
+      {
+        "displayOrder": 17,
+        "label": "Oil Capacity",
+        "name": "oil_capacity",
+        "tip": "",
+        "value": "2.0 litres (2.1 US qts.)"
+      },
+      {
+        "displayOrder": 18,
+        "label": "Oil Filter",
+        "name": "oil_filter",
+        "tip": "",
+        "value": "Automotive Spin-On Style"
+      },
+      {
+        "displayOrder": 19,
+        "label": "Fuel",
+        "name": "fuel",
+        "tip": "",
+        "value": "Unleaded 86 octane or higher"
+      },
+      {
+        "displayOrder": 20,
+        "label": "Dry Weight",
+        "name": "dry_weight",
+        "tip": "",
+        "value": "47.5 kg (104.7 lb)"
+      }
+    ]
+  },
+  {
+    "trimId": 12121,
+    "displayOrder": 1,
+    "label": "SPECIFICATIONS",
+    "name": "specifications",
+    "specs": [
+      {
+        "displayOrder": 1,
+        "label": "Engine Type",
+        "name": "engine_type",
+        "tip": "",
+        "value": "V-twin, Air-cooled, 4-stroke, OHV"
+      },
+      {
+        "displayOrder": 2,
+        "label": "Bore x Stroke",
+        "name": "bore_x_stroke",
+        "tip": "",
+        "value": "83 mm x 72 mm"
+      },
+      {
+        "displayOrder": 3,
+        "label": "Displacement",
+        "name": "displacement",
+        "tip": "",
+        "value": "779 cm<sup>3</sup> (48 CID)"
+      },
+      {
+        "displayOrder": 4,
+        "label": "Net Power Output*",
+        "name": "net_power_output_",
+        "tip": "",
+        "value": "24.8 HP (18.5 kW) @ 3,600 rpm"
+      },
+      {
+        "displayOrder": 5,
+        "label": "Net Torque",
+        "name": "net_torque",
+        "tip": "",
+        "value": "40.2 lbf-ft (54.5 N-m) @ 2,500 rpm"
+      },
+      {
+        "displayOrder": 6,
+        "label": "PTO Shaft Rotation",
+        "name": "pto_shaft_rotation",
+        "tip": "",
+        "value": "Counterclockwise (from PTO shaft side)"
+      },
+      {
+        "displayOrder": 7,
+        "label": "Compression Ratio",
+        "name": "compression_ratio",
+        "tip": "",
+        "value": "9.1:1"
+      },
+      {
+        "displayOrder": 8,
+        "label": "Fuel Tank Capacity",
+        "name": "fuel_tank_capacity",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 9,
+        "label": "Lamp/Charge coil options",
+        "name": "lamp_charge_coil_options",
+        "tip": "",
+        "value": "5A, 17A, 26A"
+      },
+      {
+        "displayOrder": 10,
+        "label": "Fuel System",
+        "name": "fuel_system",
+        "tip": "",
+        "value": "Electronic Fuel Injection"
+      },
+      {
+        "displayOrder": 11,
+        "label": "Throttle Control",
+        "name": "throttle_control",
+        "tip": "",
+        "value": "Electric"
+      },
+      {
+        "displayOrder": 12,
+        "label": "Ignition System",
+        "name": "ignition_system",
+        "tip": "",
+        "value": "Digital CDI with variable ignition timing"
+      },
+      {
+        "displayOrder": 13,
+        "label": "Starting System",
+        "name": "starting_system",
+        "tip": "",
+        "value": "Electric"
+      },
+      {
+        "displayOrder": 14,
+        "label": "Lubrication System",
+        "name": "lubrication_system",
+        "tip": "",
+        "value": "Full Pressure"
+      },
+      {
+        "displayOrder": 15,
+        "label": "Governor System",
+        "name": "governor_system",
+        "tip": "",
+        "value": "Electronic Governor (STR - Self Tuning Regulator)"
+      },
+      {
+        "displayOrder": 16,
+        "label": "Air Cleaner",
+        "name": "air_cleaner",
+        "tip": "",
+        "value": "Dual element (foam pre-cleaner & paper air cleaner)"
+      },
+      {
+        "displayOrder": 17,
+        "label": "Oil Capacity",
+        "name": "oil_capacity",
+        "tip": "",
+        "value": "2.0 litres (2.1 US qts.)"
+      },
+      {
+        "displayOrder": 18,
+        "label": "Oil Filter",
+        "name": "oil_filter",
+        "tip": "",
+        "value": "Automotive Spin-On Style"
+      },
+      {
+        "displayOrder": 19,
+        "label": "Fuel",
+        "name": "fuel",
+        "tip": "",
+        "value": "Unleaded 86 octane or higher"
+      },
+      {
+        "displayOrder": 20,
+        "label": "Dry Weight",
+        "name": "dry_weight",
+        "tip": "",
+        "value": "48.2 kg (106.3 lb)"
+      }
+    ]
+  },
+  {
+    "trimId": 12124,
+    "displayOrder": 1,
+    "label": "SPECIFICATIONS",
+    "name": "specifications",
+    "specs": [
+      {
+        "displayOrder": 1,
+        "label": "Engine Type",
+        "name": "engine_type",
+        "tip": "",
+        "value": "Air-cooled 4-stroke OHC"
+      },
+      {
+        "displayOrder": 2,
+        "label": "Bore x Stroke",
+        "name": "bore_x_stroke",
+        "tip": "",
+        "value": "64 mm x 50 mm"
+      },
+      {
+        "displayOrder": 3,
+        "label": "Displacement",
+        "name": "displacement",
+        "tip": "",
+        "value": "160 cm<sup>3</sup>"
+      },
+      {
+        "displayOrder": 4,
+        "label": "Net Power Output*",
+        "name": "net_power_output_",
+        "tip": "",
+        "value": "4.6 HP (3.4 kW) @ 3,600 rpm"
+      },
+      {
+        "displayOrder": 5,
+        "label": "Net Torque",
+        "name": "net_torque",
+        "tip": "",
+        "value": "6.9 lb-ft (9.4 Nm) @ 2,500 rpm"
+      },
+      {
+        "displayOrder": 6,
+        "label": "PTO Shaft Rotation",
+        "name": "pto_shaft_rotation",
+        "tip": "",
+        "value": "Counterclockwise (from PTO shaft side)"
+      },
+      {
+        "displayOrder": 7,
+        "label": "Compression Ratio",
+        "name": "compression_ratio",
+        "tip": "",
+        "value": "8.5:1"
+      },
+      {
+        "displayOrder": 8,
+        "label": "Fuel Tank Capacity",
+        "name": "fuel_tank_capacity",
+        "tip": "",
+        "value": "1.8 litres (1.9 U.S. qts)"
+      },
+      {
+        "displayOrder": 9,
+        "label": "Carburetor",
+        "name": "carburetor",
+        "tip": "",
+        "value": "Horizontal type butterfly valve"
+      },
+      {
+        "displayOrder": 10,
+        "label": "Ignition System",
+        "name": "ignition_system",
+        "tip": "",
+        "value": "Transistorized magneto"
+      },
+      {
+        "displayOrder": 11,
+        "label": "Starting System",
+        "name": "starting_system",
+        "tip": "",
+        "value": "Recoil/electric"
+      },
+      {
+        "displayOrder": 12,
+        "label": "Lubrication System",
+        "name": "lubrication_system",
+        "tip": "",
+        "value": "Splash"
+      },
+      {
+        "displayOrder": 13,
+        "label": "Governor System",
+        "name": "governor_system",
+        "tip": "",
+        "value": "Centrifugal mechanical"
+      },
+      {
+        "displayOrder": 14,
+        "label": "Air Cleaner",
+        "name": "air_cleaner",
+        "tip": "",
+        "value": "Dry (paper filter)"
+      },
+      {
+        "displayOrder": 15,
+        "label": "Oil Capacity",
+        "name": "oil_capacity",
+        "tip": "",
+        "value": "0.58 litres (0.61 U.S. qts)"
+      },
+      {
+        "displayOrder": 16,
+        "label": "Fuel",
+        "name": "fuel",
+        "tip": "",
+        "value": "Unleaded 86 octane or higher"
+      },
+      {
+        "displayOrder": 17,
+        "label": "Dry Weight",
+        "name": "dry_weight",
+        "tip": "",
+        "value": "11.5 kg (25.4 lbs)"
+      }
+    ]
+  },
+  {
+    "trimId": 12124,
+    "displayOrder": 2,
+    "label": "DIMENSIONS",
+    "name": "dimensions",
+    "specs": [
+      {
+        "displayOrder": 18,
+        "label": "Length (min)",
+        "name": "length__min_",
+        "tip": "",
+        "value": "337 mm (13.3\")"
+      },
+      {
+        "displayOrder": 19,
+        "label": "Width (min)",
+        "name": "width__min_",
+        "tip": "",
+        "value": "369 mm (14.5\")"
+      },
+      {
+        "displayOrder": 20,
+        "label": "Height (min)",
+        "name": "height__min_",
+        "tip": "",
+        "value": "331 mm (13.0\")"
+      }
+    ]
+  },
+  {
+    "trimId": 12111,
+    "displayOrder": 2,
+    "label": "DIMENSIONS",
+    "name": "dimensions",
+    "specs": [
+      {
+        "displayOrder": 18,
+        "label": "Length (min)",
+        "name": "length__min_",
+        "tip": "",
+        "value": "367 mm (14.4\")"
+      },
+      {
+        "displayOrder": 19,
+        "label": "Width (min)",
+        "name": "width__min_",
+        "tip": "",
+        "value": "331 mm (13.0\")"
+      },
+      {
+        "displayOrder": 20,
+        "label": "Height (min)",
+        "name": "height__min_",
+        "tip": "",
+        "value": "349 mm (13.8\")"
+      }
+    ]
+  },
+  {
+    "trimId": 12110,
+    "displayOrder": 2,
+    "label": "DIMENSIONS",
+    "name": "dimensions",
+    "specs": [
+      {
+        "displayOrder": 18,
+        "label": "Length (min)",
+        "name": "length__min_",
+        "tip": "",
+        "value": "367 mm (14.4\")"
+      },
+      {
+        "displayOrder": 19,
+        "label": "Width (min)",
+        "name": "width__min_",
+        "tip": "",
+        "value": "331 mm (13.0\")"
+      },
+      {
+        "displayOrder": 20,
+        "label": "Height (min)",
+        "name": "height__min_",
+        "tip": "",
+        "value": "347 mm (13.7\")"
+      }
+    ]
+  },
+  {
+    "trimId": 12092,
+    "displayOrder": 2,
+    "label": "DIMENSIONS",
+    "name": "dimensions",
+    "specs": [
+      {
+        "displayOrder": 18,
+        "label": "Length (min)",
+        "name": "length__min_",
+        "tip": "",
+        "value": "345 mm (13.6\")"
+      },
+      {
+        "displayOrder": 19,
+        "label": "Width (min)",
+        "name": "width__min_",
+        "tip": "",
+        "value": "369 mm (14.5\")"
+      },
+      {
+        "displayOrder": 20,
+        "label": "Height (min)",
+        "name": "height__min_",
+        "tip": "",
+        "value": "331 mm (13.0\")"
+      }
+    ]
+  },
+  {
+    "trimId": 12093,
+    "displayOrder": 2,
+    "label": "DIMENSIONS",
+    "name": "dimensions",
+    "specs": [
+      {
+        "displayOrder": 18,
+        "label": "Length (min)",
+        "name": "length__min_",
+        "tip": "",
+        "value": "337 mm (13.3\")"
+      },
+      {
+        "displayOrder": 19,
+        "label": "Width (min)",
+        "name": "width__min_",
+        "tip": "",
+        "value": "369 mm (14.5\")"
+      },
+      {
+        "displayOrder": 20,
+        "label": "Height (min)",
+        "name": "height__min_",
+        "tip": "",
+        "value": "331 mm (13.0\")"
+      }
+    ]
+  },
+  {
+    "trimId": 12112,
+    "displayOrder": 2,
+    "label": "DIMENSIONS",
+    "name": "dimensions",
+    "specs": [
+      {
+        "displayOrder": 19,
+        "label": "Length (min)",
+        "name": "length__min_",
+        "tip": "",
+        "value": "192 mm (7.6\")"
+      },
+      {
+        "displayOrder": 20,
+        "label": "Width (min)",
+        "name": "width__min_",
+        "tip": "",
+        "value": "221 mm (8.7\")"
+      },
+      {
+        "displayOrder": 21,
+        "label": "Height (min)",
+        "name": "height__min_",
+        "tip": "",
+        "value": "230 mm (9.1\")"
+      }
+    ]
+  },
+  {
+    "trimId": 12113,
+    "displayOrder": 2,
+    "label": "DIMENSIONS",
+    "name": "dimensions",
+    "specs": [
+      {
+        "displayOrder": 19,
+        "label": "Length (min)",
+        "name": "length__min_",
+        "tip": "",
+        "value": "204 mm (8.0\")"
+      },
+      {
+        "displayOrder": 20,
+        "label": "Width (min)",
+        "name": "width__min_",
+        "tip": "",
+        "value": "234 mm (9.2\")"
+      },
+      {
+        "displayOrder": 21,
+        "label": "Height (min)",
+        "name": "height__min_",
+        "tip": "",
+        "value": "230 mm (9.4\")"
+      }
+    ]
+  },
+  {
+    "trimId": 12114,
+    "displayOrder": 2,
+    "label": "DIMENSIONS",
+    "name": "dimensions",
+    "specs": [
+      {
+        "displayOrder": 19,
+        "label": "Length (min)",
+        "name": "length__min_",
+        "tip": "",
+        "value": "225 mm (8.9\")"
+      },
+      {
+        "displayOrder": 20,
+        "label": "Width (min)",
+        "name": "width__min_",
+        "tip": "",
+        "value": "274 mm (10.8\")"
+      },
+      {
+        "displayOrder": 21,
+        "label": "Height (min)",
+        "name": "height__min_",
+        "tip": "",
+        "value": "353 mm (13.0\")"
+      }
+    ]
+  },
+  {
+    "trimId": 12115,
+    "displayOrder": 2,
+    "label": "DIMENSIONS",
+    "name": "dimensions",
+    "specs": [
+      {
+        "displayOrder": 19,
+        "label": "Length (min)",
+        "name": "length__min_",
+        "tip": "",
+        "value": "249 mm (9.8\")"
+      },
+      {
+        "displayOrder": 20,
+        "label": "Width (min)",
+        "name": "width__min_",
+        "tip": "",
+        "value": "286 mm (11.3\")"
+      },
+      {
+        "displayOrder": 21,
+        "label": "Height (min)",
+        "name": "height__min_",
+        "tip": "",
+        "value": "198 mm (7.8\")"
+      }
+    ]
+  },
+  {
+    "trimId": 12094,
+    "displayOrder": 2,
+    "label": "DIMENSIONS",
+    "name": "dimensions",
+    "specs": [
+      {
+        "displayOrder": 19,
+        "label": "Length (min)",
+        "name": "length__min_",
+        "tip": "",
+        "value": "295 mm (11.6\")"
+      },
+      {
+        "displayOrder": 20,
+        "label": "Width (min)",
+        "name": "width__min_",
+        "tip": "",
+        "value": "304 mm (12.0\")"
+      },
+      {
+        "displayOrder": 21,
+        "label": "Height (min)",
+        "name": "height__min_",
+        "tip": "",
+        "value": "402 mm (15.8\")"
+      }
+    ]
+  },
+  {
+    "trimId": 12095,
+    "displayOrder": 2,
+    "label": "DIMENSIONS",
+    "name": "dimensions",
+    "specs": [
+      {
+        "displayOrder": 19,
+        "label": "Length (min)",
+        "name": "length__min_",
+        "tip": "",
+        "value": "297 mm (11.7”)"
+      },
+      {
+        "displayOrder": 20,
+        "label": "Width (min)",
+        "name": "width__min_",
+        "tip": "",
+        "value": "346 mm (13.6”)"
+      },
+      {
+        "displayOrder": 21,
+        "label": "Height (min)",
+        "name": "height__min_",
+        "tip": "",
+        "value": "329 mm (13.0”)"
+      }
+    ]
+  },
+  {
+    "trimId": 12096,
+    "displayOrder": 2,
+    "label": "DIMENSIONS",
+    "name": "dimensions",
+    "specs": [
+      {
+        "displayOrder": 19,
+        "label": "Length (min)",
+        "name": "length__min_",
+        "tip": "",
+        "value": "312 mm (12.2\")"
+      },
+      {
+        "displayOrder": 20,
+        "label": "Width (min)",
+        "name": "width__min_",
+        "tip": "",
+        "value": "362 mm (14.3\")"
+      },
+      {
+        "displayOrder": 21,
+        "label": "Height (min)",
+        "name": "height__min_",
+        "tip": "",
+        "value": "346 mm (13.6\")"
+      }
+    ]
+  },
+  {
+    "trimId": 12097,
+    "displayOrder": 2,
+    "label": "DIMENSIONS",
+    "name": "dimensions",
+    "specs": [
+      {
+        "displayOrder": 19,
+        "label": "Length (min)",
+        "name": "length__min_",
+        "tip": "",
+        "value": "321 mm (12.6\")"
+      },
+      {
+        "displayOrder": 20,
+        "label": "Width (min)",
+        "name": "width__min_",
+        "tip": "",
+        "value": "376 mm (14.8\")"
+      },
+      {
+        "displayOrder": 21,
+        "label": "Height (min)",
+        "name": "height__min_",
+        "tip": "",
+        "value": "346 mm (13.6\")"
+      }
+    ]
+  },
+  {
+    "trimId": 12098,
+    "displayOrder": 2,
+    "label": "DIMENSIONS",
+    "name": "dimensions",
+    "specs": [
+      {
+        "displayOrder": 19,
+        "label": "Length (min)",
+        "name": "length__min_",
+        "tip": "",
+        "value": "380 mm (15.0\")"
+      },
+      {
+        "displayOrder": 20,
+        "label": "Width (min)",
+        "name": "width__min_",
+        "tip": "",
+        "value": "429 mm (16.9\")"
+      },
+      {
+        "displayOrder": 21,
+        "label": "Height (min)",
+        "name": "height__min_",
+        "tip": "",
+        "value": "422 mm (16.6\")"
+      }
+    ]
+  },
+  {
+    "trimId": 12099,
+    "displayOrder": 2,
+    "label": "DIMENSIONS",
+    "name": "dimensions",
+    "specs": [
+      {
+        "displayOrder": 19,
+        "label": "Length (min)",
+        "name": "length__min_",
+        "tip": "",
+        "value": "407 mm (16.0\")"
+      },
+      {
+        "displayOrder": 20,
+        "label": "Width (min)",
+        "name": "width__min_",
+        "tip": "",
+        "value": "485 mm (19.1\")"
+      },
+      {
+        "displayOrder": 21,
+        "label": "Height (min)",
+        "name": "height__min_",
+        "tip": "",
+        "value": "449 mm (17.7\")"
+      }
+    ]
+  },
+  {
+    "trimId": 12101,
+    "displayOrder": 2,
+    "label": "DIMENSIONS",
+    "name": "dimensions",
+    "specs": [
+      {
+        "displayOrder": 19,
+        "label": "Length (min)",
+        "name": "length__min_",
+        "tip": "",
+        "value": "367 mm (14.4\")"
+      },
+      {
+        "displayOrder": 20,
+        "label": "Width (min)",
+        "name": "width__min_",
+        "tip": "",
+        "value": "331 mm (13.0\")"
+      },
+      {
+        "displayOrder": 21,
+        "label": "Height (min)",
+        "name": "height__min_",
+        "tip": "",
+        "value": "347 mm (13.7\")"
+      }
+    ]
+  },
+  {
+    "trimId": 12100,
+    "displayOrder": 2,
+    "label": "DIMENSIONS",
+    "name": "dimensions",
+    "specs": [
+      {
+        "displayOrder": 19,
+        "label": "Length (min)",
+        "name": "length__min_",
+        "tip": "",
+        "value": "407 mm (16.0\")"
+      },
+      {
+        "displayOrder": 20,
+        "label": "Width (min)",
+        "name": "width__min_",
+        "tip": "",
+        "value": "485 mm (19.1\")"
+      },
+      {
+        "displayOrder": 21,
+        "label": "Height (min)",
+        "name": "height__min_",
+        "tip": "",
+        "value": "449 mm (17.7\")"
+      }
+    ]
+  },
+  {
+    "trimId": 12102,
+    "displayOrder": 2,
+    "label": "DIMENSIONS",
+    "name": "dimensions",
+    "specs": [
+      {
+        "displayOrder": 19,
+        "label": "Length (min)",
+        "name": "length__min_",
+        "tip": "",
+        "value": "433 mm (17.0\")"
+      },
+      {
+        "displayOrder": 20,
+        "label": "Width (min)",
+        "name": "width__min_",
+        "tip": "",
+        "value": "382 mm (15.0\")"
+      },
+      {
+        "displayOrder": 21,
+        "label": "Height (min)",
+        "name": "height__min_",
+        "tip": "",
+        "value": "406 mm (15.9\")"
+      }
+    ]
+  },
+  {
+    "trimId": 12103,
+    "displayOrder": 2,
+    "label": "DIMENSIONS",
+    "name": "dimensions",
+    "specs": [
+      {
+        "displayOrder": 19,
+        "label": "Length (min)",
+        "name": "length__min_",
+        "tip": "",
+        "value": "433 mm (17.0\")"
+      },
+      {
+        "displayOrder": 20,
+        "label": "Width (min)",
+        "name": "width__min_",
+        "tip": "",
+        "value": "382 mm (15.0\")"
+      },
+      {
+        "displayOrder": 21,
+        "label": "Height (min)",
+        "name": "height__min_",
+        "tip": "",
+        "value": "406 mm (15.9\")"
+      }
+    ]
+  },
+  {
+    "trimId": 12119,
+    "displayOrder": 2,
+    "label": "DIMENSIONS",
+    "name": "dimensions",
+    "specs": [
+      {
+        "displayOrder": 19,
+        "label": "Length (min)",
+        "name": "length__min_",
+        "tip": "",
+        "value": "199 mm (7.8\")"
+      },
+      {
+        "displayOrder": 20,
+        "label": "Width (min)",
+        "name": "width__min_",
+        "tip": "",
+        "value": "260 mm (10.2\")"
+      },
+      {
+        "displayOrder": 21,
+        "label": "Height (min)",
+        "name": "height__min_",
+        "tip": "",
+        "value": "263 mm (10.4\")"
+      }
+    ]
+  },
+  {
+    "trimId": 12093,
+    "displayOrder": 3,
+    "label": "PTO SHAFT OPTIONS",
+    "name": "pto_shaft_options",
+    "specs": [
+      {
+        "displayOrder": 21,
+        "label": "A2 type",
+        "name": "a2_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 22,
+        "label": "AR type",
+        "name": "ar_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 23,
+        "label": "B type",
+        "name": "b_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 24,
+        "label": "D type",
+        "name": "d_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 25,
+        "label": "E type",
+        "name": "e_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 26,
+        "label": "H type",
+        "name": "h_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 27,
+        "label": "K type",
+        "name": "k_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 28,
+        "label": "L type",
+        "name": "l_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 29,
+        "label": "N1 type",
+        "name": "n1_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 30,
+        "label": "N5 type",
+        "name": "n5_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 31,
+        "label": "N7 type",
+        "name": "n7_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 32,
+        "label": "P type",
+        "name": "p_type",
+        "tip": "",
+        "value": "Threaded type (SAE)"
+      },
+      {
+        "displayOrder": 33,
+        "label": "Q type",
+        "name": "q_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 34,
+        "label": "R type",
+        "name": "r_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 35,
+        "label": "S type",
+        "name": "s_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 36,
+        "label": "S3 type",
+        "name": "s3_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 37,
+        "label": "T type",
+        "name": "t_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 38,
+        "label": "V type",
+        "name": "v_type",
+        "tip": "",
+        "value": "Tapered shaft"
+      }
+    ]
+  },
+  {
+    "trimId": 12092,
+    "displayOrder": 3,
+    "label": "PTO SHAFT OPTIONS",
+    "name": "pto_shaft_options",
+    "specs": [
+      {
+        "displayOrder": 21,
+        "label": "A2 type",
+        "name": "a2_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 22,
+        "label": "AR type",
+        "name": "ar_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 23,
+        "label": "B type",
+        "name": "b_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 24,
+        "label": "D type",
+        "name": "d_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 25,
+        "label": "E type",
+        "name": "e_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 26,
+        "label": "H type",
+        "name": "h_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 27,
+        "label": "K type",
+        "name": "k_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 28,
+        "label": "L type",
+        "name": "l_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 29,
+        "label": "N1 type",
+        "name": "n1_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 30,
+        "label": "N5 type",
+        "name": "n5_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 31,
+        "label": "N7 type",
+        "name": "n7_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 32,
+        "label": "P type",
+        "name": "p_type",
+        "tip": "",
+        "value": "Threaded type (SAE)"
+      },
+      {
+        "displayOrder": 33,
+        "label": "Q type",
+        "name": "q_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 34,
+        "label": "R type",
+        "name": "r_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 35,
+        "label": "S type",
+        "name": "s_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 36,
+        "label": "S3 type",
+        "name": "s3_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 37,
+        "label": "T type",
+        "name": "t_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 38,
+        "label": "V type",
+        "name": "v_type",
+        "tip": "",
+        "value": "Tapered shaft"
+      }
+    ]
+  },
+  {
+    "trimId": 12110,
+    "displayOrder": 3,
+    "label": "PTO SHAFT OPTIONS",
+    "name": "pto_shaft_options",
+    "specs": [
+      {
+        "displayOrder": 21,
+        "label": "A2 type",
+        "name": "a2_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 22,
+        "label": "AR type",
+        "name": "ar_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 23,
+        "label": "B type",
+        "name": "b_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 24,
+        "label": "D type",
+        "name": "d_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 25,
+        "label": "E type",
+        "name": "e_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 26,
+        "label": "H type",
+        "name": "h_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 27,
+        "label": "K type",
+        "name": "k_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 28,
+        "label": "L type",
+        "name": "l_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 29,
+        "label": "N1 type",
+        "name": "n1_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 30,
+        "label": "N5 type",
+        "name": "n5_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 31,
+        "label": "N7 type",
+        "name": "n7_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 32,
+        "label": "P type",
+        "name": "p_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 33,
+        "label": "Q type",
+        "name": "q_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 34,
+        "label": "R type",
+        "name": "r_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 35,
+        "label": "S type",
+        "name": "s_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 36,
+        "label": "S3 type",
+        "name": "s3_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 37,
+        "label": "T type",
+        "name": "t_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 38,
+        "label": "V type",
+        "name": "v_type",
+        "tip": "",
+        "value": "N/A"
+      }
+    ]
+  },
+  {
+    "trimId": 12111,
+    "displayOrder": 3,
+    "label": "PTO SHAFT OPTIONS",
+    "name": "pto_shaft_options",
+    "specs": [
+      {
+        "displayOrder": 21,
+        "label": "A2 type",
+        "name": "a2_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 22,
+        "label": "AR type",
+        "name": "ar_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 23,
+        "label": "B type",
+        "name": "b_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 24,
+        "label": "D type",
+        "name": "d_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 25,
+        "label": "E type",
+        "name": "e_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 26,
+        "label": "H type",
+        "name": "h_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 27,
+        "label": "K type",
+        "name": "k_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 28,
+        "label": "L type",
+        "name": "l_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 29,
+        "label": "N1 type",
+        "name": "n1_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 30,
+        "label": "N5 type",
+        "name": "n5_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 31,
+        "label": "N7 type",
+        "name": "n7_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 32,
+        "label": "P type",
+        "name": "p_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 33,
+        "label": "Q type",
+        "name": "q_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 34,
+        "label": "R type",
+        "name": "r_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 35,
+        "label": "S type",
+        "name": "s_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 36,
+        "label": "S3 type",
+        "name": "s3_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 37,
+        "label": "T type",
+        "name": "t_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 38,
+        "label": "V type",
+        "name": "v_type",
+        "tip": "",
+        "value": "N/A"
+      }
+    ]
+  },
+  {
+    "trimId": 12108,
+    "displayOrder": 2,
+    "label": "DIMENSIONS",
+    "name": "dimensions",
+    "specs": [
+      {
+        "displayOrder": 21,
+        "label": "Length (min)",
+        "name": "length__min_",
+        "tip": "",
+        "value": "405 mm (15.9\")"
+      },
+      {
+        "displayOrder": 22,
+        "label": "Width (min)",
+        "name": "width__min_",
+        "tip": "",
+        "value": "410 mm (16.1\")"
+      },
+      {
+        "displayOrder": 23,
+        "label": "Height (min)",
+        "name": "height__min_",
+        "tip": "",
+        "value": "438 mm (17.2\")"
+      }
+    ]
+  },
+  {
+    "trimId": 12105,
+    "displayOrder": 3,
+    "label": "PTO SHAFT OPTIONS",
+    "name": "pto_shaft_options",
+    "specs": [
+      {
+        "displayOrder": 21,
+        "label": "A2 type",
+        "name": "a2_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 22,
+        "label": "AR type",
+        "name": "ar_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 24,
+        "label": "B type",
+        "name": "b_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 24,
+        "label": "D type",
+        "name": "d_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 25,
+        "label": "Q type",
+        "name": "q_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 25,
+        "label": "E type",
+        "name": "e_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 25,
+        "label": "K type",
+        "name": "k_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 25,
+        "label": "T type",
+        "name": "t_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 26,
+        "label": "V type",
+        "name": "v_type",
+        "tip": "",
+        "value": "Tapered shaft"
+      },
+      {
+        "displayOrder": 26,
+        "label": "H type",
+        "name": "h_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 28,
+        "label": "L type",
+        "name": "l_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 29,
+        "label": "N1 type",
+        "name": "n1_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 30,
+        "label": "N5 type",
+        "name": "n5_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 31,
+        "label": "N7 type",
+        "name": "n7_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 32,
+        "label": "P type",
+        "name": "p_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 34,
+        "label": "R type",
+        "name": "r_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 35,
+        "label": "S type",
+        "name": "s_type",
+        "tip": "",
+        "value": "Straight shaft (metric)"
+      },
+      {
+        "displayOrder": 36,
+        "label": "S3 type",
+        "name": "s3_type",
+        "tip": "",
+        "value": "N/A"
+      }
+    ]
+  },
+  {
+    "trimId": 12107,
+    "displayOrder": 3,
+    "label": "PTO SHAFT OPTIONS",
+    "name": "pto_shaft_options",
+    "specs": [
+      {
+        "displayOrder": 21,
+        "label": "A2 type",
+        "name": "a2_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 22,
+        "label": "AR type",
+        "name": "ar_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 24,
+        "label": "B type",
+        "name": "b_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 24,
+        "label": "D type",
+        "name": "d_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 25,
+        "label": "E type",
+        "name": "e_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 25,
+        "label": "T type",
+        "name": "t_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 25,
+        "label": "K type",
+        "name": "k_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 25,
+        "label": "Q type",
+        "name": "q_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 26,
+        "label": "V type",
+        "name": "v_type",
+        "tip": "",
+        "value": "Tapered shaft"
+      },
+      {
+        "displayOrder": 26,
+        "label": "H type",
+        "name": "h_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 28,
+        "label": "L type",
+        "name": "l_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 29,
+        "label": "N1 type",
+        "name": "n1_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 30,
+        "label": "N5 type",
+        "name": "n5_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 31,
+        "label": "N7 type",
+        "name": "n7_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 32,
+        "label": "P type",
+        "name": "p_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 34,
+        "label": "R type",
+        "name": "r_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 35,
+        "label": "S type",
+        "name": "s_type",
+        "tip": "",
+        "value": "Straight shaft (metric)"
+      },
+      {
+        "displayOrder": 36,
+        "label": "S3 type",
+        "name": "s3_type",
+        "tip": "",
+        "value": "N/A"
+      }
+    ]
+  },
+  {
+    "trimId": 12107,
+    "displayOrder": 2,
+    "label": "DIMENSIONS",
+    "name": "dimensions",
+    "specs": [
+      {
+        "displayOrder": 21,
+        "label": "Length (min)",
+        "name": "length__min_",
+        "tip": "",
+        "value": "443 mm (17.4”)"
+      },
+      {
+        "displayOrder": 22,
+        "label": "Width (min)",
+        "name": "width__min_",
+        "tip": "",
+        "value": "421 mm (16.6”)"
+      },
+      {
+        "displayOrder": 23,
+        "label": "Height (min)",
+        "name": "height__min_",
+        "tip": "",
+        "value": "447 mm (17.6”)"
+      }
+    ]
+  },
+  {
+    "trimId": 12105,
+    "displayOrder": 2,
+    "label": "DIMENSIONS",
+    "name": "dimensions",
+    "specs": [
+      {
+        "displayOrder": 21,
+        "label": "Length (min)",
+        "name": "length__min_",
+        "tip": "",
+        "value": "405 mm (15.9\")"
+      },
+      {
+        "displayOrder": 22,
+        "label": "Width (min)",
+        "name": "width__min_",
+        "tip": "",
+        "value": "410 mm (16.1\")"
+      },
+      {
+        "displayOrder": 23,
+        "label": "Height (min)",
+        "name": "height__min_",
+        "tip": "",
+        "value": "438 mm (17.2\")"
+      }
+    ]
+  },
+  {
+    "trimId": 12104,
+    "displayOrder": 3,
+    "label": "PTO SHAFT OPTIONS",
+    "name": "pto_shaft_options",
+    "specs": [
+      {
+        "displayOrder": 21,
+        "label": "A2 type",
+        "name": "a2_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 22,
+        "label": "AR type",
+        "name": "ar_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 24,
+        "label": "B type",
+        "name": "b_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 24,
+        "label": "D type",
+        "name": "d_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 25,
+        "label": "E type",
+        "name": "e_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 25,
+        "label": "K type",
+        "name": "k_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 25,
+        "label": "Q type",
+        "name": "q_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 25,
+        "label": "T type",
+        "name": "t_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 26,
+        "label": "V type",
+        "name": "v_type",
+        "tip": "",
+        "value": "Tapered shaft"
+      },
+      {
+        "displayOrder": 26,
+        "label": "H type",
+        "name": "h_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 28,
+        "label": "L type",
+        "name": "l_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 29,
+        "label": "N1 type",
+        "name": "n1_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 30,
+        "label": "N5 type",
+        "name": "n5_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 31,
+        "label": "N7 type",
+        "name": "n7_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 32,
+        "label": "P type",
+        "name": "p_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 34,
+        "label": "R type",
+        "name": "r_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 35,
+        "label": "S type",
+        "name": "s_type",
+        "tip": "",
+        "value": "Straight shaft (metric)"
+      },
+      {
+        "displayOrder": 36,
+        "label": "S3 type",
+        "name": "s3_type",
+        "tip": "",
+        "value": "N/A"
+      }
+    ]
+  },
+  {
+    "trimId": 12104,
+    "displayOrder": 2,
+    "label": "DIMENSIONS",
+    "name": "dimensions",
+    "specs": [
+      {
+        "displayOrder": 21,
+        "label": "Length (min)",
+        "name": "length__min_",
+        "tip": "",
+        "value": "405 mm (15.9\")"
+      },
+      {
+        "displayOrder": 22,
+        "label": "Width (min)",
+        "name": "width__min_",
+        "tip": "",
+        "value": "410 mm (16.1\")"
+      },
+      {
+        "displayOrder": 23,
+        "label": "Height (min)",
+        "name": "height__min_",
+        "tip": "",
+        "value": "438 mm (17.2\")"
+      }
+    ]
+  },
+  {
+    "trimId": 12106,
+    "displayOrder": 3,
+    "label": "PTO SHAFT OPTIONS",
+    "name": "pto_shaft_options",
+    "specs": [
+      {
+        "displayOrder": 21,
+        "label": "A2 type",
+        "name": "a2_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 22,
+        "label": "AR type",
+        "name": "ar_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 24,
+        "label": "B type",
+        "name": "b_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 24,
+        "label": "D type",
+        "name": "d_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 25,
+        "label": "Q type",
+        "name": "q_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 25,
+        "label": "E type",
+        "name": "e_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 25,
+        "label": "K type",
+        "name": "k_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 25,
+        "label": "T type",
+        "name": "t_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 26,
+        "label": "V type",
+        "name": "v_type",
+        "tip": "",
+        "value": "Tapered shaft"
+      },
+      {
+        "displayOrder": 26,
+        "label": "H type",
+        "name": "h_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 28,
+        "label": "L type",
+        "name": "l_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 29,
+        "label": "N1 type",
+        "name": "n1_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 30,
+        "label": "N5 type",
+        "name": "n5_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 31,
+        "label": "N7 type",
+        "name": "n7_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 32,
+        "label": "P type",
+        "name": "p_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 34,
+        "label": "R type",
+        "name": "r_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 35,
+        "label": "S type",
+        "name": "s_type",
+        "tip": "",
+        "value": "Straight shaft (metric)"
+      },
+      {
+        "displayOrder": 36,
+        "label": "S3 type",
+        "name": "s3_type",
+        "tip": "",
+        "value": "N/A"
+      }
+    ]
+  },
+  {
+    "trimId": 12106,
+    "displayOrder": 2,
+    "label": "DIMENSIONS",
+    "name": "dimensions",
+    "specs": [
+      {
+        "displayOrder": 21,
+        "label": "Length (min)",
+        "name": "length__min_",
+        "tip": "",
+        "value": "405 mm (15.9\")"
+      },
+      {
+        "displayOrder": 22,
+        "label": "Width (min)",
+        "name": "width__min_",
+        "tip": "",
+        "value": "410 mm (16.1\")"
+      },
+      {
+        "displayOrder": 23,
+        "label": "Height (min)",
+        "name": "height__min_",
+        "tip": "",
+        "value": "438 mm (17.2\")"
+      }
+    ]
+  },
+  {
+    "trimId": 12109,
+    "displayOrder": 3,
+    "label": "PTO SHAFT OPTIONS",
+    "name": "pto_shaft_options",
+    "specs": [
+      {
+        "displayOrder": 21,
+        "label": "A2 type",
+        "name": "a2_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 22,
+        "label": "AR type",
+        "name": "ar_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 24,
+        "label": "B type",
+        "name": "b_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 24,
+        "label": "D type",
+        "name": "d_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 25,
+        "label": "Q type",
+        "name": "q_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 25,
+        "label": "T type",
+        "name": "t_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 25,
+        "label": "E type",
+        "name": "e_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 25,
+        "label": "K type",
+        "name": "k_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 26,
+        "label": "H type",
+        "name": "h_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 26,
+        "label": "V type",
+        "name": "v_type",
+        "tip": "",
+        "value": "Tapered shaft"
+      },
+      {
+        "displayOrder": 28,
+        "label": "L type",
+        "name": "l_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 29,
+        "label": "N1 type",
+        "name": "n1_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 30,
+        "label": "N5 type",
+        "name": "n5_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 31,
+        "label": "N7 type",
+        "name": "n7_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 32,
+        "label": "P type",
+        "name": "p_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 34,
+        "label": "R type",
+        "name": "r_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 35,
+        "label": "S type",
+        "name": "s_type",
+        "tip": "",
+        "value": "Straight shaft (metric)"
+      },
+      {
+        "displayOrder": 36,
+        "label": "S3 type",
+        "name": "s3_type",
+        "tip": "",
+        "value": "N/A"
+      }
+    ]
+  },
+  {
+    "trimId": 12109,
+    "displayOrder": 2,
+    "label": "DIMENSIONS",
+    "name": "dimensions",
+    "specs": [
+      {
+        "displayOrder": 21,
+        "label": "Length (min)",
+        "name": "length__min_",
+        "tip": "",
+        "value": "443 mm (17.4”)"
+      },
+      {
+        "displayOrder": 22,
+        "label": "Width (min)",
+        "name": "width__min_",
+        "tip": "",
+        "value": "421 mm (16.6”)"
+      },
+      {
+        "displayOrder": 23,
+        "label": "Height (min)",
+        "name": "height__min_",
+        "tip": "",
+        "value": "447 mm (17.6”)"
+      }
+    ]
+  },
+  {
+    "trimId": 12108,
+    "displayOrder": 3,
+    "label": "PTO SHAFT OPTIONS",
+    "name": "pto_shaft_options",
+    "specs": [
+      {
+        "displayOrder": 21,
+        "label": "A2 type",
+        "name": "a2_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 22,
+        "label": "AR type",
+        "name": "ar_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 24,
+        "label": "B type",
+        "name": "b_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 24,
+        "label": "D type",
+        "name": "d_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 25,
+        "label": "T type",
+        "name": "t_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 25,
+        "label": "K type",
+        "name": "k_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 25,
+        "label": "Q type",
+        "name": "q_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 25,
+        "label": "E type",
+        "name": "e_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 26,
+        "label": "H type",
+        "name": "h_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 26,
+        "label": "V type",
+        "name": "v_type",
+        "tip": "",
+        "value": "Tapered shaft"
+      },
+      {
+        "displayOrder": 28,
+        "label": "L type",
+        "name": "l_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 29,
+        "label": "N1 type",
+        "name": "n1_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 30,
+        "label": "N5 type",
+        "name": "n5_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 31,
+        "label": "N7 type",
+        "name": "n7_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 32,
+        "label": "P type",
+        "name": "p_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 34,
+        "label": "R type",
+        "name": "r_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 35,
+        "label": "S type",
+        "name": "s_type",
+        "tip": "",
+        "value": "Straight shaft (metric)"
+      },
+      {
+        "displayOrder": 36,
+        "label": "S3 type",
+        "name": "s3_type",
+        "tip": "",
+        "value": "N/A"
+      }
+    ]
+  },
+  {
+    "trimId": 12123,
+    "displayOrder": 2,
+    "label": "DIMENSIONS",
+    "name": "dimensions",
+    "specs": [
+      {
+        "displayOrder": 21,
+        "label": "Length (min)",
+        "name": "length__min_",
+        "tip": "",
+        "value": "642 mm (25.3 in.)"
+      },
+      {
+        "displayOrder": 22,
+        "label": "Width (min)",
+        "name": "width__min_",
+        "tip": "",
+        "value": "493 mm (19.4 in.)"
+      },
+      {
+        "displayOrder": 23,
+        "label": "Height (min)",
+        "name": "height__min_",
+        "tip": "",
+        "value": "462 mm (18.2 in.)"
+      }
+    ]
+  },
+  {
+    "trimId": 12122,
+    "displayOrder": 2,
+    "label": "DIMENSIONS",
+    "name": "dimensions",
+    "specs": [
+      {
+        "displayOrder": 21,
+        "label": "Length (min)",
+        "name": "length__min_",
+        "tip": "",
+        "value": "642 mm (25.3 in.)"
+      },
+      {
+        "displayOrder": 22,
+        "label": "Width (min)",
+        "name": "width__min_",
+        "tip": "",
+        "value": "493 mm (19.4 in.)"
+      },
+      {
+        "displayOrder": 23,
+        "label": "Height (min)",
+        "name": "height__min_",
+        "tip": "",
+        "value": "462 mm (18.2 in.)"
+      }
+    ]
+  },
+  {
+    "trimId": 12120,
+    "displayOrder": 2,
+    "label": "DIMENSIONS",
+    "name": "dimensions",
+    "specs": [
+      {
+        "displayOrder": 21,
+        "label": "Length (min)",
+        "name": "length__min_",
+        "tip": "",
+        "value": "333 mm (13.1 in.)"
+      },
+      {
+        "displayOrder": 22,
+        "label": "Width (min)",
+        "name": "width__min_",
+        "tip": "",
+        "value": "483 mm (19.0 in.)"
+      },
+      {
+        "displayOrder": 23,
+        "label": "Height (min)",
+        "name": "height__min_",
+        "tip": "",
+        "value": "438 mm (17.2 in.)"
+      }
+    ]
+  },
+  {
+    "trimId": 12121,
+    "displayOrder": 2,
+    "label": "DIMENSIONS",
+    "name": "dimensions",
+    "specs": [
+      {
+        "displayOrder": 21,
+        "label": "Length (min)",
+        "name": "length__min_",
+        "tip": "",
+        "value": "333 mm (13.1 in.)"
+      },
+      {
+        "displayOrder": 22,
+        "label": "Width (min)",
+        "name": "width__min_",
+        "tip": "",
+        "value": "492 mm (19.4 in.)"
+      },
+      {
+        "displayOrder": 23,
+        "label": "Height (min)",
+        "name": "height__min_",
+        "tip": "",
+        "value": "438 mm (17.2 in.)"
+      }
+    ]
+  },
+  {
+    "trimId": 12124,
+    "displayOrder": 3,
+    "label": "PTO SHAFT OPTIONS",
+    "name": "pto_shaft_options",
+    "specs": [
+      {
+        "displayOrder": 21,
+        "label": "A2 type",
+        "name": "a2_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 22,
+        "label": "AR type",
+        "name": "ar_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 23,
+        "label": "B type",
+        "name": "b_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 24,
+        "label": "D type",
+        "name": "d_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 25,
+        "label": "E type",
+        "name": "e_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 26,
+        "label": "H type",
+        "name": "h_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 27,
+        "label": "K type",
+        "name": "k_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 28,
+        "label": "L type",
+        "name": "l_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 29,
+        "label": "N1 type",
+        "name": "n1_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 30,
+        "label": "N5 type",
+        "name": "n5_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 31,
+        "label": "N7 type",
+        "name": "n7_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 32,
+        "label": "P type",
+        "name": "p_type",
+        "tip": "",
+        "value": "Threaded type (SAE)"
+      },
+      {
+        "displayOrder": 33,
+        "label": "Q type",
+        "name": "q_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 34,
+        "label": "R type",
+        "name": "r_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 35,
+        "label": "S type",
+        "name": "s_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 36,
+        "label": "S3 type",
+        "name": "s3_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 37,
+        "label": "T type",
+        "name": "t_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 38,
+        "label": "V type",
+        "name": "v_type",
+        "tip": "",
+        "value": "Tapered shaft"
+      }
+    ]
+  },
+  {
+    "trimId": 12103,
+    "displayOrder": 3,
+    "label": "PTO SHAFT OPTIONS",
+    "name": "pto_shaft_options",
+    "specs": [
+      {
+        "displayOrder": 22,
+        "label": "A2 type",
+        "name": "a2_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 23,
+        "label": "AR type",
+        "name": "ar_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 24,
+        "label": "B type",
+        "name": "b_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 25,
+        "label": "D type",
+        "name": "d_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 26,
+        "label": "E type",
+        "name": "e_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 27,
+        "label": "H type",
+        "name": "h_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 28,
+        "label": "K type",
+        "name": "k_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 29,
+        "label": "L type",
+        "name": "l_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 30,
+        "label": "N1 type",
+        "name": "n1_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 31,
+        "label": "N5 type",
+        "name": "n5_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 32,
+        "label": "N7 type",
+        "name": "n7_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 33,
+        "label": "P type",
+        "name": "p_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 34,
+        "label": "Q type",
+        "name": "q_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 35,
+        "label": "R type",
+        "name": "r_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 36,
+        "label": "S type",
+        "name": "s_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 37,
+        "label": "S3 type",
+        "name": "s3_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 38,
+        "label": "T type",
+        "name": "t_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 39,
+        "label": "V type",
+        "name": "v_type",
+        "tip": "",
+        "value": "N/A"
+      }
+    ]
+  },
+  {
+    "trimId": 12102,
+    "displayOrder": 3,
+    "label": "PTO SHAFT OPTIONS",
+    "name": "pto_shaft_options",
+    "specs": [
+      {
+        "displayOrder": 22,
+        "label": "A2 type",
+        "name": "a2_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 23,
+        "label": "AR type",
+        "name": "ar_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 24,
+        "label": "B type",
+        "name": "b_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 25,
+        "label": "D type",
+        "name": "d_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 26,
+        "label": "E type",
+        "name": "e_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 27,
+        "label": "H type",
+        "name": "h_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 28,
+        "label": "K type",
+        "name": "k_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 29,
+        "label": "L type",
+        "name": "l_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 30,
+        "label": "N1 type",
+        "name": "n1_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 31,
+        "label": "N5 type",
+        "name": "n5_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 32,
+        "label": "N7 type",
+        "name": "n7_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 33,
+        "label": "P type",
+        "name": "p_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 34,
+        "label": "Q type",
+        "name": "q_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 35,
+        "label": "R type",
+        "name": "r_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 36,
+        "label": "S type",
+        "name": "s_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 37,
+        "label": "S3 type",
+        "name": "s3_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 38,
+        "label": "T type",
+        "name": "t_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 39,
+        "label": "V type",
+        "name": "v_type",
+        "tip": "",
+        "value": "N/A"
+      }
+    ]
+  },
+  {
+    "trimId": 12100,
+    "displayOrder": 3,
+    "label": "PTO SHAFT OPTIONS",
+    "name": "pto_shaft_options",
+    "specs": [
+      {
+        "displayOrder": 22,
+        "label": "A2 type",
+        "name": "a2_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 23,
+        "label": "AR type",
+        "name": "ar_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 24,
+        "label": "B type",
+        "name": "b_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 25,
+        "label": "D type",
+        "name": "d_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 26,
+        "label": "E type",
+        "name": "e_type",
+        "tip": "",
+        "value": "Tapered shaft"
+      },
+      {
+        "displayOrder": 27,
+        "label": "H type",
+        "name": "h_type",
+        "tip": "",
+        "value": "Reduction type PTO"
+      },
+      {
+        "displayOrder": 28,
+        "label": "K type",
+        "name": "k_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 29,
+        "label": "L type",
+        "name": "l_type",
+        "tip": "",
+        "value": "Reduction type PTO"
+      },
+      {
+        "displayOrder": 30,
+        "label": "N1 type",
+        "name": "n1_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 31,
+        "label": "N5 type",
+        "name": "n5_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 32,
+        "label": "N7 type",
+        "name": "n7_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 33,
+        "label": "P type",
+        "name": "p_type",
+        "tip": "",
+        "value": "Threaded (SAE)"
+      },
+      {
+        "displayOrder": 34,
+        "label": "Q type",
+        "name": "q_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 35,
+        "label": "R type",
+        "name": "r_type",
+        "tip": "",
+        "value": "Reduction type PTO"
+      },
+      {
+        "displayOrder": 36,
+        "label": "S type",
+        "name": "s_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 37,
+        "label": "S3 type",
+        "name": "s3_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 38,
+        "label": "T type",
+        "name": "t_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 39,
+        "label": "V type",
+        "name": "v_type",
+        "tip": "",
+        "value": "Tapered shaft"
+      }
+    ]
+  },
+  {
+    "trimId": 12101,
+    "displayOrder": 3,
+    "label": "PTO SHAFT OPTIONS",
+    "name": "pto_shaft_options",
+    "specs": [
+      {
+        "displayOrder": 22,
+        "label": "A2 type",
+        "name": "a2_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 23,
+        "label": "AR type",
+        "name": "ar_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 24,
+        "label": "B type",
+        "name": "b_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 25,
+        "label": "D type",
+        "name": "d_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 26,
+        "label": "E type",
+        "name": "e_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 27,
+        "label": "H type",
+        "name": "h_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 28,
+        "label": "K type",
+        "name": "k_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 29,
+        "label": "L type",
+        "name": "l_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 30,
+        "label": "N1 type",
+        "name": "n1_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 31,
+        "label": "N5 type",
+        "name": "n5_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 32,
+        "label": "N7 type",
+        "name": "n7_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 33,
+        "label": "P type",
+        "name": "p_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 34,
+        "label": "Q type",
+        "name": "q_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 35,
+        "label": "R type",
+        "name": "r_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 36,
+        "label": "S type",
+        "name": "s_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 37,
+        "label": "S3 type",
+        "name": "s3_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 38,
+        "label": "T type",
+        "name": "t_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 39,
+        "label": "V type",
+        "name": "v_type",
+        "tip": "",
+        "value": "N/A"
+      }
+    ]
+  },
+  {
+    "trimId": 12099,
+    "displayOrder": 3,
+    "label": "PTO SHAFT OPTIONS",
+    "name": "pto_shaft_options",
+    "specs": [
+      {
+        "displayOrder": 22,
+        "label": "A2 type",
+        "name": "a2_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 23,
+        "label": "AR type",
+        "name": "ar_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 24,
+        "label": "B type",
+        "name": "b_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 25,
+        "label": "D type",
+        "name": "d_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 26,
+        "label": "E type",
+        "name": "e_type",
+        "tip": "",
+        "value": "Tapered shaft"
+      },
+      {
+        "displayOrder": 27,
+        "label": "H type",
+        "name": "h_type",
+        "tip": "",
+        "value": "Reduction type PTO"
+      },
+      {
+        "displayOrder": 28,
+        "label": "K type",
+        "name": "k_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 29,
+        "label": "L type",
+        "name": "l_type",
+        "tip": "",
+        "value": "Reduction type PTO"
+      },
+      {
+        "displayOrder": 30,
+        "label": "N1 type",
+        "name": "n1_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 31,
+        "label": "N5 type",
+        "name": "n5_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 32,
+        "label": "N7 type",
+        "name": "n7_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 33,
+        "label": "P type",
+        "name": "p_type",
+        "tip": "",
+        "value": "Threaded (SAE)"
+      },
+      {
+        "displayOrder": 34,
+        "label": "Q type",
+        "name": "q_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 35,
+        "label": "R type",
+        "name": "r_type",
+        "tip": "",
+        "value": "Reduction type PTO"
+      },
+      {
+        "displayOrder": 36,
+        "label": "S type",
+        "name": "s_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 37,
+        "label": "S3 type",
+        "name": "s3_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 38,
+        "label": "T type",
+        "name": "t_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 39,
+        "label": "V type",
+        "name": "v_type",
+        "tip": "",
+        "value": "Tapered shaft"
+      }
+    ]
+  },
+  {
+    "trimId": 12098,
+    "displayOrder": 3,
+    "label": "PTO SHAFT OPTIONS",
+    "name": "pto_shaft_options",
+    "specs": [
+      {
+        "displayOrder": 22,
+        "label": "A2 type",
+        "name": "a2_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 23,
+        "label": "AR type",
+        "name": "ar_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 24,
+        "label": "B type",
+        "name": "b_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 25,
+        "label": "D type",
+        "name": "d_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 26,
+        "label": "E type",
+        "name": "e_type",
+        "tip": "",
+        "value": "Tapered shaft"
+      },
+      {
+        "displayOrder": 27,
+        "label": "H type",
+        "name": "h_type",
+        "tip": "",
+        "value": "Reduction type PTO"
+      },
+      {
+        "displayOrder": 28,
+        "label": "K type",
+        "name": "k_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 29,
+        "label": "L type",
+        "name": "l_type",
+        "tip": "",
+        "value": "Reduction type PTO"
+      },
+      {
+        "displayOrder": 30,
+        "label": "N1 type",
+        "name": "n1_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 31,
+        "label": "N5 type",
+        "name": "n5_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 32,
+        "label": "N7 type",
+        "name": "n7_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 33,
+        "label": "P type",
+        "name": "p_type",
+        "tip": "",
+        "value": "Threaded (SAE)"
+      },
+      {
+        "displayOrder": 34,
+        "label": "Q type",
+        "name": "q_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 35,
+        "label": "R type",
+        "name": "r_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 36,
+        "label": "S type",
+        "name": "s_type",
+        "tip": "",
+        "value": "Reduction type PTO"
+      },
+      {
+        "displayOrder": 37,
+        "label": "S3 type",
+        "name": "s3_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 38,
+        "label": "T type",
+        "name": "t_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 39,
+        "label": "V type",
+        "name": "v_type",
+        "tip": "",
+        "value": "Tapered shaft"
+      }
+    ]
+  },
+  {
+    "trimId": 12097,
+    "displayOrder": 3,
+    "label": "PTO SHAFT OPTIONS",
+    "name": "pto_shaft_options",
+    "specs": [
+      {
+        "displayOrder": 22,
+        "label": "A2 type",
+        "name": "a2_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 23,
+        "label": "AR type",
+        "name": "ar_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 24,
+        "label": "B type",
+        "name": "b_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 25,
+        "label": "D type",
+        "name": "d_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 26,
+        "label": "E type",
+        "name": "e_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 27,
+        "label": "H type",
+        "name": "h_type",
+        "tip": "",
+        "value": "Reduction type PTO"
+      },
+      {
+        "displayOrder": 28,
+        "label": "K type",
+        "name": "k_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 29,
+        "label": "L type",
+        "name": "l_type",
+        "tip": "",
+        "value": "Reduction type PTO"
+      },
+      {
+        "displayOrder": 30,
+        "label": "N1 type",
+        "name": "n1_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 31,
+        "label": "N5 type",
+        "name": "n5_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 32,
+        "label": "N7 type",
+        "name": "n7_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 33,
+        "label": "P type",
+        "name": "p_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 34,
+        "label": "Q type",
+        "name": "q_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 35,
+        "label": "R type",
+        "name": "r_type",
+        "tip": "",
+        "value": "Reduction type PTO"
+      },
+      {
+        "displayOrder": 36,
+        "label": "S type",
+        "name": "s_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 37,
+        "label": "S3 type",
+        "name": "s3_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 38,
+        "label": "T type",
+        "name": "t_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 39,
+        "label": "V type",
+        "name": "v_type",
+        "tip": "",
+        "value": "Tapered shaft"
+      }
+    ]
+  },
+  {
+    "trimId": 12096,
+    "displayOrder": 3,
+    "label": "PTO SHAFT OPTIONS",
+    "name": "pto_shaft_options",
+    "specs": [
+      {
+        "displayOrder": 22,
+        "label": "A2 type",
+        "name": "a2_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 23,
+        "label": "AR type",
+        "name": "ar_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 24,
+        "label": "B type",
+        "name": "b_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 25,
+        "label": "D type",
+        "name": "d_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 26,
+        "label": "E type",
+        "name": "e_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 27,
+        "label": "H type",
+        "name": "h_type",
+        "tip": "",
+        "value": "Reduction type PTO"
+      },
+      {
+        "displayOrder": 28,
+        "label": "K type",
+        "name": "k_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 29,
+        "label": "L type",
+        "name": "l_type",
+        "tip": "",
+        "value": "Reduction type PTO"
+      },
+      {
+        "displayOrder": 30,
+        "label": "N1 type",
+        "name": "n1_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 31,
+        "label": "N5 type",
+        "name": "n5_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 32,
+        "label": "N7 type",
+        "name": "n7_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 33,
+        "label": "P type",
+        "name": "p_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 34,
+        "label": "Q type",
+        "name": "q_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 35,
+        "label": "R type",
+        "name": "r_type",
+        "tip": "",
+        "value": "Reduction type PTO"
+      },
+      {
+        "displayOrder": 36,
+        "label": "S type",
+        "name": "s_type",
+        "tip": "",
+        "value": "Straight shaft (metric)"
+      },
+      {
+        "displayOrder": 37,
+        "label": "S3 type",
+        "name": "s3_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 38,
+        "label": "T type",
+        "name": "t_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 39,
+        "label": "V type",
+        "name": "v_type",
+        "tip": "",
+        "value": "Tapered shaft"
+      }
+    ]
+  },
+  {
+    "trimId": 12095,
+    "displayOrder": 3,
+    "label": "PTO SHAFT OPTIONS",
+    "name": "pto_shaft_options",
+    "specs": [
+      {
+        "displayOrder": 22,
+        "label": "A2 type",
+        "name": "a2_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 23,
+        "label": "AR type",
+        "name": "ar_type",
+        "tip": "",
+        "value": "Rammer"
+      },
+      {
+        "displayOrder": 24,
+        "label": "B type",
+        "name": "b_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 25,
+        "label": "D type",
+        "name": "d_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 26,
+        "label": "E type",
+        "name": "e_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 27,
+        "label": "H type",
+        "name": "h_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 28,
+        "label": "K type",
+        "name": "k_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 29,
+        "label": "L type",
+        "name": "l_type",
+        "tip": "",
+        "value": "Reduction type PTO"
+      },
+      {
+        "displayOrder": 30,
+        "label": "N1 type",
+        "name": "n1_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 31,
+        "label": "N5 type",
+        "name": "n5_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 32,
+        "label": "N7 type",
+        "name": "n7_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 33,
+        "label": "P type",
+        "name": "p_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 34,
+        "label": "Q type",
+        "name": "q_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 35,
+        "label": "R type",
+        "name": "r_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 36,
+        "label": "S type",
+        "name": "s_type",
+        "tip": "",
+        "value": "Straight shaft (metric)"
+      },
+      {
+        "displayOrder": 37,
+        "label": "S3 type",
+        "name": "s3_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 38,
+        "label": "T type",
+        "name": "t_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 39,
+        "label": "V type",
+        "name": "v_type",
+        "tip": "",
+        "value": "N/A"
+      }
+    ]
+  },
+  {
+    "trimId": 12094,
+    "displayOrder": 3,
+    "label": "PTO SHAFT OPTIONS",
+    "name": "pto_shaft_options",
+    "specs": [
+      {
+        "displayOrder": 22,
+        "label": "A2 type",
+        "name": "a2_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 23,
+        "label": "AR type",
+        "name": "ar_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 24,
+        "label": "B type",
+        "name": "b_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 25,
+        "label": "D type",
+        "name": "d_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 26,
+        "label": "E type",
+        "name": "e_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 27,
+        "label": "H type",
+        "name": "h_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 28,
+        "label": "K type",
+        "name": "k_type",
+        "tip": "",
+        "value": "Rammer type"
+      },
+      {
+        "displayOrder": 29,
+        "label": "L type",
+        "name": "l_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 30,
+        "label": "N1 type",
+        "name": "n1_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 31,
+        "label": "N5 type",
+        "name": "n5_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 32,
+        "label": "N7 type",
+        "name": "n7_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 33,
+        "label": "P type",
+        "name": "p_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 34,
+        "label": "Q type",
+        "name": "q_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 35,
+        "label": "R type",
+        "name": "r_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 36,
+        "label": "S type",
+        "name": "s_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 37,
+        "label": "S3 type",
+        "name": "s3_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 38,
+        "label": "T type",
+        "name": "t_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 39,
+        "label": "V type",
+        "name": "v_type",
+        "tip": "",
+        "value": "Tapered shaft"
+      }
+    ]
+  },
+  {
+    "trimId": 12115,
+    "displayOrder": 3,
+    "label": "PTO SHAFT OPTIONS",
+    "name": "pto_shaft_options",
+    "specs": [
+      {
+        "displayOrder": 22,
+        "label": "A2 type",
+        "name": "a2_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 23,
+        "label": "AR type",
+        "name": "ar_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 24,
+        "label": "B type",
+        "name": "b_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 25,
+        "label": "D type",
+        "name": "d_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 26,
+        "label": "E type",
+        "name": "e_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 27,
+        "label": "H type",
+        "name": "h_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 28,
+        "label": "K type",
+        "name": "k_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 29,
+        "label": "L type",
+        "name": "l_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 30,
+        "label": "N1 type",
+        "name": "n1_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 31,
+        "label": "N5 type",
+        "name": "n5_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 32,
+        "label": "N7 type",
+        "name": "n7_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 33,
+        "label": "P type",
+        "name": "p_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 34,
+        "label": "Q type",
+        "name": "q_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 35,
+        "label": "R type",
+        "name": "r_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 36,
+        "label": "S type",
+        "name": "s_type",
+        "tip": "",
+        "value": "Straight shaft (metric)"
+      },
+      {
+        "displayOrder": 37,
+        "label": "S3 type",
+        "name": "s3_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 38,
+        "label": "T type",
+        "name": "t_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 39,
+        "label": "V type",
+        "name": "v_type",
+        "tip": "",
+        "value": "Tapered shaft"
+      }
+    ]
+  },
+  {
+    "trimId": 12114,
+    "displayOrder": 3,
+    "label": "PTO SHAFT OPTIONS",
+    "name": "pto_shaft_options",
+    "specs": [
+      {
+        "displayOrder": 22,
+        "label": "A2 type",
+        "name": "a2_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 23,
+        "label": "AR type",
+        "name": "ar_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 24,
+        "label": "B type",
+        "name": "b_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 25,
+        "label": "D type",
+        "name": "d_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 26,
+        "label": "E type",
+        "name": "e_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 27,
+        "label": "H type",
+        "name": "h_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 28,
+        "label": "K type",
+        "name": "k_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 29,
+        "label": "L type",
+        "name": "l_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 30,
+        "label": "N1 type",
+        "name": "n1_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 31,
+        "label": "N5 type",
+        "name": "n5_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 32,
+        "label": "N7 type",
+        "name": "n7_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 33,
+        "label": "P type",
+        "name": "p_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 34,
+        "label": "Q type",
+        "name": "q_type",
+        "tip": "",
+        "value": "Straight shaft"
+      },
+      {
+        "displayOrder": 35,
+        "label": "R type",
+        "name": "r_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 36,
+        "label": "S type",
+        "name": "s_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 37,
+        "label": "S3 type",
+        "name": "s3_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 38,
+        "label": "T type",
+        "name": "t_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 39,
+        "label": "V type",
+        "name": "v_type",
+        "tip": "",
+        "value": "N/A"
+      }
+    ]
+  },
+  {
+    "trimId": 12113,
+    "displayOrder": 3,
+    "label": "PTO SHAFT OPTIONS",
+    "name": "pto_shaft_options",
+    "specs": [
+      {
+        "displayOrder": 22,
+        "label": "A2 type",
+        "name": "a2_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 23,
+        "label": "AR type",
+        "name": "ar_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 24,
+        "label": "B type",
+        "name": "b_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 25,
+        "label": "D type",
+        "name": "d_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 26,
+        "label": "E type",
+        "name": "e_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 27,
+        "label": "H type",
+        "name": "h_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 28,
+        "label": "K type",
+        "name": "k_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 29,
+        "label": "L type",
+        "name": "l_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 30,
+        "label": "N1 type",
+        "name": "n1_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 31,
+        "label": "N5 type",
+        "name": "n5_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 32,
+        "label": "N7 type",
+        "name": "n7_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 33,
+        "label": "P type",
+        "name": "p_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 34,
+        "label": "Q type",
+        "name": "q_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 35,
+        "label": "R type",
+        "name": "r_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 36,
+        "label": "S type",
+        "name": "s_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 37,
+        "label": "S3 type",
+        "name": "s3_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 38,
+        "label": "T type",
+        "name": "t_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 39,
+        "label": "V type",
+        "name": "v_type",
+        "tip": "",
+        "value": "N/A"
+      }
+    ]
+  },
+  {
+    "trimId": 12112,
+    "displayOrder": 3,
+    "label": "PTO SHAFT OPTIONS",
+    "name": "pto_shaft_options",
+    "specs": [
+      {
+        "displayOrder": 22,
+        "label": "A2 type",
+        "name": "a2_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 23,
+        "label": "AR type",
+        "name": "ar_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 24,
+        "label": "B type",
+        "name": "b_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 25,
+        "label": "D type",
+        "name": "d_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 26,
+        "label": "E type",
+        "name": "e_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 27,
+        "label": "H type",
+        "name": "h_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 28,
+        "label": "K type",
+        "name": "k_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 29,
+        "label": "L type",
+        "name": "l_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 30,
+        "label": "N1 type",
+        "name": "n1_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 31,
+        "label": "N5 type",
+        "name": "n5_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 32,
+        "label": "N7 type",
+        "name": "n7_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 33,
+        "label": "P type",
+        "name": "p_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 34,
+        "label": "Q type",
+        "name": "q_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 35,
+        "label": "R type",
+        "name": "r_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 36,
+        "label": "S type",
+        "name": "s_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 37,
+        "label": "S3 type",
+        "name": "s3_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 38,
+        "label": "T type",
+        "name": "t_type",
+        "tip": "",
+        "value": "N/A"
+      },
+      {
+        "displayOrder": 39,
+        "label": "V type",
+        "name": "v_type",
+        "tip": "",
+        "value": "N/A"
+      }
+    ]
+  },
+  {
+    "trimId": 12121,
+    "displayOrder": 3,
+    "label": "PTO SHAFT OPTIONS",
+    "name": "pto_shaft_options",
+    "specs": [
+      {
+        "displayOrder": 24,
+        "label": "B type",
+        "name": "b_type",
+        "tip": "",
+        "value": "Straight shaft (36.55 mm (diameter), L = 175.2 mm)"
+      },
+      {
+        "displayOrder": 25,
+        "label": "T type",
+        "name": "t_type",
+        "tip": "",
+        "value": "Straight shaft (28.575 mm (diameter), L = 162 mm)"
+      },
+      {
+        "displayOrder": 26,
+        "label": "V type",
+        "name": "v_type",
+        "tip": "",
+        "value": "Tapered shaft (5/16\")"
+      }
+    ]
+  },
+  {
+    "trimId": 12120,
+    "displayOrder": 3,
+    "label": "PTO SHAFT OPTIONS",
+    "name": "pto_shaft_options",
+    "specs": [
+      {
+        "displayOrder": 24,
+        "label": "B type",
+        "name": "b_type",
+        "tip": "",
+        "value": "Straight shaft (36.55 mm (diameter), L = 175.2 mm)"
+      },
+      {
+        "displayOrder": 25,
+        "label": "K type",
+        "name": "k_type",
+        "tip": "",
+        "value": "Splined shaft"
+      },
+      {
+        "displayOrder": 25,
+        "label": "T type",
+        "name": "t_type",
+        "tip": "",
+        "value": "Straight shaft (28.575 mm (diameter), L = 162 mm)"
+      },
+      {
+        "displayOrder": 26,
+        "label": "V type",
+        "name": "v_type",
+        "tip": "",
+        "value": "Tapered shaft (5/16\")"
+      }
+    ]
+  },
+  {
+    "trimId": 12122,
+    "displayOrder": 3,
+    "label": "PTO SHAFT OPTIONS",
+    "name": "pto_shaft_options",
+    "specs": [
+      {
+        "displayOrder": 24,
+        "label": "G type",
+        "name": "g_type",
+        "tip": "",
+        "value": "Straight shaft (28.575 mm (diameter), L = 108 mm)"
+      },
+      {
+        "displayOrder": 25,
+        "label": "Q type",
+        "name": "q_type",
+        "tip": "",
+        "value": "Straight shaft (25.4 mm (diameter))"
+      },
+      {
+        "displayOrder": 25,
+        "label": "T type",
+        "name": "t_type",
+        "tip": "",
+        "value": "Straight shaft (28.575 mm (diameter), L = 97.5 mm)"
+      }
+    ]
+  },
+  {
+    "trimId": 12123,
+    "displayOrder": 3,
+    "label": "PTO SHAFT OPTIONS",
+    "name": "pto_shaft_options",
+    "specs": [
+      {
+        "displayOrder": 24,
+        "label": "G type",
+        "name": "g_type",
+        "tip": "",
+        "value": "Straight shaft (28.575 mm (diameter), L = 108 mm)"
+      },
+      {
+        "displayOrder": 25,
+        "label": "Q type",
+        "name": "q_type",
+        "tip": "",
+        "value": "Straight shaft (25.4 mm (diameter))"
+      },
+      {
+        "displayOrder": 25,
+        "label": "T type",
+        "name": "t_type",
+        "tip": "",
+        "value": "Straight shaft (28.575 mm (diameter), L = 97.5 mm)"
+      }
+    ]
+  }
+]

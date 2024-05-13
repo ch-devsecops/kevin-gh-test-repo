@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Image> should have no accessibility violations 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 GAnTR"
+  >
+    <div
+      class="fresnel-container fresnel-greaterThanOrEqual-desktop "
+    >
+      <img
+        alt="A side view of the 2022 RDX on a dark blue background with the words 'Stop. Thrill. Repeat'."
+        class="sc-1k44dfv-0 cwENax"
+        draggable="true"
+        loading="lazy"
+        src="/sample-mock-data/media/img/placeholders/placeholder-landscape.png"
+        style="object-fit: contain; max-width: 100%;"
+        width="1109px"
+      />
+    </div>
+    <div
+      class="fresnel-container fresnel-lessThan-desktop "
+    >
+      <img
+        alt="A side view of the 2022 RDX on a dark blue background with the words 'Stop. Thrill. Repeat'."
+        class="sc-1k44dfv-0 sbZzE"
+        draggable="true"
+        loading="lazy"
+        src="/sample-mock-data/media/img/placeholders/placeholder-portrait.png"
+        style="object-fit: contain; max-width: 100%;"
+        width="250px"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Image> should render correctly 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 GAnTR"
+  >
+    <div
+      class="fresnel-container fresnel-greaterThanOrEqual-desktop "
+    >
+      <img
+        alt="A side view of the 2022 RDX on a dark blue background with the words 'Stop. Thrill. Repeat'."
+        class="sc-1k44dfv-0 cwENax"
+        draggable="true"
+        loading="lazy"
+        src="/sample-mock-data/media/img/placeholders/placeholder-landscape.png"
+        style="object-fit: contain; max-width: 100%;"
+        width="1109px"
+      />
+    </div>
+    <div
+      class="fresnel-container fresnel-lessThan-desktop "
+    >
+      <img
+        alt="A side view of the 2022 RDX on a dark blue background with the words 'Stop. Thrill. Repeat'."
+        class="sc-1k44dfv-0 sbZzE"
+        draggable="true"
+        loading="lazy"
+        src="/sample-mock-data/media/img/placeholders/placeholder-portrait.png"
+        style="object-fit: contain; max-width: 100%;"
+        width="250px"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Image> should render with no errors when fields and params props has empty values 1`] = `<div />`;

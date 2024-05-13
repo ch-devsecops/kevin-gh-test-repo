@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PortraitCard> should render correctly with basic props 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 hlPDKA"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 eNCdgo"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 jbBrzI"
+      >
+        <img
+          alt="mock alt"
+          class="sc-1k44dfv-0 jLTFZk"
+          draggable="true"
+          loading="lazy"
+          src="https://via.placeholder.com/294x195"
+        />
+      </div>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 iNhCNC"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 dcHvEP"
+        display="flex"
+      >
+        <div
+          class="sc-1k44dfv-0 goPGQt"
+          color="typographyDefault"
+        >
+          
+
+          <h4
+            class="sc-1k44dfv-0 fINFhE"
+          >
+            The title
+          </h4>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 jIegoo"
+          height="14px"
+          width="14px"
+        >
+          <button
+            aria-label="Shared.Common.showTooltipPopupAria"
+            class="sc-1k44dfv-0 jOKBEK"
+          >
+            <div
+              class="Box-sc-1bsf784-0 dVQVTJ"
+              height="16px"
+              width="16px"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 vwhQc"
+      >
+        <div
+          class="sc-1k44dfv-0 goPGQt"
+          color="typographyDefault"
+        >
+          
+
+          <p>
+            My body text
+          </p>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 gBifkq"
+        color="typographyDefault"
+      >
+        <a
+          href="https://example.com"
+        >
+          CTA
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MarineProductConfigurations> should render correctly 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 iyLtwN"
+    data-testid="configuration-card"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 hGpHnT"
+    >
+      <h5
+        class="sc-1k44dfv-0 sc-1k44dfv-0 hvDGYh"
+        data-testid="configuration-name"
+      >
+        2_3DHSCHC
+      </h5>
+      <p
+        class="sc-1k44dfv-0 dhqvJA"
+        color="typographyDefault"
+        data-testid="configuration-tagline"
+        font-family="default"
+        font-weight="regular"
+      >
+        Single cylinder, 15" short shaft, manual start, tiller throttle with clutch, integrated fuel tank
+      </p>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 gAKfoF"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 icmvqr"
+      />
+    </div>
+  </div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 iyLtwN"
+    data-testid="configuration-card"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 hGpHnT"
+    >
+      <h5
+        class="sc-1k44dfv-0 sc-1k44dfv-0 hvDGYh"
+        data-testid="configuration-name"
+      >
+        2_3DHSCHC
+      </h5>
+      <p
+        class="sc-1k44dfv-0 dhqvJA"
+        color="typographyDefault"
+        data-testid="configuration-tagline"
+        font-family="default"
+        font-weight="regular"
+      >
+        Single cylinder, 15" short shaft, manual start, tiller throttle with clutch, integrated fuel tank
+      </p>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 gAKfoF"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 icmvqr"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<MarineProductConfigurations> should render correctly with empty mock data 1`] = `<div />`;
+
+exports[`<MarineProductConfigurations> should return nulll if there is no fields 1`] = `<div />`;

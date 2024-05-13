@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CTA snapshots renders a CTA with other props 1`] = `
+<div>
+  <a
+    aria-label="my aria label"
+    class="Button-pulw6t-0 fePOwb"
+    data-testid="dsr-button-component"
+    href="/relative-path"
+  >
+    Tertiary
+  </a>
+</div>
+`;
+
+exports[`CTA snapshots renders a TertiaryWhite CTA 1`] = `
+<div>
+  <span>
+    <a
+      class="Link-sc-16wd4a0-0 dKSZAU"
+      href="/relative-path"
+    >
+      Tertiary White
+    </a>
+  </span>
+</div>
+`;
+
+exports[`CTA snapshots renders a relative path 1`] = `
+<div>
+  <a
+    class="Button-pulw6t-0 fePOwb"
+    data-testid="dsr-button-component"
+    href="/relative-path"
+  >
+    Relative path
+  </a>
+</div>
+`;
+
+exports[`CTA snapshots renders a secondary CTA 1`] = `
+<div>
+  <a
+    class="Button-pulw6t-0 gIftGV"
+    data-testid="dsr-button-component"
+    href="https://example.com"
+  >
+    Secondary
+  </a>
+</div>
+`;
+
+exports[`CTA snapshots renders a tertiary CTA 1`] = `
+<div>
+  <span>
+    <a
+      class="Link-sc-16wd4a0-0 eYsnbh"
+      href="/relative-path"
+    >
+      Tertiary
+    </a>
+  </span>
+</div>
+`;
+
+exports[`CTA snapshots renders a tertiary CTA with a named icon 1`] = `
+<div>
+  <span>
+    <a
+      class="Link-sc-16wd4a0-0 eYsnbh"
+      href="/relative-path"
+    >
+      Tertiary
+    </a>
+  </span>
+</div>
+`;
+
+exports[`CTA snapshots renders a tertiary CTA with an icon field 1`] = `
+<div>
+  <span>
+    <a
+      class="Link-sc-16wd4a0-0 eYsnbh"
+      href="/relative-path"
+    >
+      Tertiary
+    </a>
+  </span>
+</div>
+`;
+
+exports[`CTA snapshots renders an absolute path 1`] = `
+<div>
+  <a
+    class="Button-pulw6t-0 fePOwb"
+    data-testid="dsr-button-component"
+    href="https://example.com"
+  >
+    Absolute path
+  </a>
+</div>
+`;

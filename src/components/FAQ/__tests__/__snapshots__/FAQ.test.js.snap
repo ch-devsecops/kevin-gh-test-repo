@@ -1,0 +1,360 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FAQ> should render correctly 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 kkPryr"
+  >
+    <div
+      class="Box-sc-1bsf784-0 jGVkdm"
+      display="flex"
+      width="100%"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 eWiJTk sc-1k44dfv-0 bsujjc"
+        id="faqCat1"
+        tabindex="0"
+        width="100%"
+      >
+        <div
+          class="Box-sc-1bsf784-0 ffstyC"
+        >
+          <h3
+            class="sc-1k44dfv-0 cTFHtq"
+          >
+            <span>
+              General FAQs
+              <sup>
+                tm
+              </sup>
+            </span>
+          </h3>
+        </div>
+        <p
+          class="sc-1k44dfv-0 cApmyO"
+          color="black"
+          font-family="bold"
+          font-weight="regular"
+        >
+          Expand All
+        </p>
+        <div
+          class="IconWrapper-lp9q2r-0 fIXvxX"
+        />
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 Column-t2p57o-0 bRfWCx"
+        width="1"
+      >
+        <div>
+          <div
+            aria-expanded="false"
+            aria-pressed="false"
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 lboGYr sc-1k44dfv-0 hPhBSo"
+            data-testid="dsr-accordion-item-container"
+            id="faqCat1Item1c"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 bPNLGt sc-1k44dfv-0 iCYgbA"
+            >
+              <p
+                class="sc-1k44dfv-0 jQFheS"
+                color="typographyDefault"
+                font-family="default"
+                font-weight="bold"
+              >
+                <span>
+                  Where and how to obtain a radio code?
+                  <sup>
+                    tm
+                  </sup>
+                </span>
+              </p>
+              <div
+                class="IconWrapper-lp9q2r-0 fIXvxX"
+              />
+            </div>
+            <div
+              aria-live="polite"
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 cVJjVn"
+              data-testid="dsr-accordion-item-content-container"
+            >
+              <div
+                class="Box-sc-1bsf784-0 jGVkdm"
+                display="flex"
+                width="100%"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 kxBLEi"
+                  width="1,0.3333333333333333"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 dJluwC"
+                    height="auto"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 jbBrzI"
+                    >
+                      <img
+                        alt="sample image"
+                        class="sc-1k44dfv-0 grcUbM"
+                        draggable="true"
+                        height="1603"
+                        loading="lazy"
+                        src="/data/media/img/hero-example.png"
+                        width="2400"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 jQyzvQ"
+                  width="1,0.6666666666666666"
+                >
+                  <div
+                    class="sc-1k44dfv-0 klHKZs"
+                  >
+                    
+
+                    <p>
+                      Lorem ip sum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque ex at felis condimentum imperdiet. 
+                    </p>
+                    <ul>
+                      <li>
+                        You can have lists, like this one
+
+                        <ul>
+                          <li>
+                            Make things 
+                            <strong>
+                              bold
+                            </strong>
+                             or 
+                            <em>
+                              italic
+                            </em>
+                          </li>
+                          <li>
+                            Embed snippets of 
+                            <code>
+                              code
+                            </code>
+                          </li>
+                          <li>
+                            Create 
+                            <a
+                              href="/"
+                            >
+                              links
+                            </a>
+                          </li>
+                          <li>
+                            ...
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <h6
+                      id="ordered-list"
+                    >
+                      Ordered List
+                    </h6>
+                    <ol
+                      start="1"
+                    >
+                      <li>
+                        You can have lists, like this one
+                      </li>
+                      <li>
+                        Make things 
+                        <strong>
+                          bold
+                        </strong>
+                         or 
+                        <em>
+                          italic
+                        </em>
+                      </li>
+                      <li>
+                        Embed snippets of 
+                        <code>
+                          code
+                        </code>
+                      </li>
+                      <li>
+                        Create 
+                        <a
+                          href="/"
+                        >
+                          links
+                        </a>
+                      </li>
+                      <li>
+                        ...
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+                <div
+                  class="Box-sc-1bsf784-0 dQGyQA"
+                >
+                  <span>
+                    <a
+                      class="Link-sc-16wd4a0-0 eYsnbh"
+                      href="http://www.acura.ca"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      title="Some aria label"
+                    >
+                      My Tertiary CTA
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-expanded="false"
+            aria-pressed="false"
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 lboGYr sc-1k44dfv-0 hPhBSo"
+            data-testid="dsr-accordion-item-container"
+            id="faqCat1Item2a"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 bPNLGt sc-1k44dfv-0 iCYgbA"
+            >
+              <p
+                class="sc-1k44dfv-0 jQFheS"
+                color="typographyDefault"
+                font-family="default"
+                font-weight="bold"
+              >
+                <span>
+                  I received a recall notice concerning my vehicle. What should I do now?
+                </span>
+              </p>
+              <div
+                class="IconWrapper-lp9q2r-0 fIXvxX"
+              />
+            </div>
+            <div
+              aria-live="polite"
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 cVJjVn"
+              data-testid="dsr-accordion-item-content-container"
+            >
+              <div
+                class="Box-sc-1bsf784-0 jGVkdm"
+                display="flex"
+                width="100%"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 kxBLEi"
+                  width="1,0.3333333333333333"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 dJluwC"
+                    height="auto"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 jbBrzI"
+                    >
+                      <img
+                        alt=""
+                        class="sc-1k44dfv-0 grcUbM"
+                        draggable="true"
+                        height="1603"
+                        loading="lazy"
+                        src="https://app-acura-dit-01-cd.azurewebsites.net/-/media/Acura/modelsCardImages/NSX.jpg?h=1603&w=2400&rev=fa870e20bea14d9e995cda80e2e0ad84&hash=2571A3D47ED59F499F74F879685AF67F"
+                        width="2400"
+                      />
+                      <button
+                        aria-label="Shared.Common.playVideoAria"
+                        class="IconWrapper-lp9q2r-0 sc-1k44dfv-0 dYhDYF"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="Box-sc-1bsf784-0 Column-t2p57o-0 jQyzvQ"
+                  width="1,0.6666666666666666"
+                >
+                  <div
+                    class="sc-1k44dfv-0 klHKZs"
+                  >
+                    
+
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="Box-sc-1bsf784-0 dQGyQA"
+                >
+                  <a
+                    class="Button-pulw6t-0 gIftGV"
+                    data-testid="dsr-button-component"
+                    href="https://www.honda.ca/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    title="Some aria label"
+                  >
+                    My Secondary CTA
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-expanded="false"
+            aria-pressed="false"
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 lboGYr sc-1k44dfv-0 fynLSH"
+            data-testid="dsr-accordion-item-container"
+            id="faqCat1Item3b"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 bPNLGt sc-1k44dfv-0 iCYgbA"
+            >
+              <p
+                class="sc-1k44dfv-0 jQFheS"
+                color="typographyDefault"
+                font-family="default"
+                font-weight="bold"
+              >
+                <span>
+                  Why should I go to an Acura Dealer for an accident repair?
+                </span>
+              </p>
+              <div
+                class="IconWrapper-lp9q2r-0 fIXvxX"
+              />
+            </div>
+            <div
+              aria-live="polite"
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 cVJjVn"
+              data-testid="dsr-accordion-item-content-container"
+            >
+              <div
+                class="sc-1k44dfv-0 jDhSsD"
+                px="m,default"
+              >
+                
+
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

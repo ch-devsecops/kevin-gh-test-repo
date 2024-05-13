@@ -1,0 +1,1107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MarineSeries> should render correctly 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 gXilRl"
+    data-testid="marine-category-wrapper"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-iwsKbI leNIWT"
+    >
+      <div
+        class="fresnel-container fresnel-greaterThan-smallDesktop "
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 brEmfp"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 dPROOa"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 klICea"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 gJVKFB"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                  data-testid="product-card"
+                >
+                  <div
+                    style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                  />
+                  <div
+                    style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                  >
+                    <a
+                      class="Link-sc-16wd4a0-0 bXBGRT"
+                      data-gtm-interaction-type="explore"
+                      data-gtm-trim="BF2.3"
+                      href="/en/portables/BF2_3"
+                      title="view details"
+                    >
+                      <div
+                        class="sc-1k44dfv-0 cALsOM"
+                        mb="xs,s"
+                        mt="0"
+                      >
+                        
+
+                        <h5
+                          class="sc-1k44dfv-0 gXWcpP"
+                        >
+                          BF2.3
+                        </h5>
+                      </div>
+                    </a>
+                  </div>
+                  <a
+                    class="Link-sc-16wd4a0-0 bXBGRT"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-trim="BF2.3"
+                    href="/en/portables/BF2_3"
+                    title="view details"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 jgcAXQ"
+                      height="139px,248px"
+                      order="-1"
+                    >
+                      <img
+                        alt=""
+                        class="sc-1k44dfv-0 jLTFZk"
+                        draggable="true"
+                        loading="lazy"
+                        src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-120/GX120.jpg?rev=af1f2b74677848d9a78390e8484f38e6"
+                        style="object-fit: contain;"
+                      />
+                    </div>
+                  </a>
+                  <div
+                    class="Box-sc-1bsf784-0 QoaNQ"
+                  >
+                    <div
+                      class="sc-1k44dfv-0 ktMwmo"
+                    >
+                      
+
+                      <p>
+                        The world's lightest 4-stroke outboard, it’s ideal for tenders, small fishing boats or as auxiliary power.
+                      </p>
+                    </div>
+                  </div>
+                  <a
+                    class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-title="view details"
+                    data-gtm-trim="BF2.3"
+                    data-testid="dsr-button-component"
+                    display="none,block"
+                    href="/en/portables/BF2_3"
+                    tabindex="0"
+                  >
+                    Shared.Common.viewDetailsButton
+                  </a>
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                  >
+                    <label
+                      class="sc-bxivhb cNchsK"
+                      data-gtm-interaction-type="compare item click"
+                      data-gtm-title="added comparison item"
+                      data-gtm-trim="BF2.3"
+                      data-testid="product-card-compare-btn"
+                      data-testvalue="false"
+                    >
+                      <input
+                        aria-checked="false"
+                        aria-label="Shared.Common.compareCheckboxAria"
+                        autocomplete="off"
+                        class="sc-htpNat dQqbgu"
+                        data-gtm-interaction-type="compare item click"
+                        data-gtm-title="added comparison item"
+                        data-gtm-trim="BF2.3"
+                        tabindex="-1"
+                        type="checkbox"
+                      />
+                      <span
+                        class="sc-ifAKCX kbKBMi"
+                        data-testid="cy-compare-toggle"
+                      />
+                      <label
+                        class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                      >
+                        Shared.Common.addToCompareButton
+                      </label>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 gJVKFB"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                  data-testid="product-card"
+                >
+                  <div
+                    style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                  />
+                  <div
+                    style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                  >
+                    <a
+                      class="Link-sc-16wd4a0-0 bXBGRT"
+                      data-gtm-interaction-type="explore"
+                      data-gtm-trim="BF5"
+                      href="/en/TestPage"
+                      title="view details"
+                    >
+                      <div
+                        class="sc-1k44dfv-0 cALsOM"
+                        mb="xs,s"
+                        mt="0"
+                      >
+                        
+
+                        <h5
+                          class="sc-1k44dfv-0 gXWcpP"
+                        >
+                          BF5
+                        </h5>
+                      </div>
+                    </a>
+                  </div>
+                  <a
+                    class="Link-sc-16wd4a0-0 bXBGRT"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-trim="BF5"
+                    href="/en/TestPage"
+                    title="view details"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 jgcAXQ"
+                      height="139px,248px"
+                      order="-1"
+                    >
+                      <img
+                        alt=""
+                        class="sc-1k44dfv-0 jLTFZk"
+                        draggable="true"
+                        loading="lazy"
+                        src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-120/GX120.jpg?rev=af1f2b74677848d9a78390e8484f38e6"
+                        style="object-fit: contain;"
+                      />
+                    </div>
+                  </a>
+                  <div
+                    class="Box-sc-1bsf784-0 QoaNQ"
+                  >
+                    <div
+                      class="sc-1k44dfv-0 ktMwmo"
+                    >
+                      
+
+                      <p>
+                        Lightweight, compact and ideal for small fishing boats, inflatables and dinghies. Also, used as an auxiliary motor.
+                      </p>
+                    </div>
+                  </div>
+                  <a
+                    class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-title="view details"
+                    data-gtm-trim="BF5"
+                    data-testid="dsr-button-component"
+                    display="none,block"
+                    href="/en/TestPage"
+                    tabindex="0"
+                  >
+                    Shared.Common.viewDetailsButton
+                  </a>
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                  >
+                    <label
+                      class="sc-bxivhb cNchsK"
+                      data-gtm-interaction-type="compare item click"
+                      data-gtm-title="added comparison item"
+                      data-gtm-trim="BF5"
+                      data-testid="product-card-compare-btn"
+                      data-testvalue="false"
+                    >
+                      <input
+                        aria-checked="false"
+                        aria-label="Shared.Common.compareCheckboxAria"
+                        autocomplete="off"
+                        class="sc-htpNat dQqbgu"
+                        data-gtm-interaction-type="compare item click"
+                        data-gtm-title="added comparison item"
+                        data-gtm-trim="BF5"
+                        tabindex="-1"
+                        type="checkbox"
+                      />
+                      <span
+                        class="sc-ifAKCX kbKBMi"
+                        data-testid="cy-compare-toggle"
+                      />
+                      <label
+                        class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                      >
+                        Shared.Common.addToCompareButton
+                      </label>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 fZLgxb"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                  data-testid="product-card"
+                >
+                  <div
+                    style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                  />
+                  <div
+                    style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                  >
+                    <a
+                      class="Link-sc-16wd4a0-0 bXBGRT"
+                      data-gtm-interaction-type="explore"
+                      data-gtm-trim="BF8"
+                      href="/en/TestPage"
+                      title="view details"
+                    >
+                      <div
+                        class="sc-1k44dfv-0 cALsOM"
+                        mb="xs,s"
+                        mt="0"
+                      >
+                        
+
+                        <h5
+                          class="sc-1k44dfv-0 gXWcpP"
+                        >
+                          BF8
+                        </h5>
+                      </div>
+                    </a>
+                  </div>
+                  <a
+                    class="Link-sc-16wd4a0-0 bXBGRT"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-trim="BF8"
+                    href="/en/TestPage"
+                    title="view details"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 jgcAXQ"
+                      height="139px,248px"
+                      order="-1"
+                    >
+                      <img
+                        alt=""
+                        class="sc-1k44dfv-0 jLTFZk"
+                        draggable="true"
+                        loading="lazy"
+                        src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-120/GX120.jpg?rev=af1f2b74677848d9a78390e8484f38e6"
+                        style="object-fit: contain;"
+                      />
+                    </div>
+                  </a>
+                  <div
+                    class="Box-sc-1bsf784-0 QoaNQ"
+                  >
+                    <div
+                      class="sc-1k44dfv-0 ktMwmo"
+                    >
+                      
+
+                      <p>
+                        Excellent performance in a compact package for inflatables, sailboats or as a kicker for large fishing boats.
+                      </p>
+                    </div>
+                  </div>
+                  <a
+                    class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-title="view details"
+                    data-gtm-trim="BF8"
+                    data-testid="dsr-button-component"
+                    display="none,block"
+                    href="/en/TestPage"
+                    tabindex="0"
+                  >
+                    Shared.Common.viewDetailsButton
+                  </a>
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                  >
+                    <label
+                      class="sc-bxivhb cNchsK"
+                      data-gtm-interaction-type="compare item click"
+                      data-gtm-title="added comparison item"
+                      data-gtm-trim="BF8"
+                      data-testid="product-card-compare-btn"
+                      data-testvalue="false"
+                    >
+                      <input
+                        aria-checked="false"
+                        aria-label="Shared.Common.compareCheckboxAria"
+                        autocomplete="off"
+                        class="sc-htpNat dQqbgu"
+                        data-gtm-interaction-type="compare item click"
+                        data-gtm-title="added comparison item"
+                        data-gtm-trim="BF8"
+                        tabindex="-1"
+                        type="checkbox"
+                      />
+                      <span
+                        class="sc-ifAKCX kbKBMi"
+                        data-testid="cy-compare-toggle"
+                      />
+                      <label
+                        class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                      >
+                        Shared.Common.addToCompareButton
+                      </label>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 fZLgxb"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                  data-testid="product-card"
+                >
+                  <div
+                    style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                  />
+                  <div
+                    style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                  >
+                    <a
+                      class="Link-sc-16wd4a0-0 bXBGRT"
+                      data-gtm-interaction-type="explore"
+                      data-gtm-trim="BF15"
+                      href="/en/TestPage"
+                      title="view details"
+                    >
+                      <div
+                        class="sc-1k44dfv-0 cALsOM"
+                        mb="xs,s"
+                        mt="0"
+                      >
+                        
+
+                        <h5
+                          class="sc-1k44dfv-0 gXWcpP"
+                        >
+                          BF15
+                        </h5>
+                      </div>
+                    </a>
+                  </div>
+                  <a
+                    class="Link-sc-16wd4a0-0 bXBGRT"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-trim="BF15"
+                    href="/en/TestPage"
+                    title="view details"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 jgcAXQ"
+                      height="139px,248px"
+                      order="-1"
+                    >
+                      <img
+                        alt=""
+                        class="sc-1k44dfv-0 jLTFZk"
+                        draggable="true"
+                        loading="lazy"
+                        src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-120/GX120.jpg?rev=af1f2b74677848d9a78390e8484f38e6"
+                        style="object-fit: contain;"
+                      />
+                    </div>
+                  </a>
+                  <div
+                    class="Box-sc-1bsf784-0 QoaNQ"
+                  >
+                    <div
+                      class="sc-1k44dfv-0 ktMwmo"
+                    >
+                      
+
+                      <p>
+                        Close in size to the BF9.9, but with more power and one of the largest displacements in its class.
+                      </p>
+                    </div>
+                  </div>
+                  <a
+                    class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-title="view details"
+                    data-gtm-trim="BF15"
+                    data-testid="dsr-button-component"
+                    display="none,block"
+                    href="/en/TestPage"
+                    tabindex="0"
+                  >
+                    Shared.Common.viewDetailsButton
+                  </a>
+                  <div
+                    class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                  >
+                    <label
+                      class="sc-bxivhb cNchsK"
+                      data-gtm-interaction-type="compare item click"
+                      data-gtm-title="added comparison item"
+                      data-gtm-trim="BF15"
+                      data-testid="product-card-compare-btn"
+                      data-testvalue="false"
+                    >
+                      <input
+                        aria-checked="false"
+                        aria-label="Shared.Common.compareCheckboxAria"
+                        autocomplete="off"
+                        class="sc-htpNat dQqbgu"
+                        data-gtm-interaction-type="compare item click"
+                        data-gtm-title="added comparison item"
+                        data-gtm-trim="BF15"
+                        tabindex="-1"
+                        type="checkbox"
+                      />
+                      <span
+                        class="sc-ifAKCX kbKBMi"
+                        data-testid="cy-compare-toggle"
+                      />
+                      <label
+                        class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                      >
+                        Shared.Common.addToCompareButton
+                      </label>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="fresnel-container fresnel-lessThan-desktop "
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 jgsdqg"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 cVtBpL"
+          >
+            <div
+              class="splide splide--slide splide--ltr splide--draggable is-active is-initialized"
+              id="splide01"
+            >
+              <div
+                class="splide__track"
+                id="splide01-track"
+                style="padding-left: 8px; padding-right: 8px;"
+              >
+                <ul
+                  class="splide__list"
+                  id="splide01-list"
+                  style="transform: translateX(0px);"
+                >
+                  <li
+                    class="splide__slide sc-1k44dfv-0 jDdBHR is-active is-visible"
+                    id="splide01-slide01"
+                    tabindex="0"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                      data-testid="product-card"
+                    >
+                      <div
+                        style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                      />
+                      <div
+                        style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                      >
+                        <a
+                          class="Link-sc-16wd4a0-0 bXBGRT"
+                          data-gtm-interaction-type="explore"
+                          data-gtm-trim="BF2.3"
+                          href="/en/portables/BF2_3"
+                          tabindex="0"
+                          title="view details"
+                        >
+                          <div
+                            class="sc-1k44dfv-0 cALsOM"
+                            mb="xs,s"
+                            mt="0"
+                          >
+                            
+
+                            <h5
+                              class="sc-1k44dfv-0 gXWcpP"
+                            >
+                              BF2.3
+                            </h5>
+                          </div>
+                        </a>
+                      </div>
+                      <a
+                        class="Link-sc-16wd4a0-0 bXBGRT"
+                        data-gtm-interaction-type="explore"
+                        data-gtm-trim="BF2.3"
+                        href="/en/portables/BF2_3"
+                        tabindex="0"
+                        title="view details"
+                      >
+                        <div
+                          class="Box-sc-1bsf784-0 jgcAXQ"
+                          height="139px,248px"
+                          order="-1"
+                        >
+                          <img
+                            alt=""
+                            class="sc-1k44dfv-0 jLTFZk"
+                            draggable="true"
+                            loading="lazy"
+                            src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-120/GX120.jpg?rev=af1f2b74677848d9a78390e8484f38e6"
+                            style="object-fit: contain;"
+                          />
+                        </div>
+                      </a>
+                      <div
+                        class="Box-sc-1bsf784-0 QoaNQ"
+                      >
+                        <div
+                          class="sc-1k44dfv-0 ktMwmo"
+                        >
+                          
+
+                          <p>
+                            The world's lightest 4-stroke outboard, it’s ideal for tenders, small fishing boats or as auxiliary power.
+                          </p>
+                        </div>
+                      </div>
+                      <a
+                        class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                        data-gtm-interaction-type="explore"
+                        data-gtm-title="view details"
+                        data-gtm-trim="BF2.3"
+                        data-testid="dsr-button-component"
+                        display="none,block"
+                        href="/en/portables/BF2_3"
+                        tabindex="0"
+                      >
+                        Shared.Common.viewDetailsButton
+                      </a>
+                      <div
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                      >
+                        <label
+                          class="sc-bxivhb cNchsK"
+                          data-gtm-interaction-type="compare item click"
+                          data-gtm-title="added comparison item"
+                          data-gtm-trim="BF2.3"
+                          data-testid="product-card-compare-btn"
+                          data-testvalue="false"
+                        >
+                          <input
+                            aria-checked="false"
+                            aria-label="Shared.Common.compareCheckboxAria"
+                            autocomplete="off"
+                            class="sc-htpNat dQqbgu"
+                            data-gtm-interaction-type="compare item click"
+                            data-gtm-title="added comparison item"
+                            data-gtm-trim="BF2.3"
+                            type="checkbox"
+                          />
+                          <span
+                            class="sc-ifAKCX kbKBMi"
+                            data-testid="cy-compare-toggle"
+                          />
+                          <label
+                            class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                          >
+                            Shared.Common.addToCompareButton
+                          </label>
+                        </label>
+                      </div>
+                    </div>
+                  </li>
+                  <li
+                    class="splide__slide sc-1k44dfv-0 jDdBHR is-visible is-next"
+                    id="splide01-slide02"
+                    tabindex="0"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                      data-testid="product-card"
+                    >
+                      <div
+                        style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                      />
+                      <div
+                        style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                      >
+                        <a
+                          class="Link-sc-16wd4a0-0 bXBGRT"
+                          data-gtm-interaction-type="explore"
+                          data-gtm-trim="BF5"
+                          href="/en/TestPage"
+                          tabindex="0"
+                          title="view details"
+                        >
+                          <div
+                            class="sc-1k44dfv-0 cALsOM"
+                            mb="xs,s"
+                            mt="0"
+                          >
+                            
+
+                            <h5
+                              class="sc-1k44dfv-0 gXWcpP"
+                            >
+                              BF5
+                            </h5>
+                          </div>
+                        </a>
+                      </div>
+                      <a
+                        class="Link-sc-16wd4a0-0 bXBGRT"
+                        data-gtm-interaction-type="explore"
+                        data-gtm-trim="BF5"
+                        href="/en/TestPage"
+                        tabindex="0"
+                        title="view details"
+                      >
+                        <div
+                          class="Box-sc-1bsf784-0 jgcAXQ"
+                          height="139px,248px"
+                          order="-1"
+                        >
+                          <img
+                            alt=""
+                            class="sc-1k44dfv-0 jLTFZk"
+                            draggable="true"
+                            loading="lazy"
+                            src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-120/GX120.jpg?rev=af1f2b74677848d9a78390e8484f38e6"
+                            style="object-fit: contain;"
+                          />
+                        </div>
+                      </a>
+                      <div
+                        class="Box-sc-1bsf784-0 QoaNQ"
+                      >
+                        <div
+                          class="sc-1k44dfv-0 ktMwmo"
+                        >
+                          
+
+                          <p>
+                            Lightweight, compact and ideal for small fishing boats, inflatables and dinghies. Also, used as an auxiliary motor.
+                          </p>
+                        </div>
+                      </div>
+                      <a
+                        class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                        data-gtm-interaction-type="explore"
+                        data-gtm-title="view details"
+                        data-gtm-trim="BF5"
+                        data-testid="dsr-button-component"
+                        display="none,block"
+                        href="/en/TestPage"
+                        tabindex="0"
+                      >
+                        Shared.Common.viewDetailsButton
+                      </a>
+                      <div
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                      >
+                        <label
+                          class="sc-bxivhb cNchsK"
+                          data-gtm-interaction-type="compare item click"
+                          data-gtm-title="added comparison item"
+                          data-gtm-trim="BF5"
+                          data-testid="product-card-compare-btn"
+                          data-testvalue="false"
+                        >
+                          <input
+                            aria-checked="false"
+                            aria-label="Shared.Common.compareCheckboxAria"
+                            autocomplete="off"
+                            class="sc-htpNat dQqbgu"
+                            data-gtm-interaction-type="compare item click"
+                            data-gtm-title="added comparison item"
+                            data-gtm-trim="BF5"
+                            type="checkbox"
+                          />
+                          <span
+                            class="sc-ifAKCX kbKBMi"
+                            data-testid="cy-compare-toggle"
+                          />
+                          <label
+                            class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                          >
+                            Shared.Common.addToCompareButton
+                          </label>
+                        </label>
+                      </div>
+                    </div>
+                  </li>
+                  <li
+                    class="splide__slide sc-1k44dfv-0 jDdBHR is-visible"
+                    id="splide01-slide03"
+                    tabindex="0"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                      data-testid="product-card"
+                    >
+                      <div
+                        style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                      />
+                      <div
+                        style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                      >
+                        <a
+                          class="Link-sc-16wd4a0-0 bXBGRT"
+                          data-gtm-interaction-type="explore"
+                          data-gtm-trim="BF8"
+                          href="/en/TestPage"
+                          tabindex="0"
+                          title="view details"
+                        >
+                          <div
+                            class="sc-1k44dfv-0 cALsOM"
+                            mb="xs,s"
+                            mt="0"
+                          >
+                            
+
+                            <h5
+                              class="sc-1k44dfv-0 gXWcpP"
+                            >
+                              BF8
+                            </h5>
+                          </div>
+                        </a>
+                      </div>
+                      <a
+                        class="Link-sc-16wd4a0-0 bXBGRT"
+                        data-gtm-interaction-type="explore"
+                        data-gtm-trim="BF8"
+                        href="/en/TestPage"
+                        tabindex="0"
+                        title="view details"
+                      >
+                        <div
+                          class="Box-sc-1bsf784-0 jgcAXQ"
+                          height="139px,248px"
+                          order="-1"
+                        >
+                          <img
+                            alt=""
+                            class="sc-1k44dfv-0 jLTFZk"
+                            draggable="true"
+                            loading="lazy"
+                            src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-120/GX120.jpg?rev=af1f2b74677848d9a78390e8484f38e6"
+                            style="object-fit: contain;"
+                          />
+                        </div>
+                      </a>
+                      <div
+                        class="Box-sc-1bsf784-0 QoaNQ"
+                      >
+                        <div
+                          class="sc-1k44dfv-0 ktMwmo"
+                        >
+                          
+
+                          <p>
+                            Excellent performance in a compact package for inflatables, sailboats or as a kicker for large fishing boats.
+                          </p>
+                        </div>
+                      </div>
+                      <a
+                        class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                        data-gtm-interaction-type="explore"
+                        data-gtm-title="view details"
+                        data-gtm-trim="BF8"
+                        data-testid="dsr-button-component"
+                        display="none,block"
+                        href="/en/TestPage"
+                        tabindex="0"
+                      >
+                        Shared.Common.viewDetailsButton
+                      </a>
+                      <div
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                      >
+                        <label
+                          class="sc-bxivhb cNchsK"
+                          data-gtm-interaction-type="compare item click"
+                          data-gtm-title="added comparison item"
+                          data-gtm-trim="BF8"
+                          data-testid="product-card-compare-btn"
+                          data-testvalue="false"
+                        >
+                          <input
+                            aria-checked="false"
+                            aria-label="Shared.Common.compareCheckboxAria"
+                            autocomplete="off"
+                            class="sc-htpNat dQqbgu"
+                            data-gtm-interaction-type="compare item click"
+                            data-gtm-title="added comparison item"
+                            data-gtm-trim="BF8"
+                            type="checkbox"
+                          />
+                          <span
+                            class="sc-ifAKCX kbKBMi"
+                            data-testid="cy-compare-toggle"
+                          />
+                          <label
+                            class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                          >
+                            Shared.Common.addToCompareButton
+                          </label>
+                        </label>
+                      </div>
+                    </div>
+                  </li>
+                  <li
+                    class="splide__slide sc-1k44dfv-0 jDdBHR is-visible"
+                    id="splide01-slide04"
+                    tabindex="0"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                      data-testid="product-card"
+                    >
+                      <div
+                        style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                      />
+                      <div
+                        style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                      >
+                        <a
+                          class="Link-sc-16wd4a0-0 bXBGRT"
+                          data-gtm-interaction-type="explore"
+                          data-gtm-trim="BF15"
+                          href="/en/TestPage"
+                          tabindex="0"
+                          title="view details"
+                        >
+                          <div
+                            class="sc-1k44dfv-0 cALsOM"
+                            mb="xs,s"
+                            mt="0"
+                          >
+                            
+
+                            <h5
+                              class="sc-1k44dfv-0 gXWcpP"
+                            >
+                              BF15
+                            </h5>
+                          </div>
+                        </a>
+                      </div>
+                      <a
+                        class="Link-sc-16wd4a0-0 bXBGRT"
+                        data-gtm-interaction-type="explore"
+                        data-gtm-trim="BF15"
+                        href="/en/TestPage"
+                        tabindex="0"
+                        title="view details"
+                      >
+                        <div
+                          class="Box-sc-1bsf784-0 jgcAXQ"
+                          height="139px,248px"
+                          order="-1"
+                        >
+                          <img
+                            alt=""
+                            class="sc-1k44dfv-0 jLTFZk"
+                            draggable="true"
+                            loading="lazy"
+                            src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-120/GX120.jpg?rev=af1f2b74677848d9a78390e8484f38e6"
+                            style="object-fit: contain;"
+                          />
+                        </div>
+                      </a>
+                      <div
+                        class="Box-sc-1bsf784-0 QoaNQ"
+                      >
+                        <div
+                          class="sc-1k44dfv-0 ktMwmo"
+                        >
+                          
+
+                          <p>
+                            Close in size to the BF9.9, but with more power and one of the largest displacements in its class.
+                          </p>
+                        </div>
+                      </div>
+                      <a
+                        class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                        data-gtm-interaction-type="explore"
+                        data-gtm-title="view details"
+                        data-gtm-trim="BF15"
+                        data-testid="dsr-button-component"
+                        display="none,block"
+                        href="/en/TestPage"
+                        tabindex="0"
+                      >
+                        Shared.Common.viewDetailsButton
+                      </a>
+                      <div
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                      >
+                        <label
+                          class="sc-bxivhb cNchsK"
+                          data-gtm-interaction-type="compare item click"
+                          data-gtm-title="added comparison item"
+                          data-gtm-trim="BF15"
+                          data-testid="product-card-compare-btn"
+                          data-testvalue="false"
+                        >
+                          <input
+                            aria-checked="false"
+                            aria-label="Shared.Common.compareCheckboxAria"
+                            autocomplete="off"
+                            class="sc-htpNat dQqbgu"
+                            data-gtm-interaction-type="compare item click"
+                            data-gtm-title="added comparison item"
+                            data-gtm-trim="BF15"
+                            type="checkbox"
+                          />
+                          <span
+                            class="sc-ifAKCX kbKBMi"
+                            data-testid="cy-compare-toggle"
+                          />
+                          <label
+                            class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                          >
+                            Shared.Common.addToCompareButton
+                          </label>
+                        </label>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 lgDkAw"
+              display="flex"
+              height="48px"
+              width="100%"
+            >
+              <div
+                aria-label="Shared.Common.previousSlideAria"
+                class="IconWrapper-lp9q2r-0 sc-bwzfXH cSMNlX"
+                cursor="pointer"
+                data-testid="arrow-left"
+                display="flex"
+                opacity="0.5"
+                role="button"
+                tabindex="0"
+              />
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 evNJbO"
+              >
+                <button
+                  aria-label="0"
+                  class="sc-1k44dfv-0 cjSExO"
+                  data-testid="step1"
+                  role="button"
+                />
+                <button
+                  aria-label="1"
+                  class="sc-1k44dfv-0 ipUiMI"
+                  data-testid="step2"
+                  role="button"
+                />
+                <button
+                  aria-label="2"
+                  class="sc-1k44dfv-0 ipUiMI"
+                  data-testid="step3"
+                  role="button"
+                />
+                <button
+                  aria-label="3"
+                  class="sc-1k44dfv-0 ipUiMI"
+                  data-testid="step4"
+                  role="button"
+                />
+              </div>
+              <div
+                aria-label="Shared.Common.nextSlideAria"
+                class="IconWrapper-lp9q2r-0 sc-bwzfXH iBUaTS"
+                cursor="pointer"
+                data-testid="arrow-right"
+                display="flex"
+                opacity="1"
+                role="button"
+                tabindex="0"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<MarineSeries> should render correctly with empty mock data 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 gXilRl"
+    data-testid="marine-category-wrapper"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-iwsKbI leNIWT"
+    >
+      <div
+        class="fresnel-container fresnel-greaterThan-smallDesktop "
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 brEmfp"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<MarineSeries> should render with params 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 gXilRl"
+    data-testid="marine-category-wrapper"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-iwsKbI leNIWT"
+    >
+      <div
+        class="fresnel-container fresnel-greaterThan-smallDesktop "
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 brEmfp"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<MarineSeries> should return nulll if there is no  fields 1`] = `<div />`;

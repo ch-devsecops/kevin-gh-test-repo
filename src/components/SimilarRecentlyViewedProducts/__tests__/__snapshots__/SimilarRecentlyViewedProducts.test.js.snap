@@ -1,0 +1,589 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SimilarRecentlyViewedProducts> should have no accessibility violations 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 gXilRl"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 dNDcUp"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 hwpdqT"
+        display="flex"
+        width="1,1,0.5"
+      >
+        <h4
+          aria-label="Pages.Models.Exploration.similarProductsLabel"
+          class="sc-1k44dfv-0 chqxmS"
+        >
+          Pages.Models.Exploration.similarProductsLabel
+        </h4>
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 heIgvm"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 fZLgxb"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+              data-testid="product-card"
+            >
+              <div
+                style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+              />
+              <div
+                style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+              >
+                <a
+                  class="Link-sc-16wd4a0-0 bXBGRT"
+                  data-gtm-body-style="Mini 4-Stroke"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-model="HorizontalCrankshaft"
+                  data-gtm-trim="GX35"
+                  href="/en/mini_4_stroke/gx35"
+                  title="view details"
+                >
+                  <div
+                    class="sc-1k44dfv-0 cALsOM"
+                    mb="xs,s"
+                    mt="0"
+                  >
+                    
+
+                    <h5
+                      class="sc-1k44dfv-0 gXWcpP"
+                    >
+                      GX35
+                    </h5>
+                  </div>
+                </a>
+              </div>
+              <a
+                class="Link-sc-16wd4a0-0 bXBGRT"
+                data-gtm-body-style="Mini 4-Stroke"
+                data-gtm-interaction-type="explore"
+                data-gtm-model="HorizontalCrankshaft"
+                data-gtm-trim="GX35"
+                href="/en/mini_4_stroke/gx35"
+                title="view details"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 jgcAXQ"
+                  height="139px,248px"
+                  order="-1"
+                >
+                  <img
+                    alt="Photo of Honda GX35 engine"
+                    class="sc-1k44dfv-0 jLTFZk"
+                    draggable="true"
+                    loading="lazy"
+                    src="sample-mock-data/media/img/product-card/engineImage.png"
+                    style="object-fit: contain;"
+                  />
+                </div>
+              </a>
+              <div
+                class="Box-sc-1bsf784-0 fznlGo"
+              >
+                <div
+                  class="sc-1k44dfv-0 ktMwmo"
+                >
+                  
+
+                  <p>
+                    Make light work of hard tasks, while still getting cleaner, more efficient performance for a wide range of equipment.
+                  </p>
+                </div>
+              </div>
+              <a
+                class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                data-gtm-body-style="Mini 4-Stroke"
+                data-gtm-interaction-type="explore"
+                data-gtm-model="HorizontalCrankshaft"
+                data-gtm-title="view details"
+                data-gtm-trim="GX35"
+                data-testid="dsr-button-component"
+                display="none,block"
+                href="/en/mini_4_stroke/gx35"
+                tabindex="0"
+              >
+                Shared.Common.viewDetailsButton
+              </a>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+              >
+                <label
+                  class="sc-bwzfXH cvvuMq"
+                  data-gtm-body-style="Mini 4-Stroke"
+                  data-gtm-interaction-type="compare item click"
+                  data-gtm-model="HorizontalCrankshaft"
+                  data-gtm-title="added comparison item"
+                  data-gtm-trim="GX35"
+                  data-testid="product-card-compare-btn"
+                  data-testvalue="false"
+                >
+                  <input
+                    aria-checked="false"
+                    aria-label="Shared.Common.compareCheckboxAria"
+                    autocomplete="off"
+                    class="sc-bdVaJa gBQUrE"
+                    data-gtm-body-style="Mini 4-Stroke"
+                    data-gtm-interaction-type="compare item click"
+                    data-gtm-model="HorizontalCrankshaft"
+                    data-gtm-title="added comparison item"
+                    data-gtm-trim="GX35"
+                    id="7282790A8D9F433E8870E06231656A0C"
+                    tabindex="-1"
+                    type="checkbox"
+                  />
+                  <span
+                    class="sc-htpNat hVaxDi"
+                    data-testid="cy-compare-toggle"
+                  />
+                  <label
+                    class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                    for="7282790A8D9F433E8870E06231656A0C"
+                  >
+                    Shared.Common.addToCompareButton
+                  </label>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 fZLgxb"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+              data-testid="product-card"
+            >
+              <div
+                style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+              />
+              <div
+                style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+              >
+                <a
+                  class="Link-sc-16wd4a0-0 bXBGRT"
+                  data-gtm-body-style="Mini 4-Stroke"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-model="HorizontalCrankshaft"
+                  data-gtm-trim="GX50"
+                  href="/en/mini_4_stroke/gx50"
+                  title="view details"
+                >
+                  <div
+                    class="sc-1k44dfv-0 cALsOM"
+                    mb="xs,s"
+                    mt="0"
+                  >
+                    
+
+                    <h5
+                      class="sc-1k44dfv-0 gXWcpP"
+                    >
+                      GX50
+                    </h5>
+                  </div>
+                </a>
+              </div>
+              <a
+                class="Link-sc-16wd4a0-0 bXBGRT"
+                data-gtm-body-style="Mini 4-Stroke"
+                data-gtm-interaction-type="explore"
+                data-gtm-model="HorizontalCrankshaft"
+                data-gtm-trim="GX50"
+                href="/en/mini_4_stroke/gx50"
+                title="view details"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 jgcAXQ"
+                  height="139px,248px"
+                  order="-1"
+                >
+                  <img
+                    alt="Photo of Honda GX50 engine"
+                    class="sc-1k44dfv-0 jLTFZk"
+                    draggable="true"
+                    loading="lazy"
+                    src="sample-mock-data/media/img/product-card/engineImage.png"
+                    style="object-fit: contain;"
+                  />
+                </div>
+              </a>
+              <div
+                class="Box-sc-1bsf784-0 fznlGo"
+              >
+                <div
+                  class="sc-1k44dfv-0 ktMwmo"
+                >
+                  
+
+                  <p>
+                    Professionals trust the GX50 to deliver a solid performance across an impressive range of applications from commercial gardening to construction and agriculture.
+                  </p>
+                </div>
+              </div>
+              <a
+                class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                data-gtm-body-style="Mini 4-Stroke"
+                data-gtm-interaction-type="explore"
+                data-gtm-model="HorizontalCrankshaft"
+                data-gtm-title="view details"
+                data-gtm-trim="GX50"
+                data-testid="dsr-button-component"
+                display="none,block"
+                href="/en/mini_4_stroke/gx50"
+                tabindex="0"
+              >
+                Shared.Common.viewDetailsButton
+              </a>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+              >
+                <label
+                  class="sc-bwzfXH cvvuMq"
+                  data-gtm-body-style="Mini 4-Stroke"
+                  data-gtm-interaction-type="compare item click"
+                  data-gtm-model="HorizontalCrankshaft"
+                  data-gtm-title="added comparison item"
+                  data-gtm-trim="GX50"
+                  data-testid="product-card-compare-btn"
+                  data-testvalue="false"
+                >
+                  <input
+                    aria-checked="false"
+                    aria-label="Shared.Common.compareCheckboxAria"
+                    autocomplete="off"
+                    class="sc-bdVaJa gBQUrE"
+                    data-gtm-body-style="Mini 4-Stroke"
+                    data-gtm-interaction-type="compare item click"
+                    data-gtm-model="HorizontalCrankshaft"
+                    data-gtm-title="added comparison item"
+                    data-gtm-trim="GX50"
+                    id="8E16B45522284B50AC1868819AA989BC"
+                    tabindex="-1"
+                    type="checkbox"
+                  />
+                  <span
+                    class="sc-htpNat hVaxDi"
+                    data-testid="cy-compare-toggle"
+                  />
+                  <label
+                    class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                    for="8E16B45522284B50AC1868819AA989BC"
+                  >
+                    Shared.Common.addToCompareButton
+                  </label>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<SimilarRecentlyViewedProducts> should render correctly 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 gXilRl"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 dNDcUp"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 hwpdqT"
+        display="flex"
+        width="1,1,0.5"
+      >
+        <h4
+          aria-label="Pages.Models.Exploration.similarProductsLabel"
+          class="sc-1k44dfv-0 chqxmS"
+        >
+          Pages.Models.Exploration.similarProductsLabel
+        </h4>
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 heIgvm"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 fZLgxb"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+              data-testid="product-card"
+            >
+              <div
+                style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+              />
+              <div
+                style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+              >
+                <a
+                  class="Link-sc-16wd4a0-0 bXBGRT"
+                  data-gtm-body-style="Mini 4-Stroke"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-model="HorizontalCrankshaft"
+                  data-gtm-trim="GX35"
+                  href="/en/mini_4_stroke/gx35"
+                  title="view details"
+                >
+                  <div
+                    class="sc-1k44dfv-0 cALsOM"
+                    mb="xs,s"
+                    mt="0"
+                  >
+                    
+
+                    <h5
+                      class="sc-1k44dfv-0 gXWcpP"
+                    >
+                      GX35
+                    </h5>
+                  </div>
+                </a>
+              </div>
+              <a
+                class="Link-sc-16wd4a0-0 bXBGRT"
+                data-gtm-body-style="Mini 4-Stroke"
+                data-gtm-interaction-type="explore"
+                data-gtm-model="HorizontalCrankshaft"
+                data-gtm-trim="GX35"
+                href="/en/mini_4_stroke/gx35"
+                title="view details"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 jgcAXQ"
+                  height="139px,248px"
+                  order="-1"
+                >
+                  <img
+                    alt="Photo of Honda GX35 engine"
+                    class="sc-1k44dfv-0 jLTFZk"
+                    draggable="true"
+                    loading="lazy"
+                    src="sample-mock-data/media/img/product-card/engineImage.png"
+                    style="object-fit: contain;"
+                  />
+                </div>
+              </a>
+              <div
+                class="Box-sc-1bsf784-0 fznlGo"
+              >
+                <div
+                  class="sc-1k44dfv-0 ktMwmo"
+                >
+                  
+
+                  <p>
+                    Make light work of hard tasks, while still getting cleaner, more efficient performance for a wide range of equipment.
+                  </p>
+                </div>
+              </div>
+              <a
+                class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                data-gtm-body-style="Mini 4-Stroke"
+                data-gtm-interaction-type="explore"
+                data-gtm-model="HorizontalCrankshaft"
+                data-gtm-title="view details"
+                data-gtm-trim="GX35"
+                data-testid="dsr-button-component"
+                display="none,block"
+                href="/en/mini_4_stroke/gx35"
+                tabindex="0"
+              >
+                Shared.Common.viewDetailsButton
+              </a>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+              >
+                <label
+                  class="sc-bwzfXH cvvuMq"
+                  data-gtm-body-style="Mini 4-Stroke"
+                  data-gtm-interaction-type="compare item click"
+                  data-gtm-model="HorizontalCrankshaft"
+                  data-gtm-title="added comparison item"
+                  data-gtm-trim="GX35"
+                  data-testid="product-card-compare-btn"
+                  data-testvalue="false"
+                >
+                  <input
+                    aria-checked="false"
+                    aria-label="Shared.Common.compareCheckboxAria"
+                    autocomplete="off"
+                    class="sc-bdVaJa gBQUrE"
+                    data-gtm-body-style="Mini 4-Stroke"
+                    data-gtm-interaction-type="compare item click"
+                    data-gtm-model="HorizontalCrankshaft"
+                    data-gtm-title="added comparison item"
+                    data-gtm-trim="GX35"
+                    id="7282790A8D9F433E8870E06231656A0C"
+                    tabindex="-1"
+                    type="checkbox"
+                  />
+                  <span
+                    class="sc-htpNat hVaxDi"
+                    data-testid="cy-compare-toggle"
+                  />
+                  <label
+                    class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                    for="7282790A8D9F433E8870E06231656A0C"
+                  >
+                    Shared.Common.addToCompareButton
+                  </label>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 fZLgxb"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+              data-testid="product-card"
+            >
+              <div
+                style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+              />
+              <div
+                style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+              >
+                <a
+                  class="Link-sc-16wd4a0-0 bXBGRT"
+                  data-gtm-body-style="Mini 4-Stroke"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-model="HorizontalCrankshaft"
+                  data-gtm-trim="GX50"
+                  href="/en/mini_4_stroke/gx50"
+                  title="view details"
+                >
+                  <div
+                    class="sc-1k44dfv-0 cALsOM"
+                    mb="xs,s"
+                    mt="0"
+                  >
+                    
+
+                    <h5
+                      class="sc-1k44dfv-0 gXWcpP"
+                    >
+                      GX50
+                    </h5>
+                  </div>
+                </a>
+              </div>
+              <a
+                class="Link-sc-16wd4a0-0 bXBGRT"
+                data-gtm-body-style="Mini 4-Stroke"
+                data-gtm-interaction-type="explore"
+                data-gtm-model="HorizontalCrankshaft"
+                data-gtm-trim="GX50"
+                href="/en/mini_4_stroke/gx50"
+                title="view details"
+              >
+                <div
+                  class="Box-sc-1bsf784-0 jgcAXQ"
+                  height="139px,248px"
+                  order="-1"
+                >
+                  <img
+                    alt="Photo of Honda GX50 engine"
+                    class="sc-1k44dfv-0 jLTFZk"
+                    draggable="true"
+                    loading="lazy"
+                    src="sample-mock-data/media/img/product-card/engineImage.png"
+                    style="object-fit: contain;"
+                  />
+                </div>
+              </a>
+              <div
+                class="Box-sc-1bsf784-0 fznlGo"
+              >
+                <div
+                  class="sc-1k44dfv-0 ktMwmo"
+                >
+                  
+
+                  <p>
+                    Professionals trust the GX50 to deliver a solid performance across an impressive range of applications from commercial gardening to construction and agriculture.
+                  </p>
+                </div>
+              </div>
+              <a
+                class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                data-gtm-body-style="Mini 4-Stroke"
+                data-gtm-interaction-type="explore"
+                data-gtm-model="HorizontalCrankshaft"
+                data-gtm-title="view details"
+                data-gtm-trim="GX50"
+                data-testid="dsr-button-component"
+                display="none,block"
+                href="/en/mini_4_stroke/gx50"
+                tabindex="0"
+              >
+                Shared.Common.viewDetailsButton
+              </a>
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+              >
+                <label
+                  class="sc-bwzfXH cvvuMq"
+                  data-gtm-body-style="Mini 4-Stroke"
+                  data-gtm-interaction-type="compare item click"
+                  data-gtm-model="HorizontalCrankshaft"
+                  data-gtm-title="added comparison item"
+                  data-gtm-trim="GX50"
+                  data-testid="product-card-compare-btn"
+                  data-testvalue="false"
+                >
+                  <input
+                    aria-checked="false"
+                    aria-label="Shared.Common.compareCheckboxAria"
+                    autocomplete="off"
+                    class="sc-bdVaJa gBQUrE"
+                    data-gtm-body-style="Mini 4-Stroke"
+                    data-gtm-interaction-type="compare item click"
+                    data-gtm-model="HorizontalCrankshaft"
+                    data-gtm-title="added comparison item"
+                    data-gtm-trim="GX50"
+                    id="8E16B45522284B50AC1868819AA989BC"
+                    tabindex="-1"
+                    type="checkbox"
+                  />
+                  <span
+                    class="sc-htpNat hVaxDi"
+                    data-testid="cy-compare-toggle"
+                  />
+                  <label
+                    class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                    for="8E16B45522284B50AC1868819AA989BC"
+                  >
+                    Shared.Common.addToCompareButton
+                  </label>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<SimilarRecentlyViewedProducts> should return null if the data is empty 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 gXilRl"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 gqakPH"
+    />
+  </div>
+</div>
+`;
+
+exports[`<SimilarRecentlyViewedProducts> should return null if there is no fields 1`] = `<div />`;

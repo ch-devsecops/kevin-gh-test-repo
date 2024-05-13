@@ -1,0 +1,697 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CompareLayout> renders without errors 1`] = `
+.c1 {
+  width: 100%;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+}
+
+.c4 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: m;
+  display: none;
+  width: 100%;
+  height: 48px;
+  background-color: #fff;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  bottom: 0;
+  box-shadow: none;
+}
+
+.c0 {
+  top: l;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1;
+  overflow-x: clip;
+}
+
+.c2 {
+  border-bottom: 1px solid;
+  border-color: #EAEAEA;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 0;
+}
+
+.c3 {
+  max-width: 1280px;
+  width: 100%;
+  box-shadow: 0;
+  background: white;
+  left: 0;
+  z-index: 210;
+  -webkit-transition: opacity .6s ease-in;
+  transition: opacity .6s ease-in;
+}
+
+.c3 > .splide > .splide__track {
+  overflow: unset;
+  overflow-y: visible;
+}
+
+.c5 {
+  width: 20%;
+  padding-left: columnGap.0;
+  padding-right: columnGap.0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  border: 1px solid;
+  border-color: #EAEAEA;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.c6 {
+  margin: 0;
+  color: #2C2C2C;
+  margin-top: xl;
+  margin-bottom: huge;
+  font-weight: normal;
+  font-family: Helvetica;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+  font: default;
+  font-size: 16px;
+}
+
+@media screen and (min-width:768px) {
+  .c0 {
+    top: l;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c0 {
+    top: 72px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c2 {
+    -webkit-flex-wrap: none;
+    -ms-flex-wrap: none;
+    flex-wrap: none;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c3 {
+    left: auto;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c5 {
+    padding-left: columnGap.1;
+    padding-right: columnGap.1;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c5 {
+    border: 1px solid;
+    border-color: #EAEAEA;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c5 {
+    border: 0;
+    padding-left: m;
+    padding-right: m;
+  }
+}
+
+<div>
+  <div
+    class="fresnel-container fresnel-lessThan-desktop c0"
+  >
+    <div
+      class="c1 c2"
+      display="flex"
+      width="100%"
+    >
+      <div
+        class="c3"
+      >
+        <div
+          class="splide splide--slide splide--ltr splide--draggable is-active is-initialized"
+          id="splide03"
+        >
+          <div
+            class="splide__track"
+            id="splide03-track"
+            style="padding-left: 8px; padding-right: 8px;"
+          >
+            <ul
+              class="splide__list"
+              id="splide03-list"
+              style="transform: translateX(0px);"
+            />
+          </div>
+        </div>
+        <div
+          class="c4"
+          display="none"
+          height="48px"
+          width="100%"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="fresnel-container fresnel-greaterThan-smallDesktop c0"
+    style="padding-bottom: 0px;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class="c3"
+      >
+        <div
+          class="c1 c2"
+          display="flex"
+          width="100%"
+        >
+          <div
+            class="c5"
+            width="0.2"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <p
+    class="sc-1k44dfv-0 c6"
+    color="typographyDefault"
+    data-testid="compare-no-selection-text"
+    display="flex"
+    font-family="default"
+    font-weight="regular"
+  >
+    Shared.Common.selectProductsToCompareLabel
+  </p>
+</div>
+`;
+
+exports[`<CompareLayout> should have no accessibility violations 1`] = `
+.c1 {
+  width: 100%;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+}
+
+.c4 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: m;
+  display: none;
+  width: 100%;
+  height: 48px;
+  background-color: #fff;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  bottom: 0;
+  box-shadow: none;
+}
+
+.c0 {
+  top: l;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1;
+  overflow-x: clip;
+}
+
+.c2 {
+  border-bottom: 1px solid;
+  border-color: #EAEAEA;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 0;
+}
+
+.c3 {
+  max-width: 1280px;
+  width: 100%;
+  box-shadow: 0;
+  background: white;
+  left: 0;
+  z-index: 210;
+  -webkit-transition: opacity .6s ease-in;
+  transition: opacity .6s ease-in;
+}
+
+.c3 > .splide > .splide__track {
+  overflow: unset;
+  overflow-y: visible;
+}
+
+.c5 {
+  width: 20%;
+  padding-left: columnGap.0;
+  padding-right: columnGap.0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  border: 1px solid;
+  border-color: #EAEAEA;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.c6 {
+  margin: 0;
+  color: #2C2C2C;
+  margin-top: xl;
+  margin-bottom: huge;
+  font-weight: normal;
+  font-family: Helvetica;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+  font: default;
+  font-size: 16px;
+}
+
+@media screen and (min-width:768px) {
+  .c0 {
+    top: l;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c0 {
+    top: 72px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c2 {
+    -webkit-flex-wrap: none;
+    -ms-flex-wrap: none;
+    flex-wrap: none;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c3 {
+    left: auto;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c5 {
+    padding-left: columnGap.1;
+    padding-right: columnGap.1;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c5 {
+    border: 1px solid;
+    border-color: #EAEAEA;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c5 {
+    border: 0;
+    padding-left: m;
+    padding-right: m;
+  }
+}
+
+<div>
+  <div
+    class="fresnel-container fresnel-lessThan-desktop c0"
+  >
+    <div
+      class="c1 c2"
+      display="flex"
+      width="100%"
+    >
+      <div
+        class="c3"
+      >
+        <div
+          class="splide splide--slide splide--ltr splide--draggable is-active is-initialized"
+          id="splide02"
+        >
+          <div
+            class="splide__track"
+            id="splide02-track"
+            style="padding-left: 8px; padding-right: 8px;"
+          >
+            <ul
+              class="splide__list"
+              id="splide02-list"
+              style="transform: translateX(0px);"
+            />
+          </div>
+        </div>
+        <div
+          class="c4"
+          display="none"
+          height="48px"
+          width="100%"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="fresnel-container fresnel-greaterThan-smallDesktop c0"
+    style="padding-bottom: 0px;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class="c3"
+      >
+        <div
+          class="c1 c2"
+          display="flex"
+          width="100%"
+        >
+          <div
+            class="c5"
+            width="0.2"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <p
+    class="sc-1k44dfv-0 c6"
+    color="typographyDefault"
+    data-testid="compare-no-selection-text"
+    display="flex"
+    font-family="default"
+    font-weight="regular"
+  >
+    Shared.Common.selectProductsToCompareLabel
+  </p>
+</div>
+`;
+
+exports[`<CompareLayout> should render without errors if there is no data 1`] = `
+.c1 {
+  width: 100%;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+}
+
+.c4 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: m;
+  display: none;
+  width: 100%;
+  height: 48px;
+  background-color: #fff;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  bottom: 0;
+  box-shadow: none;
+}
+
+.c0 {
+  top: l;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1;
+  overflow-x: clip;
+}
+
+.c2 {
+  border-bottom: 1px solid;
+  border-color: #EAEAEA;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 0;
+}
+
+.c3 {
+  max-width: 1280px;
+  width: 100%;
+  box-shadow: 0;
+  background: white;
+  left: 0;
+  z-index: 210;
+  -webkit-transition: opacity .6s ease-in;
+  transition: opacity .6s ease-in;
+}
+
+.c3 > .splide > .splide__track {
+  overflow: unset;
+  overflow-y: visible;
+}
+
+.c5 {
+  width: 20%;
+  padding-left: columnGap.0;
+  padding-right: columnGap.0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  border: 1px solid;
+  border-color: #EAEAEA;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.c6 {
+  margin: 0;
+  color: #2C2C2C;
+  margin-top: xl;
+  margin-bottom: huge;
+  font-weight: normal;
+  font-family: Helvetica;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+  font: default;
+  font-size: 16px;
+}
+
+@media screen and (min-width:768px) {
+  .c0 {
+    top: l;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c0 {
+    top: 72px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c2 {
+    -webkit-flex-wrap: none;
+    -ms-flex-wrap: none;
+    flex-wrap: none;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c3 {
+    left: auto;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c5 {
+    padding-left: columnGap.1;
+    padding-right: columnGap.1;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c5 {
+    border: 1px solid;
+    border-color: #EAEAEA;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c5 {
+    border: 0;
+    padding-left: m;
+    padding-right: m;
+  }
+}
+
+<div>
+  <div
+    class="fresnel-container fresnel-lessThan-desktop c0"
+  >
+    <div
+      class="c1 c2"
+      display="flex"
+      width="100%"
+    >
+      <div
+        class="c3"
+      >
+        <div
+          class="splide splide--slide splide--ltr splide--draggable is-active is-initialized"
+          id="splide01"
+        >
+          <div
+            class="splide__track"
+            id="splide01-track"
+            style="padding-left: 8px; padding-right: 8px;"
+          >
+            <ul
+              class="splide__list"
+              id="splide01-list"
+              style="transform: translateX(0px);"
+            />
+          </div>
+        </div>
+        <div
+          class="c4"
+          display="none"
+          height="48px"
+          width="100%"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="fresnel-container fresnel-greaterThan-smallDesktop c0"
+    style="padding-bottom: 0px;"
+  >
+    <div
+      class=""
+    >
+      <div
+        class="c3"
+      >
+        <div
+          class="c1 c2"
+          display="flex"
+          width="100%"
+        >
+          <div
+            class="c5"
+            width="0.2"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <p
+    class="sc-1k44dfv-0 c6"
+    color="typographyDefault"
+    data-testid="compare-no-selection-text"
+    display="flex"
+    font-family="default"
+    font-weight="regular"
+  >
+    Shared.Common.selectProductsToCompareLabel
+  </p>
+</div>
+`;

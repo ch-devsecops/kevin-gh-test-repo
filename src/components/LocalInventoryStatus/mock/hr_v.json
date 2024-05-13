@@ -1,0 +1,17 @@
+[
+  {
+    "dealerCode": 2345,
+    "inventory": [
+      {
+        "modelCode": "hr_v",
+        "availableStatus": "inStock",
+        "colors": [
+          {
+            "extColor": "241modern_steel_metallic",
+            "intColor": "bkblack_fabric_%5E2020_hrv"
+          }
+        ]
+      }
+    ]
+  }
+]

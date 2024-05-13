@@ -1,0 +1,4600 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MainContainer> renders without errors 1`] = `
+.c7 {
+  width: 100%;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c13 {
+  width: 100%;
+}
+
+.c21 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: m;
+  display: none;
+  width: 100%;
+  height: 48px;
+  background-color: #fff;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  bottom: 0;
+  box-shadow: none;
+}
+
+.c0 {
+  max-width: maxWidth;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: l;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.c1 {
+  margin-bottom: s;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c2 {
+  color: #2C2C2C;
+  font-family: Roboto;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: normal;
+  margin-bottom: xs;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.c3 {
+  color: #2C2C2C;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+}
+
+.c6 {
+  top: l;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1;
+  overflow-x: clip;
+}
+
+.c8 {
+  border-bottom: 1px solid;
+  border-color: #EAEAEA;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 0;
+}
+
+.c9 {
+  max-width: 1280px;
+  width: 100%;
+  box-shadow: 0;
+  background: white;
+  left: 0;
+  z-index: 210;
+  -webkit-transition: opacity .6s ease-in;
+  transition: opacity .6s ease-in;
+}
+
+.c9 > .splide > .splide__track {
+  overflow: unset;
+  overflow-y: visible;
+}
+
+.c11 {
+  width: 100%;
+  padding-left: columnGap.0;
+  padding-right: columnGap.0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  border: 1px solid;
+  border-color: #EAEAEA;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 300px;
+  max-width: 380px;
+  margin: 0 auto;
+  padding-top: l;
+  padding-left: xl;
+  padding-right: xl;
+}
+
+.c16 {
+  margin-bottom: l;
+}
+
+.c16 >div {
+  background: #fff;
+}
+
+.c15 {
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+}
+
+.c15:focus {
+  outline: transparent;
+}
+
+.c15:focus div:first-of-type:after {
+  height: 2px;
+}
+
+.c17 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+  color: #2C2C2C;
+  font-family: Helvetica;
+  font-weight: normal;
+  line-height: 22px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  background-color: #F5F5F5;
+  background-color: #fff;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: normal;
+}
+
+.c17::-ms-clear {
+  display: none;
+}
+
+.c17::-webkit-input-placeholder {
+  color: #707070;
+}
+
+.c17::-moz-placeholder {
+  color: #707070;
+}
+
+.c17:-ms-input-placeholder {
+  color: #707070;
+}
+
+.c17::placeholder {
+  color: #707070;
+}
+
+.c17:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  background-color: #2C2C2C;
+}
+
+.c17:after {
+  height: 1px;
+}
+
+.c18 {
+  margin: 0;
+  color: #2C2C2C;
+  font-weight: normal;
+  font-family: Helvetica;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  height: small;
+}
+
+.c20 >div {
+  background: #fff;
+}
+
+.c22 {
+  width: 20%;
+  padding-left: columnGap.0;
+  padding-right: columnGap.0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  border: 1px solid;
+  border-color: #EAEAEA;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.c23 {
+  margin: 0;
+  color: #2C2C2C;
+  margin-top: xl;
+  margin-bottom: huge;
+  font-weight: normal;
+  font-family: Helvetica;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+  font: default;
+  font-size: 16px;
+}
+
+.c19 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: iconWrapper.md;
+  height: iconWrapper.md;
+}
+
+.c5 {
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border: 1px solid;
+  min-width: 220px;
+  height: 45px;
+  border-radius: 50px;
+  -webkit-transition: color 0.3s ease,background-color 0.3s ease;
+  transition: color 0.3s ease,background-color 0.3s ease;
+  text-transform: uppercase;
+  font-size: 13px;
+  overflow: visible;
+  padding-top: s;
+  padding-bottom: s;
+  padding-left: default;
+  padding-right: default;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  padding-left: zero;
+  padding-right: zero;
+  font-family: Roboto;
+  border-radius: 3px;
+  line-height: 20px;
+  background-color: #fff;
+  border-color: #2C2C2C;
+  color: #2C2C2C;
+}
+
+.c5::before {
+  content: none;
+  position: absolute;
+  top: -3px;
+  bottom: -3px;
+  left: -3px;
+  right: -3px;
+  border: 1px solid;
+}
+
+.c5::-moz-focus-inner {
+  border: 0;
+}
+
+.c5 > a,
+.c5 > a:hover,
+.c5 > button {
+  color: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+}
+
+.c5::before {
+  border-radius: 3px;
+}
+
+.c5:hover {
+  background-color: #2C2C2C;
+  border-color: #2C2C2C;
+  color: #fff;
+}
+
+.c5:focus,
+.c5:focus-visible {
+  outline: transparent;
+}
+
+.c5:focus::before,
+.c5:focus-visible::before {
+  content: "";
+  border-color: #2C2C2C;
+}
+
+.c5:disabled {
+  cursor: default;
+  background-color: #fff;
+  border-color: #C7C7C7;
+  color: #C7C7C7;
+}
+
+.c14 {
+  display: block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  color: #2C2C2C;
+  font-family: Cooper Black;
+  font-size: 12px;
+  line-height: xs;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+}
+
+.c4 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  background: none;
+  display: inline-block;
+  cursor: pointer;
+  padding-left: 0;
+  padding-right: 0;
+  line-height: 22px;
+  font-size: 14px;
+  border-bottom: 1px solid transparent;
+  font-family: Cooper Black;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+  -webkit-transition: border-bottom 0.3s ease;
+  transition: border-bottom 0.3s ease;
+  color: #2C2C2C;
+  line-height: 16px;
+  color: #2C2C2C;
+}
+
+.c4 > a,
+.c4 > a:hover {
+  color: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+}
+
+.c4:hover,
+.c4:focus {
+  border-bottom: 1px solid;
+  outline: transparent;
+}
+
+.c4:hover,
+.c4:focus {
+  border-color: #DA2C2E;
+}
+
+@media screen and (min-width:768px) {
+  .c0 {
+    padding-top: big;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c0 {
+    padding-left: m;
+    padding-right: m;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c1 {
+    margin-bottom: s;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c1 {
+    margin-bottom: xl;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c2 {
+    font-size: 68px;
+    line-height: 74px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c2 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c2 {
+    font-size: 68px;
+    line-height: 74px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c6 {
+    top: l;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c6 {
+    top: 72px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c8 {
+    -webkit-flex-wrap: none;
+    -ms-flex-wrap: none;
+    flex-wrap: none;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c9 {
+    left: auto;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c11 {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c11 {
+    width: 20%;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c11 {
+    padding-left: columnGap.1;
+    padding-right: columnGap.1;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c11 {
+    border: 1px solid;
+    border-color: #EAEAEA;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c11 {
+    border: 0;
+    padding-left: m;
+    padding-right: m;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c12 {
+    padding-left: s;
+    padding-right: s;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c17 {
+    line-height: 24px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c22 {
+    padding-left: columnGap.1;
+    padding-right: columnGap.1;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c22 {
+    border: 1px solid;
+    border-color: #EAEAEA;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c22 {
+    border: 0;
+    padding-left: m;
+    padding-right: m;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c14 {
+    line-height: 22px;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <h1
+        class="sc-1k44dfv-0 c2"
+        data-testid="compare-title"
+      >
+        Shared.Common.compareSectionHeading
+      </h1>
+      <div
+        class="fresnel-container fresnel-lessThan-desktop "
+      >
+        <a
+          class="c3 c4"
+          color="typographyDefault"
+          data-testid="mobile-go-back-button"
+          href="#"
+        >
+          Shared.Common.goBackButton
+        </a>
+      </div>
+      <div
+        class="fresnel-container fresnel-greaterThanOrEqual-desktop "
+      >
+        <button
+          class="c5"
+          data-testid="dsr-button-component"
+          style="min-width: 140px;"
+        >
+          Shared.Common.goBackButton
+        </button>
+      </div>
+    </div>
+    <div
+      class="fresnel-container fresnel-lessThan-desktop c6"
+    >
+      <div
+        class="c7 c8"
+        display="flex"
+        width="100%"
+      >
+        <div
+          class="c9"
+        >
+          <div
+            class="splide splide--slide splide--ltr splide--draggable is-active is-initialized"
+            id="splide03"
+          >
+            <div
+              class="splide__track"
+              id="splide03-track"
+              style="padding-left: 8px; padding-right: 8px;"
+            >
+              <ul
+                class="splide__list"
+                id="splide03-list"
+                style="transform: translateX(0px);"
+              >
+                <li
+                  class="splide__slide is-active is-visible"
+                  id="splide03-slide01"
+                  tabindex="0"
+                >
+                  <div
+                    class="c10"
+                    data-testid="mobile-product0"
+                    display="flex"
+                  >
+                    <div
+                      class="c11"
+                      data-testid="product-compare-column0"
+                      width="1,1,0.2"
+                    >
+                      <div
+                        class="c12"
+                      >
+                        <div
+                          class="c13"
+                          data-testid="product-series-wrapper"
+                          width="100%"
+                        >
+                          <label
+                            class="c14"
+                            data-testid="product-series-label"
+                          >
+                            Shared.Common.productCategoryLabel
+                          </label>
+                          <div
+                            aria-label="Shared.Common.productCategoryAria"
+                            class="c15 sc-1k44dfv-0 c16"
+                            data-testid="dsr-dropdown-container"
+                            tabindex="0"
+                          >
+                            <div
+                              aria-expanded="false"
+                              aria-haspopup="listbox"
+                              class="sc-1k44dfv-0 c17"
+                              data-testid="button"
+                              id="productSeries0"
+                              role="button"
+                            >
+                              <span
+                                class="sc-1k44dfv-0 c18"
+                                color="typographyDefault"
+                                data-testid="select-text"
+                                font-family="default"
+                                font-weight="regular"
+                              >
+                                Select
+                              </span>
+                              <div
+                                class="c19"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="c13"
+                          data-testid="product-name-wrapper"
+                          width="100%"
+                        >
+                          <label
+                            class="c14"
+                            data-testid="product-name-label"
+                          >
+                            Shared.Common.productName
+                          </label>
+                          <div
+                            aria-label="Shared.Common.productNameAria"
+                            class="c15 sc-1k44dfv-0 c20"
+                            data-testid="dsr-dropdown-container"
+                            tabindex="0"
+                          >
+                            <div
+                              aria-expanded="false"
+                              aria-haspopup="listbox"
+                              class="sc-1k44dfv-0 c17"
+                              data-testid="button"
+                              id="productNameList0"
+                              role="button"
+                            >
+                              <span
+                                class="sc-1k44dfv-0 c18"
+                                color="typographyDefault"
+                                data-testid="select-text"
+                                font-family="default"
+                                font-weight="regular"
+                              >
+                                Select
+                              </span>
+                              <div
+                                class="c19"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li
+                  class="splide__slide is-visible is-next"
+                  id="splide03-slide02"
+                  tabindex="0"
+                >
+                  <div
+                    class="c10"
+                    data-testid="mobile-product1"
+                    display="flex"
+                  >
+                    <div
+                      class="c11"
+                      data-testid="product-compare-column1"
+                      width="1,1,0.2"
+                    >
+                      <div
+                        class="c12"
+                      >
+                        <div
+                          class="c13"
+                          data-testid="product-series-wrapper"
+                          width="100%"
+                        >
+                          <label
+                            class="c14"
+                            data-testid="product-series-label"
+                          >
+                            Shared.Common.productCategoryLabel
+                          </label>
+                          <div
+                            aria-label="Shared.Common.productCategoryAria"
+                            class="c15 sc-1k44dfv-0 c16"
+                            data-testid="dsr-dropdown-container"
+                            tabindex="0"
+                          >
+                            <div
+                              aria-expanded="false"
+                              aria-haspopup="listbox"
+                              class="sc-1k44dfv-0 c17"
+                              data-testid="button"
+                              id="productSeries1"
+                              role="button"
+                            >
+                              <span
+                                class="sc-1k44dfv-0 c18"
+                                color="typographyDefault"
+                                data-testid="select-text"
+                                font-family="default"
+                                font-weight="regular"
+                              >
+                                Select
+                              </span>
+                              <div
+                                class="c19"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="c13"
+                          data-testid="product-name-wrapper"
+                          width="100%"
+                        >
+                          <label
+                            class="c14"
+                            data-testid="product-name-label"
+                          >
+                            Shared.Common.productName
+                          </label>
+                          <div
+                            aria-label="Shared.Common.productNameAria"
+                            class="c15 sc-1k44dfv-0 c20"
+                            data-testid="dsr-dropdown-container"
+                            tabindex="0"
+                          >
+                            <div
+                              aria-expanded="false"
+                              aria-haspopup="listbox"
+                              class="sc-1k44dfv-0 c17"
+                              data-testid="button"
+                              id="productNameList1"
+                              role="button"
+                            >
+                              <span
+                                class="sc-1k44dfv-0 c18"
+                                color="typographyDefault"
+                                data-testid="select-text"
+                                font-family="default"
+                                font-weight="regular"
+                              >
+                                Select
+                              </span>
+                              <div
+                                class="c19"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li
+                  class="splide__slide is-visible"
+                  id="splide03-slide03"
+                  tabindex="0"
+                >
+                  <div
+                    class="c10"
+                    data-testid="mobile-product2"
+                    display="flex"
+                  >
+                    <div
+                      class="c11"
+                      data-testid="product-compare-column2"
+                      width="1,1,0.2"
+                    >
+                      <div
+                        class="c12"
+                      >
+                        <div
+                          class="c13"
+                          data-testid="product-series-wrapper"
+                          width="100%"
+                        >
+                          <label
+                            class="c14"
+                            data-testid="product-series-label"
+                          >
+                            Shared.Common.productCategoryLabel
+                          </label>
+                          <div
+                            aria-label="Shared.Common.productCategoryAria"
+                            class="c15 sc-1k44dfv-0 c16"
+                            data-testid="dsr-dropdown-container"
+                            tabindex="0"
+                          >
+                            <div
+                              aria-expanded="false"
+                              aria-haspopup="listbox"
+                              class="sc-1k44dfv-0 c17"
+                              data-testid="button"
+                              id="productSeries2"
+                              role="button"
+                            >
+                              <span
+                                class="sc-1k44dfv-0 c18"
+                                color="typographyDefault"
+                                data-testid="select-text"
+                                font-family="default"
+                                font-weight="regular"
+                              >
+                                Select
+                              </span>
+                              <div
+                                class="c19"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="c13"
+                          data-testid="product-name-wrapper"
+                          width="100%"
+                        >
+                          <label
+                            class="c14"
+                            data-testid="product-name-label"
+                          >
+                            Shared.Common.productName
+                          </label>
+                          <div
+                            aria-label="Shared.Common.productNameAria"
+                            class="c15 sc-1k44dfv-0 c20"
+                            data-testid="dsr-dropdown-container"
+                            tabindex="0"
+                          >
+                            <div
+                              aria-expanded="false"
+                              aria-haspopup="listbox"
+                              class="sc-1k44dfv-0 c17"
+                              data-testid="button"
+                              id="productNameList2"
+                              role="button"
+                            >
+                              <span
+                                class="sc-1k44dfv-0 c18"
+                                color="typographyDefault"
+                                data-testid="select-text"
+                                font-family="default"
+                                font-weight="regular"
+                              >
+                                Select
+                              </span>
+                              <div
+                                class="c19"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li
+                  class="splide__slide is-visible"
+                  id="splide03-slide04"
+                  tabindex="0"
+                >
+                  <div
+                    class="c10"
+                    data-testid="mobile-product3"
+                    display="flex"
+                  >
+                    <div
+                      class="c11"
+                      data-testid="product-compare-column3"
+                      width="1,1,0.2"
+                    >
+                      <div
+                        class="c12"
+                      >
+                        <div
+                          class="c13"
+                          data-testid="product-series-wrapper"
+                          width="100%"
+                        >
+                          <label
+                            class="c14"
+                            data-testid="product-series-label"
+                          >
+                            Shared.Common.productCategoryLabel
+                          </label>
+                          <div
+                            aria-label="Shared.Common.productCategoryAria"
+                            class="c15 sc-1k44dfv-0 c16"
+                            data-testid="dsr-dropdown-container"
+                            tabindex="0"
+                          >
+                            <div
+                              aria-expanded="false"
+                              aria-haspopup="listbox"
+                              class="sc-1k44dfv-0 c17"
+                              data-testid="button"
+                              id="productSeries3"
+                              role="button"
+                            >
+                              <span
+                                class="sc-1k44dfv-0 c18"
+                                color="typographyDefault"
+                                data-testid="select-text"
+                                font-family="default"
+                                font-weight="regular"
+                              >
+                                Select
+                              </span>
+                              <div
+                                class="c19"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="c13"
+                          data-testid="product-name-wrapper"
+                          width="100%"
+                        >
+                          <label
+                            class="c14"
+                            data-testid="product-name-label"
+                          >
+                            Shared.Common.productName
+                          </label>
+                          <div
+                            aria-label="Shared.Common.productNameAria"
+                            class="c15 sc-1k44dfv-0 c20"
+                            data-testid="dsr-dropdown-container"
+                            tabindex="0"
+                          >
+                            <div
+                              aria-expanded="false"
+                              aria-haspopup="listbox"
+                              class="sc-1k44dfv-0 c17"
+                              data-testid="button"
+                              id="productNameList3"
+                              role="button"
+                            >
+                              <span
+                                class="sc-1k44dfv-0 c18"
+                                color="typographyDefault"
+                                data-testid="select-text"
+                                font-family="default"
+                                font-weight="regular"
+                              >
+                                Select
+                              </span>
+                              <div
+                                class="c19"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="c21"
+            display="none"
+            height="48px"
+            width="100%"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="fresnel-container fresnel-greaterThan-smallDesktop c6"
+      style="padding-bottom: 0px;"
+    >
+      <div
+        class=""
+      >
+        <div
+          class="c9"
+        >
+          <div
+            class="c7 c8"
+            display="flex"
+            width="100%"
+          >
+            <div
+              class="c22"
+              width="0.2"
+            />
+            <div
+              class="c11"
+              data-testid="product-compare-column0"
+              width="1,1,0.2"
+            >
+              <div
+                class="c12"
+              >
+                <div
+                  class="c13"
+                  data-testid="product-series-wrapper"
+                  width="100%"
+                >
+                  <label
+                    class="c14"
+                    data-testid="product-series-label"
+                  >
+                    Shared.Common.productCategoryLabel
+                  </label>
+                  <div
+                    aria-label="Shared.Common.productCategoryAria"
+                    class="c15 sc-1k44dfv-0 c16"
+                    data-testid="dsr-dropdown-container"
+                    tabindex="0"
+                  >
+                    <div
+                      aria-expanded="false"
+                      aria-haspopup="listbox"
+                      class="sc-1k44dfv-0 c17"
+                      data-testid="button"
+                      id="productSeries0"
+                      role="button"
+                    >
+                      <span
+                        class="sc-1k44dfv-0 c18"
+                        color="typographyDefault"
+                        data-testid="select-text"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        Select
+                      </span>
+                      <div
+                        class="c19"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="c13"
+                  data-testid="product-name-wrapper"
+                  width="100%"
+                >
+                  <label
+                    class="c14"
+                    data-testid="product-name-label"
+                  >
+                    Shared.Common.productName
+                  </label>
+                  <div
+                    aria-label="Shared.Common.productNameAria"
+                    class="c15 sc-1k44dfv-0 c20"
+                    data-testid="dsr-dropdown-container"
+                    tabindex="0"
+                  >
+                    <div
+                      aria-expanded="false"
+                      aria-haspopup="listbox"
+                      class="sc-1k44dfv-0 c17"
+                      data-testid="button"
+                      id="productNameList0"
+                      role="button"
+                    >
+                      <span
+                        class="sc-1k44dfv-0 c18"
+                        color="typographyDefault"
+                        data-testid="select-text"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        Select
+                      </span>
+                      <div
+                        class="c19"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="c11"
+              data-testid="product-compare-column1"
+              width="1,1,0.2"
+            >
+              <div
+                class="c12"
+              >
+                <div
+                  class="c13"
+                  data-testid="product-series-wrapper"
+                  width="100%"
+                >
+                  <label
+                    class="c14"
+                    data-testid="product-series-label"
+                  >
+                    Shared.Common.productCategoryLabel
+                  </label>
+                  <div
+                    aria-label="Shared.Common.productCategoryAria"
+                    class="c15 sc-1k44dfv-0 c16"
+                    data-testid="dsr-dropdown-container"
+                    tabindex="0"
+                  >
+                    <div
+                      aria-expanded="false"
+                      aria-haspopup="listbox"
+                      class="sc-1k44dfv-0 c17"
+                      data-testid="button"
+                      id="productSeries1"
+                      role="button"
+                    >
+                      <span
+                        class="sc-1k44dfv-0 c18"
+                        color="typographyDefault"
+                        data-testid="select-text"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        Select
+                      </span>
+                      <div
+                        class="c19"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="c13"
+                  data-testid="product-name-wrapper"
+                  width="100%"
+                >
+                  <label
+                    class="c14"
+                    data-testid="product-name-label"
+                  >
+                    Shared.Common.productName
+                  </label>
+                  <div
+                    aria-label="Shared.Common.productNameAria"
+                    class="c15 sc-1k44dfv-0 c20"
+                    data-testid="dsr-dropdown-container"
+                    tabindex="0"
+                  >
+                    <div
+                      aria-expanded="false"
+                      aria-haspopup="listbox"
+                      class="sc-1k44dfv-0 c17"
+                      data-testid="button"
+                      id="productNameList1"
+                      role="button"
+                    >
+                      <span
+                        class="sc-1k44dfv-0 c18"
+                        color="typographyDefault"
+                        data-testid="select-text"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        Select
+                      </span>
+                      <div
+                        class="c19"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="c11"
+              data-testid="product-compare-column2"
+              width="1,1,0.2"
+            >
+              <div
+                class="c12"
+              >
+                <div
+                  class="c13"
+                  data-testid="product-series-wrapper"
+                  width="100%"
+                >
+                  <label
+                    class="c14"
+                    data-testid="product-series-label"
+                  >
+                    Shared.Common.productCategoryLabel
+                  </label>
+                  <div
+                    aria-label="Shared.Common.productCategoryAria"
+                    class="c15 sc-1k44dfv-0 c16"
+                    data-testid="dsr-dropdown-container"
+                    tabindex="0"
+                  >
+                    <div
+                      aria-expanded="false"
+                      aria-haspopup="listbox"
+                      class="sc-1k44dfv-0 c17"
+                      data-testid="button"
+                      id="productSeries2"
+                      role="button"
+                    >
+                      <span
+                        class="sc-1k44dfv-0 c18"
+                        color="typographyDefault"
+                        data-testid="select-text"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        Select
+                      </span>
+                      <div
+                        class="c19"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="c13"
+                  data-testid="product-name-wrapper"
+                  width="100%"
+                >
+                  <label
+                    class="c14"
+                    data-testid="product-name-label"
+                  >
+                    Shared.Common.productName
+                  </label>
+                  <div
+                    aria-label="Shared.Common.productNameAria"
+                    class="c15 sc-1k44dfv-0 c20"
+                    data-testid="dsr-dropdown-container"
+                    tabindex="0"
+                  >
+                    <div
+                      aria-expanded="false"
+                      aria-haspopup="listbox"
+                      class="sc-1k44dfv-0 c17"
+                      data-testid="button"
+                      id="productNameList2"
+                      role="button"
+                    >
+                      <span
+                        class="sc-1k44dfv-0 c18"
+                        color="typographyDefault"
+                        data-testid="select-text"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        Select
+                      </span>
+                      <div
+                        class="c19"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="c11"
+              data-testid="product-compare-column3"
+              width="1,1,0.2"
+            >
+              <div
+                class="c12"
+              >
+                <div
+                  class="c13"
+                  data-testid="product-series-wrapper"
+                  width="100%"
+                >
+                  <label
+                    class="c14"
+                    data-testid="product-series-label"
+                  >
+                    Shared.Common.productCategoryLabel
+                  </label>
+                  <div
+                    aria-label="Shared.Common.productCategoryAria"
+                    class="c15 sc-1k44dfv-0 c16"
+                    data-testid="dsr-dropdown-container"
+                    tabindex="0"
+                  >
+                    <div
+                      aria-expanded="false"
+                      aria-haspopup="listbox"
+                      class="sc-1k44dfv-0 c17"
+                      data-testid="button"
+                      id="productSeries3"
+                      role="button"
+                    >
+                      <span
+                        class="sc-1k44dfv-0 c18"
+                        color="typographyDefault"
+                        data-testid="select-text"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        Select
+                      </span>
+                      <div
+                        class="c19"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="c13"
+                  data-testid="product-name-wrapper"
+                  width="100%"
+                >
+                  <label
+                    class="c14"
+                    data-testid="product-name-label"
+                  >
+                    Shared.Common.productName
+                  </label>
+                  <div
+                    aria-label="Shared.Common.productNameAria"
+                    class="c15 sc-1k44dfv-0 c20"
+                    data-testid="dsr-dropdown-container"
+                    tabindex="0"
+                  >
+                    <div
+                      aria-expanded="false"
+                      aria-haspopup="listbox"
+                      class="sc-1k44dfv-0 c17"
+                      data-testid="button"
+                      id="productNameList3"
+                      role="button"
+                    >
+                      <span
+                        class="sc-1k44dfv-0 c18"
+                        color="typographyDefault"
+                        data-testid="select-text"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        Select
+                      </span>
+                      <div
+                        class="c19"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p
+      class="sc-1k44dfv-0 c23"
+      color="typographyDefault"
+      data-testid="compare-no-selection-text"
+      display="flex"
+      font-family="default"
+      font-weight="regular"
+    >
+      Shared.Common.selectProductsToCompareLabel
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<MainContainer> should have no accessibility violations 1`] = `
+.c7 {
+  width: 100%;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c13 {
+  width: 100%;
+}
+
+.c21 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: m;
+  display: none;
+  width: 100%;
+  height: 48px;
+  background-color: #fff;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  bottom: 0;
+  box-shadow: none;
+}
+
+.c0 {
+  max-width: maxWidth;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: l;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.c1 {
+  margin-bottom: s;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c2 {
+  color: #2C2C2C;
+  font-family: Roboto;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: normal;
+  margin-bottom: xs;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.c3 {
+  color: #2C2C2C;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+}
+
+.c6 {
+  top: l;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1;
+  overflow-x: clip;
+}
+
+.c8 {
+  border-bottom: 1px solid;
+  border-color: #EAEAEA;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 0;
+}
+
+.c9 {
+  max-width: 1280px;
+  width: 100%;
+  box-shadow: 0;
+  background: white;
+  left: 0;
+  z-index: 210;
+  -webkit-transition: opacity .6s ease-in;
+  transition: opacity .6s ease-in;
+}
+
+.c9 > .splide > .splide__track {
+  overflow: unset;
+  overflow-y: visible;
+}
+
+.c11 {
+  width: 100%;
+  padding-left: columnGap.0;
+  padding-right: columnGap.0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  border: 1px solid;
+  border-color: #EAEAEA;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 300px;
+  max-width: 380px;
+  margin: 0 auto;
+  padding-top: l;
+  padding-left: xl;
+  padding-right: xl;
+}
+
+.c16 {
+  margin-bottom: l;
+}
+
+.c16 >div {
+  background: #fff;
+}
+
+.c15 {
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+}
+
+.c15:focus {
+  outline: transparent;
+}
+
+.c15:focus div:first-of-type:after {
+  height: 2px;
+}
+
+.c17 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+  color: #2C2C2C;
+  font-family: Helvetica;
+  font-weight: normal;
+  line-height: 22px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  background-color: #F5F5F5;
+  background-color: #fff;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: normal;
+}
+
+.c17::-ms-clear {
+  display: none;
+}
+
+.c17::-webkit-input-placeholder {
+  color: #707070;
+}
+
+.c17::-moz-placeholder {
+  color: #707070;
+}
+
+.c17:-ms-input-placeholder {
+  color: #707070;
+}
+
+.c17::placeholder {
+  color: #707070;
+}
+
+.c17:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  background-color: #2C2C2C;
+}
+
+.c17:after {
+  height: 1px;
+}
+
+.c18 {
+  margin: 0;
+  color: #2C2C2C;
+  font-weight: normal;
+  font-family: Helvetica;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  height: small;
+}
+
+.c20 >div {
+  background: #fff;
+}
+
+.c22 {
+  width: 20%;
+  padding-left: columnGap.0;
+  padding-right: columnGap.0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  border: 1px solid;
+  border-color: #EAEAEA;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.c23 {
+  margin: 0;
+  color: #2C2C2C;
+  margin-top: xl;
+  margin-bottom: huge;
+  font-weight: normal;
+  font-family: Helvetica;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+  font: default;
+  font-size: 16px;
+}
+
+.c19 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: iconWrapper.md;
+  height: iconWrapper.md;
+}
+
+.c5 {
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border: 1px solid;
+  min-width: 220px;
+  height: 45px;
+  border-radius: 50px;
+  -webkit-transition: color 0.3s ease,background-color 0.3s ease;
+  transition: color 0.3s ease,background-color 0.3s ease;
+  text-transform: uppercase;
+  font-size: 13px;
+  overflow: visible;
+  padding-top: s;
+  padding-bottom: s;
+  padding-left: default;
+  padding-right: default;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  padding-left: zero;
+  padding-right: zero;
+  font-family: Roboto;
+  border-radius: 3px;
+  line-height: 20px;
+  background-color: #fff;
+  border-color: #2C2C2C;
+  color: #2C2C2C;
+}
+
+.c5::before {
+  content: none;
+  position: absolute;
+  top: -3px;
+  bottom: -3px;
+  left: -3px;
+  right: -3px;
+  border: 1px solid;
+}
+
+.c5::-moz-focus-inner {
+  border: 0;
+}
+
+.c5 > a,
+.c5 > a:hover,
+.c5 > button {
+  color: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+}
+
+.c5::before {
+  border-radius: 3px;
+}
+
+.c5:hover {
+  background-color: #2C2C2C;
+  border-color: #2C2C2C;
+  color: #fff;
+}
+
+.c5:focus,
+.c5:focus-visible {
+  outline: transparent;
+}
+
+.c5:focus::before,
+.c5:focus-visible::before {
+  content: "";
+  border-color: #2C2C2C;
+}
+
+.c5:disabled {
+  cursor: default;
+  background-color: #fff;
+  border-color: #C7C7C7;
+  color: #C7C7C7;
+}
+
+.c14 {
+  display: block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  color: #2C2C2C;
+  font-family: Cooper Black;
+  font-size: 12px;
+  line-height: xs;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+}
+
+.c4 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  background: none;
+  display: inline-block;
+  cursor: pointer;
+  padding-left: 0;
+  padding-right: 0;
+  line-height: 22px;
+  font-size: 14px;
+  border-bottom: 1px solid transparent;
+  font-family: Cooper Black;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+  -webkit-transition: border-bottom 0.3s ease;
+  transition: border-bottom 0.3s ease;
+  color: #2C2C2C;
+  line-height: 16px;
+  color: #2C2C2C;
+}
+
+.c4 > a,
+.c4 > a:hover {
+  color: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+}
+
+.c4:hover,
+.c4:focus {
+  border-bottom: 1px solid;
+  outline: transparent;
+}
+
+.c4:hover,
+.c4:focus {
+  border-color: #DA2C2E;
+}
+
+@media screen and (min-width:768px) {
+  .c0 {
+    padding-top: big;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c0 {
+    padding-left: m;
+    padding-right: m;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c1 {
+    margin-bottom: s;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c1 {
+    margin-bottom: xl;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c2 {
+    font-size: 68px;
+    line-height: 74px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c2 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c2 {
+    font-size: 68px;
+    line-height: 74px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c6 {
+    top: l;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c6 {
+    top: 72px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c8 {
+    -webkit-flex-wrap: none;
+    -ms-flex-wrap: none;
+    flex-wrap: none;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c9 {
+    left: auto;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c11 {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c11 {
+    width: 20%;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c11 {
+    padding-left: columnGap.1;
+    padding-right: columnGap.1;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c11 {
+    border: 1px solid;
+    border-color: #EAEAEA;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c11 {
+    border: 0;
+    padding-left: m;
+    padding-right: m;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c12 {
+    padding-left: s;
+    padding-right: s;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c17 {
+    line-height: 24px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c22 {
+    padding-left: columnGap.1;
+    padding-right: columnGap.1;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c22 {
+    border: 1px solid;
+    border-color: #EAEAEA;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c22 {
+    border: 0;
+    padding-left: m;
+    padding-right: m;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c14 {
+    line-height: 22px;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <h1
+        class="sc-1k44dfv-0 c2"
+        data-testid="compare-title"
+      >
+        Shared.Common.compareSectionHeading
+      </h1>
+      <div
+        class="fresnel-container fresnel-lessThan-desktop "
+      >
+        <a
+          class="c3 c4"
+          color="typographyDefault"
+          data-testid="mobile-go-back-button"
+          href="#"
+        >
+          Shared.Common.goBackButton
+        </a>
+      </div>
+      <div
+        class="fresnel-container fresnel-greaterThanOrEqual-desktop "
+      >
+        <button
+          class="c5"
+          data-testid="dsr-button-component"
+          style="min-width: 140px;"
+        >
+          Shared.Common.goBackButton
+        </button>
+      </div>
+    </div>
+    <div
+      class="fresnel-container fresnel-lessThan-desktop c6"
+    >
+      <div
+        class="c7 c8"
+        display="flex"
+        width="100%"
+      >
+        <div
+          class="c9"
+        >
+          <div
+            class="splide splide--slide splide--ltr splide--draggable is-active is-initialized"
+            id="splide02"
+          >
+            <div
+              class="splide__track"
+              id="splide02-track"
+              style="padding-left: 8px; padding-right: 8px;"
+            >
+              <ul
+                class="splide__list"
+                id="splide02-list"
+                style="transform: translateX(0px);"
+              >
+                <li
+                  class="splide__slide is-active is-visible"
+                  id="splide02-slide01"
+                  tabindex="0"
+                >
+                  <div
+                    class="c10"
+                    data-testid="mobile-product0"
+                    display="flex"
+                  >
+                    <div
+                      class="c11"
+                      data-testid="product-compare-column0"
+                      width="1,1,0.2"
+                    >
+                      <div
+                        class="c12"
+                      >
+                        <div
+                          class="c13"
+                          data-testid="product-series-wrapper"
+                          width="100%"
+                        >
+                          <label
+                            class="c14"
+                            data-testid="product-series-label"
+                          >
+                            Shared.Common.productCategoryLabel
+                          </label>
+                          <div
+                            aria-label="Shared.Common.productCategoryAria"
+                            class="c15 sc-1k44dfv-0 c16"
+                            data-testid="dsr-dropdown-container"
+                            tabindex="0"
+                          >
+                            <div
+                              aria-expanded="false"
+                              aria-haspopup="listbox"
+                              class="sc-1k44dfv-0 c17"
+                              data-testid="button"
+                              id="productSeries0"
+                              role="button"
+                            >
+                              <span
+                                class="sc-1k44dfv-0 c18"
+                                color="typographyDefault"
+                                data-testid="select-text"
+                                font-family="default"
+                                font-weight="regular"
+                              >
+                                Select
+                              </span>
+                              <div
+                                class="c19"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="c13"
+                          data-testid="product-name-wrapper"
+                          width="100%"
+                        >
+                          <label
+                            class="c14"
+                            data-testid="product-name-label"
+                          >
+                            Shared.Common.productName
+                          </label>
+                          <div
+                            aria-label="Shared.Common.productNameAria"
+                            class="c15 sc-1k44dfv-0 c20"
+                            data-testid="dsr-dropdown-container"
+                            tabindex="0"
+                          >
+                            <div
+                              aria-expanded="false"
+                              aria-haspopup="listbox"
+                              class="sc-1k44dfv-0 c17"
+                              data-testid="button"
+                              id="productNameList0"
+                              role="button"
+                            >
+                              <span
+                                class="sc-1k44dfv-0 c18"
+                                color="typographyDefault"
+                                data-testid="select-text"
+                                font-family="default"
+                                font-weight="regular"
+                              >
+                                Select
+                              </span>
+                              <div
+                                class="c19"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li
+                  class="splide__slide is-visible is-next"
+                  id="splide02-slide02"
+                  tabindex="0"
+                >
+                  <div
+                    class="c10"
+                    data-testid="mobile-product1"
+                    display="flex"
+                  >
+                    <div
+                      class="c11"
+                      data-testid="product-compare-column1"
+                      width="1,1,0.2"
+                    >
+                      <div
+                        class="c12"
+                      >
+                        <div
+                          class="c13"
+                          data-testid="product-series-wrapper"
+                          width="100%"
+                        >
+                          <label
+                            class="c14"
+                            data-testid="product-series-label"
+                          >
+                            Shared.Common.productCategoryLabel
+                          </label>
+                          <div
+                            aria-label="Shared.Common.productCategoryAria"
+                            class="c15 sc-1k44dfv-0 c16"
+                            data-testid="dsr-dropdown-container"
+                            tabindex="0"
+                          >
+                            <div
+                              aria-expanded="false"
+                              aria-haspopup="listbox"
+                              class="sc-1k44dfv-0 c17"
+                              data-testid="button"
+                              id="productSeries1"
+                              role="button"
+                            >
+                              <span
+                                class="sc-1k44dfv-0 c18"
+                                color="typographyDefault"
+                                data-testid="select-text"
+                                font-family="default"
+                                font-weight="regular"
+                              >
+                                Select
+                              </span>
+                              <div
+                                class="c19"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="c13"
+                          data-testid="product-name-wrapper"
+                          width="100%"
+                        >
+                          <label
+                            class="c14"
+                            data-testid="product-name-label"
+                          >
+                            Shared.Common.productName
+                          </label>
+                          <div
+                            aria-label="Shared.Common.productNameAria"
+                            class="c15 sc-1k44dfv-0 c20"
+                            data-testid="dsr-dropdown-container"
+                            tabindex="0"
+                          >
+                            <div
+                              aria-expanded="false"
+                              aria-haspopup="listbox"
+                              class="sc-1k44dfv-0 c17"
+                              data-testid="button"
+                              id="productNameList1"
+                              role="button"
+                            >
+                              <span
+                                class="sc-1k44dfv-0 c18"
+                                color="typographyDefault"
+                                data-testid="select-text"
+                                font-family="default"
+                                font-weight="regular"
+                              >
+                                Select
+                              </span>
+                              <div
+                                class="c19"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li
+                  class="splide__slide is-visible"
+                  id="splide02-slide03"
+                  tabindex="0"
+                >
+                  <div
+                    class="c10"
+                    data-testid="mobile-product2"
+                    display="flex"
+                  >
+                    <div
+                      class="c11"
+                      data-testid="product-compare-column2"
+                      width="1,1,0.2"
+                    >
+                      <div
+                        class="c12"
+                      >
+                        <div
+                          class="c13"
+                          data-testid="product-series-wrapper"
+                          width="100%"
+                        >
+                          <label
+                            class="c14"
+                            data-testid="product-series-label"
+                          >
+                            Shared.Common.productCategoryLabel
+                          </label>
+                          <div
+                            aria-label="Shared.Common.productCategoryAria"
+                            class="c15 sc-1k44dfv-0 c16"
+                            data-testid="dsr-dropdown-container"
+                            tabindex="0"
+                          >
+                            <div
+                              aria-expanded="false"
+                              aria-haspopup="listbox"
+                              class="sc-1k44dfv-0 c17"
+                              data-testid="button"
+                              id="productSeries2"
+                              role="button"
+                            >
+                              <span
+                                class="sc-1k44dfv-0 c18"
+                                color="typographyDefault"
+                                data-testid="select-text"
+                                font-family="default"
+                                font-weight="regular"
+                              >
+                                Select
+                              </span>
+                              <div
+                                class="c19"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="c13"
+                          data-testid="product-name-wrapper"
+                          width="100%"
+                        >
+                          <label
+                            class="c14"
+                            data-testid="product-name-label"
+                          >
+                            Shared.Common.productName
+                          </label>
+                          <div
+                            aria-label="Shared.Common.productNameAria"
+                            class="c15 sc-1k44dfv-0 c20"
+                            data-testid="dsr-dropdown-container"
+                            tabindex="0"
+                          >
+                            <div
+                              aria-expanded="false"
+                              aria-haspopup="listbox"
+                              class="sc-1k44dfv-0 c17"
+                              data-testid="button"
+                              id="productNameList2"
+                              role="button"
+                            >
+                              <span
+                                class="sc-1k44dfv-0 c18"
+                                color="typographyDefault"
+                                data-testid="select-text"
+                                font-family="default"
+                                font-weight="regular"
+                              >
+                                Select
+                              </span>
+                              <div
+                                class="c19"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li
+                  class="splide__slide is-visible"
+                  id="splide02-slide04"
+                  tabindex="0"
+                >
+                  <div
+                    class="c10"
+                    data-testid="mobile-product3"
+                    display="flex"
+                  >
+                    <div
+                      class="c11"
+                      data-testid="product-compare-column3"
+                      width="1,1,0.2"
+                    >
+                      <div
+                        class="c12"
+                      >
+                        <div
+                          class="c13"
+                          data-testid="product-series-wrapper"
+                          width="100%"
+                        >
+                          <label
+                            class="c14"
+                            data-testid="product-series-label"
+                          >
+                            Shared.Common.productCategoryLabel
+                          </label>
+                          <div
+                            aria-label="Shared.Common.productCategoryAria"
+                            class="c15 sc-1k44dfv-0 c16"
+                            data-testid="dsr-dropdown-container"
+                            tabindex="0"
+                          >
+                            <div
+                              aria-expanded="false"
+                              aria-haspopup="listbox"
+                              class="sc-1k44dfv-0 c17"
+                              data-testid="button"
+                              id="productSeries3"
+                              role="button"
+                            >
+                              <span
+                                class="sc-1k44dfv-0 c18"
+                                color="typographyDefault"
+                                data-testid="select-text"
+                                font-family="default"
+                                font-weight="regular"
+                              >
+                                Select
+                              </span>
+                              <div
+                                class="c19"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="c13"
+                          data-testid="product-name-wrapper"
+                          width="100%"
+                        >
+                          <label
+                            class="c14"
+                            data-testid="product-name-label"
+                          >
+                            Shared.Common.productName
+                          </label>
+                          <div
+                            aria-label="Shared.Common.productNameAria"
+                            class="c15 sc-1k44dfv-0 c20"
+                            data-testid="dsr-dropdown-container"
+                            tabindex="0"
+                          >
+                            <div
+                              aria-expanded="false"
+                              aria-haspopup="listbox"
+                              class="sc-1k44dfv-0 c17"
+                              data-testid="button"
+                              id="productNameList3"
+                              role="button"
+                            >
+                              <span
+                                class="sc-1k44dfv-0 c18"
+                                color="typographyDefault"
+                                data-testid="select-text"
+                                font-family="default"
+                                font-weight="regular"
+                              >
+                                Select
+                              </span>
+                              <div
+                                class="c19"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="c21"
+            display="none"
+            height="48px"
+            width="100%"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="fresnel-container fresnel-greaterThan-smallDesktop c6"
+      style="padding-bottom: 0px;"
+    >
+      <div
+        class=""
+      >
+        <div
+          class="c9"
+        >
+          <div
+            class="c7 c8"
+            display="flex"
+            width="100%"
+          >
+            <div
+              class="c22"
+              width="0.2"
+            />
+            <div
+              class="c11"
+              data-testid="product-compare-column0"
+              width="1,1,0.2"
+            >
+              <div
+                class="c12"
+              >
+                <div
+                  class="c13"
+                  data-testid="product-series-wrapper"
+                  width="100%"
+                >
+                  <label
+                    class="c14"
+                    data-testid="product-series-label"
+                  >
+                    Shared.Common.productCategoryLabel
+                  </label>
+                  <div
+                    aria-label="Shared.Common.productCategoryAria"
+                    class="c15 sc-1k44dfv-0 c16"
+                    data-testid="dsr-dropdown-container"
+                    tabindex="0"
+                  >
+                    <div
+                      aria-expanded="false"
+                      aria-haspopup="listbox"
+                      class="sc-1k44dfv-0 c17"
+                      data-testid="button"
+                      id="productSeries0"
+                      role="button"
+                    >
+                      <span
+                        class="sc-1k44dfv-0 c18"
+                        color="typographyDefault"
+                        data-testid="select-text"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        Select
+                      </span>
+                      <div
+                        class="c19"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="c13"
+                  data-testid="product-name-wrapper"
+                  width="100%"
+                >
+                  <label
+                    class="c14"
+                    data-testid="product-name-label"
+                  >
+                    Shared.Common.productName
+                  </label>
+                  <div
+                    aria-label="Shared.Common.productNameAria"
+                    class="c15 sc-1k44dfv-0 c20"
+                    data-testid="dsr-dropdown-container"
+                    tabindex="0"
+                  >
+                    <div
+                      aria-expanded="false"
+                      aria-haspopup="listbox"
+                      class="sc-1k44dfv-0 c17"
+                      data-testid="button"
+                      id="productNameList0"
+                      role="button"
+                    >
+                      <span
+                        class="sc-1k44dfv-0 c18"
+                        color="typographyDefault"
+                        data-testid="select-text"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        Select
+                      </span>
+                      <div
+                        class="c19"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="c11"
+              data-testid="product-compare-column1"
+              width="1,1,0.2"
+            >
+              <div
+                class="c12"
+              >
+                <div
+                  class="c13"
+                  data-testid="product-series-wrapper"
+                  width="100%"
+                >
+                  <label
+                    class="c14"
+                    data-testid="product-series-label"
+                  >
+                    Shared.Common.productCategoryLabel
+                  </label>
+                  <div
+                    aria-label="Shared.Common.productCategoryAria"
+                    class="c15 sc-1k44dfv-0 c16"
+                    data-testid="dsr-dropdown-container"
+                    tabindex="0"
+                  >
+                    <div
+                      aria-expanded="false"
+                      aria-haspopup="listbox"
+                      class="sc-1k44dfv-0 c17"
+                      data-testid="button"
+                      id="productSeries1"
+                      role="button"
+                    >
+                      <span
+                        class="sc-1k44dfv-0 c18"
+                        color="typographyDefault"
+                        data-testid="select-text"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        Select
+                      </span>
+                      <div
+                        class="c19"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="c13"
+                  data-testid="product-name-wrapper"
+                  width="100%"
+                >
+                  <label
+                    class="c14"
+                    data-testid="product-name-label"
+                  >
+                    Shared.Common.productName
+                  </label>
+                  <div
+                    aria-label="Shared.Common.productNameAria"
+                    class="c15 sc-1k44dfv-0 c20"
+                    data-testid="dsr-dropdown-container"
+                    tabindex="0"
+                  >
+                    <div
+                      aria-expanded="false"
+                      aria-haspopup="listbox"
+                      class="sc-1k44dfv-0 c17"
+                      data-testid="button"
+                      id="productNameList1"
+                      role="button"
+                    >
+                      <span
+                        class="sc-1k44dfv-0 c18"
+                        color="typographyDefault"
+                        data-testid="select-text"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        Select
+                      </span>
+                      <div
+                        class="c19"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="c11"
+              data-testid="product-compare-column2"
+              width="1,1,0.2"
+            >
+              <div
+                class="c12"
+              >
+                <div
+                  class="c13"
+                  data-testid="product-series-wrapper"
+                  width="100%"
+                >
+                  <label
+                    class="c14"
+                    data-testid="product-series-label"
+                  >
+                    Shared.Common.productCategoryLabel
+                  </label>
+                  <div
+                    aria-label="Shared.Common.productCategoryAria"
+                    class="c15 sc-1k44dfv-0 c16"
+                    data-testid="dsr-dropdown-container"
+                    tabindex="0"
+                  >
+                    <div
+                      aria-expanded="false"
+                      aria-haspopup="listbox"
+                      class="sc-1k44dfv-0 c17"
+                      data-testid="button"
+                      id="productSeries2"
+                      role="button"
+                    >
+                      <span
+                        class="sc-1k44dfv-0 c18"
+                        color="typographyDefault"
+                        data-testid="select-text"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        Select
+                      </span>
+                      <div
+                        class="c19"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="c13"
+                  data-testid="product-name-wrapper"
+                  width="100%"
+                >
+                  <label
+                    class="c14"
+                    data-testid="product-name-label"
+                  >
+                    Shared.Common.productName
+                  </label>
+                  <div
+                    aria-label="Shared.Common.productNameAria"
+                    class="c15 sc-1k44dfv-0 c20"
+                    data-testid="dsr-dropdown-container"
+                    tabindex="0"
+                  >
+                    <div
+                      aria-expanded="false"
+                      aria-haspopup="listbox"
+                      class="sc-1k44dfv-0 c17"
+                      data-testid="button"
+                      id="productNameList2"
+                      role="button"
+                    >
+                      <span
+                        class="sc-1k44dfv-0 c18"
+                        color="typographyDefault"
+                        data-testid="select-text"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        Select
+                      </span>
+                      <div
+                        class="c19"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="c11"
+              data-testid="product-compare-column3"
+              width="1,1,0.2"
+            >
+              <div
+                class="c12"
+              >
+                <div
+                  class="c13"
+                  data-testid="product-series-wrapper"
+                  width="100%"
+                >
+                  <label
+                    class="c14"
+                    data-testid="product-series-label"
+                  >
+                    Shared.Common.productCategoryLabel
+                  </label>
+                  <div
+                    aria-label="Shared.Common.productCategoryAria"
+                    class="c15 sc-1k44dfv-0 c16"
+                    data-testid="dsr-dropdown-container"
+                    tabindex="0"
+                  >
+                    <div
+                      aria-expanded="false"
+                      aria-haspopup="listbox"
+                      class="sc-1k44dfv-0 c17"
+                      data-testid="button"
+                      id="productSeries3"
+                      role="button"
+                    >
+                      <span
+                        class="sc-1k44dfv-0 c18"
+                        color="typographyDefault"
+                        data-testid="select-text"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        Select
+                      </span>
+                      <div
+                        class="c19"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="c13"
+                  data-testid="product-name-wrapper"
+                  width="100%"
+                >
+                  <label
+                    class="c14"
+                    data-testid="product-name-label"
+                  >
+                    Shared.Common.productName
+                  </label>
+                  <div
+                    aria-label="Shared.Common.productNameAria"
+                    class="c15 sc-1k44dfv-0 c20"
+                    data-testid="dsr-dropdown-container"
+                    tabindex="0"
+                  >
+                    <div
+                      aria-expanded="false"
+                      aria-haspopup="listbox"
+                      class="sc-1k44dfv-0 c17"
+                      data-testid="button"
+                      id="productNameList3"
+                      role="button"
+                    >
+                      <span
+                        class="sc-1k44dfv-0 c18"
+                        color="typographyDefault"
+                        data-testid="select-text"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        Select
+                      </span>
+                      <div
+                        class="c19"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p
+      class="sc-1k44dfv-0 c23"
+      color="typographyDefault"
+      data-testid="compare-no-selection-text"
+      display="flex"
+      font-family="default"
+      font-weight="regular"
+    >
+      Shared.Common.selectProductsToCompareLabel
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<MainContainer> should render without errors if there are no fields 1`] = `
+.c7 {
+  width: 100%;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c13 {
+  width: 100%;
+}
+
+.c21 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: m;
+  display: none;
+  width: 100%;
+  height: 48px;
+  background-color: #fff;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  bottom: 0;
+  box-shadow: none;
+}
+
+.c0 {
+  max-width: maxWidth;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: l;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.c1 {
+  margin-bottom: s;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c2 {
+  color: #2C2C2C;
+  font-family: Roboto;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: normal;
+  margin-bottom: xs;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.c3 {
+  color: #2C2C2C;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+}
+
+.c6 {
+  top: l;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1;
+  overflow-x: clip;
+}
+
+.c8 {
+  border-bottom: 1px solid;
+  border-color: #EAEAEA;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 0;
+}
+
+.c9 {
+  max-width: 1280px;
+  width: 100%;
+  box-shadow: 0;
+  background: white;
+  left: 0;
+  z-index: 210;
+  -webkit-transition: opacity .6s ease-in;
+  transition: opacity .6s ease-in;
+}
+
+.c9 > .splide > .splide__track {
+  overflow: unset;
+  overflow-y: visible;
+}
+
+.c11 {
+  width: 100%;
+  padding-left: columnGap.0;
+  padding-right: columnGap.0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  border: 1px solid;
+  border-color: #EAEAEA;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 300px;
+  max-width: 380px;
+  margin: 0 auto;
+  padding-top: l;
+  padding-left: xl;
+  padding-right: xl;
+}
+
+.c16 {
+  margin-bottom: l;
+}
+
+.c16 >div {
+  background: #fff;
+}
+
+.c15 {
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+}
+
+.c15:focus {
+  outline: transparent;
+}
+
+.c15:focus div:first-of-type:after {
+  height: 2px;
+}
+
+.c17 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+  color: #2C2C2C;
+  font-family: Helvetica;
+  font-weight: normal;
+  line-height: 22px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  background-color: #F5F5F5;
+  background-color: #fff;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: normal;
+}
+
+.c17::-ms-clear {
+  display: none;
+}
+
+.c17::-webkit-input-placeholder {
+  color: #707070;
+}
+
+.c17::-moz-placeholder {
+  color: #707070;
+}
+
+.c17:-ms-input-placeholder {
+  color: #707070;
+}
+
+.c17::placeholder {
+  color: #707070;
+}
+
+.c17:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  background-color: #2C2C2C;
+}
+
+.c17:after {
+  height: 1px;
+}
+
+.c18 {
+  margin: 0;
+  color: #2C2C2C;
+  font-weight: normal;
+  font-family: Helvetica;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  height: small;
+}
+
+.c20 >div {
+  background: #fff;
+}
+
+.c22 {
+  width: 20%;
+  padding-left: columnGap.0;
+  padding-right: columnGap.0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  border: 1px solid;
+  border-color: #EAEAEA;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.c23 {
+  margin: 0;
+  color: #2C2C2C;
+  margin-top: xl;
+  margin-bottom: huge;
+  font-weight: normal;
+  font-family: Helvetica;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+  font: default;
+  font-size: 16px;
+}
+
+.c19 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: iconWrapper.md;
+  height: iconWrapper.md;
+}
+
+.c5 {
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border: 1px solid;
+  min-width: 220px;
+  height: 45px;
+  border-radius: 50px;
+  -webkit-transition: color 0.3s ease,background-color 0.3s ease;
+  transition: color 0.3s ease,background-color 0.3s ease;
+  text-transform: uppercase;
+  font-size: 13px;
+  overflow: visible;
+  padding-top: s;
+  padding-bottom: s;
+  padding-left: default;
+  padding-right: default;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  padding-left: zero;
+  padding-right: zero;
+  font-family: Roboto;
+  border-radius: 3px;
+  line-height: 20px;
+  background-color: #fff;
+  border-color: #2C2C2C;
+  color: #2C2C2C;
+}
+
+.c5::before {
+  content: none;
+  position: absolute;
+  top: -3px;
+  bottom: -3px;
+  left: -3px;
+  right: -3px;
+  border: 1px solid;
+}
+
+.c5::-moz-focus-inner {
+  border: 0;
+}
+
+.c5 > a,
+.c5 > a:hover,
+.c5 > button {
+  color: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+}
+
+.c5::before {
+  border-radius: 3px;
+}
+
+.c5:hover {
+  background-color: #2C2C2C;
+  border-color: #2C2C2C;
+  color: #fff;
+}
+
+.c5:focus,
+.c5:focus-visible {
+  outline: transparent;
+}
+
+.c5:focus::before,
+.c5:focus-visible::before {
+  content: "";
+  border-color: #2C2C2C;
+}
+
+.c5:disabled {
+  cursor: default;
+  background-color: #fff;
+  border-color: #C7C7C7;
+  color: #C7C7C7;
+}
+
+.c14 {
+  display: block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  color: #2C2C2C;
+  font-family: Cooper Black;
+  font-size: 12px;
+  line-height: xs;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+}
+
+.c4 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  background: none;
+  display: inline-block;
+  cursor: pointer;
+  padding-left: 0;
+  padding-right: 0;
+  line-height: 22px;
+  font-size: 14px;
+  border-bottom: 1px solid transparent;
+  font-family: Cooper Black;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+  -webkit-transition: border-bottom 0.3s ease;
+  transition: border-bottom 0.3s ease;
+  color: #2C2C2C;
+  line-height: 16px;
+  color: #2C2C2C;
+}
+
+.c4 > a,
+.c4 > a:hover {
+  color: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+}
+
+.c4:hover,
+.c4:focus {
+  border-bottom: 1px solid;
+  outline: transparent;
+}
+
+.c4:hover,
+.c4:focus {
+  border-color: #DA2C2E;
+}
+
+@media screen and (min-width:768px) {
+  .c0 {
+    padding-top: big;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c0 {
+    padding-left: m;
+    padding-right: m;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c1 {
+    margin-bottom: s;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c1 {
+    margin-bottom: xl;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c2 {
+    font-size: 68px;
+    line-height: 74px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c2 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c2 {
+    font-size: 68px;
+    line-height: 74px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c6 {
+    top: l;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c6 {
+    top: 72px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c8 {
+    -webkit-flex-wrap: none;
+    -ms-flex-wrap: none;
+    flex-wrap: none;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c9 {
+    left: auto;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c11 {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c11 {
+    width: 20%;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c11 {
+    padding-left: columnGap.1;
+    padding-right: columnGap.1;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c11 {
+    border: 1px solid;
+    border-color: #EAEAEA;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c11 {
+    border: 0;
+    padding-left: m;
+    padding-right: m;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c12 {
+    padding-left: s;
+    padding-right: s;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c17 {
+    line-height: 24px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c22 {
+    padding-left: columnGap.1;
+    padding-right: columnGap.1;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c22 {
+    border: 1px solid;
+    border-color: #EAEAEA;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c22 {
+    border: 0;
+    padding-left: m;
+    padding-right: m;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c14 {
+    line-height: 22px;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <h1
+        class="sc-1k44dfv-0 c2"
+        data-testid="compare-title"
+      >
+        Shared.Common.compareSectionHeading
+      </h1>
+      <div
+        class="fresnel-container fresnel-lessThan-desktop "
+      >
+        <a
+          class="c3 c4"
+          color="typographyDefault"
+          data-testid="mobile-go-back-button"
+          href="#"
+        >
+          Shared.Common.goBackButton
+        </a>
+      </div>
+      <div
+        class="fresnel-container fresnel-greaterThanOrEqual-desktop "
+      >
+        <button
+          class="c5"
+          data-testid="dsr-button-component"
+          style="min-width: 140px;"
+        >
+          Shared.Common.goBackButton
+        </button>
+      </div>
+    </div>
+    <div
+      class="fresnel-container fresnel-lessThan-desktop c6"
+    >
+      <div
+        class="c7 c8"
+        display="flex"
+        width="100%"
+      >
+        <div
+          class="c9"
+        >
+          <div
+            class="splide splide--slide splide--ltr splide--draggable is-active is-initialized"
+            id="splide01"
+          >
+            <div
+              class="splide__track"
+              id="splide01-track"
+              style="padding-left: 8px; padding-right: 8px;"
+            >
+              <ul
+                class="splide__list"
+                id="splide01-list"
+                style="transform: translateX(0px);"
+              >
+                <li
+                  class="splide__slide is-active is-visible"
+                  id="splide01-slide01"
+                  tabindex="0"
+                >
+                  <div
+                    class="c10"
+                    data-testid="mobile-product0"
+                    display="flex"
+                  >
+                    <div
+                      class="c11"
+                      data-testid="product-compare-column0"
+                      width="1,1,0.2"
+                    >
+                      <div
+                        class="c12"
+                      >
+                        <div
+                          class="c13"
+                          data-testid="product-series-wrapper"
+                          width="100%"
+                        >
+                          <label
+                            class="c14"
+                            data-testid="product-series-label"
+                          >
+                            Shared.Common.productCategoryLabel
+                          </label>
+                          <div
+                            aria-label="Shared.Common.productCategoryAria"
+                            class="c15 sc-1k44dfv-0 c16"
+                            data-testid="dsr-dropdown-container"
+                            tabindex="0"
+                          >
+                            <div
+                              aria-expanded="false"
+                              aria-haspopup="listbox"
+                              class="sc-1k44dfv-0 c17"
+                              data-testid="button"
+                              id="productSeries0"
+                              role="button"
+                            >
+                              <span
+                                class="sc-1k44dfv-0 c18"
+                                color="typographyDefault"
+                                data-testid="select-text"
+                                font-family="default"
+                                font-weight="regular"
+                              >
+                                Select
+                              </span>
+                              <div
+                                class="c19"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="c13"
+                          data-testid="product-name-wrapper"
+                          width="100%"
+                        >
+                          <label
+                            class="c14"
+                            data-testid="product-name-label"
+                          >
+                            Shared.Common.productName
+                          </label>
+                          <div
+                            aria-label="Shared.Common.productNameAria"
+                            class="c15 sc-1k44dfv-0 c20"
+                            data-testid="dsr-dropdown-container"
+                            tabindex="0"
+                          >
+                            <div
+                              aria-expanded="false"
+                              aria-haspopup="listbox"
+                              class="sc-1k44dfv-0 c17"
+                              data-testid="button"
+                              id="productNameList0"
+                              role="button"
+                            >
+                              <span
+                                class="sc-1k44dfv-0 c18"
+                                color="typographyDefault"
+                                data-testid="select-text"
+                                font-family="default"
+                                font-weight="regular"
+                              >
+                                Select
+                              </span>
+                              <div
+                                class="c19"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li
+                  class="splide__slide is-visible is-next"
+                  id="splide01-slide02"
+                  tabindex="0"
+                >
+                  <div
+                    class="c10"
+                    data-testid="mobile-product1"
+                    display="flex"
+                  >
+                    <div
+                      class="c11"
+                      data-testid="product-compare-column1"
+                      width="1,1,0.2"
+                    >
+                      <div
+                        class="c12"
+                      >
+                        <div
+                          class="c13"
+                          data-testid="product-series-wrapper"
+                          width="100%"
+                        >
+                          <label
+                            class="c14"
+                            data-testid="product-series-label"
+                          >
+                            Shared.Common.productCategoryLabel
+                          </label>
+                          <div
+                            aria-label="Shared.Common.productCategoryAria"
+                            class="c15 sc-1k44dfv-0 c16"
+                            data-testid="dsr-dropdown-container"
+                            tabindex="0"
+                          >
+                            <div
+                              aria-expanded="false"
+                              aria-haspopup="listbox"
+                              class="sc-1k44dfv-0 c17"
+                              data-testid="button"
+                              id="productSeries1"
+                              role="button"
+                            >
+                              <span
+                                class="sc-1k44dfv-0 c18"
+                                color="typographyDefault"
+                                data-testid="select-text"
+                                font-family="default"
+                                font-weight="regular"
+                              >
+                                Select
+                              </span>
+                              <div
+                                class="c19"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="c13"
+                          data-testid="product-name-wrapper"
+                          width="100%"
+                        >
+                          <label
+                            class="c14"
+                            data-testid="product-name-label"
+                          >
+                            Shared.Common.productName
+                          </label>
+                          <div
+                            aria-label="Shared.Common.productNameAria"
+                            class="c15 sc-1k44dfv-0 c20"
+                            data-testid="dsr-dropdown-container"
+                            tabindex="0"
+                          >
+                            <div
+                              aria-expanded="false"
+                              aria-haspopup="listbox"
+                              class="sc-1k44dfv-0 c17"
+                              data-testid="button"
+                              id="productNameList1"
+                              role="button"
+                            >
+                              <span
+                                class="sc-1k44dfv-0 c18"
+                                color="typographyDefault"
+                                data-testid="select-text"
+                                font-family="default"
+                                font-weight="regular"
+                              >
+                                Select
+                              </span>
+                              <div
+                                class="c19"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li
+                  class="splide__slide is-visible"
+                  id="splide01-slide03"
+                  tabindex="0"
+                >
+                  <div
+                    class="c10"
+                    data-testid="mobile-product2"
+                    display="flex"
+                  >
+                    <div
+                      class="c11"
+                      data-testid="product-compare-column2"
+                      width="1,1,0.2"
+                    >
+                      <div
+                        class="c12"
+                      >
+                        <div
+                          class="c13"
+                          data-testid="product-series-wrapper"
+                          width="100%"
+                        >
+                          <label
+                            class="c14"
+                            data-testid="product-series-label"
+                          >
+                            Shared.Common.productCategoryLabel
+                          </label>
+                          <div
+                            aria-label="Shared.Common.productCategoryAria"
+                            class="c15 sc-1k44dfv-0 c16"
+                            data-testid="dsr-dropdown-container"
+                            tabindex="0"
+                          >
+                            <div
+                              aria-expanded="false"
+                              aria-haspopup="listbox"
+                              class="sc-1k44dfv-0 c17"
+                              data-testid="button"
+                              id="productSeries2"
+                              role="button"
+                            >
+                              <span
+                                class="sc-1k44dfv-0 c18"
+                                color="typographyDefault"
+                                data-testid="select-text"
+                                font-family="default"
+                                font-weight="regular"
+                              >
+                                Select
+                              </span>
+                              <div
+                                class="c19"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="c13"
+                          data-testid="product-name-wrapper"
+                          width="100%"
+                        >
+                          <label
+                            class="c14"
+                            data-testid="product-name-label"
+                          >
+                            Shared.Common.productName
+                          </label>
+                          <div
+                            aria-label="Shared.Common.productNameAria"
+                            class="c15 sc-1k44dfv-0 c20"
+                            data-testid="dsr-dropdown-container"
+                            tabindex="0"
+                          >
+                            <div
+                              aria-expanded="false"
+                              aria-haspopup="listbox"
+                              class="sc-1k44dfv-0 c17"
+                              data-testid="button"
+                              id="productNameList2"
+                              role="button"
+                            >
+                              <span
+                                class="sc-1k44dfv-0 c18"
+                                color="typographyDefault"
+                                data-testid="select-text"
+                                font-family="default"
+                                font-weight="regular"
+                              >
+                                Select
+                              </span>
+                              <div
+                                class="c19"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li
+                  class="splide__slide is-visible"
+                  id="splide01-slide04"
+                  tabindex="0"
+                >
+                  <div
+                    class="c10"
+                    data-testid="mobile-product3"
+                    display="flex"
+                  >
+                    <div
+                      class="c11"
+                      data-testid="product-compare-column3"
+                      width="1,1,0.2"
+                    >
+                      <div
+                        class="c12"
+                      >
+                        <div
+                          class="c13"
+                          data-testid="product-series-wrapper"
+                          width="100%"
+                        >
+                          <label
+                            class="c14"
+                            data-testid="product-series-label"
+                          >
+                            Shared.Common.productCategoryLabel
+                          </label>
+                          <div
+                            aria-label="Shared.Common.productCategoryAria"
+                            class="c15 sc-1k44dfv-0 c16"
+                            data-testid="dsr-dropdown-container"
+                            tabindex="0"
+                          >
+                            <div
+                              aria-expanded="false"
+                              aria-haspopup="listbox"
+                              class="sc-1k44dfv-0 c17"
+                              data-testid="button"
+                              id="productSeries3"
+                              role="button"
+                            >
+                              <span
+                                class="sc-1k44dfv-0 c18"
+                                color="typographyDefault"
+                                data-testid="select-text"
+                                font-family="default"
+                                font-weight="regular"
+                              >
+                                Select
+                              </span>
+                              <div
+                                class="c19"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="c13"
+                          data-testid="product-name-wrapper"
+                          width="100%"
+                        >
+                          <label
+                            class="c14"
+                            data-testid="product-name-label"
+                          >
+                            Shared.Common.productName
+                          </label>
+                          <div
+                            aria-label="Shared.Common.productNameAria"
+                            class="c15 sc-1k44dfv-0 c20"
+                            data-testid="dsr-dropdown-container"
+                            tabindex="0"
+                          >
+                            <div
+                              aria-expanded="false"
+                              aria-haspopup="listbox"
+                              class="sc-1k44dfv-0 c17"
+                              data-testid="button"
+                              id="productNameList3"
+                              role="button"
+                            >
+                              <span
+                                class="sc-1k44dfv-0 c18"
+                                color="typographyDefault"
+                                data-testid="select-text"
+                                font-family="default"
+                                font-weight="regular"
+                              >
+                                Select
+                              </span>
+                              <div
+                                class="c19"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="c21"
+            display="none"
+            height="48px"
+            width="100%"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="fresnel-container fresnel-greaterThan-smallDesktop c6"
+      style="padding-bottom: 0px;"
+    >
+      <div
+        class=""
+      >
+        <div
+          class="c9"
+        >
+          <div
+            class="c7 c8"
+            display="flex"
+            width="100%"
+          >
+            <div
+              class="c22"
+              width="0.2"
+            />
+            <div
+              class="c11"
+              data-testid="product-compare-column0"
+              width="1,1,0.2"
+            >
+              <div
+                class="c12"
+              >
+                <div
+                  class="c13"
+                  data-testid="product-series-wrapper"
+                  width="100%"
+                >
+                  <label
+                    class="c14"
+                    data-testid="product-series-label"
+                  >
+                    Shared.Common.productCategoryLabel
+                  </label>
+                  <div
+                    aria-label="Shared.Common.productCategoryAria"
+                    class="c15 sc-1k44dfv-0 c16"
+                    data-testid="dsr-dropdown-container"
+                    tabindex="0"
+                  >
+                    <div
+                      aria-expanded="false"
+                      aria-haspopup="listbox"
+                      class="sc-1k44dfv-0 c17"
+                      data-testid="button"
+                      id="productSeries0"
+                      role="button"
+                    >
+                      <span
+                        class="sc-1k44dfv-0 c18"
+                        color="typographyDefault"
+                        data-testid="select-text"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        Select
+                      </span>
+                      <div
+                        class="c19"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="c13"
+                  data-testid="product-name-wrapper"
+                  width="100%"
+                >
+                  <label
+                    class="c14"
+                    data-testid="product-name-label"
+                  >
+                    Shared.Common.productName
+                  </label>
+                  <div
+                    aria-label="Shared.Common.productNameAria"
+                    class="c15 sc-1k44dfv-0 c20"
+                    data-testid="dsr-dropdown-container"
+                    tabindex="0"
+                  >
+                    <div
+                      aria-expanded="false"
+                      aria-haspopup="listbox"
+                      class="sc-1k44dfv-0 c17"
+                      data-testid="button"
+                      id="productNameList0"
+                      role="button"
+                    >
+                      <span
+                        class="sc-1k44dfv-0 c18"
+                        color="typographyDefault"
+                        data-testid="select-text"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        Select
+                      </span>
+                      <div
+                        class="c19"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="c11"
+              data-testid="product-compare-column1"
+              width="1,1,0.2"
+            >
+              <div
+                class="c12"
+              >
+                <div
+                  class="c13"
+                  data-testid="product-series-wrapper"
+                  width="100%"
+                >
+                  <label
+                    class="c14"
+                    data-testid="product-series-label"
+                  >
+                    Shared.Common.productCategoryLabel
+                  </label>
+                  <div
+                    aria-label="Shared.Common.productCategoryAria"
+                    class="c15 sc-1k44dfv-0 c16"
+                    data-testid="dsr-dropdown-container"
+                    tabindex="0"
+                  >
+                    <div
+                      aria-expanded="false"
+                      aria-haspopup="listbox"
+                      class="sc-1k44dfv-0 c17"
+                      data-testid="button"
+                      id="productSeries1"
+                      role="button"
+                    >
+                      <span
+                        class="sc-1k44dfv-0 c18"
+                        color="typographyDefault"
+                        data-testid="select-text"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        Select
+                      </span>
+                      <div
+                        class="c19"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="c13"
+                  data-testid="product-name-wrapper"
+                  width="100%"
+                >
+                  <label
+                    class="c14"
+                    data-testid="product-name-label"
+                  >
+                    Shared.Common.productName
+                  </label>
+                  <div
+                    aria-label="Shared.Common.productNameAria"
+                    class="c15 sc-1k44dfv-0 c20"
+                    data-testid="dsr-dropdown-container"
+                    tabindex="0"
+                  >
+                    <div
+                      aria-expanded="false"
+                      aria-haspopup="listbox"
+                      class="sc-1k44dfv-0 c17"
+                      data-testid="button"
+                      id="productNameList1"
+                      role="button"
+                    >
+                      <span
+                        class="sc-1k44dfv-0 c18"
+                        color="typographyDefault"
+                        data-testid="select-text"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        Select
+                      </span>
+                      <div
+                        class="c19"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="c11"
+              data-testid="product-compare-column2"
+              width="1,1,0.2"
+            >
+              <div
+                class="c12"
+              >
+                <div
+                  class="c13"
+                  data-testid="product-series-wrapper"
+                  width="100%"
+                >
+                  <label
+                    class="c14"
+                    data-testid="product-series-label"
+                  >
+                    Shared.Common.productCategoryLabel
+                  </label>
+                  <div
+                    aria-label="Shared.Common.productCategoryAria"
+                    class="c15 sc-1k44dfv-0 c16"
+                    data-testid="dsr-dropdown-container"
+                    tabindex="0"
+                  >
+                    <div
+                      aria-expanded="false"
+                      aria-haspopup="listbox"
+                      class="sc-1k44dfv-0 c17"
+                      data-testid="button"
+                      id="productSeries2"
+                      role="button"
+                    >
+                      <span
+                        class="sc-1k44dfv-0 c18"
+                        color="typographyDefault"
+                        data-testid="select-text"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        Select
+                      </span>
+                      <div
+                        class="c19"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="c13"
+                  data-testid="product-name-wrapper"
+                  width="100%"
+                >
+                  <label
+                    class="c14"
+                    data-testid="product-name-label"
+                  >
+                    Shared.Common.productName
+                  </label>
+                  <div
+                    aria-label="Shared.Common.productNameAria"
+                    class="c15 sc-1k44dfv-0 c20"
+                    data-testid="dsr-dropdown-container"
+                    tabindex="0"
+                  >
+                    <div
+                      aria-expanded="false"
+                      aria-haspopup="listbox"
+                      class="sc-1k44dfv-0 c17"
+                      data-testid="button"
+                      id="productNameList2"
+                      role="button"
+                    >
+                      <span
+                        class="sc-1k44dfv-0 c18"
+                        color="typographyDefault"
+                        data-testid="select-text"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        Select
+                      </span>
+                      <div
+                        class="c19"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="c11"
+              data-testid="product-compare-column3"
+              width="1,1,0.2"
+            >
+              <div
+                class="c12"
+              >
+                <div
+                  class="c13"
+                  data-testid="product-series-wrapper"
+                  width="100%"
+                >
+                  <label
+                    class="c14"
+                    data-testid="product-series-label"
+                  >
+                    Shared.Common.productCategoryLabel
+                  </label>
+                  <div
+                    aria-label="Shared.Common.productCategoryAria"
+                    class="c15 sc-1k44dfv-0 c16"
+                    data-testid="dsr-dropdown-container"
+                    tabindex="0"
+                  >
+                    <div
+                      aria-expanded="false"
+                      aria-haspopup="listbox"
+                      class="sc-1k44dfv-0 c17"
+                      data-testid="button"
+                      id="productSeries3"
+                      role="button"
+                    >
+                      <span
+                        class="sc-1k44dfv-0 c18"
+                        color="typographyDefault"
+                        data-testid="select-text"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        Select
+                      </span>
+                      <div
+                        class="c19"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="c13"
+                  data-testid="product-name-wrapper"
+                  width="100%"
+                >
+                  <label
+                    class="c14"
+                    data-testid="product-name-label"
+                  >
+                    Shared.Common.productName
+                  </label>
+                  <div
+                    aria-label="Shared.Common.productNameAria"
+                    class="c15 sc-1k44dfv-0 c20"
+                    data-testid="dsr-dropdown-container"
+                    tabindex="0"
+                  >
+                    <div
+                      aria-expanded="false"
+                      aria-haspopup="listbox"
+                      class="sc-1k44dfv-0 c17"
+                      data-testid="button"
+                      id="productNameList3"
+                      role="button"
+                    >
+                      <span
+                        class="sc-1k44dfv-0 c18"
+                        color="typographyDefault"
+                        data-testid="select-text"
+                        font-family="default"
+                        font-weight="regular"
+                      >
+                        Select
+                      </span>
+                      <div
+                        class="c19"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p
+      class="sc-1k44dfv-0 c23"
+      color="typographyDefault"
+      data-testid="compare-no-selection-text"
+      display="flex"
+      font-family="default"
+      font-weight="regular"
+    >
+      Shared.Common.selectProductsToCompareLabel
+    </p>
+  </div>
+</div>
+`;

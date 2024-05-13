@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserLocationSummary> should have no accessibility violations 1`] = `
+<div>
+  <div
+    class="LocationContainer-sc-1ivrd25-0 fAIhQm"
+  >
+    <span
+      class="LocationHeadingLabel-sc-1ivrd25-1 fEeIpx"
+    >
+      Shared.UserLocation.locationText
+    </span>
+    <span
+      class="LocationLabel-sc-1ivrd25-2 dvSevn"
+    >
+      Shared.UserLocation.nationalText
+    </span>
+    <button
+      aria-label="Shared.UserLocation.enterPostalCodeButton"
+      class="LocationButton-sc-1ivrd25-3 frisIY"
+    >
+      Shared.UserLocation.enterPostalCodeButton
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<UserLocationSummary> should render correctly 1`] = `
+<div>
+  <div
+    class="LocationContainer-sc-1ivrd25-0 fAIhQm"
+  >
+    <span
+      class="LocationHeadingLabel-sc-1ivrd25-1 fEeIpx"
+    >
+      Shared.UserLocation.locationText
+    </span>
+    <span
+      class="LocationLabel-sc-1ivrd25-2 dvSevn"
+    >
+      Shared.UserLocation.nationalText
+    </span>
+    <button
+      aria-label="Shared.UserLocation.enterPostalCodeButton"
+      class="LocationButton-sc-1ivrd25-3 frisIY"
+    >
+      Shared.UserLocation.enterPostalCodeButton
+    </button>
+  </div>
+</div>
+`;

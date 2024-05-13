@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FutureVehicleCard> should render without errors 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 frGmdx"
+    data-gtm-category="Others"
+  >
+    <div
+      class="Box-sc-1bsf784-0 iPRsIc"
+    >
+      <div
+        class="Box-sc-1bsf784-0 iCPSZa"
+        display="flex"
+        height="28px,38px"
+        width="100%"
+      >
+        <label
+          class="Label-sc-115wxjh-0 bjMVgg"
+          color="white"
+          font-family="bold"
+          font-size="16px,18px"
+        >
+          Future Vehicle #1
+        </label>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 dYxbmH"
+      >
+        <img
+          class="sc-1k44dfv-0 jLTFZk"
+          draggable="true"
+          loading="lazy"
+        />
+      </div>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 hLoUhz"
+    >
+      <div
+        class="Box-sc-1bsf784-0 cPxeOK"
+      >
+        <div
+          class="sc-1k44dfv-0 bfxkBk"
+          font-family="bold"
+          mb="xs"
+          mx="m"
+          textalign="center"
+        >
+          
+
+          <h5
+            class="sc-1k44dfv-0 gXWcpP"
+          >
+            The New 2023 Integra
+          </h5>
+        </div>
+        <div
+          class="sc-1k44dfv-0 gCCWVx"
+          letter-spacing="0.5px"
+          mb="0"
+          mx="l,0"
+          textalign="center"
+        >
+          
+
+          <p>
+            The all-new Integra ushers in a new generation of Precision Crafted Performance®. Arriving spring.
+          </p>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 bvhfjY"
+      >
+        <span>
+          <a
+            class="Link-sc-16wd4a0-0 eYsnbh"
+            data-gtm-interaction-type="cta: gtm interaction type"
+            data-gtm-title="gtm-title"
+            href="https://www.hondacanada.ca"
+            target=""
+          >
+            CTA Link 1
+          </a>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

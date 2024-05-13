@@ -1,0 +1,219 @@
+{
+  "uid": "1ebf252b-374c-4c65-a977-5a1bf68b2031",
+  "componentName": "AvailableVehicles",
+  "dataSource": "{1E951413-E986-475B-BA74-D7BA568D167D}",
+  "params": {},
+  "fields": {
+    "data": {
+      "value": {
+        "anchorId": {},
+        "gtmTitle": {},
+        "gtmCategory": {},
+        "gtmModelName": {},
+        "gtmTrimName": {},
+        "gtmBodyStyle": {
+          "value": "GTM Body Style"
+        },
+        "gtmInteractionType": {},
+        "catalog": {
+          "fields": {
+            "name": "Honda",
+            "models": [
+              {
+                "items": [
+                  {
+                    "name": "ODYSSEY",
+                    "modelYears": [
+                      {
+                        "name": "2023",
+                        "trims": [
+                          {
+                            "name": "EX-L",
+                            "transmissions": [
+                              {
+                                "items": [
+                                  {
+                                    "id": "0971BB011A9A49798362579C17773E51",
+                                    "name": "Automatic",
+                                    "detKey": {
+                                      "value": "10797-Automatic"
+                                    },
+                                    "detIdentifier": {
+                                      "value": "10797"
+                                    },
+                                    "sotId": {
+                                      "value": ""
+                                    },
+                                    "price": {
+                                      "value": "36,000.00"
+                                    },
+                                    "trim": {
+                                      "value": "EX-L"
+                                    },
+                                    "tooltipText": {
+                                      "value": "This is a tooltip"
+                                    },
+                                    "image": {
+                                      "url": "../../../../sample-mock-data/media/img/grey-crv.png"
+                                    },
+                                    "exteriorColorKey": {
+                                      "value": "Grey"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "name": "TOURING",
+                            "transmissions": [
+                              {
+                                "items": [
+                                  {
+                                    "id": "0971BB011A9A49798362579C17773E51",
+                                    "name": "Automatic",
+                                    "detKey": {
+                                      "value": "10798-Automatic"
+                                    },
+                                    "detIdentifier": {
+                                      "value": "10798"
+                                    },
+                                    "sotId": {
+                                      "value": ""
+                                    },
+                                    "price": {
+                                      "value": "42,000.00"
+                                    },
+                                    "trim": {
+                                      "value": "Touring"
+                                    },
+                                    "tooltipText": {
+                                      "value": "This is Touring"
+                                    },
+                                    "image": {
+                                      "url": "../../../../sample-mock-data/media/img/blue-accord.png"
+                                    },
+                                    "exteriorColorKey": {
+                                      "value": "blue"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "name": "BLACK EDITION",
+                            "transmissions": [
+                              {
+                                "items": [
+                                  {
+                                    "id": "0971BB011A9A49798362579C17773E51",
+                                    "name": "Automatic",
+                                    "detKey": {
+                                      "value": "10799-Automatic"
+                                    },
+                                    "detIdentifier": {
+                                      "value": "10799"
+                                    },
+                                    "sotId": {
+                                      "value": ""
+                                    },
+                                    "exteriorColorKey": {
+                                      "value": "orange"
+                                    },
+                                    "price": {
+                                      "value": "57,550.00"
+                                    },
+                                    "trim": {
+                                      "value": "black-edition"
+                                    },
+                                    "tooltipText": {
+                                      "value": "This is Black Edition"
+                                    },
+                                    "image": {
+                                      "url": "../../../../sample-mock-data/media/img/grey-civic.png"
+                                    },
+                                    "exteriorColorKey": {
+                                      "value": "blue"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "name": "EX",
+                            "transmissions": [
+                              {
+                                "items": [
+                                  {
+                                    "id": "0971BB011A9A49798362579C17773E51",
+                                    "name": "Automatic",
+                                    "detKey": {
+                                      "value": "10796-Automatic"
+                                    },
+                                    "detIdentifier": {
+                                      "value": "10796"
+                                    },
+                                    "sotId": {
+                                      "value": ""
+                                    },
+                                    "price": {
+                                      "value": ""
+                                    },
+                                    "trim": {
+                                      "value": "AWD"
+                                    },
+                                    "tooltipText": {
+                                      "value": "This is EX model"
+                                    },
+                                    "image": {
+                                      "url": "../../../../sample-mock-data/media/img/orange-civic.png"
+                                    },
+                                    "exteriorColorKey": {
+                                      "value": "blue"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    "gtmCategory": {
+      "id": "86f35331-a03f-4d3e-b8d2-6142e38ad8f3",
+      "url": "/sitecore/System/Foundation/common/GTM-Categories/Others",
+      "name": "Others",
+      "displayName": "Others",
+      "fields": {
+        "value": {
+          "value": "others"
+        }
+      }
+    },
+    "gtmTitle": {
+      "value": "GTM Title "
+    },
+    "gtmBodyStyle": {
+      "value": "GTM Body Style"
+    },
+    "gtmInteractionType": {
+      "value": "GTM Interaction Type"
+    },
+    "gtmTrimName": {
+      "value": "GTM Trim Name"
+    },
+    "gtmModelName": {
+      "value": "GTM Model Name"
+    }
+  }
+}

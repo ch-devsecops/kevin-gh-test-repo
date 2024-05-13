@@ -1,0 +1,3254 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Data mapping function for Product Drawer component getPspMappedCatalogData should return expected output 1`] = `
+Array [
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13313",
+            },
+            "detKey": Object {
+              "value": "gold_wing_dct_13313",
+            },
+            "modelName": Object {
+              "value": "Gold Wing DCT",
+            },
+            "name": "Gold Wing DCT",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {
+                  "alt": "Gold Wing 2023",
+                  "height": "1440",
+                  "src": "/-/media/Brands/PSP/Touring/2023/Gold_Wing_2023_Primary_Image.png?h=1440&iar=0&w=1920&rev=6cfdec77a6b24736827a422471b17685&hash=25F27B13A58671D4BF80D6A1CDA556C2",
+                  "width": "1920",
+                },
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Gold Wing DCT",
+            },
+          },
+          Object {
+            "detIdentifier": Object {
+              "value": "13312",
+            },
+            "detKey": Object {
+              "value": "gold_wing_13312",
+            },
+            "modelName": Object {
+              "value": "Gold Wing E",
+            },
+            "name": "Gold Wing E",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {
+                  "alt": "Gold Wing 2023",
+                  "height": "1440",
+                  "src": "/-/media/Brands/PSP/Touring/2023/Gold_Wing_2023_Primary_Image.png?h=1440&iar=0&w=1920&rev=6cfdec77a6b24736827a422471b17685&hash=25F27B13A58671D4BF80D6A1CDA556C2",
+                  "width": "1920",
+                },
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Gold Wing E",
+            },
+          },
+          Object {
+            "detIdentifier": Object {
+              "value": "13316",
+            },
+            "detKey": Object {
+              "value": "gold_wing_tour_dct_airbag_13316",
+            },
+            "modelName": Object {
+              "value": "Gold Wing Tour DCT Airbag",
+            },
+            "name": "Gold Wing Tour DCT Airbag",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {
+                  "alt": "Gold Wing 2023",
+                  "height": "1440",
+                  "src": "/-/media/Brands/PSP/Touring/2023/Gold_Wing_2023_Primary_Image.png?h=1440&iar=0&w=1920&rev=6cfdec77a6b24736827a422471b17685&hash=25F27B13A58671D4BF80D6A1CDA556C2",
+                  "width": "1920",
+                },
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Gold Wing Tour DCT Airbag",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13274",
+            },
+            "detKey": Object {
+              "value": "gold_wing_13274",
+            },
+            "modelName": Object {
+              "value": "Gold Wing",
+            },
+            "name": "Gold Wing",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {
+                  "alt": "Gold Wing 2023",
+                  "height": "1440",
+                  "src": "/-/media/Brands/PSP/Touring/2023/Gold_Wing_2023_Primary_Image.png?h=1440&iar=0&w=1920&rev=6cfdec77a6b24736827a422471b17685&hash=25F27B13A58671D4BF80D6A1CDA556C2",
+                  "width": "1920",
+                },
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Gold Wing",
+            },
+          },
+          Object {
+            "detIdentifier": Object {
+              "value": "13275",
+            },
+            "detKey": Object {
+              "value": "gold_wing_dct_13275",
+            },
+            "modelName": Object {
+              "value": "Gold Wing DCT",
+            },
+            "name": "Gold Wing DCT",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {
+                  "alt": "Gold Wing 2023",
+                  "height": "1440",
+                  "src": "/-/media/Brands/PSP/Touring/2023/Gold_Wing_2023_Primary_Image.png?h=1440&iar=0&w=1920&rev=6cfdec77a6b24736827a422471b17685&hash=25F27B13A58671D4BF80D6A1CDA556C2",
+                  "width": "1920",
+                },
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Gold Wing DCT",
+            },
+          },
+          Object {
+            "detIdentifier": Object {
+              "value": "13276",
+            },
+            "detKey": Object {
+              "value": "gold_wing_tour_13276",
+            },
+            "modelName": Object {
+              "value": "Gold Wing Tour",
+            },
+            "name": "Gold Wing Tour",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Gold Wing Tour",
+            },
+          },
+          Object {
+            "detIdentifier": Object {
+              "value": "13277",
+            },
+            "detKey": Object {
+              "value": "gold_wing_tour_dct_13277",
+            },
+            "modelName": Object {
+              "value": "Gold Wing Tour DCT",
+            },
+            "name": "Gold Wing Tour DCT",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Gold Wing Tour DCT",
+            },
+          },
+          Object {
+            "detIdentifier": Object {
+              "value": "13278",
+            },
+            "detKey": Object {
+              "value": "gold_wing_tour_dct_airbag_13278",
+            },
+            "modelName": Object {
+              "value": "Gold Wing Tour DCT Airbag",
+            },
+            "name": "Gold Wing Tour DCT Airbag",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Gold Wing Tour DCT Airbag",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13279",
+            },
+            "detKey": Object {
+              "value": "rebel_1100_13279",
+            },
+            "modelName": Object {
+              "value": "Rebel 1100",
+            },
+            "name": "Rebel 1100",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Rebel 1100",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13284",
+            },
+            "detKey": Object {
+              "value": "rebel_300_13284",
+            },
+            "modelName": Object {
+              "value": "Rebel 300",
+            },
+            "name": "Rebel 300",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Rebel 300",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13283",
+            },
+            "detKey": Object {
+              "value": "rebel_500_13283",
+            },
+            "modelName": Object {
+              "value": "Rebel 500",
+            },
+            "name": "Rebel 500",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Rebel 500",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13332",
+            },
+            "detKey": Object {
+              "value": "cbr1000rr_r_fireblade_sp_13332",
+            },
+            "modelName": Object {
+              "value": "CBR1000RR-R Fireblade SP",
+            },
+            "name": "CBR1000RR-R Fireblade SP",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CBR1000RR-R Fireblade SP",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13326",
+            },
+            "detKey": Object {
+              "value": "cbr650r_13326",
+            },
+            "modelName": Object {
+              "value": "CBR650R",
+            },
+            "name": "CBR650R",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CBR650R",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13296",
+            },
+            "detKey": Object {
+              "value": "cbr1000rr_r_fireblade_sp_13296",
+            },
+            "modelName": Object {
+              "value": "CBR1000RR-R Fireblade SP",
+            },
+            "name": "CBR1000RR-R Fireblade SP",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CBR1000RR-R Fireblade SP",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13287",
+            },
+            "detKey": Object {
+              "value": "cbr500r_13287",
+            },
+            "modelName": Object {
+              "value": "CBR500R",
+            },
+            "name": "CBR500R",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CBR500R",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13291",
+            },
+            "detKey": Object {
+              "value": "cbr650r_13291",
+            },
+            "modelName": Object {
+              "value": "",
+            },
+            "name": "CBR650R",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13329",
+            },
+            "detKey": Object {
+              "value": "cb650r_13329",
+            },
+            "modelName": Object {
+              "value": "CB650R",
+            },
+            "name": "CB650R",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CB650R",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13328",
+            },
+            "detKey": Object {
+              "value": "cb1000r_13328",
+            },
+            "modelName": Object {
+              "value": "CB1000R",
+            },
+            "name": "CB1000R",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CB1000R",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13323",
+            },
+            "detKey": Object {
+              "value": "cb300r_13323",
+            },
+            "modelName": Object {
+              "value": "CB300R",
+            },
+            "name": "CB300R",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CB300R",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13330",
+            },
+            "detKey": Object {
+              "value": "cb500f_13330",
+            },
+            "modelName": Object {
+              "value": "CB500F",
+            },
+            "name": "CB500F",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CB500F",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13281",
+            },
+            "detKey": Object {
+              "value": "cb1000r_13281",
+            },
+            "modelName": Object {
+              "value": "CB1000R",
+            },
+            "name": "CB1000R",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CB1000R",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13273",
+            },
+            "detKey": Object {
+              "value": "cb300r_13273",
+            },
+            "modelName": Object {
+              "value": "CB300R",
+            },
+            "name": "CB300R",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CB300R",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13289",
+            },
+            "detKey": Object {
+              "value": "cb500f_13289",
+            },
+            "modelName": Object {
+              "value": "CB500F",
+            },
+            "name": "CB500F",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CB500F",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13290",
+            },
+            "detKey": Object {
+              "value": "cb650r_13290",
+            },
+            "modelName": Object {
+              "value": "CB650R",
+            },
+            "name": "CB650R",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CB650R",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13331",
+            },
+            "detKey": Object {
+              "value": "cb500x_13331",
+            },
+            "modelName": Object {
+              "value": "CB500X",
+            },
+            "name": "CB500X",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CB500X",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13324",
+            },
+            "detKey": Object {
+              "value": "nc750x_13324",
+            },
+            "modelName": Object {
+              "value": "NC750X",
+            },
+            "name": "NC750X",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "NC750X",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13318",
+            },
+            "detKey": Object {
+              "value": "africa_twin_13318",
+            },
+            "modelName": Object {
+              "value": "Africa Twin",
+            },
+            "name": "Africa Twin",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Africa Twin",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13317",
+            },
+            "detKey": Object {
+              "value": "africa_twin_adventure_sports_13317",
+            },
+            "modelName": Object {
+              "value": "Africa Twin Adventure Sports",
+            },
+            "name": "Africa Twin Adventure Sports",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Africa Twin Adventure Sports",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13288",
+            },
+            "detKey": Object {
+              "value": "cb500x_13288",
+            },
+            "modelName": Object {
+              "value": "CB500X",
+            },
+            "name": "CB500X",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CB500X",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13280",
+            },
+            "detKey": Object {
+              "value": "nc750x_13280",
+            },
+            "modelName": Object {
+              "value": "NC750X",
+            },
+            "name": "NC750X",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "NC750X",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13285",
+            },
+            "detKey": Object {
+              "value": "africa_twin_13285",
+            },
+            "modelName": Object {
+              "value": "Africa Twin",
+            },
+            "name": "Africa Twin",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Africa Twin",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13286",
+            },
+            "detKey": Object {
+              "value": "africa_twin_adventure_sports_13286",
+            },
+            "modelName": Object {
+              "value": "Africa Twin Adventure Sports",
+            },
+            "name": "Africa Twin Adventure Sports",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Africa Twin Adventure Sports",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13325",
+            },
+            "detKey": Object {
+              "value": "monkey_13325",
+            },
+            "modelName": Object {
+              "value": "Monkey",
+            },
+            "name": "Monkey",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Monkey",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13333",
+            },
+            "detKey": Object {
+              "value": "navi_13333",
+            },
+            "modelName": Object {
+              "value": "Navi",
+            },
+            "name": "Navi",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Navi",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13295",
+            },
+            "detKey": Object {
+              "value": "grom_13295",
+            },
+            "modelName": Object {
+              "value": "Grom<sup>TM</sup>",
+            },
+            "name": "Grom TM",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Grom<sup>TM</sup>",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13272",
+            },
+            "detKey": Object {
+              "value": "monkey_13272",
+            },
+            "modelName": Object {
+              "value": "Monkey",
+            },
+            "name": "Monkey",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Monkey",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13282",
+            },
+            "detKey": Object {
+              "value": "navi_13282",
+            },
+            "modelName": Object {
+              "value": "Navi",
+            },
+            "name": "Navi",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Navi",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13339",
+            },
+            "detKey": Object {
+              "value": "ruckus_13339",
+            },
+            "modelName": Object {
+              "value": "Ruckus",
+            },
+            "name": "Ruckus",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Ruckus",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13338",
+            },
+            "detKey": Object {
+              "value": "giorno_13338",
+            },
+            "modelName": Object {
+              "value": "Giorno",
+            },
+            "name": "Giorno",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Giorno",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13294",
+            },
+            "detKey": Object {
+              "value": "ruckus_13294",
+            },
+            "modelName": Object {
+              "value": "Ruckus",
+            },
+            "name": "Ruckus",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Ruckus",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "3306",
+            },
+            "detKey": Object {
+              "value": "giorno_13306",
+            },
+            "modelName": Object {
+              "value": "Giorno",
+            },
+            "name": "Giorno",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Giorno",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13254",
+            },
+            "detKey": Object {
+              "value": "ruckus_13254",
+            },
+            "modelName": Object {
+              "value": "Ruckus",
+            },
+            "name": "Ruckus",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Ruckus",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13334",
+            },
+            "detKey": Object {
+              "value": "crf300l_13334",
+            },
+            "modelName": Object {
+              "value": "CRF300L",
+            },
+            "name": "CRF300L",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CRF300L",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13335",
+            },
+            "detKey": Object {
+              "value": "crf300l_rally_13335",
+            },
+            "modelName": Object {
+              "value": "CRF300L Rally",
+            },
+            "name": "CRF300L Rally",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CRF300L Rally",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13305",
+            },
+            "detKey": Object {
+              "value": "crf450rl_13305",
+            },
+            "modelName": Object {
+              "value": "CRF450RL",
+            },
+            "name": "CRF450RL",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CRF450RL",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13336",
+            },
+            "detKey": Object {
+              "value": "xr150l_13336",
+            },
+            "modelName": Object {
+              "value": "XR150L",
+            },
+            "name": "XR150L",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "XR150L",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13292",
+            },
+            "detKey": Object {
+              "value": "crf300l_13292",
+            },
+            "modelName": Object {
+              "value": "CRF300L",
+            },
+            "name": "CRF300L",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CRF300L",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13293",
+            },
+            "detKey": Object {
+              "value": "crf300l_rally_13293",
+            },
+            "modelName": Object {
+              "value": "CRF300L Rally",
+            },
+            "name": "CRF300L Rally",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CRF300L Rally",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13262",
+            },
+            "detKey": Object {
+              "value": "crf450rl_13262",
+            },
+            "modelName": Object {
+              "value": "CRF450RL",
+            },
+            "name": "CRF450RL",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CRF450RL",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13308",
+            },
+            "detKey": Object {
+              "value": "crf110f_13308",
+            },
+            "modelName": Object {
+              "value": "CRF110F",
+            },
+            "name": "CRF110F",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CRF110F",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13309",
+            },
+            "detKey": Object {
+              "value": "crf125f_13309",
+            },
+            "modelName": Object {
+              "value": "CRF125F",
+            },
+            "name": "CRF125F",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CRF125F",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13310",
+            },
+            "detKey": Object {
+              "value": "crf125fb_13310",
+            },
+            "modelName": Object {
+              "value": "CRF125FB",
+            },
+            "name": "CRF125FB",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CRF125FB",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13311",
+            },
+            "detKey": Object {
+              "value": "crf250f_13311",
+            },
+            "modelName": Object {
+              "value": "CRF250F",
+            },
+            "name": "CRF250F",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CRF250F",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13307",
+            },
+            "detKey": Object {
+              "value": "crf50f_13307",
+            },
+            "modelName": Object {
+              "value": "CRF50F",
+            },
+            "name": "CRF50F",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CRF50F",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13267",
+            },
+            "detKey": Object {
+              "value": "crf110f_13267",
+            },
+            "modelName": Object {
+              "value": "CRF110F",
+            },
+            "name": "CRF110F",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CRF110F",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13269",
+            },
+            "detKey": Object {
+              "value": "crf125f_13269",
+            },
+            "modelName": Object {
+              "value": "CRF125F",
+            },
+            "name": "CRF125F",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CRF125F",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13268",
+            },
+            "detKey": Object {
+              "value": "crf125fb_13268",
+            },
+            "modelName": Object {
+              "value": "CRF125FB",
+            },
+            "name": "CRF125FB",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CRF125FB",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13270",
+            },
+            "detKey": Object {
+              "value": "crf250f_13270",
+            },
+            "modelName": Object {
+              "value": "CRF250F",
+            },
+            "name": "CRF250F",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CRF250F",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13266",
+            },
+            "detKey": Object {
+              "value": "crf50f_13266",
+            },
+            "modelName": Object {
+              "value": "CRF50F",
+            },
+            "name": "CRF50F",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CRF50F",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13297",
+            },
+            "detKey": Object {
+              "value": "crf150r_13297",
+            },
+            "modelName": Object {
+              "value": "CRF150R",
+            },
+            "name": "CRF150R",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CRF150R",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13298",
+            },
+            "detKey": Object {
+              "value": "crf150r_expert_13298",
+            },
+            "modelName": Object {
+              "value": "CRF150R Expert",
+            },
+            "name": "CRF150R Expert",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CRF150R Expert",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13299",
+            },
+            "detKey": Object {
+              "value": "crf250r_13299",
+            },
+            "modelName": Object {
+              "value": "CRF250R",
+            },
+            "name": "CRF250R",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CRF250R",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13300",
+            },
+            "detKey": Object {
+              "value": "crf250rx_13300",
+            },
+            "modelName": Object {
+              "value": "CRF250RX",
+            },
+            "name": "CRF250RX",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CRF250RX",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13301",
+            },
+            "detKey": Object {
+              "value": "crf450r_13301",
+            },
+            "modelName": Object {
+              "value": "CRF450R",
+            },
+            "name": "CRF450R",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CRF450R",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13303",
+            },
+            "detKey": Object {
+              "value": "crf450rwe_13303",
+            },
+            "modelName": Object {
+              "value": "CRF450RWE",
+            },
+            "name": "CRF450RWE",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CRF450RWE",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13304",
+            },
+            "detKey": Object {
+              "value": "crf450rx_13304",
+            },
+            "modelName": Object {
+              "value": "CRF450RX",
+            },
+            "name": "CRF450RX",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CRF450RX",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13271",
+            },
+            "detKey": Object {
+              "value": "crf150r_13271",
+            },
+            "modelName": Object {
+              "value": "CRF150R",
+            },
+            "name": "CRF150R",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CRF150R",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13265",
+            },
+            "detKey": Object {
+              "value": "crf150r_expert_13265",
+            },
+            "modelName": Object {
+              "value": "CRF150R Expert",
+            },
+            "name": "CRF150R Expert",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CRF150R Expert",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13263",
+            },
+            "detKey": Object {
+              "value": "crf250r_13263",
+            },
+            "modelName": Object {
+              "value": "CRF250R",
+            },
+            "name": "CRF250R",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CRF250R",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13264",
+            },
+            "detKey": Object {
+              "value": "crf250rx_13264",
+            },
+            "modelName": Object {
+              "value": "CRF250RX",
+            },
+            "name": "CRF250RX",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CRF250RX",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13259",
+            },
+            "detKey": Object {
+              "value": "crf450r_13259",
+            },
+            "modelName": Object {
+              "value": "CRF450R",
+            },
+            "name": "CRF450R",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CRF450R",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13261",
+            },
+            "detKey": Object {
+              "value": "crf450rwe_13261",
+            },
+            "modelName": Object {
+              "value": "CRF450RWE",
+            },
+            "name": "CRF450RWE",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CRF450RWE",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "13260",
+            },
+            "detKey": Object {
+              "value": "crf450rx_13260",
+            },
+            "modelName": Object {
+              "value": "CRF450RX",
+            },
+            "name": "CRF450RX",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "Mc",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "CRF450RX",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "12149",
+            },
+            "detKey": Object {
+              "value": "foreman_520_12149",
+            },
+            "modelName": Object {
+              "value": "Foreman 520",
+            },
+            "name": "Foreman 520",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "AtvSxs",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Foreman 520",
+            },
+          },
+          Object {
+            "detIdentifier": Object {
+              "value": "12150",
+            },
+            "detKey": Object {
+              "value": "foreman_520_es_eps_12150",
+            },
+            "modelName": Object {
+              "value": "Foreman 520 ES EPS",
+            },
+            "name": "Foreman 520 ES EPS",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "AtvSxs",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Foreman 520 ES EPS",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "12144",
+            },
+            "detKey": Object {
+              "value": "foreman_520_es_eps_12144",
+            },
+            "modelName": Object {
+              "value": "Foreman 520 ES EPS",
+            },
+            "name": "Copy1 of Foreman 520 ES EPS",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "AtvSxs",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Foreman 520 ES EPS",
+            },
+          },
+          Object {
+            "detIdentifier": Object {
+              "value": "12143",
+            },
+            "detKey": Object {
+              "value": "foreman_520_12143",
+            },
+            "modelName": Object {
+              "value": "Foreman 520",
+            },
+            "name": "Copy2 Foreman 520",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "AtvSxs",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Foreman 520",
+            },
+          },
+          Object {
+            "detIdentifier": Object {
+              "value": "12143",
+            },
+            "detKey": Object {
+              "value": "foreman_520_12143",
+            },
+            "modelName": Object {
+              "value": "Foreman 520",
+            },
+            "name": "Copy3 Foreman 520",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "AtvSxs",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Foreman 520",
+            },
+          },
+          Object {
+            "detIdentifier": Object {
+              "value": "12143",
+            },
+            "detKey": Object {
+              "value": "foreman_520_12143",
+            },
+            "modelName": Object {
+              "value": "Foreman 520",
+            },
+            "name": "Copy4 of Foreman 520",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "AtvSxs",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Foreman 520",
+            },
+          },
+          Object {
+            "detIdentifier": Object {
+              "value": "12143",
+            },
+            "detKey": Object {
+              "value": "foreman_520_12143",
+            },
+            "modelName": Object {
+              "value": "Foreman 520",
+            },
+            "name": "Foreman 520",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "AtvSxs",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Foreman 520",
+            },
+          },
+          Object {
+            "detIdentifier": Object {
+              "value": "12144",
+            },
+            "detKey": Object {
+              "value": "foreman_520_es_eps_12144",
+            },
+            "modelName": Object {
+              "value": "Foreman 520 ES EPS",
+            },
+            "name": "Foreman 520 ES EPS",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "AtvSxs",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Foreman 520 ES EPS",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "12148",
+            },
+            "detKey": Object {
+              "value": "trx420_12148",
+            },
+            "modelName": Object {
+              "value": "TRX420",
+            },
+            "name": "TRX420",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "AtvSxs",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "TRX420",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "12142",
+            },
+            "detKey": Object {
+              "value": "trx420_12142",
+            },
+            "modelName": Object {
+              "value": "TRX420",
+            },
+            "name": "TRX420 BFG",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "AtvSxs",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "TRX420",
+            },
+          },
+          Object {
+            "detIdentifier": Object {
+              "value": "12142",
+            },
+            "detKey": Object {
+              "value": "trx420_12142",
+            },
+            "modelName": Object {
+              "value": "TRX420",
+            },
+            "name": "TRX420 PR",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "AtvSxs",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "TRX420",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "12140",
+            },
+            "detKey": Object {
+              "value": "trx420_dct_irs_eps_12140",
+            },
+            "modelName": Object {
+              "value": "TRX420 DCT IRS EPS",
+            },
+            "name": "TRX420 DCT IRS EPS",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "AtvSxs",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "TRX420 DCT IRS EPS",
+            },
+          },
+          Object {
+            "detIdentifier": Object {
+              "value": "12134",
+            },
+            "detKey": Object {
+              "value": "trx420_12134",
+            },
+            "modelName": Object {
+              "value": "TRX420",
+            },
+            "name": "TRX420 PR",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "AtvSxs",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "TRX420",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "12119",
+            },
+            "detKey": Object {
+              "value": "pioneer_520_12119",
+            },
+            "modelName": Object {
+              "value": "Pioneer 520",
+            },
+            "name": "Pioneer 520",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "AtvSxs",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Pioneer 520",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "12106",
+            },
+            "detKey": Object {
+              "value": "pioneer_520_12106",
+            },
+            "modelName": Object {
+              "value": "Pioneer 520",
+            },
+            "name": "Pioneer 520",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "AtvSxs",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Pioneer 520",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "12107",
+            },
+            "detKey": Object {
+              "value": "talon_12107",
+            },
+            "modelName": Object {
+              "value": "Talon",
+            },
+            "name": "Talon",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "AtvSxs",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Talon",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "12099",
+            },
+            "detKey": Object {
+              "value": "talon_12099",
+            },
+            "modelName": Object {
+              "value": "Talon",
+            },
+            "name": "Talon",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "AtvSxs",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Talon",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "subCategories": Array [
+      Object {
+        "id": Object {
+          "value": "",
+        },
+        "models": Array [
+          Object {
+            "detIdentifier": Object {
+              "value": "12091",
+            },
+            "detKey": Object {
+              "value": "talon_12091",
+            },
+            "modelName": Object {
+              "value": "Talon",
+            },
+            "name": "Talon",
+            "primaryThumbnail": Object {
+              "item": Object {
+                "value": Object {},
+              },
+            },
+            "productline": "AtvSxs",
+            "sotId": Object {
+              "value": "",
+            },
+            "thumbnail": Object {},
+            "transmissions": undefined,
+            "trimName": Object {
+              "value": "Talon",
+            },
+          },
+        ],
+      },
+    ],
+  },
+]
+`;

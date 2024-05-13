@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header> should have no accessibility violations 1`] = `
+<div>
+  <p
+    class="sc-1k44dfv-0 iiDrCZ"
+    color="typographyDefault"
+    font-family="default"
+    font-weight="regular"
+  >
+    No Header Implementation for acura. Please update Header component if you expect one for acura app.
+  </p>
+</div>
+`;
+
+exports[`<Header> should render correctly for empty fields 1`] = `
+<div>
+  <p
+    class="sc-1k44dfv-0 iiDrCZ"
+    color="typographyDefault"
+    font-family="default"
+    font-weight="regular"
+  >
+    No Header Implementation for acura. Please update Header component if you expect one for acura app.
+  </p>
+</div>
+`;
+
+exports[`<Header> should render correctly with all props 1`] = `
+<div>
+  <p
+    class="sc-1k44dfv-0 iiDrCZ"
+    color="typographyDefault"
+    font-family="default"
+    font-weight="regular"
+  >
+    No Header Implementation for acura. Please update Header component if you expect one for acura app.
+  </p>
+</div>
+`;
+
+exports[`<Header> should return null if there is no fields 1`] = `
+<div>
+  <p
+    class="sc-1k44dfv-0 iiDrCZ"
+    color="typographyDefault"
+    font-family="default"
+    font-weight="regular"
+  >
+    No Header Implementation for acura. Please update Header component if you expect one for acura app.
+  </p>
+</div>
+`;

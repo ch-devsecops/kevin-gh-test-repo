@@ -1,0 +1,333 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TableJSS> should have no accessibility violations 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 cOulSM"
+    data-gtm-category="Others"
+    data-gtm-title=""
+    width="100%"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 cxhlwP"
+      id=""
+    >
+      <table
+        width="100%"
+      >
+        <thead
+          style="display: block;"
+        >
+          <tr
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 fxixxS"
+          >
+            <th
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 loeeBL"
+              width="25%"
+            >
+              <div
+                class="sc-1k44dfv-0 klHKZs"
+              >
+                
+
+                <p>
+                  Prefix
+                </p>
+              </div>
+            </th>
+            <th
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 dLaUig"
+              width="25%"
+            >
+              <div
+                class="sc-1k44dfv-0 klHKZs"
+              >
+                
+
+                <p>
+                  Serial Number Range
+                </p>
+              </div>
+            </th>
+            <th
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 dLaUig"
+              width="25%"
+            >
+              <div
+                class="sc-1k44dfv-0 klHKZs"
+              >
+                
+
+                <p>
+                  Language
+                </p>
+              </div>
+            </th>
+            <th
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 dLaUig"
+              width="25%"
+            >
+              <div
+                class="sc-1k44dfv-0 klHKZs"
+              >
+                
+
+                <p>
+                  Manual Download
+                </p>
+              </div>
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          class="Box-sc-1bsf784-0 iPRsIc"
+        >
+          <tr
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 kGSpxe"
+          >
+            <td
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 frzjuK"
+              width="25%"
+            >
+              <div
+                class="sc-1k44dfv-0 diivzi"
+                font-family="bold"
+              >
+                
+
+                <p>
+                  GCABE
+                </p>
+              </div>
+            </td>
+            <td
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gQZPxi"
+              width="25%"
+            >
+              <div
+                class="sc-1k44dfv-0 diivzi"
+                font-family="bold"
+              >
+                
+
+                <p>
+                  1000001 through 9999999
+                </p>
+              </div>
+            </td>
+            <td
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gQZPxi"
+              width="25%"
+            >
+              <div
+                class="sc-1k44dfv-0 diivzi"
+                font-family="bold"
+              >
+                
+
+                <p>
+                  English
+                </p>
+              </div>
+            </td>
+            <td
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gQZPxi"
+              width="25%"
+            >
+              <a
+                class="Link-sc-16wd4a0-0 sc-1k44dfv-0 HZGld"
+                cursor="pointer"
+                data-gtm-component-type="TableStyle2"
+                data-gtm-interaction-type="cta: click"
+                data-gtm-title="Download PDF"
+                download="/media/img/accordion/accordion-landscape-card.jpg"
+                href="/media/img/accordion/accordion-landscape-card.jpg"
+              >
+                <div
+                  class="sc-1k44dfv-0 klHKZs sc-1k44dfv-0 izkjBo"
+                >
+                  
+
+                  <p>
+                    Download PDF
+                  </p>
+                </div>
+                <div
+                  class="IconWrapper-lp9q2r-0 bLKGbV"
+                />
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<TableJSS> should render correctly 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 cOulSM"
+    data-gtm-category="Others"
+    data-gtm-title=""
+    width="100%"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 cxhlwP"
+      id=""
+    >
+      <table
+        width="100%"
+      >
+        <thead
+          style="display: block;"
+        >
+          <tr
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 fxixxS"
+          >
+            <th
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 loeeBL"
+              width="25%"
+            >
+              <div
+                class="sc-1k44dfv-0 klHKZs"
+              >
+                
+
+                <p>
+                  Prefix
+                </p>
+              </div>
+            </th>
+            <th
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 dLaUig"
+              width="25%"
+            >
+              <div
+                class="sc-1k44dfv-0 klHKZs"
+              >
+                
+
+                <p>
+                  Serial Number Range
+                </p>
+              </div>
+            </th>
+            <th
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 dLaUig"
+              width="25%"
+            >
+              <div
+                class="sc-1k44dfv-0 klHKZs"
+              >
+                
+
+                <p>
+                  Language
+                </p>
+              </div>
+            </th>
+            <th
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 dLaUig"
+              width="25%"
+            >
+              <div
+                class="sc-1k44dfv-0 klHKZs"
+              >
+                
+
+                <p>
+                  Manual Download
+                </p>
+              </div>
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          class="Box-sc-1bsf784-0 iPRsIc"
+        >
+          <tr
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 kGSpxe"
+          >
+            <td
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 frzjuK"
+              width="25%"
+            >
+              <div
+                class="sc-1k44dfv-0 diivzi"
+                font-family="bold"
+              >
+                
+
+                <p>
+                  GCABE
+                </p>
+              </div>
+            </td>
+            <td
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gQZPxi"
+              width="25%"
+            >
+              <div
+                class="sc-1k44dfv-0 diivzi"
+                font-family="bold"
+              >
+                
+
+                <p>
+                  1000001 through 9999999
+                </p>
+              </div>
+            </td>
+            <td
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gQZPxi"
+              width="25%"
+            >
+              <div
+                class="sc-1k44dfv-0 diivzi"
+                font-family="bold"
+              >
+                
+
+                <p>
+                  English
+                </p>
+              </div>
+            </td>
+            <td
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gQZPxi"
+              width="25%"
+            >
+              <a
+                class="Link-sc-16wd4a0-0 sc-1k44dfv-0 HZGld"
+                cursor="pointer"
+                data-gtm-component-type="TableStyle2"
+                data-gtm-interaction-type="cta: click"
+                data-gtm-title="Download PDF"
+                download="/media/img/accordion/accordion-landscape-card.jpg"
+                href="/media/img/accordion/accordion-landscape-card.jpg"
+              >
+                <div
+                  class="sc-1k44dfv-0 klHKZs sc-1k44dfv-0 izkjBo"
+                >
+                  
+
+                  <p>
+                    Download PDF
+                  </p>
+                </div>
+                <div
+                  class="IconWrapper-lp9q2r-0 bLKGbV"
+                />
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<TableJSS> should return null if the content fields is empty 1`] = `<div />`;

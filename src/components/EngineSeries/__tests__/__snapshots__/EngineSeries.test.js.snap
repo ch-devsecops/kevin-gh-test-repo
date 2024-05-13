@@ -1,0 +1,3588 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EngineSeries> should render correctly 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 gXilRl"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-htoDjs EWxqT"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 eXMvhG"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 dPROOa"
+        >
+          <h5
+            aria-label="Horizontal Crankshaft"
+            class="sc-1k44dfv-0 sc-1k44dfv-0 bsVBDh"
+          >
+            Horizontal Crankshaft
+          </h5>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 klICea"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gJVKFB"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                data-testid="product-card"
+              >
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                />
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                >
+                  <a
+                    class="Link-sc-16wd4a0-0 bXBGRT"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-trim="GX100"
+                    href="/en/"
+                    title="view details"
+                  >
+                    <div
+                      class="sc-1k44dfv-0 cALsOM"
+                      mb="xs,s"
+                      mt="0"
+                    >
+                      
+
+                      <h5
+                        class="sc-1k44dfv-0 gXWcpP"
+                      >
+                        GX100
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+                <a
+                  class="Link-sc-16wd4a0-0 bXBGRT"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-trim="GX100"
+                  href="/en/"
+                  title="view details"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 jgcAXQ"
+                    height="139px,248px"
+                    order="-1"
+                  >
+                    <img
+                      alt="Front of Honda GX100 engine (1st image)"
+                      class="sc-1k44dfv-0 jLTFZk"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-100/GX100.jpg?rev=96895d5c461a4d7596e8dc6a003caae7"
+                      style="object-fit: contain;"
+                    />
+                  </div>
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 QoaNQ"
+                >
+                  <div
+                    class="sc-1k44dfv-0 ktMwmo"
+                  >
+                    
+
+                    <p>
+                      Solid performance, reliability and fuel efficiency. Ideal for lawn, construction, and agriculture.
+                    </p>
+                  </div>
+                </div>
+                <a
+                  class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-title="view details"
+                  data-gtm-trim="GX100"
+                  data-testid="dsr-button-component"
+                  display="none,block"
+                  href="/en/"
+                  tabindex="0"
+                >
+                  Shared.Common.viewDetailsButton
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                >
+                  <label
+                    class="sc-bwzfXH cvvuMq"
+                    data-gtm-interaction-type="compare item click"
+                    data-gtm-title="added comparison item"
+                    data-gtm-trim="GX100"
+                    data-testid="product-card-compare-btn"
+                    data-testvalue="false"
+                  >
+                    <input
+                      aria-checked="false"
+                      aria-label="Shared.Common.compareCheckboxAria"
+                      autocomplete="off"
+                      class="sc-bdVaJa gBQUrE"
+                      data-gtm-interaction-type="compare item click"
+                      data-gtm-title="added comparison item"
+                      data-gtm-trim="GX100"
+                      id="4CAE3588D62A4309AB9C98417293565F"
+                      tabindex="-1"
+                      type="checkbox"
+                    />
+                    <span
+                      class="sc-htpNat hVaxDi"
+                      data-testid="cy-compare-toggle"
+                    />
+                    <label
+                      class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                      for="4CAE3588D62A4309AB9C98417293565F"
+                    >
+                      Shared.Common.addToCompareButton
+                    </label>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gJVKFB"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                data-testid="product-card"
+              >
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                />
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                >
+                  <a
+                    class="Link-sc-16wd4a0-0 bXBGRT"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-trim="GX120"
+                    title="view details"
+                  >
+                    <div
+                      class="sc-1k44dfv-0 cALsOM"
+                      mb="xs,s"
+                      mt="0"
+                    >
+                      
+
+                      <h5
+                        class="sc-1k44dfv-0 gXWcpP"
+                      >
+                        GX120
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+                <a
+                  class="Link-sc-16wd4a0-0 bXBGRT"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-trim="GX120"
+                  title="view details"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 jgcAXQ"
+                    height="139px,248px"
+                    order="-1"
+                  >
+                    <img
+                      alt="Front of Honda GX120 engine"
+                      class="sc-1k44dfv-0 jLTFZk"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-120/GX120.jpg?rev=af1f2b74677848d9a78390e8484f38e6"
+                      style="object-fit: contain;"
+                    />
+                  </div>
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 QoaNQ"
+                >
+                  <div
+                    class="sc-1k44dfv-0 ktMwmo"
+                  >
+                    
+
+                    <p>
+                      Solid performance, reliability and fuel efficiency. Ideal for lawn, construction and agriculture.
+                    </p>
+                  </div>
+                </div>
+                <a
+                  class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-title="view details"
+                  data-gtm-trim="GX120"
+                  data-testid="dsr-button-component"
+                  display="none,block"
+                  tabindex="0"
+                >
+                  Shared.Common.viewDetailsButton
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                >
+                  <label
+                    class="sc-bwzfXH cvvuMq"
+                    data-gtm-interaction-type="compare item click"
+                    data-gtm-title="added comparison item"
+                    data-gtm-trim="GX120"
+                    data-testid="product-card-compare-btn"
+                    data-testvalue="false"
+                  >
+                    <input
+                      aria-checked="false"
+                      aria-label="Shared.Common.compareCheckboxAria"
+                      autocomplete="off"
+                      class="sc-bdVaJa gBQUrE"
+                      data-gtm-interaction-type="compare item click"
+                      data-gtm-title="added comparison item"
+                      data-gtm-trim="GX120"
+                      id="4FE5D1F177C54419A586B8C7F79B519F"
+                      tabindex="-1"
+                      type="checkbox"
+                    />
+                    <span
+                      class="sc-htpNat hVaxDi"
+                      data-testid="cy-compare-toggle"
+                    />
+                    <label
+                      class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                      for="4FE5D1F177C54419A586B8C7F79B519F"
+                    >
+                      Shared.Common.addToCompareButton
+                    </label>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gJVKFB"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                data-testid="product-card"
+              >
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                />
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                >
+                  <a
+                    class="Link-sc-16wd4a0-0 bXBGRT"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-trim="GX160"
+                    title="view details"
+                  >
+                    <div
+                      class="sc-1k44dfv-0 cALsOM"
+                      mb="xs,s"
+                      mt="0"
+                    >
+                      
+
+                      <h5
+                        class="sc-1k44dfv-0 gXWcpP"
+                      >
+                        GX160
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+                <a
+                  class="Link-sc-16wd4a0-0 bXBGRT"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-trim="GX160"
+                  title="view details"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 jgcAXQ"
+                    height="139px,248px"
+                    order="-1"
+                  >
+                    <img
+                      alt="Front of Honda GX160 engine"
+                      class="sc-1k44dfv-0 jLTFZk"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-160/GX160.jpg?rev=7d0192b9fffb4ebf95c8807d00a9c2d6"
+                      style="object-fit: contain;"
+                    />
+                  </div>
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 QoaNQ"
+                >
+                  <span
+                    class="sc-1k44dfv-0 ktMwmo"
+                  >
+                    
+
+                  </span>
+                </div>
+                <a
+                  class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-title="view details"
+                  data-gtm-trim="GX160"
+                  data-testid="dsr-button-component"
+                  display="none,block"
+                  tabindex="0"
+                >
+                  Shared.Common.viewDetailsButton
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                >
+                  <label
+                    class="sc-bwzfXH cvvuMq"
+                    data-gtm-interaction-type="compare item click"
+                    data-gtm-title="added comparison item"
+                    data-gtm-trim="GX160"
+                    data-testid="product-card-compare-btn"
+                    data-testvalue="false"
+                  >
+                    <input
+                      aria-checked="false"
+                      aria-label="Shared.Common.compareCheckboxAria"
+                      autocomplete="off"
+                      class="sc-bdVaJa gBQUrE"
+                      data-gtm-interaction-type="compare item click"
+                      data-gtm-title="added comparison item"
+                      data-gtm-trim="GX160"
+                      id="9A0C438CE4D547AF8C5AB9E9ACB90858"
+                      tabindex="-1"
+                      type="checkbox"
+                    />
+                    <span
+                      class="sc-htpNat hVaxDi"
+                      data-testid="cy-compare-toggle"
+                    />
+                    <label
+                      class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                      for="9A0C438CE4D547AF8C5AB9E9ACB90858"
+                    >
+                      Shared.Common.addToCompareButton
+                    </label>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gJVKFB"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                data-testid="product-card"
+              >
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                />
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                >
+                  <a
+                    class="Link-sc-16wd4a0-0 bXBGRT"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-trim="GX200"
+                    title="view details"
+                  >
+                    <div
+                      class="sc-1k44dfv-0 cALsOM"
+                      mb="xs,s"
+                      mt="0"
+                    >
+                      
+
+                      <h5
+                        class="sc-1k44dfv-0 gXWcpP"
+                      >
+                        GX200
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+                <a
+                  class="Link-sc-16wd4a0-0 bXBGRT"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-trim="GX200"
+                  title="view details"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 jgcAXQ"
+                    height="139px,248px"
+                    order="-1"
+                  >
+                    <img
+                      alt="Front of Honda GX200 engine"
+                      class="sc-1k44dfv-0 jLTFZk"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-200/GX200.jpg?rev=f055a2b356bd4147b24faa9d020d6095"
+                      style="object-fit: contain;"
+                    />
+                  </div>
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 QoaNQ"
+                >
+                  <span
+                    class="sc-1k44dfv-0 ktMwmo"
+                  >
+                    
+
+                  </span>
+                </div>
+                <a
+                  class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-title="view details"
+                  data-gtm-trim="GX200"
+                  data-testid="dsr-button-component"
+                  display="none,block"
+                  tabindex="0"
+                >
+                  Shared.Common.viewDetailsButton
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                >
+                  <label
+                    class="sc-bwzfXH cvvuMq"
+                    data-gtm-interaction-type="compare item click"
+                    data-gtm-title="added comparison item"
+                    data-gtm-trim="GX200"
+                    data-testid="product-card-compare-btn"
+                    data-testvalue="false"
+                  >
+                    <input
+                      aria-checked="false"
+                      aria-label="Shared.Common.compareCheckboxAria"
+                      autocomplete="off"
+                      class="sc-bdVaJa gBQUrE"
+                      data-gtm-interaction-type="compare item click"
+                      data-gtm-title="added comparison item"
+                      data-gtm-trim="GX200"
+                      id="EFEFBB38C5B04A99B7145343940611FD"
+                      tabindex="-1"
+                      type="checkbox"
+                    />
+                    <span
+                      class="sc-htpNat hVaxDi"
+                      data-testid="cy-compare-toggle"
+                    />
+                    <label
+                      class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                      for="EFEFBB38C5B04A99B7145343940611FD"
+                    >
+                      Shared.Common.addToCompareButton
+                    </label>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gJVKFB"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                data-testid="product-card"
+              >
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                />
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                >
+                  <a
+                    class="Link-sc-16wd4a0-0 bXBGRT"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-trim="GX270"
+                    title="view details"
+                  >
+                    <div
+                      class="sc-1k44dfv-0 cALsOM"
+                      mb="xs,s"
+                      mt="0"
+                    >
+                      
+
+                      <h5
+                        class="sc-1k44dfv-0 gXWcpP"
+                      >
+                        GX270
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+                <a
+                  class="Link-sc-16wd4a0-0 bXBGRT"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-trim="GX270"
+                  title="view details"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 jgcAXQ"
+                    height="139px,248px"
+                    order="-1"
+                  >
+                    <img
+                      alt="Front of Honda GX270 engine"
+                      class="sc-1k44dfv-0 jLTFZk"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-270/GX270.jpg?rev=e4c6b54fe7544a62868ef340c27459ac"
+                      style="object-fit: contain;"
+                    />
+                  </div>
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 QoaNQ"
+                >
+                  <span
+                    class="sc-1k44dfv-0 ktMwmo"
+                  >
+                    
+
+                  </span>
+                </div>
+                <a
+                  class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-title="view details"
+                  data-gtm-trim="GX270"
+                  data-testid="dsr-button-component"
+                  display="none,block"
+                  tabindex="0"
+                >
+                  Shared.Common.viewDetailsButton
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                >
+                  <label
+                    class="sc-bwzfXH cvvuMq"
+                    data-gtm-interaction-type="compare item click"
+                    data-gtm-title="added comparison item"
+                    data-gtm-trim="GX270"
+                    data-testid="product-card-compare-btn"
+                    data-testvalue="false"
+                  >
+                    <input
+                      aria-checked="false"
+                      aria-label="Shared.Common.compareCheckboxAria"
+                      autocomplete="off"
+                      class="sc-bdVaJa gBQUrE"
+                      data-gtm-interaction-type="compare item click"
+                      data-gtm-title="added comparison item"
+                      data-gtm-trim="GX270"
+                      id="1254FD84EA2F45B79BEF001FCAB2865A"
+                      tabindex="-1"
+                      type="checkbox"
+                    />
+                    <span
+                      class="sc-htpNat hVaxDi"
+                      data-testid="cy-compare-toggle"
+                    />
+                    <label
+                      class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                      for="1254FD84EA2F45B79BEF001FCAB2865A"
+                    >
+                      Shared.Common.addToCompareButton
+                    </label>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gJVKFB"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                data-testid="product-card"
+              >
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                />
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                >
+                  <a
+                    class="Link-sc-16wd4a0-0 bXBGRT"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-trim="GX340"
+                    title="view details"
+                  >
+                    <div
+                      class="sc-1k44dfv-0 cALsOM"
+                      mb="xs,s"
+                      mt="0"
+                    >
+                      
+
+                      <h5
+                        class="sc-1k44dfv-0 gXWcpP"
+                      >
+                        GX340
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+                <a
+                  class="Link-sc-16wd4a0-0 bXBGRT"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-trim="GX340"
+                  title="view details"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 jgcAXQ"
+                    height="139px,248px"
+                    order="-1"
+                  >
+                    <img
+                      alt="Front of Honda GX340 engine"
+                      class="sc-1k44dfv-0 jLTFZk"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-340/GX340.jpg?rev=f3220fba10844848aa306d90418adfcf"
+                      style="object-fit: contain;"
+                    />
+                  </div>
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 QoaNQ"
+                >
+                  <span
+                    class="sc-1k44dfv-0 ktMwmo"
+                  >
+                    
+
+                  </span>
+                </div>
+                <a
+                  class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-title="view details"
+                  data-gtm-trim="GX340"
+                  data-testid="dsr-button-component"
+                  display="none,block"
+                  tabindex="0"
+                >
+                  Shared.Common.viewDetailsButton
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                >
+                  <label
+                    class="sc-bwzfXH cvvuMq"
+                    data-gtm-interaction-type="compare item click"
+                    data-gtm-title="added comparison item"
+                    data-gtm-trim="GX340"
+                    data-testid="product-card-compare-btn"
+                    data-testvalue="false"
+                  >
+                    <input
+                      aria-checked="false"
+                      aria-label="Shared.Common.compareCheckboxAria"
+                      autocomplete="off"
+                      class="sc-bdVaJa gBQUrE"
+                      data-gtm-interaction-type="compare item click"
+                      data-gtm-title="added comparison item"
+                      data-gtm-trim="GX340"
+                      id="7B841133D8474EA0B701E13F8A9E8485"
+                      tabindex="-1"
+                      type="checkbox"
+                    />
+                    <span
+                      class="sc-htpNat hVaxDi"
+                      data-testid="cy-compare-toggle"
+                    />
+                    <label
+                      class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                      for="7B841133D8474EA0B701E13F8A9E8485"
+                    >
+                      Shared.Common.addToCompareButton
+                    </label>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 fZLgxb"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                data-testid="product-card"
+              >
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                />
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                >
+                  <a
+                    class="Link-sc-16wd4a0-0 bXBGRT"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-trim="GX390"
+                    title="view details"
+                  >
+                    <div
+                      class="sc-1k44dfv-0 cALsOM"
+                      mb="xs,s"
+                      mt="0"
+                    >
+                      
+
+                      <h5
+                        class="sc-1k44dfv-0 gXWcpP"
+                      >
+                        GX390
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+                <a
+                  class="Link-sc-16wd4a0-0 bXBGRT"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-trim="GX390"
+                  title="view details"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 jgcAXQ"
+                    height="139px,248px"
+                    order="-1"
+                  >
+                    <img
+                      alt="Front of Honda GX390 engine"
+                      class="sc-1k44dfv-0 jLTFZk"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-390/GX390.jpg?rev=05611c4ff11d4a90b46783c78a5ed8e8"
+                      style="object-fit: contain;"
+                    />
+                  </div>
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 QoaNQ"
+                >
+                  <span
+                    class="sc-1k44dfv-0 ktMwmo"
+                  >
+                    
+
+                  </span>
+                </div>
+                <a
+                  class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-title="view details"
+                  data-gtm-trim="GX390"
+                  data-testid="dsr-button-component"
+                  display="none,block"
+                  tabindex="0"
+                >
+                  Shared.Common.viewDetailsButton
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                >
+                  <label
+                    class="sc-bwzfXH cvvuMq"
+                    data-gtm-interaction-type="compare item click"
+                    data-gtm-title="added comparison item"
+                    data-gtm-trim="GX390"
+                    data-testid="product-card-compare-btn"
+                    data-testvalue="false"
+                  >
+                    <input
+                      aria-checked="false"
+                      aria-label="Shared.Common.compareCheckboxAria"
+                      autocomplete="off"
+                      class="sc-bdVaJa gBQUrE"
+                      data-gtm-interaction-type="compare item click"
+                      data-gtm-title="added comparison item"
+                      data-gtm-trim="GX390"
+                      id="168FA865EDAB4DD1A1FB31A3F9EBCBAE"
+                      tabindex="-1"
+                      type="checkbox"
+                    />
+                    <span
+                      class="sc-htpNat hVaxDi"
+                      data-testid="cy-compare-toggle"
+                    />
+                    <label
+                      class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                      for="168FA865EDAB4DD1A1FB31A3F9EBCBAE"
+                    >
+                      Shared.Common.addToCompareButton
+                    </label>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 eXMvhG"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 dPROOa"
+        >
+          <h5
+            aria-label="Vertical Crankshaft"
+            class="sc-1k44dfv-0 sc-1k44dfv-0 bsVBDh"
+          >
+            Vertical Crankshaft
+          </h5>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 klICea"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gJVKFB"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                data-testid="product-card"
+              >
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                />
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                >
+                  <a
+                    class="Link-sc-16wd4a0-0 bXBGRT"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-trim="GXV160"
+                    title="view details"
+                  >
+                    <div
+                      class="sc-1k44dfv-0 cALsOM"
+                      mb="xs,s"
+                      mt="0"
+                    >
+                      
+
+                      <h5
+                        class="sc-1k44dfv-0 gXWcpP"
+                      >
+                        GXV160
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+                <a
+                  class="Link-sc-16wd4a0-0 bXBGRT"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-trim="GXV160"
+                  title="view details"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 jgcAXQ"
+                    height="139px,248px"
+                    order="-1"
+                  >
+                    <img
+                      alt="Front of Honda GXV160 engine"
+                      class="sc-1k44dfv-0 jLTFZk"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GXV-160/GXV160.jpg?rev=4870392a1a0148f3bfcb6a0f9ab0514b"
+                      style="object-fit: contain;"
+                    />
+                  </div>
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 QoaNQ"
+                >
+                  <div
+                    class="sc-1k44dfv-0 ktMwmo"
+                  >
+                    
+
+                    <p>
+                      Solid performance, reliability and fuel efficiency. Ideal for lawn, construction and agriculture.
+                    </p>
+                  </div>
+                </div>
+                <a
+                  class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-title="view details"
+                  data-gtm-trim="GXV160"
+                  data-testid="dsr-button-component"
+                  display="none,block"
+                  tabindex="0"
+                >
+                  Shared.Common.viewDetailsButton
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                >
+                  <label
+                    class="sc-bwzfXH cvvuMq"
+                    data-gtm-interaction-type="compare item click"
+                    data-gtm-title="added comparison item"
+                    data-gtm-trim="GXV160"
+                    data-testid="product-card-compare-btn"
+                    data-testvalue="false"
+                  >
+                    <input
+                      aria-checked="false"
+                      aria-label="Shared.Common.compareCheckboxAria"
+                      autocomplete="off"
+                      class="sc-bdVaJa gBQUrE"
+                      data-gtm-interaction-type="compare item click"
+                      data-gtm-title="added comparison item"
+                      data-gtm-trim="GXV160"
+                      id="9517794341634F308D3315497A75A138"
+                      tabindex="-1"
+                      type="checkbox"
+                    />
+                    <span
+                      class="sc-htpNat hVaxDi"
+                      data-testid="cy-compare-toggle"
+                    />
+                    <label
+                      class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                      for="9517794341634F308D3315497A75A138"
+                    >
+                      Shared.Common.addToCompareButton
+                    </label>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gJVKFB"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                data-testid="product-card"
+              >
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                />
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                >
+                  <a
+                    class="Link-sc-16wd4a0-0 bXBGRT"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-trim="GXV340"
+                    title="view details"
+                  >
+                    <div
+                      class="sc-1k44dfv-0 cALsOM"
+                      mb="xs,s"
+                      mt="0"
+                    >
+                      
+
+                      <h5
+                        class="sc-1k44dfv-0 gXWcpP"
+                      >
+                        GXV340
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+                <a
+                  class="Link-sc-16wd4a0-0 bXBGRT"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-trim="GXV340"
+                  title="view details"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 jgcAXQ"
+                    height="139px,248px"
+                    order="-1"
+                  >
+                    <img
+                      alt="Front of Honda GXV340 engine"
+                      class="sc-1k44dfv-0 jLTFZk"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GXV-340/GXV340.jpg?rev=8766ae0549e44c4a8adf7a013a85f6a7"
+                      style="object-fit: contain;"
+                    />
+                  </div>
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 QoaNQ"
+                >
+                  <span
+                    class="sc-1k44dfv-0 ktMwmo"
+                  >
+                    
+
+                  </span>
+                </div>
+                <a
+                  class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-title="view details"
+                  data-gtm-trim="GXV340"
+                  data-testid="dsr-button-component"
+                  display="none,block"
+                  tabindex="0"
+                >
+                  Shared.Common.viewDetailsButton
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                >
+                  <label
+                    class="sc-bwzfXH cvvuMq"
+                    data-gtm-interaction-type="compare item click"
+                    data-gtm-title="added comparison item"
+                    data-gtm-trim="GXV340"
+                    data-testid="product-card-compare-btn"
+                    data-testvalue="false"
+                  >
+                    <input
+                      aria-checked="false"
+                      aria-label="Shared.Common.compareCheckboxAria"
+                      autocomplete="off"
+                      class="sc-bdVaJa gBQUrE"
+                      data-gtm-interaction-type="compare item click"
+                      data-gtm-title="added comparison item"
+                      data-gtm-trim="GXV340"
+                      id="42A436CD11274643A12096FC058C7114"
+                      tabindex="-1"
+                      type="checkbox"
+                    />
+                    <span
+                      class="sc-htpNat hVaxDi"
+                      data-testid="cy-compare-toggle"
+                    />
+                    <label
+                      class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                      for="42A436CD11274643A12096FC058C7114"
+                    >
+                      Shared.Common.addToCompareButton
+                    </label>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 fZLgxb"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                data-testid="product-card"
+              >
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                />
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                >
+                  <a
+                    class="Link-sc-16wd4a0-0 bXBGRT"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-trim="GXV390"
+                    title="view details"
+                  >
+                    <div
+                      class="sc-1k44dfv-0 cALsOM"
+                      mb="xs,s"
+                      mt="0"
+                    >
+                      
+
+                      <h5
+                        class="sc-1k44dfv-0 gXWcpP"
+                      >
+                        GXV390
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+                <a
+                  class="Link-sc-16wd4a0-0 bXBGRT"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-trim="GXV390"
+                  title="view details"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 jgcAXQ"
+                    height="139px,248px"
+                    order="-1"
+                  >
+                    <img
+                      alt="Front of Honda GXV390 engine"
+                      class="sc-1k44dfv-0 jLTFZk"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GXV-390/GXV390.jpg?rev=91443f25133741078d0e9d7b1500effe"
+                      style="object-fit: contain;"
+                    />
+                  </div>
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 QoaNQ"
+                >
+                  <span
+                    class="sc-1k44dfv-0 ktMwmo"
+                  >
+                    
+
+                  </span>
+                </div>
+                <a
+                  class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-title="view details"
+                  data-gtm-trim="GXV390"
+                  data-testid="dsr-button-component"
+                  display="none,block"
+                  tabindex="0"
+                >
+                  Shared.Common.viewDetailsButton
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                >
+                  <label
+                    class="sc-bwzfXH cvvuMq"
+                    data-gtm-interaction-type="compare item click"
+                    data-gtm-title="added comparison item"
+                    data-gtm-trim="GXV390"
+                    data-testid="product-card-compare-btn"
+                    data-testvalue="false"
+                  >
+                    <input
+                      aria-checked="false"
+                      aria-label="Shared.Common.compareCheckboxAria"
+                      autocomplete="off"
+                      class="sc-bdVaJa gBQUrE"
+                      data-gtm-interaction-type="compare item click"
+                      data-gtm-title="added comparison item"
+                      data-gtm-trim="GXV390"
+                      id="A2584E9535124074B03346D849491FE6"
+                      tabindex="-1"
+                      type="checkbox"
+                    />
+                    <span
+                      class="sc-htpNat hVaxDi"
+                      data-testid="cy-compare-toggle"
+                    />
+                    <label
+                      class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                      for="A2584E9535124074B03346D849491FE6"
+                    >
+                      Shared.Common.addToCompareButton
+                    </label>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<EngineSeries> should render correctly with empty mock data 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 gXilRl"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-htoDjs cKmOiD"
+    />
+  </div>
+</div>
+`;
+
+exports[`<EngineSeries> should render correctly with empty params 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 gXilRl"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-htoDjs fMmLhK"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 eXMvhG"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 dPROOa"
+        >
+          <h5
+            aria-label="Horizontal Crankshaft"
+            class="sc-1k44dfv-0 sc-1k44dfv-0 bsVBDh"
+          >
+            Horizontal Crankshaft
+          </h5>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 klICea"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gJVKFB"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                data-testid="product-card"
+              >
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                />
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                >
+                  <a
+                    class="Link-sc-16wd4a0-0 bXBGRT"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-trim="GX100"
+                    href="/en/"
+                    title="view details"
+                  >
+                    <div
+                      class="sc-1k44dfv-0 cALsOM"
+                      mb="xs,s"
+                      mt="0"
+                    >
+                      
+
+                      <h5
+                        class="sc-1k44dfv-0 gXWcpP"
+                      >
+                        GX100
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+                <a
+                  class="Link-sc-16wd4a0-0 bXBGRT"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-trim="GX100"
+                  href="/en/"
+                  title="view details"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 jgcAXQ"
+                    height="139px,248px"
+                    order="-1"
+                  >
+                    <img
+                      alt="Front of Honda GX100 engine (1st image)"
+                      class="sc-1k44dfv-0 jLTFZk"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-100/GX100.jpg?rev=96895d5c461a4d7596e8dc6a003caae7"
+                      style="object-fit: contain;"
+                    />
+                  </div>
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 QoaNQ"
+                >
+                  <div
+                    class="sc-1k44dfv-0 ktMwmo"
+                  >
+                    
+
+                    <p>
+                      Solid performance, reliability and fuel efficiency. Ideal for lawn, construction, and agriculture.
+                    </p>
+                  </div>
+                </div>
+                <a
+                  class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-title="view details"
+                  data-gtm-trim="GX100"
+                  data-testid="dsr-button-component"
+                  display="none,block"
+                  href="/en/"
+                  tabindex="0"
+                >
+                  Shared.Common.viewDetailsButton
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                >
+                  <label
+                    class="sc-bwzfXH cvvuMq"
+                    data-gtm-interaction-type="compare item click"
+                    data-gtm-title="added comparison item"
+                    data-gtm-trim="GX100"
+                    data-testid="product-card-compare-btn"
+                    data-testvalue="false"
+                  >
+                    <input
+                      aria-checked="false"
+                      aria-label="Shared.Common.compareCheckboxAria"
+                      autocomplete="off"
+                      class="sc-bdVaJa gBQUrE"
+                      data-gtm-interaction-type="compare item click"
+                      data-gtm-title="added comparison item"
+                      data-gtm-trim="GX100"
+                      id="4CAE3588D62A4309AB9C98417293565F"
+                      tabindex="-1"
+                      type="checkbox"
+                    />
+                    <span
+                      class="sc-htpNat hVaxDi"
+                      data-testid="cy-compare-toggle"
+                    />
+                    <label
+                      class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                      for="4CAE3588D62A4309AB9C98417293565F"
+                    >
+                      Shared.Common.addToCompareButton
+                    </label>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gJVKFB"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                data-testid="product-card"
+              >
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                />
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                >
+                  <a
+                    class="Link-sc-16wd4a0-0 bXBGRT"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-trim="GX120"
+                    title="view details"
+                  >
+                    <div
+                      class="sc-1k44dfv-0 cALsOM"
+                      mb="xs,s"
+                      mt="0"
+                    >
+                      
+
+                      <h5
+                        class="sc-1k44dfv-0 gXWcpP"
+                      >
+                        GX120
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+                <a
+                  class="Link-sc-16wd4a0-0 bXBGRT"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-trim="GX120"
+                  title="view details"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 jgcAXQ"
+                    height="139px,248px"
+                    order="-1"
+                  >
+                    <img
+                      alt="Front of Honda GX120 engine"
+                      class="sc-1k44dfv-0 jLTFZk"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-120/GX120.jpg?rev=af1f2b74677848d9a78390e8484f38e6"
+                      style="object-fit: contain;"
+                    />
+                  </div>
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 QoaNQ"
+                >
+                  <div
+                    class="sc-1k44dfv-0 ktMwmo"
+                  >
+                    
+
+                    <p>
+                      Solid performance, reliability and fuel efficiency. Ideal for lawn, construction and agriculture.
+                    </p>
+                  </div>
+                </div>
+                <a
+                  class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-title="view details"
+                  data-gtm-trim="GX120"
+                  data-testid="dsr-button-component"
+                  display="none,block"
+                  tabindex="0"
+                >
+                  Shared.Common.viewDetailsButton
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                >
+                  <label
+                    class="sc-bwzfXH cvvuMq"
+                    data-gtm-interaction-type="compare item click"
+                    data-gtm-title="added comparison item"
+                    data-gtm-trim="GX120"
+                    data-testid="product-card-compare-btn"
+                    data-testvalue="false"
+                  >
+                    <input
+                      aria-checked="false"
+                      aria-label="Shared.Common.compareCheckboxAria"
+                      autocomplete="off"
+                      class="sc-bdVaJa gBQUrE"
+                      data-gtm-interaction-type="compare item click"
+                      data-gtm-title="added comparison item"
+                      data-gtm-trim="GX120"
+                      id="4FE5D1F177C54419A586B8C7F79B519F"
+                      tabindex="-1"
+                      type="checkbox"
+                    />
+                    <span
+                      class="sc-htpNat hVaxDi"
+                      data-testid="cy-compare-toggle"
+                    />
+                    <label
+                      class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                      for="4FE5D1F177C54419A586B8C7F79B519F"
+                    >
+                      Shared.Common.addToCompareButton
+                    </label>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gJVKFB"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                data-testid="product-card"
+              >
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                />
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                >
+                  <a
+                    class="Link-sc-16wd4a0-0 bXBGRT"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-trim="GX160"
+                    title="view details"
+                  >
+                    <div
+                      class="sc-1k44dfv-0 cALsOM"
+                      mb="xs,s"
+                      mt="0"
+                    >
+                      
+
+                      <h5
+                        class="sc-1k44dfv-0 gXWcpP"
+                      >
+                        GX160
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+                <a
+                  class="Link-sc-16wd4a0-0 bXBGRT"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-trim="GX160"
+                  title="view details"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 jgcAXQ"
+                    height="139px,248px"
+                    order="-1"
+                  >
+                    <img
+                      alt="Front of Honda GX160 engine"
+                      class="sc-1k44dfv-0 jLTFZk"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-160/GX160.jpg?rev=7d0192b9fffb4ebf95c8807d00a9c2d6"
+                      style="object-fit: contain;"
+                    />
+                  </div>
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 QoaNQ"
+                >
+                  <span
+                    class="sc-1k44dfv-0 ktMwmo"
+                  >
+                    
+
+                  </span>
+                </div>
+                <a
+                  class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-title="view details"
+                  data-gtm-trim="GX160"
+                  data-testid="dsr-button-component"
+                  display="none,block"
+                  tabindex="0"
+                >
+                  Shared.Common.viewDetailsButton
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                >
+                  <label
+                    class="sc-bwzfXH cvvuMq"
+                    data-gtm-interaction-type="compare item click"
+                    data-gtm-title="added comparison item"
+                    data-gtm-trim="GX160"
+                    data-testid="product-card-compare-btn"
+                    data-testvalue="false"
+                  >
+                    <input
+                      aria-checked="false"
+                      aria-label="Shared.Common.compareCheckboxAria"
+                      autocomplete="off"
+                      class="sc-bdVaJa gBQUrE"
+                      data-gtm-interaction-type="compare item click"
+                      data-gtm-title="added comparison item"
+                      data-gtm-trim="GX160"
+                      id="9A0C438CE4D547AF8C5AB9E9ACB90858"
+                      tabindex="-1"
+                      type="checkbox"
+                    />
+                    <span
+                      class="sc-htpNat hVaxDi"
+                      data-testid="cy-compare-toggle"
+                    />
+                    <label
+                      class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                      for="9A0C438CE4D547AF8C5AB9E9ACB90858"
+                    >
+                      Shared.Common.addToCompareButton
+                    </label>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gJVKFB"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                data-testid="product-card"
+              >
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                />
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                >
+                  <a
+                    class="Link-sc-16wd4a0-0 bXBGRT"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-trim="GX200"
+                    title="view details"
+                  >
+                    <div
+                      class="sc-1k44dfv-0 cALsOM"
+                      mb="xs,s"
+                      mt="0"
+                    >
+                      
+
+                      <h5
+                        class="sc-1k44dfv-0 gXWcpP"
+                      >
+                        GX200
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+                <a
+                  class="Link-sc-16wd4a0-0 bXBGRT"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-trim="GX200"
+                  title="view details"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 jgcAXQ"
+                    height="139px,248px"
+                    order="-1"
+                  >
+                    <img
+                      alt="Front of Honda GX200 engine"
+                      class="sc-1k44dfv-0 jLTFZk"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-200/GX200.jpg?rev=f055a2b356bd4147b24faa9d020d6095"
+                      style="object-fit: contain;"
+                    />
+                  </div>
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 QoaNQ"
+                >
+                  <span
+                    class="sc-1k44dfv-0 ktMwmo"
+                  >
+                    
+
+                  </span>
+                </div>
+                <a
+                  class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-title="view details"
+                  data-gtm-trim="GX200"
+                  data-testid="dsr-button-component"
+                  display="none,block"
+                  tabindex="0"
+                >
+                  Shared.Common.viewDetailsButton
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                >
+                  <label
+                    class="sc-bwzfXH cvvuMq"
+                    data-gtm-interaction-type="compare item click"
+                    data-gtm-title="added comparison item"
+                    data-gtm-trim="GX200"
+                    data-testid="product-card-compare-btn"
+                    data-testvalue="false"
+                  >
+                    <input
+                      aria-checked="false"
+                      aria-label="Shared.Common.compareCheckboxAria"
+                      autocomplete="off"
+                      class="sc-bdVaJa gBQUrE"
+                      data-gtm-interaction-type="compare item click"
+                      data-gtm-title="added comparison item"
+                      data-gtm-trim="GX200"
+                      id="EFEFBB38C5B04A99B7145343940611FD"
+                      tabindex="-1"
+                      type="checkbox"
+                    />
+                    <span
+                      class="sc-htpNat hVaxDi"
+                      data-testid="cy-compare-toggle"
+                    />
+                    <label
+                      class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                      for="EFEFBB38C5B04A99B7145343940611FD"
+                    >
+                      Shared.Common.addToCompareButton
+                    </label>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gJVKFB"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                data-testid="product-card"
+              >
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                />
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                >
+                  <a
+                    class="Link-sc-16wd4a0-0 bXBGRT"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-trim="GX270"
+                    title="view details"
+                  >
+                    <div
+                      class="sc-1k44dfv-0 cALsOM"
+                      mb="xs,s"
+                      mt="0"
+                    >
+                      
+
+                      <h5
+                        class="sc-1k44dfv-0 gXWcpP"
+                      >
+                        GX270
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+                <a
+                  class="Link-sc-16wd4a0-0 bXBGRT"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-trim="GX270"
+                  title="view details"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 jgcAXQ"
+                    height="139px,248px"
+                    order="-1"
+                  >
+                    <img
+                      alt="Front of Honda GX270 engine"
+                      class="sc-1k44dfv-0 jLTFZk"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-270/GX270.jpg?rev=e4c6b54fe7544a62868ef340c27459ac"
+                      style="object-fit: contain;"
+                    />
+                  </div>
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 QoaNQ"
+                >
+                  <span
+                    class="sc-1k44dfv-0 ktMwmo"
+                  >
+                    
+
+                  </span>
+                </div>
+                <a
+                  class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-title="view details"
+                  data-gtm-trim="GX270"
+                  data-testid="dsr-button-component"
+                  display="none,block"
+                  tabindex="0"
+                >
+                  Shared.Common.viewDetailsButton
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                >
+                  <label
+                    class="sc-bwzfXH cvvuMq"
+                    data-gtm-interaction-type="compare item click"
+                    data-gtm-title="added comparison item"
+                    data-gtm-trim="GX270"
+                    data-testid="product-card-compare-btn"
+                    data-testvalue="false"
+                  >
+                    <input
+                      aria-checked="false"
+                      aria-label="Shared.Common.compareCheckboxAria"
+                      autocomplete="off"
+                      class="sc-bdVaJa gBQUrE"
+                      data-gtm-interaction-type="compare item click"
+                      data-gtm-title="added comparison item"
+                      data-gtm-trim="GX270"
+                      id="1254FD84EA2F45B79BEF001FCAB2865A"
+                      tabindex="-1"
+                      type="checkbox"
+                    />
+                    <span
+                      class="sc-htpNat hVaxDi"
+                      data-testid="cy-compare-toggle"
+                    />
+                    <label
+                      class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                      for="1254FD84EA2F45B79BEF001FCAB2865A"
+                    >
+                      Shared.Common.addToCompareButton
+                    </label>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gJVKFB"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                data-testid="product-card"
+              >
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                />
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                >
+                  <a
+                    class="Link-sc-16wd4a0-0 bXBGRT"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-trim="GX340"
+                    title="view details"
+                  >
+                    <div
+                      class="sc-1k44dfv-0 cALsOM"
+                      mb="xs,s"
+                      mt="0"
+                    >
+                      
+
+                      <h5
+                        class="sc-1k44dfv-0 gXWcpP"
+                      >
+                        GX340
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+                <a
+                  class="Link-sc-16wd4a0-0 bXBGRT"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-trim="GX340"
+                  title="view details"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 jgcAXQ"
+                    height="139px,248px"
+                    order="-1"
+                  >
+                    <img
+                      alt="Front of Honda GX340 engine"
+                      class="sc-1k44dfv-0 jLTFZk"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-340/GX340.jpg?rev=f3220fba10844848aa306d90418adfcf"
+                      style="object-fit: contain;"
+                    />
+                  </div>
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 QoaNQ"
+                >
+                  <span
+                    class="sc-1k44dfv-0 ktMwmo"
+                  >
+                    
+
+                  </span>
+                </div>
+                <a
+                  class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-title="view details"
+                  data-gtm-trim="GX340"
+                  data-testid="dsr-button-component"
+                  display="none,block"
+                  tabindex="0"
+                >
+                  Shared.Common.viewDetailsButton
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                >
+                  <label
+                    class="sc-bwzfXH cvvuMq"
+                    data-gtm-interaction-type="compare item click"
+                    data-gtm-title="added comparison item"
+                    data-gtm-trim="GX340"
+                    data-testid="product-card-compare-btn"
+                    data-testvalue="false"
+                  >
+                    <input
+                      aria-checked="false"
+                      aria-label="Shared.Common.compareCheckboxAria"
+                      autocomplete="off"
+                      class="sc-bdVaJa gBQUrE"
+                      data-gtm-interaction-type="compare item click"
+                      data-gtm-title="added comparison item"
+                      data-gtm-trim="GX340"
+                      id="7B841133D8474EA0B701E13F8A9E8485"
+                      tabindex="-1"
+                      type="checkbox"
+                    />
+                    <span
+                      class="sc-htpNat hVaxDi"
+                      data-testid="cy-compare-toggle"
+                    />
+                    <label
+                      class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                      for="7B841133D8474EA0B701E13F8A9E8485"
+                    >
+                      Shared.Common.addToCompareButton
+                    </label>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 fZLgxb"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                data-testid="product-card"
+              >
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                />
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                >
+                  <a
+                    class="Link-sc-16wd4a0-0 bXBGRT"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-trim="GX390"
+                    title="view details"
+                  >
+                    <div
+                      class="sc-1k44dfv-0 cALsOM"
+                      mb="xs,s"
+                      mt="0"
+                    >
+                      
+
+                      <h5
+                        class="sc-1k44dfv-0 gXWcpP"
+                      >
+                        GX390
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+                <a
+                  class="Link-sc-16wd4a0-0 bXBGRT"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-trim="GX390"
+                  title="view details"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 jgcAXQ"
+                    height="139px,248px"
+                    order="-1"
+                  >
+                    <img
+                      alt="Front of Honda GX390 engine"
+                      class="sc-1k44dfv-0 jLTFZk"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-390/GX390.jpg?rev=05611c4ff11d4a90b46783c78a5ed8e8"
+                      style="object-fit: contain;"
+                    />
+                  </div>
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 QoaNQ"
+                >
+                  <span
+                    class="sc-1k44dfv-0 ktMwmo"
+                  >
+                    
+
+                  </span>
+                </div>
+                <a
+                  class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-title="view details"
+                  data-gtm-trim="GX390"
+                  data-testid="dsr-button-component"
+                  display="none,block"
+                  tabindex="0"
+                >
+                  Shared.Common.viewDetailsButton
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                >
+                  <label
+                    class="sc-bwzfXH cvvuMq"
+                    data-gtm-interaction-type="compare item click"
+                    data-gtm-title="added comparison item"
+                    data-gtm-trim="GX390"
+                    data-testid="product-card-compare-btn"
+                    data-testvalue="false"
+                  >
+                    <input
+                      aria-checked="false"
+                      aria-label="Shared.Common.compareCheckboxAria"
+                      autocomplete="off"
+                      class="sc-bdVaJa gBQUrE"
+                      data-gtm-interaction-type="compare item click"
+                      data-gtm-title="added comparison item"
+                      data-gtm-trim="GX390"
+                      id="168FA865EDAB4DD1A1FB31A3F9EBCBAE"
+                      tabindex="-1"
+                      type="checkbox"
+                    />
+                    <span
+                      class="sc-htpNat hVaxDi"
+                      data-testid="cy-compare-toggle"
+                    />
+                    <label
+                      class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                      for="168FA865EDAB4DD1A1FB31A3F9EBCBAE"
+                    >
+                      Shared.Common.addToCompareButton
+                    </label>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 eXMvhG"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 dPROOa"
+        >
+          <h5
+            aria-label="Vertical Crankshaft"
+            class="sc-1k44dfv-0 sc-1k44dfv-0 bsVBDh"
+          >
+            Vertical Crankshaft
+          </h5>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 klICea"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gJVKFB"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                data-testid="product-card"
+              >
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                />
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                >
+                  <a
+                    class="Link-sc-16wd4a0-0 bXBGRT"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-trim="GXV160"
+                    title="view details"
+                  >
+                    <div
+                      class="sc-1k44dfv-0 cALsOM"
+                      mb="xs,s"
+                      mt="0"
+                    >
+                      
+
+                      <h5
+                        class="sc-1k44dfv-0 gXWcpP"
+                      >
+                        GXV160
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+                <a
+                  class="Link-sc-16wd4a0-0 bXBGRT"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-trim="GXV160"
+                  title="view details"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 jgcAXQ"
+                    height="139px,248px"
+                    order="-1"
+                  >
+                    <img
+                      alt="Front of Honda GXV160 engine"
+                      class="sc-1k44dfv-0 jLTFZk"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GXV-160/GXV160.jpg?rev=4870392a1a0148f3bfcb6a0f9ab0514b"
+                      style="object-fit: contain;"
+                    />
+                  </div>
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 QoaNQ"
+                >
+                  <div
+                    class="sc-1k44dfv-0 ktMwmo"
+                  >
+                    
+
+                    <p>
+                      Solid performance, reliability and fuel efficiency. Ideal for lawn, construction and agriculture.
+                    </p>
+                  </div>
+                </div>
+                <a
+                  class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-title="view details"
+                  data-gtm-trim="GXV160"
+                  data-testid="dsr-button-component"
+                  display="none,block"
+                  tabindex="0"
+                >
+                  Shared.Common.viewDetailsButton
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                >
+                  <label
+                    class="sc-bwzfXH cvvuMq"
+                    data-gtm-interaction-type="compare item click"
+                    data-gtm-title="added comparison item"
+                    data-gtm-trim="GXV160"
+                    data-testid="product-card-compare-btn"
+                    data-testvalue="false"
+                  >
+                    <input
+                      aria-checked="false"
+                      aria-label="Shared.Common.compareCheckboxAria"
+                      autocomplete="off"
+                      class="sc-bdVaJa gBQUrE"
+                      data-gtm-interaction-type="compare item click"
+                      data-gtm-title="added comparison item"
+                      data-gtm-trim="GXV160"
+                      id="9517794341634F308D3315497A75A138"
+                      tabindex="-1"
+                      type="checkbox"
+                    />
+                    <span
+                      class="sc-htpNat hVaxDi"
+                      data-testid="cy-compare-toggle"
+                    />
+                    <label
+                      class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                      for="9517794341634F308D3315497A75A138"
+                    >
+                      Shared.Common.addToCompareButton
+                    </label>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gJVKFB"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                data-testid="product-card"
+              >
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                />
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                >
+                  <a
+                    class="Link-sc-16wd4a0-0 bXBGRT"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-trim="GXV340"
+                    title="view details"
+                  >
+                    <div
+                      class="sc-1k44dfv-0 cALsOM"
+                      mb="xs,s"
+                      mt="0"
+                    >
+                      
+
+                      <h5
+                        class="sc-1k44dfv-0 gXWcpP"
+                      >
+                        GXV340
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+                <a
+                  class="Link-sc-16wd4a0-0 bXBGRT"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-trim="GXV340"
+                  title="view details"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 jgcAXQ"
+                    height="139px,248px"
+                    order="-1"
+                  >
+                    <img
+                      alt="Front of Honda GXV340 engine"
+                      class="sc-1k44dfv-0 jLTFZk"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GXV-340/GXV340.jpg?rev=8766ae0549e44c4a8adf7a013a85f6a7"
+                      style="object-fit: contain;"
+                    />
+                  </div>
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 QoaNQ"
+                >
+                  <span
+                    class="sc-1k44dfv-0 ktMwmo"
+                  >
+                    
+
+                  </span>
+                </div>
+                <a
+                  class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-title="view details"
+                  data-gtm-trim="GXV340"
+                  data-testid="dsr-button-component"
+                  display="none,block"
+                  tabindex="0"
+                >
+                  Shared.Common.viewDetailsButton
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                >
+                  <label
+                    class="sc-bwzfXH cvvuMq"
+                    data-gtm-interaction-type="compare item click"
+                    data-gtm-title="added comparison item"
+                    data-gtm-trim="GXV340"
+                    data-testid="product-card-compare-btn"
+                    data-testvalue="false"
+                  >
+                    <input
+                      aria-checked="false"
+                      aria-label="Shared.Common.compareCheckboxAria"
+                      autocomplete="off"
+                      class="sc-bdVaJa gBQUrE"
+                      data-gtm-interaction-type="compare item click"
+                      data-gtm-title="added comparison item"
+                      data-gtm-trim="GXV340"
+                      id="42A436CD11274643A12096FC058C7114"
+                      tabindex="-1"
+                      type="checkbox"
+                    />
+                    <span
+                      class="sc-htpNat hVaxDi"
+                      data-testid="cy-compare-toggle"
+                    />
+                    <label
+                      class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                      for="42A436CD11274643A12096FC058C7114"
+                    >
+                      Shared.Common.addToCompareButton
+                    </label>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 fZLgxb"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                data-testid="product-card"
+              >
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                />
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                >
+                  <a
+                    class="Link-sc-16wd4a0-0 bXBGRT"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-trim="GXV390"
+                    title="view details"
+                  >
+                    <div
+                      class="sc-1k44dfv-0 cALsOM"
+                      mb="xs,s"
+                      mt="0"
+                    >
+                      
+
+                      <h5
+                        class="sc-1k44dfv-0 gXWcpP"
+                      >
+                        GXV390
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+                <a
+                  class="Link-sc-16wd4a0-0 bXBGRT"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-trim="GXV390"
+                  title="view details"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 jgcAXQ"
+                    height="139px,248px"
+                    order="-1"
+                  >
+                    <img
+                      alt="Front of Honda GXV390 engine"
+                      class="sc-1k44dfv-0 jLTFZk"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GXV-390/GXV390.jpg?rev=91443f25133741078d0e9d7b1500effe"
+                      style="object-fit: contain;"
+                    />
+                  </div>
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 QoaNQ"
+                >
+                  <span
+                    class="sc-1k44dfv-0 ktMwmo"
+                  >
+                    
+
+                  </span>
+                </div>
+                <a
+                  class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-title="view details"
+                  data-gtm-trim="GXV390"
+                  data-testid="dsr-button-component"
+                  display="none,block"
+                  tabindex="0"
+                >
+                  Shared.Common.viewDetailsButton
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                >
+                  <label
+                    class="sc-bwzfXH cvvuMq"
+                    data-gtm-interaction-type="compare item click"
+                    data-gtm-title="added comparison item"
+                    data-gtm-trim="GXV390"
+                    data-testid="product-card-compare-btn"
+                    data-testvalue="false"
+                  >
+                    <input
+                      aria-checked="false"
+                      aria-label="Shared.Common.compareCheckboxAria"
+                      autocomplete="off"
+                      class="sc-bdVaJa gBQUrE"
+                      data-gtm-interaction-type="compare item click"
+                      data-gtm-title="added comparison item"
+                      data-gtm-trim="GXV390"
+                      id="A2584E9535124074B03346D849491FE6"
+                      tabindex="-1"
+                      type="checkbox"
+                    />
+                    <span
+                      class="sc-htpNat hVaxDi"
+                      data-testid="cy-compare-toggle"
+                    />
+                    <label
+                      class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                      for="A2584E9535124074B03346D849491FE6"
+                    >
+                      Shared.Common.addToCompareButton
+                    </label>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<EngineSeries> should render with params 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 gXilRl"
+  >
+    <div
+      class="Box-sc-1bsf784-0 sc-htoDjs EWxqT"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 eXMvhG"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 dPROOa"
+        >
+          <h5
+            aria-label="Horizontal Crankshaft"
+            class="sc-1k44dfv-0 sc-1k44dfv-0 bsVBDh"
+          >
+            Horizontal Crankshaft
+          </h5>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 klICea"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gJVKFB"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                data-testid="product-card"
+              >
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                />
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                >
+                  <a
+                    class="Link-sc-16wd4a0-0 bXBGRT"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-trim="GX100"
+                    href="/en/"
+                    title="view details"
+                  >
+                    <div
+                      class="sc-1k44dfv-0 cALsOM"
+                      mb="xs,s"
+                      mt="0"
+                    >
+                      
+
+                      <h5
+                        class="sc-1k44dfv-0 gXWcpP"
+                      >
+                        GX100
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+                <a
+                  class="Link-sc-16wd4a0-0 bXBGRT"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-trim="GX100"
+                  href="/en/"
+                  title="view details"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 jgcAXQ"
+                    height="139px,248px"
+                    order="-1"
+                  >
+                    <img
+                      alt="Front of Honda GX100 engine (1st image)"
+                      class="sc-1k44dfv-0 jLTFZk"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-100/GX100.jpg?rev=96895d5c461a4d7596e8dc6a003caae7"
+                      style="object-fit: contain;"
+                    />
+                  </div>
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 QoaNQ"
+                >
+                  <div
+                    class="sc-1k44dfv-0 ktMwmo"
+                  >
+                    
+
+                    <p>
+                      Solid performance, reliability and fuel efficiency. Ideal for lawn, construction, and agriculture.
+                    </p>
+                  </div>
+                </div>
+                <a
+                  class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-title="view details"
+                  data-gtm-trim="GX100"
+                  data-testid="dsr-button-component"
+                  display="none,block"
+                  href="/en/"
+                  tabindex="0"
+                >
+                  Shared.Common.viewDetailsButton
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                >
+                  <label
+                    class="sc-bwzfXH cvvuMq"
+                    data-gtm-interaction-type="compare item click"
+                    data-gtm-title="added comparison item"
+                    data-gtm-trim="GX100"
+                    data-testid="product-card-compare-btn"
+                    data-testvalue="false"
+                  >
+                    <input
+                      aria-checked="false"
+                      aria-label="Shared.Common.compareCheckboxAria"
+                      autocomplete="off"
+                      class="sc-bdVaJa gBQUrE"
+                      data-gtm-interaction-type="compare item click"
+                      data-gtm-title="added comparison item"
+                      data-gtm-trim="GX100"
+                      id="4CAE3588D62A4309AB9C98417293565F"
+                      tabindex="-1"
+                      type="checkbox"
+                    />
+                    <span
+                      class="sc-htpNat hVaxDi"
+                      data-testid="cy-compare-toggle"
+                    />
+                    <label
+                      class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                      for="4CAE3588D62A4309AB9C98417293565F"
+                    >
+                      Shared.Common.addToCompareButton
+                    </label>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gJVKFB"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                data-testid="product-card"
+              >
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                />
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                >
+                  <a
+                    class="Link-sc-16wd4a0-0 bXBGRT"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-trim="GX120"
+                    title="view details"
+                  >
+                    <div
+                      class="sc-1k44dfv-0 cALsOM"
+                      mb="xs,s"
+                      mt="0"
+                    >
+                      
+
+                      <h5
+                        class="sc-1k44dfv-0 gXWcpP"
+                      >
+                        GX120
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+                <a
+                  class="Link-sc-16wd4a0-0 bXBGRT"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-trim="GX120"
+                  title="view details"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 jgcAXQ"
+                    height="139px,248px"
+                    order="-1"
+                  >
+                    <img
+                      alt="Front of Honda GX120 engine"
+                      class="sc-1k44dfv-0 jLTFZk"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-120/GX120.jpg?rev=af1f2b74677848d9a78390e8484f38e6"
+                      style="object-fit: contain;"
+                    />
+                  </div>
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 QoaNQ"
+                >
+                  <div
+                    class="sc-1k44dfv-0 ktMwmo"
+                  >
+                    
+
+                    <p>
+                      Solid performance, reliability and fuel efficiency. Ideal for lawn, construction and agriculture.
+                    </p>
+                  </div>
+                </div>
+                <a
+                  class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-title="view details"
+                  data-gtm-trim="GX120"
+                  data-testid="dsr-button-component"
+                  display="none,block"
+                  tabindex="0"
+                >
+                  Shared.Common.viewDetailsButton
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                >
+                  <label
+                    class="sc-bwzfXH cvvuMq"
+                    data-gtm-interaction-type="compare item click"
+                    data-gtm-title="added comparison item"
+                    data-gtm-trim="GX120"
+                    data-testid="product-card-compare-btn"
+                    data-testvalue="false"
+                  >
+                    <input
+                      aria-checked="false"
+                      aria-label="Shared.Common.compareCheckboxAria"
+                      autocomplete="off"
+                      class="sc-bdVaJa gBQUrE"
+                      data-gtm-interaction-type="compare item click"
+                      data-gtm-title="added comparison item"
+                      data-gtm-trim="GX120"
+                      id="4FE5D1F177C54419A586B8C7F79B519F"
+                      tabindex="-1"
+                      type="checkbox"
+                    />
+                    <span
+                      class="sc-htpNat hVaxDi"
+                      data-testid="cy-compare-toggle"
+                    />
+                    <label
+                      class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                      for="4FE5D1F177C54419A586B8C7F79B519F"
+                    >
+                      Shared.Common.addToCompareButton
+                    </label>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gJVKFB"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                data-testid="product-card"
+              >
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                />
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                >
+                  <a
+                    class="Link-sc-16wd4a0-0 bXBGRT"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-trim="GX160"
+                    title="view details"
+                  >
+                    <div
+                      class="sc-1k44dfv-0 cALsOM"
+                      mb="xs,s"
+                      mt="0"
+                    >
+                      
+
+                      <h5
+                        class="sc-1k44dfv-0 gXWcpP"
+                      >
+                        GX160
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+                <a
+                  class="Link-sc-16wd4a0-0 bXBGRT"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-trim="GX160"
+                  title="view details"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 jgcAXQ"
+                    height="139px,248px"
+                    order="-1"
+                  >
+                    <img
+                      alt="Front of Honda GX160 engine"
+                      class="sc-1k44dfv-0 jLTFZk"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-160/GX160.jpg?rev=7d0192b9fffb4ebf95c8807d00a9c2d6"
+                      style="object-fit: contain;"
+                    />
+                  </div>
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 QoaNQ"
+                >
+                  <span
+                    class="sc-1k44dfv-0 ktMwmo"
+                  >
+                    
+
+                  </span>
+                </div>
+                <a
+                  class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-title="view details"
+                  data-gtm-trim="GX160"
+                  data-testid="dsr-button-component"
+                  display="none,block"
+                  tabindex="0"
+                >
+                  Shared.Common.viewDetailsButton
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                >
+                  <label
+                    class="sc-bwzfXH cvvuMq"
+                    data-gtm-interaction-type="compare item click"
+                    data-gtm-title="added comparison item"
+                    data-gtm-trim="GX160"
+                    data-testid="product-card-compare-btn"
+                    data-testvalue="false"
+                  >
+                    <input
+                      aria-checked="false"
+                      aria-label="Shared.Common.compareCheckboxAria"
+                      autocomplete="off"
+                      class="sc-bdVaJa gBQUrE"
+                      data-gtm-interaction-type="compare item click"
+                      data-gtm-title="added comparison item"
+                      data-gtm-trim="GX160"
+                      id="9A0C438CE4D547AF8C5AB9E9ACB90858"
+                      tabindex="-1"
+                      type="checkbox"
+                    />
+                    <span
+                      class="sc-htpNat hVaxDi"
+                      data-testid="cy-compare-toggle"
+                    />
+                    <label
+                      class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                      for="9A0C438CE4D547AF8C5AB9E9ACB90858"
+                    >
+                      Shared.Common.addToCompareButton
+                    </label>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gJVKFB"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                data-testid="product-card"
+              >
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                />
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                >
+                  <a
+                    class="Link-sc-16wd4a0-0 bXBGRT"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-trim="GX200"
+                    title="view details"
+                  >
+                    <div
+                      class="sc-1k44dfv-0 cALsOM"
+                      mb="xs,s"
+                      mt="0"
+                    >
+                      
+
+                      <h5
+                        class="sc-1k44dfv-0 gXWcpP"
+                      >
+                        GX200
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+                <a
+                  class="Link-sc-16wd4a0-0 bXBGRT"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-trim="GX200"
+                  title="view details"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 jgcAXQ"
+                    height="139px,248px"
+                    order="-1"
+                  >
+                    <img
+                      alt="Front of Honda GX200 engine"
+                      class="sc-1k44dfv-0 jLTFZk"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-200/GX200.jpg?rev=f055a2b356bd4147b24faa9d020d6095"
+                      style="object-fit: contain;"
+                    />
+                  </div>
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 QoaNQ"
+                >
+                  <span
+                    class="sc-1k44dfv-0 ktMwmo"
+                  >
+                    
+
+                  </span>
+                </div>
+                <a
+                  class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-title="view details"
+                  data-gtm-trim="GX200"
+                  data-testid="dsr-button-component"
+                  display="none,block"
+                  tabindex="0"
+                >
+                  Shared.Common.viewDetailsButton
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                >
+                  <label
+                    class="sc-bwzfXH cvvuMq"
+                    data-gtm-interaction-type="compare item click"
+                    data-gtm-title="added comparison item"
+                    data-gtm-trim="GX200"
+                    data-testid="product-card-compare-btn"
+                    data-testvalue="false"
+                  >
+                    <input
+                      aria-checked="false"
+                      aria-label="Shared.Common.compareCheckboxAria"
+                      autocomplete="off"
+                      class="sc-bdVaJa gBQUrE"
+                      data-gtm-interaction-type="compare item click"
+                      data-gtm-title="added comparison item"
+                      data-gtm-trim="GX200"
+                      id="EFEFBB38C5B04A99B7145343940611FD"
+                      tabindex="-1"
+                      type="checkbox"
+                    />
+                    <span
+                      class="sc-htpNat hVaxDi"
+                      data-testid="cy-compare-toggle"
+                    />
+                    <label
+                      class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                      for="EFEFBB38C5B04A99B7145343940611FD"
+                    >
+                      Shared.Common.addToCompareButton
+                    </label>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gJVKFB"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                data-testid="product-card"
+              >
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                />
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                >
+                  <a
+                    class="Link-sc-16wd4a0-0 bXBGRT"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-trim="GX270"
+                    title="view details"
+                  >
+                    <div
+                      class="sc-1k44dfv-0 cALsOM"
+                      mb="xs,s"
+                      mt="0"
+                    >
+                      
+
+                      <h5
+                        class="sc-1k44dfv-0 gXWcpP"
+                      >
+                        GX270
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+                <a
+                  class="Link-sc-16wd4a0-0 bXBGRT"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-trim="GX270"
+                  title="view details"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 jgcAXQ"
+                    height="139px,248px"
+                    order="-1"
+                  >
+                    <img
+                      alt="Front of Honda GX270 engine"
+                      class="sc-1k44dfv-0 jLTFZk"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-270/GX270.jpg?rev=e4c6b54fe7544a62868ef340c27459ac"
+                      style="object-fit: contain;"
+                    />
+                  </div>
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 QoaNQ"
+                >
+                  <span
+                    class="sc-1k44dfv-0 ktMwmo"
+                  >
+                    
+
+                  </span>
+                </div>
+                <a
+                  class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-title="view details"
+                  data-gtm-trim="GX270"
+                  data-testid="dsr-button-component"
+                  display="none,block"
+                  tabindex="0"
+                >
+                  Shared.Common.viewDetailsButton
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                >
+                  <label
+                    class="sc-bwzfXH cvvuMq"
+                    data-gtm-interaction-type="compare item click"
+                    data-gtm-title="added comparison item"
+                    data-gtm-trim="GX270"
+                    data-testid="product-card-compare-btn"
+                    data-testvalue="false"
+                  >
+                    <input
+                      aria-checked="false"
+                      aria-label="Shared.Common.compareCheckboxAria"
+                      autocomplete="off"
+                      class="sc-bdVaJa gBQUrE"
+                      data-gtm-interaction-type="compare item click"
+                      data-gtm-title="added comparison item"
+                      data-gtm-trim="GX270"
+                      id="1254FD84EA2F45B79BEF001FCAB2865A"
+                      tabindex="-1"
+                      type="checkbox"
+                    />
+                    <span
+                      class="sc-htpNat hVaxDi"
+                      data-testid="cy-compare-toggle"
+                    />
+                    <label
+                      class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                      for="1254FD84EA2F45B79BEF001FCAB2865A"
+                    >
+                      Shared.Common.addToCompareButton
+                    </label>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gJVKFB"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                data-testid="product-card"
+              >
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                />
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                >
+                  <a
+                    class="Link-sc-16wd4a0-0 bXBGRT"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-trim="GX340"
+                    title="view details"
+                  >
+                    <div
+                      class="sc-1k44dfv-0 cALsOM"
+                      mb="xs,s"
+                      mt="0"
+                    >
+                      
+
+                      <h5
+                        class="sc-1k44dfv-0 gXWcpP"
+                      >
+                        GX340
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+                <a
+                  class="Link-sc-16wd4a0-0 bXBGRT"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-trim="GX340"
+                  title="view details"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 jgcAXQ"
+                    height="139px,248px"
+                    order="-1"
+                  >
+                    <img
+                      alt="Front of Honda GX340 engine"
+                      class="sc-1k44dfv-0 jLTFZk"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-340/GX340.jpg?rev=f3220fba10844848aa306d90418adfcf"
+                      style="object-fit: contain;"
+                    />
+                  </div>
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 QoaNQ"
+                >
+                  <span
+                    class="sc-1k44dfv-0 ktMwmo"
+                  >
+                    
+
+                  </span>
+                </div>
+                <a
+                  class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-title="view details"
+                  data-gtm-trim="GX340"
+                  data-testid="dsr-button-component"
+                  display="none,block"
+                  tabindex="0"
+                >
+                  Shared.Common.viewDetailsButton
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                >
+                  <label
+                    class="sc-bwzfXH cvvuMq"
+                    data-gtm-interaction-type="compare item click"
+                    data-gtm-title="added comparison item"
+                    data-gtm-trim="GX340"
+                    data-testid="product-card-compare-btn"
+                    data-testvalue="false"
+                  >
+                    <input
+                      aria-checked="false"
+                      aria-label="Shared.Common.compareCheckboxAria"
+                      autocomplete="off"
+                      class="sc-bdVaJa gBQUrE"
+                      data-gtm-interaction-type="compare item click"
+                      data-gtm-title="added comparison item"
+                      data-gtm-trim="GX340"
+                      id="7B841133D8474EA0B701E13F8A9E8485"
+                      tabindex="-1"
+                      type="checkbox"
+                    />
+                    <span
+                      class="sc-htpNat hVaxDi"
+                      data-testid="cy-compare-toggle"
+                    />
+                    <label
+                      class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                      for="7B841133D8474EA0B701E13F8A9E8485"
+                    >
+                      Shared.Common.addToCompareButton
+                    </label>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 fZLgxb"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                data-testid="product-card"
+              >
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                />
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                >
+                  <a
+                    class="Link-sc-16wd4a0-0 bXBGRT"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-trim="GX390"
+                    title="view details"
+                  >
+                    <div
+                      class="sc-1k44dfv-0 cALsOM"
+                      mb="xs,s"
+                      mt="0"
+                    >
+                      
+
+                      <h5
+                        class="sc-1k44dfv-0 gXWcpP"
+                      >
+                        GX390
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+                <a
+                  class="Link-sc-16wd4a0-0 bXBGRT"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-trim="GX390"
+                  title="view details"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 jgcAXQ"
+                    height="139px,248px"
+                    order="-1"
+                  >
+                    <img
+                      alt="Front of Honda GX390 engine"
+                      class="sc-1k44dfv-0 jLTFZk"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GX-390/GX390.jpg?rev=05611c4ff11d4a90b46783c78a5ed8e8"
+                      style="object-fit: contain;"
+                    />
+                  </div>
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 QoaNQ"
+                >
+                  <span
+                    class="sc-1k44dfv-0 ktMwmo"
+                  >
+                    
+
+                  </span>
+                </div>
+                <a
+                  class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-title="view details"
+                  data-gtm-trim="GX390"
+                  data-testid="dsr-button-component"
+                  display="none,block"
+                  tabindex="0"
+                >
+                  Shared.Common.viewDetailsButton
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                >
+                  <label
+                    class="sc-bwzfXH cvvuMq"
+                    data-gtm-interaction-type="compare item click"
+                    data-gtm-title="added comparison item"
+                    data-gtm-trim="GX390"
+                    data-testid="product-card-compare-btn"
+                    data-testvalue="false"
+                  >
+                    <input
+                      aria-checked="false"
+                      aria-label="Shared.Common.compareCheckboxAria"
+                      autocomplete="off"
+                      class="sc-bdVaJa gBQUrE"
+                      data-gtm-interaction-type="compare item click"
+                      data-gtm-title="added comparison item"
+                      data-gtm-trim="GX390"
+                      id="168FA865EDAB4DD1A1FB31A3F9EBCBAE"
+                      tabindex="-1"
+                      type="checkbox"
+                    />
+                    <span
+                      class="sc-htpNat hVaxDi"
+                      data-testid="cy-compare-toggle"
+                    />
+                    <label
+                      class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                      for="168FA865EDAB4DD1A1FB31A3F9EBCBAE"
+                    >
+                      Shared.Common.addToCompareButton
+                    </label>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 eXMvhG"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 dPROOa"
+        >
+          <h5
+            aria-label="Vertical Crankshaft"
+            class="sc-1k44dfv-0 sc-1k44dfv-0 bsVBDh"
+          >
+            Vertical Crankshaft
+          </h5>
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 klICea"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gJVKFB"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                data-testid="product-card"
+              >
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                />
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                >
+                  <a
+                    class="Link-sc-16wd4a0-0 bXBGRT"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-trim="GXV160"
+                    title="view details"
+                  >
+                    <div
+                      class="sc-1k44dfv-0 cALsOM"
+                      mb="xs,s"
+                      mt="0"
+                    >
+                      
+
+                      <h5
+                        class="sc-1k44dfv-0 gXWcpP"
+                      >
+                        GXV160
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+                <a
+                  class="Link-sc-16wd4a0-0 bXBGRT"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-trim="GXV160"
+                  title="view details"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 jgcAXQ"
+                    height="139px,248px"
+                    order="-1"
+                  >
+                    <img
+                      alt="Front of Honda GXV160 engine"
+                      class="sc-1k44dfv-0 jLTFZk"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GXV-160/GXV160.jpg?rev=4870392a1a0148f3bfcb6a0f9ab0514b"
+                      style="object-fit: contain;"
+                    />
+                  </div>
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 QoaNQ"
+                >
+                  <div
+                    class="sc-1k44dfv-0 ktMwmo"
+                  >
+                    
+
+                    <p>
+                      Solid performance, reliability and fuel efficiency. Ideal for lawn, construction and agriculture.
+                    </p>
+                  </div>
+                </div>
+                <a
+                  class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-title="view details"
+                  data-gtm-trim="GXV160"
+                  data-testid="dsr-button-component"
+                  display="none,block"
+                  tabindex="0"
+                >
+                  Shared.Common.viewDetailsButton
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                >
+                  <label
+                    class="sc-bwzfXH cvvuMq"
+                    data-gtm-interaction-type="compare item click"
+                    data-gtm-title="added comparison item"
+                    data-gtm-trim="GXV160"
+                    data-testid="product-card-compare-btn"
+                    data-testvalue="false"
+                  >
+                    <input
+                      aria-checked="false"
+                      aria-label="Shared.Common.compareCheckboxAria"
+                      autocomplete="off"
+                      class="sc-bdVaJa gBQUrE"
+                      data-gtm-interaction-type="compare item click"
+                      data-gtm-title="added comparison item"
+                      data-gtm-trim="GXV160"
+                      id="9517794341634F308D3315497A75A138"
+                      tabindex="-1"
+                      type="checkbox"
+                    />
+                    <span
+                      class="sc-htpNat hVaxDi"
+                      data-testid="cy-compare-toggle"
+                    />
+                    <label
+                      class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                      for="9517794341634F308D3315497A75A138"
+                    >
+                      Shared.Common.addToCompareButton
+                    </label>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 gJVKFB"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                data-testid="product-card"
+              >
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                />
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                >
+                  <a
+                    class="Link-sc-16wd4a0-0 bXBGRT"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-trim="GXV340"
+                    title="view details"
+                  >
+                    <div
+                      class="sc-1k44dfv-0 cALsOM"
+                      mb="xs,s"
+                      mt="0"
+                    >
+                      
+
+                      <h5
+                        class="sc-1k44dfv-0 gXWcpP"
+                      >
+                        GXV340
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+                <a
+                  class="Link-sc-16wd4a0-0 bXBGRT"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-trim="GXV340"
+                  title="view details"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 jgcAXQ"
+                    height="139px,248px"
+                    order="-1"
+                  >
+                    <img
+                      alt="Front of Honda GXV340 engine"
+                      class="sc-1k44dfv-0 jLTFZk"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GXV-340/GXV340.jpg?rev=8766ae0549e44c4a8adf7a013a85f6a7"
+                      style="object-fit: contain;"
+                    />
+                  </div>
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 QoaNQ"
+                >
+                  <span
+                    class="sc-1k44dfv-0 ktMwmo"
+                  >
+                    
+
+                  </span>
+                </div>
+                <a
+                  class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-title="view details"
+                  data-gtm-trim="GXV340"
+                  data-testid="dsr-button-component"
+                  display="none,block"
+                  tabindex="0"
+                >
+                  Shared.Common.viewDetailsButton
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                >
+                  <label
+                    class="sc-bwzfXH cvvuMq"
+                    data-gtm-interaction-type="compare item click"
+                    data-gtm-title="added comparison item"
+                    data-gtm-trim="GXV340"
+                    data-testid="product-card-compare-btn"
+                    data-testvalue="false"
+                  >
+                    <input
+                      aria-checked="false"
+                      aria-label="Shared.Common.compareCheckboxAria"
+                      autocomplete="off"
+                      class="sc-bdVaJa gBQUrE"
+                      data-gtm-interaction-type="compare item click"
+                      data-gtm-title="added comparison item"
+                      data-gtm-trim="GXV340"
+                      id="42A436CD11274643A12096FC058C7114"
+                      tabindex="-1"
+                      type="checkbox"
+                    />
+                    <span
+                      class="sc-htpNat hVaxDi"
+                      data-testid="cy-compare-toggle"
+                    />
+                    <label
+                      class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                      for="42A436CD11274643A12096FC058C7114"
+                    >
+                      Shared.Common.addToCompareButton
+                    </label>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-1k44dfv-0 fZLgxb"
+            >
+              <div
+                class="Box-sc-1bsf784-0 sc-1k44dfv-0 ljGqou"
+                data-testid="product-card"
+              >
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                />
+                <div
+                  style="overflow: hidden; transition-property: height; display: block; transition-duration: 0.25s;"
+                >
+                  <a
+                    class="Link-sc-16wd4a0-0 bXBGRT"
+                    data-gtm-interaction-type="explore"
+                    data-gtm-trim="GXV390"
+                    title="view details"
+                  >
+                    <div
+                      class="sc-1k44dfv-0 cALsOM"
+                      mb="xs,s"
+                      mt="0"
+                    >
+                      
+
+                      <h5
+                        class="sc-1k44dfv-0 gXWcpP"
+                      >
+                        GXV390
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+                <a
+                  class="Link-sc-16wd4a0-0 bXBGRT"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-trim="GXV390"
+                  title="view details"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 jgcAXQ"
+                    height="139px,248px"
+                    order="-1"
+                  >
+                    <img
+                      alt="Front of Honda GXV390 engine"
+                      class="sc-1k44dfv-0 jLTFZk"
+                      draggable="true"
+                      loading="lazy"
+                      src="https://engine-dit-01-dmm.engine.honda.ca/-/media/Brands/Engine/21-GX-Series-Listing/GXV-390/GXV390.jpg?rev=91443f25133741078d0e9d7b1500effe"
+                      style="object-fit: contain;"
+                    />
+                  </div>
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 QoaNQ"
+                >
+                  <span
+                    class="sc-1k44dfv-0 ktMwmo"
+                  >
+                    
+
+                  </span>
+                </div>
+                <a
+                  class="Button-pulw6t-0 sc-1k44dfv-0 eIRfAq"
+                  data-gtm-interaction-type="explore"
+                  data-gtm-title="view details"
+                  data-gtm-trim="GXV390"
+                  data-testid="dsr-button-component"
+                  display="none,block"
+                  tabindex="0"
+                >
+                  Shared.Common.viewDetailsButton
+                </a>
+                <div
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 jkGzMS"
+                >
+                  <label
+                    class="sc-bwzfXH cvvuMq"
+                    data-gtm-interaction-type="compare item click"
+                    data-gtm-title="added comparison item"
+                    data-gtm-trim="GXV390"
+                    data-testid="product-card-compare-btn"
+                    data-testvalue="false"
+                  >
+                    <input
+                      aria-checked="false"
+                      aria-label="Shared.Common.compareCheckboxAria"
+                      autocomplete="off"
+                      class="sc-bdVaJa gBQUrE"
+                      data-gtm-interaction-type="compare item click"
+                      data-gtm-title="added comparison item"
+                      data-gtm-trim="GXV390"
+                      id="A2584E9535124074B03346D849491FE6"
+                      tabindex="-1"
+                      type="checkbox"
+                    />
+                    <span
+                      class="sc-htpNat hVaxDi"
+                      data-testid="cy-compare-toggle"
+                    />
+                    <label
+                      class="Label-sc-115wxjh-0 sc-1k44dfv-0 jLfsOv"
+                      for="A2584E9535124074B03346D849491FE6"
+                    >
+                      Shared.Common.addToCompareButton
+                    </label>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<EngineSeries> should return nulll if there is no  fields 1`] = `<div />`;

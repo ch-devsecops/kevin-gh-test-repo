@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductDetailsCard> it should render correctly 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 sc-1k44dfv-0 fDGwSY"
+    width="100%"
+  >
+    <div
+      aria-label="Shared.Common.previousSlideAria"
+      class="IconWrapper-lp9q2r-0 iBsWdp"
+      cursor="pointer"
+      data-testid="arrow-left"
+      display="flex"
+      role="button"
+      tabindex="0"
+    />
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 evNJbO"
+    >
+      <button
+        aria-label="0"
+        class="sc-1k44dfv-0 cjSExO"
+        data-testid="step1"
+        role="button"
+      />
+      <button
+        aria-label="1"
+        class="sc-1k44dfv-0 ipUiMI"
+        data-testid="step2"
+        role="button"
+      />
+      <button
+        aria-label="2"
+        class="sc-1k44dfv-0 ipUiMI"
+        data-testid="step3"
+        role="button"
+      />
+    </div>
+    <div
+      aria-label="Shared.Common.nextSlideAria"
+      class="IconWrapper-lp9q2r-0 iBsWdp"
+      cursor="pointer"
+      data-testid="arrow-right"
+      display="flex"
+      role="button"
+      tabindex="0"
+    />
+  </div>
+</div>
+`;

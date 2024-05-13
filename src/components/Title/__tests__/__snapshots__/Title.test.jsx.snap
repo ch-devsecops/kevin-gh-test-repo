@@ -1,0 +1,756 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title snapshots renders correct colours with black background 1`] = `
+<div>
+  <div>
+    <div
+      class="Box-sc-1bsf784-0 dsiqAZ"
+      data-gtm-category="Others"
+      display="flex"
+      id="TitleAnchorId"
+    >
+      <div>
+        <div
+          class="Box-sc-1bsf784-0 iPRsIc"
+        >
+          <h3
+            class="sc-1k44dfv-0 kUJimD"
+            color="white"
+          >
+            <span>
+               Example
+              <sup>
+                tm
+              </sup>
+               Title
+            </span>
+          </h3>
+          <div
+            class="Box-sc-1bsf784-0 cFYsYd"
+          >
+            <div
+              class="sc-1k44dfv-0 ciyLLm"
+              color="white"
+              mb="xs,m"
+              mx="xs,s,zero"
+            >
+              
+
+              <h1
+                class="override"
+              >
+                Example Description test test test 1-888-556-8548
+              </h1>
+            </div>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 epXBQL"
+            display="flex"
+          >
+            <div
+              class="Box-sc-1bsf784-0 erzPKL"
+            >
+              <a
+                aria-label=""
+                class="Button-pulw6t-0 fBGdmK"
+                data-gtm-title="gtm-title"
+                data-testid="dsr-button-component"
+                href="https://google.com#linkone"
+                title=""
+              >
+                Title Link One
+              </a>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 erzPKL"
+            >
+              <a
+                aria-label=""
+                class="Button-pulw6t-0 fDIHTQ"
+                data-gtm-title="gtm-title"
+                data-testid="dsr-button-component"
+                href="https://example.com#linktwo"
+                title=""
+              >
+                Title Link Two
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Title snapshots renders correct colours with blue background 1`] = `
+<div>
+  <div>
+    <div
+      class="Box-sc-1bsf784-0 ibAYVY"
+      data-gtm-category="Others"
+      display="flex"
+      id="TitleAnchorId"
+    >
+      <div>
+        <div
+          class="Box-sc-1bsf784-0 iPRsIc"
+        >
+          <h3
+            class="sc-1k44dfv-0 kUJimD"
+            color="white"
+          >
+            <span>
+               Example
+              <sup>
+                tm
+              </sup>
+               Title Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </span>
+          </h3>
+          <div
+            class="Box-sc-1bsf784-0 cFYsYd"
+          >
+            <div
+              class="sc-1k44dfv-0 ciyLLm"
+              color="white"
+              mb="xs,m"
+              mx="xs,s,zero"
+            >
+              
+
+              <h1
+                class="override"
+              >
+                Example Description test test test 1-888-556-8548
+              </h1>
+            </div>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 epXBQL"
+            display="flex"
+          >
+            <div
+              class="Box-sc-1bsf784-0 erzPKL"
+            >
+              <a
+                aria-label=""
+                class="Button-pulw6t-0 fDIHTQ"
+                data-gtm-body-style="some body style"
+                data-gtm-interaction-type="cta: link1"
+                data-gtm-model="some model name"
+                data-gtm-title="gtm-title"
+                data-gtm-trim="some trim name"
+                data-testid="dsr-button-component"
+                href="https://google.com#linkone"
+                title=""
+              >
+                Title Link One...
+              </a>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 erzPKL"
+            >
+              <a
+                aria-label=""
+                class="Button-pulw6t-0 fDIHTQ"
+                data-gtm-interaction-type="cta: link2"
+                data-gtm-title="gtm-title"
+                data-testid="dsr-button-component"
+                href="https://example.com#linktwo"
+                title=""
+              >
+                Title Link Two...
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Title snapshots renders correct colours with honda black background 1`] = `
+<div>
+  <div>
+    <div
+      class="Box-sc-1bsf784-0 eRqaNZ"
+      data-gtm-category="Others"
+      display="flex"
+      id="TitleAnchorId"
+    >
+      <div>
+        <div
+          class="Box-sc-1bsf784-0 iPRsIc"
+        >
+          <h3
+            class="sc-1k44dfv-0 kUJimD"
+            color="white"
+          >
+            <span>
+               Example
+              <sup>
+                tm
+              </sup>
+               Title
+            </span>
+          </h3>
+          <div
+            class="Box-sc-1bsf784-0 cFYsYd"
+          >
+            <div
+              class="sc-1k44dfv-0 ciyLLm"
+              color="white"
+              mb="xs,m"
+              mx="xs,s,zero"
+            >
+              
+
+              <h1
+                class="override"
+              >
+                This is my new component
+              </h1>
+            </div>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 epXBQL"
+            display="flex"
+          >
+            <div
+              class="Box-sc-1bsf784-0 erzPKL"
+            >
+              <a
+                aria-label=""
+                class="Button-pulw6t-0 fBGdmK"
+                data-gtm-title="gtm-title"
+                data-testid="dsr-button-component"
+                href="https://google.com#linkone"
+                title=""
+              >
+                Title Link One
+              </a>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 erzPKL"
+            >
+              <a
+                aria-label=""
+                class="Button-pulw6t-0 fDIHTQ"
+                data-gtm-title="gtm-title"
+                data-testid="dsr-button-component"
+                href="https://example.com#linktwo"
+                title=""
+              >
+                Title Link Two
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Title snapshots renders correct colours with red background 1`] = `
+<div>
+  <div>
+    <div
+      class="Box-sc-1bsf784-0 gEjPLB"
+      data-gtm-category="Others"
+      display="flex"
+      id="TitleAnchorId"
+    >
+      <div>
+        <div
+          class="Box-sc-1bsf784-0 iPRsIc"
+        >
+          <h3
+            class="sc-1k44dfv-0 kUJimD"
+            color="white"
+          >
+            <span>
+               Example
+              <sup>
+                tm
+              </sup>
+               Title
+            </span>
+          </h3>
+          <div
+            class="Box-sc-1bsf784-0 cFYsYd"
+          >
+            <div
+              class="sc-1k44dfv-0 ciyLLm"
+              color="white"
+              mb="xs,m"
+              mx="xs,s,zero"
+            >
+              
+
+              <h1
+                class="override"
+              >
+                Example Description test test test 1-888-556-8548
+              </h1>
+            </div>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 epXBQL"
+            display="flex"
+          >
+            <div
+              class="Box-sc-1bsf784-0 erzPKL"
+            >
+              <a
+                aria-label=""
+                class="Button-pulw6t-0 fBGdmK"
+                data-gtm-title="gtm-title"
+                data-testid="dsr-button-component"
+                href="https://google.com#linkone"
+                title=""
+              >
+                Title Link One
+              </a>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 erzPKL"
+            >
+              <a
+                aria-label=""
+                class="Button-pulw6t-0 fDIHTQ"
+                data-gtm-title="gtm-title"
+                data-testid="dsr-button-component"
+                href="https://example.com#linktwo"
+                title=""
+              >
+                Title Link Two
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Title snapshots renders correct colours with white background 1`] = `
+<div>
+  <div>
+    <div
+      class="Box-sc-1bsf784-0 dHDoXS"
+      data-gtm-category="Others"
+      display="flex"
+      id="TitleAnchorId"
+    >
+      <div>
+        <div
+          class="Box-sc-1bsf784-0 iPRsIc"
+        >
+          <h3
+            class="sc-1k44dfv-0 dVbPXE"
+          >
+            <span>
+               Example
+              <sup>
+                tm
+              </sup>
+               Title
+            </span>
+          </h3>
+          <div
+            class="Box-sc-1bsf784-0 cFYsYd"
+          >
+            <div
+              class="sc-1k44dfv-0 fBZbFP"
+              mb="xs,m"
+              mx="xs,s,zero"
+            >
+              
+
+              <h1
+                class="override"
+              >
+                Example Description test test test 1-888-556-8548
+              </h1>
+            </div>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 epXBQL"
+            display="flex"
+          >
+            <div
+              class="Box-sc-1bsf784-0 erzPKL"
+            >
+              <a
+                aria-label=""
+                class="Button-pulw6t-0 fePOwb"
+                data-gtm-title="gtm-title"
+                data-testid="dsr-button-component"
+                href="https://google.com#linkone"
+                title=""
+              >
+                Title Link One
+              </a>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 erzPKL"
+            >
+              <a
+                aria-label=""
+                class="Button-pulw6t-0 gvXiRa"
+                data-gtm-title="gtm-title"
+                data-testid="dsr-button-component"
+                href="https://example.com#linktwo"
+                title=""
+              >
+                Title Link Two
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Title snapshots renders white tertiary CTAs when the background color is dark 1`] = `
+<div>
+  <div>
+    <div
+      class="Box-sc-1bsf784-0 dsiqAZ"
+      data-gtm-category="Others"
+      display="flex"
+      id="TitleAnchorId"
+    >
+      <div>
+        <div
+          class="Box-sc-1bsf784-0 iPRsIc"
+        >
+          <h3
+            class="sc-1k44dfv-0 kUJimD"
+            color="white"
+          >
+            <span>
+               Example
+              <sup>
+                tm
+              </sup>
+               Title
+            </span>
+          </h3>
+          <div
+            class="Box-sc-1bsf784-0 cFYsYd"
+          >
+            <div
+              class="sc-1k44dfv-0 ciyLLm"
+              color="white"
+              mb="xs,m"
+              mx="xs,s,zero"
+            >
+              
+
+              <h1
+                class="override"
+              >
+                Example Description test test test 1-888-556-8548
+              </h1>
+            </div>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 epXBQL"
+            display="flex"
+          >
+            <div
+              class="Box-sc-1bsf784-0 erzPKL"
+            >
+              <span>
+                <a
+                  aria-label=""
+                  class="Link-sc-16wd4a0-0 dKSZAU"
+                  data-gtm-body-style="some body style"
+                  data-gtm-interaction-type="cta: link1"
+                  data-gtm-model="some model name"
+                  data-gtm-title="gtm-title"
+                  data-gtm-trim="some trim name"
+                  href="/specs"
+                  title=""
+                >
+                  Title Link One
+                </a>
+              </span>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 erzPKL"
+            >
+              <span>
+                <a
+                  aria-label=""
+                  class="Link-sc-16wd4a0-0 dKSZAU"
+                  data-gtm-interaction-type="cta: link2"
+                  data-gtm-title="gtm-title"
+                  href="https://example.com#linktwo"
+                  title=""
+                >
+                  Title Link Two
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Title snapshots renders with one CTA 1`] = `
+<div>
+  <div>
+    <div
+      class="Box-sc-1bsf784-0 eOWWpR"
+      data-gtm-category="Others"
+      display="flex"
+      id="TitleAnchorId"
+    >
+      <div>
+        <div
+          class="Box-sc-1bsf784-0 iPRsIc"
+        >
+          <h3
+            class="sc-1k44dfv-0 kUJimD"
+            color="white"
+          >
+            <span>
+               Example
+              <sup>
+                tm
+              </sup>
+               Title
+            </span>
+          </h3>
+          <div
+            class="Box-sc-1bsf784-0 cFYsYd"
+          >
+            <div
+              class="sc-1k44dfv-0 ciyLLm"
+              color="white"
+              mb="xs,m"
+              mx="xs,s,zero"
+            >
+              
+
+              <h1
+                class="override"
+              >
+                This is my new component
+              </h1>
+            </div>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 epXBQL"
+            display="flex"
+          >
+            <div
+              class="Box-sc-1bsf784-0 erzPKL"
+            >
+              <a
+                aria-label=""
+                class="Button-pulw6t-0 fDIHTQ"
+                data-gtm-title="gtm-title"
+                data-testid="dsr-button-component"
+                href="https://google.com#linkone"
+                title=""
+              >
+                Title Link One
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Title snapshots renders with tertiary CTAs with cta icons 1`] = `
+<div>
+  <div>
+    <div
+      class="Box-sc-1bsf784-0 gcxozH"
+      data-gtm-category="Others"
+      display="flex"
+      id="TitleAnchorId"
+    >
+      <div>
+        <div
+          class="Box-sc-1bsf784-0 iPRsIc"
+        >
+          <h3
+            class="sc-1k44dfv-0 cZlNZm"
+            color="black"
+          >
+            <span>
+               Example
+              <sup>
+                tm
+              </sup>
+               Title
+            </span>
+          </h3>
+          <div
+            class="Box-sc-1bsf784-0 cFYsYd"
+          >
+            <div
+              class="sc-1k44dfv-0 fGBMGh"
+              color="black"
+              mb="xs,m"
+              mx="xs,s,zero"
+            >
+              
+
+              <h1
+                class="override"
+              >
+                Example Description test test test 1-888-556-8548
+              </h1>
+            </div>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 epXBQL"
+            display="flex"
+          >
+            <div
+              class="Box-sc-1bsf784-0 erzPKL"
+            >
+              <span>
+                <a
+                  aria-label=""
+                  class="Link-sc-16wd4a0-0 eYsnbh"
+                  data-gtm-body-style="some body style"
+                  data-gtm-interaction-type="cta: link1"
+                  data-gtm-model="some model name"
+                  data-gtm-title="gtm-title"
+                  data-gtm-trim="some trim name"
+                  href="/specs"
+                  title=""
+                >
+                  Title Link One
+                </a>
+              </span>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 erzPKL"
+            >
+              <span>
+                <a
+                  aria-label=""
+                  class="Link-sc-16wd4a0-0 eYsnbh"
+                  data-gtm-interaction-type="cta: link2"
+                  data-gtm-title="gtm-title"
+                  href="https://example.com#linktwo"
+                  title=""
+                >
+                  Title Link Two
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Title snapshots renders with the specified bottomPadding and topPadding 1`] = `
+<div>
+  <div>
+    <div
+      class="Box-sc-1bsf784-0 bYRSxu"
+      data-gtm-category="Others"
+      display="flex"
+      id="TitleAnchorId"
+    >
+      <div>
+        <div
+          class="Box-sc-1bsf784-0 iPRsIc"
+        >
+          <h3
+            class="sc-1k44dfv-0 cZlNZm"
+            color="black"
+          >
+            <span>
+               Example
+              <sup>
+                tm
+              </sup>
+               Title
+            </span>
+          </h3>
+          <div
+            class="Box-sc-1bsf784-0 cFYsYd"
+          >
+            <div
+              class="sc-1k44dfv-0 fGBMGh"
+              color="black"
+              mb="xs,m"
+              mx="xs,s,zero"
+            >
+              
+
+              <h1
+                class="override"
+              >
+                Example Description test test test 1-888-556-8548
+              </h1>
+            </div>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 epXBQL"
+            display="flex"
+          >
+            <div
+              class="Box-sc-1bsf784-0 erzPKL"
+            >
+              <a
+                aria-label=""
+                class="Button-pulw6t-0 fePOwb"
+                data-gtm-body-style="some body style"
+                data-gtm-interaction-type="cta: link1"
+                data-gtm-model="some model name"
+                data-gtm-title="gtm-title"
+                data-gtm-trim="some trim name"
+                data-testid="dsr-button-component"
+                href="https://google.com#linkone"
+                title=""
+              >
+                Title Link One...
+              </a>
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 erzPKL"
+            >
+              <a
+                aria-label=""
+                class="Button-pulw6t-0 gIftGV"
+                data-gtm-interaction-type="cta: link2"
+                data-gtm-title="gtm-title"
+                data-testid="dsr-button-component"
+                href="https://example.com#linktwo"
+                title=""
+              >
+                Title Link Two...
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

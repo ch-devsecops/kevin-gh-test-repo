@@ -1,0 +1,21 @@
+{
+  "fields": {
+    "data": {
+      "value": {
+        "model": {
+          "fields": {
+            "detKey": {
+              "value": ""
+            },
+            "detIdentifier": {
+              "value": ""
+            },
+            "sotId": {
+              "value": ""
+            }
+          }
+        }
+      }
+    }
+  }
+}

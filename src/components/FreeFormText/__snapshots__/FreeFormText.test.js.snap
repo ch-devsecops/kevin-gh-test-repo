@@ -1,0 +1,879 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FreeFormText> should apply 3/4 width params 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 UcmHr"
+    data-gtm-category="Others"
+    width="1,0.75"
+  >
+    <div
+      class="Box-sc-1bsf784-0 ezzCAj"
+    >
+      <div
+        class="sc-1k44dfv-0 klHKZs"
+      >
+        
+
+        <h3
+          class="sc-1k44dfv-0 eUGlGC"
+        >
+          Title
+        </h3>
+      </div>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 iPRsIc"
+    >
+      <h6
+        class="sc-1k44dfv-0 eeeuqx"
+      >
+        Subtitle
+      </h6>
+      <div
+        class="sc-1k44dfv-0 klHKZs sc-bdVaJa bIYKxT"
+      >
+        
+
+        <p>
+          Lorem ip sum 
+          <sup>
+            dolor sit
+          </sup>
+           amet, consectetur adipiscing elit. Nunc scelerisque ex at felis condimentum imperdiet. Proin sodales elit vitae est laoreet, eget vulputate quam pretium. Nulla scelerisque ligula at malesuada mattis. Nulla vulputate posuere orci, id tristique eros pretium nec. Sed a maximus tellus. Ut vel ullamcorper tellus. Nulla ut mi vitae nunc pellentesque mattis. 
+        </p>
+        <blockquote>
+          <p>
+            Good-looking, powerful, and a sharp handler, it proves you shouldn’t send a crossover out to do a sports sedan’s job.
+          </p>
+        </blockquote>
+        <h6
+          id="unordered-list"
+        >
+          Unordered List
+        </h6>
+        <ul>
+          <li>
+            You can have lists, like this one
+          </li>
+          <li>
+            Make things 
+            <strong>
+              bold
+            </strong>
+             or 
+            <em>
+              italic
+            </em>
+          </li>
+          <li>
+            Embed snippets of 
+            <code>
+              code
+            </code>
+          </li>
+          <li>
+            Create 
+            <a
+              href="/"
+            >
+              links
+            </a>
+          </li>
+          <li>
+            ...
+          </li>
+        </ul>
+        <h6
+          id="ordered-list"
+        >
+          Ordered List
+        </h6>
+        <ol
+          start="1"
+        >
+          <li>
+            You can have lists, like this one
+          </li>
+          <li>
+            Make things 
+            <strong>
+              bold
+            </strong>
+             or 
+            <em>
+              italic
+            </em>
+          </li>
+          <li>
+            Embed snippets of 
+            <code>
+              code
+            </code>
+          </li>
+          <li>
+            Create 
+            <a
+              href="/"
+            >
+              links
+            </a>
+          </li>
+          <li>
+            ...
+          </li>
+        </ol>
+        <h6
+          id="another-sub-heading"
+        >
+          Another Sub Heading
+        </h6>
+        <p>
+          Lorem ip sum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque ex at felis condimentum imperdiet. Proin sodales elit vitae est laoreet, eget vulputate quam pretium. Nulla scelerisque ligula at malesuada mattis. Nulla vulputate posuere orci, id tristique eros pretium nec. Sed a maximus tellus. Ut vel ullamcorper tellus. Nulla ut mi vitae nunc pellentesque mattis.
+        </p>
+        <h6
+          id="another-sub-heading"
+        >
+          Another Sub Heading
+        </h6>
+        <p>
+          Lorem ip sum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque ex at felis condimentum imperdiet. Proin sodales elit vitae est laoreet, eget vulputate quam pretium. Nulla scelerisque ligula at malesuada mattis. Nulla vulputate posuere orci, id tristique eros pretium nec. Sed a maximus tellus. Ut vel ullamcorper tellus. Nulla ut mi vitae nunc pellentesque mattis.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<FreeFormText> should apply topMargin and bottomMargin params 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 gdTPBx"
+    data-gtm-category="Others"
+    width="initial"
+  >
+    <div
+      class="Box-sc-1bsf784-0 ezzCAj"
+    >
+      <div
+        class="sc-1k44dfv-0 klHKZs"
+      >
+        
+
+        <h3
+          class="sc-1k44dfv-0 eUGlGC"
+        >
+          Title
+        </h3>
+      </div>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 iPRsIc"
+    >
+      <h6
+        class="sc-1k44dfv-0 eeeuqx"
+      >
+        Subtitle
+      </h6>
+      <div
+        class="sc-1k44dfv-0 klHKZs sc-bdVaJa bIYKxT"
+      >
+        
+
+        <p>
+          Lorem ip sum 
+          <sup>
+            dolor sit
+          </sup>
+           amet, consectetur adipiscing elit. Nunc scelerisque ex at felis condimentum imperdiet. Proin sodales elit vitae est laoreet, eget vulputate quam pretium. Nulla scelerisque ligula at malesuada mattis. Nulla vulputate posuere orci, id tristique eros pretium nec. Sed a maximus tellus. Ut vel ullamcorper tellus. Nulla ut mi vitae nunc pellentesque mattis. 
+        </p>
+        <blockquote>
+          <p>
+            Good-looking, powerful, and a sharp handler, it proves you shouldn’t send a crossover out to do a sports sedan’s job.
+          </p>
+        </blockquote>
+        <h6
+          id="unordered-list"
+        >
+          Unordered List
+        </h6>
+        <ul>
+          <li>
+            You can have lists, like this one
+          </li>
+          <li>
+            Make things 
+            <strong>
+              bold
+            </strong>
+             or 
+            <em>
+              italic
+            </em>
+          </li>
+          <li>
+            Embed snippets of 
+            <code>
+              code
+            </code>
+          </li>
+          <li>
+            Create 
+            <a
+              href="/"
+            >
+              links
+            </a>
+          </li>
+          <li>
+            ...
+          </li>
+        </ul>
+        <h6
+          id="ordered-list"
+        >
+          Ordered List
+        </h6>
+        <ol
+          start="1"
+        >
+          <li>
+            You can have lists, like this one
+          </li>
+          <li>
+            Make things 
+            <strong>
+              bold
+            </strong>
+             or 
+            <em>
+              italic
+            </em>
+          </li>
+          <li>
+            Embed snippets of 
+            <code>
+              code
+            </code>
+          </li>
+          <li>
+            Create 
+            <a
+              href="/"
+            >
+              links
+            </a>
+          </li>
+          <li>
+            ...
+          </li>
+        </ol>
+        <h6
+          id="another-sub-heading"
+        >
+          Another Sub Heading
+        </h6>
+        <p>
+          Lorem ip sum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque ex at felis condimentum imperdiet. Proin sodales elit vitae est laoreet, eget vulputate quam pretium. Nulla scelerisque ligula at malesuada mattis. Nulla vulputate posuere orci, id tristique eros pretium nec. Sed a maximus tellus. Ut vel ullamcorper tellus. Nulla ut mi vitae nunc pellentesque mattis.
+        </p>
+        <h6
+          id="another-sub-heading"
+        >
+          Another Sub Heading
+        </h6>
+        <p>
+          Lorem ip sum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque ex at felis condimentum imperdiet. Proin sodales elit vitae est laoreet, eget vulputate quam pretium. Nulla scelerisque ligula at malesuada mattis. Nulla vulputate posuere orci, id tristique eros pretium nec. Sed a maximus tellus. Ut vel ullamcorper tellus. Nulla ut mi vitae nunc pellentesque mattis.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<FreeFormText> should render with an seoH1 value of "Description" 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 gdTPBx"
+    data-gtm-category="Others"
+    width="initial"
+  >
+    <div
+      class="Box-sc-1bsf784-0 ezzCAj"
+    >
+      <div
+        class="sc-1k44dfv-0 klHKZs"
+      >
+        
+
+        <h3
+          class="sc-1k44dfv-0 eUGlGC"
+        >
+          Title
+        </h3>
+      </div>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 iPRsIc"
+    >
+      <h6
+        class="sc-1k44dfv-0 eeeuqx"
+      >
+        Subtitle
+      </h6>
+      <div
+        class="sc-1k44dfv-0 klHKZs sc-bdVaJa bIYKxT"
+      >
+        
+
+        <h1
+          class="override"
+        >
+          Lorem ip sum 
+          <sup>
+            dolor sit
+          </sup>
+           amet, consectetur adipiscing elit. Nunc scelerisque ex at felis condimentum imperdiet. Proin sodales elit vitae est laoreet, eget vulputate quam pretium. Nulla scelerisque ligula at malesuada mattis. Nulla vulputate posuere orci, id tristique eros pretium nec. Sed a maximus tellus. Ut vel ullamcorper tellus. Nulla ut mi vitae nunc pellentesque mattis. 
+        </h1>
+        <blockquote>
+          <h1
+            class="override"
+          >
+            Good-looking, powerful, and a sharp handler, it proves you shouldn’t send a crossover out to do a sports sedan’s job.
+          </h1>
+        </blockquote>
+        <h6
+          id="unordered-list"
+        >
+          Unordered List
+        </h6>
+        <ul>
+          <li>
+            You can have lists, like this one
+          </li>
+          <li>
+            Make things 
+            <strong>
+              bold
+            </strong>
+             or 
+            <em>
+              italic
+            </em>
+          </li>
+          <li>
+            Embed snippets of 
+            <code>
+              code
+            </code>
+          </li>
+          <li>
+            Create 
+            <a
+              href="/"
+            >
+              links
+            </a>
+          </li>
+          <li>
+            ...
+          </li>
+        </ul>
+        <h6
+          id="ordered-list"
+        >
+          Ordered List
+        </h6>
+        <ol
+          start="1"
+        >
+          <li>
+            You can have lists, like this one
+          </li>
+          <li>
+            Make things 
+            <strong>
+              bold
+            </strong>
+             or 
+            <em>
+              italic
+            </em>
+          </li>
+          <li>
+            Embed snippets of 
+            <code>
+              code
+            </code>
+          </li>
+          <li>
+            Create 
+            <a
+              href="/"
+            >
+              links
+            </a>
+          </li>
+          <li>
+            ...
+          </li>
+        </ol>
+        <h6
+          id="another-sub-heading"
+        >
+          Another Sub Heading
+        </h6>
+        <h1
+          class="override"
+        >
+          Lorem ip sum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque ex at felis condimentum imperdiet. Proin sodales elit vitae est laoreet, eget vulputate quam pretium. Nulla scelerisque ligula at malesuada mattis. Nulla vulputate posuere orci, id tristique eros pretium nec. Sed a maximus tellus. Ut vel ullamcorper tellus. Nulla ut mi vitae nunc pellentesque mattis.
+        </h1>
+        <h6
+          id="another-sub-heading"
+        >
+          Another Sub Heading
+        </h6>
+        <h1
+          class="override"
+        >
+          Lorem ip sum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque ex at felis condimentum imperdiet. Proin sodales elit vitae est laoreet, eget vulputate quam pretium. Nulla scelerisque ligula at malesuada mattis. Nulla vulputate posuere orci, id tristique eros pretium nec. Sed a maximus tellus. Ut vel ullamcorper tellus. Nulla ut mi vitae nunc pellentesque mattis.
+        </h1>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<FreeFormText> should render with an seoH1 value of "Subtitle" 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 gdTPBx"
+    data-gtm-category="Others"
+    width="initial"
+  >
+    <div
+      class="Box-sc-1bsf784-0 ezzCAj"
+    >
+      <div
+        class="sc-1k44dfv-0 klHKZs"
+      >
+        
+
+        <h3
+          class="sc-1k44dfv-0 eUGlGC"
+        >
+          Title
+        </h3>
+      </div>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 iPRsIc"
+    >
+      <h1
+        class="sc-1k44dfv-0 eeeuqx"
+      >
+        Subtitle
+      </h1>
+      <div
+        class="sc-1k44dfv-0 klHKZs sc-bdVaJa bIYKxT"
+      >
+        
+
+        <p>
+          Lorem ip sum 
+          <sup>
+            dolor sit
+          </sup>
+           amet, consectetur adipiscing elit. Nunc scelerisque ex at felis condimentum imperdiet. Proin sodales elit vitae est laoreet, eget vulputate quam pretium. Nulla scelerisque ligula at malesuada mattis. Nulla vulputate posuere orci, id tristique eros pretium nec. Sed a maximus tellus. Ut vel ullamcorper tellus. Nulla ut mi vitae nunc pellentesque mattis. 
+        </p>
+        <blockquote>
+          <p>
+            Good-looking, powerful, and a sharp handler, it proves you shouldn’t send a crossover out to do a sports sedan’s job.
+          </p>
+        </blockquote>
+        <h6
+          id="unordered-list"
+        >
+          Unordered List
+        </h6>
+        <ul>
+          <li>
+            You can have lists, like this one
+          </li>
+          <li>
+            Make things 
+            <strong>
+              bold
+            </strong>
+             or 
+            <em>
+              italic
+            </em>
+          </li>
+          <li>
+            Embed snippets of 
+            <code>
+              code
+            </code>
+          </li>
+          <li>
+            Create 
+            <a
+              href="/"
+            >
+              links
+            </a>
+          </li>
+          <li>
+            ...
+          </li>
+        </ul>
+        <h6
+          id="ordered-list"
+        >
+          Ordered List
+        </h6>
+        <ol
+          start="1"
+        >
+          <li>
+            You can have lists, like this one
+          </li>
+          <li>
+            Make things 
+            <strong>
+              bold
+            </strong>
+             or 
+            <em>
+              italic
+            </em>
+          </li>
+          <li>
+            Embed snippets of 
+            <code>
+              code
+            </code>
+          </li>
+          <li>
+            Create 
+            <a
+              href="/"
+            >
+              links
+            </a>
+          </li>
+          <li>
+            ...
+          </li>
+        </ol>
+        <h6
+          id="another-sub-heading"
+        >
+          Another Sub Heading
+        </h6>
+        <p>
+          Lorem ip sum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque ex at felis condimentum imperdiet. Proin sodales elit vitae est laoreet, eget vulputate quam pretium. Nulla scelerisque ligula at malesuada mattis. Nulla vulputate posuere orci, id tristique eros pretium nec. Sed a maximus tellus. Ut vel ullamcorper tellus. Nulla ut mi vitae nunc pellentesque mattis.
+        </p>
+        <h6
+          id="another-sub-heading"
+        >
+          Another Sub Heading
+        </h6>
+        <p>
+          Lorem ip sum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque ex at felis condimentum imperdiet. Proin sodales elit vitae est laoreet, eget vulputate quam pretium. Nulla scelerisque ligula at malesuada mattis. Nulla vulputate posuere orci, id tristique eros pretium nec. Sed a maximus tellus. Ut vel ullamcorper tellus. Nulla ut mi vitae nunc pellentesque mattis.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<FreeFormText> should render with center-aligned content 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 hmddkH"
+    data-gtm-category="Others"
+    width="initial"
+  >
+    <div
+      class="Box-sc-1bsf784-0 ezzCAj"
+    >
+      <div
+        class="sc-1k44dfv-0 klHKZs"
+      >
+        
+
+        <h3
+          class="sc-1k44dfv-0 eUGlGC"
+        >
+          Title
+        </h3>
+      </div>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 iPRsIc"
+    >
+      <h6
+        class="sc-1k44dfv-0 eeeuqx"
+      >
+        Subtitle
+      </h6>
+      <div
+        class="sc-1k44dfv-0 klHKZs sc-bdVaJa bIYKxT"
+      >
+        
+
+        <p>
+          Lorem ip sum 
+          <sup>
+            dolor sit
+          </sup>
+           amet, consectetur adipiscing elit. Nunc scelerisque ex at felis condimentum imperdiet. Proin sodales elit vitae est laoreet, eget vulputate quam pretium. Nulla scelerisque ligula at malesuada mattis. Nulla vulputate posuere orci, id tristique eros pretium nec. Sed a maximus tellus. Ut vel ullamcorper tellus. Nulla ut mi vitae nunc pellentesque mattis. 
+        </p>
+        <blockquote>
+          <p>
+            Good-looking, powerful, and a sharp handler, it proves you shouldn’t send a crossover out to do a sports sedan’s job.
+          </p>
+        </blockquote>
+        <h6
+          id="unordered-list"
+        >
+          Unordered List
+        </h6>
+        <ul>
+          <li>
+            You can have lists, like this one
+          </li>
+          <li>
+            Make things 
+            <strong>
+              bold
+            </strong>
+             or 
+            <em>
+              italic
+            </em>
+          </li>
+          <li>
+            Embed snippets of 
+            <code>
+              code
+            </code>
+          </li>
+          <li>
+            Create 
+            <a
+              href="/"
+            >
+              links
+            </a>
+          </li>
+          <li>
+            ...
+          </li>
+        </ul>
+        <h6
+          id="ordered-list"
+        >
+          Ordered List
+        </h6>
+        <ol
+          start="1"
+        >
+          <li>
+            You can have lists, like this one
+          </li>
+          <li>
+            Make things 
+            <strong>
+              bold
+            </strong>
+             or 
+            <em>
+              italic
+            </em>
+          </li>
+          <li>
+            Embed snippets of 
+            <code>
+              code
+            </code>
+          </li>
+          <li>
+            Create 
+            <a
+              href="/"
+            >
+              links
+            </a>
+          </li>
+          <li>
+            ...
+          </li>
+        </ol>
+        <h6
+          id="another-sub-heading"
+        >
+          Another Sub Heading
+        </h6>
+        <p>
+          Lorem ip sum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque ex at felis condimentum imperdiet. Proin sodales elit vitae est laoreet, eget vulputate quam pretium. Nulla scelerisque ligula at malesuada mattis. Nulla vulputate posuere orci, id tristique eros pretium nec. Sed a maximus tellus. Ut vel ullamcorper tellus. Nulla ut mi vitae nunc pellentesque mattis.
+        </p>
+        <h6
+          id="another-sub-heading"
+        >
+          Another Sub Heading
+        </h6>
+        <p>
+          Lorem ip sum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque ex at felis condimentum imperdiet. Proin sodales elit vitae est laoreet, eget vulputate quam pretium. Nulla scelerisque ligula at malesuada mattis. Nulla vulputate posuere orci, id tristique eros pretium nec. Sed a maximus tellus. Ut vel ullamcorper tellus. Nulla ut mi vitae nunc pellentesque mattis.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<FreeFormText> should render without errors 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 gdTPBx"
+    data-gtm-category="Others"
+    width="initial"
+  >
+    <div
+      class="Box-sc-1bsf784-0 ezzCAj"
+    >
+      <div
+        class="sc-1k44dfv-0 klHKZs"
+      >
+        
+
+        <h3
+          class="sc-1k44dfv-0 eUGlGC"
+        >
+          Title
+        </h3>
+      </div>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 iPRsIc"
+    >
+      <h6
+        class="sc-1k44dfv-0 eeeuqx"
+      >
+        Subtitle
+      </h6>
+      <div
+        class="sc-1k44dfv-0 klHKZs sc-bdVaJa bIYKxT"
+      >
+        
+
+        <p>
+          Lorem ip sum 
+          <sup>
+            dolor sit
+          </sup>
+           amet, consectetur adipiscing elit. Nunc scelerisque ex at felis condimentum imperdiet. Proin sodales elit vitae est laoreet, eget vulputate quam pretium. Nulla scelerisque ligula at malesuada mattis. Nulla vulputate posuere orci, id tristique eros pretium nec. Sed a maximus tellus. Ut vel ullamcorper tellus. Nulla ut mi vitae nunc pellentesque mattis. 
+        </p>
+        <blockquote>
+          <p>
+            Good-looking, powerful, and a sharp handler, it proves you shouldn’t send a crossover out to do a sports sedan’s job.
+          </p>
+        </blockquote>
+        <h6
+          id="unordered-list"
+        >
+          Unordered List
+        </h6>
+        <ul>
+          <li>
+            You can have lists, like this one
+          </li>
+          <li>
+            Make things 
+            <strong>
+              bold
+            </strong>
+             or 
+            <em>
+              italic
+            </em>
+          </li>
+          <li>
+            Embed snippets of 
+            <code>
+              code
+            </code>
+          </li>
+          <li>
+            Create 
+            <a
+              href="/"
+            >
+              links
+            </a>
+          </li>
+          <li>
+            ...
+          </li>
+        </ul>
+        <h6
+          id="ordered-list"
+        >
+          Ordered List
+        </h6>
+        <ol
+          start="1"
+        >
+          <li>
+            You can have lists, like this one
+          </li>
+          <li>
+            Make things 
+            <strong>
+              bold
+            </strong>
+             or 
+            <em>
+              italic
+            </em>
+          </li>
+          <li>
+            Embed snippets of 
+            <code>
+              code
+            </code>
+          </li>
+          <li>
+            Create 
+            <a
+              href="/"
+            >
+              links
+            </a>
+          </li>
+          <li>
+            ...
+          </li>
+        </ol>
+        <h6
+          id="another-sub-heading"
+        >
+          Another Sub Heading
+        </h6>
+        <p>
+          Lorem ip sum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque ex at felis condimentum imperdiet. Proin sodales elit vitae est laoreet, eget vulputate quam pretium. Nulla scelerisque ligula at malesuada mattis. Nulla vulputate posuere orci, id tristique eros pretium nec. Sed a maximus tellus. Ut vel ullamcorper tellus. Nulla ut mi vitae nunc pellentesque mattis.
+        </p>
+        <h6
+          id="another-sub-heading"
+        >
+          Another Sub Heading
+        </h6>
+        <p>
+          Lorem ip sum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque ex at felis condimentum imperdiet. Proin sodales elit vitae est laoreet, eget vulputate quam pretium. Nulla scelerisque ligula at malesuada mattis. Nulla vulputate posuere orci, id tristique eros pretium nec. Sed a maximus tellus. Ut vel ullamcorper tellus. Nulla ut mi vitae nunc pellentesque mattis.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

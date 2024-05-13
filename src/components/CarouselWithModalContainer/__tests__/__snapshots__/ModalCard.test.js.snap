@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ModalCard> should have no accessibility violations 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 sc-1k44dfv-0 fOlbHO"
+  >
+    <div
+      class="fresnel-container fresnel-greaterThanOrEqual-desktop sc-1k44dfv-0 bCQNSY"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 iTfAOr"
+      >
+        <img
+          alt="Unsplash image"
+          class="sc-1k44dfv-0 jLTFZk"
+          draggable="true"
+          loading="lazy"
+          src="./sample-mock-data/media/img/placeholders/placeholder-landscape.png"
+        />
+      </div>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 tDSQa"
+    >
+      <div
+        class="sc-1k44dfv-0 klHKZs sc-1k44dfv-0 ApqDi"
+      >
+        
+
+        <h3
+          class="sc-1k44dfv-0 eUGlGC"
+        >
+          Modal Title
+        </h3>
+      </div>
+      <div
+        class="fresnel-container fresnel-lessThan-desktop sc-1k44dfv-0 bCQNSY"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 iTfAOr"
+        >
+          <img
+            alt="Unsplash image"
+            class="sc-1k44dfv-0 jLTFZk"
+            draggable="true"
+            loading="lazy"
+            src="./sample-mock-data/media/img/placeholders/placeholder-landscape.png"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-1k44dfv-0 klHKZs sc-1k44dfv-0 csdcDA"
+      >
+        
+
+        <p>
+          Modal body text
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ModalCard> should render correctly 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 sc-1k44dfv-0 fOlbHO"
+  >
+    <div
+      class="fresnel-container fresnel-greaterThanOrEqual-desktop sc-1k44dfv-0 bCQNSY"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 iTfAOr"
+      >
+        <img
+          alt="Unsplash image"
+          class="sc-1k44dfv-0 jLTFZk"
+          draggable="true"
+          loading="lazy"
+          src="./sample-mock-data/media/img/placeholders/placeholder-landscape.png"
+        />
+      </div>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 tDSQa"
+    >
+      <div
+        class="sc-1k44dfv-0 klHKZs sc-1k44dfv-0 ApqDi"
+      >
+        
+
+        <h3
+          class="sc-1k44dfv-0 eUGlGC"
+        >
+          Modal Title
+        </h3>
+      </div>
+      <div
+        class="fresnel-container fresnel-lessThan-desktop sc-1k44dfv-0 bCQNSY"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 iTfAOr"
+        >
+          <img
+            alt="Unsplash image"
+            class="sc-1k44dfv-0 jLTFZk"
+            draggable="true"
+            loading="lazy"
+            src="./sample-mock-data/media/img/placeholders/placeholder-landscape.png"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-1k44dfv-0 klHKZs sc-1k44dfv-0 csdcDA"
+      >
+        
+
+        <p>
+          Modal body text
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ModalCard> should render correctly with empty props 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 Wrapper-n67dtg-0 sc-1k44dfv-0 fOlbHO"
+  >
+    <div
+      class="fresnel-container fresnel-greaterThanOrEqual-desktop sc-1k44dfv-0 bCQNSY"
+    >
+      <div
+        class="Box-sc-1bsf784-0 sc-1k44dfv-0 iTfAOr"
+      >
+        <img
+          class="sc-1k44dfv-0 jLTFZk"
+          draggable="true"
+          loading="lazy"
+        />
+      </div>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 tDSQa"
+    >
+      <div
+        class="fresnel-container fresnel-lessThan-desktop sc-1k44dfv-0 bCQNSY"
+      >
+        <div
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 iTfAOr"
+        >
+          <img
+            class="sc-1k44dfv-0 jLTFZk"
+            draggable="true"
+            loading="lazy"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-1k44dfv-0 klHKZs sc-1k44dfv-0 csdcDA"
+      >
+        
+
+        <p>
+          undefined
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

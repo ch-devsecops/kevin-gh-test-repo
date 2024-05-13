@@ -1,0 +1,589 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ContactUs> should have no accessibility violations 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 fkfNdn"
+    data-gtm-category="contact us"
+    height="100%"
+  >
+    <h4
+      class="sc-1k44dfv-0 isdILY"
+    >
+      <span>
+        Contact Client Services
+      </span>
+    </h4>
+    <p
+      class="sc-1k44dfv-0 dEUpZV"
+      color="typographyDefault"
+      font-family="default"
+      font-weight="regular"
+    >
+      Honda Canada Client Services can help with any of your general inquiries.
+      <br />
+      
+    </p>
+    <ul
+      class="Box-sc-1bsf784-0 dUyIkE"
+      display="flex"
+      width="100%"
+    >
+      <li
+        class="Box-sc-1bsf784-0 Column-t2p57o-0 bkKEhv"
+        width="1,0.25,0.25"
+      >
+        <div
+          class="Box-sc-1bsf784-0 cnwIUg"
+          data-gtm-category="contact us"
+          data-gtm-component-type="undefined_0"
+          display="flex"
+        >
+          <div
+            class="Box-sc-1bsf784-0 dXSuOs"
+            height="35px,45px"
+            width="35px,45px"
+          >
+            <img
+              alt="Illustration of a phone icon"
+              aria-hidden="true"
+              class="sc-bdVaJa fQBXcH"
+              height="45"
+              src="https://www.honda.ca/-/media/Images/Icons/icons_contactus_icon_phone.png?h=45&iar=0&w=45&rev=2bbb8a964c114757b97858b75f3b248b&hash=D91E65F199B321313F141A34620B5169"
+              width="45"
+            />
+          </div>
+          <div
+            class="sc-1k44dfv-0 kSDFcX"
+            my="s"
+            textalign="center"
+          >
+            
+
+            <h5
+              class="sc-1k44dfv-0 gXWcpP"
+            >
+              Phone
+            </h5>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 jyYBnS"
+            width="100%"
+          >
+            <div
+              class="sc-1k44dfv-0 gkhwkm"
+            >
+              
+
+              <span
+                style="color: red;"
+              >
+                <strong>
+                  <a
+                    data-gtm-title="Contact Client Services"
+                    href="tel:1-888-9-HONDA-9"
+                  >
+                    1-888-9-HONDA-9
+                  </a>
+                </strong>
+              </span>
+              <br />
+              <span
+                style="color: red;"
+              >
+                <strong>
+                  <a
+                    data-gtm-title="Contact Client Services"
+                    href="tel:1-888-946-6329"
+                  >
+                    1-888-946-6329
+                  </a>
+                </strong>
+              </span>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        class="Box-sc-1bsf784-0 Column-t2p57o-0 bkKEhv"
+        width="1,0.25,0.25"
+      >
+        <div
+          class="Box-sc-1bsf784-0 cnwIUg"
+          data-gtm-category="contact us"
+          data-gtm-component-type="undefined_1"
+          display="flex"
+        >
+          <div
+            class="Box-sc-1bsf784-0 dXSuOs"
+            height="35px,45px"
+            width="35px,45px"
+          >
+            <img
+              alt="Illustration of a letter mail icon"
+              aria-hidden="true"
+              class="sc-bdVaJa fQBXcH"
+              height="45"
+              src="https://www.honda.ca/-/media/Images/Icons/icons_contactus_icon_mail.png?h=45&iar=0&w=45&rev=6cc458b54de84fbf87a650df945e3733&hash=F3A2EB7ECF1DF6E12960F3B64C280168"
+              width="45"
+            />
+          </div>
+          <div
+            class="sc-1k44dfv-0 kSDFcX"
+            my="s"
+            textalign="center"
+          >
+            
+
+            <h5
+              class="sc-1k44dfv-0 gXWcpP"
+            >
+              Email
+            </h5>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 jyYBnS"
+            width="100%"
+          >
+            <div
+              class="sc-1k44dfv-0 gkhwkm"
+            >
+              
+
+              <span
+                style="color: red;"
+              >
+                <strong>
+                  <a
+                    data-gtm-title="Contact Client Services"
+                    href="mailto:honda_cr@ch.honda.com"
+                  >
+                    honda_cr@ch.honda.com
+                  </a>
+                </strong>
+              </span>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        class="Box-sc-1bsf784-0 Column-t2p57o-0 bkKEhv"
+        width="1,0.25,0.25"
+      >
+        <div
+          class="Box-sc-1bsf784-0 cnwIUg"
+          data-gtm-category="contact us"
+          data-gtm-component-type="undefined_2"
+          display="flex"
+        >
+          <div
+            class="Box-sc-1bsf784-0 dXSuOs"
+            height="35px,45px"
+            width="35px,45px"
+          >
+            <img
+              alt="Illustration of a location icon"
+              aria-hidden="true"
+              class="sc-bdVaJa fQBXcH"
+              height="45"
+              src="https://www.honda.ca/-/media/Images/Icons/icons_contactus_icon_locator.png?h=45&iar=0&w=45&rev=6e7bca15ff0a4c4492f94542ffe9f69a&hash=AD2CA8D90C79B41D0D001ED09C3607BD"
+              width="45"
+            />
+          </div>
+          <div
+            class="sc-1k44dfv-0 kSDFcX"
+            my="s"
+            textalign="center"
+          >
+            
+
+            <h5
+              class="sc-1k44dfv-0 gXWcpP"
+            >
+              Mailing Address
+            </h5>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 jyYBnS"
+            width="100%"
+          >
+            <div
+              class="sc-1k44dfv-0 gkhwkm"
+            >
+              
+
+              <p>
+                Honda Canada Customer Relations 
+                <br />
+                180 Honda Blvd. 
+                <br />
+                Markham ON, Canada 
+                <br />
+                L6C 0H9 
+                <br />
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        class="Box-sc-1bsf784-0 Column-t2p57o-0 gDFDSj"
+        width="1,0.25,0.25"
+      >
+        <div
+          class="Box-sc-1bsf784-0 cnwIUg"
+          data-gtm-category="contact us"
+          data-gtm-component-type="undefined_3"
+          display="flex"
+        >
+          <div
+            class="Box-sc-1bsf784-0 dXSuOs"
+            height="35px,45px"
+            width="35px,45px"
+          >
+            <img
+              alt="Illustration of a clock icon"
+              aria-hidden="true"
+              class="sc-bdVaJa fQBXcH"
+              height="45"
+              src="https://www.honda.ca/-/media/Images/Icons/icons_contactus_icon_clock.png?h=45&iar=0&w=45&rev=0c0444dd494d459cbd40f3e9b367d486&hash=0A1F9064804CF85BB588366E0A12DCC4"
+              width="45"
+            />
+          </div>
+          <div
+            class="sc-1k44dfv-0 kSDFcX"
+            my="s"
+            textalign="center"
+          >
+            
+
+            <h5
+              class="sc-1k44dfv-0 gXWcpP"
+            >
+              Hours
+            </h5>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 jyYBnS"
+            width="100%"
+          >
+            <div
+              class="sc-1k44dfv-0 gkhwkm"
+            >
+              
+
+              <p>
+                Monday to Friday 
+8am – 8pm (EST)
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<ContactUs> should render correctly 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 fkfNdn"
+    data-gtm-category="contact us"
+    height="100%"
+  >
+    <h4
+      class="sc-1k44dfv-0 isdILY"
+    >
+      <span>
+        Contact Client Services
+      </span>
+    </h4>
+    <p
+      class="sc-1k44dfv-0 dEUpZV"
+      color="typographyDefault"
+      font-family="default"
+      font-weight="regular"
+    >
+      Honda Canada Client Services can help with any of your general inquiries.
+      <br />
+      
+    </p>
+    <ul
+      class="Box-sc-1bsf784-0 dUyIkE"
+      display="flex"
+      width="100%"
+    >
+      <li
+        class="Box-sc-1bsf784-0 Column-t2p57o-0 bkKEhv"
+        width="1,0.25,0.25"
+      >
+        <div
+          class="Box-sc-1bsf784-0 cnwIUg"
+          data-gtm-category="contact us"
+          data-gtm-component-type="undefined_0"
+          display="flex"
+        >
+          <div
+            class="Box-sc-1bsf784-0 dXSuOs"
+            height="35px,45px"
+            width="35px,45px"
+          >
+            <img
+              alt="Illustration of a phone icon"
+              aria-hidden="true"
+              class="sc-bdVaJa fQBXcH"
+              height="45"
+              src="https://www.honda.ca/-/media/Images/Icons/icons_contactus_icon_phone.png?h=45&iar=0&w=45&rev=2bbb8a964c114757b97858b75f3b248b&hash=D91E65F199B321313F141A34620B5169"
+              width="45"
+            />
+          </div>
+          <div
+            class="sc-1k44dfv-0 kSDFcX"
+            my="s"
+            textalign="center"
+          >
+            
+
+            <h5
+              class="sc-1k44dfv-0 gXWcpP"
+            >
+              Phone
+            </h5>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 jyYBnS"
+            width="100%"
+          >
+            <div
+              class="sc-1k44dfv-0 gkhwkm"
+            >
+              
+
+              <span
+                style="color: red;"
+              >
+                <strong>
+                  <a
+                    data-gtm-title="Contact Client Services"
+                    href="tel:1-888-9-HONDA-9"
+                  >
+                    1-888-9-HONDA-9
+                  </a>
+                </strong>
+              </span>
+              <br />
+              <span
+                style="color: red;"
+              >
+                <strong>
+                  <a
+                    data-gtm-title="Contact Client Services"
+                    href="tel:1-888-946-6329"
+                  >
+                    1-888-946-6329
+                  </a>
+                </strong>
+              </span>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        class="Box-sc-1bsf784-0 Column-t2p57o-0 bkKEhv"
+        width="1,0.25,0.25"
+      >
+        <div
+          class="Box-sc-1bsf784-0 cnwIUg"
+          data-gtm-category="contact us"
+          data-gtm-component-type="undefined_1"
+          display="flex"
+        >
+          <div
+            class="Box-sc-1bsf784-0 dXSuOs"
+            height="35px,45px"
+            width="35px,45px"
+          >
+            <img
+              alt="Illustration of a letter mail icon"
+              aria-hidden="true"
+              class="sc-bdVaJa fQBXcH"
+              height="45"
+              src="https://www.honda.ca/-/media/Images/Icons/icons_contactus_icon_mail.png?h=45&iar=0&w=45&rev=6cc458b54de84fbf87a650df945e3733&hash=F3A2EB7ECF1DF6E12960F3B64C280168"
+              width="45"
+            />
+          </div>
+          <div
+            class="sc-1k44dfv-0 kSDFcX"
+            my="s"
+            textalign="center"
+          >
+            
+
+            <h5
+              class="sc-1k44dfv-0 gXWcpP"
+            >
+              Email
+            </h5>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 jyYBnS"
+            width="100%"
+          >
+            <div
+              class="sc-1k44dfv-0 gkhwkm"
+            >
+              
+
+              <span
+                style="color: red;"
+              >
+                <strong>
+                  <a
+                    data-gtm-title="Contact Client Services"
+                    href="mailto:honda_cr@ch.honda.com"
+                  >
+                    honda_cr@ch.honda.com
+                  </a>
+                </strong>
+              </span>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        class="Box-sc-1bsf784-0 Column-t2p57o-0 bkKEhv"
+        width="1,0.25,0.25"
+      >
+        <div
+          class="Box-sc-1bsf784-0 cnwIUg"
+          data-gtm-category="contact us"
+          data-gtm-component-type="undefined_2"
+          display="flex"
+        >
+          <div
+            class="Box-sc-1bsf784-0 dXSuOs"
+            height="35px,45px"
+            width="35px,45px"
+          >
+            <img
+              alt="Illustration of a location icon"
+              aria-hidden="true"
+              class="sc-bdVaJa fQBXcH"
+              height="45"
+              src="https://www.honda.ca/-/media/Images/Icons/icons_contactus_icon_locator.png?h=45&iar=0&w=45&rev=6e7bca15ff0a4c4492f94542ffe9f69a&hash=AD2CA8D90C79B41D0D001ED09C3607BD"
+              width="45"
+            />
+          </div>
+          <div
+            class="sc-1k44dfv-0 kSDFcX"
+            my="s"
+            textalign="center"
+          >
+            
+
+            <h5
+              class="sc-1k44dfv-0 gXWcpP"
+            >
+              Mailing Address
+            </h5>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 jyYBnS"
+            width="100%"
+          >
+            <div
+              class="sc-1k44dfv-0 gkhwkm"
+            >
+              
+
+              <p>
+                Honda Canada Customer Relations 
+                <br />
+                180 Honda Blvd. 
+                <br />
+                Markham ON, Canada 
+                <br />
+                L6C 0H9 
+                <br />
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        class="Box-sc-1bsf784-0 Column-t2p57o-0 gDFDSj"
+        width="1,0.25,0.25"
+      >
+        <div
+          class="Box-sc-1bsf784-0 cnwIUg"
+          data-gtm-category="contact us"
+          data-gtm-component-type="undefined_3"
+          display="flex"
+        >
+          <div
+            class="Box-sc-1bsf784-0 dXSuOs"
+            height="35px,45px"
+            width="35px,45px"
+          >
+            <img
+              alt="Illustration of a clock icon"
+              aria-hidden="true"
+              class="sc-bdVaJa fQBXcH"
+              height="45"
+              src="https://www.honda.ca/-/media/Images/Icons/icons_contactus_icon_clock.png?h=45&iar=0&w=45&rev=0c0444dd494d459cbd40f3e9b367d486&hash=0A1F9064804CF85BB588366E0A12DCC4"
+              width="45"
+            />
+          </div>
+          <div
+            class="sc-1k44dfv-0 kSDFcX"
+            my="s"
+            textalign="center"
+          >
+            
+
+            <h5
+              class="sc-1k44dfv-0 gXWcpP"
+            >
+              Hours
+            </h5>
+          </div>
+          <div
+            class="Box-sc-1bsf784-0 jyYBnS"
+            width="100%"
+          >
+            <div
+              class="sc-1k44dfv-0 gkhwkm"
+            >
+              
+
+              <p>
+                Monday to Friday 
+8am – 8pm (EST)
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<ContactUs> should return null if the data is empty 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 kiegRD"
+    data-gtm-category="Others"
+    height="100%"
+  >
+    <ul
+      class="Box-sc-1bsf784-0 dUyIkE"
+      display="flex"
+      width="100%"
+    />
+  </div>
+</div>
+`;
+
+exports[`<ContactUs> should return null if there is no fields 1`] = `<div />`;

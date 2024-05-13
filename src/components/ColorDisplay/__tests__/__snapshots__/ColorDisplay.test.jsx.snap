@@ -1,0 +1,1850 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorDisplay snapshots renders exterior colour images by default 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 jUXrAX"
+    data-gtm-category="model interactions"
+    id="anchor-id"
+  >
+    <h3
+      class="sc-1k44dfv-0 hQXZVA"
+    >
+      <span>
+        Explore Civic’s Colour Options to Suit Your Colourful Lifestyle
+      </span>
+    </h3>
+    <div
+      class="Box-sc-1bsf784-0 hjuGbg"
+      display="flex"
+      height="45px,68px"
+      width="100%"
+    >
+      <div
+        class="Box-sc-1bsf784-0 Column-t2p57o-0 jVzENf"
+        height="100%"
+      >
+        <button
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 ghcybi"
+          color="typographyDefault"
+        >
+          <div
+            class="sc-1k44dfv-0 kYoOLm sc-bdVaJa inzbPR"
+            color="typographyDefault"
+          >
+            
+
+            <p>
+              Pages.Models.Exploration.exteriorLabel
+            </p>
+          </div>
+        </button>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 Column-t2p57o-0 jVzENf"
+        height="100%"
+      >
+        <button
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 hBnqan"
+          color="typographyDefault"
+        >
+          <div
+            class="sc-1k44dfv-0 kYoOLm sc-bdVaJa inzbPR"
+            color="typographyDefault"
+          >
+            
+
+            <p>
+              Pages.Models.Exploration.interiorLabel
+            </p>
+          </div>
+        </button>
+      </div>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 gczpCE"
+      display="flex,flex,block"
+    >
+      <div
+        class="Box-sc-1bsf784-0 fBXjqH"
+        display="flex,flex,block"
+        height="100%,100%,0"
+        width="100%"
+      >
+        <div
+          class="Box-sc-1bsf784-0 foPVfu"
+          height="0,0,100%"
+          overflow="hidden"
+          width="100%"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 cjpKQJ"
+            height="100%"
+          >
+            <img
+              alt="2020 ILX Front platinum white"
+              class="sc-1k44dfv-0 cFgoqM Box-sc-1bsf784-0 sc-ifAKCX gctLLF"
+              draggable="true"
+              height="100%"
+              left="0"
+              loading="lazy"
+              position="absolute"
+              src="https://via.placeholder.com/1400x700?text=1"
+              top="0"
+              width="100%"
+              zindex="10"
+            />
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 jIkMOc"
+          display="block,none,block"
+          height="125px,285px"
+          overflow="hidden"
+          width="222px,506px"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 eJaaNH"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-EHOje gkenhB"
+            >
+              <img
+                alt="Back Trim Test View of the 2020 ILX"
+                class="sc-1k44dfv-0 jyYZUA"
+                draggable="true"
+                height="159"
+                loading="lazy"
+                src="https://via.placeholder.com/700x400?text=secondary-1"
+                width="294"
+              />
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-EHOje izyRRK"
+            >
+              <img
+                alt="Back Trim Test View of the 2020 ILX"
+                class="sc-1k44dfv-0 jyYZUA"
+                draggable="true"
+                height="159"
+                loading="lazy"
+                src="https://via.placeholder.com/700x400?text=secondary-2"
+                width="294"
+              />
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-EHOje izyRRK"
+            >
+              <img
+                alt="Back Trim Test View of the 2020 ILX"
+                class="sc-1k44dfv-0 jyYZUA"
+                draggable="true"
+                height="159"
+                loading="lazy"
+                src="https://via.placeholder.com/700x400?text=secondary-3"
+                width="294"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 ihnnOE"
+        display="flex,flex,block"
+      >
+        <div
+          class="sc-1k44dfv-0 hVKLyp"
+          color="typographyDefault"
+          font-family="heading"
+          mb="xxs"
+        >
+          
+
+          <p>
+            Pages.Models.Exploration.exteriorColoursLabel
+          </p>
+        </div>
+        <h5
+          class="sc-1k44dfv-0 kWsgIq"
+          color="typographyDefault"
+        >
+          Pearl White EN1
+        </h5>
+        <div
+          class="Box-sc-1bsf784-0 TjvxD"
+        >
+          <div
+            class="fresnel-container fresnel-greaterThan-mobile "
+          >
+            <ul
+              class="Box-sc-1bsf784-0 jGVkdm"
+              display="flex"
+              width="100%"
+            >
+              <li
+                class="Box-sc-1bsf784-0 sc-htpNat hczifG"
+              >
+                <button
+                  aria-label="Pearl White EN1"
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 iTsVLB sc-bxivhb hWVOUj"
+                  cursor="pointer"
+                  data-gtm-body-style=""
+                  data-gtm-interaction-type="change exterior color"
+                  data-gtm-title=""
+                  height="58px,62px,62px"
+                  overflow="hidden"
+                  width="58px,62px,62px"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iGVhSe"
+                    height="100%"
+                    width="100%"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 jIyUyG"
+                      display="flex"
+                      height="100%"
+                      width="100%"
+                    >
+                      <div
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 imAOaC"
+                        height="100%"
+                        overflow="hidden"
+                        width="100%"
+                      >
+                        <svg
+                          fill="#EEEBD9"
+                          height="100%"
+                          viewBox="0 0 63 60"
+                          width="100%"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M-104.5 74L167.5 74L167.5 0C52.7248 14.5343 -6.56613 26.2297 -104.5 52.2651L-104.5 74Z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="Box-sc-1bsf784-0 ewoCcH"
+                    display="flex"
+                    height="100%"
+                    width="100%"
+                  >
+                    <div
+                      class="IconWrapper-lp9q2r-0 krJFGM"
+                    />
+                  </div>
+                </button>
+              </li>
+              <li
+                class="Box-sc-1bsf784-0 sc-htpNat hczifG"
+              >
+                <button
+                  aria-label="Modern Steel Metalic 2"
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 iTsVLB sc-bxivhb hWVOUj"
+                  cursor="pointer"
+                  data-gtm-body-style=""
+                  data-gtm-interaction-type="change exterior color"
+                  data-gtm-title=""
+                  height="58px,62px,62px"
+                  overflow="hidden"
+                  width="58px,62px,62px"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iGVhSe"
+                    height="100%"
+                    width="100%"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 idnTcF"
+                      display="flex"
+                      height="100%"
+                      width="100%"
+                    >
+                      <div
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 imAOaC"
+                        height="100%"
+                        overflow="hidden"
+                        width="100%"
+                      >
+                        <svg
+                          fill="#D3D3D3"
+                          height="100%"
+                          viewBox="0 0 63 60"
+                          width="100%"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M-104.5 74L167.5 74L167.5 0C52.7248 14.5343 -6.56613 26.2297 -104.5 52.2651L-104.5 74Z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </button>
+              </li>
+              <li
+                class="Box-sc-1bsf784-0 sc-htpNat hczifG"
+              >
+                <button
+                  aria-label="Pearl White EN"
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 iTsVLB sc-bxivhb hWVOUj"
+                  cursor="pointer"
+                  data-gtm-body-style=""
+                  data-gtm-interaction-type="change exterior color"
+                  data-gtm-title=""
+                  height="58px,62px,62px"
+                  overflow="hidden"
+                  width="58px,62px,62px"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iGVhSe"
+                    height="100%"
+                    width="100%"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 jIyUyG"
+                      display="flex"
+                      height="100%"
+                      width="100%"
+                    >
+                      <div
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 imAOaC"
+                        height="100%"
+                        overflow="hidden"
+                        width="100%"
+                      >
+                        <svg
+                          fill="#EEEBD9"
+                          height="100%"
+                          viewBox="0 0 63 60"
+                          width="100%"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M-104.5 74L167.5 74L167.5 0C52.7248 14.5343 -6.56613 26.2297 -104.5 52.2651L-104.5 74Z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="fresnel-container fresnel-at-mobile "
+          >
+            <ul
+              class="Box-sc-1bsf784-0 jGVkdm"
+              display="flex"
+              width="100%"
+            >
+              <li
+                class="Box-sc-1bsf784-0 sc-htpNat hczifG"
+              >
+                <button
+                  aria-label="Pearl White EN1"
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 iTsVLB sc-bxivhb hWVOUj"
+                  cursor="pointer"
+                  data-gtm-body-style=""
+                  data-gtm-interaction-type="change exterior color"
+                  data-gtm-title=""
+                  height="58px,62px,62px"
+                  overflow="hidden"
+                  width="58px,62px,62px"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iGVhSe"
+                    height="100%"
+                    width="100%"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 jIyUyG"
+                      display="flex"
+                      height="100%"
+                      width="100%"
+                    >
+                      <div
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 imAOaC"
+                        height="100%"
+                        overflow="hidden"
+                        width="100%"
+                      >
+                        <svg
+                          fill="#EEEBD9"
+                          height="100%"
+                          viewBox="0 0 63 60"
+                          width="100%"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M-104.5 74L167.5 74L167.5 0C52.7248 14.5343 -6.56613 26.2297 -104.5 52.2651L-104.5 74Z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="Box-sc-1bsf784-0 ewoCcH"
+                    display="flex"
+                    height="100%"
+                    width="100%"
+                  >
+                    <div
+                      class="IconWrapper-lp9q2r-0 krJFGM"
+                    />
+                  </div>
+                </button>
+              </li>
+              <li
+                class="Box-sc-1bsf784-0 sc-htpNat hczifG"
+              >
+                <button
+                  aria-label="Modern Steel Metalic 2"
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 iTsVLB sc-bxivhb hWVOUj"
+                  cursor="pointer"
+                  data-gtm-body-style=""
+                  data-gtm-interaction-type="change exterior color"
+                  data-gtm-title=""
+                  height="58px,62px,62px"
+                  overflow="hidden"
+                  width="58px,62px,62px"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iGVhSe"
+                    height="100%"
+                    width="100%"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 idnTcF"
+                      display="flex"
+                      height="100%"
+                      width="100%"
+                    >
+                      <div
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 imAOaC"
+                        height="100%"
+                        overflow="hidden"
+                        width="100%"
+                      >
+                        <svg
+                          fill="#D3D3D3"
+                          height="100%"
+                          viewBox="0 0 63 60"
+                          width="100%"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M-104.5 74L167.5 74L167.5 0C52.7248 14.5343 -6.56613 26.2297 -104.5 52.2651L-104.5 74Z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </button>
+              </li>
+              <li
+                class="Box-sc-1bsf784-0 sc-htpNat hczifG"
+              >
+                <button
+                  aria-label="Pearl White EN"
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 iTsVLB sc-bxivhb hWVOUj"
+                  cursor="pointer"
+                  data-gtm-body-style=""
+                  data-gtm-interaction-type="change exterior color"
+                  data-gtm-title=""
+                  height="58px,62px,62px"
+                  overflow="hidden"
+                  width="58px,62px,62px"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iGVhSe"
+                    height="100%"
+                    width="100%"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 jIyUyG"
+                      display="flex"
+                      height="100%"
+                      width="100%"
+                    >
+                      <div
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 imAOaC"
+                        height="100%"
+                        overflow="hidden"
+                        width="100%"
+                      >
+                        <svg
+                          fill="#EEEBD9"
+                          height="100%"
+                          viewBox="0 0 63 60"
+                          width="100%"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M-104.5 74L167.5 74L167.5 0C52.7248 14.5343 -6.56613 26.2297 -104.5 52.2651L-104.5 74Z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <span>
+          <a
+            class="Link-sc-16wd4a0-0 eYsnbh"
+            data-gtm-body-style=""
+            data-gtm-interaction-type="cta: click"
+            data-gtm-title="explore all trims"
+            href="https://acura.ca/ilx"
+          >
+            Show all trims
+          </a>
+        </span>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 iPRsIc"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ColorDisplay snapshots renders image for selected swatch 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 jUXrAX"
+    data-gtm-category="model interactions"
+    id="anchor-id"
+  >
+    <h3
+      class="sc-1k44dfv-0 hQXZVA"
+    >
+      <span>
+        Explore Civic’s Colour Options to Suit Your Colourful Lifestyle
+      </span>
+    </h3>
+    <div
+      class="Box-sc-1bsf784-0 hjuGbg"
+      display="flex"
+      height="45px,68px"
+      width="100%"
+    >
+      <div
+        class="Box-sc-1bsf784-0 Column-t2p57o-0 jVzENf"
+        height="100%"
+      >
+        <button
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 ghcybi"
+          color="typographyDefault"
+        >
+          <div
+            class="sc-1k44dfv-0 kYoOLm sc-bdVaJa inzbPR"
+            color="typographyDefault"
+          >
+            
+
+            <p>
+              Pages.Models.Exploration.exteriorLabel
+            </p>
+          </div>
+        </button>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 Column-t2p57o-0 jVzENf"
+        height="100%"
+      >
+        <button
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 hBnqan"
+          color="typographyDefault"
+        >
+          <div
+            class="sc-1k44dfv-0 kYoOLm sc-bdVaJa inzbPR"
+            color="typographyDefault"
+          >
+            
+
+            <p>
+              Pages.Models.Exploration.interiorLabel
+            </p>
+          </div>
+        </button>
+      </div>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 gczpCE"
+      display="flex,flex,block"
+    >
+      <div
+        class="Box-sc-1bsf784-0 fBXjqH"
+        display="flex,flex,block"
+        height="100%,100%,0"
+        width="100%"
+      >
+        <div
+          class="Box-sc-1bsf784-0 foPVfu"
+          height="0,0,100%"
+          overflow="hidden"
+          width="100%"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 cjpKQJ"
+            height="100%"
+          >
+            <img
+              alt="2020 ILX Front platinum white"
+              class="sc-1k44dfv-0 cFgoqM Box-sc-1bsf784-0 sc-ifAKCX gctLLF"
+              draggable="true"
+              height="100%"
+              left="0"
+              loading="lazy"
+              position="absolute"
+              src="https://via.placeholder.com/1400x700?text=1"
+              top="0"
+              width="100%"
+              zindex="10"
+            />
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 jIkMOc"
+          display="block,none,block"
+          height="125px,285px"
+          overflow="hidden"
+          width="222px,506px"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 eJaaNH"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-EHOje gkenhB"
+            >
+              <img
+                alt="Back Trim Test View of the 2020 ILX"
+                class="sc-1k44dfv-0 jyYZUA"
+                draggable="true"
+                height="159"
+                loading="lazy"
+                src="https://via.placeholder.com/700x400?text=secondary-1"
+                width="294"
+              />
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-EHOje izyRRK"
+            >
+              <img
+                alt="Back Trim Test View of the 2020 ILX"
+                class="sc-1k44dfv-0 jyYZUA"
+                draggable="true"
+                height="159"
+                loading="lazy"
+                src="https://via.placeholder.com/700x400?text=secondary-2"
+                width="294"
+              />
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-EHOje izyRRK"
+            >
+              <img
+                alt="Back Trim Test View of the 2020 ILX"
+                class="sc-1k44dfv-0 jyYZUA"
+                draggable="true"
+                height="159"
+                loading="lazy"
+                src="https://via.placeholder.com/700x400?text=secondary-3"
+                width="294"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 ihnnOE"
+        display="flex,flex,block"
+      >
+        <div
+          class="sc-1k44dfv-0 hVKLyp"
+          color="typographyDefault"
+          font-family="heading"
+          mb="xxs"
+        >
+          
+
+          <p>
+            Pages.Models.Exploration.exteriorColoursLabel
+          </p>
+        </div>
+        <h5
+          class="sc-1k44dfv-0 kWsgIq"
+          color="typographyDefault"
+        >
+          Pearl White EN1
+        </h5>
+        <div
+          class="Box-sc-1bsf784-0 TjvxD"
+        >
+          <div
+            class="fresnel-container fresnel-greaterThan-mobile "
+          >
+            <ul
+              class="Box-sc-1bsf784-0 jGVkdm"
+              display="flex"
+              width="100%"
+            >
+              <li
+                class="Box-sc-1bsf784-0 sc-htpNat hczifG"
+              >
+                <button
+                  aria-label="Pearl White EN1"
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 iTsVLB sc-bxivhb hWVOUj"
+                  cursor="pointer"
+                  data-gtm-body-style=""
+                  data-gtm-interaction-type="change exterior color"
+                  data-gtm-title=""
+                  height="58px,62px,62px"
+                  overflow="hidden"
+                  width="58px,62px,62px"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iGVhSe"
+                    height="100%"
+                    width="100%"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 jIyUyG"
+                      display="flex"
+                      height="100%"
+                      width="100%"
+                    >
+                      <div
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 imAOaC"
+                        height="100%"
+                        overflow="hidden"
+                        width="100%"
+                      >
+                        <svg
+                          fill="#EEEBD9"
+                          height="100%"
+                          viewBox="0 0 63 60"
+                          width="100%"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M-104.5 74L167.5 74L167.5 0C52.7248 14.5343 -6.56613 26.2297 -104.5 52.2651L-104.5 74Z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="Box-sc-1bsf784-0 ewoCcH"
+                    display="flex"
+                    height="100%"
+                    width="100%"
+                  >
+                    <div
+                      class="IconWrapper-lp9q2r-0 krJFGM"
+                    />
+                  </div>
+                </button>
+              </li>
+              <li
+                class="Box-sc-1bsf784-0 sc-htpNat hczifG"
+              >
+                <button
+                  aria-label="Modern Steel Metalic 2"
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 iTsVLB sc-bxivhb hWVOUj"
+                  cursor="pointer"
+                  data-gtm-body-style=""
+                  data-gtm-interaction-type="change exterior color"
+                  data-gtm-title=""
+                  height="58px,62px,62px"
+                  overflow="hidden"
+                  width="58px,62px,62px"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iGVhSe"
+                    height="100%"
+                    width="100%"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 idnTcF"
+                      display="flex"
+                      height="100%"
+                      width="100%"
+                    >
+                      <div
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 imAOaC"
+                        height="100%"
+                        overflow="hidden"
+                        width="100%"
+                      >
+                        <svg
+                          fill="#D3D3D3"
+                          height="100%"
+                          viewBox="0 0 63 60"
+                          width="100%"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M-104.5 74L167.5 74L167.5 0C52.7248 14.5343 -6.56613 26.2297 -104.5 52.2651L-104.5 74Z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </button>
+              </li>
+              <li
+                class="Box-sc-1bsf784-0 sc-htpNat hczifG"
+              >
+                <button
+                  aria-label="Pearl White EN"
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 iTsVLB sc-bxivhb hWVOUj"
+                  cursor="pointer"
+                  data-gtm-body-style=""
+                  data-gtm-interaction-type="change exterior color"
+                  data-gtm-title=""
+                  height="58px,62px,62px"
+                  overflow="hidden"
+                  width="58px,62px,62px"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iGVhSe"
+                    height="100%"
+                    width="100%"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 jIyUyG"
+                      display="flex"
+                      height="100%"
+                      width="100%"
+                    >
+                      <div
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 imAOaC"
+                        height="100%"
+                        overflow="hidden"
+                        width="100%"
+                      >
+                        <svg
+                          fill="#EEEBD9"
+                          height="100%"
+                          viewBox="0 0 63 60"
+                          width="100%"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M-104.5 74L167.5 74L167.5 0C52.7248 14.5343 -6.56613 26.2297 -104.5 52.2651L-104.5 74Z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="fresnel-container fresnel-at-mobile "
+          >
+            <ul
+              class="Box-sc-1bsf784-0 jGVkdm"
+              display="flex"
+              width="100%"
+            >
+              <li
+                class="Box-sc-1bsf784-0 sc-htpNat hczifG"
+              >
+                <button
+                  aria-label="Pearl White EN1"
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 iTsVLB sc-bxivhb hWVOUj"
+                  cursor="pointer"
+                  data-gtm-body-style=""
+                  data-gtm-interaction-type="change exterior color"
+                  data-gtm-title=""
+                  height="58px,62px,62px"
+                  overflow="hidden"
+                  width="58px,62px,62px"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iGVhSe"
+                    height="100%"
+                    width="100%"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 jIyUyG"
+                      display="flex"
+                      height="100%"
+                      width="100%"
+                    >
+                      <div
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 imAOaC"
+                        height="100%"
+                        overflow="hidden"
+                        width="100%"
+                      >
+                        <svg
+                          fill="#EEEBD9"
+                          height="100%"
+                          viewBox="0 0 63 60"
+                          width="100%"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M-104.5 74L167.5 74L167.5 0C52.7248 14.5343 -6.56613 26.2297 -104.5 52.2651L-104.5 74Z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="Box-sc-1bsf784-0 ewoCcH"
+                    display="flex"
+                    height="100%"
+                    width="100%"
+                  >
+                    <div
+                      class="IconWrapper-lp9q2r-0 krJFGM"
+                    />
+                  </div>
+                </button>
+              </li>
+              <li
+                class="Box-sc-1bsf784-0 sc-htpNat hczifG"
+              >
+                <button
+                  aria-label="Modern Steel Metalic 2"
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 iTsVLB sc-bxivhb hWVOUj"
+                  cursor="pointer"
+                  data-gtm-body-style=""
+                  data-gtm-interaction-type="change exterior color"
+                  data-gtm-title=""
+                  height="58px,62px,62px"
+                  overflow="hidden"
+                  width="58px,62px,62px"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iGVhSe"
+                    height="100%"
+                    width="100%"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 idnTcF"
+                      display="flex"
+                      height="100%"
+                      width="100%"
+                    >
+                      <div
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 imAOaC"
+                        height="100%"
+                        overflow="hidden"
+                        width="100%"
+                      >
+                        <svg
+                          fill="#D3D3D3"
+                          height="100%"
+                          viewBox="0 0 63 60"
+                          width="100%"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M-104.5 74L167.5 74L167.5 0C52.7248 14.5343 -6.56613 26.2297 -104.5 52.2651L-104.5 74Z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </button>
+              </li>
+              <li
+                class="Box-sc-1bsf784-0 sc-htpNat hczifG"
+              >
+                <button
+                  aria-label="Pearl White EN"
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 iTsVLB sc-bxivhb hWVOUj"
+                  cursor="pointer"
+                  data-gtm-body-style=""
+                  data-gtm-interaction-type="change exterior color"
+                  data-gtm-title=""
+                  height="58px,62px,62px"
+                  overflow="hidden"
+                  width="58px,62px,62px"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iGVhSe"
+                    height="100%"
+                    width="100%"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 jIyUyG"
+                      display="flex"
+                      height="100%"
+                      width="100%"
+                    >
+                      <div
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 imAOaC"
+                        height="100%"
+                        overflow="hidden"
+                        width="100%"
+                      >
+                        <svg
+                          fill="#EEEBD9"
+                          height="100%"
+                          viewBox="0 0 63 60"
+                          width="100%"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M-104.5 74L167.5 74L167.5 0C52.7248 14.5343 -6.56613 26.2297 -104.5 52.2651L-104.5 74Z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <span>
+          <a
+            class="Link-sc-16wd4a0-0 eYsnbh"
+            data-gtm-body-style=""
+            data-gtm-interaction-type="cta: click"
+            data-gtm-title="explore all trims"
+            href="https://acura.ca/ilx"
+          >
+            Show all trims
+          </a>
+        </span>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 iPRsIc"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ColorDisplay snapshots renders image with max-height for short style type 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 jUXrAX"
+    data-gtm-category="model interactions"
+    id="anchor-id"
+  >
+    <h3
+      class="sc-1k44dfv-0 hQXZVA"
+    >
+      <span>
+        Explore Civic’s Colour Options to Suit Your Colourful Lifestyle
+      </span>
+    </h3>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 gczpCE"
+      display="flex,flex,block"
+    >
+      <div
+        class="Box-sc-1bsf784-0 ldXeOc"
+        display="flex,flex,block"
+        height="100%,100%,0"
+        width="100%"
+      >
+        <div
+          class="Box-sc-1bsf784-0 foPVfu"
+          height="0,0,100%"
+          overflow="hidden"
+          width="100%"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 cjpKQJ"
+            height="100%"
+          >
+            <img
+              alt="2020 ILX Front platinum white"
+              class="sc-1k44dfv-0 cFgoqM Box-sc-1bsf784-0 sc-ifAKCX gctLLF"
+              draggable="true"
+              height="100%"
+              left="0"
+              loading="lazy"
+              position="absolute"
+              src="https://via.placeholder.com/1400x700?text=1"
+              top="0"
+              width="100%"
+              zindex="10"
+            />
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 htssLq"
+          display="block,none,block"
+          height="125px,240px"
+          overflow="hidden"
+          width="172px,390px"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 eJaaNH"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-EHOje gkenhB"
+            >
+              <img
+                alt="Back Trim Test View of the 2020 ILX"
+                class="sc-1k44dfv-0 jyYZUA"
+                draggable="true"
+                height="159"
+                loading="lazy"
+                src="https://via.placeholder.com/700x400?text=secondary-1"
+                width="294"
+              />
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-EHOje izyRRK"
+            >
+              <img
+                alt="Back Trim Test View of the 2020 ILX"
+                class="sc-1k44dfv-0 jyYZUA"
+                draggable="true"
+                height="159"
+                loading="lazy"
+                src="https://via.placeholder.com/700x400?text=secondary-2"
+                width="294"
+              />
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-EHOje izyRRK"
+            >
+              <img
+                alt="Back Trim Test View of the 2020 ILX"
+                class="sc-1k44dfv-0 jyYZUA"
+                draggable="true"
+                height="159"
+                loading="lazy"
+                src="https://via.placeholder.com/700x400?text=secondary-3"
+                width="294"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 ihnnOE"
+        display="flex,flex,block"
+      >
+        <div
+          class="sc-1k44dfv-0 hVKLyp"
+          color="typographyDefault"
+          font-family="heading"
+          mb="xxs"
+        >
+          
+
+          <p>
+            Pages.Models.Exploration.exteriorColoursLabel
+          </p>
+        </div>
+        <h5
+          class="sc-1k44dfv-0 kWsgIq"
+          color="typographyDefault"
+        >
+          Pearl White EN1
+        </h5>
+        <div
+          class="Box-sc-1bsf784-0 TjvxD"
+        >
+          <div
+            class="fresnel-container fresnel-greaterThan-mobile "
+          >
+            <ul
+              class="Box-sc-1bsf784-0 jGVkdm"
+              display="flex"
+              width="100%"
+            >
+              <li
+                class="Box-sc-1bsf784-0 sc-htpNat hczifG"
+              >
+                <button
+                  aria-label="Pearl White EN1"
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 iTsVLB sc-bxivhb hWVOUj"
+                  cursor="pointer"
+                  data-gtm-body-style=""
+                  data-gtm-interaction-type="change exterior color"
+                  data-gtm-title=""
+                  height="58px,62px,62px"
+                  overflow="hidden"
+                  width="58px,62px,62px"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iGVhSe"
+                    height="100%"
+                    width="100%"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 jIyUyG"
+                      display="flex"
+                      height="100%"
+                      width="100%"
+                    >
+                      <div
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 imAOaC"
+                        height="100%"
+                        overflow="hidden"
+                        width="100%"
+                      >
+                        <svg
+                          fill="#EEEBD9"
+                          height="100%"
+                          viewBox="0 0 63 60"
+                          width="100%"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M-104.5 74L167.5 74L167.5 0C52.7248 14.5343 -6.56613 26.2297 -104.5 52.2651L-104.5 74Z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="Box-sc-1bsf784-0 ewoCcH"
+                    display="flex"
+                    height="100%"
+                    width="100%"
+                  >
+                    <div
+                      class="IconWrapper-lp9q2r-0 krJFGM"
+                    />
+                  </div>
+                </button>
+              </li>
+              <li
+                class="Box-sc-1bsf784-0 sc-htpNat hczifG"
+              >
+                <button
+                  aria-label="Modern Steel Metalic 2"
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 iTsVLB sc-bxivhb hWVOUj"
+                  cursor="pointer"
+                  data-gtm-body-style=""
+                  data-gtm-interaction-type="change exterior color"
+                  data-gtm-title=""
+                  height="58px,62px,62px"
+                  overflow="hidden"
+                  width="58px,62px,62px"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iGVhSe"
+                    height="100%"
+                    width="100%"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 idnTcF"
+                      display="flex"
+                      height="100%"
+                      width="100%"
+                    >
+                      <div
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 imAOaC"
+                        height="100%"
+                        overflow="hidden"
+                        width="100%"
+                      >
+                        <svg
+                          fill="#D3D3D3"
+                          height="100%"
+                          viewBox="0 0 63 60"
+                          width="100%"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M-104.5 74L167.5 74L167.5 0C52.7248 14.5343 -6.56613 26.2297 -104.5 52.2651L-104.5 74Z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </button>
+              </li>
+              <li
+                class="Box-sc-1bsf784-0 sc-htpNat hczifG"
+              >
+                <button
+                  aria-label="Pearl White EN"
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 iTsVLB sc-bxivhb hWVOUj"
+                  cursor="pointer"
+                  data-gtm-body-style=""
+                  data-gtm-interaction-type="change exterior color"
+                  data-gtm-title=""
+                  height="58px,62px,62px"
+                  overflow="hidden"
+                  width="58px,62px,62px"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iGVhSe"
+                    height="100%"
+                    width="100%"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 jIyUyG"
+                      display="flex"
+                      height="100%"
+                      width="100%"
+                    >
+                      <div
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 imAOaC"
+                        height="100%"
+                        overflow="hidden"
+                        width="100%"
+                      >
+                        <svg
+                          fill="#EEEBD9"
+                          height="100%"
+                          viewBox="0 0 63 60"
+                          width="100%"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M-104.5 74L167.5 74L167.5 0C52.7248 14.5343 -6.56613 26.2297 -104.5 52.2651L-104.5 74Z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="fresnel-container fresnel-at-mobile "
+          >
+            <ul
+              class="Box-sc-1bsf784-0 jGVkdm"
+              display="flex"
+              width="100%"
+            >
+              <li
+                class="Box-sc-1bsf784-0 sc-htpNat hczifG"
+              >
+                <button
+                  aria-label="Pearl White EN1"
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 iTsVLB sc-bxivhb hWVOUj"
+                  cursor="pointer"
+                  data-gtm-body-style=""
+                  data-gtm-interaction-type="change exterior color"
+                  data-gtm-title=""
+                  height="58px,62px,62px"
+                  overflow="hidden"
+                  width="58px,62px,62px"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iGVhSe"
+                    height="100%"
+                    width="100%"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 jIyUyG"
+                      display="flex"
+                      height="100%"
+                      width="100%"
+                    >
+                      <div
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 imAOaC"
+                        height="100%"
+                        overflow="hidden"
+                        width="100%"
+                      >
+                        <svg
+                          fill="#EEEBD9"
+                          height="100%"
+                          viewBox="0 0 63 60"
+                          width="100%"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M-104.5 74L167.5 74L167.5 0C52.7248 14.5343 -6.56613 26.2297 -104.5 52.2651L-104.5 74Z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="Box-sc-1bsf784-0 ewoCcH"
+                    display="flex"
+                    height="100%"
+                    width="100%"
+                  >
+                    <div
+                      class="IconWrapper-lp9q2r-0 krJFGM"
+                    />
+                  </div>
+                </button>
+              </li>
+              <li
+                class="Box-sc-1bsf784-0 sc-htpNat hczifG"
+              >
+                <button
+                  aria-label="Modern Steel Metalic 2"
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 iTsVLB sc-bxivhb hWVOUj"
+                  cursor="pointer"
+                  data-gtm-body-style=""
+                  data-gtm-interaction-type="change exterior color"
+                  data-gtm-title=""
+                  height="58px,62px,62px"
+                  overflow="hidden"
+                  width="58px,62px,62px"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iGVhSe"
+                    height="100%"
+                    width="100%"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 idnTcF"
+                      display="flex"
+                      height="100%"
+                      width="100%"
+                    >
+                      <div
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 imAOaC"
+                        height="100%"
+                        overflow="hidden"
+                        width="100%"
+                      >
+                        <svg
+                          fill="#D3D3D3"
+                          height="100%"
+                          viewBox="0 0 63 60"
+                          width="100%"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M-104.5 74L167.5 74L167.5 0C52.7248 14.5343 -6.56613 26.2297 -104.5 52.2651L-104.5 74Z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </button>
+              </li>
+              <li
+                class="Box-sc-1bsf784-0 sc-htpNat hczifG"
+              >
+                <button
+                  aria-label="Pearl White EN"
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 iTsVLB sc-bxivhb hWVOUj"
+                  cursor="pointer"
+                  data-gtm-body-style=""
+                  data-gtm-interaction-type="change exterior color"
+                  data-gtm-title=""
+                  height="58px,62px,62px"
+                  overflow="hidden"
+                  width="58px,62px,62px"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iGVhSe"
+                    height="100%"
+                    width="100%"
+                  >
+                    <div
+                      class="Box-sc-1bsf784-0 jIyUyG"
+                      display="flex"
+                      height="100%"
+                      width="100%"
+                    >
+                      <div
+                        class="Box-sc-1bsf784-0 sc-1k44dfv-0 imAOaC"
+                        height="100%"
+                        overflow="hidden"
+                        width="100%"
+                      >
+                        <svg
+                          fill="#EEEBD9"
+                          height="100%"
+                          viewBox="0 0 63 60"
+                          width="100%"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M-104.5 74L167.5 74L167.5 0C52.7248 14.5343 -6.56613 26.2297 -104.5 52.2651L-104.5 74Z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <span>
+          <a
+            class="Link-sc-16wd4a0-0 eYsnbh"
+            data-gtm-body-style=""
+            data-gtm-interaction-type="cta: click"
+            data-gtm-title="explore all trims"
+            href="https://acura.ca/ilx"
+          >
+            Show all trims
+          </a>
+        </span>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 iPRsIc"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ColorDisplay snapshots renders interior colour images on interior tab 1`] = `
+<div>
+  <div
+    class="Box-sc-1bsf784-0 dgrBjL"
+    data-gtm-category="model interactions"
+    id="anchor-id"
+  >
+    <h3
+      class="sc-1k44dfv-0 hQXZVA"
+    >
+      <span>
+        Explore Civic’s Colour Options to Suit Your Colourful Lifestyle
+      </span>
+    </h3>
+    <div
+      class="Box-sc-1bsf784-0 hjuGbg"
+      display="flex"
+      height="45px,68px"
+      width="100%"
+    >
+      <div
+        class="Box-sc-1bsf784-0 Column-t2p57o-0 jVzENf"
+        height="100%"
+      >
+        <button
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 hBnqan"
+          color="typographyDefault"
+        >
+          <div
+            class="sc-1k44dfv-0 kYoOLm sc-bdVaJa inzbPR"
+            color="typographyDefault"
+          >
+            
+
+            <p>
+              Pages.Models.Exploration.exteriorLabel
+            </p>
+          </div>
+        </button>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 Column-t2p57o-0 jVzENf"
+        height="100%"
+      >
+        <button
+          class="Box-sc-1bsf784-0 sc-1k44dfv-0 ghcybi"
+          color="typographyDefault"
+        >
+          <div
+            class="sc-1k44dfv-0 kYoOLm sc-bdVaJa inzbPR"
+            color="typographyDefault"
+          >
+            
+
+            <p>
+              Pages.Models.Exploration.interiorLabel
+            </p>
+          </div>
+        </button>
+      </div>
+    </div>
+    <div
+      class="Box-sc-1bsf784-0 sc-1k44dfv-0 gczpCE"
+      display="flex,flex,block"
+    >
+      <div
+        class="Box-sc-1bsf784-0 fBXjqH"
+        display="flex,flex,block"
+        height="100%,100%,0"
+        width="100%"
+      >
+        <div
+          class="Box-sc-1bsf784-0 foPVfu"
+          height="0,0,100%"
+          overflow="hidden"
+          width="100%"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 caMdzB"
+            height="100%"
+          >
+            <img
+              alt=""
+              class="sc-1k44dfv-0 fjBjeW Box-sc-1bsf784-0 sc-1k44dfv-0 dnvGAJ"
+              direction="in"
+              draggable="true"
+              duration="t6"
+              height="100%"
+              left="0"
+              loading="lazy"
+              position="absolute"
+              src="https://via.placeholder.com/1400x700?text=interior"
+              top="0"
+              width="100%"
+            />
+          </div>
+        </div>
+        <div
+          class="Box-sc-1bsf784-0 jIkMOc"
+          display="block,none,block"
+          height="125px,285px"
+          overflow="hidden"
+          width="222px,506px"
+        >
+          <div
+            class="Box-sc-1bsf784-0 sc-1k44dfv-0 eJaaNH"
+          >
+            <div
+              class="Box-sc-1bsf784-0 sc-EHOje gkenhB"
+            >
+              <img
+                alt=""
+                class="sc-1k44dfv-0 gTazRU"
+                draggable="true"
+                height="710"
+                loading="lazy"
+                src="/data/media/img/color-display/interior-colors/ebony_lether_gallery_interior-02.png"
+                width="1440"
+              />
+            </div>
+            <div
+              class="Box-sc-1bsf784-0 sc-EHOje izyRRK"
+            >
+              <img
+                alt=""
+                class="sc-1k44dfv-0 gTazRU"
+                draggable="true"
+                height="710"
+                loading="lazy"
+                src="/data/media/img/color-display/interior-colors/saddle_brown_gallery_interior-02.png"
+                width="1440"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 ihnnOE"
+        display="flex,flex,block"
+      >
+        <div
+          class="sc-1k44dfv-0 hVKLyp"
+          color="typographyDefault"
+          font-family="heading"
+          mb="xxs"
+        >
+          
+
+          <p>
+            Pages.Models.Exploration.interiorColoursLabel
+          </p>
+        </div>
+        <h5
+          class="sc-1k44dfv-0 kWsgIq"
+          color="typographyDefault"
+        >
+          Ebony Leather
+        </h5>
+        <div
+          class="Box-sc-1bsf784-0 TjvxD"
+        >
+          <div
+            class="fresnel-container fresnel-greaterThan-mobile "
+          >
+            <ul
+              class="Box-sc-1bsf784-0 jGVkdm"
+              display="flex"
+              width="100%"
+            >
+              <li
+                class="Box-sc-1bsf784-0 sc-htpNat hczifG"
+              >
+                <button
+                  aria-label="Ebony Leather"
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 iTsVLB sc-bxivhb hWVOUj"
+                  cursor="pointer"
+                  data-gtm-body-style=""
+                  data-gtm-interaction-type="change interior color"
+                  data-gtm-title=""
+                  height="58px,62px,62px"
+                  overflow="hidden"
+                  width="58px,62px,62px"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iGVhSe"
+                    height="100%"
+                    width="100%"
+                  >
+                    <img
+                      alt="Display advertising"
+                      class="sc-1k44dfv-0 fyDdVf"
+                      draggable="true"
+                      height="48"
+                      loading="lazy"
+                      src="/data/media/img/color-display/interior-colors/bkperforated_ebony_leather_^my21_tlx_swatch_large.png"
+                      width="48"
+                    />
+                  </div>
+                  <div
+                    class="Box-sc-1bsf784-0 ewoCcH"
+                    display="flex"
+                    height="100%"
+                    width="100%"
+                  >
+                    <div
+                      class="IconWrapper-lp9q2r-0 gGJkpq"
+                    />
+                  </div>
+                </button>
+              </li>
+              <li
+                class="Box-sc-1bsf784-0 sc-htpNat hczifG"
+              >
+                <button
+                  aria-label="Saddle Brown"
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 iTsVLB sc-bxivhb hWVOUj"
+                  cursor="pointer"
+                  data-gtm-body-style=""
+                  data-gtm-interaction-type="change interior color"
+                  data-gtm-title=""
+                  height="58px,62px,62px"
+                  overflow="hidden"
+                  width="58px,62px,62px"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iGVhSe"
+                    height="100%"
+                    width="100%"
+                  >
+                    <img
+                      alt="Display advertising"
+                      class="sc-1k44dfv-0 fyDdVf"
+                      draggable="true"
+                      height="48"
+                      loading="lazy"
+                      src="/data/media/img/color-display/interior-colors/brperforated_saddle_brown_leather_^my21_tlx_swatch_large.png"
+                      width="48"
+                    />
+                  </div>
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="fresnel-container fresnel-at-mobile "
+          >
+            <ul
+              class="Box-sc-1bsf784-0 jGVkdm"
+              display="flex"
+              width="100%"
+            >
+              <li
+                class="Box-sc-1bsf784-0 sc-htpNat hczifG"
+              >
+                <button
+                  aria-label="Ebony Leather"
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 iTsVLB sc-bxivhb hWVOUj"
+                  cursor="pointer"
+                  data-gtm-body-style=""
+                  data-gtm-interaction-type="change interior color"
+                  data-gtm-title=""
+                  height="58px,62px,62px"
+                  overflow="hidden"
+                  width="58px,62px,62px"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iGVhSe"
+                    height="100%"
+                    width="100%"
+                  >
+                    <img
+                      alt="Display advertising"
+                      class="sc-1k44dfv-0 fyDdVf"
+                      draggable="true"
+                      height="48"
+                      loading="lazy"
+                      src="/data/media/img/color-display/interior-colors/bkperforated_ebony_leather_^my21_tlx_swatch_large.png"
+                      width="48"
+                    />
+                  </div>
+                  <div
+                    class="Box-sc-1bsf784-0 ewoCcH"
+                    display="flex"
+                    height="100%"
+                    width="100%"
+                  >
+                    <div
+                      class="IconWrapper-lp9q2r-0 gGJkpq"
+                    />
+                  </div>
+                </button>
+              </li>
+              <li
+                class="Box-sc-1bsf784-0 sc-htpNat hczifG"
+              >
+                <button
+                  aria-label="Saddle Brown"
+                  class="Box-sc-1bsf784-0 sc-1k44dfv-0 iTsVLB sc-bxivhb hWVOUj"
+                  cursor="pointer"
+                  data-gtm-body-style=""
+                  data-gtm-interaction-type="change interior color"
+                  data-gtm-title=""
+                  height="58px,62px,62px"
+                  overflow="hidden"
+                  width="58px,62px,62px"
+                >
+                  <div
+                    class="Box-sc-1bsf784-0 iGVhSe"
+                    height="100%"
+                    width="100%"
+                  >
+                    <img
+                      alt="Display advertising"
+                      class="sc-1k44dfv-0 fyDdVf"
+                      draggable="true"
+                      height="48"
+                      loading="lazy"
+                      src="/data/media/img/color-display/interior-colors/brperforated_saddle_brown_leather_^my21_tlx_swatch_large.png"
+                      width="48"
+                    />
+                  </div>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <span>
+          <a
+            class="Link-sc-16wd4a0-0 eYsnbh"
+            data-gtm-body-style=""
+            data-gtm-interaction-type="cta: click"
+            data-gtm-title="explore all trims"
+            href="https://acura.ca/ilx"
+          >
+            Show all trims
+          </a>
+        </span>
+      </div>
+      <div
+        class="Box-sc-1bsf784-0 iPRsIc"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ColorDisplay snapshots renders with empty fields without errors 1`] = `<div />`;

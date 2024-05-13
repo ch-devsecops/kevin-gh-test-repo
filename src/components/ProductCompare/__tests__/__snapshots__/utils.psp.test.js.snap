@@ -1,0 +1,509 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getPSPCategorizedSpecifications getPSPCategorizedSpecifications should return expected output 1`] = `
+Array [
+  Object {
+    "label": "Engine & Drivetrain",
+    "name": "engine___drivetrain",
+    "specifications": Array [
+      Object {
+        "label": "Engine type",
+        "name": "engine_type",
+        "specs": Array [
+          Object {
+            "displayOrder": 1,
+            "label": "Engine type",
+            "name": "engine_type",
+            "tip": "",
+            "trimId": 13276,
+            "value": "Liquid-cooled horizontally opposed six-cylinder",
+          },
+          Object {
+            "displayOrder": 1,
+            "label": "Engine Type",
+            "name": "engine_type",
+            "tip": "",
+            "trimId": 13322,
+            "value": "Liquid-cooled parallel twin with 270° phased crankshaft",
+          },
+        ],
+      },
+      Object {
+        "label": "Displacement",
+        "name": "displacement",
+        "specs": Array [
+          Object {
+            "displayOrder": 2,
+            "label": "Displacement",
+            "name": "displacement",
+            "tip": "",
+            "trimId": 13276,
+            "value": "1,833 cc",
+          },
+          Object {
+            "displayOrder": 2,
+            "label": "Displacement",
+            "name": "displacement",
+            "tip": "",
+            "trimId": 13322,
+            "value": "1084 cc",
+          },
+        ],
+      },
+      Object {
+        "label": "Bore & stroke",
+        "name": "bore___stroke",
+        "specs": Array [
+          Object {
+            "displayOrder": 3,
+            "label": "Bore & stroke",
+            "name": "bore___stroke",
+            "tip": "",
+            "trimId": 13276,
+            "value": "73 mm x 73 mm",
+          },
+          Object {
+            "displayOrder": 3,
+            "label": "Bore & Stroke",
+            "name": "bore___stroke",
+            "tip": "",
+            "trimId": 13322,
+            "value": "92 mm x 81.5 mm",
+          },
+        ],
+      },
+      Object {
+        "label": "Compression ratio",
+        "name": "compression_ratio",
+        "specs": Array [
+          Object {
+            "displayOrder": 4,
+            "label": "Compression ratio",
+            "name": "compression_ratio",
+            "tip": "",
+            "trimId": 13276,
+            "value": "10.5:1",
+          },
+          Object {
+            "displayOrder": 4,
+            "label": "Compression Ratio",
+            "name": "compression_ratio",
+            "tip": "",
+            "trimId": 13322,
+            "value": "10.1:1",
+          },
+        ],
+      },
+      Object {
+        "label": "Valve train",
+        "name": "valve_train",
+        "specs": Array [
+          Object {
+            "displayOrder": 5,
+            "label": "Valve train",
+            "name": "valve_train",
+            "tip": "",
+            "trimId": 13276,
+            "value": "SOHC, Unicam, four valves per cylinder",
+          },
+          Object {
+            "displayOrder": 5,
+            "label": "Valve Train",
+            "name": "valve_train",
+            "tip": "",
+            "trimId": 13322,
+            "value": "SOHC, Unicam, 4 valves per cylinder",
+          },
+        ],
+      },
+      Object {
+        "label": "Fuel delivery",
+        "name": "fuel_delivery",
+        "specs": Array [
+          Object {
+            "displayOrder": 6,
+            "label": "Fuel delivery",
+            "name": "fuel_delivery",
+            "tip": "",
+            "trimId": 13276,
+            "value": "PGM-FI electronic fuel injection",
+          },
+          Object {
+            "displayOrder": 6,
+            "label": "Fuel Delivery",
+            "name": "fuel_delivery",
+            "tip": "",
+            "trimId": 13322,
+            "value": "PGM-FI electronic fuel injection with 46 mm throttle bodies",
+          },
+        ],
+      },
+      Object {
+        "label": "Transmission",
+        "name": "transmission",
+        "specs": Array [
+          Object {
+            "displayOrder": 7,
+            "label": "Transmission",
+            "name": "transmission",
+            "tip": "",
+            "trimId": 13276,
+            "value": "Six-speed manual with overdrive and electric low speed reverse function",
+          },
+          Object {
+            "displayOrder": 7,
+            "label": "Transmission",
+            "name": "transmission",
+            "tip": "",
+            "trimId": 13322,
+            "value": "Standard model: Six-speed manual <br>
+DCT model: Six-speed Dual Clutch Transmission with three automatic shift modes and a manual mode",
+          },
+        ],
+      },
+      Object {
+        "label": "Final drive",
+        "name": "final_drive",
+        "specs": Array [
+          Object {
+            "displayOrder": 8,
+            "label": "Final drive",
+            "name": "final_drive",
+            "tip": "",
+            "trimId": 13276,
+            "value": "Shaft",
+          },
+          Object {
+            "displayOrder": 8,
+            "label": "Final Drive",
+            "name": "final_drive",
+            "tip": "",
+            "trimId": 13322,
+            "value": "#525 chain; 16T/42T",
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "label": "Chassis & Suspension",
+    "name": "chassis___suspension",
+    "specifications": Array [
+      Object {
+        "label": "Front suspension",
+        "name": "front_suspension",
+        "specs": Array [
+          Object {
+            "displayOrder": 9,
+            "label": "Front suspension",
+            "name": "front_suspension",
+            "tip": "Corrected",
+            "trimId": 13276,
+            "value": "Double A-arm including a Showa shock absorber with electronically controlled damping force preset with selected riding modes; 110 mm (4.3 in) travel",
+          },
+          Object {
+            "displayOrder": 9,
+            "label": "Front Suspension",
+            "name": "front_suspension",
+            "tip": "",
+            "trimId": 13322,
+            "value": "43 mm telescopic fork; 121 mm (4.8 in) travel",
+          },
+        ],
+      },
+      Object {
+        "label": "Rear suspension",
+        "name": "rear_suspension",
+        "specs": Array [
+          Object {
+            "displayOrder": 10,
+            "label": "Rear suspension",
+            "name": "rear_suspension",
+            "tip": "Corrected",
+            "trimId": 13276,
+            "value": "Pro Arm<sup>®</sup> single-sided swingarm and Pro-Link<sup>®</sup> system including a Showa Shock absorber with electronically controlled spring preload adjustment and damping force preset with selected riding modes; 105 mm (4.1 in.) travel",
+          },
+          Object {
+            "displayOrder": 10,
+            "label": "Rear Suspension",
+            "name": "rear_suspension",
+            "tip": "",
+            "trimId": 13322,
+            "value": "Dual Showa shocks w/ 12.5mm shafts & adj. preload, piggyback pressurized reservoirs; 95 mm (3.7 in) travel",
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "label": "Dimensions & Additional Information",
+    "name": "dimensions___additional_information",
+    "specifications": Array [
+      Object {
+        "label": "Tires",
+        "name": "tires",
+        "specs": Array [
+          Object {
+            "displayOrder": 11,
+            "label": "Tires",
+            "name": "tires",
+            "tip": "",
+            "trimId": 13276,
+            "value": "Front: 130/70R - 18 radial <br>
+Rear: 200/55R - 16 radial rear",
+          },
+        ],
+      },
+      Object {
+        "label": "Brakes",
+        "name": "brakes",
+        "specs": Array [
+          Object {
+            "displayOrder": 12,
+            "label": "Brakes",
+            "name": "brakes",
+            "tip": "",
+            "trimId": 13276,
+            "value": "Front: dual 320 mm discs with radially mounted six-piston Nissin calipers <br>
+Rear: single 316 mm disc with three-piston Nissin caliper <br>
+ABS: electronically controlled dual Combined Brake System (CBS) with ABS",
+          },
+        ],
+      },
+      Object {
+        "label": "Ground clearance",
+        "name": "ground_clearance",
+        "specs": Array [
+          Object {
+            "displayOrder": 14,
+            "label": "Ground clearance",
+            "name": "ground_clearance",
+            "tip": "",
+            "trimId": 13276,
+            "value": "130 mm (5.1 in.)",
+          },
+        ],
+      },
+      Object {
+        "label": "Seat height",
+        "name": "seat_height",
+        "specs": Array [
+          Object {
+            "displayOrder": 14,
+            "label": "Seat height",
+            "name": "seat_height",
+            "tip": "",
+            "trimId": 13276,
+            "value": "745 mm (29.3 in.)",
+          },
+        ],
+      },
+      Object {
+        "label": "Wheelbase",
+        "name": "wheelbase",
+        "specs": Array [
+          Object {
+            "displayOrder": 15,
+            "label": "Wheelbase",
+            "name": "wheelbase",
+            "tip": "",
+            "trimId": 13276,
+            "value": "1,695 mm (66.7 in.)",
+          },
+        ],
+      },
+      Object {
+        "label": "Curb weight",
+        "name": "curb_weight",
+        "specs": Array [
+          Object {
+            "displayOrder": 16,
+            "label": "Curb weight",
+            "name": "curb_weight",
+            "tip": "Canadian weight TBD",
+            "trimId": 13276,
+            "value": "384 kg (847 lb.) including required fluids and full tank of gas - ready to ride",
+          },
+        ],
+      },
+      Object {
+        "label": "Fuel capacity",
+        "name": "fuel_capacity",
+        "specs": Array [
+          Object {
+            "displayOrder": 17,
+            "label": "Fuel capacity",
+            "name": "fuel_capacity",
+            "tip": "",
+            "trimId": 13276,
+            "value": "21 litres",
+          },
+        ],
+      },
+      Object {
+        "label": "Colour",
+        "name": "colour",
+        "specs": Array [
+          Object {
+            "displayOrder": 18,
+            "label": "Colour",
+            "name": "colour",
+            "tip": "",
+            "trimId": 13276,
+            "value": "Gunmetal/Mat Black",
+          },
+        ],
+      },
+      Object {
+        "label": "Warranty",
+        "name": "warranty",
+        "specs": Array [
+          Object {
+            "displayOrder": 19,
+            "label": "Warranty",
+            "name": "warranty",
+            "tip": "HCI to confirm",
+            "trimId": 13276,
+            "value": "3 year, unlimited mileage, freely transferable warranty; extended coverage available with Honda Plus.",
+          },
+        ],
+      },
+    ],
+  },
+  Object {
+    "label": "Additional Information",
+    "name": "additional_information",
+    "specifications": Array [
+      Object {
+        "label": "Tires",
+        "name": "tires",
+        "specs": Array [
+          Object {
+            "displayOrder": 11,
+            "label": "Tires",
+            "name": "tires",
+            "tip": "keep on separate lines",
+            "trimId": 13322,
+            "value": "Front: 130/70R-18 <br>
+Rear: 180/65R-18",
+          },
+        ],
+      },
+      Object {
+        "label": "Brakes",
+        "name": "brakes",
+        "specs": Array [
+          Object {
+            "displayOrder": 12,
+            "label": "Brakes",
+            "name": "brakes",
+            "tip": "keep on separate lines",
+            "trimId": 13322,
+            "value": "Front: Single radial-mounted four-piston caliper with full-floating 330mm disc <br>
+Rear: 256mm disc",
+          },
+        ],
+      },
+      Object {
+        "label": "ABS",
+        "name": "abs",
+        "specs": Array [
+          Object {
+            "displayOrder": 13,
+            "label": "ABS",
+            "name": "abs",
+            "tip": "",
+            "trimId": 13322,
+            "value": "2 channel ABS",
+          },
+        ],
+      },
+      Object {
+        "label": "Seat Height",
+        "name": "seat_height",
+        "specs": Array [
+          Object {
+            "displayOrder": 14,
+            "label": "Seat Height",
+            "name": "seat_height",
+            "tip": "",
+            "trimId": 13322,
+            "value": "700 mm (27.6 in)",
+          },
+        ],
+      },
+      Object {
+        "label": "Wheelbase",
+        "name": "wheelbase",
+        "specs": Array [
+          Object {
+            "displayOrder": 15,
+            "label": "Wheelbase",
+            "name": "wheelbase",
+            "tip": "",
+            "trimId": 13322,
+            "value": "1520 mm (59.8 in)",
+          },
+        ],
+      },
+      Object {
+        "label": "Curb Weight",
+        "name": "curb_weight",
+        "specs": Array [
+          Object {
+            "displayOrder": 16,
+            "label": "Curb Weight",
+            "name": "curb_weight",
+            "tip": "",
+            "trimId": 13322,
+            "value": "Standard model: 238 kg (525 lb) <br>
+DCT model: 248 kg (547 lb)",
+          },
+        ],
+      },
+      Object {
+        "label": "Fuel Capacity",
+        "name": "fuel_capacity",
+        "specs": Array [
+          Object {
+            "displayOrder": 17,
+            "label": "Fuel Capacity",
+            "name": "fuel_capacity",
+            "tip": "",
+            "trimId": 13322,
+            "value": "13.6 litres",
+          },
+        ],
+      },
+      Object {
+        "label": "Colour",
+        "name": "colour",
+        "specs": Array [
+          Object {
+            "displayOrder": 18,
+            "label": "Colour",
+            "name": "colour",
+            "tip": "",
+            "trimId": 13322,
+            "value": "Gunmetal Black Metallic",
+          },
+        ],
+      },
+      Object {
+        "label": "Warranty",
+        "name": "warranty",
+        "specs": Array [
+          Object {
+            "displayOrder": 19,
+            "label": "Warranty",
+            "name": "warranty",
+            "tip": "",
+            "trimId": 13322,
+            "value": "12 months, unlimited mileage, freely transferable warranty; extended coverage available with Honda Plus",
+          },
+        ],
+      },
+    ],
+  },
+]
+`;
